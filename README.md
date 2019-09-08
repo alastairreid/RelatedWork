@@ -4,5 +4,5 @@ The goal is to create a mini-survey of work in whatever area.  Probably not comp
 
 I am not yet sure where I am going with this. Will I have the courage to make this public? Will I invite corrections, contributions, pull requests?  Or will I keep it private (or, at least, unpublicised) and have it be just for my own personal use?
 
-------
+One thing I am thinking of doing is commenting on which papers have good surveys of the field.  This may be hard though since it risks being affected by whether it tells me something new and therefore by the order that I read papers.
 
