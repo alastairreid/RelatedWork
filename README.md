@@ -6,3 +6,4 @@ I am not yet sure where I am going with this. Will I have the courage to make th
 
 One thing I am thinking of doing is commenting on which papers have good surveys of the field.  This may be hard though since it risks being affected by whether it tells me something new and therefore by the order that I read papers.
 
+It would be good to add doi and orchid for all papers and authors and to be able to click on each author to see what else they wrote.  But this makes it sound like I want an overlay over Google Scholar - is there a reasonable way to do that so that I get all the information out of GS (authors, #cites,  related, cited by, references)?
