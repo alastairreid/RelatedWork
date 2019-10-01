@@ -12,17 +12,16 @@ Authors:
 Venue: CPS-SPC
 Year: 2018
 Doi: 10.1145/3264888.3264889
-booktitle: Proceedings of the 2018 Workshop on Cyber-Physical Systems Security and PrivaCy},
-series: {CPS-SPC '18}
-pages: {48--59}
-publisher: {ACM}
+booktitle: Proceedings of the 2018 Workshop on Cyber-Physical Systems Security and Privacy,
+series: CPS-SPC '18
+pages: 48--59
+publisher: ACM
 Topics:
   - information-flow
 ---
 
-Google scholar paper link is just the title
-[Google Scholar paper link](https://scholar.google.com/scholar?q=Secure+autonomous+cyber-physical+systems+through+verifiable+information+flow+control)
-
-Google scholar author link is a random hash of some form
-[Google Scholar author link](https://scholar.google.com/citations?user=CIlqTdMAAAAJ)
+This paper ties together several different threads to create a CPS system (autonomous vehicle) that is resistant to many forms of attack.
+Builds on Jif (Java with security labels), SecVerilog (HDL with security labels), Hyperflow (processor with security labels) and statistical detection of attack based on sensor fusion (sensors plus map data).
+The Hyperflow processor is not used in the experiment at this stage because they need to port Java/Jif to that architecture.
+Statistics try to distinguish noise (Gaussian) from attack (uniform) - not clear to me that this is sufficiently robust.
 
