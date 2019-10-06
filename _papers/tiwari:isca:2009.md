@@ -1,0 +1,18 @@
+---
+ENTRYTYPE: inproceedings
+authors:
+- Mohit Tiwari
+- Xun Li
+- Hassan MG Wassel
+- Frederic T Chong
+- Timothy Sherwood
+booktitle: Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture
+layout: paper
+organization: ACM
+pages: 493-504
+read: false
+title: 'Execution leases: A hardware-supported mechanism for enforcing strong non-interference'
+year: 2009
+topics:
+- information-flow
+---
