@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1>Read papers</h1>
+
+<div class="posts">
+    <ul>
+        {% for paper in site.papers %}
+            {% if paper.read %}
+            <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+
+<h1>Backlog of papers to read</h1>
+
+<div class="posts">
+    <ul>
+        {% for paper in site.papers %}
+            {% if paper.read == false %}
+            <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+
+

@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<article class="biblio">
+  <center>
+    <h1>{{ page.title }}</h1>
+
+    {% for author in page.authors %}
+      {{author}}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+
+    <br>
+    <a href="https://scholar.google.com/scholar?q={{ page.title | cgi_escape }}">[Google Scholar]</a>
+      {% if page.doi %} <a href="https://doi.org/{{ page.doi }}">[doi]</a>
+      {% elsif page.link %} <a href="{{ page.link }}">[url]</a>
+      {% endif %}
+
+  </center>
+
+  <br>
+  {% if page.booktitle %}
+      {{ page.booktitle }}
+      <br>
+      {% if page.series %} {{ page.series }}{% if page.volume %}, volume {{ page.volume }} {% endif %} <br>
+      {% elsif page.volume %} Volume {{ page.volume }} {% if page.series %}, series {{ page.series }} {% endif %} <br>
+      {% endif %}
+  {% elsif page.journal %}
+      {{ page.journal }}
+      {{ page.volume }}({{ page.number }})<br>
+  {% endif %}
+  {% if page.location %} {{ page.location }}<br> {% endif %}
+  {{ page.month }}
+  {{ page.year }}
+
+  <br>Topic(s):
+  {% for topic in page.topics %}
+  <a href="{{site.baseurl}}/topics/{{ topic }}">{{topic}}</a>
+  {% endfor %}
+
+
+  <div class="entry"
+       style="margin-left:2em; margin-right:2em;"
+  >
+    {{ content }}
+  </div>
+
+  <br>BibTeX:
+  <div style="font-family:'Lucida Console', monospace; font-size:smaller;">
+  @inproceedings{ {{ page.slug }},
+  <br>&nbsp; title = "{{ page.title }}",
+  <br>
+    authors = {
+        {% for author in page.authors %}
+          <br>&nbsp;&nbsp;
+          {{author}}{% unless forloop.last %} and{% endunless %}
+        {% endfor %}
+    <br> &nbsp;
+    },
+    <br>&nbsp; year  = "{{ page.year }}",
+    <br>&nbsp; month = "{{ page.month }}",
+    <br>&nbsp; doi   = "{{ page.doi }}",
+    <br>
+  }
+  </div>
+
+  <br>
+  <div class="date">
+    The opinions expressed are my own views and not my employer's.
+  </div>
+
+  {% include disqus.html %}
+</article>

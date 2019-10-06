@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>Topics</h1>
+
+<div class="posts">
+    <ul>
+        {% for topic in site.topics %}
+            <li>{{ paper.title }} <a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

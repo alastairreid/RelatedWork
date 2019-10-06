@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <h1>Backlog of unread papers</h1>
+  <div class="posts">
+      <ul>
+      {% for paper in site.papers %}
+        {% if paper.read == false %}
+          {% for topic in paper.topics %}
+            {% if topic == page.slug %}
+            <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+  </div>
+
+  {% include disqus.html %}
+</article>

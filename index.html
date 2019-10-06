@@ -2,17 +2,28 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+This site contains short summaries of papers related to what I am working on or
+that I am thinking about.
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<p> The goal is to create mini research surveys in different areas.  These will
+probably not be comprehensive, will certainly be skewed by whatever my interest
+in a field may be and flawed by the fact that I will typically an
+outsider/newcomer to the field struggling to make sense of what I am reading
+and to find the important papers in a sea of publications.
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+<p>
+At the moment, this is just an experiment.
+I have not yet decided whether to publicise it or to keep it just for my
+personal use.
+What would I do if somebody wanted to contribute to it?
+What would I do if I really disliked a paper that I read?
+I might just delete it tomorrow.
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<p>
+The tooling around this site is pretty simple at the moment: I have repurposed
+the Jekyll material from my website (which is based on
+<a href="https://github.com/barryclark/jekyll-now">Barry Clark's Jekyll Now</a>)
+and I have a Python script that converts BibTeX entries to page templates.
+But ideally this would be much more integrated with one or more of the main
+research search engines like Google Scholar - perhaps as some form of overlay over
+the basic website.

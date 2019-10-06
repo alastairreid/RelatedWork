@@ -18,8 +18,8 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: #fffff8;
+  font: 18px/1.4 $palatino;
   color: $darkGray;
 }
 
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $darkGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -71,10 +71,14 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
+}
+
+a:hover {
+  background: #f0f0ff;
 }
 
 ul, ol {
@@ -108,6 +112,37 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+/* Hack for aligning images left/right/centered
+ * https://stackoverflow.com/questions/255170/markdown-and-image-alignment
+ */
+img[alt$=">"] {
+  float: right;
+}
+
+img[alt$="<"] {
+  float: left;
+}
+
+img[alt$="><"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none!important;
+}
+
+img[alt$="^"] {
+    vertical-align: top;
+}
+
+
+th {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #bbb;
+  font-weight: bold;
+  color: #3d5cbb;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -203,7 +238,8 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-family: $helveticaNeue;
+  font-size: 15px;
 
   @include mobile {
     margin: 3px 0;
@@ -281,6 +317,10 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+a.papertitle {
+    font-size: 20px
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

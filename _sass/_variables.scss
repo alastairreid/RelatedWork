@@ -8,6 +8,7 @@ $blue: #4183C4;
 
 // Grays
 $black: #000;
+$darkestGray: #111;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
@@ -18,6 +19,7 @@ $white: #fff;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$palatino: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
