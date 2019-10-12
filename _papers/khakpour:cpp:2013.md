@@ -12,4 +12,6 @@ read: false
 title: Machine assisted proof of ARMv7 instruction level isolation properties
 year: 2013
 topics:
+- verification
+- information-flow
 ---

@@ -12,4 +12,5 @@ read: false
 title: Machine code verification of a tiny ARM hypervisor
 year: 2013
 topics:
+- verification
 ---

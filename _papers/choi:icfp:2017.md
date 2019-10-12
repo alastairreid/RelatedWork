@@ -17,4 +17,6 @@ title: 'Kami: A platform for high-level parametric hardware specification and it
 volume: '1'
 year: 2017
 topics:
+- hardware
+- verification
 ---

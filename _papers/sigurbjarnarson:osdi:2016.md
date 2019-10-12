@@ -13,4 +13,6 @@ read: false
 title: Push-button verification of file systems via crash refinement
 year: 2016
 topics:
+- os
+- verification
 ---

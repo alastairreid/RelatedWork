@@ -14,4 +14,6 @@ read: false
 title: 'RedLeaf: Towards An Operating System for Safe and Verified Firmware'
 year: 2019
 topics:
+- os
+- verification
 ---

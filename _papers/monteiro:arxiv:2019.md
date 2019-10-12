@@ -10,4 +10,5 @@ read: false
 title: Boost the Impact of Continuous Formal Verification in Industry
 year: 2019
 topics:
+- verification
 ---

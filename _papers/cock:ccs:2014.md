@@ -21,4 +21,6 @@ series: CCS'14
 title: 'The Last Mile: An Empirical Study of Timing Channels on seL4'
 year: 2014
 topics:
+- os
+- verification
 ---
