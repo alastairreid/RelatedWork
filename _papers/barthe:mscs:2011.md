@@ -10,7 +10,7 @@ layout: paper
 number: '6'
 pages: 1207-1252
 publisher: Cambridge University Press
-read: false
+read: true
 title: Secure information flow by self-composition
 volume: '21'
 year: 2011
@@ -20,7 +20,7 @@ readings:
 - 2019-10-11
 ---
 
-Todo: double check that above data is for the version I read (which looks more like a conference version than a journal version).
+_Todo: I think I read a conference paper but the publication data above is for a journal._
 
 This paper is a counter to the popular type-based approaches to information flow control.  They point out that type-based approaches are sound but not complete and fail on things like "output := secret; output := 0;".  Their solution is a more semantic approach that is based more closely on the basic definitions of non-interference and is sound and complete (but, unlike type-based approaches, is often undecidable and not obviously compositional).
 

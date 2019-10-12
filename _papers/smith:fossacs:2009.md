@@ -6,7 +6,6 @@ booktitle: International Conference on Foundations of Software Science and Compu
 layout: paper
 organization: Springer
 pages: 288-302
-read: false
 title: On the foundations of quantitative information flow
 year: 2009
 read: true
