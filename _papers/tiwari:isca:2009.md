@@ -7,6 +7,7 @@ authors:
 - Frederic T Chong
 - Timothy Sherwood
 booktitle: Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture
+doi: 10.1145/1669112.1669174
 layout: paper
 organization: ACM
 pages: 493-504

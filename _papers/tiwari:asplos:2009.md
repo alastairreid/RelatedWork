@@ -8,6 +8,7 @@ authors:
 - Frederic T Chong
 - Timothy Sherwood
 booktitle: ACM Sigplan Notices
+doi: 10.1145/1508244.1508258
 layout: paper
 number: '3'
 organization: ACM

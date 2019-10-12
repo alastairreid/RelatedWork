@@ -8,6 +8,7 @@ authors:
 - Timothy Sherwood
 - Ryan Kastner
 booktitle: Proceedings of the 47th Design Automation Conference
+doi: 10.1145/1837274.1837337
 layout: paper
 organization: ACM
 pages: 244-247

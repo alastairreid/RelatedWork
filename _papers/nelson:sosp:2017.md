@@ -9,6 +9,7 @@ authors:
 - Emina Torlak
 - Xi Wang
 booktitle: Proceedings of the 26th Symposium on Operating Systems Principles
+doi: 10.1145/3132747.3132748
 layout: paper
 organization: ACM
 pages: 252-269
