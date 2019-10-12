@@ -7,6 +7,7 @@ authors:
 - "Zvonimir Rakamari{\\\u2019c}"
 - Anton Burtsev
 booktitle: Proceedings of the Workshop on Hot Topics in Operating Systems
+doi: 10.1145/3317550.3321449
 layout: paper
 organization: ACM
 pages: 37-44

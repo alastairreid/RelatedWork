@@ -7,6 +7,7 @@ authors:
 - Andrew C Myers
 - G Edward Suh
 booktitle: ACM SIGARCH Computer Architecture News
+doi: 10.1145/3037697.3037739
 layout: paper
 number: '1'
 organization: ACM
