@@ -9,7 +9,24 @@ layout: default
     {{ content }}
   </div>
 
-  <h1>Backlog of unread papers</h1>
+  <h1>{{ page.title }} papers</h1>
+
+  Read:
+  <div class="posts">
+      <ul>
+      {% for paper in site.papers %}
+        {% if paper.read == true %}
+          {% for topic in paper.topics %}
+            {% if topic == page.slug %}
+            <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+  </div>
+
+  Unread:
   <div class="posts">
       <ul>
       {% for paper in site.papers %}
@@ -23,6 +40,13 @@ layout: default
       {% endfor %}
       </ul>
   </div>
+
+  <br>
+  <center>
+  <div class="date">
+    The opinions expressed are my own views and not my employer's.
+  </div>
+  </center>
 
   {% include disqus.html %}
 </article>

@@ -19,6 +19,7 @@ layout: default
   </center>
 
   <br>
+  <div style="margin-left:2em; margin-right:2em;">
   {% if page.booktitle %}
       {{ page.booktitle }}
       <br>
@@ -37,14 +38,13 @@ layout: default
   {% for topic in page.topics %}
   <a href="{{site.baseurl}}/topics/{{ topic }}">{{topic}}</a>
   {% endfor %}
+  </div>
 
-
-  <div class="entry"
-       style="margin-left:2em; margin-right:2em;"
-  >
+  <div class="entry">
     {{ content }}
   </div>
 
+  <!--
   <br>BibTeX:
   <div style="font-family:'Lucida Console', monospace; font-size:smaller;">
   @inproceedings{ {{ page.slug }},
@@ -63,11 +63,14 @@ layout: default
     <br>
   }
   </div>
+  -->
 
   <br>
+  <center>
   <div class="date">
     The opinions expressed are my own views and not my employer's.
   </div>
+  </center>
 
   {% include disqus.html %}
 </article>
