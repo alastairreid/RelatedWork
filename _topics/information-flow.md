@@ -62,7 +62,7 @@ And an analysis of how it scales
 
 SecVerilog extends Verilog with information flow labels and checks: [A hardware design language for timing-sensitive information-flow security]({% link _papers/zhang:asplos:2015.md %})
 A preliminary report on a similar extension to Chisel:
-[SecChisel: Language and Tool for Practical and Scalable Security Verification of Security-Aware Hardware Architectures](_papers/deng:hasp:2019.md)
+[SecChisel: Language and Tool for Practical and Scalable Security Verification of Security-Aware Hardware Architectures]({% link _papers/deng:hasp:2019.md %})
 
 Backlog:
 
