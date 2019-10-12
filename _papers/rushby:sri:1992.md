@@ -11,7 +11,7 @@ readings:
 - 2019-10-11
 ---
 
-This very highly cited report provides (what I think is) the accepted extension of [Goguen and Meseguer's notion of interference]({% link _papers/goguen:secpriv:1982.md %}) to handle intransitive security policies.
+This very highly cited report provides (what I think is) the accepted extension of [Goguen and Meseguer's notion of interference]({{ "papers/goguen:secpriv:1982" | relative_url }}) to handle intransitive security policies.
 
 The report is written in the style of a tutorial that discusses a range of competing/contributing ideas from the time, combines them into a consistent framework, proves results about the definitions and illustrates strengths/weaknesses with examples.
 Some important results relate their definitions to multilevel security policies (MLS).

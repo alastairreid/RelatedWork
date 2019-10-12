@@ -35,9 +35,9 @@ The design is implemented in the Fluke micro kernel but they emphasise that it i
 For performance reasons, they cache permissions.
 
 The gap in the story is that creating policies and ensuring that the set of checks you implement implements your desired policy is quite hard.  This gap was tackled in a succession of other OSes such as
-[Asbestos]({% link _papers/efstathopoulos:sosp:2005.md %}),
-[HiStar]({% link _papers/zeldovich:osdi:2006.md %}) 
+[Asbestos]({{ "papers/efstathopoulos:sosp:2005" | relative_url }}),
+[HiStar]({{ "papers/zeldovich:osdi:2006" | relative_url }}) 
 and
-[Flume]({% link _papers/krohn:sosp:2007.md %}).
+[Flume]({{ "papers/krohn:sosp:2007" | relative_url }}).
 
 _Personal note: I joined the Flux group as Flask was being completed.  I think part of the plan was that I would work on creating a policy language for Flask.  Alas, I had no idea how to tackle this problem so I worked on component-based operating systems instead._
