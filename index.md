@@ -2,10 +2,10 @@
 layout: default
 ---
 
-This site contains [short summaries of papers]({% link papers/index.html %})
+This site contains [short summaries of papers]({{ "papers" }})
 related to what I am working on or that I am thinking about.
 
-The goal is to create [mini research surveys]({% link topics/index.html %})
+The goal is to create [mini research surveys]({{ "topics" }})
 in different areas.
 These will probably not be comprehensive, will certainly be skewed by whatever my interest
 in a field may be and flawed by the fact that I will typically an
