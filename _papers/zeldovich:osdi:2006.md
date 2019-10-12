@@ -15,7 +15,7 @@ numpages: '16'
 pages: 263-278
 publisher: USENIX Association
 read: false
-series: OSDI \textquotesingle 06
+series: OSDI'06
 title: Making Information Flow Explicit in HiStar
 year: 2006
 topics:

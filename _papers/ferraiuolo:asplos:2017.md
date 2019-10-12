@@ -1,0 +1,21 @@
+---
+ENTRYTYPE: inproceedings
+authors:
+- Andrew Ferraiuolo
+- Rui Xu
+- Danfeng Zhang
+- Andrew C Myers
+- G Edward Suh
+booktitle: ACM SIGARCH Computer Architecture News
+layout: paper
+number: '1'
+organization: ACM
+pages: 555-568
+read: false
+title: Verification of a practical hardware security architecture through static information
+  flow analysis
+volume: '45'
+year: 2017
+topics:
+---
+

@@ -21,7 +21,7 @@ numpages: '14'
 pages: 321-334
 publisher: ACM
 read: false
-series: SOSP \textquotesingle 07
+series: SOSP'07
 title: Information Flow Control for Standard OS Abstractions
 year: 2007
 topics:
