@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: inproceedings
 authors:
-- Jean-Christophe Filli{\^a}tre
+- Jean-Christophe Filliâtre
 - "Claude March\xE9"
 booktitle: International Conference on Computer Aided Verification
 layout: paper

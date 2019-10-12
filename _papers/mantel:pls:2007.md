@@ -9,7 +9,7 @@ authors:
 - Heiko Mantel
 - Alexander Reinhard
 booktitle: Programming Languages and Systems
-doi: 10.1007/978-3-540-71316-6\_11
+doi: 10.1007/978-3-540-71316-6_11
 editor: De Nicola, Rocco
 isbn: 978-3-540-71316-6
 layout: paper

@@ -4,7 +4,7 @@ authors:
 - "Jos\xE9 Bacelar Almeida"
 - Manuel Barbosa
 - Gilles Barthe
-- "Fran{\xE7}ois Dupressoir"
+- "Fran\xE7ois Dupressoir"
 - Michael Emmi
 booktitle: 25th USENIX Security Symposium (USENIX Security 16)
 layout: paper

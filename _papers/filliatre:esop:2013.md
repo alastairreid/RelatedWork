@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: inproceedings
 authors:
-- Jean-Christophe Filli{\^a}tre
+- Jean-Christophe Filliâtre
 - Andrei Paskevich
 booktitle: European Symposium on Programming
 layout: paper
