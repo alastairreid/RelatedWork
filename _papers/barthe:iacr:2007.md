@@ -2,7 +2,7 @@
 ENTRYTYPE: article
 authors:
 - Gilles Barthe
-- "Benjamin Gr\xE9goire"
+- Benjamin Grégoire
 - Vincent Laporte
 journal: IACR Cryptology ePrint Archive
 layout: paper

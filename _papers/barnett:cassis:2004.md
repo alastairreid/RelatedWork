@@ -4,8 +4,8 @@ authors:
 - Mike Barnett
 - K Rustan M Leino
 - Wolfram Schulte
-booktitle: International Workshop on Construction and Analysis of Safe, Secure, and
-  Interoperable Smart Devices
+booktitle: International Workshop on Construction and Analysis of Safe, Secure, and Interoperable Smart Devices
+doi: 10.1007/978-3-540-30569-9_3
 layout: paper
 organization: Springer
 pages: 49-69

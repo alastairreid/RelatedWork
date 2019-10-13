@@ -11,6 +11,7 @@ authors:
 - Xin Gao
 - Gerwin Klein
 booktitle: 2013 IEEE Symposium on Security and Privacy
+doi: 10.1109/SP.2013.35
 layout: paper
 organization: IEEE
 pages: 415-429

@@ -3,6 +3,7 @@ ENTRYTYPE: inproceedings
 authors:
 - Geoffrey Smith
 booktitle: International Conference on Foundations of Software Science and Computational Structures
+doi: 10.1007/978-3-642-00596-1_21
 layout: paper
 organization: Springer
 pages: 288-302

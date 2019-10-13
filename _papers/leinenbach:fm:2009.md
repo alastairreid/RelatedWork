@@ -6,6 +6,7 @@ authors:
 - Dirk Leinenbach
 - Thomas Santen
 booktitle: International Symposium on Formal Methods
+doi: 10.1007/978-3-642-05089-3_51
 layout: paper
 organization: Springer
 pages: 806-809

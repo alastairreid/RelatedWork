@@ -6,7 +6,7 @@ authors:
 - Nickolai Zeldovich
 - Silas Boyd-Wickizer
 - Eddie Kohler
-- "David Mazi\xE8res"
+- David Mazières
 booktitle: Proceedings of the 7th Symposium on Operating Systems Design and Implementation
 isbn: 1-931971-47-1
 layout: paper

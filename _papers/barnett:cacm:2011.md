@@ -7,11 +7,11 @@ authors:
 - Peter Müller
 - Wolfram Schulte
 - Herman Venter
-journal: Commun. ACM
+doi: 10.1145/1953122.1953145
+journal: Communications of the ACM
 layout: paper
 number: '6'
 pages: 81-91
-publisher: Citeseer
 read: false
 title: 'Specification and verification: the Spec# experience.'
 volume: '54'

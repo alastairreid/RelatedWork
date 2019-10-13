@@ -2,7 +2,7 @@
 ENTRYTYPE: article
 authors:
 - Gilles Barthe
-- "Pedro R. D\u2019Argenio"
+- Pedro R. D'Argenio
 - Tamara  Rezk
 doi: 10.1017/S0960129511000193
 journal: Mathematical Structures in Computer Science

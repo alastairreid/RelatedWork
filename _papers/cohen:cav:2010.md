@@ -2,10 +2,11 @@
 ENTRYTYPE: inproceedings
 authors:
 - Ernie Cohen
-- "Micha\u0142 Moskal"
+- Michał Moskal
 - Wolfram Schulte
 - Stephan Tobies
 booktitle: International Conference on Computer Aided Verification
+doi: 10.1007/978-3-642-14295-6_42
 layout: paper
 organization: Springer
 pages: 480-494

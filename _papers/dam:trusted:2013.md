@@ -5,6 +5,7 @@ authors:
 - Roberto Guanciale
 - Hamed Nemati
 booktitle: Proceedings of the 3rd international workshop on Trustworthy embedded devices
+doi: 10.1145/2517300.2517302
 layout: paper
 organization: ACM
 pages: 3-12

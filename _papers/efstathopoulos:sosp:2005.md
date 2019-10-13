@@ -9,8 +9,8 @@ authors:
 - Cliff Frey
 - David Ziegler
 - Eddie Kohler
-- "David Mazi\xE8res"
-- Frans Kaash oek
+- David Mazières
+- Frans Kaashoek
 - Robert Morris
 booktitle: Proceedings of the Twentieth ACM Symposium on Operating Systems Principles
 doi: 10.1145/1095810.1095813

@@ -5,7 +5,8 @@ authors:
 - Muralidaran Vijayaraghavan
 - Benjamin Sherman
 - Adam Chlipala
-- others
+- Arvind
+doi: 10.1145/3110268
 journal: Proceedings of the ACM on Programming Languages
 layout: paper
 number: ICFP

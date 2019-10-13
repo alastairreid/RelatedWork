@@ -4,7 +4,7 @@ authors:
 - Vikram Narayanan
 - Marek S Baranowski
 - Leonid Ryzhyk
-- "Zvonimir Rakamari\\\u2019c"
+- Zvonimir Rakamarić
 - Anton Burtsev
 booktitle: Proceedings of the Workshop on Hot Topics in Operating Systems
 doi: 10.1145/3317550.3321449
