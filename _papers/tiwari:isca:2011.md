@@ -21,5 +21,6 @@ title: Crafting a usable microkernel, processor, and I/O system with strict and 
 volume: '39'
 year: 2011
 topics:
+- hardware
 - information-flow
 ---

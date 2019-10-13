@@ -17,6 +17,7 @@ pages: 7:1-7:8
 doi: 10.1145/3337167.3337174
 publisher: ACM
 topics:
+- hardware
 - information-flow
 ---
 

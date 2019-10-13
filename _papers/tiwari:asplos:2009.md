@@ -18,6 +18,7 @@ title: Complete information flow tracking from the gates up
 volume: '44'
 year: 2009
 topics:
+- hardware
 - information-flow
 ---
 

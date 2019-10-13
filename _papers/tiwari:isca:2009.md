@@ -15,5 +15,6 @@ read: false
 title: 'Execution leases: A hardware-supported mechanism for enforcing strong non-interference'
 year: 2009
 topics:
+- hardware
 - information-flow
 ---
