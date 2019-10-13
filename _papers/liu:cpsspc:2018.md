@@ -1,6 +1,5 @@
 ---
 layout: paper
-read: true
 title: Secure autonomous cyber-physical systems through verifiable information flow control
 authors:
 - Jed Liu
@@ -15,6 +14,9 @@ venue: CPS-SPC
 year: 2018
 doi: 10.1145/3264888.3264889
 booktitle: Proceedings of the 2018 Workshop on Cyber-Physical Systems Security and Privacy,
+read: true
+readings:
+- 2019-10-06
 series: CPS-SPC '18
 pages: 48-59
 publisher: ACM

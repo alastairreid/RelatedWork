@@ -1,6 +1,5 @@
 ---
 layout: paper
-read: true
 title: "SecChisel: Language and Tool for Practical and Scalable Security Verification of Security-Aware Hardware Architectures"
 authors:
 - Shuwen Deng
@@ -16,6 +15,9 @@ booktitle: Proceedings of the 8th International Workshop on Hardware and Archite
 pages: 7:1-7:8
 doi: 10.1145/3337167.3337174
 publisher: ACM
+read: true
+readings:
+- 2019-10-06
 topics:
 - hardware
 - information-flow

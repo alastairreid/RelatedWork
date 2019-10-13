@@ -1,7 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
 layout: paper
-read: true
 authors:
 - Dirk Leinenbach
 - Thomas Santen
@@ -10,6 +9,9 @@ doi: 10.1007/978-3-642-05089-3_51
 layout: paper
 organization: Springer
 pages: 806-809
+read: true
+readings:
+- 2019-10-06
 title: Verifying the Microsoft Hyper-V hypervisor with VCC
 year: 2009
 topics:

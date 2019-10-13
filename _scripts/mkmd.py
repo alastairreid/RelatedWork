@@ -146,6 +146,7 @@ for e in db.entries:
 
     e['layout'] = 'paper'
     e['read'] = False
+    e['readings'] = []
 
 # print(json.dumps(db.entries, indent=4))
 for e in db.entries:

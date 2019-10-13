@@ -11,6 +11,8 @@ layout: paper
 organization: Springer
 pages: 480-494
 read: true
+readings:
+- 2019-10-07
 title: Local verification of global invariants in concurrent programs
 year: 2010
 topics:

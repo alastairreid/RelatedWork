@@ -10,6 +10,8 @@ booktitle: 25th USENIX Security Symposium (USENIX Security 16)
 layout: paper
 pages: 53-70
 read: true
+readings:
+- 2019-09-14
 title: Verifying constant-time implementations
 topics:
 - information-flow

@@ -10,6 +10,8 @@ pages: 288-302
 title: On the foundations of quantitative information flow
 year: 2009
 read: true
+readings:
+- 2019-10-06
 topics:
 - information-flow
 ---

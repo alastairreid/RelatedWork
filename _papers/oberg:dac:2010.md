@@ -13,6 +13,8 @@ layout: paper
 organization: ACM
 pages: 244-247
 read: true
+readings:
+- 2019-10-06
 title: Theoretical analysis of gate level information flow tracking
 year: 2010
 topics:

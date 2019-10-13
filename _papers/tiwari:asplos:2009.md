@@ -14,6 +14,8 @@ number: '3'
 organization: ACM
 pages: 109-120
 read: true
+readings:
+- 2019-10-6
 title: Complete information flow tracking from the gates up
 volume: '44'
 year: 2009

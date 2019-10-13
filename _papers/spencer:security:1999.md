@@ -1,6 +1,5 @@
 ---
 ENTRYTYPE: inproceedings
-acmid: '1251432'
 address: Berkeley, CA, USA
 authors:
 - Ray Spencer

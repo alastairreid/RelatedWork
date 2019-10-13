@@ -7,6 +7,8 @@ authors:
 - Binoy Ravindran
 layout: paper
 read: true
+readings:
+- 2019-10-12
 title: Scalable translation validation of unverified legacy OS code
 year: 2019
 topics:
