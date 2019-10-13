@@ -57,7 +57,7 @@ Backlog:
 
 ### Self-composition
 
-- [Secure information flow by self-composition]({{ "papers/barthe:mscs:2011" | relative_url }})
+- [Secure information flow by self-composition]({{ "papers/barthe:csfw:2004" | relative_url }})
 
 
 ## Hardware
