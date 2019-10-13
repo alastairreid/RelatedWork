@@ -12,9 +12,10 @@ layout: default
 
     <br>
     <a href="https://scholar.google.com/scholar?q={{ page.title | cgi_escape }}">[Google Scholar]</a>
-      {% if page.doi %} <a href="https://doi.org/{{ page.doi }}">[doi]</a>
-      {% elsif page.link %} <a href="{{ page.link }}">[url]</a>
-      {% endif %}
+    <a href="https://dblp.org/search?q={{ page.title | cgi_escape }}">[DBLP]</a>
+    <a href="https://citeseer.ist.psu.edu/search?q={{ page.title | cgi_escape }}">[Citeseer]</a>
+    {% if page.doi %} <a href="https://doi.org/{{ page.doi }}">[doi]</a> {% endif %}
+    {% if page.link %} <a href="{{ page.link }}">[url]</a> {% endif %}
 
   </center>
 
