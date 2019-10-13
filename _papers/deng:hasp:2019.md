@@ -13,7 +13,7 @@ authors:
 - Jakub Szefer
 year: 2019
 booktitle: Proceedings of the 8th International Workshop on Hardware and Architectural Support for Security and Privacy
-pages: 7:1--7:8
+pages: 7:1-7:8
 doi: 10.1145/3337167.3337174
 publisher: ACM
 topics:
@@ -23,8 +23,11 @@ topics:
 Author names above are UTF-8 and may need to be re-encoded both for BibTeX
 
 Extends Chisel with security labels to track information flow.
-Uses Z3 to check but check is based on syntactic structure, not on semantic analysis.  That is, it just propagates labels.  Suggests this is important for performance.
-Sketches several optimisations - I would have liked to have had more detail here.
+Uses Z3 to check but check is based on syntactic structure, not on semantic analysis.
+That is, it just propagates labels.
+Suggests this is important for performance.
+
+Sketches several optimisations — I would have liked to have had more detail here.
 There seem to be several strategies for labelling each module: explicitly label all flops; explicitly label inputs and outputs of module and scan internal connectivity to check for flow; programmer sketches abstract connectivity by specifying which inputs are connected to which outputs as a matrix.  It is not clear whether hybrids of these are supported.
 The paper seems like an early report with many unimplemented features (dynamic labelling, nested modules, Chisel 3 support) and no case study to demonstrate/test/evaluate design choices.
 Related work discusses a lot of other security related hardware description languages.

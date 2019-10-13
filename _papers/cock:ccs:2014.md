@@ -1,6 +1,5 @@
 ---
 ENTRYTYPE: inproceedings
-acmid: '2660294'
 address: New York, NY, USA
 authors:
 - David Cock

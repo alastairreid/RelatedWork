@@ -1,6 +1,5 @@
 ---
 ENTRYTYPE: inproceedings
-acmid: '1294293'
 address: New York, NY, USA
 authors:
 - Maxwell Krohn

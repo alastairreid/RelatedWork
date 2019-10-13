@@ -1,6 +1,5 @@
 ---
 ENTRYTYPE: article
-acmid: '360056'
 address: New York, NY, USA
 authors:
 - Dorothy E. Denning

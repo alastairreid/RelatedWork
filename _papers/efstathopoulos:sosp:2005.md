@@ -1,6 +1,5 @@
 ---
 ENTRYTYPE: inproceedings
-acmid: '1095813'
 address: New York, NY, USA
 authors:
 - Petros Efstathopoulos

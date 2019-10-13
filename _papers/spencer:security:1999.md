@@ -7,9 +7,9 @@ authors:
 - Stephen Smalley
 - Peter Loscocco
 - Mike Hibler
-- David Ande rsen
+- David Andersen
 - Jay Lepreau
-booktitle: Proceedings of the 8th Conference on USENIX Security Symposium - Volume 8
+booktitle: Proceedings of the 8th Conference on USENIX Security Symposium
 layout: paper
 location: Washington, D.C.
 numpages: '1'

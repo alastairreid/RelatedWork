@@ -9,7 +9,7 @@ layout: paper
 organization: Springer
 pages: 125-128
 read: false
-title: Why3 - where programs meet provers
+title: Why3 — where programs meet provers
 year: 2013
 topics:
 - verification
