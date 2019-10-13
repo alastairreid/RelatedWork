@@ -17,6 +17,13 @@ layout: default
     {% if page.doi %} <a href="https://doi.org/{{ page.doi }}">[doi]</a> {% endif %}
     {% if page.link %} <a href="{{ page.link }}">[url]</a> {% endif %}
 
+    {% if page.readings %}
+        <br>Read:
+        {% for date in page.readings %}
+        {{ date | date_to_long_string }}
+        {% endfor %}
+    {% endif %}
+
   </center>
 
   <br>
