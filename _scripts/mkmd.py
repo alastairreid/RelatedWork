@@ -123,8 +123,10 @@ db = bibtexparser.loads(x, parser=parser)
 for e in db.entries:
     author = e['author']
 
+    author = author.replace("{\\^a}", 'â')
     author = author.replace("{\\'e}", 'é')
     author = author.replace("{\\`e}", 'è')
+    author = author.replace("{\\\"o}", 'ö')
     author = author.replace("\\c c", 'ç')
     author = author.replace("\\textquotesingle ", u"’")
     author = author.replace("' ", u"’")
