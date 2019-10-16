@@ -20,8 +20,10 @@ topics:
 - verification
 ---
 
-This paper continues the theme of "push-button automation" from the UNSAT group's
-earlier work on [Hyperkernel]({{ "papers/Nelson:sosp:2017" | relative_url }}), [Yggadrisil]({{ "sigurbjarnson:osdi:2016" | relative_url }}) and [Nickel]({{ "sigurbjarnarson:osdi:2018" | relative_url }}).
+This paper continues the theme of "push-button automation" from the UNSAT group's earlier work on
+[Hyperkernel]({{ "papers/Nelson:sosp:2017" | relative_url }}),
+[Yggadrisil]({{ "papers/sigurbjarnarson:osdi:2016" | relative_url }})
+and [Nickel]({{ "papers/sigurbjarnarson:osdi:2018" | relative_url }}).
 Like the earlier work, they are using the Z3 SMT solver to verify systems code automatically 
 and they are avoiding adding annotations ("auto-active verification") to help the verification 
 by restricting the code they verify to "finite interfaces" so that all loops are bounded.
