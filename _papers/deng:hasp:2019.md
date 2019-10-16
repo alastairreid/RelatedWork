@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "SecChisel: Language and Tool for Practical and Scalable Security Verification of Security-Aware Hardware Architectures"
+title: "SecChisel: Language and tool for practical and scalable security verification of security-aware hardware architectures"
 authors:
 - Shuwen Deng
 - Doğuhan Gümüşoğlu

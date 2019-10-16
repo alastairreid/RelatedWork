@@ -16,7 +16,7 @@ pages: 11-11
 publisher: USENIX Association
 read: true
 series: SSYM'99
-title: 'The Flask Security Architecture: System Support for Diverse Security Policies'
+title: 'The Flask security architecture: System support for diverse security policies'
 year: 1999
 topics:
 - information-flow

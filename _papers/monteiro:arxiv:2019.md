@@ -9,7 +9,7 @@ layout: paper
 read: true
 readings:
 - 2019-10-16
-title: Boost the Impact of Continuous Formal Verification in Industry
+title: Boost the impact of continuous formal verification in industry
 year: 2019
 topics:
 - verification
