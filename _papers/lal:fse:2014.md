@@ -9,7 +9,7 @@ layout: paper
 organization: ACM
 pages: 202-212
 read: false
-title: Powering the static driver verifier using corral
+title: Powering the static driver verifier using Corral
 year: 2014
 topics:
 - verification

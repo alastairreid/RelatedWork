@@ -20,6 +20,7 @@ authors:
 - Muriel Roger
 - Nicky Williams
 booktitle: International Conference on Software Engineering and Formal Methods
+doi: 10.1007/s00165-014-0326-7
 layout: paper
 organization: Springer
 pages: 233-247
