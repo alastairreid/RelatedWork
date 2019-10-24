@@ -17,7 +17,7 @@ topics:
 - verification
 ---
 
-Smack translates LLVM bitcode files to the
+SMACK translates LLVM bitcode files to the
 [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
 Intermediate Verification Language (IVL)
 allowing it to support any language that LLVM supports (mostly C/C++ in this

@@ -33,9 +33,9 @@ Simple loop invariants (especially those associated with object allocation/lifet
 
 The paper notes that separation of generation from proof is not always ideal because it leads to some duplication of reasoning support and it makes loop invariant generation harder.
 
-Similar work is [Caduceus and its IVL "Why"]({{ "papers/fillaitre:fem:2004" | relative_url }}).
+Similar work is [Caduceus and its IVL "Why"]({{ "papers/filliatre:fem:2004" | relative_url }}).
 Used by
-[SMACK]({{"rakamaric:cav:2014"|relative_url}})
+[SMACK]({{"papers/rakamaric:cav:2014"|relative_url}})
 [Hyper-V]({{"papers/cohen:cav:2010"|relative_url}})
 [VCC]({{""|relative_url}})
 and others.
