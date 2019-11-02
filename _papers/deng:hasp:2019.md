@@ -23,8 +23,6 @@ topics:
 - information-flow
 ---
 
-Author names above are UTF-8 and may need to be re-encoded both for BibTeX
-
 Extends Chisel with security labels to track information flow.
 Uses Z3 to check but check is based on syntactic structure, not on semantic analysis.
 That is, it just propagates labels.
