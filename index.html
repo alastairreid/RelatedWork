@@ -3,20 +3,19 @@ layout: default
 ---
 
 <div class="posts">
-  {% assign papers = site.papers | sort:"date" | reverse %}
+  {% assign read = site.papers | where: "read",true %}
+  {% assign papers = read | sort:"readings[0]" | reverse %}
   {% for paper in papers %}
-    {% if paper.read %}
-      <article class="biblio">
-        <center>
-          <h2>{{ paper.title }}</h2>
-        </center>
+    <article class="biblio">
+      <center>
+        <h2>{{ paper.title }}</h2>
+      </center>
 
-        <div class="entry">
-          {{ paper.excerpt }}
-        </div>
+      <div class="entry">
+        {{ paper.excerpt }}
+      </div>
 
-        <a href="{{ site.baseurl }}{{ paper.url }}" class="read-more">Read More</a>
-      </article>
-    {% endif %}
+      <a href="{{ site.baseurl }}{{ paper.url }}" class="read-more">Read More</a>
+    </article>
   {% endfor %}
 </div>
