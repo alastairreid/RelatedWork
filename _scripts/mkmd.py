@@ -153,4 +153,3 @@ for e in db.entries:
     print('topics:')
     print('---')
 
-    print("["+e['title']+"]({{  \"papers/\" | relative_url }})")
