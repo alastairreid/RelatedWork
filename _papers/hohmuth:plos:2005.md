@@ -11,4 +11,5 @@ title: The VFiasco approach for a verified operating system
 year: 2005
 topics:
 - verification
+- os
 ---

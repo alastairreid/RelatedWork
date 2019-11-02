@@ -14,4 +14,5 @@ readings: []
 title: A framework for cooperating decision procedures
 year: 2000
 topics:
+- verification
 ---
