@@ -15,14 +15,14 @@ numpages: '1'
 pages: 11-11
 publisher: USENIX Association
 read: true
+readings:
+- 2019-10-6
 series: SSYM'99
 title: 'The Flask security architecture: System support for diverse security policies'
 year: 1999
 topics:
 - information-flow
 - os
-readings:
-- 2019-10-6
 ---
 
 This paper by some of my former colleagues in the [Flux group at the University of Utah](https://www.flux.utah.edu) describes the Flask microkernel-based operating system.

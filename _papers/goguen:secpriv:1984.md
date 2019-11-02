@@ -1,6 +1,5 @@
 ---
 layout: paper
-read: false
 authors:
 - Joseph A Goguen
 - José Meseguer

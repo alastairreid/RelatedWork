@@ -6,7 +6,7 @@ year: 1992
 publisher: SRI International, Computer Science Laboratory Menlo Park
 topics:
 - information-flow
-read: yes
+read: true
 readings:
 - 2019-10-11
 ---

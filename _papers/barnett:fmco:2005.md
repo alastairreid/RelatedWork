@@ -12,7 +12,8 @@ layout: paper
 organization: Springer
 pages: 364-387
 read: true
-readings: 2019-10-21
+readings:
+- 2019-10-21
 title: 'Boogie: A modular reusable verifier for object-oriented programs'
 year: 2005
 topics:

@@ -13,7 +13,8 @@ number: '1'
 organization: ACM
 pages: 293-304
 read: true
-readings: 2019-10-21
+readings:
+- 2019-10-21
 title: Verifying security invariants in ExpressOS
 volume: '41'
 year: 2013
