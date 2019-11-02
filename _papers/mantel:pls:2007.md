@@ -16,6 +16,7 @@ layout: paper
 pages: 141-156
 publisher: Springer
 read: false
+readings: []
 title: Controlling the What and Where of Declassification in Language-Based Security
 year: 2007
 topics:

@@ -13,6 +13,7 @@ number: ICFP
 pages: '24'
 publisher: ACM
 read: false
+readings: []
 title: 'Kami: A platform for high-level parametric hardware specification and its
   modular verification'
 volume: '1'

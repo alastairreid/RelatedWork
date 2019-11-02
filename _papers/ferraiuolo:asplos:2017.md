@@ -13,6 +13,7 @@ number: '1'
 organization: ACM
 pages: 555-568
 read: false
+readings: []
 title: Verification of a practical hardware security architecture through static information flow analysis
 volume: '45'
 year: 2017

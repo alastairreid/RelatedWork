@@ -13,6 +13,7 @@ layout: paper
 number: '6'
 pages: 81-91
 read: false
+readings: []
 title: 'Specification and verification: the Spec# experience.'
 volume: '54'
 year: 2011

@@ -10,6 +10,7 @@ layout: paper
 organization: Springer
 pages: 49-69
 read: false
+readings: []
 title: 'The Spec# programming system: An overview'
 year: 2004
 topics:

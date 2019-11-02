@@ -18,6 +18,7 @@ month: June
 number: ''
 pages: 172-186
 read: false
+readings: []
 title: Enforcing robust declassification
 volume: ''
 year: 2004

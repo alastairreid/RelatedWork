@@ -12,6 +12,7 @@ layout: paper
 pages: 287-305
 publisher: USENIX Association
 read: false
+readings: []
 title: 'Nickel: A Framework for Design and Verification of Information Flow Control Systems'
 year: 2018
 topics:

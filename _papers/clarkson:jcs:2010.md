@@ -10,6 +10,7 @@ number: '6'
 pages: 1157-1210
 publisher: IOS Press
 read: false
+readings: []
 title: Hyperproperties
 volume: '18'
 year: 2010

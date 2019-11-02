@@ -16,6 +16,7 @@ numpages: '8'
 pages: 236-243
 publisher: ACM
 read: false
+readings: []
 title: A Lattice Model of Secure Information Flow
 volume: '19'
 year: 1976

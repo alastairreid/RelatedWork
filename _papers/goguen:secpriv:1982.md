@@ -9,6 +9,7 @@ layout: paper
 organization: IEEE
 pages: 11-11
 read: false
+readings: []
 title: Security policies and security models
 topics:
 - information-flow

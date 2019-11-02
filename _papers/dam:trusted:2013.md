@@ -10,6 +10,7 @@ layout: paper
 organization: ACM
 pages: 3-12
 read: false
+readings: []
 title: Machine code verification of a tiny ARM hypervisor
 year: 2013
 topics:

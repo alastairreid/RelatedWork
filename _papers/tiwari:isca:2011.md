@@ -17,6 +17,7 @@ number: '3'
 organization: ACM
 pages: 189-200
 read: false
+readings: []
 title: Crafting a usable microkernel, processor, and I/O system with strict and provable information flow security
 volume: '39'
 year: 2011

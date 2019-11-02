@@ -12,6 +12,7 @@ title: Multi-prover verification of C programs
 booktitle: Sixth International Conference on Formal Engineering Methods
 doi: 10.1007/978-3-540-30482-1_10
 organization: Springer
+readings: []
 series: LNCS
 volume: 3308
 year: 2004

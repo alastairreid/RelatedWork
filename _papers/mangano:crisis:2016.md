@@ -10,6 +10,7 @@ layout: paper
 organization: Springer
 pages: 114-120
 read: false
+readings: []
 title: 'Formal verification of a memory allocation module of Contiki with Frama-C: a case study'
 year: 2016
 topics:

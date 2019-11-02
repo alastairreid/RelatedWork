@@ -16,6 +16,7 @@ numpages: '12'
 pages: 570-581
 publisher: ACM
 read: false
+readings: []
 series: CCS'14
 title: 'The Last Mile: An Empirical Study of Timing Channels on seL4'
 year: 2014

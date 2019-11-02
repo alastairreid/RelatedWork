@@ -14,6 +14,7 @@ layout: paper
 organization: ACM
 pages: 252-269
 read: false
+readings: []
 title: 'Hyperkernel: Push-button verification of an OS kernel'
 year: 2017
 topics:

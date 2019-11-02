@@ -12,6 +12,7 @@ layout: paper
 organization: ACM
 pages: 37-44
 read: false
+readings: []
 title: 'RedLeaf: Towards An Operating System for Safe and Verified Firmware'
 year: 2019
 topics:

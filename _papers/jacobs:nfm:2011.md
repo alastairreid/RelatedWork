@@ -13,6 +13,7 @@ layout: paper
 organization: Springer
 pages: 41-55
 read: false
+readings: []
 title: 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
 year: 2011
 topics:

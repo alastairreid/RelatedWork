@@ -12,6 +12,7 @@ layout: paper
 organization: ACM
 pages: 493-504
 read: false
+readings: []
 title: 'Execution leases: A hardware-supported mechanism for enforcing strong non-interference'
 year: 2009
 topics:

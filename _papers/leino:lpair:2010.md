@@ -8,6 +8,7 @@ layout: paper
 organization: Springer
 pages: 348-370
 read: false
+readings: []
 title: 'Dafny: An automatic program verifier for functional correctness'
 year: 2010
 topics:

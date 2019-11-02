@@ -9,6 +9,7 @@ layout: paper
 organization: Springer
 pages: 337-340
 read: false
+readings: []
 title: 'Z3: An efficient SMT solver'
 year: 2008
 topics:

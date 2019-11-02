@@ -10,6 +10,7 @@ layout: paper
 organization: Springer
 pages: 276-291
 read: false
+readings: []
 title: Machine assisted proof of ARMv7 instruction level isolation properties
 year: 2013
 topics:
