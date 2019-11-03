@@ -16,7 +16,7 @@ pages: 11-11
 publisher: USENIX Association
 read: true
 readings:
-- 2019-10-6
+- 2019-10-06
 series: SSYM'99
 title: 'The Flask security architecture: System support for diverse security policies'
 year: 1999

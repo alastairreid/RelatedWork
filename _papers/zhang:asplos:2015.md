@@ -13,7 +13,7 @@ pages: 503-516
 publisher: ACM
 read: true
 readings:
-- 2019-10-6
+- 2019-10-06
 title: A hardware design language for timing-sensitive information-flow security
 volume: '43'
 year: 2015
