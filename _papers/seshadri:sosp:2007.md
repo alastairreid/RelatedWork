@@ -46,4 +46,6 @@ Limitations:
 - Self-modifying code is a major issue.  The easy case is code that patches
   itself against known bugs.
 
-
+See [later paper by Franklin, et al.]({{"papers/franklin:cmu:2008"|relative_url}})
+that describes security issues in design, use of formal verification to model
+design, fixes and performance impact.
