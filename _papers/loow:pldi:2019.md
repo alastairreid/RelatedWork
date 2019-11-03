@@ -18,6 +18,6 @@ readings: []
 title: Verified compilation on a verified processor
 year: 2019
 topics:
+- hardware
 - verification
-- os
 ---
