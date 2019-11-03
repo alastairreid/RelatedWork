@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% assign read = site.papers | where: "read",true %}
-  {% assign papers = read | sort:"readings[0]" | reverse %}
+  {% assign papers = read | sort: "readings" | reverse %}
   {% for paper in papers %}
     <article class="biblio">
       <center>
