@@ -24,4 +24,4 @@ language lowering imperative code to pure code and handling pointers.
 Introduced the specification notation that later became ACSL and a forerunner
 to [Frama-C]({{ "papers/cuoq:sefm:2012.md" | relative_url }}).
 
-Given current understanding of undefined behaviour and implementation defined behaviour in C, the conversion looks a bit naïve.
+Given current understanding of undefined behaviour and implementation defined behaviour in C, the translation from C looks a bit naïve.
