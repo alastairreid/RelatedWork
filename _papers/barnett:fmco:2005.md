@@ -38,5 +38,5 @@ Similar work is [Caduceus and its IVL "Why"]({{ "papers/filliatre:fem:2004" | re
 Used by
 [SMACK]({{"papers/rakamaric:cav:2014"|relative_url}})
 [Hyper-V]({{"papers/cohen:cav:2010"|relative_url}})
-[VCC]({{""|relative_url}})
+[VCC]({{"papers/leinenbach:fm:2009"|relative_url}})
 and others.
