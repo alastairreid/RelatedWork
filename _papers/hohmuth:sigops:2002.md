@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+added: 2019-11-02
 authors:
 - Michael Hohmuth
 - Hendrik Tews

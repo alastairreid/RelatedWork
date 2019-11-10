@@ -1,5 +1,6 @@
 ---
 layout: paper
+added: 2019-10-06
 title: Noninterference, transitivity, and channel-control security policies
 author: Rushby, John
 year: 1992

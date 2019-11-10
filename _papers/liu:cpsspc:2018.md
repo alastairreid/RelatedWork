@@ -1,5 +1,6 @@
 ---
 layout: paper
+added: 2019-10-06
 title: Secure autonomous cyber-physical systems through verifiable information flow control
 authors:
 - Jed Liu

@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+added: 2019-10-18
 authors:
 - Leonardo de Moura
 - Soonho Kong

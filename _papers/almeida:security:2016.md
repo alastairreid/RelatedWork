@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+added: 2019-10-06
 authors:
 - José Bacelar Almeida
 - Manuel Barbosa

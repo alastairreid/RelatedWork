@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+added: 2019-10-12
 authors:
 - Haohui Mai
 - Edgar Pek

@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: article
+added: 2019-10-06
 authors:
 - Gilles Barthe
 - Benjamin Grégoire

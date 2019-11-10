@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+added: 2019-10-16
 authors:
 - Jean-Christophe Filliâtre
 - Claude Marché

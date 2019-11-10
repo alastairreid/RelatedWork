@@ -1,10 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
-abstract: While a rigorous information flow analysis is a key step in obtaining meaningful
-  end-to-end confidentiality guarantees, one must also permit possibilities for declassification.
-  Sabelfeld and Sands categorized the existing approaches to controlling declassification
-  in their overview along four dimensions and according to four prudent principles
-  [16].
+added: 2019-10-06
 authors:
 - Heiko Mantel
 - Alexander Reinhard

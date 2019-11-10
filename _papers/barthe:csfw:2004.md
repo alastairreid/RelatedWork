@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+added: 2019-10-13
 authors:
 - Gilles Barthe
 - Pedro R. D'Argenio

@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: article
+added: 2019-10-12
 authors:
 - Felipe R Monteiro
 - Mikhail R Gadelha

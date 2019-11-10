@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: article
+added: 2019-10-06
 address: New York, NY, USA
 authors:
 - Dorothy E. Denning

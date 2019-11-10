@@ -1,5 +1,6 @@
 ---
 layout: paper
+added: 2019-10-06
 authors:
 - Joseph A Goguen
 - José Meseguer
