@@ -6,10 +6,9 @@ layout: default
 
 <div class="posts">
     <ul>
-        {% for paper in site.papers %}
-            {% if paper.read %}
+        {% assign papers = site.papers | where: "read",true %}
+        {% for paper in papers %}
             <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
-            {% endif %}
         {% endfor %}
     </ul>
 </div>
@@ -18,10 +17,9 @@ layout: default
 
 <div class="posts">
     <ul>
-        {% for paper in site.papers %}
-            {% if paper.read == false %}
+        {% assign papers = site.papers | where: "read",false | sort: "added" | reverse %}
+        {% for paper in papers %}
             <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
-            {% endif %}
         {% endfor %}
     </ul>
 </div>
