@@ -14,7 +14,7 @@ isbn: 978-1-4503-1561-6
 layout: paper
 pages: 213-232
 publisher: ACM
-read: false
+read: true
 readings:
 - 2019-11-09
 title: 'An abstract interpretation framework for refactoring with application to extract methods with contracts'
