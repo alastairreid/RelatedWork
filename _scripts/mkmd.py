@@ -11,6 +11,8 @@ from bibtexparser.bibdatabase import BibDatabase
 from bibtexparser.customization import homogenize_latex_encoding
 from bibtexparser.customization import convert_to_unicode
 
+from datetime import date
+
 import re
 import string
 import sys
@@ -146,6 +148,8 @@ for e in db.entries:
 
     e['layout'] = 'paper'
     e['read'] = False
+    e['readings'] = []
+    e['added'] = date.today()
 
 # print(json.dumps(db.entries, indent=4))
 for e in db.entries:
