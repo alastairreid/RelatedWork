@@ -6,6 +6,7 @@ authors:
 - K. Rustan M. Leino
 - Philipp Rümmer
 booktitle: Tools and Algorithms for the Construction and Analysis of Systems
+doi: 10.1007/978-3-642-12002-2_26
 editor: 'Esparza, Javier and Majumdar, Rupak'
 isbn: 978-3-642-12002-2
 layout: paper
