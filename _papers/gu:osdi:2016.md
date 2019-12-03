@@ -35,7 +35,7 @@ A consequence of this result is that they can also derive _behavior equivalence_
 Most of the paper describes the proof with particular focus on how the layered structure determines the structure of the proof.
 The layers are:
 
-* Concurrent layer interface. A notion of shared objects supporting a number of primitives and ghost state maintaining a log of past primitive calls. Objects Can be "private" or "atomic".  Atomic objects are shared so the name indicates a requirement that they be accessed atomically.
+* Concurrent layer interface. A notion of shared objects supporting a number of primitives and ghost state maintaining a log of past primitive calls. Objects can be "private" or "atomic".  Atomic objects are shared so the name indicates a requirement that they be accessed atomically.
 * Machine model with hardware scheduler.  This layer introduces an oracle to decide whether to perform a context switch after each instruction.
 * Machine model with local copy of shared memory.  This layer introduces a notion of ownership of a shared object by introducing "pull" actions to take ownership and "push" actions to release ownership.  (These are ghost code, updating ghost state.). This lets them talk about Data Race Freedom.
 * Partial machine with environment contexts.  This layer lets them reason separately about the code running on different CPUs.
