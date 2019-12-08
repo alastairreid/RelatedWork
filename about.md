@@ -2,10 +2,10 @@
 layout: default
 ---
 
-This site contains [short summaries of papers]({{ "papers" }})
+This site contains [short summaries of papers]({{ "../papers" }})
 related to what I am working on or that I am thinking about.
 
-The goal is to create [mini summaries of research topics]({{ "topics" }})
+The goal is to create [mini summaries of research topics]({{"../topics"}})
 in different areas.
 These will not be _surveys_: I don't aim to make them comprehensive
 and they will certainly be skewed by whatever my interest
