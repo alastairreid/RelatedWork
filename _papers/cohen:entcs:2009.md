@@ -1,6 +1,23 @@
-title: A precise yet efficient memory model for C
+---
+ENTRYTYPE: article
+added: 2019-12-10
+authors:
+- Ernie Cohen
+- Michał Moskal
+- Stephan Tobies
+- Wolfram Schulte
+journal: Electronic Notes in Theoretical Computer Science
+layout: paper
+pages: 85-103
+publisher: Elsevier
+read: true
 readings:
 - 2019-12-10
+title: A precise yet efficient memory model for C
+volume: '254'
+year: 2009
+topics:
+- verification
 ---
 
 A memory model (in this context) is basically "what is a pointer"?
