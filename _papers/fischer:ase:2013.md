@@ -15,4 +15,5 @@ readings: []
 title: 'CSeq: a concurrency pre-processor for sequential C verification tools'
 year: 2013
 topics:
+- verification
 ---

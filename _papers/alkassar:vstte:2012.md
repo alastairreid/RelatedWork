@@ -15,4 +15,6 @@ readings: []
 title: Verification of TLB virtualization implemented in C
 year: 2012
 topics:
+- os
+- verification
 ---

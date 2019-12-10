@@ -17,4 +17,6 @@ readings: []
 title: Model checking boot code from AWS data centers
 year: 2018
 topics:
+- os
+- verification
 ---

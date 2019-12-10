@@ -17,4 +17,6 @@ readings: []
 title: Design, implementation and verification of an extensible and modular hypervisor framework
 year: 2013
 topics:
+- os
+- verification
 ---

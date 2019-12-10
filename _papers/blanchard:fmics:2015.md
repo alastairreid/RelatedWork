@@ -15,4 +15,6 @@ readings: []
 title: A case study on formal verification of the Anaxagoros hypervisor paging system with Frama-C
 year: 2015
 topics:
+- os
+- verification
 ---
