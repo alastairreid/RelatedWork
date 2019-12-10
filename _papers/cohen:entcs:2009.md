@@ -6,6 +6,7 @@ authors:
 - Michał Moskal
 - Stephan Tobies
 - Wolfram Schulte
+doi: 10.1016/j.entcs.2009.09.061
 journal: Electronic Notes in Theoretical Computer Science
 layout: paper
 pages: 85-103
