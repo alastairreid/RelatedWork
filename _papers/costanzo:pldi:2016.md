@@ -17,8 +17,9 @@ location: Santa Barbara, CA, USA
 numpages: '17'
 pages: 648-664
 publisher: ACM
-read: false
-readings: []
+read: true
+readings:
+- 2029-01-02
 series: PLDI'16
 title: End-to-end Verification of Information-flow Security for C and Assembly Programs
 url: http://doi.acm.org/10.1145/2908080.2908100
