@@ -1,0 +1,24 @@
+---
+ENTRYTYPE: inproceedings
+added: 2020-01-07
+address: New York, NY, USA
+authors:
+- Hongwei Xi
+- Robert Harper
+booktitle: Proceedings of the Sixth ACM SIGPLAN International Conference on Functional
+  Programming
+doi: 10.1145/507635.507657
+isbn: '1581134150'
+layout: paper
+location: Florence, Italy
+numpages: '12'
+pages: 169\textendash 180
+publisher: Association for Computing Machinery
+read: false
+readings: []
+series: "ICFP \u201901"
+title: A Dependently Typed Assembly Language
+url: https://doi.org/10.1145/507635.507657
+year: 2001
+topics:
+---
