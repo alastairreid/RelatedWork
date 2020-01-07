@@ -6,7 +6,7 @@ layout: default
 
 <div class="posts">
     <ul>
-        {% assign papers = site.papers | where: "read",true %}
+        {% assign papers = site.papers | where: "read",true | sort: "readings" | reverse %}
         {% for paper in papers %}
             <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
         {% endfor %}
