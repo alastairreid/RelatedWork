@@ -35,7 +35,7 @@ One of the difficult things about reasoning about programs that
 modify pointer-based data structures is the possibility of
 aliases.
 If p and q alias each other then you need to recognize that writing
-to "*p" will modify "*q".
+to "\*p" will modify "\*q".
 Around the late 90s, there was a lot of work on how best to
 reason about aliasing.
 Nowadays, a lot of academic interest seems to have settled on using
