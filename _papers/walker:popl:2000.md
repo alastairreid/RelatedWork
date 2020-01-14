@@ -11,7 +11,7 @@ isbn: '1581131259'
 layout: paper
 location: Boston, MA, USA
 numpages: '14'
-pages: 254\textendash 267
+pages: 254–267
 publisher: Association for Computing Machinery
 read: false
 readings: []
@@ -20,4 +20,6 @@ title: A type system for expressive security policies
 url: https://doi.org/10.1145/325694.325728
 year: 2000
 topics:
+- security
+- types
 ---

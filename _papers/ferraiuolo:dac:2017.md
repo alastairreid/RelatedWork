@@ -16,6 +16,7 @@ readings: []
 title: Secure information flow verification with mutable dependent types
 year: 2017
 topics:
-- information-flow
 - hardware
+- information-flow
+- types
 ---

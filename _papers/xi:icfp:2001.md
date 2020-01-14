@@ -12,13 +12,14 @@ isbn: '1581134150'
 layout: paper
 location: Florence, Italy
 numpages: '12'
-pages: 169\textendash 180
+pages: 169–180
 publisher: Association for Computing Machinery
 read: false
 readings: []
-series: "ICFP \u201901"
+series: "ICFP'01"
 title: A Dependently Typed Assembly Language
 url: https://doi.org/10.1145/507635.507657
 year: 2001
 topics:
+- types
 ---

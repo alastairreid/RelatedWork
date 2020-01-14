@@ -20,6 +20,7 @@ readings:
 title: 'TALx86: A realistic typed assembly language'
 year: 1999
 topics:
+- types
 - verification
 ---
 

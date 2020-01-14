@@ -14,6 +14,7 @@ readings: []
 title: 'Safe to the last instruction: automated verification of a type-safe operating system'
 year: 2010
 topics:
+- types
 - verification
 - os
 ---

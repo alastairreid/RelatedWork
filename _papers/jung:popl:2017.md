@@ -25,6 +25,8 @@ url: https://doi.org/10.1145/3158154
 volume: '2'
 year: 2017
 topics:
+- rust
+- types
 - verification
 ---
 
