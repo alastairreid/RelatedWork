@@ -13,7 +13,7 @@ pages: 141-156
 publisher: Springer
 read: false
 readings: []
-title: Controlling the What and Where of Declassification in Language-Based Security
+title: Controlling the what and where of declassification in language-based security
 year: 2007
 topics:
 - information-flow

@@ -14,7 +14,7 @@ pages: 312-327
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: 'A Polymorphic Intermediate Verification Language: Design and Logical Encoding'
+title: 'A polymorphic intermediate verification language: Design and logical encoding'
 year: 2010
 topics:
 - verification

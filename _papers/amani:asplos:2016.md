@@ -30,7 +30,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: "ASPLOS'16"
-title: 'Cogent: Verifying High-Assurance File System Implementations'
+title: 'Cogent: Verifying high-assurance file system implementations'
 url: https://doi.org/10.1145/2872362.2872404
 year: 2016
 topics:

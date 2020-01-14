@@ -19,7 +19,7 @@ publisher: ACM
 read: false
 readings: []
 series: SOSP'03
-title: Implementing an Untrusted Operating System on Trusted Hardware
+title: Implementing an untrusted operating system on trusted hardware
 year: 2003
 topics:
 - os

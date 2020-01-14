@@ -18,7 +18,7 @@ publisher: USENIX Association
 read: false
 readings: []
 series: OSDI'06
-title: Making Information Flow Explicit in HiStar
+title: Making information flow explicit in HiStar
 year: 2006
 topics:
 - information-flow

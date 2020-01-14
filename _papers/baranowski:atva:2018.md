@@ -1,6 +1,5 @@
 ---
 ENTRYTYPE: inproceedings
-
 abstract:
   Rust is an emerging systems programming language with guaranteed
   memory safety and modern language features that has been extensively adopted to
@@ -23,7 +22,7 @@ pages: 528-535
 publisher: Springer International Publishing
 read: false
 readings: []
-title: Verifying Rust Programs with SMACK
+title: Verifying Rust programs with SMACK
 year: 2018
 topics:
 ---

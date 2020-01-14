@@ -20,7 +20,7 @@ publisher: Association for Computing Machinery
 read: true
 readings:
 - 2020-01-10
-title: 'RustBelt: Securing the Foundations of the Rust Programming Language'
+title: 'RustBelt: Securing the foundations of the Rust programming language'
 url: https://doi.org/10.1145/3158154
 volume: '2'
 year: 2017

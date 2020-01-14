@@ -15,7 +15,7 @@ pages: 653-669
 read: true
 readings:
 - 2019-11-29
-title: 'CertiKOS: An Extensible Architecture for Building Certified Concurrent OS
+title: 'CertiKOS: An extensible architecture for building certified concurrent OS
   Kernels'
 year: 2016
 topics:

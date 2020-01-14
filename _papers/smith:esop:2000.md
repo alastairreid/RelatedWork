@@ -24,7 +24,7 @@ publisher: Springer Berlin Heidelberg
 read: true
 readings:
 - 2020-01-08
-title: Alias Types
+title: Alias types
 year: 2000
 topics:
 - types

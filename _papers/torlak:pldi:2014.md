@@ -19,7 +19,7 @@ read: true
 readings:
 - 2019-11-16
 series: PLDI'14
-title: A Lightweight Symbolic Virtual Machine for Solver-aided Host Languages
+title: A lightweight symbolic virtual machine for solver-aided host languages
 url: http://doi.acm.org/10.1145/2594291.2594340
 year: 2014
 topics:

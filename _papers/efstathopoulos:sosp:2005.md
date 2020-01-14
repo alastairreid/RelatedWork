@@ -25,7 +25,7 @@ publisher: ACM
 read: false
 readings: []
 series: SOSP'05
-title: Labels and Event Processes in the Asbestos Operating System
+title: Labels and event processes in the Asbestos operating system
 year: 2005
 topics:
 - information-flow

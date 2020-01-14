@@ -17,7 +17,7 @@ pages: 25-35
 read: true
 readings:
 - 2020-01-06
-title: 'TALx86: A Realistic Typed Assembly Language'
+title: 'TALx86: A realistic typed assembly language'
 year: 1999
 topics:
 - verification

@@ -22,7 +22,7 @@ publisher: IEEE Press
 read: false
 readings: []
 series: ICSE'12
-title: 'Large-scale Formal Verification in Practice: A Process Perspective'
+title: 'Large-scale formal verification in practice: A process perspective'
 year: 2012
 topics:
 - verification

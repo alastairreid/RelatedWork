@@ -14,9 +14,10 @@ organization: ACM
 pages: 37-44
 read: false
 readings: []
-title: 'RedLeaf: Towards An Operating System for Safe and Verified Firmware'
+title: 'RedLeaf: Towards an operating system for safe and verified firmware'
 year: 2019
 topics:
 - os
+- rust
 - verification
 ---

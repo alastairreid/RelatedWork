@@ -23,7 +23,7 @@ publisher: ACM
 read: false
 readings: []
 series: SOSP'07
-title: Information Flow Control for Standard OS Abstractions
+title: Information flow control for standard OS abstractions
 year: 2007
 topics:
 - information-flow

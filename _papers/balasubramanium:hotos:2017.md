@@ -21,7 +21,7 @@ pages: 94–99
 publisher: Association for Computing Machinery
 read: false
 readings: []
-title: 'System Programming in Rust: Beyond Safety'
+title: 'System programming in Rust: Beyond safety'
 url: https://doi.org/10.1145/3139645.3139660
 volume: '51'
 year: 2017

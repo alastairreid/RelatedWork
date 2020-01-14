@@ -12,7 +12,7 @@ pages: 517-548
 publisher: IOS Press
 read: false
 readings: []
-title: 'Declassification: Dimensions and Principles'
+title: 'Declassification: Dimensions and principles'
 volume: '17'
 year: 2009
 topics:

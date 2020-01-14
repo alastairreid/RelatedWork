@@ -24,7 +24,7 @@ pages: 177-206
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: Alias Types for Recursive Data Structures
+title: Alias types for recursive data structures
 year: 2001
 topics:
 ---

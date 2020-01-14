@@ -19,7 +19,7 @@ publisher: ACM
 read: false
 readings: []
 series: CCS'14
-title: 'The Last Mile: An Empirical Study of Timing Channels on seL4'
+title: 'The last mile: An empirical study of timing channels on seL4'
 year: 2014
 topics:
 - hardware

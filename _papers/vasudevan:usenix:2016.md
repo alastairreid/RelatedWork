@@ -17,7 +17,7 @@ publisher: USENIX Association
 read: true
 readings:
 - 2019-11-22
-title: 'überSpark: Enforcing Verifiable Object Abstractions for Automated Compositional Security Analysis of a Hypervisor'
+title: 'überSpark: Enforcing verifiable object abstractions for automated compositional security analysis of a hypervisor'
 url: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/vasudevan
 year: 2016
 topics:
