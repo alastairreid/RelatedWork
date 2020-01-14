@@ -17,7 +17,9 @@ readings:
 title: Scaling symbolic evaluation for automated verification of systems code with Serval
 year: 2019
 topics:
+- information-flow
 - os
+- security
 - verification
 ---
 

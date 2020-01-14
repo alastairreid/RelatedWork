@@ -19,7 +19,8 @@ title: Verification of a practical hardware security architecture through static
 volume: '45'
 year: 2017
 topics:
-- verification
 - hardware
+- security
+- verification
 ---
 

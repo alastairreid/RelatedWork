@@ -17,4 +17,5 @@ title: Controlling the what and where of declassification in language-based secu
 year: 2007
 topics:
 - information-flow
+- security
 ---

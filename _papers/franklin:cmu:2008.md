@@ -17,6 +17,7 @@ title: 'Attacking, repairing, and verifying SecVisor: A retrospective on the sec
 year: 2008
 topics:
 - os
+- security
 - verification
 ---
 

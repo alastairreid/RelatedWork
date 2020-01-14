@@ -24,5 +24,6 @@ year: 2014
 topics:
 - hardware
 - os
+- security
 - verification
 ---

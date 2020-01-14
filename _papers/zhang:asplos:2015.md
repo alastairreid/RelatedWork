@@ -19,8 +19,9 @@ title: A hardware design language for timing-sensitive information-flow security
 volume: '43'
 year: 2015
 topics:
-- information-flow
 - hardware
+- information-flow
+- security
 ---
 
 Extends Verilog with security labels and declassification. Labels can be static or dynamic and are tracked using a modified type system with some tricks to improve precision (related to implicit flows).  Analysis is (of course) timing sensitive so timing channels are automatically handled.

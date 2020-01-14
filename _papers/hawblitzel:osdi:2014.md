@@ -17,6 +17,7 @@ readings: []
 title: 'Ironclad apps: End-to-end security via automated full-system verification'
 year: 2014
 topics:
-- verification
 - os
+- security
+- verification
 ---

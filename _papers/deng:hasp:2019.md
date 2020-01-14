@@ -22,6 +22,7 @@ readings:
 topics:
 - hardware
 - information-flow
+- security
 ---
 
 Extends Chisel with security labels to track information flow.

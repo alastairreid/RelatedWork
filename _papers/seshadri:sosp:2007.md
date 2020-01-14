@@ -21,6 +21,7 @@ volume: '41'
 year: 2007
 topics:
 - os
+- security
 ---
 
 SecVisor is a hypervisor that virtualizes physical RAM, the MMU and the IO-MMU

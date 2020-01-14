@@ -24,6 +24,7 @@ publisher: ACM
 topics:
 - hardware
 - information-flow
+- security
 ---
 
 This paper ties together several different threads to create a CPS system (autonomous vehicle) that is resistant to many forms of attack.

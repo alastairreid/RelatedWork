@@ -16,6 +16,7 @@ readings:
 title: Verifying constant-time implementations
 topics:
 - information-flow
+- security
 ---
 
 Tool for verifying constant time behaviour of C code based on self-composition preprocessing then using SMACK and Boogie.

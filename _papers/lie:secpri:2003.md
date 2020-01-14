@@ -26,4 +26,6 @@ title: Specifying and verifying hardware for tamper-resistant software
 volume: ''
 year: 2003
 topics:
+- security
+- verification
 ---
