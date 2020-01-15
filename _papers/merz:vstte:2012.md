@@ -27,4 +27,5 @@ readings: []
 title: 'LLBMC: Bounded Model Checking of C and C++ programs using a compiler IR'
 year: 2012
 topics:
+- verification
 ---

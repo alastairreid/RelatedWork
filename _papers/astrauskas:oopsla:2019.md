@@ -24,4 +24,7 @@ url: https://doi.org/10.1145/3360573
 volume: '3'
 year: 2019
 topics:
+- rust
+- types
+- verification
 ---
