@@ -20,8 +20,9 @@ isbn: 978-3-030-01090-4
 layout: paper
 pages: 528-535
 publisher: Springer International Publishing
-read: false
-readings: []
+read: true
+readings:
+- 2020-01-16
 title: Verifying Rust programs with SMACK
 year: 2018
 topics:
