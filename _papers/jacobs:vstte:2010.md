@@ -31,7 +31,8 @@ but can be assisted by lemmas that are written as imperative
 functions.
 I think the essence of this is that if you can prove correctness of
 a terminating lemma function with contract "requires P; ensures Q;",
-then "P —∗ Q". (Where "—∗" (pronounced "magic wand") is "separating
-implication" from separation logic.
+then "P —∗ Q".
+(Where "—∗" (pronounced "magic wand") is "separating
+implication" from separation logic.)
 These lemma functions are allowed to be recursive so it is possible to
 write inductive proofs.
