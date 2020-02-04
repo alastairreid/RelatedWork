@@ -15,10 +15,27 @@ layout: paper
 month: July
 number: ''
 pages: 55-74
-read: false
-readings: []
+read: true
+readings:
+- 2020-02-04
 title: 'Separation logic: a logic for shared mutable data structures'
 volume: ''
 year: 2002
 topics:
+- verification
 ---
+
+Separation logic is an extension of Hoare logic for reasoning about
+programs that use pointers.
+In particular, it copes well with aliasing (by providing
+a compact way of saying that a set of pointers do not alias)
+and a "frame rule" that lets you reason locally about a piece of
+code without getting bogged down in the surrounding context.
+This paper introduces separation logic,
+illustrates its use to verify
+ a number of list, tree and dag algorithms
+ [this is one of the real strengths of this paper]
+and discusses a lot of the work by the author and others
+on developing, defining, using and extending 
+the different forms of separation logic that existed at the
+time (2002).
