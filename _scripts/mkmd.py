@@ -165,11 +165,17 @@ def replaceAccents(s):
     # s = s.replace("\\textendash ", '–')
     # s = s.replace("\\textemdash ", '—')
 
-    # s = s.replace("\\textquotesingle ", '\'')
-    s = s.replace("\\textquotedblleft ",  "“")
-    s = s.replace("\\textquotedblright ", "”")
-    s = s.replace("\\textquoteleft ",     '‘')
-    s = s.replace("\\textquoteright ",    '’')
+    s = s.replace('’', '\'')
+    s = s.replace("\\textquotesingle ",   '\'')
+    s = s.replace("\\textquoteleft ",     '\'')
+    s = s.replace("\\textquoteright ",    '\'')
+    s = s.replace("\\textquotedouble ",   '\"')
+    s = s.replace("\\textquotedblleft ",  '\"')
+    s = s.replace("\\textquotedblright ", '\"')
+    # s = s.replace("\\textquotedblleft ",  "“")
+    # s = s.replace("\\textquotedblright ", "”")
+    # s = s.replace("\\textquoteleft ",     '‘')
+    # s = s.replace("\\textquoteright ",    '’')
 
     s = s.replace("\n", " ")
 
@@ -193,7 +199,8 @@ for e in db.entries:
 
     e['title'] = re.sub(r'[{}]', '', e['title'])
     e['year'] = int(e['year'])
-    if 'pages' in e: e['pages'] = replaceAccents(e['pages'])
+    for i in ['abstract', 'note', 'number', 'pages', 'series']:
+        if i in e: e[i] = replaceAccents(e[i])
 
     del e['ID']
 
