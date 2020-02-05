@@ -17,7 +17,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: "ICFP'01"
-title: A Dependently Typed Assembly Language
+title: A dependently typed assembly language
 url: https://doi.org/10.1145/507635.507657
 year: 2001
 topics:

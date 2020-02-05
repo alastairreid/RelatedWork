@@ -24,7 +24,7 @@ pages: 146-161
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: 'LLBMC: Bounded Model Checking of C and C++ programs using a compiler IR'
+title: 'LLBMC: Bounded model checking of C and C++ programs using a compiler IR'
 year: 2012
 topics:
 - verification

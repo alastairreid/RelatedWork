@@ -11,7 +11,7 @@ authors:
 doi: 10.1145/2431211.2431216
 issn: 0360-0300
 issue_date: February 2013
-journal: ACM Comput. Surv.
+journal: ACM Computing Surveys
 keywords: Encryption, threat, virtual machine, virtual machine monitor, virtualization
 layout: paper
 month: March
@@ -21,7 +21,7 @@ pages: 17:1-17:39
 publisher: ACM
 read: false
 readings: []
-title: 'Virtualization: Issues, Security Threats, and Solutions'
+title: 'Virtualization: Issues, security threats, and solutions'
 url: http://doi.acm.org/10.1145/2431211.2431216
 volume: '45'
 year: 2013

@@ -19,13 +19,15 @@ keywords: ownership, rust, embedded operating systems, linear types
 layout: paper
 location: Monterey, California
 numpages: '6'
-pages: 21\textendash 26
+pages: 21-26
 publisher: Association for Computing Machinery
 read: false
 readings: []
-series: "PLOS \u201915"
-title: 'Ownership is Theft: Experiences Building an Embedded OS in Rust'
+series: "PLOS '15"
+title: 'Ownership is theft: Experiences building an embedded OS in Rust'
 url: https://doi.org/10.1145/2818302.2818306
 year: 2015
 topics:
+- os
+- rust
 ---

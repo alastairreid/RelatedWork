@@ -16,13 +16,15 @@ isbn: '9781450350853'
 layout: paper
 location: Shanghai, China
 numpages: '18'
-pages: 234\textendash 251
+pages: 234-251
 publisher: Association for Computing Machinery
 read: false
 readings: []
-series: "SOSP \u201917"
-title: Multiprogramming a 64kB Computer Safely and Efficiently
+series: "SOSP '17"
+title: Multiprogramming a 64kB computer safely and efficiently
 url: https://doi.org/10.1145/3132747.3132786
 year: 2017
 topics:
+- os
+- rust
 ---
