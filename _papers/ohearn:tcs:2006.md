@@ -17,9 +17,10 @@ pages: 271-307
 publisher: Elsevier Science Publishers Ltd.
 read: false
 readings: []
-title: Resources, Concurrency, and Local Reasoning
+title: Resources, concurrency, and local reasoning
 url: https://doi.org/10.1016/j.tcs.2006.12.035
 volume: '375'
 year: 2007
 topics:
+- verification
 ---
