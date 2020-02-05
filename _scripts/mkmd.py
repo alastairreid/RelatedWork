@@ -115,6 +115,66 @@ latexAccents = [
   [ u"„", ",," ],
 ]
 
+def replaceAccents(s):
+    """
+    Replaces LaTeX symbols with extended ASCII equivalents.
+    (It avoids using Unicode because that doesn't render well.)
+    """
+
+    s = s.replace("{\\`a}",  'à')
+    s = s.replace("{\\´a}",  'á')
+    s = s.replace("{\\^a}",  'â')
+    s = s.replace("{\\~a}",  'ã')
+    s = s.replace("{\\\"a}", 'ä')
+    s = s.replace("{\\r a}", 'å')
+
+    # s = s.replace("{\\`e}",  'è')
+    # s = s.replace("{\\'e}",  'é')
+    # s = s.replace("{\\^e}",  'ê')
+    # s = s.replace("{\\\"e}", 'ë')
+
+    s = s.replace("{\\`i}",  'ì')
+    s = s.replace("{\\'i}",  'í')
+    s = s.replace("{\\^i}",  'î')
+    s = s.replace("{\\\"i}", 'ï')
+
+    s = s.replace("{\\`o}",  'ò')
+    s = s.replace("{\\'o}",  'ó')
+    s = s.replace("{\\^o}",  'ô')
+    s = s.replace("{\\\"o}", 'ö')
+    s = s.replace("{\\~o}",  'õ')
+    s = s.replace("{\\u o}", 'ð')
+
+    s = s.replace("{\\`u}",  'ù')
+    s = s.replace("{\\'u}",  'ú')
+    s = s.replace("{\\^u}",  'û')
+    s = s.replace("{\\\"u}", 'ü')
+
+    s = s.replace("\\c c",   'ç')
+    s = s.replace("\\~n",    'ñ')
+    s = s.replace("\\o",     'ø')
+    s = s.replace("{\\'y}",  'ý')
+    s = s.replace("{\\\"y}", 'ÿ')
+
+    # s = s.replace("{\\l}",   u"ł")
+
+    s = s.replace("--", '-')
+    s = s.replace("\\textendash ", '-')
+    s = s.replace("\\textemdash ", '-')
+    # s = s.replace("--", '–')
+    # s = s.replace("\\textendash ", '–')
+    # s = s.replace("\\textemdash ", '—')
+
+    # s = s.replace("\\textquotesingle ", '\'')
+    s = s.replace("\\textquotedblleft ",  "“")
+    s = s.replace("\\textquotedblright ", "”")
+    s = s.replace("\\textquoteleft ",     '‘')
+    s = s.replace("\\textquoteright ",    '’')
+
+    s = s.replace("\n", " ")
+
+    return s
+
 parser = BibTexParser()
 parser.customization = homogenize_latex_encoding
 x = sys.stdin.read()
@@ -124,16 +184,7 @@ db = bibtexparser.loads(x, parser=parser)
 
 for e in db.entries:
     author = e['author']
-
-    author = author.replace("{\\^a}", 'â')
-    author = author.replace("{\\'e}", 'é')
-    author = author.replace("{\\`e}", 'è')
-    author = author.replace("{\\\"o}", 'ö')
-    author = author.replace("\\c c", 'ç')
-    author = author.replace("\\textquotesingle ", u"’")
-    author = author.replace("' ", u"’")
-    author = author.replace("{\\l}", u"ł")
-    author = author.replace("\n", " ")
+    author = replaceAccents(author)
 
     authors = re.split('\s+and\s+', author)
     authors = [ swapauth(a) for a in authors ]
@@ -142,7 +193,7 @@ for e in db.entries:
 
     e['title'] = re.sub(r'[{}]', '', e['title'])
     e['year'] = int(e['year'])
-    if 'pages' in e: e['pages'] = e['pages'].replace('--', '-')
+    if 'pages' in e: e['pages'] = replaceAccents(e['pages'])
 
     del e['ID']
 
