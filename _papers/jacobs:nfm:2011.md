@@ -13,10 +13,34 @@ doi: 10.1007/978-3-642-20398-5_4
 layout: paper
 organization: Springer
 pages: 41-55
-read: false
-readings: []
+read: true
+readings:
+- 2020-02-09
 title: 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
 year: 2011
 topics:
 - verification
 ---
+
+VeriFast is an auto-active verification tool for C and Java based on separation
+logic and SMT solvers.
+This paper is a nice overview of the state of the project in 2011 when they had
+
+- a symbolic execution based checker with a nice UI
+- support for both C and Java
+- support for [permission accounting]({{ "papers/bornat:popl:2005"
+  | relative_url }}) based on fractional permissions and an
+  encoding of counting permissions
+- support for [writing (recursive) lemma functions]({{
+  "papers/jacobs:vstte:2010" | relative_url }}) to prove inductive
+  properties
+- and they were starting on some
+  [industrial case studies]({{ "papers/philippaerts:scp:2014"
+  | relative_url }})
+
+This is the kind of research that I like to do myself:
+combining various ideas from the literature into a coherent
+system.
+Along the way, you always find that there are unsolved problems
+that you need to tackle to make it solve the problems that you
+care about.
