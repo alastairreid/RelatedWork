@@ -34,7 +34,7 @@ This paper exploits the close similarity between
 Rust's type system
 and
 permission based reasoning approaches such as
-[separation logic]({{ "papers/ohearn:cacm:2019" | relative_url }}]
+[separation logic]({{ "papers/ohearn:cacm:2019" | relative_url }})
 and
 implicit dynamic frames logic.
 Specifically, they describe the embedding of Rust programs
