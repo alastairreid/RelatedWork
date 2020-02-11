@@ -24,7 +24,7 @@ number: ''
 pages: 44-51
 read: false
 readings: []
-title: 'KRust: A formal executable semantics of rust'
+title: 'KRust: A formal executable semantics of Rust'
 volume: ''
 year: 2018
 topics:
