@@ -23,6 +23,11 @@ body {
   color: $darkGray;
 }
 
+table td,
+table th {
+  padding: 6px 6px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
