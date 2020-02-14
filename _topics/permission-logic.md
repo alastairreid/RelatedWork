@@ -1,5 +1,5 @@
 ---
 layout: topic
-title: Permission Logic
+title: Separation / Permission Logic
 ---
 
