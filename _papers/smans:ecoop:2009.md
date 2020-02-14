@@ -37,8 +37,9 @@ Permission logics are Hoare-style logics for reasoning about heap allocated
 data structures and whether a piece of code has permission to access a given
 part of the structure.  Their particular strength is the ability to reason
 about the lack of aliases – drawing on ideas from linear logic.  The best known
-permission logic is [separation logic]({{ “papers/ohearn:cacm:2019”
-| relative_url }}); another permission logic is dynamic frames.  This paper
+permission logic is
+[separation logic]({{ "papers/ohearn:cacm:2019" | relative_url }});
+another permission logic is dynamic frames.  This paper
 tackles the problem that dynamic frames have a high annotation overhead because
 of the need to define and manipulate “frame annotations” for each method.
 Their solution is to infer the frame information directly from the access
@@ -49,13 +50,13 @@ I have to write access predicates and (pure) expresssions separately.  For
 example, given a pointer “p” to a pair with fields “lo” and “hi”, I might write
 a predicate
 
-> p->lo |-> ?l &∗& p->hi |-> ?h &∗& l <= h
+p->lo ↦ ?l &∗& p->hi ↦ ?h &∗& l ≤ h
 
 To say that I have access to the lo field and its value is “l” and I have
-access to the hi field and its value is “h” and “l <= h”.  But, this seems
+access to the hi field and its value is “h” and “l ≤ h”.  But, this seems
 a bit verbose compared with
 
-> p->lo <= p->hi
+> p->lo ≤ p->hi
 
 Which, just by mentioning “p->lo” and “p->hi” implies that they are accessible.
 
