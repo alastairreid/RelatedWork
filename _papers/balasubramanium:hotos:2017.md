@@ -26,6 +26,8 @@ url: https://doi.org/10.1145/3139645.3139660
 volume: '51'
 year: 2017
 topics:
+- os
+- rust
 ---
 
 See also: [the morning paper](https://blog.acolyer.org/2017/06/14/system-programming-in-rust-beyond-safety/)

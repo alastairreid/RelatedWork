@@ -23,6 +23,8 @@ readings:
 title: Annotation inference for separation logic based verifiers
 year: 2011
 topics:
+- permission-logic
+- tools
 - verification
 ---
 

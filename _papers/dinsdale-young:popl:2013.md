@@ -25,5 +25,6 @@ title: 'Views: Compositional reasoning for concurrent programs'
 url: https://doi.org/10.1145/2429069.2429104
 year: 2013
 topics:
+- permission-logic
 - verification
 ---

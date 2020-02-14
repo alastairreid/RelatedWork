@@ -16,5 +16,6 @@ title: A case study on formal verification of the Anaxagoros hypervisor paging s
 year: 2015
 topics:
 - os
+- tool
 - verification
 ---

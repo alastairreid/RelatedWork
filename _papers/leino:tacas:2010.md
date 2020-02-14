@@ -17,5 +17,7 @@ readings: []
 title: 'A polymorphic intermediate verification language: Design and logical encoding'
 year: 2010
 topics:
+- tools
+- types
 - verification
 ---

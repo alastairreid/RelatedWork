@@ -22,5 +22,6 @@ title: Growing solver-aided languages with Rosette
 url: http://doi.acm.org/10.1145/2509578.2509586
 year: 2013
 topics:
+- tools
 - verification
 ---

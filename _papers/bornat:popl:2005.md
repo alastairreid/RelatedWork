@@ -25,6 +25,7 @@ title: Permission accounting in separation logic
 url: https://doi.org/10.1145/1040305.1040327
 year: 2005
 topics:
+- permission-logic
 - verification
 ---
 

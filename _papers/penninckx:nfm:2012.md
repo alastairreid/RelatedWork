@@ -33,6 +33,8 @@ title: Sound formal verification of Linux's USB BP keyboard driver
 year: 2012
 topics:
 - os
+- permission-logic
+- tools
 - verification
 ---
 

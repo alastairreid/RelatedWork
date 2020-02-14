@@ -17,6 +17,7 @@ readings:
 title: Local verification of global invariants in concurrent programs
 year: 2010
 topics:
+- tools
 - verification
 - os
 ---

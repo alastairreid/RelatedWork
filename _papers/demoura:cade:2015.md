@@ -17,4 +17,6 @@ readings: []
 title: The Lean theorem prover (system description)
 year: 2015
 topics:
+- tools
+- verification
 ---

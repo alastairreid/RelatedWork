@@ -13,5 +13,6 @@ readings: []
 title: 'Dafny: An automatic program verifier for functional correctness'
 year: 2010
 topics:
+- tools
 - verification
 ---

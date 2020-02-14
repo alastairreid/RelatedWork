@@ -19,6 +19,8 @@ readings:
 title: 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
 year: 2011
 topics:
+- permission-logic
+- tools
 - verification
 ---
 

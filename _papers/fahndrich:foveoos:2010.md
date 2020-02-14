@@ -14,5 +14,6 @@ readings: []
 title: Static contract checking with abstract interpretation
 year: 2010
 topics:
+- tools
 - verification
 ---

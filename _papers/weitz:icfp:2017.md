@@ -20,6 +20,7 @@ readings:
 title: 'SpaceSearch: A library for building and verifying solver-aided tools'
 year: 2017
 topics:
+- tools
 - verification
 ---
 

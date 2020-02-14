@@ -13,5 +13,6 @@ readings: []
 title: Practical verification for the working programmer with codecontracts and abstract interpretation
 year: 2011
 topics:
+- tools
 - verification
 ---

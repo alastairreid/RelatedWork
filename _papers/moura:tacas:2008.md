@@ -14,5 +14,6 @@ readings: []
 title: 'Z3: An efficient SMT solver'
 year: 2008
 topics:
+- tools
 - verification
 ---

@@ -23,6 +23,7 @@ topics:
 - hardware
 - information-flow
 - security
+- tools
 ---
 
 Extends Chisel with security labels to track information flow.

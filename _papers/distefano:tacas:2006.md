@@ -14,4 +14,7 @@ readings: []
 title: A local shape analysis based on separation logic
 year: 2006
 topics:
+- permission-logic
+- tools
+- verification
 ---

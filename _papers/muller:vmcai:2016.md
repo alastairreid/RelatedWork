@@ -23,6 +23,8 @@ readings:
 title: 'Viper: A verification infrastructure for permission-based reasoning'
 year: 2016
 topics:
+- permission-logic
+- tools
 - verification
 ---
 

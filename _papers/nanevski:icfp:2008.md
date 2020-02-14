@@ -24,4 +24,7 @@ title: 'Ynot: Dependent types for imperative programs'
 url: https://doi.org/10.1145/1411204.1411237
 year: 2008
 topics:
+- permission-logic
+- types
+- verification
 ---

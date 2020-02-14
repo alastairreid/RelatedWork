@@ -27,6 +27,7 @@ readings:
 title: Alias types
 year: 2000
 topics:
+- permission-logic
 - types
 - verification
 ---

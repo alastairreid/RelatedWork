@@ -24,6 +24,8 @@ url: https://lirias.kuleuven.be/95711
 volume: '82'
 year: 2014
 topics:
+- permission-logic
+- tools
 - verification
 ---
 

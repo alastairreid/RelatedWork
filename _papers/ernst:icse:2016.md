@@ -17,5 +17,6 @@ readings: []
 title: Locking discipline inference and checking
 year: 2016
 topics:
+- tools
 - verification
 ---

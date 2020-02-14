@@ -34,4 +34,6 @@ title: 'Cogent: Verifying high-assurance file system implementations'
 url: https://doi.org/10.1145/2872362.2872404
 year: 2016
 topics:
+- verification
+- os
 ---

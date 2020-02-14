@@ -15,6 +15,7 @@ readings:
 title: 'SMACK: Decoupling source language details from verifier implementations'
 year: 2014
 topics:
+- tools
 - verification
 ---
 
