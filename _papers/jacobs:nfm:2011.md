@@ -40,9 +40,3 @@ This paper is a nice overview of the state of the project in 2011 when they had
   [industrial case studies]({{ "papers/philippaerts:scp:2014"
   | relative_url }})
 
-This is the kind of research that I like to do myself:
-combining various ideas from the literature into a coherent
-system.
-Along the way, you always find that there are unsolved problems
-that you need to tackle to make it solve the problems that you
-care about.

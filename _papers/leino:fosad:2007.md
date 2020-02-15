@@ -26,3 +26,28 @@ topics:
 - tools
 - verification
 ---
+
+This is a tutorial on the Chalice object-oriented language and verifier.
+Methods have contracts, loops have invariants,
+pointers have ownership annotations,
+there are threads, locks and fractional ownership,
+there are lock orderings to detect deadlock
+and there are ghost variables and fold/unfold ghost statements.
+
+The language seems to have had more attention paid
+to usability than normal.
+
+- For example, fractional permissions get the job done – but
+  they are a slightly obscure way to say that something is "read only"
+  so Chalice has notation to say that something is read only.
+
+- There are command line options to reduce the amount of
+  annotation required:
+
+  - unfolding and folding predicates at the start/end of each method
+
+  - automatically trying to fold when a predicate is required
+
+The conclusions section is great: it explains the influences,
+where ideas came from, who did what and where the reader might
+find more about the concepts in this language/tool.
