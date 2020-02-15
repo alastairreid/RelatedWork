@@ -16,7 +16,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: "PLDI'01"
-title: Enforcing high-Level protocols in low-level software
+title: Enforcing high-level protocols in low-level software
 url: https://doi.org/10.1145/378795.378811
 year: 2001
 topics:
