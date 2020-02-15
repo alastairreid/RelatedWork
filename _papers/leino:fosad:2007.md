@@ -22,6 +22,7 @@ title: Verification of concurrent programs with Chalice
 url: https://doi.org/10.1007/978-3-642-03829-7_7
 year: 2009
 topics:
+- permission-logic
 - tools
 - verification
 ---
