@@ -18,12 +18,19 @@ isbn: 978-3-540-32247-4
 layout: paper
 pages: 52-68
 publisher: Springer Berlin Heidelberg
-read: false
-readings: []
+read: true
+readings:
+- 2020-02-15
 title: Symbolic execution with separation logic
 year: 2005
 topics:
 - permission-logic
-- tools
 - verification
 ---
+
+This paper describes the proof-theoretic basis for the
+Smallfoot verification tool described in a
+[companion paper]({{ "papers/berdine:fmco:2005" | relative_url }}).
+See the other paper for a description.
+
+

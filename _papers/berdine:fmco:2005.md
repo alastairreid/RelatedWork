@@ -25,12 +25,45 @@ isbn: 978-3-540-36750-5
 layout: paper
 pages: 115-137
 publisher: Springer Berlin Heidelberg
-read: false
-readings: []
+read: true
+readings:
+- 2020-02-15
 title: 'Smallfoot: Modular automatic assertion checking with separation logic'
 year: 2006
 topics:
 - permission-logic
-- tool
+- tools
 - verification
 ---
+
+Smallfoot is a tool for automatically verifying both sequential
+and concurrent heap-manipulating programs
+that is based on (concurrent) separation logic and symbolic
+execution.
+The proof theoretic foundations of the tool are described
+in a
+[companion paper]({{ "papers/berdine:aplas:2005" | relative_url }}).
+
+One of the key tricks in enabling automation is to greatly
+simplify the expressive power of the logic so that the
+symbolic state consists of a set of pure formulae
+about non-heap values plus a list of spatial formulae
+that describe the heap.
+
+The paper explicitly avoids describing how conditionals are handled but,
+I believe that it works like the later
+[VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }})
+by path splitting: separately exploring the path that
+starts with the "then" branch and the path that starts with the "else" branch.
+This seems to be necessary because there is no mention of what to do at join
+points and because there seems to be no way to represent disjunctions of
+spatial formulae.
+
+The version of Smallfoot described here did not have support for
+
+- [defining predicates]({{ "papers/parkinson:popl:2005" | relative_url }}).
+  Instead predicates for lists, trees and xor-lists were hardwired in the tool.
+- [permission accounting]({{ "papers/bornat:popl:2005" | relative_url }})
+
+And there seems to be no arithmetic in the examples so I suspect
+that it was not using an SMT solver in the background.
