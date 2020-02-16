@@ -20,7 +20,7 @@ pages: 251-273
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: Assertion-based encapsulation, Object invariants and simulations
+title: Assertion-based encapsulation, object invariants and simulations
 year: 2005
 topics:
 - verification
