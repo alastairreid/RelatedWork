@@ -55,7 +55,8 @@ Spec# was an ambitious project with many different parts:
   be linked against programs written in other languages that did not
   have contracts.
   This lead to the development of a
-  [language-neutral contract library]({{ "papers/fahndrich:foveoos:2010" | relative_url }}).
+  [language-neutral contract library]({{ "papers/fahndrich:foveoos:2010" | relative_url }}),
+  [see also]({{ "papers/logozzo:vmcai:2011" | relative_url }}).
 
 - Contracts that could be used for dynamic checking or static verification.
   An early goal was to integrate with established programming practice
@@ -79,5 +80,6 @@ Spec# was an ambitious project with many different parts:
 - Verification backend: the
   [Boogie Intermediate Verification Language]({{ "papers/barnett:fmco:2005" | relative_url }})
   was created to support Spec# but has been used in many other projects.
+  (See also: [Boogie2]({{ "papers/leino:tacas:2010" | relative_url }}).)
 
 I have probably missed out a lot of important stuff – read the paper!
