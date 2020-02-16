@@ -52,7 +52,7 @@ SMACK converts LLVM IR code
 into [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
 intermediate verification language
 and then into [Corral]({{ "papers/lal:fse:2014" | relative_url }})
-and the [Z3 SMT solver]({{ "papers/moura:tacas:2008" | relative_url }})
+and the [Z3 SMT solver]({{ "papers/demoura:tacas:2008" | relative_url }})
 In this paper, this is used for bounded verification: unrolling loops and recursion up to some bound.
 
 
