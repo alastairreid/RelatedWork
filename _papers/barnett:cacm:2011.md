@@ -50,6 +50,9 @@ Spec# was an ambitious project with many different parts:
   as it evolves is hard and the language brings several problems of its
   own.
 
+  ([HAVOC]({{ "papers/chatterjee:tacas:2007" | relative_url }})
+  was a spinoff that applied some Spec# ideas to low-level C code.)
+
 - Platform: their work built on Microsoft's .NET framework which gave
   them even more potential impact but also meant that Spec# code could
   be linked against programs written in other languages that did not
@@ -81,5 +84,6 @@ Spec# was an ambitious project with many different parts:
   [Boogie Intermediate Verification Language]({{ "papers/barnett:fmco:2005" | relative_url }})
   was created to support Spec# but has been used in many other projects.
   (See also: [Boogie2]({{ "papers/leino:tacas:2010" | relative_url }}).)
+  And Boogie builds on [Z3]({{ "papers/demoura:tacas:2008" | relative_url }}).
 
 I have probably missed out a lot of important stuff – read the paper!
