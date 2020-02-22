@@ -17,11 +17,81 @@ isbn: 978-3-540-69149-5
 layout: paper
 pages: 384-391
 publisher: Springer Berlin Heidelberg
-read: false
-readings: []
+read: true
+readings:
+- 2020-02-21
 title: Specified Blocks
 url: https://doi.org/10.1007/978-3-540-69149-5\_41
 year: 2008
 topics:
+- tools
 - verification
 ---
+
+Program verification based on assertions is fundamentally wrong.
+Like Ptolemy's planetary theory of cycles within cycles, they
+are overly complex and we need something as simple as
+Galileo's theory of elliptical orbits.
+This paper forcefully argues that they should be replaced
+with "specified blocks" that form a specification of
+an entire block of code.
+That is, we should describe what a block of code
+is intended to do instead of what is true at strategic points
+in the code.
+
+A specified block consists of a block of code plus a
+predicate that relates the new and old values of any variables.
+For example, a block that increments every element of an array
+might have the specification
+
+    (forall j: 0..n . L'[j] = L[j]+1)
+
+while the obvious loop that implements this specification would have
+the specification
+
+    (forall j: 0,..i . L'[j] = L[j]) &&
+    (forall j: i,..n . L'[j] = L[j]+1)
+
+Compare this with the loop invariant that looks like this
+
+    (forall j: 0,..i . L'[j] = L[j]+1) &&
+    (forall j: i,..n . L'[j] = L[j]) &&
+    0 ≤ i ≤ n
+
+The loop invariant is different from the loop specification in three ways:
+
+- The loop invariant describes what has been done so far
+  whereas the loop specification describes what is still to be done.
+  You can see this in the first line where the loop specification
+  says that the loop does not change some initial segment of the loop
+  while the loop invariant says that, so far, the initial segment
+  has been incremented.
+
+- Likewise, the second line of the loop specification says that the
+  loop is going to increment the tail of the array while the loop
+  invariant says that the loop has not yet been changed.
+
+- Finally, the loop invariant describes a single iteration of the loop
+  and so it has to say something about the range of i while the loop
+  specification describes all remaining iterations of the loop
+  and does not need to constrain i.
+
+For loops, the difference of describing what is still to be done
+enables local reasoning about loops because the focus is on
+the action of the loop, not the code that comes before it.
+This was
+[independently rediscovered by Tuerk five years later]({{ "papers/tuerk:vstte:2010" | relative_url }})
+in the context of separation logic
+where it eliminates the need to invent predicates for describing
+partial data structures.
+This was later used as the motivation for supporting
+[lightweight magic wands]({{ "papers/schwerhoff:ecoop:2015" | relative_url }}).
+
+The paper contains four examples to illustrate how specified blocks
+are easier to work with: incrementing arrays, binary search, exponentiation
+and product of power series.
+The exponentiation example involves gotos: contradicting Dijkstra by saying
+"Apparently, unstructured goto's pose no more verification problem
+than structured loops."
+
+This approach to specification has been implemented in HOL.
