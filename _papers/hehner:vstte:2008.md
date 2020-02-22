@@ -80,7 +80,7 @@ For loops, the difference of describing what is still to be done
 enables local reasoning about loops because the focus is on
 the action of the loop, not the code that comes before it.
 This was
-[independently rediscovered by Tuerk five years later]({{ "papers/tuerk:vstte:2010" | relative_url }})
+[independently rediscovered by Tuerk two years later]({{ "papers/tuerk:vstte:2010" | relative_url }})
 in the context of separation logic
 where it eliminates the need to invent predicates for describing
 partial data structures.
