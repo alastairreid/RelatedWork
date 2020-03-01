@@ -22,7 +22,7 @@ pages: 19-33
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: A reachability predicate for analyzing low-Level software
+title: A reachability predicate for analyzing low-level software
 year: 2007
 topics:
 - tools
