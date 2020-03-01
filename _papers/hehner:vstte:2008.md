@@ -20,7 +20,7 @@ publisher: Springer Berlin Heidelberg
 read: true
 readings:
 - 2020-02-21
-title: Specified Blocks
+title: Specified blocks
 url: https://doi.org/10.1007/978-3-540-69149-5\_41
 year: 2008
 topics:
