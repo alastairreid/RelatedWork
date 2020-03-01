@@ -27,7 +27,7 @@ pages: 144-152
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: 'The Spec\# programming system: Challenges and directions'
+title: 'The Spec# programming system: Challenges and directions'
 url: https://doi.org/10.1007/978-3-540-69149-5\_16
 year: 2008
 topics:
