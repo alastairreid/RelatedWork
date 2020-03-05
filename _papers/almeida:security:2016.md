@@ -20,7 +20,7 @@ topics:
 - tools
 ---
 
-Tool for verifying constant time behaviour of C code based on self-composition preprocessing then using SMACK and Boogie.
+Tool for verifying constant time behaviour of C code based on self-composition preprocessing then using [SMACK]({{ "papers/rakamaric:cav:2014" | relative_url }}) and [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }}).
 Parameterized by whether leakage is just PC divergence or also memory access divergence.
 Correctness of a reduced/simplified version of analysis is proved in Coq and full algorithm "should not present any additional difficulty".
 Demonstrated on a very broad range of crypto code, fixed-time fixed-point code.

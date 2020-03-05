@@ -70,3 +70,6 @@ undecidable.  The contribution of this paper is
 
 The “footprint” of a wand “A ––∗ B”
 
+This has been implemented in the [Viper intermediate verification language]({{ "papers/muller:vmcai:2016" | relative_url }}) and is used in
+[Prusti]({{ "papers/astrauskas:oopsla:2019" | relative_url }}).
+

@@ -49,7 +49,7 @@ of VeriFast and then describes the four case studies
   (brief description because it has been described elsewhere)
 
 An interesting thing found in the SECURECHANGE study was that,
-despite previously having been verified using Why/Krakatoa/Caduceus,
+despite previously having been verified using [Why/Krakatoa/Caduceus]({{ "papers/filliatre:fem:2004" | relative_url }})
 bugs were found.
 They say "Clearly, the tool used earlier was not sound or was not
 used in a sound way."

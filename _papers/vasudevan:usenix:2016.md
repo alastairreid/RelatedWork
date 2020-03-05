@@ -26,7 +26,7 @@ topics:
 - verification
 ---
 
-Verifies properties of a concurrent micro-hypervisor uXMHF using Frama-C with some custom plugins and using CompCert to compile.
+Verifies properties of a concurrent micro-hypervisor uXMHF using [Frama-C]({{ "papers/cuoq:sefm:2012.md" | relative_url }}) with some custom plugins and using CompCert to compile.
 Assembly language and a hardware model are accomodated by invoking via function calls and providing a C equivalent function that accesses shadow C variables that model changes in hardware state.
 Interestingly, the hypervisor also allows unverified plugins - but all unverified plugins are run in a sandbox (and incur higher overhead).
 

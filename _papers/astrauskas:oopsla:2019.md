@@ -40,7 +40,7 @@ permission based reasoning approaches such as
 and
 implicit dynamic frames logic.
 Specifically, they describe the embedding of Rust programs
-into the Viper intermediate verification language
+into the [Viper intermediate verification language]({{ "papers/muller:vmcai:2016" | relative_url }})
 in a way that exploits the properties of Rust's
 borrow-based tyype system.
 This embedding is (partially?) implemented in the _Prusti_

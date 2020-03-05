@@ -10,7 +10,7 @@ organization: Springer
 pages: 19-22
 read: false
 readings: []
-title: Practical verification for the working programmer with codecontracts and abstract interpretation
+title: Practical verification for the working programmer with CodeContracts and abstract interpretation
 year: 2011
 topics:
 - tools
