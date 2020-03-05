@@ -45,7 +45,11 @@ The ingredients of their solution are:
 - A standard plugin interface to the language front end.  For VCC, this is 1000 lines, for Dafny, it is 400 lines.
 
 As the title implies, this is implemented in
-[Boogie]({{ "papers/barnett:fmco:2005" | relative_url }}).
+[Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
+and they have implemented the frontend support for both
+[Dafny]({{ "papers/leino:lpair:2010" | relative_url }})
+and
+[VCC]({{ "papers/cohen:cav:2010" | relative_url }}).
 
 The paper has a useful list of other work in
 ESC/Modula-3,

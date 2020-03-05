@@ -45,7 +45,7 @@ of the need to define and manipulate “frame annotations” for each method.
 Their solution is to infer the frame information directly from the access
 assertions in the pre/post-conditions of functions.
 
-A large part of what makes this more concise is that, in a tool like VeriFast,
+A large part of what makes this more concise is that, in a tool like [VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }}),
 I have to write access predicates and (pure) expresssions separately.  For
 example, given a pointer “p” to a pair with fields “lo” and “hi”, I might write
 a predicate

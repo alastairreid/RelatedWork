@@ -24,7 +24,8 @@ topics:
 - verification
 ---
 
-Dafny is both a language and a verification tool for creating verified
+[Dafny]({{ "papers/leino:lpair:2010" | relative_url }})
+is both a language and a verification tool for creating verified
 programs.
 The language has features of object-oriented languages and functional
 languages.

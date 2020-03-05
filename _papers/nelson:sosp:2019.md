@@ -28,10 +28,11 @@ This paper continues the theme of "push-button automation" from the UNSAT group'
 [Hyperkernel]({{ "papers/Nelson:sosp:2017" | relative_url }}),
 [Yggadrisil]({{ "papers/sigurbjarnarson:osdi:2016" | relative_url }})
 and [Nickel]({{ "papers/sigurbjarnarson:osdi:2018" | relative_url }}).
-Like the earlier work, they are using the Z3 SMT solver to verify systems code automatically 
+Like the earlier work, they are using the [Z3 SMT solver]({{ "papers/demoura:tacas:2008" | relative_url }}) to verify systems code automatically 
 and they are avoiding adding annotations ("auto-active verification") to help the verification 
 by restricting the code they verify to "finite interfaces" so that all loops are bounded.
-The big difference is that the earlier works wrote specifications in Python using the Z3Py library whereas this paper uses Rosette's symbolic execution support.
+The big difference is that the earlier works wrote specifications in Python using the Z3Py library whereas this paper uses
+[Rosette]({{ "papers/torlak:pldi:2014" | relative_url }})'s symbolic execution support.
 
 They demonstrate the approach by porting Komodo and CertiKOS to RISC-V, rewriting the specs in Serval and reverifying their functional correctness and security properties on the binaries.  This process took an impressive 4 person-weeks each!
 In addition, they created partial specifications of Linux BPF and the Keystone TEE and found bugs both in the artifacts they were verifying and in processors and other RISC-V specs.

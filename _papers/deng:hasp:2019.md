@@ -27,7 +27,8 @@ topics:
 ---
 
 Extends Chisel with security labels to track information flow.
-Uses Z3 to check but check is based on syntactic structure, not on semantic analysis.
+Uses [the Z3 SMT solver]({{ "papers/demoura:tacas:2008" | relative_url }})
+to check but check is based on syntactic structure, not on semantic analysis.
 That is, it just propagates labels.
 Suggests this is important for performance.
 

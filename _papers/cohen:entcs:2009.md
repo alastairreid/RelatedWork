@@ -35,7 +35,7 @@ pointer casts,
 unions,
 bitfields,
 etc.
-This formed part of the VCC tool that was used to reason about
+This formed part of the [VCC tool]({{ "papers/cohen:cav:2010" | relative_url }}) that was used to reason about
 real, complex OS-level code (that needed many of these features).
 
 Most of the model is what you would expect (pointers, fields, casts, etc.).
