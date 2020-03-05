@@ -4,7 +4,7 @@ added: 2020-01-10
 authors:
 - J. Toman
 - S. Pernsteiner
-- E. Torlak
+- Emina Torlak
 booktitle: 2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)
 doi: 10.1109/ASE.2015.77
 keywords: data structures;formal verification;program compilers;program debugging;program

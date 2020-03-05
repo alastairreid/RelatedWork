@@ -5,7 +5,7 @@ address: New York, NY, USA
 authors:
 - Cristiano Calcagno
 - Dino Distefano
-- Peter O'Hearn
+- Peter W. O'Hearn
 - Hongseok Yang
 booktitle: Proceedings of the 36th Annual ACM SIGPLAN-SIGACT Symposium on Principles
   of Programming Languages

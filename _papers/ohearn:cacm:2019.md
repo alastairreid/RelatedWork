@@ -3,7 +3,7 @@ ENTRYTYPE: article
 added: 2020-02-05
 address: New York, NY, USA
 authors:
-- Peter O'Hearn
+- Peter W. O'Hearn
 doi: 10.1145/3211968
 issn: 0001-0782
 issue_date: January 2019

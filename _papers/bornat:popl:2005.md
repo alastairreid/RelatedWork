@@ -5,7 +5,7 @@ address: New York, NY, USA
 authors:
 - Richard Bornat
 - Cristiano Calcagno
-- Peter O'Hearn
+- Peter W. O'Hearn
 - Matthew Parkinson
 booktitle: Proceedings of the 32nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming
   Languages

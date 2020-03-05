@@ -2,7 +2,7 @@
 ENTRYTYPE: inproceedings
 added: 2020-03-01
 authors:
-- K. R. M. Leino
+- K. Rustan M. Leino
 booktitle: 2013 35th International Conference on Software Engineering (ICSE)
 doi: 10.1109/ICSE.2013.6606754
 issn: 1558-1225
