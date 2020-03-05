@@ -31,7 +31,8 @@ topics:
 - verification
 ---
 
-Spec# was a Microsoft Research project that added automated verification
+[Spec#]({{ "papers/barnett:cassis:2004" | relative_url }})
+was a Microsoft Research project that added automated verification
 to C# through the addition of method contracts, class invariants and
 loop invariants.
 This was all integrated into the Visual Studio IDE to make for a very
