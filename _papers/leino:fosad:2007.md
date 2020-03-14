@@ -16,8 +16,9 @@ isbn: 978-3-642-03829-7
 layout: paper
 pages: 195-222
 publisher: Springer Berlin Heidelberg
-read: false
-readings: []
+read: true
+readings:
+- 2020-02-15
 title: Verification of concurrent programs with Chalice
 url: https://doi.org/10.1007/978-3-642-03829-7_7
 year: 2009
