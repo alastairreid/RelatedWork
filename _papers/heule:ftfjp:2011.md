@@ -20,7 +20,7 @@ read: true
 readings:
 - 2020-03-14
 series: FTfJP '11
-title: Fractional Permissions without the Fractions
+title: Fractional permissions without the fractions
 url: https://doi.org/10.1145/2076674.2076675
 year: 2011
 topics:
