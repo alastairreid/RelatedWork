@@ -31,7 +31,7 @@ topics:
 
 The standard way of distinguishing read and write permissions
 in separation logic is with
-[fractional permissions]({{ "papers/bornat:popl:2005.md" | relative_url }})
+[fractional permissions]({{ "papers/bornat:popl:2005" | relative_url }})
 in which you can write a resource if you have 100% of the resource
 read a resource if you have some fraction of the resource
 and you have no access if you have 0% of the resource.
