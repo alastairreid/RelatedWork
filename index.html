@@ -7,9 +7,7 @@ layout: default
   {% assign papers = read | sort: "readings" | reverse %}
   {% for paper in papers %}
     <article class="biblio">
-      <center>
-        <h2>{{ paper.title }}</h2>
-      </center>
+      <h2 style="text-align:center;">{{ paper.title }}</h2>
 
       <div class="entry">
         {{ paper.excerpt }}
