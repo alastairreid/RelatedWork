@@ -122,6 +122,7 @@ def replaceAccents(s):
     """
 
     s = s.replace("{\\`a}",  'à')
+    s = s.replace("{\\'a}",  'á')
     s = s.replace("{\\´a}",  'á')
     s = s.replace("{\\^a}",  'â')
     s = s.replace("{\\~a}",  'ã')
@@ -145,10 +146,21 @@ def replaceAccents(s):
     s = s.replace("{\\~o}",  'õ')
     s = s.replace("{\\u o}", 'ð')
 
+    s = s.replace("{\\\"O}", 'Ö')
+
     s = s.replace("{\\`u}",  'ù')
     s = s.replace("{\\'u}",  'ú')
     s = s.replace("{\\^u}",  'û')
     s = s.replace("{\\\"u}", 'ü')
+
+    s = s.replace("\\c{t}",  'ţ')
+    s = s.replace("\\v{a}",  'ă')
+    s = s.replace("{\\ct}",  'ţ')
+    s = s.replace("{\\va}",  'ă')
+    s = s.replace("{\\c t}",  'ţ')
+    s = s.replace("{\\v a}",  'ă')
+    s = s.replace("{\\v C}a", 'Că')
+    if "Greenberg" in s: print(s)
 
     s = s.replace("\\c c",   'ç')
     s = s.replace("\\~n",    'ñ')
@@ -177,41 +189,74 @@ def replaceAccents(s):
     # s = s.replace("\\textquoteleft ",     '‘')
     # s = s.replace("\\textquoteright ",    '’')
 
+    s = s.replace("\\textasciitilde ", "~")
+    s = s.replace("\\textasciigrave ", "`")
+    s = s.replace("\\&", "&")
+    s = s.replace("\\_", "_")
+
     s = s.replace("\n", " ")
 
     return s
 
-parser = BibTexParser()
-parser.customization = homogenize_latex_encoding
-x = sys.stdin.read()
-x = x.replace('$\{$', '{')
-x = x.replace('$\}$', '}')
-db = bibtexparser.loads(x, parser=parser)
+def cleanup(e):
+    """Cleanup data read from the BibTeX file"""
 
-for e in db.entries:
-    author = e['author']
-    author = replaceAccents(author)
+    for i in e: e[i] = e[i].strip()
 
-    authors = re.split('\s+and\s+', author)
-    authors = [ swapauth(a) for a in authors ]
-    e['authors'] = authors
-    del e['author']
+    if 'author' in e:
+        # bib entries for proceedings don't have an author
+        author = e['author']
+        author = replaceAccents(author)
 
-    e['title'] = re.sub(r'[{}]', '', e['title'])
-    e['year'] = int(e['year'])
-    for i in ['abstract', 'note', 'number', 'pages', 'series']:
+        authors = re.split('\s+and\s+', author)
+        authors = [ a.strip() for a in authors ]
+        authors = [ swapauth(a) for a in authors ]
+        e['authors'] = authors
+        del e['author']
+    else:
+        print("No author ", e['ID'])
+
+    if 'title' in e:
+        e['title'] = re.sub(r'[{}]', '', e['title'])
+    else:
+        print("No title", e['ID'])
+
+    if 'year' in e:
+        e['year'] = int(e['year'])
+    else:
+        print("No year", e['ID'])
+
+    for i in ['abstract', 'address', 'booktitle', 'day', 'doi', 'editor', 'institution', 'note', 'number', 'pages', 'school', 'series', 'title', 'url']:
         if i in e: e[i] = replaceAccents(e[i])
 
-    del e['ID']
+    if 'url' in e: e['link'] = e['url']
 
     e['layout'] = 'paper'
     e['read'] = False
     e['readings'] = []
     e['added'] = date.today()
 
-# print(json.dumps(db.entries, indent=4))
-for e in db.entries:
-    print(yaml.dump(e, Dumper=Dumper, explicit_start=True), end='')
-    print('topics:')
-    print('---')
+def main():
+    parser = BibTexParser()
+    parser.customization = homogenize_latex_encoding
+    x = sys.stdin.read()
+    x = x.replace('$\{$', '{')
+    x = x.replace('$\}$', '}')
+    db = bibtexparser.loads(x, parser=parser)
 
+    for e in db.entries:
+        cleanup(e)
+
+    # print(json.dumps(db.entries, indent=4))
+
+    for e in db.entries:
+        name = e['ID']
+        name = name.replace("/", ":")
+        name = f'staging/{name}.md'
+        with open(name, 'w') as f:
+            del e['ID']
+            yaml.dump(e, Dumper=Dumper, explicit_start=True, allow_unicode=True, width=150, stream=f)
+            print('topics:', file=f)
+            print('---', file=f)
+
+main()
