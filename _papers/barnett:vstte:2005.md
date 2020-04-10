@@ -15,9 +15,7 @@ authors:
 - K. Rustan M. Leino
 - Wolfram Schulte
 - Herman Venter
-booktitle: 'Verified Software: Theories, Tools, Experiments: First IFIP TC 2/WG 2.3
-  Conference, VSTTE 2005, Zurich, Switzerland, October 10-13, 2005, Revised Selected
-  Papers and Discussions'
+booktitle: 'Verified Software: Theories, Tools, Experiments: First IFIP TC 2/WG 2.3 Conference, VSTTE 2005, Zurich, Switzerland, October 10-13, 2005, Revised Selected Papers and Discussions'
 doi: 10.1007/978-3-540-69149-5\_16
 editor: 'Meyer, Bertrand
   and Woodcock, Jim'

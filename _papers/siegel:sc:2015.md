@@ -10,8 +10,7 @@ authors:
 - J. G. Edenhofner
 - M. B. Dwyer
 - M. S. Rogers
-booktitle: "SC '15: Proceedings of the International Conference for
-  High Performance Computing, Networking, Storage and Analysis"
+booktitle: "SC '15: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis"
 doi: 10.1145/2807591.2807635
 issn: 2167-4337
 keywords: concurrency (computers);message passing;multi-threading;program verification;CIVL;concurrency

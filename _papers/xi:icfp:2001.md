@@ -5,8 +5,7 @@ address: New York, NY, USA
 authors:
 - Hongwei Xi
 - Robert Harper
-booktitle: Proceedings of the Sixth ACM SIGPLAN International Conference on Functional
-  Programming
+booktitle: Proceedings of the Sixth ACM SIGPLAN International Conference on Functional Programming
 doi: 10.1145/507635.507657
 isbn: '1581134150'
 layout: paper
