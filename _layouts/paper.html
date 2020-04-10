@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="biblio">
-  <div style="text-style:center;">
+  <center>
     <h2>{{ page.title }}</h2>
 
     {% for author in page.authors %}
@@ -17,17 +17,26 @@ layout: default
     {% if page.doi %} <a href="https://doi.org/{{ page.doi }}">[doi]</a> {% endif %}
     {% if page.link %} <a href="{{ page.link }}">[url]</a> {% endif %}
 
-    {% if page.readings %}
+    {% if page.readings.size != 0 %}
         <br>Read:
         {% for date in page.readings %}
         {{ date | date_to_long_string }}
         {% endfor %}
     {% endif %}
 
-  </div>
+  </center>
 
   <br>
   <div style="margin-left:2em; margin-right:2em;">
+  {% if page.ENTRYTYPE == "phdthesis" %}
+      Ph.D. thesis<br>
+  {% elsif page.ENTRYTYPE == "mastersthesis" %}
+      Masters thesis<br>
+  {% elsif page.ENTRYTYPE == "manual" %}
+      Manual<br>
+  {% elsif page.ENTRYTYPE == "techreport" %}
+      Report<br>
+  {% endif %}
   {% if page.booktitle %}
       {{ page.booktitle }}
       <br>
@@ -36,16 +45,31 @@ layout: default
       {% endif %}
   {% elsif page.journal %}
       {{ page.journal }}
-      {{ page.volume }}({{ page.number }})<br>
+      {{ page.volume }}{% if page.number %}({{ page.number }}){% endif %}<br>
+  {% elsif page.number %}
+      {{ page.number }}<br>
+  {% elsif page.note %}
+      {{ page.note }}<br>
+  {% elsif page.eprint %}
+      {{ page.archiveprefix }} {{ page.eprint }} {{ page.primaryclass }}<br>
   {% endif %}
-  {% if page.location %} {{ page.location }}<br> {% endif %}
+  {% if page.school and page.school != "" %} {{ page.school }}<br> {% endif %}
+  {% if page.institution and page.institution != "" %} {{ page.institution }}<br> {% endif %}
+  {% if page.organization and page.organization != "" %} {{ page.organization }}<br> {% endif %}
+  {% if page.location and page.location != "" %} {{ page.location }}<br> {% endif %}
+  {% if page.publisher and page.publisher != "" %} {{ page.publisher }}<br> {% endif %}
+  {% if page.address and page.address != "" %} {{ page.address }}<br> {% endif %}
+  {% if page.pages and page.pages != "" %} Pages {{ page.pages }}<br> {% endif %}
+  {{ page.day }}
   {{ page.month }}
   {{ page.year }}
 
+  {% if page.topics %}
   <br>Topic(s):
   {% for topic in page.topics %}
   <a href="{{site.baseurl}}/topics/{{ topic }}">{{topic}}</a>
   {% endfor %}
+  {% endif %}
   </div>
 
   <hr>
@@ -75,5 +99,4 @@ layout: default
   </div>
   -->
 
-  {% include disqus.html %}
 </article>
