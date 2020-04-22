@@ -62,6 +62,8 @@ collections:
         output: true
     topics:
         output: true
+    notes:
+        output: true
 
 #
 # !! You don't need to change any of the configuration flags below !!

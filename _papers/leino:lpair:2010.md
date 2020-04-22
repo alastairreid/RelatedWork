@@ -18,7 +18,7 @@ topics:
 - verification
 ---
 
-Dafny is an auto-active program verifier for an imperative
+Dafny is an [auto-active program verifier] for an imperative
 language with functional and object oriented features
 that uses
 the 
@@ -57,3 +57,6 @@ error messages" is hard.
 I wonder how much that improved in later versions
 or with the development of the
 [Boogie Verification Debugger]({{ "papers/barnett:fmco:2005" | relative_url }})?
+
+
+[Auto-active program verifier]: {{ "notes/auto-active-verification" | relative_url }}

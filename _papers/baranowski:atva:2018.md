@@ -50,7 +50,7 @@ it allows verification of programs that combine Rust and C
 This toolchain uses rustc to convert Rust code to LLVM IR;
 SMACK converts LLVM IR code
 into [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
-intermediate verification language
+[intermediate verification language]
 and then into [Corral]({{ "papers/lal:fse:2014" | relative_url }})
 and the [Z3 SMT solver]({{ "papers/demoura:tacas:2008" | relative_url }})
 In this paper, this is used for bounded verification: unrolling loops and recursion up to some bound.
@@ -88,3 +88,5 @@ Future work includes
 - checking unsafe pointer usage in Rust - especially those
   from external functions
 - concurrency
+
+[Intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}

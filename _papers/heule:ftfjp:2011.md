@@ -44,7 +44,7 @@ making arbitrary choices about the size of each fraction
 and, if you add another use of a resource, you might need to update
 the existing choice of fractions from "p/2" (say) to "p/3".
 
-This paper describes an experimental version of Chalice which
+This paper describes an experimental version of the [Chalice verifier] which
 directly encodes the notion of "read permission" as a read
 instead of having to encode it as a fraction of an access.
 They end up with six different forms of permission:
@@ -56,3 +56,4 @@ They end up with six different forms of permission:
 - P1 + P2 - combining permissions
 - P1 - P2 - removing permissions
 
+[Chalice verifier]: {{ "notes/chalice-verifier" | relative_url }}
