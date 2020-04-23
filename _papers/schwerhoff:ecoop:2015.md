@@ -70,6 +70,10 @@ undecidable.  The contribution of this paper is
 
 The “footprint” of a wand “A ––∗ B”
 
-This has been implemented in the [Viper intermediate verification language]({{ "papers/muller:vmcai:2016" | relative_url }}) and is used in
-[Prusti]({{ "papers/astrauskas:oopsla:2019" | relative_url }}).
+This support for [magic wands] has been implemented in [Viper] (an
+[intermediate verification language]) and is used in the [Prusti verifier].
 
+[Prusti verifier]: {{ "notes/prusti-verifier" | relative_url }}
+[magic wands]: {{ "notes/magic-wand" | relative_url }}
+[Viper]: {{ "notes/viper-verifier" | relative_url }}
+[intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}

@@ -19,12 +19,14 @@ topics:
 - verification
 ---
 
-SMACK translates LLVM bitcode files to the
-[Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
-Intermediate Verification Language (IVL)
+SMACK translates LLVM bitcode files to the [Boogie language]
+(an [intermediate verification language])
 allowing it to support any language that LLVM supports (mostly C/C++ in this
 paper).
 
-Smack implements one key optimization: using alias analysis to partition the
+SMACK implements one key optimization: using alias analysis to partition the
 heap (and pointers into the heap) so that objects that could not be confused
 are in separate sub-heaps.
+
+[intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
+[Boogie language]: {{ "notes/boogie-verifier" | relative_url }}

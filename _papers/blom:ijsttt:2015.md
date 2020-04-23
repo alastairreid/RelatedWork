@@ -19,3 +19,13 @@ topics:
 - tools
 - verification
 ---
+
+todo: summarize this paper
+
+This support for [magic wands] has subsequently been implemented in [Viper] (an
+[intermediate verification language]) and is used in the [Prusti verifier].
+
+[Prusti verifier]: {{ "notes/prusti-verifier" | relative_url }}
+[magic wands]: {{ "notes/magic-wand" | relative_url }}
+[Viper]: {{ "notes/viper-verifier" | relative_url }}
+[intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
