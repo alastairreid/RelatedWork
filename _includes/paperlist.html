@@ -1,0 +1,11 @@
+<div class="posts">
+  <ul>
+  {% for paper in site.papers %}
+  {% for topic in paper.topics %}
+    {% if topic == page.slug %}
+    <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
+    {% endif %}
+  {% endfor %}
+  {% endfor %}
+  </ul>
+</div>

@@ -14,6 +14,10 @@ Systems based on permission logic:
 - [Chalice]
 - [Viper]
 
+## Papers about permission logic
+
+{% include paperlist.html %}
+
 [Chalice]: {{ "notes/chalice-verifier" | relative_url }}
 [Separation logic]: {{ "notes/separation-logic" | relative_url }}
 [Viper]: {{ "notes/viper-verifier" | relative_url }}
