@@ -16,6 +16,12 @@ year: 2010
 topics:
 - tools
 - verification
+notes:
+- auto-active-verification
+- boogie-verifier
+- dafny-verifier
+- z3-solver
+- smt-solver
 ---
 
 Dafny is an [auto-active program verifier] for an imperative

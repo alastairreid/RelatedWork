@@ -22,6 +22,13 @@ year: 2013
 topics:
 - tools
 - verification
+notes:
+- auto-active-verification
+- boogie-verifier
+- dafny-verifier
+- ghost-code
+- z3-solver
+- smt-solver
 ---
 
 [Dafny]({{ "papers/leino:lpair:2010" | relative_url }})

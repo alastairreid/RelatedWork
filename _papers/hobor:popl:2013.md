@@ -25,6 +25,11 @@ year: 2013
 topics:
 - permission-logic
 - verification
+notes:
+- magic-wand
+- permission-logic
+- separation-logic
+- frame-rule
 ---
 
 This paper tackles a generalized form of the

@@ -27,6 +27,11 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- chalice-verifier
+- fractional-permissions
+- permissions-accounting
 ---
 
 The standard way of distinguishing read and write permissions

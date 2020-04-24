@@ -29,6 +29,12 @@ topics:
 - rust
 - tools
 - verification
+notes:
+- boogie-verifier
+- corral-verifier
+- intermediate-verification-language
+- rust-language
+- smack-verifier
 ---
 
 The Rust programming language promises a balance between safety

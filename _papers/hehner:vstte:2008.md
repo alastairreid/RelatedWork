@@ -24,6 +24,8 @@ year: 2008
 topics:
 - tools
 - verification
+notes:
+- loop-invariant
 ---
 
 Program verification based on assertions is fundamentally wrong.

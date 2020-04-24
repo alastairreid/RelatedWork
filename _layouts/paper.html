@@ -78,6 +78,15 @@ layout: default
     {{ content }}
   </div>
 
+  <hr>
+
+  {% if page.notes %}
+  <br>Note(s):
+  {% for note in page.notes %}
+  <a href="{{site.baseurl}}/notes/{{ note }}">{{note}}</a>
+  {% endfor %}
+  {% endif %}
+
   <!--
   <br>BibTeX:
   <div style="font-family:'Lucida Console', monospace; font-size:smaller;">

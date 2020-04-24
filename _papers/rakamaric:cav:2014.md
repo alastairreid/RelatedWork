@@ -17,6 +17,10 @@ year: 2014
 topics:
 - tools
 - verification
+notes:
+- boogie-verifier
+- intermediate-verification-language
+- smack-verifier
 ---
 
 SMACK translates LLVM bitcode files to the [Boogie language]

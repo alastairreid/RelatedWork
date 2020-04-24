@@ -16,6 +16,11 @@ topics:
 - separation-logic
 - tools
 - verification
+notes:
+- loop-invariant
+- separation-logic
+- magic-wand
+- verifast-verifier
 ---
 
 As

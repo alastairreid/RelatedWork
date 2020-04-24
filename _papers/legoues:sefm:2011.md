@@ -29,6 +29,10 @@ year: 2011
 topics:
 - tools
 - verification
+notes:
+- boogie-verifier
+- dafny-verifier
+- vcc-verifier
 ---
 
 A critical part of any verification tool is a debugger that helps you understand and localise any errors detected.

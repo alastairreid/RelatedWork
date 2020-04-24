@@ -27,6 +27,11 @@ year: 2005
 topics:
 - permission-logic
 - verification
+notes:
+- permission-logic
+- separation-logic
+- permission-accounting
+- fractional-permissions
 ---
 
 Separation logic is about tracking ownership of objects
