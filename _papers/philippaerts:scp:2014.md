@@ -27,6 +27,10 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- separation-logic
+- verifast-verifier
 ---
 
 This paper reports on four case studies using

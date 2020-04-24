@@ -26,6 +26,9 @@ year: 2005
 topics:
 - permission-logic
 - verification
+notes:
+- permission-logic
+- separation-logic
 ---
 
 This paper tackles three problems:

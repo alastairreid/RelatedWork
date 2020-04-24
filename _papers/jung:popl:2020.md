@@ -26,6 +26,13 @@ volume: '4'
 year: 2019
 topics:
 - rust
+notes:
+- rust-language
+- mir-interpreter
+- undefined-behaviour
+- mir
+- rust-unsafe-code
+- coq-theorem-prover
 ---
 
 As in [the Rustbelt paper]({{ "papers/jung:popl:2017" | relative_url }}),
@@ -75,4 +82,6 @@ The model itself is based on two changes to the semantics
   A stack of pointers is used to model nested borrowing.
   
 The obvious piece of future work is to extend RustBelt
-with this model.
+([jung:popl:2017]) with this model.
+
+[jung:popl:2017]: {{ "papers/jung:popl:2017" | relative_url }}

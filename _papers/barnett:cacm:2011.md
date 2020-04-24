@@ -29,6 +29,10 @@ year: 2011
 topics:
 - tools
 - verification
+notes:
+- spec-sharp-project
+- boogie-verifier
+- contract-driven-development
 ---
 
 [Spec#]({{ "papers/barnett:cassis:2004" | relative_url }})
@@ -60,7 +64,7 @@ Spec# was an ambitious project with many different parts:
   have contracts.
   This lead to the development of a
   [language-neutral contract library]({{ "papers/fahndrich:foveoos:2010" | relative_url }}),
-  [see also]({{ "papers/logozzo:vmcai:2011" | relative_url }}).
+  [see also logozzo:vmcai:2011]({{ "papers/logozzo:vmcai:2011" | relative_url }}).
 
 - Contracts that could be used for dynamic checking or static verification.
   An early goal was to integrate with established programming practice

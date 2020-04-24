@@ -22,6 +22,15 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- separation-logic
+- fractional-permissions
+- permission-accounting
+- verifast-verifier
+- ghost-code
+- smt-solver
+- auto-active-verification
 ---
 
 VeriFast is an auto-active verification tool for C and Java based on separation

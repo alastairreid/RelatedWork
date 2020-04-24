@@ -27,6 +27,11 @@ year: 2010
 topics:
 - permission-logic
 - verification
+notes:
+- permission-logic
+- separation-logic
+- frame-rule
+- magic-wand
 ---
 
 Separation logic's strength is that it let's you reason locally

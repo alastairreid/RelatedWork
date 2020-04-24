@@ -24,6 +24,10 @@ year: 2019
 topics:
 - permission-logic
 - verification
+notes:
+- separation-logic
+- permission-logic
+- concurrent-separation-logic
 ---
 
 This survey paper updates

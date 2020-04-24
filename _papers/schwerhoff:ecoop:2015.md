@@ -18,6 +18,12 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- separation-logic
+- magic-wand
+- viper-verifier
+- prusti-verifier
 ---
 
 Verifying a loop that walks over a heap data structure is tricky.  At the

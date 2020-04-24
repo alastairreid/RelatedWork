@@ -29,6 +29,12 @@ topics:
 - rust
 - types
 - verification
+notes:
+- rust-language
+- undefined-behaviour
+- mir
+- rust-unsafe-code
+- coq-theorem-prover
 ---
 
 Rust aims to archive the holy grail of a language that gives low-control over resource management and safe high-level abstractions.

@@ -27,6 +27,8 @@ year: 2017
 topics:
 - os
 - rust
+notes:
+- rust-language
 ---
 
 The Rust language is increasingly being proposed as a safe

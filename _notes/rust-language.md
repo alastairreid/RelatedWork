@@ -9,12 +9,9 @@ Verifiers for Rust include
 [Prusti verifier],
 [SMACK verifier]
 
-[Rust research] papers:
-[astrauskas:oopsla:2019],
-[baranowski:atva:2018],
-[jung:popl:2017],
-[levy:apsys:2017],
-[toman:ase:2015]
+## Papers about Rust
+
+{% include paperlist.html %}
 
 [Prusti verifier]: {{ "notes/prusti-verifier" | relative_url }}
 [SMACK verifier]: {{ "notes/smack-verifier" | relative_url }}

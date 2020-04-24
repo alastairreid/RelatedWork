@@ -16,6 +16,15 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- separation-logic
+- fractional-permissions
+- permission-accounting
+- verifast-verifier
+- ghost-code
+- smt-solver
+- auto-active-verification
 ---
 
 [VeriFast](https://github.com/verifast/verifast)

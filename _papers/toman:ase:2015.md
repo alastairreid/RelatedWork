@@ -26,6 +26,12 @@ topics:
 - rust
 - tools
 - verification
+notes:
+- rust-language
+- bounded-verification
+- cbmc-verifier
+- rust-unsafe-code
+- undefined-behaviour
 ---
 
 One of the key strengths and weaknesses of Rust is the ability to extend its

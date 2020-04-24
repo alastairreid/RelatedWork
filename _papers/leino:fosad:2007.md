@@ -26,6 +26,14 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- modular-verification
+- contract-based-development
+- fractional-permissions
+- permissions-accounting
+- chalice-verifier
+- ghost-code
 ---
 
 This is a tutorial on the Chalice object-oriented language and verifier.

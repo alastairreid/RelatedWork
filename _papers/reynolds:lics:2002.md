@@ -24,6 +24,9 @@ year: 2002
 topics:
 - permission-logic
 - verification
+notes:
+- separation-logic
+- permission-logic
 ---
 
 Separation logic is an extension of Hoare logic for reasoning about

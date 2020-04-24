@@ -31,6 +31,9 @@ year: 2012
 topics:
 - tools
 - verification
+notes:
+- corral-verifier
+- bounded-verification
 ---
 
 This paper describes the Corral tool for finding bugs in device drivers using a variant of bounded model checking.

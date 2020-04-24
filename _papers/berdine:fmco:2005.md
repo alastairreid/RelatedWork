@@ -34,6 +34,12 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- separation-logic
+- permission-logic
+- smallfoot-verifier
+- symbolic-execution
+- verifast-verifier
 ---
 
 Smallfoot is a tool for automatically verifying both sequential

@@ -28,6 +28,11 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- biabduction
+- smallfoot-verifier
+- modular-verification
 ---
 
 One of the big challenges in automated verification is the

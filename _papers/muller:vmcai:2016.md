@@ -26,6 +26,12 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- viper-verifier
+- intermediate-verification-language
+- magic-wand
+- smt-solver
 ---
 
 [Viper] is like [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})

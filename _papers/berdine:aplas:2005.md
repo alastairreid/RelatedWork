@@ -26,6 +26,11 @@ year: 2005
 topics:
 - permission-logic
 - verification
+notes:
+- permission-logic
+- separation-logic
+- smallfoot-verifier
+- symbolic-execution
 ---
 
 This paper describes the proof-theoretic basis for the

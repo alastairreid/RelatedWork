@@ -31,6 +31,10 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- separation-logic
+- implicit-dynamic-frames
 ---
 
 Permission logics are Hoare-style logics for reasoning about heap allocated

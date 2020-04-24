@@ -30,6 +30,12 @@ topics:
 - tools
 - types
 - verification
+notes:
+- permission-logic
+- rust-language
+- viper-verifier
+- permission-accounting
+- cactus-plot
 ---
 
 This paper exploits the close similarity between
@@ -42,7 +48,7 @@ implicit dynamic frames logic.
 Specifically, they describe the embedding of Rust programs
 into the [Viper intermediate verification language]({{ "papers/muller:vmcai:2016" | relative_url }})
 in a way that exploits the properties of Rust's
-borrow-based tyype system.
+borrow-based type system.
 This embedding is (partially?) implemented in the _Prusti_
 verification tool that translates Rust to Viper
 and translates any errors back from Viper to Rust.
@@ -81,7 +87,8 @@ references.
 It seems that they really want to use
 [counting permissions]({{ "papers/bornat:popl:2005" | relative_url }})
 but, instead, they model them as fractional
-permissions (an approach they attribute to Heule).
+permissions (an approach they attribute to [Heule]({{ "papers/heule:ftfjp:2011"
+}}).
 
 Their evaluation is in two parts
 
@@ -105,8 +112,10 @@ Their evaluation is in two parts
 
 2. Verifying functional correctness of functions for
    which they added specifications.
-   For this, they gathered code from Rosetta Code
-   and from Matsakis' blog, rewrote the examples to
+   For this, they gathered code from [Rosetta
+   Code](http://www.rosettacode.org/wiki/Rosetta_Code)
+   and from [Matsakis' blog](http://smallcultfollowing.com/babysteps/),
+   rewrote the examples to
    avoid unimplemented syntax, added functional
    specifications.
    Average verification time was over 30 seconds per

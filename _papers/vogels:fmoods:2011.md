@@ -26,6 +26,11 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- verifast
+- separation-logic
+- permission-logic
+- auto-active-verification
 ---
 
 One of the challenges in automatic program verification

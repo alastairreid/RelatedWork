@@ -25,6 +25,8 @@ topics:
 - information-flow
 - security
 - os
+notes:
+- information-flow
 ---
 
 Most operating systems do two things:

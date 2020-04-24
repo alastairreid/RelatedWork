@@ -20,6 +20,16 @@ year: 2005
 topics:
 - tools
 - verification
+notes:
+- boogie-verifier
+- z3-solver
+- intermediate-verification-language
+- verification-generator
+- spec-sharp-project
+- modular-verification
+- contract-based-development
+- smack-verifier
+- corral-verifier
 ---
 
 Boogie factors verification of [Spec#]({{ "papers/barnett:cassis:2004" | relative_url }}) programs into

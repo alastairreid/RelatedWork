@@ -36,6 +36,11 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- separation-logic
+- concurrent-separation-logic
+- verifast-verifier
 ---
 
 This paper reports on verification of a simple Linux USB
