@@ -1,6 +1,7 @@
 ---
 layout: note
 title: SMT solver
+wiki: https://en.wikipedia.org/wiki/Satisfiability_modulo_theories
 ---
 
 todo:

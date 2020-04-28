@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Z3 theorem prover
+wiki: https://en.wikipedia.org/wiki/Z3_Theorem_Prover
 website: https://github.com/Z3Prover/z3
 papers:
 - demoura:tacas:2008

@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Loop invariant
+wiki: https://en.wikipedia.org/wiki/Loop_invariant
 ---
 
 todo
