@@ -19,7 +19,7 @@ html {
 
 body {
   background: #fffff8;
-  font: 18px/1.4 $palatino;
+  font: 18px/1.4 $georgia;
   color: $darkGray;
 }
 
@@ -293,11 +293,22 @@ nav {
 }
 
 blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-style: italic;
+  // background: #f9f9f9;
+  border-left: 3px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 5px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 .post {
