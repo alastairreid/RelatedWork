@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Contract driven development
+wiki: https://en.wikipedia.org/wiki/Design_by_contract
 ---
 
 Contract driven development

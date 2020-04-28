@@ -26,7 +26,7 @@ volume: '2'
 year: 2017
 topics:
 - permission-logic
-- rust
+- rust-language
 - types
 - verification
 notes:

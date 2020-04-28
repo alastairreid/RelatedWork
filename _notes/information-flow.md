@@ -1,6 +1,6 @@
 ---
 layout: note
-title: information-flow
+title: Information flow
 wiki: https://en.wikipedia.org/wiki/Information_flow_(information_theory)
 ---
 

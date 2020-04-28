@@ -26,7 +26,7 @@ url: https://doi.org/10.1145/3124680.3124717
 year: 2017
 topics:
 - os
-- rust
+- rust-language
 notes:
 - rust-language
 ---

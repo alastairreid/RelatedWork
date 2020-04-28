@@ -24,7 +24,7 @@ title: No panic! Verification of Rust programs by symbolic execution
 volume: ''
 year: 2018
 topics:
-- rust
+- rust-language
 - tools
 - verification
 ---

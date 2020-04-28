@@ -19,5 +19,7 @@ url: http://arxiv.org/abs/1806.02693
 volume: abs/1806.02693
 year: 2018
 topics:
-- rust
+- rust-language
+notes:
+- rust-language
 ---

@@ -27,7 +27,7 @@ volume: '51'
 year: 2017
 topics:
 - os
-- rust
+- rust-language
 ---
 
 See also: [the morning paper](https://blog.acolyer.org/2017/06/14/system-programming-in-rust-beyond-safety/)

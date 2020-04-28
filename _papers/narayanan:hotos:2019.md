@@ -18,6 +18,8 @@ title: 'RedLeaf: Towards an operating system for safe and verified firmware'
 year: 2019
 topics:
 - os
-- rust
+- rust-language
 - verification
+notes:
+- rust-language
 ---

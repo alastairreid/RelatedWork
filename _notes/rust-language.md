@@ -1,9 +1,14 @@
 ---
 layout: note
 title: Rust language
+wiki: https://en.wikipedia.org/wiki/Rust_(programming_language)
 ---
 
-todo
+Rust is a systems programming language that differs from C
+in that it aims for high performance without sacrificing memory safety.
+It achieves this using an unusual [ownership type system] that
+largely eliminates aliasing problems and simplifies the creation
+of concurrent programs.
 
 Verifiers for Rust include
 [Prusti verifier],
@@ -13,6 +18,7 @@ Verifiers for Rust include
 
 {% include paperlist.html %}
 
+[ownership type system]: {{ "notes/ownership-types" | relative_url }}
 [Prusti verifier]: {{ "notes/prusti-verifier" | relative_url }}
 [SMACK verifier]: {{ "notes/smack-verifier" | relative_url }}
 [Rust research]: {{ "topics/rust" | relative_url }}

@@ -1,7 +1,17 @@
 ---
 layout: note
 title: Coq theorem prover
+wiki: https://en.wikipedia.org/wiki/Coq
+website: https://coq.inria.fr
 ---
 
-todo:
+Coq is an [interactive theorem prover]
+based on the [calculus of constructions] (CoC)
+which is a [constructive logic] based on the
+[Curry-Howard correspondence].
 
+
+[interactive theorem prover]: {{ "notes/interactive-theorem-prover" | relative-url }}
+[calculus of constructions]: https://en.wikipedia.org/wiki/Calculus_of_constructions
+[Curry-Howard correspondence]: https://en.wikipedia.org/wiki/Curry–Howard_correspondence
+[constructive logic]: https://en.wikipedia.org/wiki/Intuitionistic_logic

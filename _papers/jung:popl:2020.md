@@ -25,7 +25,7 @@ url: https://doi.org/10.1145/3371109
 volume: '4'
 year: 2019
 topics:
-- rust
+- rust-language
 notes:
 - rust-language
 - mir-interpreter

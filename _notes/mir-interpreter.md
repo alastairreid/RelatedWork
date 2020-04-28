@@ -1,4 +1,3 @@
-
 ---
 layout: note
 title: Mir interpreter
@@ -11,8 +10,7 @@ Miri is an interpreter for the [Rust language]'s
 mid-level intermediate representation [MIR]
 that detects many kinds of [undefined behaviour].
 
-todo:
-
 
 [Rust language]: {{ "notes/rust-language" | relative_url }}
 [MIR]: {{ "notes/mir" | relative-url }}
+[undefined behaviour]: {{ "notes/undefined-behaviour" | relative_url }}

@@ -4,7 +4,7 @@ title: Magic wand
 ---
 
 "Magic wand" is the somewhat whimsical name for the intuitionistic implication
-operator "——∗" used in [Separation logic] and its generalization [Permission
+operator "—∗" used in [Separation logic] and its generalization [Permission
 logic].
 
 I get the impression that magic wands were largely ignored because use of magic
