@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: note
 title: Implicit dynamic frames
 ---
 

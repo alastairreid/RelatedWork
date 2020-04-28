@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: note
 title: Intermediate verification language
 ---
 

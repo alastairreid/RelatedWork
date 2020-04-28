@@ -1,6 +1,6 @@
 
 ---
-layout: page
+layout: note
 title: Mir interpreter
 ---
 

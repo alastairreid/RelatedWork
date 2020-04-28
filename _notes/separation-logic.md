@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: note
 title: Separation logic
+wiki: https://en.wikipedia.org/wiki/Separation_logic
+isa: permission-logic
 ---
 
 Separation logic is an extension of Hoare logic that adds the

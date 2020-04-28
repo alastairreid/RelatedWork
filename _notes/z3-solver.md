@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: note
 title: Z3 theorem prover
 ---
 
