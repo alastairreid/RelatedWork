@@ -5,10 +5,10 @@ title: Auto active verification
 
 A term coined by Leino and Moskal
 
-> "[...] all interaction with the program verifier [is] done with annotations
+> [...] all interaction with the program verifier [is] done with annotations
 > supplied in the program text [...]. This was made possible by powerful automatic
-> satisfiability-modulo-theories (SMT) solvers."
-> --- "[Usable auto-active verification], [Usable Verification Workshop 2010].
+> satisfiability-modulo-theories (SMT) solvers.
+> --- [Usable auto-active verification], [Usable Verification Workshop 2010].
 
 though I think they are retroactively naming what the [ESC report] did.
 
