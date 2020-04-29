@@ -203,6 +203,8 @@ def cleanup(e):
 
     for i in e: e[i] = e[i].strip()
 
+    if 'authors' in e: e['author'] = e['authors']
+
     if 'author' in e:
         # bib entries for proceedings don't have an author
         author = e['author']
@@ -252,11 +254,11 @@ def main():
     for e in db.entries:
         name = e['ID']
         name = name.replace("/", ":")
-        name = f'staging/{name}.md'
+        name = f'_staging/{name}.md'
         with open(name, 'w') as f:
             del e['ID']
             yaml.dump(e, Dumper=Dumper, explicit_start=True, allow_unicode=True, width=150, stream=f)
-            print('topics:', file=f)
+            print('notes:', file=f)
             print('---', file=f)
 
 main()
