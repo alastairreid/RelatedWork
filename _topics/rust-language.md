@@ -1,4 +1,0 @@
----
-layout: topic
-title: Rust
----
