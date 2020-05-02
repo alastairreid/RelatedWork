@@ -47,7 +47,7 @@ volume: '9780'
 year: 2016
 topics:
 notes:
-- arm architecture
+- Arm architecture
 - ISA specification
 - instruction set architecture
 - bounded model checking
