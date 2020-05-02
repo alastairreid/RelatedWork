@@ -1,8 +1,11 @@
+## Papers about {{page.title}}
+
 <div class="posts">
   <ul>
   {% for paper in site.papers %}
-  {% for topic in paper.topics %}
-    {% if topic == page.slug %}
+  {% for p in paper.notes %}
+    {% assign p2 = p | replace: ' ', '-' | downcase %}
+    {% if p2 == page.slug %}
     <li>{{ paper.title }} [<a href="{{ site.baseurl }}{{ paper.url }}">{{ paper.slug }}</a>]</li>
     {% endif %}
   {% endfor %}
