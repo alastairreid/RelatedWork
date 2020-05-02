@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: inproceedings
 acmid: '1168906'
-added: '2019-07-01'
+added: 2019-07-01
 address: New York, NY, USA
 authors:
 - Sorav Bansal

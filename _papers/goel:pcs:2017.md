@@ -9,7 +9,7 @@ abstract: Construction of a formal model of a computing system is a necessary pr
   made during model development to optimize both validation and verification, i.e., efficiency of both simulation and reasoning. Our engineering process
   provides insight into the development of a software verification and model animation framework from the points of view of accuracy, efficiency, scalability,
   maintainability, and usability.
-added: '2019-07-01'
+added: 2019-07-01
 address: Cham
 authors:
 - Shilpi Goel

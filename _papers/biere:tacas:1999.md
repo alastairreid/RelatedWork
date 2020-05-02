@@ -6,7 +6,7 @@ abstract: Symbolic Model Checking [3], [14] has proven to be a powerful techniqu
   up the verification. In addition, it produces counterexamples of minimal length. We introduce a bounded model checking procedure for LTL which reduces
   model checking to propositional satisfiability.We show that bounded LTL model checking can be done without a tableau construction. We have implemented
   a model checker BMC, based on bounded model checking, and preliminary results are presented.
-added: '2019-07-01'
+added: 2019-07-01
 address: Berlin, Heidelberg
 authors:
 - Armin Biere

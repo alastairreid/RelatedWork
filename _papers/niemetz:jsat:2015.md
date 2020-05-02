@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: article
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - Aina Niemetz
 - Mathias Preiner

@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: phdthesis
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - Xiaomu Shi
 hal_id: tel-00937524

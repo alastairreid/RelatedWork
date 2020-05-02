@@ -8,7 +8,7 @@ abstract: High-throughput, low-power Software Defined Radio(SDR) solutions requi
   From wireless protocol channels, it is able to support sequences of data-processing computations with dataflow language semantics. And for protocol systems,
   it is able to support real-time deadlines and concurrent executions with synchronous language semantics. The design choices are motivated by our experience
   implementing W-CDMA protocol on a reprogrammable substrate. In the paper, we also briefly explain SPEX's compilation strategies.
-added: '2019-06-01'
+added: 2019-06-01
 affiliation: ARM Ltd and University of Michigan
 ar_shortname: SDR 06
 authors:

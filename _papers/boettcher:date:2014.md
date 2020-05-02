@@ -8,7 +8,7 @@ abstract: SIMD extensions have gained widespread acceptance in modern microproce
   NEON based ISA extension (ARGON), augmented a cycle accurate simulation framework for it, and derived a set of benchmarks from the Berkeley dwarfs. Our
   analyses demonstrate how ARGON can, depending on the structure of an algorithm, achieve speedups of 1.5x to 16x.
 acceptance: '22'
-added: '2019-06-01'
+added: 2019-06-01
 affiliation: ARM Ltd and University of Southampton
 ar_shortname: DATE 14
 authors:

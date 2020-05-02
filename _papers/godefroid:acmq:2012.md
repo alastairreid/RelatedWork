@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: article
 acmid: '2094081'
-added: '2019-07-01'
+added: 2019-07-01
 address: New York, NY, USA
 articleno: '20'
 authors:

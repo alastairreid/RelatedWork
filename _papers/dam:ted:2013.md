@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: inproceedings
 acmid: '2517302'
-added: '2019-07-01'
+added: 2019-07-01
 address: New York, NY, USA
 authors:
 - Mads Dam

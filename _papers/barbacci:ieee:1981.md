@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: article
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - Mario R. Barbacci
 doi: 10.1109/TC.1981.6312154

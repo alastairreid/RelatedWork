@@ -5,7 +5,7 @@ abstract: 'This paper presents a method which simplifies verification of deeply 
   can be used in reverse, i.e. from shallow to deep embeddings, and thus for implementing certifying code synthesis: we have implemented a tool which maps
   HOL functions to equivalent Lisp functions, for which we have a verified Lisp runtime. A key benefit, in both directions, is that the verifier does not
   need to understand the operational semantics that gives meanings to the deep embeddings.'
-added: '2019-07-01'
+added: 2019-07-01
 address: Berlin, Heidelberg
 authors:
 - Magnus O. Myreen

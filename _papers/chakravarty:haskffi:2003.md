@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: article
-added: '2019-06-01'
+added: 2019-06-01
 ar_shortname: Haskell FFI
 authors:
 - Manuel Chakravarty

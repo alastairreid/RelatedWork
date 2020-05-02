@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: inproceedings
 acmid: '3064183'
-added: '2019-07-01'
+added: 2019-07-01
 address: New York, NY, USA
 authors:
 - Pedro Fonseca

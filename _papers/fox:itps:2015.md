@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - Anthony Fox
 booktitle: Proceedings 6th International Conference Interactive Theorem Proving ITP 2015

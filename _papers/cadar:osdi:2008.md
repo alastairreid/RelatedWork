@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: inproceedings
 acmid: '1855756'
-added: '2019-07-01'
+added: 2019-07-01
 address: Berkeley, CA, USA
 authors:
 - Cristian Cadar

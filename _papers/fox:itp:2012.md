@@ -4,7 +4,7 @@ abstract: This rough diamond presents a new domain-specific language (DSL) for p
   x86. The language's design and methodology is discussed and we propose future plans for this work. Feedback is sought from the wider theorem proving community
   in helping establish future directions for this project. A parser and interpreter for the DSL has been developed in Standard ML, with an ARMv7 model used
   as a case study.
-added: '2019-07-01'
+added: 2019-07-01
 address: Berlin, Heidelberg
 authors:
 - Anthony Fox

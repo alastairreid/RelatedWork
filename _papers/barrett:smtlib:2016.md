@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: misc
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - Clark Barrett
 - Pascal Fontaine

@@ -9,7 +9,7 @@ abstract: Some modern superscalar microprocessors provide only imprecise excepti
   compilers. From the point of view of the wider programming language community, we pose the question of whether precision and performance can be traded
   off in other languages too.
 acceptance: '20'
-added: '2019-06-01'
+added: 2019-06-01
 affiliation: 'Yale University and Microsoft Research and Cambridge University
   and University of Melbourne'
 ar_shortname: PLDI 99

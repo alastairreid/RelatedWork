@@ -7,7 +7,7 @@ abstract: Software Defined Radio(SDR) is an emerging paradigm for wireless termi
   features to accelerate Turbo decoder computations. We then present a parallel window scheduling for MAX-Log-MAP component decoder that matches well with
   the DSP architecture. Finally, we present a software implementation of Turbo decoder for W-CDMA on the DSP architecture and show that it achieves 2Mbps
   decoding throughput.
-added: '2019-06-01'
+added: 2019-06-01
 affiliation: ARM Ltd and University of Michigan and Arizona State University
 ar_shortname: SiPS 06
 authors:

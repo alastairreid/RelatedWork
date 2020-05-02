@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: techreport
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - M Barbacci
 - Chester Bell

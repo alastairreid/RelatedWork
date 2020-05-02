@@ -8,7 +8,7 @@ abstract: We describe a Guess-and-Check algorithm for computing algebraic equati
   linear equalities as invariants, which enables us to generate expressive invariants to be consumed by tools that cannot handle non-linear arithmetic.
   We have evaluated our technique on a number of benchmark programs from recent papers on invariant generation. Our results are encouraging - we are able
   to efficiently compute algebraic invariants in all cases, with only a few tests.
-added: '2019-07-01'
+added: 2019-07-01
 address: Berlin, Heidelberg
 authors:
 - Rahul Sharma

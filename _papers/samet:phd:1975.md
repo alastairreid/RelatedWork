@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: phdthesis
-added: '2019-07-01'
+added: 2019-07-01
 address: Stanford, CA, USA
 authors:
 - Hanan Samet

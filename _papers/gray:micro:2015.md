@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - Kathryn E. Gray
 - Gabriel Kerneis

@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: phdthesis
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - Shilpi Goel
 layout: paper

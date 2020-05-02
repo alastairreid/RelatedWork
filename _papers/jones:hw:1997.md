@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
-added: '2019-06-01'
+added: 2019-06-01
 affiliation: Yale University and Oregon Graduate Institute
 ar_shortname: Haskell 97
 authors:

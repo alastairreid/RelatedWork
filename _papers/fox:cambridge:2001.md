@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: techreport
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - Anthony C.J. Fox
 institution: University of Cambridge, Computer Laboratory

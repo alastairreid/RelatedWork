@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: inproceedings
 acmid: '349314'
-added: '2019-07-01'
+added: 2019-07-01
 authors:
 - George C. Necula
 booktitle: Proceedings of the ACM SIGPLAN 2000 Conference on Programming Language Design and Implementation

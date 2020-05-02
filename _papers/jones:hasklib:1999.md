@@ -1,6 +1,6 @@
 ---
 ENTRYTYPE: misc
-added: '2019-06-01'
+added: 2019-06-01
 ar_shortname: Haskell Lib
 authors:
 - Simon Peyton Jones

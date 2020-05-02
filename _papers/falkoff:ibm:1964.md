@@ -1,7 +1,7 @@
 ---
 ENTRYTYPE: article
 acmid: '1662345'
-added: '2019-07-01'
+added: 2019-07-01
 address: Riverton, NJ, USA
 authors:
 - A. D. Falkoff
