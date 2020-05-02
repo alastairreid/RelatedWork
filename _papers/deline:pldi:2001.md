@@ -23,4 +23,7 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- contract-driven-development
+- permission-logic
 ---

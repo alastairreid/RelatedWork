@@ -25,6 +25,11 @@ year: 2014
 topics:
 - tools
 - verification
+notes:
+- Rosette solver
+- symbolic evaluation
+- symbolic execution
+- bounded model checking
 ---
 
 Rosetta is a Racket DSL for implementing Solver-aided Domain Specific
@@ -54,3 +59,5 @@ synthesis task and an information flow verification task.
 
 This forms the basis of a number of other projects including
 [Serval]({{ "papers/nelson:sosp:2019" | relative_url }}).
+
+{% include links.html %}

@@ -16,4 +16,7 @@ year: 2010
 topics:
 - tools
 - verification
+notes:
+- contract-driven-development
+- abstract-interpretation
 ---

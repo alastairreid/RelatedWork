@@ -35,6 +35,7 @@ notes:
 - intermediate-verification-language
 - rust-language
 - smack-verifier
+- llvm-compiler
 ---
 
 The Rust programming language promises a balance between safety

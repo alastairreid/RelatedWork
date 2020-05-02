@@ -20,4 +20,6 @@ topics:
 - information-flow
 - security
 - types
+notes:
+- information-flow
 ---

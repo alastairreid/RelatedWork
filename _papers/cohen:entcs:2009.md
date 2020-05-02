@@ -20,6 +20,8 @@ year: 2009
 topics:
 - tools
 - verification
+notes:
+- vcc-verifier
 ---
 
 A memory model (in this context) is basically "what is a pointer"?

@@ -29,6 +29,8 @@ topics:
 - os
 - security
 - verification
+notes:
+- information-flow
 ---
 
 Information-flow control tackles two of the classic Confidentiality-Integrity-Availability (CIA) aspects of security.

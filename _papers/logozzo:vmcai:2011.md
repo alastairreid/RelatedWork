@@ -15,4 +15,6 @@ year: 2011
 topics:
 - tools
 - verification
+notes:
+- contract-based-development
 ---

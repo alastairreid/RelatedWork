@@ -33,6 +33,10 @@ year: 2012
 topics:
 - tools
 - verification
+notes:
+- abstract-interpretation
+- frama-c-verifier
+- why3-verifier
 ---
 
 Frama-C is a platform for verifying C programs.

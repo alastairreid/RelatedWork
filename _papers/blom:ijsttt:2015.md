@@ -18,6 +18,11 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- magic-wands
+- permission-logic
+- prusti-verifier
+- viper-verifier
 ---
 
 todo: summarize this paper

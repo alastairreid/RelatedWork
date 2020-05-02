@@ -15,6 +15,8 @@ year: 2013
 topics:
 - tools
 - verification
+notes:
+- KLEE verifier
 ---
 
 This paper explores the benefit of using different optimization options (or
@@ -47,3 +49,5 @@ And optimizations that make verification worse are CPU specific optimizations, c
 One of the payoffs from reading this paper is that I had naïvely expected that
 the -O0 version would be easier to verify than the -O2 or -O3 version.  At
 least when using KLEE, this is not true.
+
+{% include links.html %}

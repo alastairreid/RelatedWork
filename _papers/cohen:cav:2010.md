@@ -20,6 +20,8 @@ topics:
 - tools
 - verification
 - os
+notes:
+- vcc-verifier
 ---
 
 Describes how VCC was used to verify Hyper-V Hypervisor and PikeOS RTOS.

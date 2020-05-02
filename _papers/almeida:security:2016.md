@@ -18,6 +18,11 @@ topics:
 - information-flow
 - security
 - tools
+notes:
+- information-flow
+- self-composition
+- boogie-verifier
+- smack-verifier
 ---
 
 Tool for verifying constant time behaviour of C code based on self-composition preprocessing then using [SMACK]({{ "papers/rakamaric:cav:2014" | relative_url }}) and [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }}).

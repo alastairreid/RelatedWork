@@ -15,10 +15,14 @@ year: 2019
 topics:
 - os
 - verification
+notes:
+- translation-validation
+- Arm architecture
+- ASL
 ---
 
 Describes a toolchain for translation validation of radere2 reverse engineering
-tool using Arm's ASL specification based on the PVS7 theorem prover.
+tool using the [ASL] specification of the [Arm architecture] based on the PVS7 theorem prover.
 
 Uses multiple techniques to validate translation of ASL to PVS7.
 Tested using 370 functions extracted from Linux and Google's Zircon OS.

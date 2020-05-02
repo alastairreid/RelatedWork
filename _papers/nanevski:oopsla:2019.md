@@ -24,7 +24,9 @@ url: https://doi.org/10.1145/3360587
 volume: '3'
 year: 2019
 topics:
-- permission-logic
 - types
 - verification
+notes:
+- dependent-types
+- permission-logic
 ---

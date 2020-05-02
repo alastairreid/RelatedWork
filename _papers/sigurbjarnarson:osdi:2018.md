@@ -19,4 +19,6 @@ year: 2018
 topics:
 - information-flow
 - os
+notes:
+- information-flow
 ---

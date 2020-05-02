@@ -13,14 +13,13 @@ title: Local reasoning about while-loops
 volume: '2010'
 year: 2010
 topics:
-- separation-logic
 - tools
 - verification
 notes:
-- loop-invariant
-- separation-logic
-- magic-wand
-- verifast-verifier
+- loop invariant
+- separation logic
+- magic wand
+- Verifast verifier
 ---
 
 As
@@ -79,3 +78,4 @@ The approach in this paper is implemented in the author's
 "Holfoot" tool and also in
 [VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }}).
 
+{% include links.html %}

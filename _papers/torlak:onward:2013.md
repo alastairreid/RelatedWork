@@ -6,7 +6,7 @@ address: New York, NY, USA
 authors:
 - Emina Torlak
 - Rastislav Bodik
-booktitle: Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming \& Software
+booktitle: Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software
 doi: 10.1145/2509578.2509586
 isbn: 978-1-4503-2472-4
 keywords: solver-aided languages
@@ -24,4 +24,8 @@ year: 2013
 topics:
 - tools
 - verification
+notes:
+- Rosette solver
+- symbolic evaluation
 ---
+{% include links.html %}

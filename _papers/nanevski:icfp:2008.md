@@ -27,4 +27,8 @@ topics:
 - permission-logic
 - types
 - verification
+notes:
+- linear-logic
+- dependent-types
+- permission-logic
 ---

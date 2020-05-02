@@ -28,8 +28,8 @@ title: 'KRust: A formal executable semantics of Rust'
 volume: ''
 year: 2018
 topics:
-- rust-language
 - verification
 notes:
-- rust-language
+- Rust language
 ---
+{% include links.html %}

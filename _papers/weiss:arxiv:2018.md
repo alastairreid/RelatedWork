@@ -18,8 +18,7 @@ title: 'Rust distilled: An expressive tower of languages'
 url: http://arxiv.org/abs/1806.02693
 volume: abs/1806.02693
 year: 2018
-topics:
-- rust-language
 notes:
-- rust-language
+- Rust language
 ---
+{% include links.html %}

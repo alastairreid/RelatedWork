@@ -27,7 +27,12 @@ readings: []
 title: Alias types for recursive data structures
 year: 2001
 topics:
-- permission-logic
 - types
 - security
+notes:
+- permission logic
+- linear logic
+- ownership types
 ---
+
+{% include links.html %}

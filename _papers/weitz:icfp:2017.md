@@ -22,6 +22,9 @@ year: 2017
 topics:
 - tools
 - verification
+notes:
+- Rosette solver
+- Coq theorem prover
 ---
 
 Coq embedding of [Rosette's solver aided language]({{ "papers/torlak:pldi:2014" | relative_url }}) inspired by smten.
@@ -36,3 +39,4 @@ Demonstrated by
 - verifying Bagpipe
 
 Found bugs in both.
+{% include links.html %}

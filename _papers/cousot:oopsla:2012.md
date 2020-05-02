@@ -19,6 +19,8 @@ title: 'An abstract interpretation framework for refactoring with application to
 year: 2012
 topics:
 - verification
+notes:
+- abstract-interpretation
 ---
 
 There is a lot to recommend Design by Contract where each function/method is equipped with contracts (pre/post-conditions).

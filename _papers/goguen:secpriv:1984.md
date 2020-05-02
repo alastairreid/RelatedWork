@@ -16,4 +16,6 @@ year: 1984
 topics:
 - information-flow
 - security
+notes:
+- information-flow
 ---

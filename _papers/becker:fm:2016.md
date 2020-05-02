@@ -27,6 +27,9 @@ topics:
 - os
 - security
 - verification
+notes:
+- coq-theorem-prover
+- nova-hypervisor
 ---
 
 Describes formal verification in Coq of a model of the commercial NOVA micro-hypervisor.

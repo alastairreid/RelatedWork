@@ -11,6 +11,8 @@ topics:
 read: true
 readings:
 - 2019-10-11
+notes:
+- information-flow
 ---
 
 This very highly cited report provides (what I think is) the accepted extension of [Goguen and Meseguer's notion of interference]({{ "papers/goguen:secpriv:1982" | relative_url }}) to handle intransitive security policies.

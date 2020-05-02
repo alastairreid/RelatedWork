@@ -60,7 +60,7 @@ To say that I have access to the lo field and its value is “l” and I have
 access to the hi field and its value is “h” and “l ≤ h”.  But, this seems
 a bit verbose compared with
 
-> p->lo ≤ p->hi
+p->lo ≤ p->hi
 
 Which, just by mentioning “p->lo” and “p->hi” implies that they are accessible.
 

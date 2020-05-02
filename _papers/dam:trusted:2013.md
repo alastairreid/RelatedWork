@@ -17,4 +17,8 @@ year: 2013
 topics:
 - os
 - verification
+notes:
+- arm-architecture
+- isa-specification
+- instruction-set-architecture
 ---

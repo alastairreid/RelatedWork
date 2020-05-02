@@ -24,6 +24,8 @@ topics:
 - hardware
 - information-flow
 - security
+notes:
+- information-flow
 ---
 
 Builds on ideas also described in [Theoretical analysis of gate-level information flow tracking](oberg:dac:2010.md) of adding "shadow circuits" that calculate whether each wire/flop in a processor depends on some initial set of untrusted values.

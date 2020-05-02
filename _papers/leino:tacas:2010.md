@@ -20,4 +20,7 @@ topics:
 - tools
 - types
 - verification
+notes:
+- intermediate-verification-language
+- boogie-verifier
 ---

@@ -20,4 +20,6 @@ topics:
 - hardware
 - information-flow
 - security
+notes:
+- information-flow
 ---

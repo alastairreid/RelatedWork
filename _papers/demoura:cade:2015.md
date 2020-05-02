@@ -19,4 +19,7 @@ year: 2015
 topics:
 - tools
 - verification
+notes:
+- lean-theorem-prover
+- interactive-theorem-prover
 ---

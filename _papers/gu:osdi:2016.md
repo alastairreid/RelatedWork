@@ -15,12 +15,14 @@ pages: 653-669
 read: true
 readings:
 - 2019-11-29
-title: 'CertiKOS: An extensible architecture for building certified concurrent OS
-  Kernels'
+title: 'CertiKOS: An extensible architecture for building certified concurrent OS Kernels'
 year: 2016
 topics:
 - os
 - verification
+notes:
+- compcert-compiler
+- coq-verifier
 ---
 
 This is one of a steady stream of papers from the FLINT group at Yale on creating a formally verified OS.

@@ -24,6 +24,8 @@ topics:
 - information-flow
 - security
 - tools
+notes:
+- information-flow
 ---
 
 Extends Chisel with security labels to track information flow.

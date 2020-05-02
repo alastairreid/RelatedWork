@@ -30,6 +30,12 @@ notes:
 - contract-based-development
 - smack-verifier
 - corral-verifier
+- abstract-interpretation
+papers:
+- rakamaric:cav:2014
+- cohen:cav:2010
+- leinenbach:fm:2009
+- barnett:cassis:2004
 ---
 
 Boogie factors verification of [Spec#]({{ "papers/barnett:cassis:2004" | relative_url }}) programs into

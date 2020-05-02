@@ -19,6 +19,8 @@ topics:
 - os
 - tools
 - verification
+notes:
+- frama-c-verifier
 ---
 
 This paper describes the use of [Frama-C]({{ "papers/cuoq:sefm:2012.md" | relative_url }}) to specify and verify the

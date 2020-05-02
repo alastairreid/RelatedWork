@@ -22,6 +22,12 @@ topics:
 - security
 - tools
 - verification
+notes:
+- information-flow
+- rosette-solver
+- llvm-compiler
+- riscv-architecture
+- symbolic-evaluation
 ---
 
 This paper continues the theme of "push-button automation" from the UNSAT group's earlier work on

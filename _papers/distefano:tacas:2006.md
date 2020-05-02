@@ -17,4 +17,7 @@ topics:
 - permission-logic
 - tools
 - verification
+notes:
+- permission-logic
+- separation-logic
 ---

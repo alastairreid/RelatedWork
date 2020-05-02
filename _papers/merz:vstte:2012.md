@@ -29,4 +29,7 @@ year: 2012
 topics:
 - tools
 - verification
+notes:
+- llvm-compiler
+- bounded-model-checking
 ---

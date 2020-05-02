@@ -56,7 +56,7 @@ want some recursive property “Q” (i.e., “Q(root)” holds).  Using magic w
 we would use a list invariant of the form:
 
 
-> P(rest) ∗ (Q(rest) ––∗ Q(root))
+P(rest) ∗ (Q(rest) ––∗ Q(root))
 
 This says that
 

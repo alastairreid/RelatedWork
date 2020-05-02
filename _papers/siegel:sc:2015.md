@@ -31,4 +31,6 @@ year: 2015
 topics:
 - tools
 - verification
+notes:
+- civl-verifier
 ---

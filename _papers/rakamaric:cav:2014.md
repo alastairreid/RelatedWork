@@ -21,6 +21,7 @@ notes:
 - boogie-verifier
 - intermediate-verification-language
 - smack-verifier
+- llvm-compiler
 ---
 
 SMACK translates LLVM bitcode files to the [Boogie language]

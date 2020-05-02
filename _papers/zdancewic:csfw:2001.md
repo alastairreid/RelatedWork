@@ -19,6 +19,8 @@ title: Robust declassification
 volume: ''
 year: 2001
 topics:
-- information-flow
 - security
+notes:
+- information flow
 ---
+{% include links.html %}

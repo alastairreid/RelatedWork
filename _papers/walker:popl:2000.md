@@ -23,6 +23,8 @@ year: 2000
 topics:
 - security
 - types
+notes:
+- typed assembly language
 ---
 
 These days, many people define security properties based on
@@ -56,3 +58,5 @@ not required.
 As a result of this, anyone who receives the code can confirm
 that the code will obey the security policy just by
 typechecking the code.
+
+{% include links.html %}

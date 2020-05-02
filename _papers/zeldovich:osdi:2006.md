@@ -21,6 +21,8 @@ series: OSDI'06
 title: Making information flow explicit in HiStar
 year: 2006
 topics:
-- information-flow
 - os
+notes:
+- information flow
 ---
+{% include links.html %}

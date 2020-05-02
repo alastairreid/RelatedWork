@@ -20,6 +20,8 @@ topics:
 - information-flow
 - os
 - verification
+notes:
+- information-flow
 ---
 
 Komodo implements functionality similar to SGX but is implemented in formally verified software on ARMv7 processors instead of being implemented in hardware and microcode.

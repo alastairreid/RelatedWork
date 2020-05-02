@@ -23,6 +23,10 @@ topics:
 - os
 - security
 - verification
+notes:
+- abstract-interpretation
+- dafny-verifier
+- contract-based-development
 ---
 
 ExpressOS is a replacement single-threaded Android kernel written in C# running on top of L4/Fiasco.

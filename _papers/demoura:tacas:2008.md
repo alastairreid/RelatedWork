@@ -16,4 +16,7 @@ year: 2008
 topics:
 - tools
 - verification
+notes:
+- smt-solver
+- z3-solver
 ---

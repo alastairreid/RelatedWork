@@ -24,6 +24,8 @@ year: 1999
 topics:
 - information-flow
 - os
+notes:
+- information-flow
 ---
 
 This paper by some of my former colleagues in the [Flux group at the University of Utah](https://www.flux.utah.edu) describes the Flask microkernel-based operating system.

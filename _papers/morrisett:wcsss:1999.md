@@ -22,6 +22,11 @@ year: 1999
 topics:
 - types
 - verification
+notes:
+- x86-architecture
+- instruction-set-architecture
+- typed-assembly-language
+- linear-logic
 ---
 
 Typed assembly language is normal assembly language (x86 in this case) where any branch targets are labelled with the type of

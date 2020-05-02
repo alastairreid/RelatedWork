@@ -30,4 +30,9 @@ year: 2012
 topics:
 - tools
 - verification
+notes:
+- contract-based-development
+- spec-sharp-project
+- separation-logic
+- loop-invariant
 ---

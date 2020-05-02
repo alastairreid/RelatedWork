@@ -21,4 +21,7 @@ url: https://doi.org/10.1145/507635.507657
 year: 2001
 topics:
 - types
+notes:
+- dependent-types
 ---
+{% include links.html %}

@@ -27,17 +27,18 @@ topics:
 - tools
 - verification
 notes:
-- verifast
-- separation-logic
-- permission-logic
-- auto-active-verification
+- VeriFast verifier
+- VCC verifier
+- separation logic
+- permission logic
+- auto-active verification
 ---
 
 One of the challenges in automatic program verification
 tools such as
-[VCC]({{"papers/leinenbach:fm:2009"|relative_url}})
+the [VCC verifier]
 and
-[VeriFast](https://github.com/verifast/verifast)
+the [VeriFast verifier]
 is the amount of annotation required to 
 write the specification and 
 guide the verification tool to construct a proof.
@@ -74,3 +75,5 @@ The overall effect of these three inference steps is a dramatic reduction in
 the amount of annotation required.  Across eight functions totalling 113 lines
 of code, the amount of annotation required drops from 205 lines of annotation
 to just 8 lines of annotation.
+
+{% include links.html %}
