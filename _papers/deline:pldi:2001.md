@@ -26,3 +26,5 @@ notes:
 - contract-driven-development
 - permission-logic
 ---
+
+{% include links.html %}

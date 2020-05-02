@@ -47,3 +47,5 @@ and "split" converts an object with some type back into the corresponding sequen
 "Join" might be used when an object is allocated while "split" might be used when accessing a different union field than last time.
 
 An important part of this paper is the set of SMT axioms that are used to turn this model into an effective reasoning tool.
+
+{% include links.html %}

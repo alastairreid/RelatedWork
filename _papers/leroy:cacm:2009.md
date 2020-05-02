@@ -22,3 +22,5 @@ notes:
 - coq-theorem-prover
 - compcert-compiler
 ---
+
+{% include links.html %}

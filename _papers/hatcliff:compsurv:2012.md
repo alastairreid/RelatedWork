@@ -36,3 +36,5 @@ notes:
 - separation-logic
 - loop-invariant
 ---
+
+{% include links.html %}

@@ -19,3 +19,5 @@ topics:
 notes:
 - smt-solver
 ---
+
+{% include links.html %}

@@ -18,3 +18,5 @@ topics:
 notes:
 - contract-based-development
 ---
+
+{% include links.html %}

@@ -82,3 +82,5 @@ This support for [magic wands] has been implemented in [Viper] (an
 [magic wands]: {{ "notes/magic-wand" | relative_url }}
 [Viper]: {{ "notes/viper-verifier" | relative_url }}
 [intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
+
+{% include links.html %}

@@ -32,3 +32,5 @@ topics:
 notes:
 - rust-language
 ---
+
+{% include links.html %}

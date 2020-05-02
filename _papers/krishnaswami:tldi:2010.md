@@ -74,3 +74,5 @@ and an imperative implementation based on cell networks.
 
    
    
+
+   {% include links.html %}

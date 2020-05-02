@@ -17,3 +17,5 @@ url: http://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=36
 year: 1972
 topics:
 ---
+
+{% include links.html %}

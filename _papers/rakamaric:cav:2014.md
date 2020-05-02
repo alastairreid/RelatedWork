@@ -35,3 +35,5 @@ are in separate sub-heaps.
 
 [intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
 [Boogie language]: {{ "notes/boogie-verifier" | relative_url }}
+
+{% include links.html %}

@@ -40,3 +40,5 @@ contracts, partial orders on contracts, etc.
 
 There is also a section about the implementation and experiments that is about 2 pages long.  It would have been great to hear more here - it sounds like it was a *lot* of work.
 
+
+{% include links.html %}

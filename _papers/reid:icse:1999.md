@@ -32,3 +32,5 @@ title: 'Prototyping real-time vision systems: An experiment in DSL design'
 year: 1999
 topics:
 ---
+
+{% include links.html %}

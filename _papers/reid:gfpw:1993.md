@@ -29,3 +29,5 @@ topics:
 notes:
 - haskell-language
 ---
+
+{% include links.html %}

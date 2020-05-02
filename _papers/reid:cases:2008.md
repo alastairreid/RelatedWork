@@ -35,3 +35,5 @@ title: 'SoC-C: efficient programming abstractions for heterogeneous multicore sy
 year: 2008
 topics:
 ---
+
+{% include links.html %}

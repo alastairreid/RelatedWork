@@ -33,3 +33,5 @@ notes:
 - llvm-compiler
 - bounded-model-checking
 ---
+
+{% include links.html %}

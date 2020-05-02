@@ -37,3 +37,5 @@ Sketches several optimisations — I would have liked to have had more detail he
 There seem to be several strategies for labelling each module: explicitly label all flops; explicitly label inputs and outputs of module and scan internal connectivity to check for flow; programmer sketches abstract connectivity by specifying which inputs are connected to which outputs as a matrix.  It is not clear whether hybrids of these are supported.
 The paper seems like an early report with many unimplemented features (dynamic labelling, nested modules, Chisel 3 support) and no case study to demonstrate/test/evaluate design choices.
 Related work discusses a lot of other security related hardware description languages.
+
+{% include links.html %}

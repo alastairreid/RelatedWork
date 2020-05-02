@@ -31,3 +31,5 @@ notes:
 - dependent-type
 - permission-logic
 ---
+
+{% include links.html %}

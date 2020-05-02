@@ -22,3 +22,5 @@ title: Automatic Generation of Peephole Superoptimizers
 year: 2006
 topics:
 ---
+
+{% include links.html %}

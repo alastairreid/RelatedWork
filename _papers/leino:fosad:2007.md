@@ -59,3 +59,5 @@ to usability than normal.
 The conclusions section is great: it explains the influences,
 where ideas came from, who did what and where the reader might
 find more about the concepts in this language/tool.
+
+{% include links.html %}

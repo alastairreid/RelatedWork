@@ -51,3 +51,5 @@ Limitations:
 See [later paper by Franklin, et al.]({{"papers/franklin:cmu:2008"|relative_url}})
 that describes security issues in design, use of formal verification to model
 design, fixes and performance impact.
+
+{% include links.html %}

@@ -35,3 +35,5 @@ notes:
 - instruction-set-architecture
 - dependent-type
 ---
+
+{% include links.html %}

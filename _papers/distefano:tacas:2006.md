@@ -20,3 +20,5 @@ notes:
 - permission-logic
 - separation-logic
 ---
+
+{% include links.html %}

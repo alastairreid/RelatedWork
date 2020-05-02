@@ -31,3 +31,5 @@ Annotations can introduce ghost state and ghost code to modify that state — th
 Significant annotation burden: 1 line of annotation per line of code.  This seems to be partly the cost of flexibility / building everything out of primitives and partly the complexity of the relationships being described.  I suspect that more sugar and some annotation inference would make a big difference.
 They allude to some performance issues that are fixed by changing how the invariants, etc are written.  With 1/3 of the 100kloc annotated, it takes around 16 CPU hours to verify the properties — but this is very parallel.
 Limitation: seems to assume SC or DRF.
+
+{% include links.html %}

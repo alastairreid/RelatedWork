@@ -15,3 +15,5 @@ year: 2000
 notes:
 - information-flow
 ---
+
+{% include links.html %}

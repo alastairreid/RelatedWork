@@ -29,3 +29,5 @@ year: 1999
 topics:
 - types
 ---
+
+{% include links.html %}

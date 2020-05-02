@@ -39,3 +39,5 @@ notes:
 - seahorn-verifier
 - llvm-compiler
 ---
+
+{% include links.html %}

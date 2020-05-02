@@ -38,3 +38,5 @@ And, it relies on some auxiliary lemmas proved in Coq but does not show the deta
 (However, it does cite a paper [2] that may contain that detail.)
 
 Overall, a short, easy and rewarding read.
+
+{% include links.html %}

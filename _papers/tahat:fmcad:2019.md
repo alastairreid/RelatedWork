@@ -27,3 +27,5 @@ tool using the [ASL] specification of the [Arm architecture] based on the PVS7 t
 Uses multiple techniques to validate translation of ASL to PVS7.
 Tested using 370 functions extracted from Linux and Google's Zircon OS.
 Limited to loop-free leaf functions.
+
+{% include links.html %}

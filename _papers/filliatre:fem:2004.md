@@ -29,3 +29,5 @@ Introduced the specification notation that later became ACSL and a forerunner
 to [Frama-C]({{ "papers/cuoq:sefm:2012" | relative_url }}).
 
 Given current understanding of undefined behaviour and implementation defined behaviour in C, the translation from C looks a bit naïve.
+
+{% include links.html %}

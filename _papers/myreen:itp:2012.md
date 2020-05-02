@@ -21,3 +21,5 @@ title: 'Functional programs: Conversions between deep and shallow embeddings'
 year: 2012
 topics:
 ---
+
+{% include links.html %}

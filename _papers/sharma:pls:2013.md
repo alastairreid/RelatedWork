@@ -32,3 +32,5 @@ topics:
 notes:
 - loop-invariant
 ---
+
+{% include links.html %}

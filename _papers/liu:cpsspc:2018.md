@@ -33,3 +33,5 @@ Builds on Jif (Java with security labels), SecVerilog (HDL with security labels)
 The Hyperflow processor is not used in the experiment at this stage because they need to port Java/Jif to that architecture.
 Statistics try to distinguish noise (Gaussian) from attack (uniform) — not clear to me that this is sufficiently robust.
 
+
+{% include links.html %}

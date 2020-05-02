@@ -27,3 +27,5 @@ notes:
 - haskell-language
 - foreign-function-interface
 ---
+
+{% include links.html %}

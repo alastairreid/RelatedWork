@@ -66,3 +66,5 @@ or with the development of the
 
 
 [Auto-active program verifier]: {{ "notes/auto-active-verification" | relative_url }}
+
+{% include links.html %}

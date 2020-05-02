@@ -68,3 +68,5 @@ Although they come very close, they can't quite allow arbitrary assembly.
 * memory allocation and array index checks are performed using macros
 * memory deallocation is performed using conservative garbage collection.
 * the Popcorn runtime is not written in TALx86
+
+{% include links.html %}

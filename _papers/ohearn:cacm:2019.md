@@ -40,3 +40,5 @@ If you want an overview of the development of Separation Logic,
 this paper is a good one.
 (If you want more detail of the basics, Reynolds has more
 worked examples.)
+
+{% include links.html %}

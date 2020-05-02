@@ -72,3 +72,5 @@ The version of Smallfoot described here did not have support for
 
 And there seems to be no arithmetic in the examples so I suspect
 that it was not using an SMT solver in the background.
+
+{% include links.html %}

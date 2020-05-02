@@ -38,3 +38,5 @@ notes:
 Not read but appears to be an updated version of
 [an earlier paper]({{ "papers/heule:ftfjp:2011" | relative_url }})
 but with a less open publisher.
+
+{% include links.html %}

@@ -92,3 +92,5 @@ and
 [Permission logic]: {{ "notes/permission-logic" | relative_url }}
 [Viper]: {{ "notes/viper-verifier" | relative_url }}
 [magic wands]: {{ "notes/magic-wand" | relative_url }}
+
+{% include links.html %}

@@ -22,3 +22,5 @@ notes:
 papers:
 - necula:pldi:2000
 ---
+
+{% include links.html %}

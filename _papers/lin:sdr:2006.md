@@ -29,3 +29,5 @@ title: 'SPEX: A programming language for software defined radio'
 year: 2006
 topics:
 ---
+
+{% include links.html %}

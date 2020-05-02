@@ -24,3 +24,5 @@ title: Data-driven equivalence checking
 year: 2013
 topics:
 ---
+
+{% include links.html %}

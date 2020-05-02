@@ -17,3 +17,5 @@ year: 2006
 topics:
 - verification
 ---
+
+{% include links.html %}

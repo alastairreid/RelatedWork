@@ -42,3 +42,5 @@ and discusses a lot of the work by the author and others
 on developing, defining, using and extending 
 the different forms of separation logic that existed at the
 time (2002).
+
+{% include links.html %}

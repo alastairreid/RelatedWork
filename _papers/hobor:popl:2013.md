@@ -71,3 +71,5 @@ This paper uses reasoning about marking nodes in a DAG as the
 main example to develop/illustrate this approach.
 To demonstrate the power of the technique though, they
 reason about the Cheney 2-space garbage collection algorithm.
+
+{% include links.html %}

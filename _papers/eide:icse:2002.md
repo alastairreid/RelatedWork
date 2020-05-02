@@ -32,3 +32,5 @@ title: Static and dynamic structure in design patterns
 year: 2002
 topics:
 ---
+
+{% include links.html %}

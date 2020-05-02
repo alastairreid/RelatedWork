@@ -59,3 +59,5 @@ Besides the technical content, the writing style of the author
 stands out. Beyond the innocent sounding fact that it is written
 in the first person, the style is very hard to describe – you
 need to read it for yourself.
+
+{% include links.html %}

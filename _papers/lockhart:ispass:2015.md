@@ -25,3 +25,5 @@ notes:
 - isa-specification
 - instruction-set-architecture
 ----
+
+{% include links.html %}

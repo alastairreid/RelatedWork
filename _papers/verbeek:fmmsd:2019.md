@@ -19,3 +19,5 @@ year: 2019
 topics:
 - verification
 ---
+
+{% include links.html %}

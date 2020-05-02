@@ -83,3 +83,5 @@ The obvious piece of future work is to extend RustBelt
 ([jung:popl:2017]) with this model.
 
 [jung:popl:2017]: {{ "papers/jung:popl:2017" | relative_url }}
+
+{% include links.html %}

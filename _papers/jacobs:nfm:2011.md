@@ -48,3 +48,5 @@ This paper is a nice overview of the state of the project in 2011 when they had
   [industrial case studies]({{ "papers/philippaerts:scp:2014"
   | relative_url }})
 
+
+{% include links.html %}

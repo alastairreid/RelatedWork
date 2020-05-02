@@ -48,3 +48,5 @@ are just ghost methods and the body of those methods are
 the proofs of the lemmas. e.g., to write an inductive proof,
 one writes a recursive function using a case split to separate
 the base case from the inductive step.
+
+{% include links.html %}

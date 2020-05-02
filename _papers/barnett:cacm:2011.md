@@ -92,3 +92,5 @@ Spec# was an ambitious project with many different parts:
   And Boogie builds on [Z3]({{ "papers/demoura:tacas:2008" | relative_url }}).
 
 I have probably missed out a lot of important stuff – read the paper!
+
+{% include links.html %}

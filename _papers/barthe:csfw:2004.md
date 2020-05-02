@@ -27,3 +27,5 @@ This paper is a counter to the popular type-based approaches to information flow
 This approach can be used to enable Hoare-logic reasoning about pointer free programs, separation logic reasoning about programs with pointers, and model checking about non-deterministic programs.  (Other papers seem to have used similar definitions — the distinguishing feature of this paper seems to be the generality of their approach.)
 
 Good paper for citation/discussion of related work.
+
+{% include links.html %}

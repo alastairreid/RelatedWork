@@ -23,3 +23,5 @@ Approach is to use equivalence checking to find which functions may have changed
 I think this differs from fb-infer by using tests and model checking - but similar goals in terms of where it fits in developer workflow.
 
 Final sentences say that they are working with AWS and Samsung to evaluate/apply their approach and tools.
+
+{% include links.html %}

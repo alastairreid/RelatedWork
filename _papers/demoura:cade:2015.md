@@ -23,3 +23,5 @@ notes:
 - lean-theorem-prover
 - interactive-theorem-prover
 ---
+
+{% include links.html %}

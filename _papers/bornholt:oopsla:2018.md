@@ -29,3 +29,5 @@ notes:
 - bounded-model-checking
 - rosette-solver
 ---
+
+{% include links.html %}

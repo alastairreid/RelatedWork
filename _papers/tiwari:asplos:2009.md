@@ -34,3 +34,5 @@ This paper describes a processor with automatically added shadow circuits.  The 
 The processor is 5 stages but is not pipelined.  They compare with NIOS-II and are 70% more gates (but not quite an apples-for-apples comparison).
 
 The related work section covers previous hardware based security tracking features quite thoroughly because they claim to be the first processor of their type.
+
+{% include links.html %}

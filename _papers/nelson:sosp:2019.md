@@ -46,3 +46,5 @@ In addition, they created partial specifications of Linux BPF and the Keystone T
 The basic idea in Serval is to write an interpreter for an instruction set (eg RISC-V, BPF, ...) and then lift this interpreter to create a symbolic execution engine (requires some annotations and performance tuning).  This symbolic execution engine generates SMT that is fed to Z3. Serval includes libraries for specifying non-interference and state-machine refinement.
 
 Serval is impressively small: 4400 lines for Serval + RISC-V (subset) + x86-32 (subset) + LLVM (subset) + BPF.  That is tiny!
+
+{% include links.html %}

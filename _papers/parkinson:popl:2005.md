@@ -44,3 +44,5 @@ This paper tackles three problems:
   indexed by the class.
 
 There are a number of examples manually proved in this paper.
+
+{% include links.html %}

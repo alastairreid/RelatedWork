@@ -32,3 +32,5 @@ title: 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
 year: 2014
 topics:
 ---
+
+{% include links.html %}

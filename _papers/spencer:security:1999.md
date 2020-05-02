@@ -42,3 +42,5 @@ and
 [Flume]({{ "papers/krohn:sosp:2007" | relative_url }}).
 
 _Personal note: I joined the Flux group as Flask was being completed.  I think part of the plan was that I would work on creating a policy language for Flask.  Alas, I had no idea how to tackle this problem so I worked on component-based operating systems instead._
+
+{% include links.html %}

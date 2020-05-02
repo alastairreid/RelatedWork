@@ -27,3 +27,5 @@ year: 2012
 topics:
 - verification
 ---
+
+{% include links.html %}

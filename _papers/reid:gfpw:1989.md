@@ -22,3 +22,5 @@ title: Designing data structures
 year: 1989
 topics:
 ---
+
+{% include links.html %}

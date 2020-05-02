@@ -25,3 +25,5 @@ Clearly, it is ok for top-secret documents to be sent to the downgrader and for 
 In addition to the basic definitions, they provide the "unwinding conditions" required to prove that a system satisfies a given security policy and all formal statements are backed up by mechanised proofs (in a companion report).
 
 One purpose of the report to provide a definition of intransitive interference for which it is easy to show that transitive interference is a special case.
+
+{% include links.html %}

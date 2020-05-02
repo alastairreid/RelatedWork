@@ -95,3 +95,5 @@ The exponentiation example involves gotos: contradicting Dijkstra by saying
 than structured loops."
 
 This approach to specification has been implemented in HOL.
+
+{% include links.html %}

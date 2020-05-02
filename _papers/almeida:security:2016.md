@@ -30,3 +30,5 @@ Correctness of a reduced/simplified version of analysis is proved in Coq and ful
 Demonstrated on a very broad range of crypto code, fixed-time fixed-point code.
 Key idea is to reduce security property (2-safety) to 1-safety property using a product construction exploiting the requirement that, if the code is constant time then there should be no PC divergence between the two runs.
 A key strength is the ability to be output insensitive: it is ok to leak information that will be leaked anyway.  E.g., if the size is part of the intended output, then it is ok for runtime to depend on size even though size may depend on the secret input.  This distinguishes it from approaches that use some form of tainting of inputs.
+
+{% include links.html %}

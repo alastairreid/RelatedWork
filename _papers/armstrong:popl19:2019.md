@@ -56,3 +56,5 @@ notes:
 - dependent type
 - ASL
 ---
+
+{% include links.html %}

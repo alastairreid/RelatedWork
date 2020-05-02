@@ -47,3 +47,5 @@ The earlier paper showed how to reason about some example code.
 This paper develops “fully abstract overlay semantics” which is an alternative semantics for machine code that has an explicit stack and restricts the code to only use the stack in the way that a compiler might expect.
 By doing this, they define what they mean by “well bracketed control flow” and they explicitly link the property that they prove to the requirements that a compiler might have on the code.
 Nice!
+
+{% include links.html %}

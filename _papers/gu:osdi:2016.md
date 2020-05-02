@@ -76,3 +76,5 @@ One question that I am left with is whether the layered structure brings any fle
 That is, can we replace, omit or reorder layers to get interesting variations on CertiKOS?
 It is possible that the hypervisor configuration does this – but it is not clear from the paper.
 
+
+{% include links.html %}

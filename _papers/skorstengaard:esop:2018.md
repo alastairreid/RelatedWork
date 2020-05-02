@@ -64,3 +64,5 @@ It assumes one new hardware primitive that it requires
 to be efficient: clearing a contiguous region of the stack
 to prevent capabilities held by a function from leaking
 into other functions that happen to share the stack.
+
+{% include links.html %}

@@ -87,3 +87,5 @@ results in the presence of communication between different
 processes while the mCertiKOS paper proves results about
 a system in which inter-process communication has been
 disabled.
+
+{% include links.html %}

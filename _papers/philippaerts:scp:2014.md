@@ -88,3 +88,5 @@ such as
 [VCC]({{ "papers/cohen:cav:2010" | relative_url }})
 would not need as much annotation but at the expense of
 less predictable search time.
+
+{% include links.html %}

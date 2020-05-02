@@ -32,3 +32,5 @@ A refinement mapping is a function from the implementation state (including
 auxiliary variables) to the specification state.
 The auxiliary variables can be either "history variables" or "prophecy
 variables".
+
+{% include links.html %}

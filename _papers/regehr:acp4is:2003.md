@@ -21,3 +21,5 @@ title: Lock inference for systems software
 year: 2003
 topics:
 ---
+
+{% include links.html %}

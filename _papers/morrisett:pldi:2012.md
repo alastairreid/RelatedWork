@@ -29,3 +29,5 @@ notes:
 - x86-architecture
 - instruction-set-architecture
 ---
+
+{% include links.html %}

@@ -36,3 +36,5 @@ Notes:
 - this paper verifies a manually constructed abstraction of the software - possible errors could occur due to both the manual process and the degree of abstraction required
 - it appears that Murphi does not produce minimal counterexamples
 - Murphi is an explicit state model checker and therefore requires significant abstraction and, even then, runs into severe scaling issues.  They were only able to verify with three or four memory pages, four pages was over 100 times slower, five pages exceeded available resources.
+
+{% include links.html %}

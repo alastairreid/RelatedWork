@@ -46,3 +46,5 @@ They suggest that writing specs that are more independent from the code and more
 A number of experiments establish that the overhead of storing the additional metadata and signing/verifying/encrypting/decrypting the data is not too bad.
 (The experiments are on a fairly low performance system with a slow disk – I wonder whether overhead would be larger or smaller on a modern SSD?)
 
+
+{% include links.html %}

@@ -23,3 +23,5 @@ notes:
 - instruction-set-architecture
 - translation-validation
 ---
+
+{% include links.html %}

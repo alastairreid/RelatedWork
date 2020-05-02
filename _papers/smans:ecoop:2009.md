@@ -66,3 +66,5 @@ Which, just by mentioning “p->lo” and “p->hi” implies that they are acce
 The ideas in this paper were implemented in the “VeriCool” tool for verifying
 concurrent object-oriented languages.
 
+
+{% include links.html %}

@@ -20,3 +20,5 @@ notes:
 - instruction-set-architecture
 - acl2-theorem-prover
 ---
+
+{% include links.html %}

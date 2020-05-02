@@ -65,3 +65,5 @@ each component of the state as being part of one process or another.
 This static labelling seems to cause some difficulty as shared
 pieces of state such as machine registers need to change labels
 on every context switch.
+
+{% include links.html %}

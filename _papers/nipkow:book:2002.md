@@ -17,3 +17,5 @@ year: 2002
 notes:
 - interactive-theorem-prover
 ---
+
+{% include links.html %}

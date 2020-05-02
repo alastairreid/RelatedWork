@@ -18,3 +18,5 @@ notes:
 - information-flow
 year: 1982
 ---
+
+{% include links.html %}

@@ -20,3 +20,5 @@ notes:
 - smt-solver
 - z3-solver
 ---
+
+{% include links.html %}

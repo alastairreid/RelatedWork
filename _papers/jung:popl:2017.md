@@ -52,3 +52,5 @@ After a tour of the key concepts in Rust’s ownership type system, they present
 For a more detailed summary, I recommend [the morning
 paper](https://blog.acolyer.org/2018/01/18/rustbelt-securing-the-foundations-of-the-rust-programming-language/).
 
+
+{% include links.html %}

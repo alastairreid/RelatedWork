@@ -55,3 +55,5 @@ the second version is written in an expressive high-level language)._
 
 Not mentioned in the paper is that the project was cancelled due to a change in company plans.
 Unusually, the affiliation on the paper says that the authors' employers wish to remain anonymous.
+
+{% include links.html %}

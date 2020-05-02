@@ -27,3 +27,5 @@ topics:
 notes:
 - x86-architecture
 ---
+
+{% include links.html %}

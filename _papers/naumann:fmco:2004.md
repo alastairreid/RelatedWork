@@ -25,3 +25,5 @@ year: 2005
 topics:
 - verification
 ---
+
+{% include links.html %}

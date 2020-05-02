@@ -20,3 +20,5 @@ notes:
 - contract-driven-development
 - abstract-interpretation
 ---
+
+{% include links.html %}

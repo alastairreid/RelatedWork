@@ -45,3 +45,5 @@ title: 'From SODA to scotch: The evolution of a wireless baseband processor'
 year: 2008
 topics:
 ---
+
+{% include links.html %}

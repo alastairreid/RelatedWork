@@ -61,3 +61,5 @@ They end up with six different forms of permission:
 - P1 - P2 - removing permissions
 
 [Chalice verifier]: {{ "notes/chalice-verifier" | relative_url }}
+
+{% include links.html %}

@@ -22,3 +22,5 @@ topics:
 - types
 - verification
 ---
+
+{% include links.html %}

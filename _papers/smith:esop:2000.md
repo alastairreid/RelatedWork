@@ -90,3 +90,5 @@ of the machinery that they develop.
 The paper includes a 21 page appendix in which they prove
 type soundness of their system using a proof in the style
 of Wright and Felleisen.
+
+{% include links.html %}

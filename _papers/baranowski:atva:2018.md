@@ -96,3 +96,5 @@ Future work includes
 - concurrency
 
 [Intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
+
+{% include links.html %}

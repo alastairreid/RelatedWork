@@ -23,3 +23,5 @@ topics:
 - hardware
 - verification
 ---
+
+{% include links.html %}

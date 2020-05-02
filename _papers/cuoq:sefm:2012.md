@@ -61,3 +61,5 @@ The Value analysis also generates information about dependencies, write sets, et
 Some additional plugins are
 * Aoraï converts LTL formulae about function call sequences into ACSL annotations that are inserted into the program.
 * Sante uses testing to confirm that any alarms are true bugs and not false alarms.  This uses a combination of Value to generate alarms, slicing to reduce the program to the parts needed by each alarm and PathCrawler to explore the paths within each slice.
+
+{% include links.html %}

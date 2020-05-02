@@ -59,3 +59,5 @@ In particular, solver time increased exponentially with proof complexity and
 they got no information from the tools to help them debug these issues.
 
 [Note: I work with Andrew Ferraiuolo, the lead author on this paper.]
+
+{% include links.html %}

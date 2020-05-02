@@ -80,3 +80,5 @@ The Rust-to-C translation cannot handle closures or dynamic dispatch.
 If the generated sequence generates a panic, this is ignored instead of
 being reported as a failure – this feels like a missed opportunity.
 
+
+{% include links.html %}

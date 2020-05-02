@@ -24,3 +24,5 @@ notes:
 - intermediate-verification-language
 - boogie-verifier
 ---
+
+{% include links.html %}

@@ -16,3 +16,5 @@ year: 2017
 notes:
 - information-flow
 ---
+
+{% include links.html %}

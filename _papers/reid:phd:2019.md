@@ -46,3 +46,5 @@ title: 'Defining interfaces between hardware and software: Quality and performan
 year: 2019
 topics:
 ---
+
+{% include links.html %}

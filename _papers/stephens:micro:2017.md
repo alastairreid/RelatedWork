@@ -42,3 +42,5 @@ notes:
 - arm-architecture
 - instruction-set-architecture
 ---
+
+{% include links.html %}

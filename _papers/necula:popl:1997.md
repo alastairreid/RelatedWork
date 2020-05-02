@@ -22,3 +22,5 @@ year: 1997
 topics:
 notes:
 ---
+
+{% include links.html %}

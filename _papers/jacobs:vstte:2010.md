@@ -46,3 +46,5 @@ then "P —∗ Q".
 implication" from separation logic.)
 These lemma functions are allowed to be recursive so it is possible to
 write inductive proofs.
+
+{% include links.html %}

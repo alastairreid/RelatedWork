@@ -58,3 +58,5 @@ Used by
 [Hyper-V]({{"papers/cohen:cav:2010"|relative_url}})
 [VCC]({{"papers/leinenbach:fm:2009"|relative_url}})
 and others.
+
+{% include links.html %}
