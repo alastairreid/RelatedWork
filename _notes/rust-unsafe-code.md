@@ -1,11 +1,12 @@
 ---
 layout: note
 title: Rust unsafe code
+papers:
+- jung:popl:2020
+notes:
+- Rust language
 ---
 
 todo:
 
-[Rust language]
-
-[Rust language]: {{ "notes/rust-language" | relative_url }}
-[jung:popl:2020]: {{ "papers/jung:popl:2020" | relative_url }}
+{% include links.html %}

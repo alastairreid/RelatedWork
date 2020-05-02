@@ -1,6 +1,9 @@
 ---
 layout: note
 title: Concurrent separation logic
+notes:
+- separation logic
+- frame rule
 ---
 
 todo:
@@ -12,4 +15,4 @@ mechanisms.
 Often the answer is that the synchronization mechanism logically owns the
 resource when the lock (or whatever) is not held.
 
-[Separation logic]: {{ "notes/separation-logic" | relative_url }}
+{% include links.html %}

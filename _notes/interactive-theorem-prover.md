@@ -13,3 +13,5 @@ generating a proof certificate that is checked by a small
 trusted core.
 Some variants optimize this process while preserving the
 same soundness guarantee.
+
+{% include links.html %}

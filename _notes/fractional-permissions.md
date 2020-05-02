@@ -1,6 +1,13 @@
 ---
 layout: note
 title: Fractional permissions
+papers:
+- bornat:popl:2005
+- heule:ftfjp:2011
+notes:
+- separation logic
+- permission logic
+- permission accounting
 ---
 
 Fractional permissions
@@ -20,8 +27,4 @@ choice of what fractions to use.
 
 
 
-[Permission logic]: {{ "notes/permission-logic" | relative_url }}
-[Permission accounting]: {{ "notes/permission-accounting" | relative_url }}
-[Separation logic]: {{ "notes/separation-logic" | relative_url }}
-[bornat:popl:2005]: {{ "papers/bornat:popl:2005" | relative_url }}
-[heule:ftfjp:2011]: {{ "papers/heule:ftfjp:2011" | relative_url }}
+{% include links.html %}

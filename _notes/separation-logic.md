@@ -2,7 +2,8 @@
 layout: note
 title: Separation logic
 wiki: https://en.wikipedia.org/wiki/Separation_logic
-isa: permission-logic
+isa: permission logic
+notes:
 ---
 
 Separation logic is an extension of Hoare logic that adds the
@@ -14,7 +15,4 @@ resources that cannot be duplicated.
 Variations on the theme of separation logic have been developed
 and are collectively referred to as [permission logic].
 
-
-[Chalice]: {{ "notes/chalice-verifier" | relative_url }}
-[Permission logic]: {{ "notes/permission-logic" | relative_url }}
-[Viper]: {{ "notes/viper-verifier" | relative_url }}
+{% include links.html %}

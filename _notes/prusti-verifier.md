@@ -4,6 +4,13 @@ title: Prusti verifier
 papers:
 - schwerhoff:ecoop:2015
 - astrauskas:oopsla:2019
+notes:
+- intermediate verification language
+- permission logic
+- Rust language
+- viper verifier
+- Prusti verifier
+- magic wand
 ---
 
 Prusti is a verifier for the [Rust language]
@@ -13,11 +20,6 @@ an [intermediate verification language].
 Prusti was developed by ETH Zurich.
 
 An unusual part of its design is that it makes use of
-[magic wands] to model reference borrowing.
+[magic wand]s to model reference borrowing.
 
-[Intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
-[Permission logic]: {{ "notes/permission-logic" | relative_url }}
-[Prusti verifier]: {{ "notes/prusti-verifier" | relative_url }}
-[Rust language]: {{ "notes/rust-language" | relative_url }}
-[magic wands]: {{ "notes/magic-wand" | relative_url }}
-[Viper verifier]: {{ "notes/viper-verifier" | relative_url }}
+{% include links.html %}

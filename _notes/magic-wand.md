@@ -1,6 +1,14 @@
 ---
 layout: note
 title: Magic wand
+papers:
+- astrauskas:oopsla:2019
+- blom:ijsttt:2015
+- schwerhoff:ecoop:2015
+notes:
+- Permission logic
+- Rust language
+- Separation logic
 ---
 
 "Magic wand" is the somewhat whimsical name for the intuitionistic implication
@@ -22,9 +30,4 @@ currently being processed.
 Magic wands are also used to model borrow semantics in the [Rust language] by
 [astrauskas:oopsla:2019].
 
-[Permission logic]: {{ "notes/permission-logic" | relative_url }}
-[Rust language]: {{ "notes/rust-language" | relative_url }}
-[Separation logic]: {{ "notes/separation-logic" | relative_url }}
-[astrauskas:oopsla:2019]: {{ "papers/astrauskas:oopsla:2019" | relative_url }}
-[blom:ijsttt:2015]: {{ "papers/blom:ijsttt:2015" | relative_url }}
-[schwerhoff:ecoop:2015]: {{ "papers/schwerhoff:ecoop:2015" | relative_url }}
+{% include links.html %}

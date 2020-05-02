@@ -1,10 +1,10 @@
 ---
 layout: note
 title: Frame rule
+notes:
+- separation logic
 ---
 
 todo
 
-[separation logic]
-
-[Separation logic]: {{ "notes/separation-logic" | relative_url }}
+{% include links.html %}

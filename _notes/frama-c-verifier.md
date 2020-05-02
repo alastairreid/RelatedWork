@@ -5,6 +5,8 @@ wiki: https://en.wikipedia.org/wiki/Frama-C
 website: http://frama-c.com
 papers:
 - cuoq:sefm:2012
+notes:
+- undefined behaviour
 ---
 
 Frama-C (the Framework for Modular Analysis of C programs)
@@ -22,4 +24,5 @@ Frama-C has commercial support from [TrustInSoft].
 
 [TrustInSoft]: http://trust-in-soft.com/
 [tis interpreter]: http://trust-in-soft.com/tis-interpreter
-[undefined behaviour]: {{ "notes/undefined-behaviour" | relative_url }}
+
+{% include links.html %}

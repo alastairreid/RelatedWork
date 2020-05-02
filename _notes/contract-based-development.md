@@ -1,6 +1,11 @@
 ---
 layout: note
 title: Contract based development
+papers:
+- logozzo:vmcai:2011
+notes:
+- test driven development
+- modular verification
 ---
 
 Contract based development (aka Contract driven development)
@@ -13,6 +18,6 @@ In a formal verification context, this is often synonymous with [modular verific
 The approach of defining the desired behaviour before implementing the
 behaviour bears some resemblance to [test driven development].
 
-[modular verification]: {{ "notes/modular-verification" | relative_url }}
-[test driven development]: {{ "notes/test-driven-development" | relative_url }}
 [meyer:fase:2007]: https://doi.org/10.1007/978-3-540-71289-3_2
+
+{% include links.html %}

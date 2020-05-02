@@ -7,6 +7,9 @@ papers:
 - philippaerts:scp:2014
 - jacobs:vstte:2010
 - penninckx:nfm:2012
+notes:
+- separation logic
+- fractional permissions
 ---
 
 VeriFast is a verifier for C and Java programs
@@ -16,5 +19,4 @@ at KU Leuven.
 VeriFast includes support for
 [fractional permissions]
 
-[Fractional permissions]: {{ "notes/fractional-permissions" | relative_url }}
-[Separation logic]: {{ "notes/separation-logic" | relative_url }}
+{% include links.html %}

@@ -1,18 +1,21 @@
 ---
 layout: note
 title: Intermediate verification language
+notes:
+- Boogie verifier
+- Viper verifier
+papers:
+- legoues:sefm:2011
 ---
 
 An intermediate verification language is a simple verification language that
 more complex languages can be converted down to.
 
 A critical feature in IVLs is that any error messages can be converted back
-to the source language as in the [Boogie verification debugger].
+to the source language as in the [Boogie verification debugger][legoues:sefm:2011].
 
 Examples include
-[Boogie] and
-[Viper].
+the [Boogie verifier] and
+the [Viper verifier].
 
-[Boogie]: {{ "notes/boogie-verifier" | relative_url }}
-[Boogie verification debugger]: {{ "papers/legoues:sefm:2011/" | relative_url }}
-[Viper]: {{ "notes/viper-verifier" | relative_url }}
+{% include links.html %}

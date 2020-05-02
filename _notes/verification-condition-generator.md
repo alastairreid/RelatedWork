@@ -2,6 +2,8 @@
 layout: note
 title: Verification condition generator
 wiki: https://en.wikipedia.org/wiki/Verification_condition_generator
+notes:
+- Boogie verifier
 ---
 
 todo
@@ -9,4 +11,4 @@ todo
 Examples include
 [Boogie verifier]
 
-[Boogie verifier]: {{ "notes/boogie-verifier" | relative_url }}
+{% include links.html %}
