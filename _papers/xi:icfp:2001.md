@@ -22,6 +22,6 @@ year: 2001
 topics:
 - types
 notes:
-- dependent-types
+- dependent-type
 ---
 {% include links.html %}

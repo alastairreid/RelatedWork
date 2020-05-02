@@ -27,6 +27,6 @@ topics:
 - types
 - verification
 notes:
-- dependent-types
+- dependent-type
 - permission-logic
 ---
