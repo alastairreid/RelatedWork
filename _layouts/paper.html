@@ -83,7 +83,7 @@ layout: default
   {% if page.notes %}
   Note(s):
   {% for note in page.notes %}
-  <a href="{{site.baseurl}}/notes/{{ note | replace: ' ', '-'}}">{{note}}</a>{% if forloop.last %}{% else %},{% endif %}
+  <a href="{{site.baseurl}}/notes/{{ note | replace: ' ', '-' | downcase}}">{{note}}</a>{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
   {% endif %}
 

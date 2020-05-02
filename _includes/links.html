@@ -1,11 +1,11 @@
 {% for x in page.isa %}
-[{{x}}]: {{site.baseurl}}/notes/{{x | replace: ' ', '-'}}
+[{{x}}]: {{site.baseurl}}/notes/{{x | replace: ' ', '-' | downcase}}
 {% endfor %}
 {% for x in page.examples %}
-[{{x}}]: {{site.baseurl}}/notes/{{x | replace: ' ', '-'}}
+[{{x}}]: {{site.baseurl}}/notes/{{x | replace: ' ', '-' | downcase}}
 {% endfor %}
 {% for x in page.notes %}
-[{{x}}]: {{site.baseurl}}/notes/{{x | replace: ' ', '-'}}
+[{{x}}]: {{site.baseurl}}/notes/{{x | replace: ' ', '-' | downcase}}
 {% endfor %}
 {% for x in page.papers %}
 [{{x}}]: {{site.baseurl}}/papers/{{x}}
