@@ -25,8 +25,6 @@ Verifiers for Rust include
 [Prusti verifier],
 [SMACK verifier]
 
-## Papers about Rust
-
 {% include paperlist.html %}
 
 {% include links.html %}

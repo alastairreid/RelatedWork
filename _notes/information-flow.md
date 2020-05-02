@@ -34,8 +34,6 @@ Some topics are
 -  Systems
 -  Quantitative
 
-## Papers about information flow
-
 {% include paperlist.html %}
 
 {% include links.html %}

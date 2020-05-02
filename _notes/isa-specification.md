@@ -8,8 +8,6 @@ notes:
 Specifications of [instruction set architecture]s.
 
 
-## Papers about ISA specifications
-
 {% include paperlist.html %}
 
 {% include links.html %}

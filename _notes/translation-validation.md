@@ -10,8 +10,6 @@ papers:
 
 todo:
 
-## Papers about {{ title }}
-
 {% include paperlist.html %}
 
 {% include links.html %}
