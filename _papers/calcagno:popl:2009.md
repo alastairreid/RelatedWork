@@ -25,7 +25,6 @@ title: Compositional shape analysis by means of bi-abduction
 url: https://doi.org/10.1145/1480881.1480917
 year: 2009
 topics:
-- permission-logic
 - tools
 - verification
 notes:

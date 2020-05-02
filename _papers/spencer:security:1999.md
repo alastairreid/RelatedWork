@@ -22,7 +22,6 @@ series: SSYM'99
 title: 'The Flask security architecture: System support for diverse security policies'
 year: 1999
 topics:
-- information-flow
 - os
 notes:
 - information-flow

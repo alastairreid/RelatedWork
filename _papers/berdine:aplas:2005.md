@@ -24,7 +24,6 @@ readings:
 title: Symbolic execution with separation logic
 year: 2005
 topics:
-- permission-logic
 - verification
 notes:
 - permission-logic

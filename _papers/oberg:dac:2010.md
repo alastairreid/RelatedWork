@@ -20,7 +20,6 @@ title: Theoretical analysis of gate level information flow tracking
 year: 2010
 topics:
 - hardware
-- information-flow
 notes:
 - information-flow
 ---

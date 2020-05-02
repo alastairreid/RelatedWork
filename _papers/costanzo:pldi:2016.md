@@ -25,7 +25,6 @@ title: End-to-end verification of information-flow security for C and assembly p
 url: http://doi.acm.org/10.1145/2908080.2908100
 year: 2016
 topics:
-- information-flow
 - os
 - security
 - verification

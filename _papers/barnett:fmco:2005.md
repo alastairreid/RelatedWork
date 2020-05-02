@@ -24,7 +24,7 @@ notes:
 - boogie-verifier
 - z3-solver
 - intermediate-verification-language
-- verification-generator
+- verification-condition-generator
 - spec-sharp-project
 - modular-verification
 - contract-based-development

@@ -13,7 +13,6 @@ read: false
 readings: []
 title: Security policies and security models
 topics:
-- information-flow
 - security
 notes:
 - information-flow

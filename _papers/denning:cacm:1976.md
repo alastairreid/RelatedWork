@@ -22,7 +22,6 @@ title: A lattice model of secure information flow
 volume: '19'
 year: 1976
 topics:
-- information-flow
 - security
 notes:
 - information-flow

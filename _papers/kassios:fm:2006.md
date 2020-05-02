@@ -23,6 +23,7 @@ readings: []
 title: 'Dynamic frames: Support for framing, dependencies and sharing without restrictions'
 year: 2006
 topics:
-- permission-logic
 - verification
+notes:
+- permission-logic
 ---

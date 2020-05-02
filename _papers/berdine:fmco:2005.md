@@ -31,7 +31,6 @@ readings:
 title: 'Smallfoot: Modular automatic assertion checking with separation logic'
 year: 2006
 topics:
-- permission-logic
 - tools
 - verification
 notes:

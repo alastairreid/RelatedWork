@@ -16,7 +16,6 @@ readings:
 title: Verifying the Microsoft Hyper-V hypervisor with VCC
 year: 2009
 topics:
-- information-flow
 - tools
 notes:
 - information-flow

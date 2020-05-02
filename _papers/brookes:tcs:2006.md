@@ -26,6 +26,7 @@ url: http://www.sciencedirect.com/science/article/pii/S0304397506009248
 volume: '375'
 year: 2007
 topics:
-- permission-logic
 - verification
+notes:
+- permission-logic
 ---

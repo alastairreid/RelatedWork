@@ -16,7 +16,6 @@ readings: []
 title: Controlling the what and where of declassification in language-based security
 year: 2007
 topics:
-- information-flow
 - security
 notes:
 - information-flow

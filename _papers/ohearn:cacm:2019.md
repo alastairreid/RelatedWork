@@ -22,7 +22,6 @@ url: https://doi.org/10.1145/3211968
 volume: '62'
 year: 2019
 topics:
-- permission-logic
 - verification
 notes:
 - separation-logic

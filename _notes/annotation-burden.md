@@ -15,13 +15,13 @@ papers:
 notes:
 - ghost code
 - VeriFast verifier
-- interactive theorem provers
-- auto-active verifiers
+- interactive theorem prover
+- auto-active verification
 ---
 
 Program verification using
-[auto-active verifiers] and
-[interactive theorem provers] requires writing annotations,
+[auto-active verifiers][auto-active verification] and
+[interactive theorem prover]s requires writing annotations,
 proof scripts or [ghost code] to assist the verification.
 
 Some reported numbers are

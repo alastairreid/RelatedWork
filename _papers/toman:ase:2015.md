@@ -23,7 +23,6 @@ title: 'Crust: A bounded verifier for Rust'
 volume: ''
 year: 2015
 topics:
-- rust-language
 - tools
 - verification
 notes:

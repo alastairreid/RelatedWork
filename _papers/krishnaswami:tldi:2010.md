@@ -25,7 +25,6 @@ title: Verifying event-driven programs using ramified frame properties
 url: https://doi.org/10.1145/1708016.1708025
 year: 2010
 topics:
-- permission-logic
 - verification
 notes:
 - permission-logic

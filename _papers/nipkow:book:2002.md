@@ -14,6 +14,6 @@ read: false
 readings: []
 title: 'Isabelle/HOL: A proof assistant for higher-order logic'
 year: 2002
-topics:
+notes:
 - interactive-theorem-prover
 ---

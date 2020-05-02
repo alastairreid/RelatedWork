@@ -15,22 +15,18 @@ title: Witnessing the elimination of magic wands
 volume: '17'
 year: 2015
 topics:
-- permission-logic
 - tools
 - verification
 notes:
-- magic-wands
-- permission-logic
-- prusti-verifier
-- viper-verifier
+- magic wand
+- permission logic
+- Prusti verifier
+- Viper verifier
 ---
 
 todo: summarize this paper
 
-This support for [magic wands] has subsequently been implemented in [Viper] (an
+This support for [magic wand]s has subsequently been implemented in the [Viper verifier] (an
 [intermediate verification language]) and is used in the [Prusti verifier].
 
-[Prusti verifier]: {{ "notes/prusti-verifier" | relative_url }}
-[magic wands]: {{ "notes/magic-wand" | relative_url }}
-[Viper]: {{ "notes/viper-verifier" | relative_url }}
-[intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
+{% include links.html %}

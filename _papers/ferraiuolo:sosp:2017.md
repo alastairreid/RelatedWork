@@ -17,7 +17,6 @@ readings:
 title: 'Komodo: Using verification to disentangle secure-enclave hardware from software'
 year: 2017
 topics:
-- information-flow
 - os
 - verification
 notes:

@@ -23,7 +23,6 @@ pages: 48-59
 publisher: ACM
 topics:
 - hardware
-- information-flow
 - security
 notes:
 - information-flow

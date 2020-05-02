@@ -17,7 +17,6 @@ readings: []
 title: 'Nickel: A framework for design and verification of information flow control systems'
 year: 2018
 topics:
-- information-flow
 - os
 notes:
 - information-flow

@@ -14,6 +14,7 @@ title: Resources, concurrency, and local reasoning
 volume: '375'
 year: 2007
 topics:
-- permission-logic
 - verification
+notes:
+- permission-logic
 ---

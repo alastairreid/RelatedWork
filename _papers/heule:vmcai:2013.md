@@ -30,8 +30,9 @@ readings: []
 title: 'Abstract read permissions: Fractional permissions without the fractions'
 year: 2013
 topics:
-- permission-logic
 - verification
+notes:
+- permission-logic
 ---
 
 Not read but appears to be an updated version of

@@ -13,7 +13,6 @@ readings:
 title: 'VeriFast: Imperative programs as proofs'
 year: 2010
 topics:
-- permission-logic
 - tools
 - verification
 notes:

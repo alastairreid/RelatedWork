@@ -17,7 +17,6 @@ title: Secure information flow verification with mutable dependent types
 year: 2017
 topics:
 - hardware
-- information-flow
 - security
 - types
 notes:

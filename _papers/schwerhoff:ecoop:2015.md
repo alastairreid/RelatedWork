@@ -15,7 +15,6 @@ title: Lightweight support for magic wands in an automatic verifier
 volume: '37'
 year: 2015
 topics:
-- permission-logic
 - tools
 - verification
 notes:

@@ -6,7 +6,6 @@ author: Rushby, John
 year: 1992
 publisher: SRI International, Computer Science Laboratory Menlo Park
 topics:
-- information-flow
 - security
 read: true
 readings:

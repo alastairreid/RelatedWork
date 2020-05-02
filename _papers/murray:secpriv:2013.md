@@ -22,7 +22,6 @@ readings:
 title: 'seL4: from general purpose to a proof of information flow enforcement'
 year: 2013
 topics:
-- information-flow
 - security
 - os
 notes:

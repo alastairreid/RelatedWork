@@ -25,8 +25,6 @@ url: https://doi.org/10.1145/3360573
 volume: '3'
 year: 2019
 topics:
-- permission-logic
-- rust-language
 - tools
 - types
 - verification
@@ -36,6 +34,9 @@ notes:
 - viper-verifier
 - permission-accounting
 - cactus-plot
+papers:
+- heule:ftfjp:2011
+- bornat:popl:2005
 ---
 
 This paper exploits the close similarity between
@@ -85,10 +86,9 @@ the semantics works.
 Another interesting detail is how they model immutable
 references.
 It seems that they really want to use
-[counting permissions]({{ "papers/bornat:popl:2005" | relative_url }})
+[counting permissions][bornat:popl:2005]
 but, instead, they model them as fractional
-permissions (an approach they attribute to [Heule]({{ "papers/heule:ftfjp:2011"
-}}).
+permissions (an approach they attribute to [Heule][heule:ftfjp:2011]).
 
 Their evaluation is in two parts
 

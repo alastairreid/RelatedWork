@@ -24,7 +24,6 @@ url: https://doi.org/10.1145/1047659.1040326
 volume: '40'
 year: 2005
 topics:
-- permission-logic
 - verification
 notes:
 - permission-logic

@@ -15,7 +15,6 @@ readings:
 - 2019-09-14
 title: Verifying constant-time implementations
 topics:
-- information-flow
 - security
 - tools
 notes:

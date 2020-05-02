@@ -24,7 +24,6 @@ title: Enforcing robust declassification
 volume: ''
 year: 2004
 topics:
-- information-flow
 - security
 notes:
 - information-flow

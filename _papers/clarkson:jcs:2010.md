@@ -16,7 +16,6 @@ title: Hyperproperties
 volume: '18'
 year: 2010
 topics:
-- information-flow
 - security
 notes:
 - information-flow

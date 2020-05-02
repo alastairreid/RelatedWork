@@ -18,7 +18,6 @@ title: 'Execution leases: A hardware-supported mechanism for enforcing strong no
 year: 2009
 topics:
 - hardware
-- information-flow
 - security
 notes:
 - information-flow

@@ -28,7 +28,6 @@ readings:
 title: 'Implicit dynamic frames: Combining dynamic frames and separation logic'
 year: 2009
 topics:
-- permission-logic
 - tools
 - verification
 notes:

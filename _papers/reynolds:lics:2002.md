@@ -22,7 +22,6 @@ title: 'Separation logic: a logic for shared mutable data structures'
 volume: ''
 year: 2002
 topics:
-- permission-logic
 - verification
 notes:
 - separation-logic

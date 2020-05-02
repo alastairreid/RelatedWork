@@ -24,7 +24,8 @@ readings: []
 title: Heap-dependent expressions in separation logic
 year: 2010
 topics:
-- permission-logic
 - tools
 - verification
+notes:
+- permission-logic
 ---

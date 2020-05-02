@@ -23,7 +23,7 @@ notes:
 - frama-c-verifier
 ---
 
-This paper describes the use of [Frama-C]({{ "papers/cuoq:sefm:2012.md" | relative_url }}) to specify and verify the
+This paper describes the use of [Frama-C]({{ "papers/cuoq:sefm:2012" | relative_url }}) to specify and verify the
 Contiki memory allocator.
 The description is very clear and contains enough of the specification that
 it should be easy to reproduce or adapt to other allocators.

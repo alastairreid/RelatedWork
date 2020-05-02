@@ -21,7 +21,6 @@ readings:
 - 2019-10-06
 topics:
 - hardware
-- information-flow
 - security
 - tools
 notes:

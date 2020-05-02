@@ -28,7 +28,6 @@ series: SOSP'05
 title: Labels and event processes in the Asbestos operating system
 year: 2005
 topics:
-- information-flow
 - os
 notes:
 - information-flow

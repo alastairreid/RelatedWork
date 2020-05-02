@@ -26,7 +26,6 @@ readings:
 title: Verifying Rust programs with SMACK
 year: 2018
 topics:
-- rust-language
 - tools
 - verification
 notes:

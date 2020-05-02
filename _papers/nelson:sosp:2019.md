@@ -17,7 +17,6 @@ readings:
 title: Scaling symbolic evaluation for automated verification of systems code with Serval
 year: 2019
 topics:
-- information-flow
 - os
 - security
 - tools
@@ -31,7 +30,7 @@ notes:
 ---
 
 This paper continues the theme of "push-button automation" from the UNSAT group's earlier work on
-[Hyperkernel]({{ "papers/Nelson:sosp:2017" | relative_url }}),
+[Hyperkernel]({{ "papers/nelson:sosp:2017" | relative_url }}),
 [Yggadrisil]({{ "papers/sigurbjarnarson:osdi:2016" | relative_url }})
 and [Nickel]({{ "papers/sigurbjarnarson:osdi:2018" | relative_url }}).
 Like the earlier work, they are using the [Z3 SMT solver]({{ "papers/demoura:tacas:2008" | relative_url }}) to verify systems code automatically 

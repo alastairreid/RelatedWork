@@ -22,13 +22,12 @@ volume: '44'
 year: 2009
 topics:
 - hardware
-- information-flow
 - security
 notes:
 - information-flow
 ---
 
-Builds on ideas also described in [Theoretical analysis of gate-level information flow tracking](oberg:dac:2010.md) of adding "shadow circuits" that calculate whether each wire/flop in a processor depends on some initial set of untrusted values.
+Builds on ideas also described in [Theoretical analysis of gate-level information flow tracking](oberg:dac:2010) of adding "shadow circuits" that calculate whether each wire/flop in a processor depends on some initial set of untrusted values.
 
 This paper describes a processor with automatically added shadow circuits.  The main problem is that conventional branching/looping means that if the PC becomes untrusted then all other state becomes untrusted in the next few cycles and if a pointer becomes untrusted, then all memory becomes untrusted after the next write through that pointer.  They solve this by, instead, providing predication, fixed iteration count loops and only allowing loop counters as address offsets.
 

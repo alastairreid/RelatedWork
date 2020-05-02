@@ -24,14 +24,13 @@ title: Fractional permissions without the fractions
 url: https://doi.org/10.1145/2076674.2076675
 year: 2011
 topics:
-- permission-logic
 - tools
 - verification
 notes:
 - permission-logic
 - chalice-verifier
 - fractional-permissions
-- permissions-accounting
+- permission-accounting
 ---
 
 The standard way of distinguishing read and write permissions

@@ -16,7 +16,6 @@ title: 'Declassification: Dimensions and principles'
 volume: '17'
 year: 2009
 topics:
-- information-flow
 - security
 notes:
 - information-flow

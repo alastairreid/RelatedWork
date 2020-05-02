@@ -27,7 +27,6 @@ title: Testing noninterference, quickly
 url: http://doi.acm.org/10.1145/2500365.2500574
 year: 2013
 topics:
-- information-flow
 - security
 notes:
 - information-flow

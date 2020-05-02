@@ -12,8 +12,6 @@ read: false
 readings: []
 title: Preserving information flow properties under refinement
 year: 2000
-topics:
-- information-flow
 notes:
 - information-flow
 ---

@@ -26,7 +26,6 @@ series: SOSP'07
 title: Information flow control for standard OS abstractions
 year: 2007
 topics:
-- information-flow
 - os
 notes:
 - information-flow

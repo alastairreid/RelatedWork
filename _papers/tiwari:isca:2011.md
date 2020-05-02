@@ -24,7 +24,6 @@ volume: '39'
 year: 2011
 topics:
 - hardware
-- information-flow
 - os
 - security
 notes:
