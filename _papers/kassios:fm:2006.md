@@ -26,6 +26,7 @@ topics:
 - verification
 notes:
 - permission logic
+- implicit dynamic frames
 papers:
 ---
 

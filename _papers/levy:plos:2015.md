@@ -31,6 +31,7 @@ topics:
 - os
 notes:
 - Rust language
+- ownership types
 papers:
 ---
 

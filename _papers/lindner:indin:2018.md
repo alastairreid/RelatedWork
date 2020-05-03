@@ -28,6 +28,8 @@ topics:
 - verification
 notes:
 - Rust language
+- symbolic execution
+- extended static checking
 papers:
 ---
 

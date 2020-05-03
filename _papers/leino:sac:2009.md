@@ -25,6 +25,7 @@ topics:
 - verification
 notes:
 - spec-sharp-project
+- SMT solver
 papers:
 ---
 

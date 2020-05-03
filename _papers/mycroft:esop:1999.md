@@ -28,6 +28,8 @@ title: Type-based decompilation (or program reconstruction via type reconstructi
 year: 1999
 topics:
 - types
+notes:
+- typed assembly language
 papers:
 ---
 

@@ -29,6 +29,7 @@ topics:
 notes:
 - dependent type
 - permission logic
+- separation logic
 papers:
 ---
 

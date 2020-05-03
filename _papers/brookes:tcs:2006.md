@@ -29,6 +29,7 @@ topics:
 - verification
 notes:
 - permission logic
+- concurrent separation logic
 papers:
 ---
 
