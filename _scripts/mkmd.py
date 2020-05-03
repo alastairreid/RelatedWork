@@ -259,6 +259,7 @@ def main():
             del e['ID']
             yaml.dump(e, Dumper=Dumper, explicit_start=True, allow_unicode=True, width=150, stream=f)
             print('notes:', file=f)
+            print('papers:', file=f)
             print('---', file=f)
             print('{% include links.html %}', file=f)
 
