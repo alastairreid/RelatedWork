@@ -38,15 +38,14 @@ This paper is a nice overview of the state of the project in 2011 when they had
 
 - a symbolic execution based checker with a nice UI
 - support for both C and Java
-- support for [permission accounting]({{ "papers/bornat:popl:2005"
-  | relative_url }}) based on fractional permissions and an
-  encoding of counting permissions
-- support for [writing (recursive) lemma functions]({{
-  "papers/jacobs:vstte:2010" | relative_url }}) to prove inductive
-  properties
+- support for
+  [permission accounting]({{ "papers/bornat:popl:2005" | relative_url }})
+  based on fractional permissions and an encoding of counting permissions
+- support for
+  [writing (recursive) lemma functions]({{ "papers/jacobs:vstte:2010" | relative_url }})
+  to prove inductive properties
 - and they were starting on some
-  [industrial case studies]({{ "papers/philippaerts:scp:2014"
-  | relative_url }})
+  [industrial case studies]({{ "papers/philippaerts:scp:2014" | relative_url }})
 
 
 {% include links.html %}

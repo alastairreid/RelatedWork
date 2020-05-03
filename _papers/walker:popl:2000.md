@@ -37,8 +37,7 @@ For example, a specification might say that if a program
 has read a file containing a secret, it cannot then
 open a network connection.
 
-This paper builds on work on [Typed Assembly Language]({{
-"papers/morrisett:wcsss:1999" | relative_url }})
+This paper builds on work on [Typed Assembly Language]({{ "papers/morrisett:wcsss:1999" | relative_url }})
 to develop rich, expressive type systems to capture
 security properties in a type system instead of via
 some more ad hoc approach.

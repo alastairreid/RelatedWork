@@ -80,8 +80,7 @@ surprising information leaks they discovered and which parts
 of the proof were hardest to complete.
 
 This paper should be compared with the later work
-on [verifying information flow properties of the
-mCertiKOS separation kernel]({{ "papers/costanzo:pldi:2016" | relative_url }}).
+on [verifying information flow properties of the mCertiKOS separation kernel]({{ "papers/costanzo:pldi:2016" | relative_url }}).
 The big difference between the two is that this paper proves
 results in the presence of communication between different
 processes while the mCertiKOS paper proves results about
