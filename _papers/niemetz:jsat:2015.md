@@ -16,6 +16,8 @@ url: https://satassociation.org/jsat/index.php/jsat/article/view/120
 volume: '9'
 year: 2015
 topics:
+notes:
+- SMT solver
 papers:
 ---
 

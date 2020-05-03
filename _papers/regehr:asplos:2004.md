@@ -29,9 +29,9 @@ read: false
 readings: []
 title: 'HOIST: a system for automatically deriving static analyzers for embedded systems'
 year: 2004
-topics:
 notes:
 - abstract interpretation
+- ISA specification
 papers:
 ---
 

@@ -18,7 +18,7 @@ publisher: ACM
 read: false
 readings: []
 series: ASPLOS XII
-title: Automatic Generation of Peephole Superoptimizers
+title: Automatic generation of peephole superoptimizers
 year: 2006
 topics:
 papers:

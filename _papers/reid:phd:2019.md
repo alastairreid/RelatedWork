@@ -44,8 +44,16 @@ readings: []
 school: School of Computing Science, University of Glasgow
 title: 'Defining interfaces between hardware and software: Quality and performance'
 year: 2019
-topics:
+notes:
+- ASL
+- Arm architecture
+- ISA specification
+- instruction set architecture
 papers:
+- reid:fmcad:2016
+- reid:cav:2016
+- reid:oopsla:2017
+- reid:cases:2008
 ---
 
 {% include links.html %}

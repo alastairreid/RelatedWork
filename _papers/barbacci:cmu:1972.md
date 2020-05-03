@@ -16,6 +16,8 @@ title: 'ISP: A language to describe instruction sets and other register transfer
 url: http://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=360601
 year: 1972
 topics:
+notes:
+- ISA specification
 papers:
 ---
 

@@ -13,7 +13,7 @@ publisher: ACM
 read: false
 readings: []
 series: PLDI '19
-title: A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture
+title: A complete formal semantics of x86-64 user-level instruction set architecture
 year: 2019
 topics:
 notes:

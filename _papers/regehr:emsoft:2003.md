@@ -33,9 +33,9 @@ series: Lecture Notes in Computer Science
 title: Eliminating stack overflow by abstract interpretation
 volume: '2855'
 year: 2003
-topics:
 notes:
 - abstract interpretation
+- ISA specification
 papers:
 ---
 

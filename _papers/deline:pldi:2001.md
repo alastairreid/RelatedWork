@@ -25,6 +25,7 @@ topics:
 notes:
 - contract driven development
 - permission logic
+- spec-sharp-project
 papers:
 ---
 

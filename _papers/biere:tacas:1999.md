@@ -25,6 +25,10 @@ readings: []
 title: Symbolic model checking without BDDs
 year: 1999
 topics:
+notes:
+- model checking
+- bounded model checking
+- bounded verification
 papers:
 ---
 

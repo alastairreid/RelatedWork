@@ -16,7 +16,7 @@ publisher: USENIX Association
 read: false
 readings: []
 series: OSDI'08
-title: Binary Translation Using Peephole Superoptimizers
+title: Binary translation using peephole superoptimizers
 url: https://www.usenix.org/legacy/event/osdi08/tech/full_papers/bansal/bansal.pdf
 year: 2008
 topics:

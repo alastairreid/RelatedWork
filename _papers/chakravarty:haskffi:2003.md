@@ -27,6 +27,7 @@ notes:
 - Haskell language
 - foreign function interface
 papers:
+- jones:hw:1997
 ---
 
 {% include links.html %}

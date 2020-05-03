@@ -18,7 +18,10 @@ year: 1997
 topics:
 notes:
 - Haskell language
+- foreign function interface
 papers:
+- chakravarty:haskffi:2003
+- jones:hw:1997
 ---
 
 {% include links.html %}

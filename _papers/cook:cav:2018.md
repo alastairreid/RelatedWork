@@ -20,6 +20,10 @@ topics:
 - tools
 - os
 - verification
+notes:
+- bounded model checking
+- bounded verification
+- model checking
 papers:
 ---
 
