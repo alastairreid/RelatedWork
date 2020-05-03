@@ -26,14 +26,14 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- viper-verifier
-- intermediate-verification-language
-- magic-wand
-- smt-solver
+- permission logic
+- Viper verifier
+- intermediate verification language
+- magic wand
+- SMT solver
 ---
 
-[Viper] is like [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
+[Viper][Viper verifier] is like [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
 in that it is an [intermediate verification language] (IVL)
 that can support multiple language frontends and also
 multiple verification backends.
@@ -67,7 +67,7 @@ and [fractional permissions]({{ "papers/bornat:popl:2005" | relative_url }})
 can be used to allow shared read-only access.
 
 A relatively unusual feature of Viper is that it has first-class
-support for [magic wands] "——∗" (the implication operator from
+support for [magic wand]s "——∗" (the implication operator from
 separation logic).
 There is a nice discussion of how using magic wands simplifies
 reasoning about partial verisons of data structures and,
@@ -86,11 +86,5 @@ Finally, there is an evaluation and comparision with
 [Chalice]({{ "papers/leino:fosad:2007" | relative_url }})
 and
 [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }}).
-
-[Boogie]: {{ "notes/boogie-verifier" | relative_url }}
-[Intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
-[Permission logic]: {{ "notes/permission-logic" | relative_url }}
-[Viper]: {{ "notes/viper-verifier" | relative_url }}
-[magic wands]: {{ "notes/magic-wand" | relative_url }}
 
 {% include links.html %}

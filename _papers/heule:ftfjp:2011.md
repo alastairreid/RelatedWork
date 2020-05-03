@@ -27,10 +27,10 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- chalice-verifier
-- fractional-permissions
-- permission-accounting
+- permission logic
+- Chalice verifier
+- fractional permissions
+- permission accounting
 ---
 
 The standard way of distinguishing read and write permissions
@@ -59,7 +59,5 @@ They end up with six different forms of permission:
 - rd(o) - monitor read permission (used for monitor calls)
 - P1 + P2 - combining permissions
 - P1 - P2 - removing permissions
-
-[Chalice verifier]: {{ "notes/chalice-verifier" | relative_url }}
 
 {% include links.html %}

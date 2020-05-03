@@ -18,13 +18,13 @@ topics:
 - tools
 - verification
 notes:
-- boogie-verifier
-- intermediate-verification-language
-- smack-verifier
-- llvm-compiler
+- Boogie verifier
+- intermediate verification language
+- SMACK verifier
+- LLVM compiler
 ---
 
-SMACK translates LLVM bitcode files to the [Boogie language]
+SMACK translates LLVM bitcode files to the [Boogie language][Boogie verifier]
 (an [intermediate verification language])
 allowing it to support any language that LLVM supports (mostly C/C++ in this
 paper).
@@ -32,8 +32,5 @@ paper).
 SMACK implements one key optimization: using alias analysis to partition the
 heap (and pointers into the heap) so that objects that could not be confused
 are in separate sub-heaps.
-
-[intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
-[Boogie language]: {{ "notes/boogie-verifier" | relative_url }}
 
 {% include links.html %}

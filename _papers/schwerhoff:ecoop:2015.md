@@ -18,11 +18,11 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- separation-logic
-- magic-wand
-- viper-verifier
-- prusti-verifier
+- permission logic
+- separation logic
+- magic wand
+- Viper verifier
+- Prusti verifier
 ---
 
 Verifying a loop that walks over a heap data structure is tricky.  At the
@@ -75,12 +75,7 @@ undecidable.  The contribution of this paper is
 
 The “footprint” of a wand “A ––∗ B”
 
-This support for [magic wands] has been implemented in [Viper] (an
+This support for [magic wand]s has been implemented in the [Viper verifier] (an
 [intermediate verification language]) and is used in the [Prusti verifier].
-
-[Prusti verifier]: {{ "notes/prusti-verifier" | relative_url }}
-[magic wands]: {{ "notes/magic-wand" | relative_url }}
-[Viper]: {{ "notes/viper-verifier" | relative_url }}
-[intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
 
 {% include links.html %}

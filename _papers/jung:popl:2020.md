@@ -25,12 +25,14 @@ url: https://doi.org/10.1145/3371109
 volume: '4'
 year: 2019
 notes:
-- rust-language
-- mir-interpreter
-- undefined-behaviour
-- mir
-- rust-unsafe-code
-- coq-theorem-prover
+- Rust language
+- MIR interpreter
+- undefined behaviour
+- MIR
+- Rust unsafe code
+- Coq theorem prover
+papers:
+- jung:popl:2017
 ---
 
 As in [the Rustbelt paper]({{ "papers/jung:popl:2017" | relative_url }}),
@@ -81,7 +83,5 @@ The model itself is based on two changes to the semantics
   
 The obvious piece of future work is to extend RustBelt
 ([jung:popl:2017]) with this model.
-
-[jung:popl:2017]: {{ "papers/jung:popl:2017" | relative_url }}
 
 {% include links.html %}

@@ -29,12 +29,12 @@ topics:
 - tools
 - verification
 notes:
-- boogie-verifier
-- corral-verifier
-- intermediate-verification-language
-- rust-language
-- smack-verifier
-- llvm-compiler
+- Boogie verifier
+- Corral verifier
+- intermediate verification language
+- Rust language
+- SMACK verifier
+- LLVM compiler
 ---
 
 The Rust programming language promises a balance between safety
@@ -94,7 +94,5 @@ Future work includes
 - checking unsafe pointer usage in Rust - especially those
   from external functions
 - concurrency
-
-[Intermediate verification language]: {{ "notes/intermediate-verification-language" | relative_url }}
 
 {% include links.html %}
