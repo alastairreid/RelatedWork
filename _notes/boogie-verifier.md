@@ -1,7 +1,7 @@
 ---
 layout: note
 title: Boogie verifier
-website: https://www.microsoft.com/en-us/research/project/boogie-an-intermediate verification language/
+website: https://www.microsoft.com/en-us/research/project/boogie-an-intermediate-verification-language/
 notes:
 - permission logic
 - Spec-sharp project

@@ -4,11 +4,15 @@ layout: default
 
 <article class="page">
 
-  <h1>{{ page.title }}</h1>
+  <center>
+    <h1>{{ page.title }}</h1>
+    <a href="https://scholar.google.com/scholar?q={{ page.title | cgi_escape }}">[Google Scholar]</a>
+    {% if page.website %}<a href="{{page.website}}">[Website]</a>{% endif %}
+    {% if page.wiki %}<a href="{{page.wiki}}">[Wikipedia]</a>{% endif %}
+  </center>
+  <br>
 
-  {% if page.website %} <br><a href="{{page.website}}">Website</a><br> {% endif %}
-  {% if page.wiki %} <br><a href="{{page.wiki}}">Wikipedia entry</a><br> {% endif %}
-
+  <div style="margin-left:2em; margin-right:2em;">
   {% if page.isa %}
   Is a kind of:
   {% for note in page.isa %}
@@ -40,6 +44,7 @@ layout: default
   {% endfor %}
   <br>
   {% endif %}
+  </div>
 
   <div class="entry">
     {{ content }}
