@@ -1,6 +1,7 @@
 ---
 layout: note
 title: KLEE verifier
+logo: https://klee.github.io/images/klee.svg
 website: https://klee.github.io
 notes:
 - LLVM compiler

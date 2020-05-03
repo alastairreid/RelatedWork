@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Viper verifier
+logo: https://www.pm.inf.ethz.ch/research/viper/_jcr_content/rightpar/contextinfo/fullwidthimage/image.imageformat.context.1607183700.png
 website: https://www.pm.inf.ethz.ch/research/viper.html
 notes:
 - intermediate verification language

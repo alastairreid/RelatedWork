@@ -1,6 +1,7 @@
 ---
 layout: note
 title: VCC verifier
+logo: https://www.microsoft.com/en-us/research/uploads/prod/2016/02/vcc-vcc-150x139.png
 website: https://www.microsoft.com/en-us/research/project/vcc-a-verifier-for-concurrent-c/
 notes:
 - Boogie verifier

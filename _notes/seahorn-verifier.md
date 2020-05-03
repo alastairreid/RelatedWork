@@ -1,6 +1,7 @@
 ---
 layout: note
 title: SeaHorn verifier
+logo: https://seahorn.github.io/images/seahorn-logo.png
 website: https://seahorn.github.io
 notes:
 - LLVM compiler

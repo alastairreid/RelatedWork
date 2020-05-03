@@ -10,7 +10,7 @@ notes:
 
 todo:
 
-[SMT-LIB website]
+[SMT-LIB website],
 [SMT-COMP website]
 
 [SMT-LIB website]: http://smtlib.cs.uiowa.edu/

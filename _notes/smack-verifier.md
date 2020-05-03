@@ -1,6 +1,7 @@
 ---
 layout: note
 title: SMACK verifier
+logo: https://github.com/smackers/smack/blob/master/docs/smack-logo.png
 website: https://github.com/smackers/smack
 notes:
 - LLVM compiler

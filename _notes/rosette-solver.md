@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Rosette solver
+logo: https://emina.github.io/rosette/images/rosette-gray.png
 website: https://emina.github.io/rosette/
 papers:
 - torlak:onward:2013

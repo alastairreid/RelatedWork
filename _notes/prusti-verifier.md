@@ -1,6 +1,8 @@
 ---
 layout: note
 title: Prusti verifier
+logo: https://www.pm.inf.ethz.ch/research/prusti/_jcr_content/rightpar/contextinfo/fullwidthimage/image.imageformat.context.683904319.png
+website: https://www.pm.inf.ethz.ch/research/prusti.html
 papers:
 - schwerhoff:ecoop:2015
 - astrauskas:oopsla:2019
@@ -8,7 +10,7 @@ notes:
 - intermediate verification language
 - permission logic
 - Rust language
-- viper verifier
+- Viper verifier
 - Prusti verifier
 - magic wand
 ---

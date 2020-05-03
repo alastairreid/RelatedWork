@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Coq theorem prover
+logo: https://upload.wikimedia.org/wikipedia/commons/d/d8/Coq_logo.png
 wiki: https://en.wikipedia.org/wiki/Coq
 website: https://coq.inria.fr
 notes:

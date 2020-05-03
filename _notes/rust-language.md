@@ -1,6 +1,8 @@
 ---
 layout: note
 title: Rust language
+logo: https://www.rust-lang.org/static/images/rust-logo-blk.svg
+webpage: https://www.rust-lang.org
 wiki: https://en.wikipedia.org/wiki/Rust_(programming_language)
 papers:
 - astrauskas:oopsla:2019

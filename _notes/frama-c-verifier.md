@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Frama-C verifier
+logo: http://frama-c.com/modern/framac.gif
 wiki: https://en.wikipedia.org/wiki/Frama-C
 website: http://frama-c.com
 papers:
