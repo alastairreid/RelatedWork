@@ -30,6 +30,7 @@ notes:
 - linear-logic
 - dependent-type
 - permission-logic
+papers:
 ---
 
 {% include links.html %}

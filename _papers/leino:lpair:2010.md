@@ -22,6 +22,11 @@ notes:
 - Dafny verifier
 - Z3 solver
 - SMT solver
+papers:
+- leino:tacas:2010
+- demoura:tacas:2008
+- tuerk:vstte:2010
+- barnett:fmco:2005
 ---
 
 Dafny is an [auto-active program verifier][auto-active verification]
@@ -29,10 +34,10 @@ for an imperative
 language with functional and object oriented features
 that uses
 the 
-[Boogie]({{ "papers/leino:tacas:2010" | relative_url }})
+[Boogie][leino:tacas:2010]
 intermediate verification language
 and the
-[Z3]({{ "papers/demoura:tacas:2008" | relative_url }})
+[Z3][demoura:tacas:2008]
 SMT solver
 for automated proof.
 
@@ -57,12 +62,12 @@ code, proof and comment.  Wow!
 Also a nice summary of the development process.
 The only thing not to like about this is the 19
 loop invariants required.
-(I wonder whether [loop specifications in the style of Tuerk]({{ "papers/tuerk:vstte:2010" | relative_url }})
+(I wonder whether [loop specifications in the style of Tuerk][tuerk:vstte:2010]
 would help at all?)
 Also, the author admits that "deciphering the verifier's
 error messages" is hard.
 I wonder how much that improved in later versions
 or with the development of the
-[Boogie Verification Debugger]({{ "papers/barnett:fmco:2005" | relative_url }})?
+[Boogie Verification Debugger][barnett:fmco:2005]?
 
 {% include links.html %}

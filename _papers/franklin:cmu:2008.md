@@ -19,9 +19,11 @@ topics:
 - os
 - security
 - verification
+papers:
+- seshadri:sosp:2007
 ---
 
-Uses the Murphi model checker to formalize the combined software and hardware security features in the [SecVisor]({{ "papers/seshadri:sosp:2007" | relative_url }}) hypervisor developed by some of the authors the year before.
+Uses the Murphi model checker to formalize the combined software and hardware security features in the [SecVisor][seshadri:sosp:2007] hypervisor developed by some of the authors the year before.
 Interestingly, the adversary is modelled as an explicit piece of code that tries to write to everywhere that it should not.
 They were able to discover two bugs involving mapping physical pages that contain unapproved code and creating aliases in the virtual address space.
 

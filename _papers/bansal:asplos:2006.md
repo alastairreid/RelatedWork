@@ -21,6 +21,7 @@ series: ASPLOS XII
 title: Automatic Generation of Peephole Superoptimizers
 year: 2006
 topics:
+papers:
 ---
 
 {% include links.html %}

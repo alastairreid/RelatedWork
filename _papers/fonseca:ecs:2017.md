@@ -22,6 +22,7 @@ series: EuroSys '17
 title: An Empirical Study on the Correctness of Formally Verified Distributed Systems
 year: 2017
 topics:
+papers:
 ---
 
 {% include links.html %}

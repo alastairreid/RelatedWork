@@ -31,9 +31,15 @@ notes:
 - intermediate verification language
 - magic wand
 - SMT solver
+papers:
+- barnett:fmco:2005
+- jacobs:vstte:2010
+- bornat:popl:2005
+- leino:fosad:2007
+- barnett:fmco:2005
 ---
 
-[Viper][Viper verifier] is like [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
+[Viper][Viper verifier] is like [Boogie][barnett:fmco:2005]
 in that it is an [intermediate verification language] (IVL)
 that can support multiple language frontends and also
 multiple verification backends.
@@ -57,13 +63,13 @@ prove lemmas.
 An example lemma in the paper is "concat" that relates
 two parts of a linked list to the entire list.
 I have seen the same trick being used in
-[VeriFast]({{ "papers/jacobs:vstte:2010" | relative_url }})
+[VeriFast][jacobs:vstte:2010]
 but, since VeriFast is not an IVL, it keeps
 C functions we are reasoning about separate from
 lemma functions used to reason about them.
 
 Predicates can describe the fields of an object that can be accessed
-and [fractional permissions]({{ "papers/bornat:popl:2005" | relative_url }})
+and [fractional permissions][bornat:popl:2005]
 can be used to allow shared read-only access.
 
 A relatively unusual feature of Viper is that it has first-class
@@ -83,8 +89,8 @@ It seems that this approach lets them keep the Viper core
 quite small and lean.
 
 Finally, there is an evaluation and comparision with
-[Chalice]({{ "papers/leino:fosad:2007" | relative_url }})
+[Chalice][leino:fosad:2007]
 and
-[Boogie]({{ "papers/barnett:fmco:2005" | relative_url }}).
+[Boogie][barnett:fmco:2005].
 
 {% include links.html %}

@@ -29,6 +29,7 @@ topics:
 - os
 notes:
 - rust-language
+papers:
 ---
 
 See also: [the morning paper](https://blog.acolyer.org/2017/06/14/system-programming-in-rust-beyond-safety/)

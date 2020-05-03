@@ -31,6 +31,7 @@ readings: []
 title: 'Prototyping real-time vision systems: An experiment in DSL design'
 year: 1999
 topics:
+papers:
 ---
 
 {% include links.html %}

@@ -29,9 +29,11 @@ notes:
 - ghost-code
 - z3-solver
 - smt-solver
+papers:
+- leino:lpair:2010
 ---
 
-[Dafny]({{ "papers/leino:lpair:2010" | relative_url }})
+[Dafny][leino:lpair:2010]
 is both a language and a verification tool for creating verified
 programs.
 The language has features of object-oriented languages and functional

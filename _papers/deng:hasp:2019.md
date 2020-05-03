@@ -25,10 +25,12 @@ topics:
 - tools
 notes:
 - information-flow
+papers:
+- demoura:tacas:2008
 ---
 
 Extends Chisel with security labels to track information flow.
-Uses [the Z3 SMT solver]({{ "papers/demoura:tacas:2008" | relative_url }})
+Uses [the Z3 SMT solver][demoura:tacas:2008]
 to check but check is based on syntactic structure, not on semantic analysis.
 That is, it just propagates labels.
 Suggests this is important for performance.

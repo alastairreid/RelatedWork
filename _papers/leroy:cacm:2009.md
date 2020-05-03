@@ -21,6 +21,7 @@ notes:
 - translation-validation
 - coq-theorem-prover
 - compcert-compiler
+papers:
 ---
 
 {% include links.html %}

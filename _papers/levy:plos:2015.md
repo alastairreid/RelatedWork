@@ -31,6 +31,7 @@ topics:
 - os
 notes:
 - rust-language
+papers:
 ---
 
 {% include links.html %}

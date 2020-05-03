@@ -32,6 +32,8 @@ notes:
 - biabduction
 - smallfoot-verifier
 - modular-verification
+papers:
+- berdine:fmco:2005
 ---
 
 One of the big challenges in automated verification is the
@@ -45,7 +47,7 @@ This paper focusses on discovering contracts that describe
 what parts of a heap-allocated data structure a function
 depends on in order to support separation-logic based
 verification of memory safety along the lines of
-[Smallfoot]({{ "papers/berdine:fmco:2005" | relative_url }}).
+[Smallfoot][berdine:fmco:2005].
 
 In particular, they are interested in finding the
 precondition of a function: what parts of a function's

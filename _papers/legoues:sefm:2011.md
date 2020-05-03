@@ -33,6 +33,13 @@ notes:
 - boogie-verifier
 - dafny-verifier
 - vcc-verifier
+papers:
+- barnett:fmco:2005
+- leino:lpair:2010
+- cohen:cav:2010
+- cohen:cav:2010
+- barnett:cacm:2011
+- jacobs:nfm:2011
 ---
 
 A critical part of any verification tool is a debugger that helps you understand and localise any errors detected.
@@ -49,18 +56,18 @@ The ingredients of their solution are:
 - A standard plugin interface to the language front end.  For VCC, this is 1000 lines, for Dafny, it is 400 lines.
 
 As the title implies, this is implemented in
-[Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
+[Boogie][barnett:fmco:2005]
 and they have implemented the frontend support for both
-[Dafny]({{ "papers/leino:lpair:2010" | relative_url }})
+[Dafny][leino:lpair:2010]
 and
-[VCC]({{ "papers/cohen:cav:2010" | relative_url }}).
+[VCC][cohen:cav:2010].
 
 The paper has a useful list of other work in
 ESC/Modula-3,
 ESC/Java,
-[VCC]({{ "papers/cohen:cav:2010" | relative_url }}),
-[Spec#]({{ "papers/barnett:cacm:2011" | relative_url }}),
-[VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }})
+[VCC][cohen:cav:2010],
+[Spec#][barnett:cacm:2011],
+[VeriFast][jacobs:nfm:2011]
 and
 CBMC.
 This topic is not discussed often so it is super-useful to find a list of what little has been reported.

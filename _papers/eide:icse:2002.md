@@ -31,6 +31,7 @@ readings: []
 title: Static and dynamic structure in design patterns
 year: 2002
 topics:
+papers:
 ---
 
 {% include links.html %}

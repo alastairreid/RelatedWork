@@ -28,6 +28,7 @@ year: 1993
 topics:
 notes:
 - haskell-language
+papers:
 ---
 
 {% include links.html %}

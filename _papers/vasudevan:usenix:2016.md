@@ -28,6 +28,7 @@ notes:
 - Frama-C verifier
 - CompCert compiler
 - information flow
+papers:
 ---
 
 Verifies properties of a concurrent micro-hypervisor uXMHF using the [Frama-C verifier]) with some custom plugins and using CompCert to compile.

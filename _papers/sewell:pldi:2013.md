@@ -22,6 +22,7 @@ notes:
 - isa-specification
 - instruction-set-architecture
 - translation-validation
+papers:
 ---
 
 {% include links.html %}

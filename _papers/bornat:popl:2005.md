@@ -31,6 +31,7 @@ notes:
 - separation-logic
 - permission-accounting
 - fractional-permissions
+papers:
 ---
 
 Separation logic is about tracking ownership of objects

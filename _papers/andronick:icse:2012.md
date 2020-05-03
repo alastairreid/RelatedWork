@@ -26,6 +26,7 @@ title: 'Large-scale formal verification in practice: A process perspective'
 year: 2012
 topics:
 - verification
+papers:
 ---
 
 {% include links.html %}

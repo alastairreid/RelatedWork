@@ -28,6 +28,7 @@ notes:
 - symbolic-execution
 - bounded-model-checking
 - rosette-solver
+papers:
 ---
 
 {% include links.html %}

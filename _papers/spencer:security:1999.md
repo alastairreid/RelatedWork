@@ -25,6 +25,10 @@ topics:
 - os
 notes:
 - information-flow
+papers:
+- efstathopoulos:sosp:2005
+- zeldovich:osdi:2006
+- krohn:sosp:2007
 ---
 
 This paper by some of my former colleagues in the [Flux group at the University of Utah](https://www.flux.utah.edu) describes the Flask microkernel-based operating system.
@@ -36,10 +40,10 @@ The design is implemented in the Fluke micro kernel but they emphasise that it i
 For performance reasons, they cache permissions.
 
 The gap in the story is that creating policies and ensuring that the set of checks you implement implements your desired policy is quite hard.  This gap was tackled in a succession of other OSes such as
-[Asbestos]({{ "papers/efstathopoulos:sosp:2005" | relative_url }}),
-[HiStar]({{ "papers/zeldovich:osdi:2006" | relative_url }}) 
+[Asbestos][efstathopoulos:sosp:2005],
+[HiStar][zeldovich:osdi:2006] 
 and
-[Flume]({{ "papers/krohn:sosp:2007" | relative_url }}).
+[Flume][krohn:sosp:2007].
 
 _Personal note: I joined the Flux group as Flask was being completed.  I think part of the plan was that I would work on creating a policy language for Flask.  Alas, I had no idea how to tackle this problem so I worked on component-based operating systems instead._
 

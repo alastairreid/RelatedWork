@@ -34,6 +34,7 @@ notes:
 - mir
 - rust-unsafe-code
 - coq-theorem-prover
+papers:
 ---
 
 Rust aims to archive the holy grail of a language that gives low-control over resource management and safe high-level abstractions.

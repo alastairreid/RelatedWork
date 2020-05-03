@@ -21,6 +21,7 @@ year: 2019
 topics:
 - hardware
 - verification
+papers:
 ---
 
 {% include links.html %}

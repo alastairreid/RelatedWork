@@ -23,6 +23,7 @@ topics:
 notes:
 - compcert-compiler
 - coq-theorem-prover
+papers:
 ---
 
 This is one of a steady stream of papers from the FLINT group at Yale on creating a formally verified OS.

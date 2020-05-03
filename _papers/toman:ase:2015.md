@@ -31,6 +31,8 @@ notes:
 - cbmc-verifier
 - rust-unsafe-code
 - undefined-behaviour
+papers:
+- jung:popl:2017
 ---
 
 One of the key strengths and weaknesses of Rust is the ability to extend its
@@ -61,7 +63,7 @@ model checker such as LLBMC that would verify the LLVM IR code generated
 inside the rustc compiler.)
 
 It is useful to compare this with the
-[Rustbelt paper]({{ "papers/jung:popl:2017" | relative_url }}).
+[Rustbelt paper][jung:popl:2017].
 The Crust approach in this paper uses bounded model checking to automatically
 and thoroughly
 verify the code for certain classes of problem up to some bound

@@ -31,6 +31,7 @@ notes:
 - separation logic
 - permission logic
 - auto-active verification
+papers:
 ---
 
 One of the challenges in automatic program verification

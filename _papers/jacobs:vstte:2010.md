@@ -24,11 +24,13 @@ notes:
 - ghost-code
 - smt-solver
 - auto-active-verification
+papers:
+- reynolds:lics:2002
 ---
 
 [VeriFast](https://github.com/verifast/verifast)
 is a symbolic evaluator based on
-[Separation Logic]({{ "papers/reynolds:lics:2002" | relative_url }})
+[Separation Logic][reynolds:lics:2002]
 [(wikipedia)](https://en.wikipedia.org/wiki/Separation_logic)
 for verifying C and Java code.
 Specifications can use inductive datatypes,

@@ -32,6 +32,8 @@ topics:
 notes:
 - linear-logic
 - permission-logic
+papers:
+- morrisett:wcsss:1999
 ---
 
 One of the difficult things about reasoning about programs that
@@ -46,7 +48,7 @@ separation logic and a lot of practical interest seems to have
 settled on Rust's ownership types or C++11's smart pointers, etc.
 But what makes this paper interesting to me is that it tackled
 one of the outstanding problems in the
-[TALx86 paper]({{ "papers/morrisett:wcsss:1999" | relative_url }}).
+[TALx86 paper][morrisett:wcsss:1999].
 In particular, because they were interested in reasoning
 about assembly code, they could not rely on
 simplifications made in high-level languages such as

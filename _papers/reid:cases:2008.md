@@ -34,6 +34,7 @@ readings: []
 title: 'SoC-C: efficient programming abstractions for heterogeneous multicore systems on chip'
 year: 2008
 topics:
+papers:
 ---
 
 {% include links.html %}

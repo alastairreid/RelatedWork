@@ -31,6 +31,7 @@ readings: []
 title: 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
 year: 2014
 topics:
+papers:
 ---
 
 {% include links.html %}

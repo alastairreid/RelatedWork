@@ -20,10 +20,14 @@ notes:
 - separation logic
 - magic wand
 - Verifast verifier
+papers:
+- hehner:vstte:2008
+- schwerhoff:ecoop:2015
+- jacobs:nfm:2011
 ---
 
 As
-[Hehner had previously discovered]({{ "papers/hehner:vstte:2008" | relative_url }}),
+[Hehner had previously discovered][hehner:vstte:2008],
 we are reasoning about loops in the wrong way.
 Instead of using loop invariants that describe what the loop has done so far,
 we should be using loop specifications that describe what the loop will do
@@ -72,10 +76,10 @@ This paper notes that "magic wands" could also have been used
 to avoid the need to define partial datastructures but that
 reasoning about this is harder.
 (This might have changed with the later development of
-[lightweight magic wands]({{ "papers/schwerhoff:ecoop:2015" | relative_url }})).
+[lightweight magic wands][schwerhoff:ecoop:2015]).
 
 The approach in this paper is implemented in the author's
 "Holfoot" tool and also in
-[VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }}).
+[VeriFast][jacobs:nfm:2011].
 
 {% include links.html %}

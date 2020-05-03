@@ -28,6 +28,7 @@ topics:
 - os
 notes:
 - rust-language
+papers:
 ---
 
 The Rust language is increasingly being proposed as a safe

@@ -45,6 +45,7 @@ school: School of Computing Science, University of Glasgow
 title: 'Defining interfaces between hardware and software: Quality and performance'
 year: 2019
 topics:
+papers:
 ---
 
 {% include links.html %}

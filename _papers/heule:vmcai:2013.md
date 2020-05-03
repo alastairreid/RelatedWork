@@ -33,10 +33,12 @@ topics:
 - verification
 notes:
 - permission-logic
+papers:
+- heule:ftfjp:2011
 ---
 
 Not read but appears to be an updated version of
-[an earlier paper]({{ "papers/heule:ftfjp:2011" | relative_url }})
+[an earlier paper][heule:ftfjp:2011]
 but with a less open publisher.
 
 {% include links.html %}

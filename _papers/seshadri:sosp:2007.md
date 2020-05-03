@@ -22,6 +22,8 @@ year: 2007
 topics:
 - os
 - security
+papers:
+- franklin:cmu:2008
 ---
 
 SecVisor is a hypervisor that virtualizes physical RAM, the MMU and the IO-MMU
@@ -48,7 +50,7 @@ Limitations:
 - Self-modifying code is a major issue.  The easy case is code that patches
   itself against known bugs.
 
-See [later paper by Franklin, et al.]({{"papers/franklin:cmu:2008"|relative_url}})
+See [later paper by Franklin, et al.][franklin:cmu:2008]
 that describes security issues in design, use of formal verification to model
 design, fixes and performance impact.
 

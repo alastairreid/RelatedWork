@@ -25,9 +25,11 @@ topics:
 notes:
 - Rosette solver
 - Coq theorem prover
+papers:
+- torlak:pldi:2014
 ---
 
-Coq embedding of [Rosette's solver aided language]({{ "papers/torlak:pldi:2014" | relative_url }}) inspired by smten.
+Coq embedding of [Rosette's solver aided language][torlak:pldi:2014] inspired by smten.
 
 Factors proof into two parts
 with SpaceSearch ADT as the interface between the two.

@@ -23,6 +23,7 @@ title: Implementing an untrusted operating system on trusted hardware
 year: 2003
 topics:
 - os
+papers:
 ---
 
 {% include links.html %}

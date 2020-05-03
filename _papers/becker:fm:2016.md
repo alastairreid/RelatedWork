@@ -30,6 +30,7 @@ topics:
 notes:
 - coq-theorem-prover
 - nova-hypervisor
+papers:
 ---
 
 Describes formal verification in Coq of a model of the commercial NOVA micro-hypervisor.

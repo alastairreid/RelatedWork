@@ -14,6 +14,7 @@ title: Boost the impact of continuous formal verification in industry
 year: 2019
 topics:
 - verification
+papers:
 ---
 
 Proposes a way to use model checking on large codebases when CI is used and lots of regression tests are available (at least one per C function).

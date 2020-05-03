@@ -30,6 +30,7 @@ readings: []
 title: Design and implementation of turbo decoders for software defined radio
 year: 2006
 topics:
+papers:
 ---
 
 {% include links.html %}

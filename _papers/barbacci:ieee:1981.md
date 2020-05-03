@@ -20,6 +20,7 @@ title: 'Instruction set processor specifications (ISPS): The notation and its ap
 volume: C-30
 year: 1981
 topics:
+papers:
 ---
 
 {% include links.html %}

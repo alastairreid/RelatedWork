@@ -26,6 +26,7 @@ year: 2012
 topics:
 notes:
 - x86-architecture
+papers:
 ---
 
 {% include links.html %}

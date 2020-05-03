@@ -21,12 +21,14 @@ topics:
 - verification
 notes:
 - why3-verifier
+papers:
+- cuoq:sefm:2012
 ---
 
 Describes "Caduceus": a tool to translate C code to the WhyML specification
 language lowering imperative code to pure code and handling pointers.
 Introduced the specification notation that later became ACSL and a forerunner
-to [Frama-C]({{ "papers/cuoq:sefm:2012" | relative_url }}).
+to [Frama-C][cuoq:sefm:2012].
 
 Given current understanding of undefined behaviour and implementation defined behaviour in C, the translation from C looks a bit naïve.
 

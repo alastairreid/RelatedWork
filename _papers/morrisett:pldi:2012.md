@@ -28,6 +28,7 @@ notes:
 - isa-specification
 - x86-architecture
 - instruction-set-architecture
+papers:
 ---
 
 {% include links.html %}

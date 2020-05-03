@@ -40,6 +40,7 @@ notes:
 - separation-logic
 - concurrent-separation-logic
 - verifast-verifier
+papers:
 ---
 
 This paper reports on verification of a simple Linux USB

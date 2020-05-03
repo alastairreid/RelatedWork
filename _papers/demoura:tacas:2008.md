@@ -19,6 +19,7 @@ topics:
 notes:
 - smt-solver
 - z3-solver
+papers:
 ---
 
 {% include links.html %}

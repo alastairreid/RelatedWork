@@ -29,10 +29,12 @@ notes:
 - permission-logic
 - separation-logic
 - frame-rule
+papers:
+- krishnaswami:tldi:2010
 ---
 
 This paper tackles a generalized form of the
-[ramification problem]({{ "papers/krishnaswami:tldi:2010" | relative_url }}).
+[ramification problem][krishnaswami:tldi:2010].
 That is, it tackles the problem that separation logic is good at
 reasoning about pointer-based structures such as trees when you can split
 the heap into disjoint parts but separation logic's weakness had been

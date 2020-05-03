@@ -31,6 +31,7 @@ notes:
 - separation-logic
 - frame-rule
 - magic-wand
+papers:
 ---
 
 Separation logic's strength is that it let's you reason locally

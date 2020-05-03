@@ -23,6 +23,7 @@ series: PLDI '15
 title: Provably correct peephole optimizations with alive
 year: 2015
 topics:
+papers:
 ---
 
 {% include links.html %}

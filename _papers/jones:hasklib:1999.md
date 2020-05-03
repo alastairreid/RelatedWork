@@ -31,6 +31,7 @@ year: 1999
 topics:
 notes:
 - haskell-language
+papers:
 ---
 
 {% include links.html %}

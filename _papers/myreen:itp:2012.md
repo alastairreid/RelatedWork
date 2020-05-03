@@ -20,6 +20,7 @@ readings: []
 title: 'Functional programs: Conversions between deep and shallow embeddings'
 year: 2012
 topics:
+papers:
 ---
 
 {% include links.html %}

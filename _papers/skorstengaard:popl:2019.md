@@ -30,10 +30,12 @@ topics:
 - hardware
 - security
 - verification
+papers:
+- skorstengaard:esop:2018
 ---
 
 This paper follows on from
-[an earlier paper by the same authors]({{ "papers/skorstengaard:esop:2018" | relative_url }})
+[an earlier paper by the same authors][skorstengaard:esop:2018]
 that looked at how mutually distrusting pieces of code could safely call each other.
 In particular, it was concerned about whether the stack and return address were what the caller expected when they called the function.
 

@@ -16,6 +16,7 @@ title: 'Isabelle/HOL: A proof assistant for higher-order logic'
 year: 2002
 notes:
 - interactive-theorem-prover
+papers:
 ---
 
 {% include links.html %}

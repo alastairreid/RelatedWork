@@ -30,10 +30,16 @@ notes:
 - permission-logic
 - separation-logic
 - verifast-verifier
+papers:
+- jacobs:nfm:2011
+- penninckx:nfm:2012
+- filliatre:fem:2004
+- vogels:fmoods:2011
+- cohen:cav:2010
 ---
 
 This paper reports on four case studies using
-[VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }})
+[VeriFast][jacobs:nfm:2011]
 to verify real code for an absence of safety violations
 such as illegal memory accesses or data races.
 
@@ -47,12 +53,12 @@ of VeriFast and then describes the four case studies
 - USB BP (C)
   The Linux USB BP Keyboard Driver
   (brief description because it has been described
-  [elsewhere]({{ "papers/penninckx:nfm:2012" | relative_url }}))
+  [elsewhere][penninckx:nfm:2012])
 - SECURECHANGE (Java)
   (brief description because it has been described elsewhere)
 
 An interesting thing found in the SECURECHANGE study was that,
-despite previously having been verified using [Why/Krakatoa/Caduceus]({{ "papers/filliatre:fem:2004" | relative_url }})
+despite previously having been verified using [Why/Krakatoa/Caduceus][filliatre:fem:2004]
 bugs were found.
 They say "Clearly, the tool used earlier was not sound or was not
 used in a sound way."
@@ -81,11 +87,11 @@ annotation required in each case.
 | USB BP       |  C        |  329  | 822          | 250%     | ?     |
 
 Note that they also did some work on
-[annotation inference]({{ "papers/vogels:fmoods:2011" | relative_url }})
+[annotation inference][vogels:fmoods:2011]
 and I don't think all the data reflects those improvements.
 In the related work section, they suggest that other tools
 such as
-[VCC]({{ "papers/cohen:cav:2010" | relative_url }})
+[VCC][cohen:cav:2010]
 would not need as much annotation but at the expense of
 less predictable search time.
 

@@ -17,6 +17,7 @@ year: 2010
 topics:
 - os
 - verification
+papers:
 ---
 
 {% include links.html %}

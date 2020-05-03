@@ -34,6 +34,9 @@ notes:
 - permission-logic
 - separation-logic
 - implicit-dynamic-frames
+papers:
+- ohearn:cacm:2019
+- jacobs:nfm:2011
 ---
 
 Permission logics are Hoare-style logics for reasoning about heap allocated
@@ -41,14 +44,14 @@ data structures and whether a piece of code has permission to access a given
 part of the structure.  Their particular strength is the ability to reason
 about the lack of aliases – drawing on ideas from linear logic.  The best known
 permission logic is
-[separation logic]({{ "papers/ohearn:cacm:2019" | relative_url }});
+[separation logic][ohearn:cacm:2019];
 another permission logic is dynamic frames.  This paper
 tackles the problem that dynamic frames have a high annotation overhead because
 of the need to define and manipulate “frame annotations” for each method.
 Their solution is to infer the frame information directly from the access
 assertions in the pre/post-conditions of functions.
 
-A large part of what makes this more concise is that, in a tool like [VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }}),
+A large part of what makes this more concise is that, in a tool like [VeriFast][jacobs:nfm:2011],
 I have to write access predicates and (pure) expresssions separately.  For
 example, given a pointer “p” to a pair with fields “lo” and “hi”, I might write
 a predicate

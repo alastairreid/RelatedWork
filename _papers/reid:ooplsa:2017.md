@@ -36,5 +36,6 @@ notes:
 - ISA specification
 - instruction set architecture
 - dependent type
+papers:
 ---
 {% include links.html %}

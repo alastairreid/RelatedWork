@@ -24,6 +24,7 @@ title: Assertion-based encapsulation, object invariants and simulations
 year: 2005
 topics:
 - verification
+papers:
 ---
 
 {% include links.html %}

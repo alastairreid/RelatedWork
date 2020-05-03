@@ -23,6 +23,7 @@ series: OOPSLA '13
 title: Data-driven equivalence checking
 year: 2013
 topics:
+papers:
 ---
 
 {% include links.html %}

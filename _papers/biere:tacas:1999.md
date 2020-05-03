@@ -25,6 +25,7 @@ readings: []
 title: Symbolic model checking without BDDs
 year: 1999
 topics:
+papers:
 ---
 
 {% include links.html %}

@@ -27,5 +27,6 @@ topics:
 notes:
 - Rosette solver
 - symbolic evaluation
+papers:
 ---
 {% include links.html %}

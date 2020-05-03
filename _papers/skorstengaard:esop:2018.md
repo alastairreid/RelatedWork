@@ -29,6 +29,7 @@ year: 2018
 topics:
 - hardware
 - verification
+papers:
 ---
 
 This paper is concerned with reasoning about software running

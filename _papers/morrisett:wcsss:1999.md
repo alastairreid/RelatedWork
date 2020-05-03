@@ -27,6 +27,7 @@ notes:
 - instruction-set-architecture
 - typed-assembly-language
 - linear-logic
+papers:
 ---
 
 Typed assembly language is normal assembly language (x86 in this case) where any branch targets are labelled with the type of

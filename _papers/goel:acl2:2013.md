@@ -19,6 +19,7 @@ notes:
 - x86-architecture
 - instruction-set-architecture
 - acl2-theorem-prover
+papers:
 ---
 
 {% include links.html %}

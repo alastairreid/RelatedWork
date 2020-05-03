@@ -31,6 +31,7 @@ title: 'Knit: Component composition for systems software'
 url: http://dl.acm.org/citation.cfm?id=1251253
 year: 2000
 topics:
+papers:
 ---
 
 {% include links.html %}

@@ -25,6 +25,7 @@ year: 1964
 topics:
 notes:
 - isa-specification
+papers:
 ---
 
 {% include links.html %}

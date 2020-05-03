@@ -27,10 +27,12 @@ notes:
 - separation-logic
 - permission-logic
 - concurrent-separation-logic
+papers:
+- reynolds:lics:2002
 ---
 
 This survey paper updates
-[Reynolds 2002 survey of Separation Logic]({{ "papers/reynolds:lics:2002" | relative_url }})
+[Reynolds 2002 survey of Separation Logic][reynolds:lics:2002]
 with an overview of the developments, applications
 and extensions in Separation Logic and
 Concurrent Separation Logic over the last

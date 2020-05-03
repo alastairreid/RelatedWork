@@ -30,6 +30,10 @@ notes:
 - ghost-code
 - smt-solver
 - auto-active-verification
+papers:
+- bornat:popl:2005
+- jacobs:vstte:2010
+- philippaerts:scp:2014
 ---
 
 VeriFast is an auto-active verification tool for C and Java based on separation
@@ -39,13 +43,13 @@ This paper is a nice overview of the state of the project in 2011 when they had
 - a symbolic execution based checker with a nice UI
 - support for both C and Java
 - support for
-  [permission accounting]({{ "papers/bornat:popl:2005" | relative_url }})
+  [permission accounting][bornat:popl:2005]
   based on fractional permissions and an encoding of counting permissions
 - support for
-  [writing (recursive) lemma functions]({{ "papers/jacobs:vstte:2010" | relative_url }})
+  [writing (recursive) lemma functions][jacobs:vstte:2010]
   to prove inductive properties
 - and they were starting on some
-  [industrial case studies]({{ "papers/philippaerts:scp:2014" | relative_url }})
+  [industrial case studies][philippaerts:scp:2014]
 
 
 {% include links.html %}

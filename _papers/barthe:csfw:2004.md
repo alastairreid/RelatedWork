@@ -17,6 +17,7 @@ year: 2004
 notes:
 - information-flow
 - self-composition
+papers:
 ---
 
 This paper is a counter to the popular type-based approaches to information flow control.  They point out that type-based approaches are sound but not complete and fail on things like "output := secret; output := 0;".  Their solution is a more semantic approach that is based more closely on the basic definitions of non-interference and is sound and complete (but, unlike type-based approaches, is often undecidable and not obviously compositional).

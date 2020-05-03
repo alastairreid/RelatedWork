@@ -39,6 +39,11 @@ notes:
 - smallfoot-verifier
 - symbolic-execution
 - verifast-verifier
+papers:
+- berdine:aplas:2005
+- jacobs:nfm:2011
+- parkinson:popl:2005
+- bornat:popl:2005
 ---
 
 Smallfoot is a tool for automatically verifying both sequential
@@ -47,7 +52,7 @@ that is based on (concurrent) separation logic and symbolic
 execution.
 The proof theoretic foundations of the tool are described
 in a
-[companion paper]({{ "papers/berdine:aplas:2005" | relative_url }}).
+[companion paper][berdine:aplas:2005].
 
 One of the key tricks in enabling automation is to greatly
 simplify the expressive power of the logic so that the
@@ -57,7 +62,7 @@ that describe the heap.
 
 The paper explicitly avoids describing how conditionals are handled but,
 I believe that it works like the later
-[VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }})
+[VeriFast][jacobs:nfm:2011]
 by path splitting: separately exploring the path that
 starts with the "then" branch and the path that starts with the "else" branch.
 This seems to be necessary because there is no mention of what to do at join
@@ -66,9 +71,9 @@ spatial formulae.
 
 The version of Smallfoot described here did not have support for
 
-- [defining predicates]({{ "papers/parkinson:popl:2005" | relative_url }}).
+- [defining predicates][parkinson:popl:2005].
   Instead predicates for lists, trees and xor-lists were hardwired in the tool.
-- [permission accounting]({{ "papers/bornat:popl:2005" | relative_url }})
+- [permission accounting][bornat:popl:2005]
 
 And there seems to be no arithmetic in the examples so I suspect
 that it was not using an SMT solver in the background.

@@ -23,6 +23,7 @@ notes:
 - powerpc-architecture
 - isa-specification
 - instruction-set-architecture
+papers:
 ---
 
 {% include links.html %}

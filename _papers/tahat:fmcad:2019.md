@@ -19,6 +19,7 @@ notes:
 - translation-validation
 - Arm architecture
 - ASL
+papers:
 ---
 
 Describes a toolchain for translation validation of radere2 reverse engineering

@@ -28,6 +28,7 @@ title: Type-based decompilation (or program reconstruction via type reconstructi
 year: 1999
 topics:
 - types
+papers:
 ---
 
 {% include links.html %}

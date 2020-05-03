@@ -36,6 +36,7 @@ year: 2016
 topics:
 - verification
 - os
+papers:
 ---
 
 {% include links.html %}

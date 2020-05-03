@@ -26,6 +26,9 @@ topics:
 - verification
 notes:
 - loop-invariant
+papers:
+- tuerk:vstte:2010
+- schwerhoff:ecoop:2015
 ---
 
 Program verification based on assertions is fundamentally wrong.
@@ -80,12 +83,12 @@ For loops, the difference of describing what is still to be done
 enables local reasoning about loops because the focus is on
 the action of the loop, not the code that comes before it.
 This was
-[independently rediscovered by Tuerk two years later]({{ "papers/tuerk:vstte:2010" | relative_url }})
+[independently rediscovered by Tuerk two years later][tuerk:vstte:2010]
 in the context of separation logic
 where it eliminates the need to invent predicates for describing
 partial data structures.
 This was later used as the motivation for supporting
-[lightweight magic wands]({{ "papers/schwerhoff:ecoop:2015" | relative_url }}).
+[lightweight magic wands][schwerhoff:ecoop:2015].
 
 The paper contains four examples to illustrate how specified blocks
 are easier to work with: incrementing arrays, binary search, exponentiation

@@ -20,6 +20,7 @@ title: Binary Translation Using Peephole Superoptimizers
 url: https://www.usenix.org/legacy/event/osdi08/tech/full_papers/bansal/bansal.pdf
 year: 2008
 topics:
+papers:
 ---
 
 {% include links.html %}

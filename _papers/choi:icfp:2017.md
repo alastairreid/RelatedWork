@@ -22,6 +22,7 @@ year: 2017
 topics:
 - hardware
 - verification
+papers:
 ---
 
 {% include links.html %}

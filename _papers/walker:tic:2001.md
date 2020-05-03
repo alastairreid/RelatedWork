@@ -33,6 +33,7 @@ notes:
 - permission logic
 - linear logic
 - ownership types
+papers:
 ---
 
 {% include links.html %}

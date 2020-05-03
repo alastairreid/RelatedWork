@@ -18,6 +18,7 @@ volume: '82'
 year: 1991
 topics:
 - verification
+papers:
 ---
 
 Theoretical paper justifying the practice of adding auxiliary variables (ghost

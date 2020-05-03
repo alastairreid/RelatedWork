@@ -30,6 +30,8 @@ topics:
 - verification
 notes:
 - information-flow
+papers:
+- gu:osdi:2016
 ---
 
 Information-flow control tackles two of the classic Confidentiality-Integrity-Availability (CIA) aspects of security.
@@ -38,7 +40,7 @@ The proof consists of Coq proofs about individual system calls and a general fra
 The proof covers both C and x86 assembly code in mCertiKOS and includes reasoning about page tables.
 
 For those familiar with the mCertiKOS work, one of the remarkable things about this paper is the size of the proofs.
-While the refinement proofs (described [elsewhere]({{ "papers/gu:osdi:2016" | relative_url }})) are over 200K lines of proof, the security proofs in this paper are just over 6K lines of proof.
+While the refinement proofs (described [elsewhere][gu:osdi:2016]) are over 200K lines of proof, the security proofs in this paper are just over 6K lines of proof.
 I think that the reason that they are so small comes from two things.
 
 1.  mCertiKOS is deterministic and is isomorphic to its

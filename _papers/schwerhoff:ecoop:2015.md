@@ -23,6 +23,7 @@ notes:
 - magic wand
 - Viper verifier
 - Prusti verifier
+papers:
 ---
 
 Verifying a loop that walks over a heap data structure is tricky.  At the

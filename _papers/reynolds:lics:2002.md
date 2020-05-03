@@ -26,6 +26,7 @@ topics:
 notes:
 - separation-logic
 - permission-logic
+papers:
 ---
 
 Separation logic is an extension of Hoare logic for reasoning about

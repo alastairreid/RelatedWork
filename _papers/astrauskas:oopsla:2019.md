@@ -37,17 +37,21 @@ notes:
 papers:
 - heule:ftfjp:2011
 - bornat:popl:2005
+papers:
+- ohearn:cacm:2019
+- muller:vmcai:2016
+- jacobs:nfm:2011
 ---
 
 This paper exploits the close similarity between
 Rust's type system
 and
 permission based reasoning approaches such as
-[separation logic]({{ "papers/ohearn:cacm:2019" | relative_url }})
+[separation logic][ohearn:cacm:2019]
 and
 implicit dynamic frames logic.
 Specifically, they describe the embedding of Rust programs
-into the [Viper intermediate verification language]({{ "papers/muller:vmcai:2016" | relative_url }})
+into the [Viper intermediate verification language][muller:vmcai:2016]
 in a way that exploits the properties of Rust's
 borrow-based type system.
 This embedding is (partially?) implemented in the _Prusti_
@@ -124,7 +128,7 @@ Their evaluation is in two parts
    numbers come from me eyeballing the tables.)
    This is a bit slow (especially since I have recently been
    using the "very fast"
-   [VeriFast]({{ "papers/jacobs:nfm:2011" | relative_url }})
+   [VeriFast][jacobs:nfm:2011]
    tool), but this is clearly early days in the tool
    development and they say there is a lot of opportunity
    for optimisation.

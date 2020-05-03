@@ -30,6 +30,8 @@ notes:
 - symbolic evaluation
 - symbolic execution
 - bounded model checking
+papers:
+- nelson:sosp:2019
 ---
 
 Rosetta is a Racket DSL for implementing Solver-aided Domain Specific
@@ -58,6 +60,6 @@ Rosetta is demonstrated/evaluated on an OpenCL synthesis task, an XPath
 synthesis task and an information flow verification task.
 
 This forms the basis of a number of other projects including
-[Serval]({{ "papers/nelson:sosp:2019" | relative_url }}).
+[Serval][nelson:sosp:2019].
 
 {% include links.html %}

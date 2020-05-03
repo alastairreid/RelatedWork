@@ -28,6 +28,7 @@ year: 2013
 topics:
 - os
 - security
+papers:
 ---
 
 {% include links.html %}

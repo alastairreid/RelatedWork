@@ -22,6 +22,7 @@ topics:
 - os
 notes:
 - vcc-verifier
+papers:
 ---
 
 Describes how VCC was used to verify Hyper-V Hypervisor and PikeOS RTOS.

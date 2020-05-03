@@ -30,11 +30,13 @@ notes:
 - separation-logic
 - smallfoot-verifier
 - symbolic-execution
+papers:
+- berdine:fmco:2005
 ---
 
 This paper describes the proof-theoretic basis for the
 Smallfoot verification tool described in a
-[companion paper]({{ "papers/berdine:fmco:2005" | relative_url }}).
+[companion paper][berdine:fmco:2005].
 See the other paper for a description.
 
 

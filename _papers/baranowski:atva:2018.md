@@ -35,6 +35,11 @@ notes:
 - Rust language
 - SMACK verifier
 - LLVM compiler
+papers:
+- rakamaric:cav:2014
+- barnett:fmco:2005
+- lal:fse:2014
+- demoura:tacas:2008
 ---
 
 The Rust programming language promises a balance between safety
@@ -42,7 +47,7 @@ and control that makes it an interesting target for
 formal verification work.
 Unfortunately, some of the earliest verification tools supporting
 Rust are not maintained.
-[SMACK]({{ "papers/rakamaric:cav:2014" | relative_url }})
+[SMACK][rakamaric:cav:2014]
 is an LLVM-based verification toolchain that translates LLVM IR
 into verification conditions.
 In principle, it should be able to cope with any language that
@@ -55,10 +60,10 @@ it allows verification of programs that combine Rust and C
 
 This toolchain uses rustc to convert Rust code to LLVM IR;
 SMACK converts LLVM IR code
-into [Boogie]({{ "papers/barnett:fmco:2005" | relative_url }})
+into [Boogie][barnett:fmco:2005]
 [intermediate verification language]
-and then into [Corral]({{ "papers/lal:fse:2014" | relative_url }})
-and the [Z3 SMT solver]({{ "papers/demoura:tacas:2008" | relative_url }})
+and then into [Corral][lal:fse:2014]
+and the [Z3 SMT solver][demoura:tacas:2008]
 In this paper, this is used for bounded verification: unrolling loops and recursion up to some bound.
 
 

@@ -33,6 +33,7 @@ notes:
 - permission-accounting
 - chalice-verifier
 - ghost-code
+papers:
 ---
 
 This is a tutorial on the Chalice object-oriented language and verifier.

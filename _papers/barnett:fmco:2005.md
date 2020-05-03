@@ -36,9 +36,10 @@ papers:
 - cohen:cav:2010
 - leinenbach:fm:2009
 - barnett:cassis:2004
+- filliatre:fem:2004
 ---
 
-Boogie factors verification of [Spec#]({{ "papers/barnett:cassis:2004" | relative_url }}) programs into
+Boogie factors verification of [Spec#][barnett:cassis:2004] programs into
 - Generating the Intermediate Verification Language BoogiePL by encoding language semantics, using abstract interpretation and introducing ghost state.
 - Verifying BoogiePL by generating Verification Conditions and proving them using "Simplify" (with plans of switch to "Zap").
 This combination simplifies and separates the two tasks and allows use of abstract interpretation (good at calculating fixpoints) and theorem proving (good at handling quantification).
@@ -52,11 +53,11 @@ Simple loop invariants (especially those associated with object allocation/lifet
 
 The paper notes that separation of generation from proof is not always ideal because it leads to some duplication of reasoning support and it makes loop invariant generation harder.
 
-Similar work is [Caduceus and its IVL "Why"]({{ "papers/filliatre:fem:2004" | relative_url }}).
+Similar work is [Caduceus and its IVL "Why"][filliatre:fem:2004].
 Used by
-[SMACK]({{"papers/rakamaric:cav:2014"|relative_url}})
-[Hyper-V]({{"papers/cohen:cav:2010"|relative_url}})
-[VCC]({{"papers/leinenbach:fm:2009"|relative_url}})
+[SMACK][rakamaric:cav:2014]
+[Hyper-V][cohen:cav:2010]
+[VCC][leinenbach:fm:2009]
 and others.
 
 {% include links.html %}

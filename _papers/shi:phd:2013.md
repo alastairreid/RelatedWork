@@ -22,6 +22,7 @@ notes:
 - arm-architecture
 - isa-specification
 - instruction-set-architecture
+papers:
 ---
 
 {% include links.html %}

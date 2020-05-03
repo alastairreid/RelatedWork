@@ -35,7 +35,7 @@ papers:
 - jung:popl:2017
 ---
 
-As in [the Rustbelt paper]({{ "papers/jung:popl:2017" | relative_url }}),
+As in [the Rustbelt paper][jung:popl:2017],
 the topic of this paper is the soundness of Rust code that
 is marked "unsafe" because it needs to do something that
 cannot be expressed within the restrictions of Rust's type

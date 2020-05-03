@@ -33,9 +33,17 @@ notes:
 - spec-sharp-project
 - boogie-verifier
 - contract-driven-development
+papers:
+- barnett:cassis:2004
+- chatterjee:tacas:2007
+- fahndrich:foveoos:2010
+- logozzo:vmcai:2011
+- barnett:fmco:2005
+- leino:tacas:2010
+- demoura:tacas:2008
 ---
 
-[Spec#]({{ "papers/barnett:cassis:2004" | relative_url }})
+[Spec#][barnett:cassis:2004]
 was a Microsoft Research project that added automated verification
 to C# through the addition of method contracts, class invariants and
 loop invariants.
@@ -55,7 +63,7 @@ Spec# was an ambitious project with many different parts:
   as it evolves is hard and the language brings several problems of its
   own.
 
-  ([HAVOC]({{ "papers/chatterjee:tacas:2007" | relative_url }})
+  ([HAVOC][chatterjee:tacas:2007]
   was a spinoff that applied some Spec# ideas to low-level C code.)
 
 - Platform: their work built on Microsoft's .NET framework which gave
@@ -63,8 +71,8 @@ Spec# was an ambitious project with many different parts:
   be linked against programs written in other languages that did not
   have contracts.
   This lead to the development of a
-  [language-neutral contract library]({{ "papers/fahndrich:foveoos:2010" | relative_url }}),
-  [see also logozzo:vmcai:2011]({{ "papers/logozzo:vmcai:2011" | relative_url }}).
+  [language-neutral contract library][fahndrich:foveoos:2010],
+  [see also logozzo:vmcai:2011][logozzo:vmcai:2011].
 
 - Contracts that could be used for dynamic checking or static verification.
   An early goal was to integrate with established programming practice
@@ -86,10 +94,10 @@ Spec# was an ambitious project with many different parts:
   to make this easier.
 
 - Verification backend: the
-  [Boogie Intermediate Verification Language]({{ "papers/barnett:fmco:2005" | relative_url }})
+  [Boogie Intermediate Verification Language][barnett:fmco:2005]
   was created to support Spec# but has been used in many other projects.
-  (See also: [Boogie2]({{ "papers/leino:tacas:2010" | relative_url }}).)
-  And Boogie builds on [Z3]({{ "papers/demoura:tacas:2008" | relative_url }}).
+  (See also: [Boogie2][leino:tacas:2010].)
+  And Boogie builds on [Z3][demoura:tacas:2008].
 
 I have probably missed out a lot of important stuff – read the paper!
 
