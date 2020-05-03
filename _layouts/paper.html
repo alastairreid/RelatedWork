@@ -70,18 +70,9 @@ layout: default
   <a href="{{site.baseurl}}/topics/{{ topic }}">{{topic}}</a>
   {% endfor %}
   {% endif %}
-  </div>
-
-  <hr>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <hr>
 
   {% if page.notes %}
-  Note(s):
+  <br>Note(s):
   {% for note in page.notes %}
   <a href="{{site.baseurl}}/notes/{{ note | replace: ' ', '-' | downcase}}">{{note}}</a>{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
@@ -94,6 +85,11 @@ layout: default
   {% endfor %}
   {% endif %}
 
+  </div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
 
   <!--
   <br>BibTeX:
