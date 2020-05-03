@@ -17,8 +17,8 @@ topics:
 - tools
 - verification
 notes:
-- contract-driven-development
-- abstract-interpretation
+- contract driven development
+- abstract interpretation
 papers:
 ---
 

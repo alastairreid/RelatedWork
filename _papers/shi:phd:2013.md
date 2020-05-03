@@ -19,9 +19,9 @@ url: https://tel.archives-ouvertes.fr/tel-00937524
 year: 2013
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

@@ -22,11 +22,11 @@ topics:
 - tools
 - verification
 notes:
-- information-flow
-- rosette-solver
-- llvm-compiler
-- riscv-architecture
-- symbolic-evaluation
+- information flow
+- Rosette solver
+- LLVM compiler
+- RISCV architecture
+- symbolic evaluation
 papers:
 - nelson:sosp:2017
 - sigurbjarnarson:osdi:2016

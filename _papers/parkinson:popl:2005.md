@@ -26,8 +26,8 @@ year: 2005
 topics:
 - verification
 notes:
-- permission-logic
-- separation-logic
+- permission logic
+- separation logic
 papers:
 ---
 

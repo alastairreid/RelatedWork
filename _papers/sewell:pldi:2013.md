@@ -18,10 +18,10 @@ title: Translation validation for a verified OS kernel
 year: 2013
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
-- translation-validation
+- Arm architecture
+- ISA specification
+- instruction set architecture
+- translation validation
 papers:
 ---
 

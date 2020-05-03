@@ -20,7 +20,7 @@ topics:
 - os
 - verification
 notes:
-- information-flow
+- information flow
 papers:
 - leino:lpair:2010
 - nelson:sosp:2019

@@ -20,7 +20,7 @@ topics:
 - tools
 - verification
 notes:
-- frama-c-verifier
+- Frama-C verifier
 papers:
 - cuoq:sefm:2012
 ---

@@ -23,8 +23,8 @@ topics:
 - tools
 - verification
 notes:
-- contract-driven-development
-- permission-logic
+- contract driven development
+- permission logic
 papers:
 ---
 

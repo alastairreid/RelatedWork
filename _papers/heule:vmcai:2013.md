@@ -32,7 +32,7 @@ year: 2013
 topics:
 - verification
 notes:
-- permission-logic
+- permission logic
 papers:
 - heule:ftfjp:2011
 ---

@@ -25,7 +25,7 @@ year: 2006
 topics:
 - verification
 notes:
-- permission-logic
+- permission logic
 papers:
 ---
 

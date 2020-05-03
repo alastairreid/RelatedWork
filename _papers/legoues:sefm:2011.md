@@ -30,9 +30,9 @@ topics:
 - tools
 - verification
 notes:
-- boogie-verifier
-- dafny-verifier
-- vcc-verifier
+- Boogie verifier
+- Dafny verifier
+- VCC verifier
 papers:
 - barnett:fmco:2005
 - leino:lpair:2010

@@ -27,9 +27,9 @@ title: Engineering a Formal, Executable x86 ISA Simulator for Software Verificat
 year: 2017
 topics:
 notes:
-- x86-architecture
-- instruction-set-architecture
-- acl2-theorem-prover
+- x86 architecture
+- instruction set architecture
+- ACL2 theorem prover
 papers:
 ---
 

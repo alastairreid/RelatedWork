@@ -32,8 +32,8 @@ topics:
 - tools
 - verification
 notes:
-- corral-verifier
-- bounded-verification
+- Corral verifier
+- bounded verification
 papers:
 ---
 

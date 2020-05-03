@@ -25,7 +25,7 @@ title: 'Path-exploration lifting: Hi-fi tests for lo-fi emulators'
 year: 2012
 topics:
 notes:
-- x86-architecture
+- x86 architecture
 papers:
 ---
 

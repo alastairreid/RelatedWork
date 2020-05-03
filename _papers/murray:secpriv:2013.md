@@ -25,7 +25,7 @@ topics:
 - security
 - os
 notes:
-- information-flow
+- information flow
 papers:
 - klein:sosp:2009
 - costanzo:pldi:2016

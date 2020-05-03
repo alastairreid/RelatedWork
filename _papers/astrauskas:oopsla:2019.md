@@ -29,10 +29,10 @@ topics:
 - types
 - verification
 notes:
-- permission-logic
-- rust-language
+- permission logic
+- Rust language
 - viper-verifier
-- permission-accounting
+- permission accounting
 - cactus-plot
 papers:
 - heule:ftfjp:2011

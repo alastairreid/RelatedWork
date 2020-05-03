@@ -20,9 +20,9 @@ title: An integrated concurrency and core-ISA architectural envelope definition,
 year: 2015
 topics:
 notes:
-- powerpc-architecture
-- isa-specification
-- instruction-set-architecture
+- PowerPC architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

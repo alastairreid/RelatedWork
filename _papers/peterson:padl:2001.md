@@ -34,7 +34,7 @@ volume: '1990'
 year: 2001
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

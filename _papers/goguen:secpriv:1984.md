@@ -16,7 +16,7 @@ year: 1984
 topics:
 - security
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

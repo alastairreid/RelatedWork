@@ -20,9 +20,9 @@ volume: '6172'
 year: 2010
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

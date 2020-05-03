@@ -16,7 +16,7 @@ topics:
 - tools
 - verification
 notes:
-- contract-based-development
+- contract driven development
 papers:
 ---
 

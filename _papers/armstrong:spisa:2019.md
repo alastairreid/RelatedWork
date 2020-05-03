@@ -27,13 +27,13 @@ title: The state of Sail
 year: 2019
 topics:
 notes:
-- arm-architecture
-- riscv-architecture
+- Arm architecture
+- RISCV architecture
 - cheri-architecture
 - mips-architecture
-- isa-specification
-- instruction-set-architecture
-- dependent-type
+- ISA specification
+- instruction set architecture
+- dependent type
 papers:
 ---
 

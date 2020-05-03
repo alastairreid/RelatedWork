@@ -11,7 +11,7 @@ read: true
 readings:
 - 2019-10-11
 notes:
-- information-flow
+- information flow
 papers:
 - goguen:secpriv:1982
 ---

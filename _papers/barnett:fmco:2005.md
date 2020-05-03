@@ -21,16 +21,16 @@ topics:
 - tools
 - verification
 notes:
-- boogie-verifier
-- z3-solver
-- intermediate-verification-language
-- verification-condition-generator
+- Boogie verifier
+- Z3 solver
+- intermediate verification language
+- verification condition generator
 - spec-sharp-project
-- modular-verification
-- contract-based-development
-- smack-verifier
-- corral-verifier
-- abstract-interpretation
+- modular verification
+- contract driven development
+- SMACK verifier
+- Corral verifier
+- abstract interpretation
 papers:
 - rakamaric:cav:2014
 - cohen:cav:2010

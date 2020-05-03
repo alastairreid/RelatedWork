@@ -17,7 +17,7 @@ year: 2013
 topics:
 - verification
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

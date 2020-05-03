@@ -34,11 +34,11 @@ topics:
 - tools
 - verification
 notes:
-- separation-logic
-- permission-logic
-- smallfoot-verifier
-- symbolic-execution
-- verifast-verifier
+- separation logic
+- permission logic
+- smallfoot verifier
+- symbolic execution
+- VeriFast verifier
 papers:
 - berdine:aplas:2005
 - jacobs:nfm:2011

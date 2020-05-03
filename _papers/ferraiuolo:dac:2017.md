@@ -20,7 +20,7 @@ topics:
 - security
 - types
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

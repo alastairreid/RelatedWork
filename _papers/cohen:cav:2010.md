@@ -21,7 +21,7 @@ topics:
 - verification
 - os
 notes:
-- vcc-verifier
+- VCC verifier
 papers:
 ---
 

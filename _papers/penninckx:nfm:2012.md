@@ -36,10 +36,10 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- separation-logic
-- concurrent-separation-logic
-- verifast-verifier
+- permission logic
+- separation logic
+- concurrent-separation logic
+- VeriFast verifier
 papers:
 ---
 

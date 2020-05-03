@@ -14,7 +14,7 @@ read: true
 readings:
 - 2019-10-06
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

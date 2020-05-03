@@ -21,10 +21,10 @@ title: 'Pydgin: generating fast instruction set simulators from simple architect
 year: 2015
 topics:
 notes:
-- arm-architecture
-- riscv-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- RISCV architecture
+- ISA specification
+- instruction set architecture
 ----
 
 {% include links.html %}

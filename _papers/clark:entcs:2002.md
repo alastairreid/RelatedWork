@@ -17,7 +17,7 @@ title: Quantitative analysis of the leakage of confidential data
 volume: '59'
 year: 2002
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

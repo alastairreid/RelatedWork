@@ -12,11 +12,11 @@ pages: 100-114
 read: true
 readings:
 - 2019-10-11
-title: Secure information flow by self-composition
+title: Secure information flow by self composition
 year: 2004
 notes:
-- information-flow
-- self-composition
+- information flow
+- self composition
 papers:
 ---
 

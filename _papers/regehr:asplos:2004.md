@@ -31,7 +31,7 @@ title: 'HOIST: a system for automatically deriving static analyzers for embedded
 year: 2004
 topics:
 notes:
-- abstract-interpretation
+- abstract interpretation
 papers:
 ---
 

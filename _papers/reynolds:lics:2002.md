@@ -24,8 +24,8 @@ year: 2002
 topics:
 - verification
 notes:
-- separation-logic
-- permission-logic
+- separation logic
+- permission logic
 papers:
 ---
 

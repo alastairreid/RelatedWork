@@ -17,9 +17,9 @@ title: A Complete Formal Semantics of x86-64 User-Level Instruction Set Architec
 year: 2019
 topics:
 notes:
-- isa-specification
-- x86-architecture
-- instruction-set-architecture
+- ISA specification
+- x86 architecture
+- instruction set architecture
 papers:
 ---
 

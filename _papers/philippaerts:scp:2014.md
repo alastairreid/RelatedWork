@@ -27,9 +27,9 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- separation-logic
-- verifast-verifier
+- permission logic
+- separation logic
+- VeriFast verifier
 papers:
 - jacobs:nfm:2011
 - penninckx:nfm:2012

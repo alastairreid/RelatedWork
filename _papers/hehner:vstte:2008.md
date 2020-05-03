@@ -25,7 +25,7 @@ topics:
 - tools
 - verification
 notes:
-- loop-invariant
+- loop invariant
 papers:
 - tuerk:vstte:2010
 - schwerhoff:ecoop:2015

@@ -18,9 +18,9 @@ volume: '2758'
 year: 2003
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

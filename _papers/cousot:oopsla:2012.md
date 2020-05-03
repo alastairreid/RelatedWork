@@ -20,7 +20,7 @@ year: 2012
 topics:
 - verification
 notes:
-- abstract-interpretation
+- abstract interpretation
 papers:
 ---
 

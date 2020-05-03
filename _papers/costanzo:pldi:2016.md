@@ -21,7 +21,7 @@ read: true
 readings:
 - 2020-01-02
 series: PLDI'16
-title: End-to-end verification of information-flow security for C and assembly programs
+title: End-to-end verification of information flow security for C and assembly programs
 url: http://doi.acm.org/10.1145/2908080.2908100
 year: 2016
 topics:
@@ -29,7 +29,7 @@ topics:
 - security
 - verification
 notes:
-- information-flow
+- information flow
 papers:
 - gu:osdi:2016
 ---

@@ -24,7 +24,7 @@ volume: '3'
 year: 1964
 topics:
 notes:
-- isa-specification
+- ISA specification
 papers:
 ---
 

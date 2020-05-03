@@ -23,9 +23,9 @@ title: 'Modelling the ARMv8 architecture, operationally: concurrency and ISA'
 year: 2016
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

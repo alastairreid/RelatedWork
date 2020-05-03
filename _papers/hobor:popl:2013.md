@@ -25,10 +25,10 @@ year: 2013
 topics:
 - verification
 notes:
-- magic-wand
-- permission-logic
-- separation-logic
-- frame-rule
+- magic wand
+- permission logic
+- separation logic
+- frame rule
 papers:
 - krishnaswami:tldi:2010
 ---

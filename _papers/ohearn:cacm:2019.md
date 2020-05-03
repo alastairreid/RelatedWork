@@ -24,9 +24,9 @@ year: 2019
 topics:
 - verification
 notes:
-- separation-logic
-- permission-logic
-- concurrent-separation-logic
+- separation logic
+- permission logic
+- concurrent-separation logic
 papers:
 - reynolds:lics:2002
 ---

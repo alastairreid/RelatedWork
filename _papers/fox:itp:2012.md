@@ -20,9 +20,9 @@ title: Directions in ISA specification
 year: 2012
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

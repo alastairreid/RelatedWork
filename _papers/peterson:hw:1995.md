@@ -17,7 +17,7 @@ url: https://www.haskell.org/haskell-workshop/1995/HW1995-Proceedings.pdf
 year: 1995
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

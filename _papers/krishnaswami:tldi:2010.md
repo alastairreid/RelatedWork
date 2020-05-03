@@ -27,10 +27,10 @@ year: 2010
 topics:
 - verification
 notes:
-- permission-logic
-- separation-logic
-- frame-rule
-- magic-wand
+- permission logic
+- separation logic
+- frame rule
+- magic wand
 papers:
 ---
 

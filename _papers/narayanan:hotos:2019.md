@@ -20,7 +20,7 @@ topics:
 - os
 - verification
 notes:
-- rust-language
+- Rust language
 papers:
 ---
 

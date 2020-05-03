@@ -15,9 +15,9 @@ url: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-545.pdf
 year: 2001
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

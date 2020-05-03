@@ -17,7 +17,7 @@ year: 2000
 topics:
 - verification
 notes:
-- smt-solver
+- SMT solver
 papers:
 ---
 

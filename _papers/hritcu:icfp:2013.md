@@ -14,7 +14,7 @@ authors:
 booktitle: Proceedings of the 18th ACM SIGPLAN International Conference on Functional Programming
 doi: 10.1145/2500365.2500574
 isbn: 978-1-4503-2326-0
-keywords: abstract machine, design, dynamic information-flow control, noninterference, quickcheck, random testing, security
+keywords: abstract machine, design, dynamic information flow control, noninterference, quickcheck, random testing, security
 layout: paper
 location: Boston, Massachusetts, USA
 numpages: '14'
@@ -29,7 +29,7 @@ year: 2013
 topics:
 - security
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

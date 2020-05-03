@@ -17,7 +17,7 @@ topics:
 - tools
 - verification
 notes:
-- corral-verifier
+- Corral verifier
 papers:
 ---
 

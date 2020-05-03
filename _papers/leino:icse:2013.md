@@ -23,12 +23,12 @@ topics:
 - tools
 - verification
 notes:
-- auto-active-verification
-- boogie-verifier
-- dafny-verifier
-- ghost-code
-- z3-solver
-- smt-solver
+- auto-active verification
+- Boogie verifier
+- Dafny verifier
+- ghost code
+- Z3 solver
+- SMT solver
 papers:
 - leino:lpair:2010
 ---

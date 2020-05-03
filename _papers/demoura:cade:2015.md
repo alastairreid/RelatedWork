@@ -20,8 +20,8 @@ topics:
 - tools
 - verification
 notes:
-- lean-theorem-prover
-- interactive-theorem-prover
+- Lean theorem prover
+- interactive theorem prover
 papers:
 ---
 

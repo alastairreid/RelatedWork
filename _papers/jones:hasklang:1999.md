@@ -30,7 +30,7 @@ url: https://www.haskell.org/definition/
 year: 1999
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

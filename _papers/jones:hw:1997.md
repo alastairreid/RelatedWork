@@ -17,7 +17,7 @@ title: 'Green Card: a foreign-language interface for Haskell'
 year: 1997
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

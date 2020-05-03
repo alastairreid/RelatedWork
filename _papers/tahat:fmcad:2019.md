@@ -16,7 +16,7 @@ topics:
 - os
 - verification
 notes:
-- translation-validation
+- translation validation
 - Arm architecture
 - ASL
 papers:

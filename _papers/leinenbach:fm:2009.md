@@ -18,8 +18,8 @@ year: 2009
 topics:
 - tools
 notes:
-- information-flow
-- vcc-verifier
+- information flow
+- VCC verifier
 papers:
 ---
 

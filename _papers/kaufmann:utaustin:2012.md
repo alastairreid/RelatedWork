@@ -12,9 +12,9 @@ title: Towards a formal model of the x86 ISA
 year: 2012
 topics:
 notes:
-- isa-specification
-- x86-architecture
-- instruction-set-architecture
+- ISA specification
+- x86 architecture
+- instruction set architecture
 papers:
 ---
 

@@ -24,9 +24,9 @@ title: 'Stratified synthesis: Automatically learning the x86-64 instruction set'
 year: 2016
 topics:
 notes:
-- x86-architecture
-- instruction-set-architecture
-- isa-specification
+- x86 architecture
+- instruction set architecture
+- ISA specification
 papers:
 ---
 

@@ -21,7 +21,7 @@ year: 2010
 topics:
 - hardware
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

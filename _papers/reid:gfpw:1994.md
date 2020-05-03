@@ -16,8 +16,8 @@ title: 'Malloc pointers and stable pointers: Improving Haskell''s foreign langua
 year: 1994
 topics:
 notes:
-- haskell-language
-- foreign-function-interface
+- Haskell language
+- foreign function interface
 papers:
 ---
 

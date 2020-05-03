@@ -27,7 +27,7 @@ topics:
 - tools
 - verification
 notes:
-- rust-language
+- Rust language
 papers:
 ---
 

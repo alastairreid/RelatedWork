@@ -31,8 +31,8 @@ topics:
 - verification
 notes:
 - spec-sharp-project
-- boogie-verifier
-- contract-driven-development
+- Boogie verifier
+- contract driven development
 papers:
 - barnett:cassis:2004
 - chatterjee:tacas:2007

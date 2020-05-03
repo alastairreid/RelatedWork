@@ -14,10 +14,10 @@ url: http://www.cs.utexas.edu/users/shigoel/x86isaInfo/Shilpi-Goel-Dissertation.
 year: 2016
 topics:
 notes:
-- isa-specification
-- x86-architecture
-- instruction-set-architecture
-- acl2-theorem-prover
+- ISA specification
+- x86 architecture
+- instruction set architecture
+- ACL2 theorem prover
 papers:
 ---
 

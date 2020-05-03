@@ -24,10 +24,10 @@ volume: '2'
 year: 2018
 topics:
 notes:
-- symbolic-evaluation
-- symbolic-execution
-- bounded-model-checking
-- rosette-solver
+- symbolic evaluation
+- symbolic execution
+- bounded model checking
+- Rosette solver
 papers:
 ---
 

@@ -30,7 +30,7 @@ year: 2005
 topics:
 - os
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

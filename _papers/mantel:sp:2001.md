@@ -13,7 +13,7 @@ readings: []
 title: Preserving information flow properties under refinement
 year: 2000
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

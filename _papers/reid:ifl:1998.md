@@ -28,7 +28,7 @@ volume: '1595'
 year: 1998
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

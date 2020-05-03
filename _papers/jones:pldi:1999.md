@@ -34,7 +34,7 @@ title: A semantics for imprecise exceptions
 year: 1999
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

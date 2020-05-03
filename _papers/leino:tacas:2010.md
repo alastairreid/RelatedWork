@@ -21,8 +21,8 @@ topics:
 - types
 - verification
 notes:
-- intermediate-verification-language
-- boogie-verifier
+- intermediate verification language
+- Boogie verifier
 papers:
 ---
 

@@ -30,8 +30,8 @@ topics:
 - types
 - verification
 notes:
-- linear-logic
-- permission-logic
+- linear logic
+- permission logic
 papers:
 - morrisett:wcsss:1999
 ---

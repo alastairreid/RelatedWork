@@ -35,9 +35,9 @@ topics:
 - tools
 - verification
 notes:
-- abstract-interpretation
-- seahorn-verifier
-- llvm-compiler
+- abstract interpretation
+- SeaHorn verifier
+- LLVM compiler
 papers:
 ---
 

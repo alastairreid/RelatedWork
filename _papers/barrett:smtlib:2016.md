@@ -12,7 +12,7 @@ title: The Satisfiability Modulo Theories Library (SMT-LIB)
 year: 2016
 topics:
 notes:
-- smt-solver
+- SMT solver
 papers:
 ---
 

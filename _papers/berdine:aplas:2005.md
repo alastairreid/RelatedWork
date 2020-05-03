@@ -26,10 +26,10 @@ year: 2005
 topics:
 - verification
 notes:
-- permission-logic
-- separation-logic
-- smallfoot-verifier
-- symbolic-execution
+- permission logic
+- separation logic
+- smallfoot verifier
+- symbolic execution
 papers:
 - berdine:fmco:2005
 ---

@@ -23,9 +23,9 @@ title: Machine code verification of a tiny ARM hypervisor
 year: 2013
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

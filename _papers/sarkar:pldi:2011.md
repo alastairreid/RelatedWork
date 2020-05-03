@@ -20,9 +20,9 @@ title: Understanding POWER multiprocessors
 year: 2011
 topics:
 notes:
-- powerpc-architecture
-- isa-specification
-- instruction-set-architecture
+- PowerPC architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

@@ -26,11 +26,11 @@ topics:
 - tools
 - verification
 notes:
-- rust-language
-- bounded-verification
-- cbmc-verifier
-- rust-unsafe-code
-- undefined-behaviour
+- Rust language
+- bounded verification
+- CBMC verifier
+- Rust unsafe code
+- undefined behaviour
 papers:
 - jung:popl:2017
 ---

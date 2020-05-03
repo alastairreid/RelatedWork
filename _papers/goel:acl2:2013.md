@@ -15,10 +15,10 @@ title: Abstract stobjs and their application to ISA modeling
 year: 2013
 topics:
 notes:
-- isa-specification
-- x86-architecture
-- instruction-set-architecture
-- acl2-theorem-prover
+- ISA specification
+- x86 architecture
+- instruction set architecture
+- ACL2 theorem prover
 papers:
 ---
 

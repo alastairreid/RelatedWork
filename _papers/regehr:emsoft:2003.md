@@ -35,7 +35,7 @@ volume: '2855'
 year: 2003
 topics:
 notes:
-- abstract-interpretation
+- abstract interpretation
 papers:
 ---
 

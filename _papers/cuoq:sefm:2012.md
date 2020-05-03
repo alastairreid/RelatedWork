@@ -34,9 +34,9 @@ topics:
 - tools
 - verification
 notes:
-- abstract-interpretation
-- frama-c-verifier
-- why3-verifier
+- abstract interpretation
+- Frama-C verifier
+- Why3 verifier
 papers:
 ---
 

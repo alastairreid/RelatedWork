@@ -24,8 +24,8 @@ url: https://www.cse.unsw.edu.au/~chak/haskell/ffi
 year: 2003
 topics:
 notes:
-- haskell-language
-- foreign-function-interface
+- Haskell language
+- foreign function interface
 papers:
 ---
 

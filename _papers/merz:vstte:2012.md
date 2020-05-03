@@ -30,8 +30,8 @@ topics:
 - tools
 - verification
 notes:
-- llvm-compiler
-- bounded-model-checking
+- LLVM compiler
+- bounded model checking
 papers:
 ---
 

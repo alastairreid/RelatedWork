@@ -14,7 +14,7 @@ title: Provably secure compilation of side-channel countermeasures.
 volume: '2017'
 year: 2017
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

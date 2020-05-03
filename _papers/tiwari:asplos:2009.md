@@ -24,7 +24,7 @@ topics:
 - hardware
 - security
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

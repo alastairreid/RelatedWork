@@ -22,7 +22,7 @@ title: Automated synthesis of symbolic instruction encodings from I/O samples
 year: 2012
 topics:
 notes:
-- symbolic-execution
+- symbolic execution
 papers:
 ---
 

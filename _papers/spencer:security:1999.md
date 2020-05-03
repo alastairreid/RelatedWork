@@ -24,7 +24,7 @@ year: 1999
 topics:
 - os
 notes:
-- information-flow
+- information flow
 papers:
 - efstathopoulos:sosp:2005
 - zeldovich:osdi:2006

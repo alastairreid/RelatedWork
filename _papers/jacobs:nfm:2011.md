@@ -22,14 +22,14 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- separation-logic
-- fractional-permissions
-- permission-accounting
-- verifast-verifier
-- ghost-code
-- smt-solver
-- auto-active-verification
+- permission logic
+- separation logic
+- fractional permissions
+- permission accounting
+- VeriFast verifier
+- ghost code
+- SMT solver
+- auto-active verification
 papers:
 - bornat:popl:2005
 - jacobs:vstte:2010

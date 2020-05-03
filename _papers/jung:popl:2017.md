@@ -28,12 +28,12 @@ topics:
 - types
 - verification
 notes:
-- permission-logic
-- rust-language
-- undefined-behaviour
+- permission logic
+- Rust language
+- undefined behaviour
 - mir
-- rust-unsafe-code
-- coq-theorem-prover
+- Rust unsafe code
+- Coq theorem prover
 papers:
 ---
 

@@ -25,7 +25,7 @@ volume: '4'
 year: 2005
 topics:
 notes:
-- abstract-interpretation
+- abstract interpretation
 papers:
 ---
 

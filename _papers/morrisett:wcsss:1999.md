@@ -23,10 +23,10 @@ topics:
 - types
 - verification
 notes:
-- x86-architecture
-- instruction-set-architecture
-- typed-assembly-language
-- linear-logic
+- x86 architecture
+- instruction set architecture
+- typed assembly language
+- linear logic
 papers:
 ---
 

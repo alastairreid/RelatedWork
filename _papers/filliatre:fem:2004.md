@@ -20,7 +20,7 @@ topics:
 - tools
 - verification
 notes:
-- why3-verifier
+- Why3 verifier
 papers:
 - cuoq:sefm:2012
 ---

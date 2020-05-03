@@ -17,8 +17,8 @@ topics:
 - tools
 - verification
 notes:
-- smt-solver
-- z3-solver
+- SMT solver
+- Z3 solver
 papers:
 ---
 

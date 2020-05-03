@@ -32,7 +32,7 @@ topics:
 - tools
 - verification
 notes:
-- civl-verifier
+- CIVL verifier
 papers:
 ---
 

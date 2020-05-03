@@ -28,8 +28,8 @@ topics:
 - security
 - verification
 notes:
-- coq-theorem-prover
-- nova-hypervisor
+- Coq theorem prover
+- NOVA hypervisor
 papers:
 ---
 

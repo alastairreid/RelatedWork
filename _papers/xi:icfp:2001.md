@@ -22,7 +22,7 @@ year: 2001
 topics:
 - types
 notes:
-- dependent-type
+- dependent type
 papers:
 ---
 {% include links.html %}

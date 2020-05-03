@@ -18,9 +18,9 @@ volume: '52'
 year: 2009
 topics:
 notes:
-- translation-validation
-- coq-theorem-prover
-- compcert-compiler
+- translation validation
+- Coq theorem prover
+- CompCert compiler
 papers:
 ---
 

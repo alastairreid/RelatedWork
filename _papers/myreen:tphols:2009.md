@@ -16,11 +16,11 @@ title: Verified LISP Implementations on ARM, x86 and PowerPC
 year: 2009
 topics:
 notes:
-- arm-architecture
-- x86-architecture
-- powerpc-architecture
-- isa-specification
-- instruction-set-architecture
+- Arm architecture
+- x86 architecture
+- PowerPC architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 

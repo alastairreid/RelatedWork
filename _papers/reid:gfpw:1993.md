@@ -27,7 +27,7 @@ title: Implementing Fudgets with standard widget sets
 year: 1993
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

@@ -31,9 +31,9 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- separation-logic
-- implicit-dynamic-frames
+- permission logic
+- separation logic
+- implicit dynamic frames
 papers:
 - ohearn:cacm:2019
 - jacobs:nfm:2011

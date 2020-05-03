@@ -19,10 +19,10 @@ title: Simulation and formal verification of x86 machine-code programs that make
 year: 2014
 topics:
 notes:
-- isa-specification
-- x86-architecture
-- instruction-set-architecture
-- acl2-theorem-prover
+- ISA specification
+- x86 architecture
+- instruction set architecture
+- ACL2 theorem prover
 papers:
 ---
 

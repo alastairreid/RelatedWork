@@ -24,7 +24,7 @@ year: 1976
 topics:
 - security
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

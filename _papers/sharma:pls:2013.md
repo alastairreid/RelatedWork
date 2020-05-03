@@ -30,7 +30,7 @@ title: A data driven approach for algebraic loop invariants
 year: 2013
 topics:
 notes:
-- loop-invariant
+- loop invariant
 papers:
 ---
 

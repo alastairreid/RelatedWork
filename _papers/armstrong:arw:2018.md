@@ -31,10 +31,10 @@ title: 'Detailed models of instruction set architectures: From pseudocode to for
 year: 2018
 topics:
 notes:
-- arm-architecture
-- isa-specification
-- instruction-set-architecture
-- dependent-type
+- Arm architecture
+- ISA specification
+- instruction set architecture
+- dependent type
 papers:
 ---
 

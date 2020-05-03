@@ -19,7 +19,7 @@ year: 2018
 topics:
 - os
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

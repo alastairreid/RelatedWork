@@ -26,13 +26,13 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- modular-verification
-- contract-based-development
-- fractional-permissions
-- permission-accounting
-- chalice-verifier
-- ghost-code
+- permission logic
+- modular verification
+- contract driven development
+- fractional permissions
+- permission accounting
+- Chalice verifier
+- ghost code
 papers:
 ---
 

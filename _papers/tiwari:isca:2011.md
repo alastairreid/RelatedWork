@@ -27,7 +27,7 @@ topics:
 - os
 - security
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

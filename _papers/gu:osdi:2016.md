@@ -21,8 +21,8 @@ topics:
 - os
 - verification
 notes:
-- compcert-compiler
-- coq-theorem-prover
+- CompCert compiler
+- Coq theorem prover
 papers:
 ---
 

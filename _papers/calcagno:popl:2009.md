@@ -28,10 +28,10 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
+- permission logic
 - biabduction
-- smallfoot-verifier
-- modular-verification
+- smallfoot verifier
+- modular verification
 papers:
 - berdine:fmco:2005
 ---
@@ -45,7 +45,7 @@ and discovering the contracts for an existing codebase
 is a lot of work.
 This paper focusses on discovering contracts that describe
 what parts of a heap-allocated data structure a function
-depends on in order to support separation-logic based
+depends on in order to support separation logic based
 verification of memory safety along the lines of
 [Smallfoot][berdine:fmco:2005].
 

@@ -25,7 +25,7 @@ volume: '10'
 year: 2012
 topics:
 notes:
-- symbolic-execution
+- symbolic execution
 papers:
 ---
 

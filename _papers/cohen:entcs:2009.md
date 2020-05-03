@@ -21,7 +21,7 @@ topics:
 - tools
 - verification
 notes:
-- vcc-verifier
+- VCC verifier
 papers:
 - cohen:cav:2010
 ---

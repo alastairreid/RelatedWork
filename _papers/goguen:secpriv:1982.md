@@ -15,7 +15,7 @@ title: Security policies and security models
 topics:
 - security
 notes:
-- information-flow
+- information flow
 year: 1982
 papers:
 ---

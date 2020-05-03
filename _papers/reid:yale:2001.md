@@ -13,7 +13,7 @@ title: The Hugs graphics library (version 2.0)
 year: 2001
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

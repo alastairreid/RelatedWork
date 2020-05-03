@@ -18,7 +18,7 @@ year: 2010
 topics:
 - security
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

@@ -17,8 +17,8 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
-- separation-logic
+- permission logic
+- separation logic
 papers:
 ---
 

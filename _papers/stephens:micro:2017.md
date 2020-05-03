@@ -39,8 +39,8 @@ volume: '37'
 year: 2017
 topics:
 notes:
-- arm-architecture
-- instruction-set-architecture
+- Arm architecture
+- instruction set architecture
 papers:
 ---
 

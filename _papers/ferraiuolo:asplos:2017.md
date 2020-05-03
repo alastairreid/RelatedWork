@@ -23,7 +23,7 @@ topics:
 - security
 - verification
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

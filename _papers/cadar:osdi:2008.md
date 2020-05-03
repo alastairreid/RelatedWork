@@ -20,7 +20,7 @@ title: 'KLEE: Unassisted and automatic generation of high-coverage tests for com
 year: 2008
 topics:
 notes:
-- symbolic-execution
+- symbolic execution
 papers:
 ---
 

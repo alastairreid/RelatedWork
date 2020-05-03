@@ -31,10 +31,10 @@ topics:
 - tools
 - verification
 notes:
-- contract-based-development
+- contract driven development
 - spec-sharp-project
-- separation-logic
-- loop-invariant
+- separation logic
+- loop invariant
 papers:
 ---
 

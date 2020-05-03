@@ -27,7 +27,7 @@ year: 2017
 topics:
 - os
 notes:
-- rust-language
+- Rust language
 papers:
 ---
 

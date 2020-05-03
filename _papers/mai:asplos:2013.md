@@ -24,9 +24,9 @@ topics:
 - security
 - verification
 notes:
-- abstract-interpretation
-- dafny-verifier
-- contract-based-development
+- abstract interpretation
+- Dafny verifier
+- contract driven development
 papers:
 - leino:lpair:2010
 ---

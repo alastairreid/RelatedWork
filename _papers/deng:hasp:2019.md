@@ -24,7 +24,7 @@ topics:
 - security
 - tools
 notes:
-- information-flow
+- information flow
 papers:
 - demoura:tacas:2008
 ---

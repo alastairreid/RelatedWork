@@ -13,7 +13,7 @@ title: Designing the standard Haskell libraries
 year: 1998
 topics:
 notes:
-- haskell-language
+- Haskell language
 papers:
 ---
 

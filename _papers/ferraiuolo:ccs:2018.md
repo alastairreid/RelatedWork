@@ -11,13 +11,13 @@ doi: 10.1145/3243734.3243743
 layout: paper
 read: false
 readings: []
-title: 'HyperFlow: A processor architecture for nonmalleable, timing-safe information-flow security'
+title: 'HyperFlow: A processor architecture for nonmalleable, timing-safe information flow security'
 year: 2018
 topics:
 - hardware
 - security
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

@@ -26,7 +26,7 @@ year: 2004
 topics:
 - security
 notes:
-- information-flow
+- information flow
 papers:
 ---
 

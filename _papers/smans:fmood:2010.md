@@ -27,7 +27,7 @@ topics:
 - tools
 - verification
 notes:
-- permission-logic
+- permission logic
 papers:
 ---
 

@@ -27,10 +27,10 @@ year: 2005
 topics:
 - verification
 notes:
-- permission-logic
-- separation-logic
-- permission-accounting
-- fractional-permissions
+- permission logic
+- separation logic
+- permission accounting
+- fractional permissions
 papers:
 ---
 

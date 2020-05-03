@@ -13,7 +13,7 @@ title: Automatically proving the correctness of translations involving optimized
 year: 1975
 topics:
 notes:
-- translation-validation
+- translation validation
 papers:
 ---
 

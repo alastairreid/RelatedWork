@@ -28,9 +28,9 @@ title: The semantics of x86-CC multiprocessor machine code
 year: 2009
 topics:
 notes:
-- x86-architecture
-- isa-specification
-- instruction-set-architecture
+- x86 architecture
+- ISA specification
+- instruction set architecture
 papers:
 ---
 
