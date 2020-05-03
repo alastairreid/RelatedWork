@@ -6,39 +6,43 @@ layout: default
 
   <h1>{{ page.title }}</h1>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  {% if page.website %} <br><a href="{{page.website}}">Website</a> {% endif %}
-  {% if page.wiki %} <br><a href="{{page.wiki}}">Wikipedia entry</a> {% endif %}
+  {% if page.website %} <br><a href="{{page.website}}">Website</a><br> {% endif %}
+  {% if page.wiki %} <br><a href="{{page.wiki}}">Wikipedia entry</a><br> {% endif %}
 
   {% if page.isa %}
-  <br>Is a kind of:
+  Is a kind of:
   {% for note in page.isa %}
   <a href="{{site.baseurl}}/notes/{{ note | replace: ' ', '-' | downcase }}">{{note}}</a>{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
+  <br>
   {% endif %}
 
   {% if page.examples %}
-  <br>Examples:
+  Examples:
   {% for note in page.examples %}
   <a href="{{site.baseurl}}/notes/{{ note | replace: ' ', '-' | downcase }}">{{note}}</a>{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
+  <br>
   {% endif %}
 
   {% if page.notes %}
-  <br>Notes:
+  Notes:
   {% for note in page.notes %}
   <a href="{{site.baseurl}}/notes/{{ note | replace: ' ', '-' | downcase }}">{{note}}</a>{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
+  <br>
   {% endif %}
 
   {% if page.papers %}
-  <br>Papers:
+  Papers:
   {% for p in page.papers %}
   <a href="{{site.baseurl}}/papers/{{p}}">{{p}}</a>{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
+  <br>
   {% endif %}
+
+  <div class="entry">
+    {{ content }}
+  </div>
 
 </article>
