@@ -11,6 +11,7 @@ notes:
 
 A dependent type is a type whose definition depends on a value.
 
-todo: product types and sum types, Barendregt cube
+todo: product types &Pi; and sum types &Sigma;, Barendregt cube
+<https://en.wikipedia.org/wiki/Lambda_cube>
 
 {% include links.html %}

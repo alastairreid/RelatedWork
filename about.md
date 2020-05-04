@@ -120,7 +120,7 @@ As you read each paper, be sure to record enough information that you will be
 able to find the paper and cite it in the future.  My approach is to get
 a BibTeX file for the paper and use a
 [script to convert that to
-json](https://github.com/alastairreid/RelatedWork/tree/master/_scripts/mkmd.py)
+json](https://github.com/alastairreid/RelatedWork/tree/master/_scripts/bib2md.py)
 that I include in the summary that I write.  I believe that I could reconstruct
 a BibTeX file from that information but I have not yet written the script
 to do so. Alternatively, the
@@ -139,7 +139,7 @@ The tooling around this site is pretty simple at the moment: I have repurposed
 the Jekyll material from [my website](https://alastairreid.github.io) (which is based on
 [Barry Clark's Jekyll Now](https://github.com/barryclark/jekyll-now))
 and I have a
-[Python script](https://github.com/alastairreid/RelatedWork/tree/master/_scripts/mkmd.py)
+[Python script](https://github.com/alastairreid/RelatedWork/tree/master/_scripts/bib2md.py)
 that converts BibTeX entries to page templates.
 But ideally this would be much more integrated with one or more of the main
 research search engines like [Google Scholar](https://scholar.google.com)

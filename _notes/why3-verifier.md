@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Why3 verifier
+logo: https://gitlab.inria.fr/uploads/-/system/project/avatar/4309/logo.png
 website: http://why3.lri.fr
 ---
 

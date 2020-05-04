@@ -29,7 +29,11 @@ year: 2018
 topics:
 - hardware
 - verification
+notes:
+- CHERI architecture
+- capabilities
 papers:
+- skortstengaard:popl:2019
 ---
 
 This paper is concerned with reasoning about software running

@@ -10,6 +10,5 @@ notes:
 
 CBMC is a [bounded model-checker][bounded model checking] for C and C++ programs.
 
-todo:
 
 {% include links.html %}

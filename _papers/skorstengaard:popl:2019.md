@@ -30,6 +30,9 @@ topics:
 - hardware
 - security
 - verification
+notes:
+- CHERI architecture
+- capabilities
 papers:
 - skorstengaard:esop:2018
 ---

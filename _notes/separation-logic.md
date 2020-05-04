@@ -6,7 +6,9 @@ isa: permission logic
 notes:
 ---
 
-Separation logic is an extension of Hoare logic that adds the
+Separation logic is an extension of [Hoare
+logic](https://en.wikipedia.org/wiki/Hoare_logic)
+that adds the
 ability to reason about heap-based data structures and,
 in particular, about aliasing.
 It does this using ideas from linear logic to model

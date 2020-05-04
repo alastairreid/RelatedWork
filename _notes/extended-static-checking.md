@@ -36,9 +36,7 @@ which is things like
 The nice thing about extended static checking is that you don't have
 to write specifications or proofs.
 
-The [SV-COMP 2020] software verification competition mostly checks properties
-like this.
+The software verification competition [SV-COMP][SV competition] mostly checks
+properties like this.
 
-
-[SV-COMP 2020]: https://sv-comp.sosy-lab.org/2020/
 {% include links.html %}

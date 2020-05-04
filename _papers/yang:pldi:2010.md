@@ -18,6 +18,8 @@ topics:
 - types
 - verification
 - os
+notes:
+- typed assembly language
 papers:
 ---
 

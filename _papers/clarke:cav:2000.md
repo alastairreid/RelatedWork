@@ -22,7 +22,7 @@ pages: 154-169
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: Counterexample-Guided Abstraction Refinement
+title: Counterexample-guided abstraction refinement
 year: 2000
 topics:
 notes:

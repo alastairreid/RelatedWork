@@ -8,7 +8,7 @@ notes:
 
 A cactus plot or "survival plot" is used to summarize the performance
 of an automated verification tool
-in verification tool competitions such as [SMT-COMP] and [SV-COMP 2020].
+in verification tool competitions such as [SMT-COMP] and [SV-COMP][SV competition].
 The graph plots how many problems can be solved in a given time.
 
 (I think that a "cactus plot" is the transpose of the "survival plot".)

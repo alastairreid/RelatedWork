@@ -255,6 +255,7 @@ def main():
         name = e['ID']
         name = name.replace("/", ":")
         name = f'_staging/{name}.md'
+        print(f'Writing to {name}')
         with open(name, 'w') as f:
             del e['ID']
             yaml.dump(e, Dumper=Dumper, explicit_start=True, allow_unicode=True, width=150, stream=f)
