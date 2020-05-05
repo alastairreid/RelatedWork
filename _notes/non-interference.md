@@ -3,6 +3,7 @@ layout: note
 title: Non-interference
 notes:
 - information flow
+- hyperproperty
 papers:
 - goguen:secpriv:1982
 - goguen:secpriv:1984

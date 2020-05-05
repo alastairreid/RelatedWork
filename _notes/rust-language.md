@@ -19,7 +19,7 @@ notes:
 
 Rust is a systems programming language that differs from C
 in that it aims for high performance without sacrificing memory safety.
-It achieves this using an unusual [ownership type system] that
+It achieves this using an unusual [ownership type system][ownership types] that
 largely eliminates aliasing problems and simplifies the creation
 of concurrent programs.
 

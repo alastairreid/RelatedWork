@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Sail ISA specification logic
+title: Sail ISA specification language
 website: https://www.cl.cam.ac.uk/~pes20/sail/
 notes:
 - ISA specification

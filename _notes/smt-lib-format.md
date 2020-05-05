@@ -34,14 +34,12 @@ the SMT-COMP competition.
 todo: summarize standards for output of sat and unsat-core output.
 (My experience is that there is much more variability here.)
 
-Also, summarize state of FFI language bindings (not as well developed,
-I think).
-
 ## SMT-LIB language bindings
 
-todo
+todo: summarize state of [FFI][foreign function interface] language bindings
+(not as well developed, I think).
+And mention the [Z3 solver] Python bindings.
 
-[foreign function interface]
 
 ## Alternative SMT interfaces
 

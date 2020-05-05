@@ -10,6 +10,9 @@ notes:
 - translation validation
 ---
 
-todo:
+CompCert is an optimizing compiler for a large subset of C that has been
+formally verified using the [Coq theorem prover].
+Passes in CompCert were either verified as correct for any
+input or using [translation validation].
 
 {% include links.html %}

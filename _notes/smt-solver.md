@@ -4,6 +4,10 @@ title: SMT solver
 wiki: https://en.wikipedia.org/wiki/Satisfiability_modulo_theories
 papers:
 - barrett:cade:2000
+- brummayer:sat:2010
+- mansur:arxiv:2020
+- stump:fmsd:2013
+- barrett:mlf:2015
 notes:
 - Z3 solver
 - SMT-LIB format
@@ -30,7 +34,9 @@ And Vampire, that is a theorem prover pretending to be an SMT solver?
 
 ## Testing of SMT solvers
 
-todo: at least two papers about testing SMT solvers and that found bugs.
+[brummayer:sat:2010] and [mansur:arxiv:2020] tested SMT solvers and found bugs.
+There are several proposals such as [stump:fmsd:2013] and [barrett:mlf:2015]
+for a proof format that would allow SMT proofs to be checked.
 
 
 [SMT-COMP website]: https://smt-comp.github.io/

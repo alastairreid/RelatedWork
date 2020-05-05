@@ -14,14 +14,14 @@ papers:
 Bounded model checking is a variant of [model checking].
 
 Following the terminology in section 3.1 of 
-[bornholt:oopsla:2018], [symbolic execution] is a form of
+[bornholt:oopsla:2018], bounded model-checking is a form of
 [symbolic evaluation] where all paths are followed at a time.
 
 The benefit of following all paths at once is that it avoids the path explosion
 problem seen in [symbolic execution].
 
-The disadvantage of following all paths at once is that following all paths at
-once requires that states are merged at join points so many calculations
+The disadvantage of following all paths at once is that this
+requires that states are merged at join points so many calculations
 involve symbolic values requiring the use of a solver to resolve.
 
 {% include links.html %}

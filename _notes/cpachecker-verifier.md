@@ -11,6 +11,10 @@ papers:
 - necula:cc:2002
 ---
 
-todo
+> CPAchecker is a framework and tool for formal software verification, and
+> program analysis, of C programs. Some of its ideas and concepts, for example
+> lazy abstraction, were inherited from the software model checker
+> [BLAST][BLAST verifier].
+> <br>--- [Wikipedia](https://en.wikipedia.org/wiki/CPAchecker)
 
 {% include links.html %}

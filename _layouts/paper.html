@@ -15,6 +15,7 @@ layout: default
     <a href="https://dblp.org/search?q={{ page.title | cgi_escape }}">[DBLP]</a>
     <a href="https://citeseer.ist.psu.edu/search?q={{ page.title | cgi_escape }}">[Citeseer]</a>
     {% if page.doi %} <a href="https://doi.org/{{ page.doi }}">[doi]</a> {% endif %}
+    {% if page.eprint %} <a href="https://arxiv.org/abs/{{ page.eprint }}">[arXiv]</a> {% endif %}
     {% if page.isbn %} <a href="http://books.google.com/books?vid=ISBN{{ page.isbn }}">[ISBN]</a> {% endif %}
     {% if page.link %} <a href="{{ page.link }}">[url]</a> {% endif %}
 

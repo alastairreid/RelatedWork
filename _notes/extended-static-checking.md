@@ -6,6 +6,7 @@ notes:
 - SeaHorn verifier
 - SMACK verifier
 - SV competition
+- AoRTE
 ---
 
 > ESC can be thought of as an extended form of type checking.
@@ -20,8 +21,8 @@ notes:
 > overflow and null dereferences.
 > <br>--- [Wikipedia](https://en.wikipedia.org/wiki/Extended_static_checking)
 
-Extended static checking achieves "Absence of RunTime Exceptions" (AoRTE)
-which is things like
+Extended static checking achieves ["Absence of RunTime Exceptions"][AoRTE]
+(AoRTE) which is things like
 
 - No division by zero
 - No integer overflow

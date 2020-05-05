@@ -4,6 +4,11 @@ title: Software Verification Competition (SV-COMP)
 website: https://sv-comp.sosy-lab.org/2020/
 notes:
 - extended static checking
+- AoRTE
+- CPAchecker verifier
+- BLAST verifier
+- SeaHorn verifier
+- SMACK verifier
 ---
 
 SV-COMP is an annual competition between automated software
@@ -14,7 +19,7 @@ the [main software verification
 tools](https://sv-comp.sosy-lab.org/2020/systems.php).
 
 The winners in 2020 were:
-1. [CPAchecker](https://cpachecker.sosy-lab.org)
+1. [CPAchecker][CPAchecker verifier]
 2. [UAutomizer](https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/)
 3. [PeSCo](https://github.com/cedricrupb/cpachecker) (a fork of CPAchecker)
 

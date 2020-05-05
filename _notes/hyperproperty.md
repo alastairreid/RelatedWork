@@ -1,6 +1,8 @@
 ---
 layout: note
 title: Hyperproperty
+notes:
+- non-interference
 ---
 
 todo:

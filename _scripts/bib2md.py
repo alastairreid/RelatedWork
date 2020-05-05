@@ -154,15 +154,18 @@ def replaceAccents(s):
     s = s.replace("{\\\"u}", 'ü')
 
     s = s.replace("\\c{t}",  'ţ')
-    s = s.replace("\\v{a}",  'ă')
     s = s.replace("{\\ct}",  'ţ')
-    s = s.replace("{\\va}",  'ă')
-    s = s.replace("{\\c t}",  'ţ')
-    s = s.replace("{\\v a}",  'ă')
-    s = s.replace("{\\v C}a", 'Că')
-    if "Greenberg" in s: print(s)
+    s = s.replace("{\\c t}", 'ţ')
 
+    s = s.replace("\\v{a}",  'ă')
+    s = s.replace("{\\va}",  'ă')
+    s = s.replace("{\\v a}", 'ă')
+
+    s = s.replace("{\\v C}a",'Că')
+    s = s.replace("{\\v c}",  'č')
+    s = s.replace("{\\' c}",  'ć')
     s = s.replace("\\c c",   'ç')
+
     s = s.replace("\\~n",    'ñ')
     s = s.replace("\\o",     'ø')
     s = s.replace("{\\'y}",  'ý')
