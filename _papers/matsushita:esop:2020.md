@@ -12,9 +12,6 @@ authors:
 - Naoki Kobayashi
 booktitle: Programming Languages and Systems
 editor: Müller, Peter
-eprint={2002.09002},
-archivePrefix={arXiv},
-primaryClass={cs.PL}
 isbn: 978-3-030-44914-8
 layout: paper
 pages: 484-514
