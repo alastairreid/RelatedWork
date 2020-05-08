@@ -22,9 +22,23 @@ title: 'RustHorn: CHC-Based Verification for Rust Programs'
 year: 2020
 notes:
 - Rust language
+- MIR
 papers:
 - gurfinkel:cav:2015
 - astrauskas:oopsla:2019
 - baranowski:atva:2018
+- ullrich:msc:2016
 ---
+
+Verifies Rust programs by converting basic blocks in the [MIR] representation
+of the code into Constrained Horn Clauses (CHCs) that
+are then verified using Horn clause support in Z3 or HoIce.
+
+The conversion reminds me of [Electrolysis][ullrich:msc:2016]
+(that translates Rust to Lean functions)
+while the use of Horn clauses reminds me of [SeaHorn][gurfinkel:cav:2015]
+(that translates LLVM IR to Horn clauses).
+
+The implementation is [here](https://github.com/hopv/rust-horn).
+
 {% include links.html %}
