@@ -8,7 +8,7 @@ authors:
 - Per Lindgren
 booktitle: 'Proceedings : 2019 IEEE 17th International Conference on Industrial Informatics (INDIN)'
 doi: 10.1109/INDIN41052.2019.8972014
-institution: Lule{\aa} University of Technology, Computer Science
+institution: Luleå University of Technology, Computer Science
 layout: paper
 note: ISBN för värdpublikation: 978-1-7281-2927-3, 978-1-7281-2928-0
 pages: 432-439
