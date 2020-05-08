@@ -19,7 +19,7 @@ publisher: Springer International Publishing
 read: true
 readings:
 - 2020-05-06
-title: 'RustHorn: CHC-Based Verification for Rust Programs'
+title: 'RustHorn: CHC-based verification for Rust programs'
 year: 2020
 notes:
 - Rust language

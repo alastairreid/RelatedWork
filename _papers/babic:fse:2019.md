@@ -25,7 +25,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: ESEC/FSE 2019
-title: 'FUDGE: Fuzz Driver Generation at Scale'
+title: 'FUDGE: Fuzz driver generation at scale'
 url: https://doi.org/10.1145/3338906.3340456
 year: 2019
 notes:

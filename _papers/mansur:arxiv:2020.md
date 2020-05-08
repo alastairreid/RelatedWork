@@ -12,7 +12,7 @@ layout: paper
 primaryclass: cs.SE
 read: false
 readings: []
-title: Detecting Critical Bugs in SMT Solvers Using Blackbox Mutational Fuzzing
+title: Detecting critical bugs in SMT solvers using blackbox mutational fuzzing
 year: 2020
 notes:
 - SMT solver

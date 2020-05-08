@@ -19,7 +19,7 @@ pages: 44-57
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: Automated Testing and Debugging of SAT and QBF Solvers
+title: Automated testing and debugging of SAT and QBF solvers
 year: 2010
 notes:
 - SMT solver

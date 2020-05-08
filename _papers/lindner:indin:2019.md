@@ -15,7 +15,7 @@ pages: 432-439
 read: false
 readings: []
 series: IEEE International Conference on Industrial Informatics (INDIN)
-title: 'Verification of Safety Functions Implemented in Rust : a Symbolic Execution based approach'
+title: 'Verification of safety functions implemented in Rust: A symbolic execution based approach'
 year: 2019
 notes:
 papers:
