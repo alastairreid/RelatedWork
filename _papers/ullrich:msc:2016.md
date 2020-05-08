@@ -4,7 +4,7 @@ added: 2020-05-08
 authors:
 - Sebastian Ullrich
 layout: paper
-read: false
+read: true
 readings: []
 school: Karlsruhe Institut of Technology
 title: Simple Verification of Rust Programs via Functional Purification

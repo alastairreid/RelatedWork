@@ -16,8 +16,9 @@ isbn: 978-3-030-44914-8
 layout: paper
 pages: 484-514
 publisher: Springer International Publishing
-read: false
-readings: []
+read: true
+readings:
+- 2020-05-06
 title: 'RustHorn: CHC-Based Verification for Rust Programs'
 year: 2020
 notes:
