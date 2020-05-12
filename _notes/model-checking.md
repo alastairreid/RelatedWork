@@ -2,6 +2,9 @@
 layout: note
 title: Model checking
 wiki: https://en.wikipedia.org/wiki/Model_checking
+papers:
+- jhala:compsurv:2009
+- clarke:cacm:2009
 ---
 
 todo

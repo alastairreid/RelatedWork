@@ -9,6 +9,7 @@ notes:
 papers:
 - nelson:sosp:2019
 - bornholt:oopsla:2018
+- baldoni:compsurv:2018
 ---
 
 Following the terminology in section 3.1 of 

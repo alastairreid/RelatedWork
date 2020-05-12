@@ -9,6 +9,7 @@ notes:
 papers:
 - nelson:sosp:2019
 - bornholt:oopsla:2018
+- jhala:compsurv:2009
 ---
 
 Bounded model checking is a variant of [model checking].

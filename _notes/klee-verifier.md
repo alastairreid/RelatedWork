@@ -6,6 +6,9 @@ website: https://klee.github.io
 notes:
 - LLVM compiler
 - symbolic execution
+papers:
+- lindner:indin:2018
+- lindner:indin:2019
 ---
 
 KLEE is a symbolic virtual machine built on top of the [LLVM compiler].  KLEE
