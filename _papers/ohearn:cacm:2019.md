@@ -27,6 +27,7 @@ notes:
 - separation logic
 - permission logic
 - concurrent-separation logic
+- survey
 papers:
 - reynolds:lics:2002
 ---

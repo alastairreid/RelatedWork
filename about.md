@@ -4,6 +4,7 @@ layout: default
 
 This site contains [short summaries of papers]({{ "papers/" | relative_url }})
 related to what I am working on or that I am thinking about.
+(For information about me, see [my main blog]({{ site.personal_url }}).)
 
 The summaries of papers will usually be brief and based on a single quick
 skim of the paper.
@@ -94,6 +95,15 @@ recommendations.
 [^star-papers]:
      If you use [Google Scholar](https://scholar.google.com) to lookup papers,
      it can be handy to "star" papers to keep track of the interesting papers.
+
+Often you will have to use a hybrid approach.
+You might find a [survey article]({{ "notes/survey" | relative_url }})
+in [ACM Computer Surveys](https://dl.acm.org/journal/csur)
+or the [Encyclopedia of Computer Science](https://www.wiley.com/en-gb/Encyclopedia+of+Computer+Science%2C+4th+Edition-p-9780470864128)
+or some other book but it will always be a few years out of date.
+If you find one, then you can use method (1) on the papers in that survey
+and only have to use method (2) for more recent papers.
+
 
 I like to print papers so that I can stuff them in my pocket,
 read them on the train, underline sections, put questions to myself

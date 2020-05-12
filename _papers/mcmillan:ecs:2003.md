@@ -15,6 +15,7 @@ readings: []
 title: Model checking
 year: 2003
 notes:
+- survey
 papers:
 ---
 {% include links.html %}
