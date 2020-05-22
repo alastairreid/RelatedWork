@@ -129,10 +129,10 @@ def replaceAccents(s):
     s = s.replace("{\\\"a}", 'ä')
     s = s.replace("{\\r a}", 'å')
 
-    # s = s.replace("{\\`e}",  'è')
-    # s = s.replace("{\\'e}",  'é')
-    # s = s.replace("{\\^e}",  'ê')
-    # s = s.replace("{\\\"e}", 'ë')
+    s = s.replace("{\\`e}",  'è')
+    s = s.replace("{\\'e}",  'é')
+    s = s.replace("{\\^e}",  'ê')
+    s = s.replace("{\\\"e}", 'ë')
 
     s = s.replace("{\\`i}",  'ì')
     s = s.replace("{\\'i}",  'í')
