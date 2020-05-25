@@ -334,6 +334,12 @@ footer {
   text-align: center;
 }
 
+// For some reason, the default CSS had broken the appearance of footnotes.
+sup {
+  vertical-align: super;
+  font-size: x-small;
+}
+
 a.papertitle {
     font-size: 20px
 }
