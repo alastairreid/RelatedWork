@@ -2,44 +2,46 @@
 layout: default
 ---
 
-This site contains [short summaries of papers]({{ "papers/" | relative_url }})
-related to what I am working on or that I am thinking about.
-(For information about me, see [my main blog]({{ site.personal_url }}).)
+# About
 
-The summaries of papers will usually be brief and based on a single quick
+*[[My main blog]({{ site.personal_url }}/about) has information about me.]*
+
+
+This site roughly follows the the [Zettelkasten] ideas on how to organize
+notes about a research field.
+It consists of
+[short summaries of papers]({{ "papers/" | relative_url }})
+and [notes about concepts in the papers]({{ "notes/" | relative_url }})
+related to what I am working on or that I am thinking about.
+
+The main organizing principle in a Zettelkasten is aggressive cross-linking
+between different pages.
+This allows the structure to evolve organically as you add links and notes
+and it encourages you to discover new connections between papers and topics.
+
+I originally organized my notes into a number of topics and tried to write
+notes about those topics.
+This did not work well for several reasons:
+it is hard to come up with a good taxonomy;
+it is hard to figure out where to put a paper when it is the first in some sub-topic;
+I am typically only reading some narrow slice of a field skewed by my interest;
+I am often an outsider/newcomer to the field struggling to make sense of what I am reading
+and struggling to find the important papers in a sea of publications.
+
+My summaries of papers are often brief and based on a single quick
 skim of the paper.
 If you are an author and feel that I misunderstood your paper,
 I am happy (eager!) to correct details if you want to get in touch.
 
-## Notes and topics
+Most of the papers on this site have not been summarized
+because I read them before I started
+this site, because I have only skimmed them so far, because they are written by me
+or because I just wanted to remember
+an interesting sounding paper.
+This backlog of papers is growing faster than I can read papers on the
+backlog.
+Someday, I will need to come up with a plan to handle this better...
 
-Inspired by the [Zettelkasten] idea, I recently started writing
-[notes]({{ "notes/" | relative_url }})
-about concepts that occur in multiple papers
-and I link each paper to the relevant notes.
-
-This replaces an earlier plan to create
-[mini summaries of research topics]({{"topics/"| relative_url }})
-in different areas.
-The original plan was that I would break each research topic up
-according to some taxonomy and write a little about each sub-topic
-and link in the papers that fit that taxonomy.
-I found it too hard to maintain this plan:
-it is hard to come up with a good taxonomy;
-it is hard to figure out where to put a paper when it is the first in some sub-topic;
-I am typically only reading some narrow slice of a field skewed by my interest;
-I am an outsider/newcomer to the field struggling to make sense of what I am reading
-and to find the important papers in a sea of publications
-
-Changing to the "note" format avoids these problems because I try to keep
-the notes focussed on a single concept (so there is little need for
-organization within notes) and I vigorously cross-link the notes.
-Since the organizing principle is links between notes, the structure
-evolves organically as I add links and notes: there is no need for me to
-create a taxonomy before I even understand the subject.
-
-I will probably delete the "topics" part of this site once I have
-created a note for each of the current topics.
 
 ## Recommendations for learning a field
 
@@ -52,8 +54,22 @@ In fact, I don't even know the terminology and how it is normally used.
 I have had to do this several times in my career so I have some
 recommendations.
 
-1. If you have a list of papers (e.g., some subset of the papers in this list
-   or a list of classic papers in the field), collect all the papers and
+1. Hunt for survey articles.
+   These may be a few years out of date, may not fit your interest/focus,
+   etc. but they are great for getting an overview of a topic, getting
+   the terminology (as it was used when the paper was written) and
+   finding the important papers.
+
+   I have [a list of survey articles]({{ "notes/survey" | relative_url }})
+   and you can find more in places like
+   [ACM Computer Surveys](https://dl.acm.org/journal/csur)
+   or the [Encyclopedia of Computer Science](https://www.wiley.com/en-gb/Encyclopedia+of+Computer+Science%2C+4th+Edition-p-9780470864128)
+   and the major publishers sometimes have books with names like
+   "The Handbook of ...".
+
+2. If you have a list of papers (e.g., some subset of the papers in this list
+   or a list of classic papers in the field or papers from a survey),
+   collect all the papers and
    then read them in the order that they were published.
    Reading them in this order helps you understand how the field developed,
    what contribution a paper made to the field, how the terminology and
@@ -67,7 +83,7 @@ recommendations.
    by following the next criteria.)
 
 
-2. If you do not have a list of papers, the key thing is to create your
+3. If you do not have a list of papers, the key thing is to create your
    own list.
 
    Start with the most recent major conference in the field and skim the
@@ -139,8 +155,9 @@ information should be enough.
 
 It is probably a bad idea to copy the content of this site – you will learn
 more by trying to write your own summaries and notes.
-But, by all means, copy the framework/scripts and, if it is relevant,
-my list of interesting papers.
+But, by all means, copy the Jekyll framework and scripts and, if it is relevant
+to you, my list of interesting papers.
+(But maybe you should consider using a wiki instead?)
 
 
 ## Building the site
