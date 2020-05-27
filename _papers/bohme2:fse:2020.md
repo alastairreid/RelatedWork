@@ -10,7 +10,7 @@ number: ''
 pages: 11
 read: false
 readings: []
-title: Fuzzing: On the Exponential Cost of Vulnerability Discovery
+title: 'Fuzzing: On the Exponential Cost of Vulnerability Discovery'
 volume: ''
 year: 2020
 notes:

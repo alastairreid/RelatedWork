@@ -1,4 +1,3 @@
-papers:
 ---
 ENTRYTYPE: inproceedings
 added: 2019-07-01
@@ -25,6 +24,7 @@ notes:
 - RISCV architecture
 - ISA specification
 - instruction set architecture
-----
+papers:
+---
 
 {% include links.html %}
