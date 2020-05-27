@@ -2,9 +2,9 @@
 ENTRYTYPE: inproceedings
 added: 2019-10-06
 authors:
-- A. C. Myers
-- A. Sabelfeld
-- S. Zdancewic
+- Andrew C. Myers
+- Andrei Sabelfeld
+- Steve Zdancewic
 booktitle: Proceedings 17th IEEE Computer Security Foundations Workshop
 doi: 10.1109/CSFW.2004.1310740
 issn: 1063-6900

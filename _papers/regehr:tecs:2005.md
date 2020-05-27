@@ -11,7 +11,7 @@ affiliation: University of Utah
 ar_shortname: TECS 05
 authors:
 - John Regehr
-- Alastair Reid
+- Alastair D. Reid
 - Kirk Webb
 doi: 10.1145/1113830.1113833
 journal: ACM Transactions Embedded Computing Systems

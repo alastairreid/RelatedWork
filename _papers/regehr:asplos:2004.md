@@ -15,7 +15,7 @@ affiliation: University of Utah
 ar_shortname: ASPLOS 04
 authors:
 - John Regehr
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Proceedings of the 11th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2004)
 day: 7-13
 doi: 10.1145/1024393.1024410

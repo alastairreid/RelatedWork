@@ -15,9 +15,9 @@ authors:
 - Shaked Flur
 - Kathryn E. Gray
 - Prashanth Mundkur
-- Robert Norton
+- Robert M. Norton
 - Christopher Pulte
-- Alastair Reid
+- Alastair D. Reid
 - Peter Sewell
 - Ian Stark
 - Mark Wassell

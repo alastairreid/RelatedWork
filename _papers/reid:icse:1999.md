@@ -13,7 +13,7 @@ added: 2019-06-01
 affiliation: Yale University
 ar_shortname: ICSE 99
 authors:
-- Alastair Reid
+- Alastair D. Reid
 - John Peterson
 - Gregory D. Hager
 - Paul Hudak

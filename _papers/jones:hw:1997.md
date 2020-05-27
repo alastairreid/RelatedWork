@@ -4,9 +4,9 @@ added: 2019-06-01
 affiliation: Yale University and Oregon Graduate Institute
 ar_shortname: Haskell 97
 authors:
-- Simon Peyton Jones
+- Simon L. Peyton Jones
 - Thomas Nordin
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Proceedings of the Haskell Workshop
 layout: paper
 location: Amsterdam, Netherlands

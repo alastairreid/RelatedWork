@@ -2,8 +2,8 @@
 ENTRYTYPE: inproceedings
 added: 2019-11-02
 authors:
-- Clark W Barrett
-- David L Dill
+- Clark W. Barrett
+- David L. Dill
 - Aaron Stump
 booktitle: International Conference on Automated Deduction
 doi: 10.1007/10721959_6

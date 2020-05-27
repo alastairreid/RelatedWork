@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2019-10-12
 authors:
 - Vikram Narayanan
-- Marek S Baranowski
+- Marek S. Baranowski
 - Leonid Ryzhyk
 - Zvonimir Rakamarić
 - Anton Burtsev

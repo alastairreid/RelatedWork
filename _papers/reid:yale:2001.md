@@ -4,7 +4,7 @@ added: 2019-06-01
 affiliation: Yale University
 ar_shortname: GLib 01
 authors:
-- Alastair Reid
+- Alastair D. Reid
 layout: paper
 location: New Haven, CT, USA
 read: false

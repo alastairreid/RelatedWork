@@ -15,7 +15,7 @@ affiliation: 'Yale University and Microsoft Research and Cambridge University
 ar_shortname: PLDI 99
 authors:
 - Simon L. Peyton Jones
-- Alastair Reid
+- Alastair D. Reid
 - Fergus Henderson
 - C. A. R. Hoare
 - Simon Marlow

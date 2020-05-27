@@ -18,7 +18,7 @@ added: 2019-06-01
 affiliation: ARM Ltd
 ar_shortname: FMCAD 16
 authors:
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Proceedings of Formal Methods in Computer-Aided Design (FMCAD 2016)
 isbn: 978-0-9835678-6-8
 layout: paper

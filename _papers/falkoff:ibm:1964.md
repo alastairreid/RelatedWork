@@ -4,9 +4,9 @@ acmid: '1662345'
 added: 2019-07-01
 address: Riverton, NJ, USA
 authors:
-- A. D. Falkoff
-- K. E. Iverson
-- E. H. Sussenguth
+- Adin D. Falkoff
+- Kenneth E. Iverson
+- Edward H. Sussenguth
 doi: 10.1147/sj.32.0198
 issn: 0018-8670
 issue_date: June 1964

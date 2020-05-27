@@ -2,7 +2,7 @@
 ENTRYTYPE: inproceedings
 added: 2019-11-10
 authors:
-- Michael D Ernst
+- Michael D. Ernst
 - Alberto Lovato
 - Damiano Macedonio
 - Fausto Spoto

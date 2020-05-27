@@ -23,7 +23,7 @@ authors:
 - Grigorios Magklis
 - Alejandro Martinez
 - Nathanael Premillieu
-- Alastair Reid
+- Alastair D. Reid
 - Alejandro Rico
 - Paul Walker
 doi: 10.1109/MM.2017.35

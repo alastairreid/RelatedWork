@@ -13,7 +13,7 @@ affiliation: University of Utah
 ar_shortname: RTSS 03
 authors:
 - John Regehr
-- Alastair Reid
+- Alastair D. Reid
 - Kirk Webb
 - Michael A. Parker
 - Jay Lepreau

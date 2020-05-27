@@ -5,8 +5,8 @@ authors:
 - Andrew Ferraiuolo
 - Rui Xu
 - Danfeng Zhang
-- Andrew C Myers
-- G Edward Suh
+- Andrew C. Myers
+- G. Edward Suh
 booktitle: ACM SIGARCH Computer Architecture News
 doi: 10.1145/3037697.3037739
 layout: paper

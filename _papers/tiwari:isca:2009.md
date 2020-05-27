@@ -4,8 +4,8 @@ added: 2019-10-06
 authors:
 - Mohit Tiwari
 - Xun Li
-- Hassan MG Wassel
-- Frederic T Chong
+- Hassan M. G. Wassel
+- Frederic T. Chong
 - Timothy Sherwood
 booktitle: Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture
 doi: 10.1145/1669112.1669174

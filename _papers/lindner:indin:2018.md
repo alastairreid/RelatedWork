@@ -2,9 +2,9 @@
 ENTRYTYPE: inproceedings
 added: 2020-02-14
 authors:
-- M. Lindner
-- J. Aparicius
-- P. Lindgren
+- Marcus Lindner
+- Jorge Aparicius
+- Per Lindgren
 booktitle: 2018 IEEE 16th International Conference on Industrial Informatics (INDIN)
 doi: 10.1109/INDIN.2018.8471992
 issn: 2378-363X

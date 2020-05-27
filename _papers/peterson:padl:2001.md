@@ -15,7 +15,7 @@ ar_shortname: PADL 01
 authors:
 - John Peterson
 - Paul Hudak
-- Alastair Reid
+- Alastair D. Reid
 - Gregory D. Hager
 booktitle: Practical Aspects of Declarative Languages, Third International Symposium (PADL 2001)
 day: 11-12

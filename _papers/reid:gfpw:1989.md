@@ -6,7 +6,7 @@ added: 2019-06-01
 affiliation: University of Glasgow
 ar_shortname: GFPW 89
 authors:
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Proceedings of the 1989 Glasgow Workshop on Functional Programming
 day: 21-23
 editor: Kei Davis and John Hughes

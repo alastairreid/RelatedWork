@@ -5,7 +5,7 @@ title: Secure autonomous cyber-physical systems through verifiable information f
 authors:
 - Jed Liu
 - Joe Corbett-Davies
-- Andrew Ferriauolo
+- Andrew Ferraiuolo
 - Alexander Ivanov
 - Mulong Luo
 - G. Edward Suh

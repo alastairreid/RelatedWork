@@ -3,7 +3,7 @@ ENTRYTYPE: inbook
 added: 2020-05-12
 address: GBR
 authors:
-- K. L. McMillan
+- Kenneth L. McMillan
 booktitle: Encyclopedia of Computer Science
 isbn: 0470864125
 layout: paper

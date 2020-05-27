@@ -18,7 +18,7 @@ added: 2019-06-01
 affiliation: ARM Ltd
 ar_shortname: CAV 16
 authors:
-- Alastair Reid
+- Alastair D. Reid
 - Rick Chen
 - Anastasios Deligiannis
 - David Gilday

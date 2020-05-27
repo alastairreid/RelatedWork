@@ -4,7 +4,7 @@ added: 2019-10-12
 authors:
 - Jeremy Condit
 - Brian Hackett
-- Shuvendu K Lahiri
+- Shuvendu K. Lahiri
 - Shaz Qadeer
 booktitle: ACM SIGPLAN Notices
 doi: 10.1145/1594834.1480921

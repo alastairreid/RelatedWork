@@ -2,7 +2,7 @@
 ENTRYTYPE: inproceedings
 added: 2019-10-12
 authors:
-- K Rustan M Leino
+- K. Rustan M. Leino
 booktitle: International Conference on Logic for Programming Artificial Intelligence and Reasoning
 doi: 10.1007/978-3-642-17511-4_20
 layout: paper

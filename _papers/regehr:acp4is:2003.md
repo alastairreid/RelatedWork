@@ -9,7 +9,7 @@ affiliation: University of Utah
 ar_shortname: ACP4IS 03
 authors:
 - John Regehr
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Proceedings of the Second AOSD Workshop on Aspects, Components, and Patterns for Infrastructure Software (ACP4IS)
 day: '17'
 layout: paper

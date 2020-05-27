@@ -2,10 +2,10 @@
 ENTRYTYPE: inproceedings
 added: 2019-11-03
 authors:
-- D. Lie
-- J. Mitchell
-- C. A. Thekkath
-- M. Horowitz
+- David Lie
+- John C. Mitchell
+- Chandramohan A. Thekkath
+- Mark Horowitz
 booktitle: 2003 Symposium on Security and Privacy, 2003.
 doi: 10.1109/SECPRI.2003.1199335
 issn: ''

@@ -10,7 +10,7 @@ added: 2019-06-01
 affiliation: Yale University
 ar_shortname: IFL 98
 authors:
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Implementation of Functional Languages, 10th International Workshop (IFL'98) Selected Papers
 day: 9-11
 doi: 10.1007/3-540-48515-5_12

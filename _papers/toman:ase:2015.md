@@ -2,8 +2,8 @@
 ENTRYTYPE: inproceedings
 added: 2020-01-10
 authors:
-- J. Toman
-- S. Pernsteiner
+- John Toman
+- Stuart Pernsteiner
 - Emina Torlak
 booktitle: 2015 30th IEEE/ACM International Conference on Automated Software Engineering (ASE)
 doi: 10.1109/ASE.2015.77

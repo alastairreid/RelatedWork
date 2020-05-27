@@ -15,7 +15,7 @@ authors:
 - Scott A. Mahlke
 - Trevor N. Mudge
 - Chaitali Chakrabarti
-- Alastair Reid
+- Alastair D. Reid
 - Krisztián Flautner
 booktitle: Proceedings of the IEEE Workshop on Signal Processing Systems (SiPS 2006)
 day: 2-4

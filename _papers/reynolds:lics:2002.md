@@ -2,7 +2,7 @@
 ENTRYTYPE: inproceedings
 added: 2020-01-28
 authors:
-- J. C. Reynolds
+- John C. Reynolds
 booktitle: Proceedings 17th Annual IEEE Symposium on Logic in Computer Science
 doi: 10.1109/LICS.2002.1029817
 issn: 1043-6871

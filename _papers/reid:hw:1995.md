@@ -4,7 +4,7 @@ added: 2019-06-01
 affiliation: Yale University
 ar_shortname: Haskell 95b
 authors:
-- Alastair Reid
+- Alastair D. Reid
 - John Peterson
 booktitle: Proceedings of the Haskell Workshop 1995, Yale University Research Report YALE/DCS/RR-1075
 layout: paper

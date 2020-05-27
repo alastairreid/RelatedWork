@@ -7,7 +7,7 @@ abstract: This rough diamond presents a new domain-specific language (DSL) for p
 added: 2019-07-01
 address: Berlin, Heidelberg
 authors:
-- Anthony Fox
+- Anthony C. J. Fox
 booktitle: Interactive Theorem Proving
 editor: Beringer, Lennart and Felty, Amy
 isbn: 978-3-642-32347-8

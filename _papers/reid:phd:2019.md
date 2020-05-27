@@ -34,7 +34,7 @@ added: 2019-06-01
 affiliation: School of Computing Science, University of Glasgow
 ar_shortname: PhD 19
 authors:
-- Alastair Reid
+- Alastair D. Reid
 layout: paper
 location: Glasgow, Scotland
 month: March

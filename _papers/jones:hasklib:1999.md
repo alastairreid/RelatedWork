@@ -3,7 +3,7 @@ ENTRYTYPE: misc
 added: 2019-06-01
 ar_shortname: Haskell Lib
 authors:
-- Simon Peyton Jones
+- Simon L. Peyton Jones
 - Lennart Augustsson
 - Dave Barton
 - Brian Boutel
@@ -18,7 +18,7 @@ authors:
 - John Launchbury
 - Erik Meijer
 - John Peterson
-- Alastair Reid
+- Alastair D. Reid
 - Colin Runciman
 - Philip Wadler
 layout: paper

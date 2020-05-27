@@ -3,19 +3,19 @@ ENTRYTYPE: inproceedings
 added: 2020-05-04
 address: Los Alamitos, CA, USA
 authors:
-- K. Nienhuis
-- A. Joannou
-- T. Bauereiss
-- A. Fox
-- M. Roe
-- B. Campbell
-- M. Naylor
-- R. M. Norton
-- S. W. Moore
-- P. G. Neumann
-- I. Stark
-- R. M. Watson
-- P. Sewell
+- Kyndylan Nienhuis
+- Alexandre Joannou
+- Thomas Bauereiss
+- Anthony C. J. Fox
+- Michael Roe
+- Brian Campbell
+- Matthew Naylor
+- Robert M. Norton
+- Simon W. Moore
+- Peter G. Neumann
+- Ian Stark
+- Robert N. M. Watson
+- Peter Sewell
 booktitle: 2020 IEEE Symposium on Security and Privacy (SP)
 doi: 10.1109/SP40000.2020.00055
 issn: 2375-1207

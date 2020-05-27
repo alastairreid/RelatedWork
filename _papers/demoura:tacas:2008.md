@@ -2,7 +2,7 @@
 ENTRYTYPE: inproceedings
 added: 2019-10-12
 authors:
-- Leonardo De Moura
+- Leonardo de Moura
 - Nikolaj Bjørner
 booktitle: International conference on Tools and Algorithms for the Construction and Analysis of Systems
 doi: 10.1007/978-3-540-78800-3_24

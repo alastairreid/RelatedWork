@@ -7,7 +7,7 @@ authors:
 - Daniel Kroening
 - Serdar Tasiran
 - Michael Tautschnig
-- Mark R Tuttle
+- Mark R. Tuttle
 booktitle: International Conference on Computer Aided Verification
 layout: paper
 organization: Springer

@@ -18,7 +18,7 @@ authors:
 - Alasdair Armstrong
 - Thomas Bauereiss
 - Brian Campbell
-- Alastair Reid
+- Alastair D. Reid
 - Kathryn E. Gray
 - Robert M. Norton
 - Prashanth Mundkur
@@ -27,7 +27,7 @@ authors:
 - Christopher Pulte
 - Shaked Flur
 - Ian Stark
-- Neel Krishnaswami
+- Neel R. Krishnaswami
 - Peter Sewell
 booktitle: Proc. 46th ACM SIGPLAN Symposium on Principles of Programming Languages
 day: 13-19

@@ -6,16 +6,16 @@ authors:
 - Alasdair Armstrong
 - Thomas Bauereiss
 - Brian Campbell
-- Alastair Reid
+- Alastair D. Reid
 - Kathryn E. Gray
-- Robert Norton
+- Robert M. Norton
 - Prashanth Mundkur
 - Mark Wassell
 - Jon French
 - Christopher Pulte
 - Shaked Flur
 - Ian Stark
-- Neel Krishnaswami
+- Neel R. Krishnaswami
 - Peter Sewell
 booktitle: 'SpISA 2019: Workshop on Instruction Set Architecture Specification'
 layout: paper

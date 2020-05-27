@@ -11,7 +11,7 @@ abstract:
 added: 2020-01-10
 address: Cham
 authors:
-- Marek Baranowski
+- Marek S. Baranowski
 - Shaobo He
 - Zvonimir Rakamarić
 booktitle: Automated Technology for Verification and Analysis

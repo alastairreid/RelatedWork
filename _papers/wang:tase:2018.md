@@ -2,13 +2,12 @@
 ENTRYTYPE: inproceedings
 added: 2020-01-15
 authors:
-- F. Wang
-- F. Song
-- M. Zhang
-- X. Zhu
-- J. Zhang
-booktitle: 2018 International Symposium on Theoretical Aspects of Software Engineering
-  (TASE)
+- Feng Wang
+- Fu Song
+- Min Zhang
+- Xiaoran Zhu
+- Jun Zhang
+booktitle: 2018 International Symposium on Theoretical Aspects of Software Engineering (TASE)
 doi: 10.1109/TASE.2018.00014
 issn: 'null'
 keywords: multi-threading;program compilers;program interpreters;program testing;program

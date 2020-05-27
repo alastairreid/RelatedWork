@@ -2,9 +2,9 @@
 ENTRYTYPE: inproceedings
 added: 2019-07-01
 authors:
-- A. Pnueli
-- M. Siegel
-- E. Singerman
+- Amir Pnueli
+- Michael Siegel
+- Eli Singerman
 booktitle: Tools and Algorithms for the Construction and Analysis of Systems
 doi: 10.1007/BFb0054170
 editor: Steffen, Bernhard

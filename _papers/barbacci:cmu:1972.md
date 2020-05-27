@@ -2,9 +2,9 @@
 ENTRYTYPE: techreport
 added: 2019-07-01
 authors:
-- M Barbacci
+- Mario R. Barbacci
 - Chester Bell
-- A Newell
+- Allen Newell
 institution: Carnegie Mellon University
 layout: paper
 link: http://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=360601

@@ -4,7 +4,7 @@ added: 2019-11-02
 authors:
 - Michael Hohmuth
 - Hendrik Tews
-- Shane G Stephens
+- Shane G. Stephens
 booktitle: Proceedings of the 10th workshop on ACM SIGOPS European workshop
 doi: 10.1145/1133373.1133405
 layout: paper

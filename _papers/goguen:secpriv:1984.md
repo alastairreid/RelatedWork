@@ -2,7 +2,7 @@
 layout: paper
 added: 2019-10-06
 authors:
-- Joseph A Goguen
+- Joseph A. Goguen
 - José Meseguer
 booktitle: 1984 IEEE Symposium on Security and Privacy
 doi: 10.1109/SP.1984.10019

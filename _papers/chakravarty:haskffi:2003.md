@@ -11,8 +11,8 @@ authors:
 - Simon Marlow
 - Erik Meijer
 - Sven Panne
-- Simon Peyton Jones
-- Alastair Reid
+- Simon L. Peyton Jones
+- Alastair D. Reid
 - Malcolm Wallace
 - Michael Weber
 layout: paper

@@ -5,7 +5,7 @@ affiliation: Yale University
 ar_shortname: Haskell 95a
 authors:
 - John Peterson
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Proceedings of the Haskell Workshop 1995, Yale University Research Report YALE/DCS/RR-1075
 layout: paper
 link: https://www.haskell.org/haskell-workshop/1995/HW1995-Proceedings.pdf

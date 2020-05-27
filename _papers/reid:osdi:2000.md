@@ -11,7 +11,7 @@ added: 2019-06-01
 affiliation: University of Utah
 ar_shortname: OSDI 00
 authors:
-- Alastair Reid
+- Alastair D. Reid
 - Matthew Flatt
 - Leigh Stoller
 - Jay Lepreau

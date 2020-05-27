@@ -5,7 +5,7 @@ authors:
 - Valentin J.M. Manès
 - HyungSeok Han
 - Choongwoo Han
-- Sang Kil Cha
+- Sang-Kil Cha
 - Manuel Egele
 - Edward J. Schwartz
 - Maverick Woo

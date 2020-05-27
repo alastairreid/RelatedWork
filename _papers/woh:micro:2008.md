@@ -28,7 +28,7 @@ authors:
 - Chaitali Chakrabarti
 - Richard Bruce
 - Danny Kershaw
-- Alastair Reid
+- Alastair D. Reid
 - Mladen Wilder
 - Krisztián Flautner
 booktitle: 41st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO-41 2008)

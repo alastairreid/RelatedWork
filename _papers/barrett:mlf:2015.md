@@ -3,7 +3,7 @@ ENTRYTYPE: incollection
 added: 2020-05-05
 address: London, UK
 authors:
-- Clark Barrett
+- Clark W. Barrett
 - Leonardo de Moura
 - Pascal Fontaine
 booktitle: All about Proofs, Proofs for All

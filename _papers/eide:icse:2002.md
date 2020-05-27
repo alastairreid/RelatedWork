@@ -14,7 +14,7 @@ affiliation: University of Utah
 ar_shortname: ICSE 02
 authors:
 - Eric Eide
-- Alastair Reid
+- Alastair D. Reid
 - John Regehr
 - Jay Lepreau
 booktitle: Proceedings of the 24th International Conference on Software Engineering (ICSE 2002)

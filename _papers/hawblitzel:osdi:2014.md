@@ -4,7 +4,7 @@ added: 2019-10-12
 authors:
 - Chris Hawblitzel
 - Jon Howell
-- Jacob R Lorch
+- Jacob R. Lorch
 - Arjun Narayan
 - Bryan Parno
 - Danfeng Zhang

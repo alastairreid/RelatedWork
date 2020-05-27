@@ -4,8 +4,8 @@ added: 2019-10-06
 authors:
 - Danfeng Zhang
 - Yao Wang
-- G Edward Suh
-- Andrew C Myers
+- G. Edward Suh
+- Andrew C. Myers
 doi: 10.1145/2694344.2694372
 journal: ACM SIGARCH Computer Architecture News
 layout: paper

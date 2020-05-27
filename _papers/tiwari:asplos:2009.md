@@ -3,10 +3,10 @@ ENTRYTYPE: inproceedings
 added: 2019-10-06
 authors:
 - Mohit Tiwari
-- Hassan MG Wassel
+- Hassan M. G. Wassel
 - Bita Mazloom
 - Shashidhar Mysore
-- Frederic T Chong
+- Frederic T. Chong
 - Timothy Sherwood
 booktitle: ACM Sigplan Notices
 doi: 10.1145/1508244.1508258

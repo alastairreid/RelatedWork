@@ -13,7 +13,7 @@ address: New York, NY, USA
 affiliation: ARM Ltd
 ar_shortname: OOPSLA 17
 authors:
-- Alastair Reid
+- Alastair D. Reid
 day: 22-27
 doi: 10.1145/3133912
 journal: PACMPL

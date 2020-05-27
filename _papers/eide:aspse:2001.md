@@ -12,7 +12,7 @@ affiliation: University of Utah
 ar_shortname: ASPSE 01
 authors:
 - Eric Eide
-- Alastair Reid
+- Alastair D. Reid
 - Matthew Flatt
 - Jay Lepreau
 booktitle: Workshop on Advanced Separation of Concerns in Software Engineering

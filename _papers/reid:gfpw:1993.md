@@ -9,7 +9,7 @@ address: London
 affiliation: University of Glasgow
 ar_shortname: GFPW 93
 authors:
-- Alastair Reid
+- Alastair D. Reid
 - Satnam Singh
 booktitle: Proceedings of the 1993 Glasgow Workshop on Functional Programming
 day: 5-7

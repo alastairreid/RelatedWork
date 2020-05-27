@@ -7,7 +7,7 @@ authors:
 - Marek S. Baranowski
 - Anton Burtsev
 - Aurojit Panda
-- Zvonimir Rakamari
+- Zvonimir Rakamarić
 - Leonid Ryzhyk
 doi: 10.1145/3139645.3139660
 issn: 0163-5980

@@ -5,7 +5,7 @@ authors:
 - Eyad Alkassar
 - Ernie Cohen
 - Mikhail Kovalev
-- Wolfgang J Paul
+- Wolfgang J. Paul
 booktitle: 'International Conference on Verified Software: Tools, Theories, Experiments'
 layout: paper
 organization: Springer

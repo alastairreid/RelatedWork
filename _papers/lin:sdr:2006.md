@@ -15,8 +15,9 @@ authors:
 - Yuan Lin
 - Robert Mullenix
 - Mark Woh
-- Scott Mahlke
-- Trevor Mudge Alastair Reid
+- Scott A. Mahlke
+- Trevor N. Mudge
+- Alastair D. Reid
 - Krisztián Flautner
 booktitle: Software Defined Radio Technical Conference and Product Exposition
 day: 13-17

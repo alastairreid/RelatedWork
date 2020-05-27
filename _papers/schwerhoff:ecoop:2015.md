@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2020-02-14
 authors:
 - Malte Schwerhoff
-- Alexander J Summers
+- Alexander J. Summers
 booktitle: 29th European Conference on Object-Oriented Programming (ECOOP 2015)
 layout: paper
 organization: Schloss Dagstuhl, Leibniz-Zentrum für Informatik

@@ -2,7 +2,7 @@
 ENTRYTYPE: techreport
 added: 2019-07-01
 authors:
-- Anthony C.J. Fox
+- Anthony C. J. Fox
 institution: University of Cambridge, Computer Laboratory
 layout: paper
 link: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-545.pdf

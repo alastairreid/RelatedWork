@@ -16,7 +16,7 @@ affiliation: University of Utah
 ar_shortname: EMSOFT 03
 authors:
 - John Regehr
-- Alastair Reid
+- Alastair D. Reid
 - Kirk Webb
 booktitle: Embedded Software, Third International Conference (EMSOFT 2003)
 day: 13-15

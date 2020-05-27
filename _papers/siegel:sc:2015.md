@@ -2,14 +2,14 @@
 ENTRYTYPE: inproceedings
 added: 2020-02-11
 authors:
-- S. F. Siegel
-- M. Zheng
-- Z. Luo
-- T. K. Zirkel
-- A. V. Marianiello
-- J. G. Edenhofner
-- M. B. Dwyer
-- M. S. Rogers
+- Stephen F. Siegel
+- Manchun Zheng
+- Ziqing Luo
+- Timothy K. Zirkel
+- Andre V. Marianiello
+- John G. Edenhofner
+- Matthew B. Dwyer
+- Michael S. Rogers
 booktitle: "SC '15: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis"
 doi: 10.1145/2807591.2807635
 issn: 2167-4337

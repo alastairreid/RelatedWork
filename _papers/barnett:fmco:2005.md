@@ -6,7 +6,7 @@ authors:
 - Bor-Yuh Evan Chang
 - Robert DeLine
 - Bart Jacobs
-- K Rustan M Leino
+- K. Rustan M. Leino
 booktitle: International Symposium on Formal Methods for Components and Objects
 doi: 10.1007/11804192_17
 layout: paper

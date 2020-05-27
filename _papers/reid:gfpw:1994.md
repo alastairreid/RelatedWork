@@ -4,7 +4,7 @@ added: 2019-06-01
 affiliation: University of Glasgow
 ar_shortname: GFPW 94
 authors:
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Draft Proceedings of the Glasgow Functional Programming Workshop
 day: 12-14
 layout: paper

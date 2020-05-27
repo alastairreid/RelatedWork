@@ -16,7 +16,7 @@ authors:
 - Bashir M. Al-Hashimi
 - Mbou Eyole
 - Giacomo Gabrielli
-- Alastair Reid
+- Alastair D. Reid
 booktitle: Design, Automation & Test in Europe Conference & Exhibition (DATE 2014)
 day: 24-28
 doi: 10.7873/DATE.2014.037

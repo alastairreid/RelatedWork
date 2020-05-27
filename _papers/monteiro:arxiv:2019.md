@@ -2,9 +2,9 @@
 ENTRYTYPE: article
 added: 2019-10-12
 authors:
-- Felipe R Monteiro
-- Mikhail R Gadelha
-- Lucas C Cordeiro
+- Felipe R. Monteiro
+- Mikhail R. Gadelha
+- Lucas C. Cordeiro
 journal: arXiv preprint arXiv:1904.06152
 layout: paper
 read: true

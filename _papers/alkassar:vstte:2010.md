@@ -3,8 +3,8 @@ ENTRYTYPE: inproceedings
 added: 2019-12-10
 authors:
 - Eyad Alkassar
-- Mark A Hillebrand
-- Wolfgang Paul
+- Mark A. Hillebrand
+- Wolfgang J. Paul
 - Elena Petrova
 booktitle: 'International Conference on Verified Software: Theories, Tools, and Experiments'
 layout: paper

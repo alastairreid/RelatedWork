@@ -12,7 +12,7 @@ affiliation: ARM Ltd
 ar_shortname: SBAC-PAD 07
 authors:
 - Emre Özer
-- Alastair Reid
+- Alastair D. Reid
 - Stuart Biles
 booktitle: 19th Symposium on Computer Architecture and High Performance Computing (SBAC-PAD 2007)
 day: 24-27

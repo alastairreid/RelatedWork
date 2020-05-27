@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2020-01-28
 authors:
 - Dino Distefano
-- Peter W O'hearn
+- Peter W. O'Hearn
 - Hongseok Yang
 booktitle: International Conference on Tools and Algorithms for the Construction and Analysis of Systems
 layout: paper

@@ -2,16 +2,16 @@
 ENTRYTYPE: inproceedings
 added: 2020-05-04
 authors:
-- J. Woodruff
-- R. N. M. Watson
-- D. Chisnall
-- S. W. Moore
-- J. Anderson
-- B. Davis
-- B. Laurie
-- P. G. Neumann
-- R. Norton
-- M. Roe
+- Jonathan Woodruff
+- Robert N. M. Watson
+- David Chisnall
+- Simon W. Moore
+- Jonathan Anderson
+- Brooks Davis
+- Ben Laurie
+- Peter G. Neumann
+- Robert M. Norton
+- Michael Roe
 booktitle: 2014 ACM/IEEE 41st International Symposium on Computer Architecture (ISCA)
 layout: paper
 number: ''

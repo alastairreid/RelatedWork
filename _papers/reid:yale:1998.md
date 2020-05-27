@@ -4,7 +4,7 @@ added: 2019-06-01
 affiliation: Yale University
 ar_shortname: StdLib 98
 authors:
-- Alastair Reid
+- Alastair D. Reid
 - John Peterson
 layout: paper
 read: false

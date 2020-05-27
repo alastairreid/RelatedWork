@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2019-10-06
 authors:
 - Steve Zdancewic
-- Andrew C Myers
+- Andrew C. Myers
 booktitle: 16th IEEE Computer Security Foundations Workshop, 2003. Proceedings.
 doi: 10.1109/CSFW.2003.1212703
 layout: paper

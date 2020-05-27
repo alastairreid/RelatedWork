@@ -5,7 +5,7 @@ authors:
 - Joonwon Choi
 - Muralidaran Vijayaraghavan
 - Benjamin Sherman
-- Adam Chlipala
+- Adam J. Chlipala
 - Arvind
 doi: 10.1145/3110268
 journal: Proceedings of the ACM on Programming Languages

@@ -2,7 +2,7 @@
 ENTRYTYPE: misc
 added: 2019-07-01
 authors:
-- Clark Barrett
+- Clark W. Barrett
 - Pascal Fontaine
 - Cesare Tinelli
 layout: paper

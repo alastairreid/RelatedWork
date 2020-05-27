@@ -13,7 +13,7 @@ added: 2019-06-01
 affiliation: University of Glasgow
 ar_shortname: MSc 93
 authors:
-- Alastair Reid
+- Alastair D. Reid
 layout: paper
 location: Glasgow, Scotland
 read: false

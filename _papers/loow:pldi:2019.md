@@ -5,10 +5,10 @@ authors:
 - Andreas Lööw
 - Ramana Kumar
 - Yong Kiam Tan
-- Magnus O Myreen
+- Magnus O. Myreen
 - Michael Norrish
 - Oskar Abrahamsson
-- Anthony Fox
+- Anthony C. J. Fox
 booktitle: Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation
 doi: 10.1145/3314221.3314622
 layout: paper

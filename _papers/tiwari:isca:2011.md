@@ -3,13 +3,13 @@ ENTRYTYPE: inproceedings
 added: 2019-10-06
 authors:
 - Mohit Tiwari
-- Jason K Oberg
+- Jason K. Oberg
 - Xun Li
 - Jonathan Valamehr
 - Timothy Levin
 - Ben Hardekopf
 - Ryan Kastner
-- Frederic T Chong
+- Frederic T. Chong
 - Timothy Sherwood
 booktitle: ACM SIGARCH Computer Architecture News
 doi: 10.1145/2000064.2000087
