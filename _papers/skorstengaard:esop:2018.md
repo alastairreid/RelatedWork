@@ -33,7 +33,7 @@ notes:
 - CHERI architecture
 - capabilities
 papers:
-- skortstengaard:popl:2019
+- skorstengaard:popl:2019
 ---
 
 This paper is concerned with reasoning about software running

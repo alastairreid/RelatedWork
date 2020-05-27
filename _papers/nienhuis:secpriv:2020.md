@@ -36,7 +36,7 @@ notes:
 - capabilities
 papers:
 - woodruff:isca:2014
-- skortstengaard:popl:2019
+- skorstengaard:popl:2019
 - skorstengaard:esop:2018
 ---
 {% include links.html %}

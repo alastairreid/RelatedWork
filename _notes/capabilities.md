@@ -7,8 +7,8 @@ notes:
 papers:
 - nienhuis:secpriv:2020
 - woodruff:isca:2014
-- skortstengaard:esop:2018
-- skortstengaard:popl:2019
+- skorstengaard:esop:2018
+- skorstengaard:popl:2019
 ---
 
 A capability is an unforgeable access token.

@@ -26,7 +26,7 @@ notes:
 - capabilities
 papers:
 - nienhuis:secpriv:2020
-- skortstengaard:popl:2019
+- skorstengaard:popl:2019
 - skorstengaard:esop:2018
 ---
 {% include links.html %}
