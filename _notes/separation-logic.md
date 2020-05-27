@@ -2,7 +2,8 @@
 layout: note
 title: Separation logic
 wiki: https://en.wikipedia.org/wiki/Separation_logic
-isa: permission logic
+isa:
+- permission logic
 notes:
 ---
 
