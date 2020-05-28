@@ -1,0 +1,2401 @@
+- name: "Mart\xEDn Abadi"
+  papers:
+  - papers/abadi:tcs:1991
+- name: Oskar Abrahamsson
+  papers:
+  - papers/loow:pldi:2019
+- name: Vikram Adve
+  papers:
+  - papers/dasgupta:pldi:2019
+- name: Amal Ahmed
+  papers:
+  - papers/bowman:icfp:2015
+  - papers/weiss:arxiv:2018
+- name: Alex Aiken
+  papers:
+  - papers/bansal:asplos:2006
+  - papers/bansal:osdi:2008
+  - papers/heule:pldi:2016
+  - papers/sharma:oopsla:2012
+  - papers/sharma:pls:2013
+- name: Bashir M. Al-Hashimi
+  papers:
+  - papers/boettcher:date:2014
+- name: Jonathan Aldrich
+  papers:
+  - papers/krishnaswami:tldi:2010
+- name: Jade Alglave
+  papers:
+  - papers/sarkar:pldi:2011
+  - papers/sarkar:popl:2009
+- name: Eyad Alkassar
+  papers:
+  - papers/alkassar:vstte:2010
+  - papers/alkassar:vstte:2012
+- name: "Jos\xE9 Bacelar Almeida"
+  papers:
+  - papers/almeida:security:2016
+- name: Sidney Amani
+  papers:
+  - papers/amani:asplos:2016
+- name: Arthur Azevedo de Amorim
+  papers:
+  - papers/hritcu:icfp:2013
+- name: Michael P. Andersen
+  papers:
+  - papers/levy:plos:2015
+- name: David Andersen
+  papers:
+  - papers/spencer:security:1999
+- name: Jonathan Anderson
+  papers:
+  - papers/woodruff:isca:2014
+- name: June Andronick
+  papers:
+  - papers/andronick:icse:2012
+  - papers/klein:sosp:2009
+- name: Jorge Aparicius
+  papers:
+  - papers/lindner:indin:2018
+- name: Alasdair Armstrong
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+- name: Arvind
+  papers:
+  - papers/choi:icfp:2017
+- name: Vytautas Astrauskas
+  papers:
+  - papers/astrauskas:oopsla:2019
+- name: Lennart Augustsson
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Jeremy Avigad
+  papers:
+  - papers/demoura:cade:2015
+- name: "Domagoj Babi\u0107"
+  papers:
+  - papers/babic:fse:2019
+- name: Abhiram Balasubramanian
+  papers:
+  - papers/balasubramanium:hotos:2017
+- name: Roberto Baldoni
+  papers:
+  - papers/baldoni:compsurv:2018
+- name: Thomas Ball
+  papers:
+  - papers/ball:pldi:2001
+- name: Anindya Banerjee
+  papers:
+  - papers/nanevski:oopsla:2019
+- name: Sorav Bansal
+  papers:
+  - papers/bansal:asplos:2006
+  - papers/bansal:osdi:2008
+- name: Marek S. Baranowski
+  papers:
+  - papers/balasubramanium:hotos:2017
+  - papers/baranowski:atva:2018
+  - papers/narayanan:hotos:2019
+- name: Mario R. Barbacci
+  papers:
+  - papers/barbacci:cmu:1972
+  - papers/barbacci:ieee:1981
+- name: Manuel Barbosa
+  papers:
+  - papers/almeida:security:2016
+- name: Mike Barnett
+  papers:
+  - papers/barnett:cacm:2011
+  - papers/barnett:cassis:2004
+  - papers/barnett:fmco:2005
+  - papers/barnett:vstte:2005
+  - papers/cousot:oopsla:2012
+- name: Clark W. Barrett
+  papers:
+  - papers/barrett:cade:2000
+  - papers/barrett:mlf:2015
+  - papers/barrett:smtlib:2016
+- name: Gilles Barthe
+  papers:
+  - papers/almeida:security:2016
+  - papers/barthe:csfw:2004
+  - papers/barthe:iacr:2007
+- name: Dave Barton
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: "Th\xE9ophile Bastian"
+  papers:
+  - papers/bastian:oopsla:2019
+- name: Christopher Batten
+  papers:
+  - papers/lockhart:ispass:2015
+- name: Patrick Baudin
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Thomas Bauereiss
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/nienhuis:secpriv:2020
+- name: Andrew Baumann
+  papers:
+  - papers/ferraiuolo:sosp:2017
+  - papers/nelson:sosp:2019
+- name: Hanno Becker
+  papers:
+  - papers/becker:fm:2016
+- name: Joel Beeren
+  papers:
+  - papers/amani:asplos:2016
+- name: Chester Bell
+  papers:
+  - papers/barbacci:cmu:1972
+- name: Josh Berdine
+  papers:
+  - papers/berdine:aplas:2005
+  - papers/berdine:fmco:2005
+- name: Dirk Beyer
+  papers:
+  - papers/beyer:cav:2011
+  - papers/beyer:ijsttt:2007
+  - papers/beyer:sas:2004
+- name: Abhijith Bharadwaj
+  papers:
+  - papers/verbeek:fmmsd:2019
+- name: Armin Biere
+  papers:
+  - papers/biere:tacas:1999
+  - papers/brummayer:sat:2010
+  - papers/niemetz:jsat:2015
+- name: Gavin Bierman
+  papers:
+  - papers/parkinson:popl:2005
+- name: Stuart Biles
+  papers:
+  - papers/ozer:sbacpad:2007
+  - papers/stephens:micro:2017
+- name: Lars Birkedal
+  papers:
+  - papers/dinsdale-young:popl:2013
+  - papers/krishnaswami:tldi:2010
+  - papers/nanevski:icfp:2008
+  - papers/skorstengaard:esop:2018
+  - papers/skorstengaard:popl:2019
+- name: "Nikolaj Bj\xF8rner"
+  papers:
+  - papers/demoura:tacas:2008
+- name: Allan Blanchard
+  papers:
+  - papers/blanchard:fmics:2015
+- name: Stefan Blom
+  papers:
+  - papers/blom:ijsttt:2015
+- name: Joshua Bockenek
+  papers:
+  - papers/verbeek:fmmsd:2019
+- name: Rastislav Bodik
+  papers:
+  - papers/torlak:onward:2013
+  - papers/torlak:pldi:2014
+- name: Matthias Boettcher
+  papers:
+  - papers/boettcher:date:2014
+  - papers/stephens:micro:2017
+- name: Richard Bonichon
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Richard Bornat
+  papers:
+  - papers/bornat:popl:2005
+- name: James Bornholt
+  papers:
+  - papers/bornholt:oopsla:2018
+  - papers/nelson:sosp:2017
+  - papers/nelson:sosp:2019
+  - papers/sigurbjarnarson:osdi:2016
+  - papers/sigurbjarnarson:osdi:2018
+- name: Bernard Botella
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Timothy Bourke
+  papers:
+  - papers/murray:secpriv:2013
+- name: Brian Boutel
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: William J. Bowman
+  papers:
+  - papers/bowman:icfp:2015
+- name: Silas Boyd-Wickizer
+  papers:
+  - papers/zeldovich:osdi:2006
+- name: Thomas Braibant
+  papers:
+  - papers/sarkar:popl:2009
+- name: Matthew Brassil
+  papers:
+  - papers/murray:secpriv:2013
+- name: Micah Brodsky
+  papers:
+  - papers/krohn:sosp:2007
+- name: Stephen Brookes
+  papers:
+  - papers/brookes:tcs:2006
+- name: Richard Bruce
+  papers:
+  - papers/woh:micro:2008
+- name: Robert Brummayer
+  papers:
+  - papers/brummayer:sat:2010
+- name: Stefan Bucur
+  papers:
+  - papers/babic:fse:2019
+- name: Warren Burton
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Anton Burtsev
+  papers:
+  - papers/balasubramanium:hotos:2017
+  - papers/narayanan:hotos:2019
+- name: "Marcel B\xF6hme"
+  papers:
+  - papers/bohme2:fse:2020
+  - papers/bohme:fse:2020
+- name: Cristian Cadar
+  papers:
+  - papers/cadar:osdi:2008
+- name: Cristiano Calcagno
+  papers:
+  - papers/berdine:aplas:2005
+  - papers/berdine:fmco:2005
+  - papers/bornat:popl:2005
+  - papers/calcagno:popl:2009
+- name: Brian Campbell
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/nienhuis:secpriv:2020
+- name: Bradford Campbell
+  papers:
+  - papers/levy:apsys:2017
+  - papers/levy:plos:2015
+  - papers/levy:sosp:2017
+- name: Mark Campbell
+  papers:
+  - papers/liu:cpsspc:2018
+- name: George Candea
+  papers:
+  - papers/wagner:hotos:2013
+- name: Bruno Castro-Karney
+  papers:
+  - papers/sigurbjarnarson:osdi:2018
+- name: Sang-Kil Cha
+  papers:
+  - papers/bohme:fse:2020
+  - papers/manes:ieeetse:2019
+- name: Sagar Chaki
+  papers:
+  - papers/franklin:cmu:2008
+  - papers/vasudevan:secpriv:2013
+  - papers/vasudevan:usenix:2016
+- name: Chaitali Chakrabarti
+  papers:
+  - papers/lin:sips:2006
+  - papers/woh:micro:2008
+- name: Manuel Chakravarty
+  papers:
+  - papers/chakravarty:haskffi:2003
+- name: Bor-Yuh Evan Chang
+  papers:
+  - papers/barnett:fmco:2005
+- name: Shaunak Chatterjee
+  papers:
+  - papers/chatterjee:tacas:2007
+- name: Zilin Chen
+  papers:
+  - papers/amani:asplos:2016
+- name: Yaohui Chen
+  papers:
+  - papers/babic:fse:2019
+- name: Hao Chen
+  papers:
+  - papers/gu:osdi:2016
+- name: Rick Chen
+  papers:
+  - papers/reid:cav:2016
+- name: David Chisnall
+  papers:
+  - papers/woodruff:isca:2014
+- name: Adam J. Chlipala
+  papers:
+  - papers/beyer:sas:2004
+  - papers/choi:icfp:2017
+- name: Joonwon Choi
+  papers:
+  - papers/choi:icfp:2017
+- name: Frederic T. Chong
+  papers:
+  - papers/tiwari:asplos:2009
+  - papers/tiwari:isca:2009
+  - papers/tiwari:isca:2011
+- name: Maria Christakis
+  papers:
+  - papers/mansur:arxiv:2020
+- name: Peter Chubb
+  papers:
+  - papers/amani:asplos:2016
+- name: Berkeley Churchill
+  papers:
+  - papers/sharma:oopsla:2012
+- name: Alessandro Cimatti
+  papers:
+  - papers/biere:tacas:1999
+- name: David Clark
+  papers:
+  - papers/clark:entcs:2002
+- name: Edmund Clarke
+  papers:
+  - papers/biere:tacas:1999
+  - papers/clarke:cav:2000
+  - papers/clarke:tacas:2004
+- name: Edmund M. Clarke
+  papers:
+  - papers/clarke:cacm:2009
+- name: Michael R. Clarkson
+  papers:
+  - papers/clarkson:jcs:2010
+- name: Natan Cliffer
+  papers:
+  - papers/krohn:sosp:2007
+- name: David Cock
+  papers:
+  - papers/cock:ccs:2014
+  - papers/klein:sosp:2009
+- name: Ernie Cohen
+  papers:
+  - papers/alkassar:vstte:2012
+  - papers/cohen:cav:2010
+  - papers/cohen:entcs:2009
+- name: Jeremy Condit
+  papers:
+  - papers/condit:popl:2009
+- name: Byron Cook
+  papers:
+  - papers/cook:cav:2018
+- name: Emilio Coppa
+  papers:
+  - papers/baldoni:compsurv:2018
+- name: Joe Corbett-Davies
+  papers:
+  - papers/liu:cpsspc:2018
+- name: Lucas C. Cordeiro
+  papers:
+  - papers/monteiro:arxiv:2019
+- name: "Lo\xEFc Correnson"
+  papers:
+  - papers/cuoq:sefm:2012
+- name: David Costanzo
+  papers:
+  - papers/costanzo:pldi:2016
+  - papers/gu:osdi:2016
+- name: Patrick Cousot
+  papers:
+  - papers/cousot:oopsla:2012
+- name: Radhia Cousot
+  papers:
+  - papers/cousot:oopsla:2012
+- name: Karl Crary
+  papers:
+  - papers/morrisett:wcsss:1999
+- name: Juan Manuel Crespo
+  papers:
+  - papers/becker:fm:2016
+- name: David Culler
+  papers:
+  - papers/levy:plos:2015
+- name: Pascal Cuoq
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Pedro R. D'Argenio
+  papers:
+  - papers/barthe:csfw:2004
+- name: Daniele Cono D'elia
+  papers:
+  - papers/baldoni:compsurv:2018
+- name: Mads Dam
+  papers:
+  - papers/dam:ted:2013
+  - papers/dam:trusted:2013
+  - papers/khakpour:cpp:2013
+- name: Hoang-Hai Dang
+  papers:
+  - papers/jung:popl:2020
+- name: Zaynah Dargaye
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Sandeep Dasgupta
+  papers:
+  - papers/dasgupta:pldi:2019
+- name: Anupam Datta
+  papers:
+  - papers/franklin:cmu:2008
+  - papers/vasudevan:secpriv:2013
+  - papers/vasudevan:usenix:2016
+- name: Brooks Davis
+  papers:
+  - papers/woodruff:isca:2014
+- name: Robert DeLine
+  papers:
+  - papers/barnett:fmco:2005
+  - papers/barnett:vstte:2005
+  - papers/deline:pldi:2001
+- name: Will Deacon
+  papers:
+  - papers/flur:popl:2016
+- name: Ulan Degenbaev
+  papers:
+  - papers/degenbaev:phd:2012
+- name: "Germ\xE1n Andr\xE9s Delbianco"
+  papers:
+  - papers/nanevski:oopsla:2019
+- name: Anastasios Deligiannis
+  papers:
+  - papers/reid:cav:2016
+- name: Camil Demetrescu
+  papers:
+  - papers/baldoni:compsurv:2018
+- name: Onur Demir
+  papers:
+  - papers/deng:hasp:2019
+- name: Shuwen Deng
+  papers:
+  - papers/deng:hasp:2019
+- name: Dorothy E. Denning
+  papers:
+  - papers/denning:cacm:1976
+- name: Philip Derrin
+  papers:
+  - papers/klein:sosp:2009
+- name: Dominique Devriese
+  papers:
+  - papers/skorstengaard:esop:2018
+  - papers/skorstengaard:popl:2019
+- name: David L. Dill
+  papers:
+  - papers/barrett:cade:2000
+- name: Thomas Dinsdale-Young
+  papers:
+  - papers/dinsdale-young:popl:2013
+- name: Dino Distefano
+  papers:
+  - papers/calcagno:popl:2009
+  - papers/distefano:tacas:2006
+- name: Floris Van Doorn
+  papers:
+  - papers/demoura:cade:2015
+- name: Derek Dreyer
+  papers:
+  - papers/jung:popl:2017
+  - papers/jung:popl:2020
+- name: Daniel Dunbar
+  papers:
+  - papers/cadar:osdi:2008
+- name: Usit Duongsaa
+  papers:
+  - papers/regehr:lctes:2006
+- name: "Fran\xE7ois Dupressoir"
+  papers:
+  - papers/almeida:security:2016
+- name: Simon Duquennoy
+  papers:
+  - papers/mangano:crisis:2016
+- name: Prabal Dutta
+  papers:
+  - papers/levy:apsys:2017
+  - papers/levy:plos:2015
+  - papers/levy:sosp:2017
+- name: Matthew B. Dwyer
+  papers:
+  - papers/siegel:sc:2015
+- name: Jacob Eapen
+  papers:
+  - papers/stephens:micro:2017
+- name: John G. Edenhofner
+  papers:
+  - papers/siegel:sc:2015
+- name: Petros Efstathopoulos
+  papers:
+  - papers/efstathopoulos:sosp:2005
+- name: Manuel Egele
+  papers:
+  - papers/manes:ieeetse:2019
+- name: Eric Eide
+  papers:
+  - papers/eide:aspse:2001
+  - papers/eide:icse:2002
+  - papers/reid:osdi:2000
+- name: Dhammika Elkaduwe
+  papers:
+  - papers/klein:sosp:2009
+- name: Kevin Elphinstone
+  papers:
+  - papers/klein:sosp:2009
+- name: E. Allen Emerson
+  papers:
+  - papers/clarke:cacm:2009
+- name: Michael Emmi
+  papers:
+  - papers/almeida:security:2016
+  - papers/rakamaric:cav:2014
+- name: Kai Engelhardt
+  papers:
+  - papers/klein:sosp:2009
+- name: Dawson Engler
+  papers:
+  - papers/cadar:osdi:2008
+- name: Johan Eriksson
+  papers:
+  - papers/lindner:indin:2019
+- name: Michael D. Ernst
+  papers:
+  - papers/ernst:icse:2016
+  - papers/weitz:icfp:2017
+- name: Mbou Eyole
+  papers:
+  - papers/boettcher:date:2014
+  - papers/stephens:micro:2017
+- name: Brandon Falk
+  papers:
+  - papers/bohme2:fse:2020
+- name: Stephan Falke
+  papers:
+  - papers/merz:vstte:2012
+- name: Adin D. Falkoff
+  papers:
+  - papers/falkoff:ibm:1964
+- name: Joseph Fasel
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Andrew Ferraiuolo
+  papers:
+  - papers/ferraiuolo:asplos:2017
+  - papers/ferraiuolo:ccs:2018
+  - papers/ferraiuolo:dac:2017
+  - papers/ferraiuolo:sosp:2017
+  - papers/liu:cpsspc:2018
+- name: "Jean-Christophe Filli\xE2tre"
+  papers:
+  - papers/filliatre:cav:2007
+  - papers/filliatre:esop:2013
+  - papers/filliatre:fem:2004
+- name: Sigbjorn Finne
+  papers:
+  - papers/chakravarty:haskffi:2003
+- name: Irene Finocchi
+  papers:
+  - papers/baldoni:compsurv:2018
+- name: Bernd Fischer
+  papers:
+  - papers/fischer:ase:2013
+- name: Nils Fitinghoff
+  papers:
+  - papers/lindner:indin:2019
+- name: Matthew Flatt
+  papers:
+  - papers/eide:aspse:2001
+  - papers/reid:osdi:2000
+- name: "Kriszti\xE1n Flautner"
+  papers:
+  - papers/lin:sdr:2006
+  - papers/lin:sips:2006
+  - papers/reid:cases:2008
+  - papers/woh:micro:2008
+- name: Shaked Flur
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/flur:popl:2016
+- name: Pedro Fonseca
+  papers:
+  - papers/fonseca:ecs:2017
+- name: Pascal Fontaine
+  papers:
+  - papers/barrett:mlf:2015
+  - papers/barrett:smtlib:2016
+- name: Anthony C. J. Fox
+  papers:
+  - papers/fox:cambridge:2001
+  - papers/fox:itp:2010
+  - papers/fox:itp:2012
+  - papers/fox:itps:2015
+  - papers/loow:pldi:2019
+  - papers/nienhuis:secpriv:2020
+- name: Anthony Fox
+  papers:
+  - papers/fox:tphols:2003
+- name: Jason Franklin
+  papers:
+  - papers/franklin:cmu:2008
+- name: Jon French
+  papers:
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+- name: Cliff Frey
+  papers:
+  - papers/efstathopoulos:sosp:2005
+- name: "Ignacio F\xE1bregas"
+  papers:
+  - papers/nanevski:oopsla:2019
+- name: "Manuel F\xE4hndrich"
+  papers:
+  - papers/barnett:cacm:2011
+  - papers/barnett:vstte:2005
+  - papers/deline:pldi:2001
+  - papers/fahndrich:foveoos:2010
+- name: Giacomo Gabrielli
+  papers:
+  - papers/boettcher:date:2014
+  - papers/stephens:micro:2017
+- name: Mikhail R. Gadelha
+  papers:
+  - papers/monteiro:arxiv:2019
+- name: Jacek Galowicz
+  papers:
+  - papers/becker:fm:2016
+- name: Peter Gammie
+  papers:
+  - papers/murray:secpriv:2013
+- name: Edward Gan
+  papers:
+  - papers/morrisett:pldi:2012
+- name: Xin Gao
+  papers:
+  - papers/murray:secpriv:2013
+- name: Philippa Gardner
+  papers:
+  - papers/dinsdale-young:popl:2013
+- name: Qian Ge
+  papers:
+  - papers/cock:ccs:2014
+- name: Y. Serhan Gener
+  papers:
+  - papers/deng:hasp:2019
+- name: Branden Ghena
+  papers:
+  - papers/levy:apsys:2017
+  - papers/levy:plos:2015
+  - papers/levy:sosp:2017
+- name: Soumava Ghosh
+  papers:
+  - papers/goel:fmcad:2014
+- name: Daniel B. Giffin
+  papers:
+  - papers/levy:sosp:2017
+- name: David Gilday
+  papers:
+  - papers/reid:cav:2016
+- name: Neal Glew
+  papers:
+  - papers/morrisett:wcsss:1999
+- name: Patrice Godefroid
+  papers:
+  - papers/godefroid:acmq:2012
+  - papers/godefroid:pldi:2012
+- name: Shilpi Goel
+  papers:
+  - papers/goel:acl2:2013
+  - papers/goel:fmcad:2014
+  - papers/goel:pcs:2017
+  - papers/goel:phd:2016
+- name: Joseph A. Goguen
+  papers:
+  - papers/goguen:secpriv:1982
+  - papers/goguen:secpriv:1984
+- name: Michael J. C. Gordon
+  papers:
+  - papers/myreen:tphols:2009
+- name: Pronnoy Goswami
+  papers:
+  - papers/tahat:fmcad:2019
+- name: Claire Le Goues
+  papers:
+  - papers/legoues:sefm:2011
+- name: Paul Govereau
+  papers:
+  - papers/nanevski:icfp:2008
+- name: Kathryn E. Gray
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/flur:popl:2016
+  - papers/gray:micro:2015
+- name: Edmund Grimley-Evans
+  papers:
+  - papers/reid:cases:2008
+- name: Dan Grossman
+  papers:
+  - papers/grossman:esop:2002
+  - papers/morrisett:wcsss:1999
+- name: Orna Grumberg
+  papers:
+  - papers/clarke:cav:2000
+- name: "Benjamin Gr\xE9goire"
+  papers:
+  - papers/barthe:iacr:2007
+- name: Ronghui Gu
+  papers:
+  - papers/costanzo:pldi:2016
+  - papers/gu:osdi:2016
+  - papers/nelson:sosp:2019
+- name: Roberto Guanciale
+  papers:
+  - papers/dam:ted:2013
+  - papers/dam:trusted:2013
+- name: Saurabh Gupta
+  papers:
+  - papers/sharma:pls:2013
+- name: Arie Gurfinkel
+  papers:
+  - papers/gurfinkel:cav:2015
+- name: "Do\u011Fuhan G\xFCm\xFC\u015Fo\u011Flu"
+  papers:
+  - papers/deng:hasp:2019
+- name: Brian Hackett
+  papers:
+  - papers/condit:popl:2009
+- name: Liana Hadarean
+  papers:
+  - papers/stump:fmsd:2013
+- name: Gregory D. Hager
+  papers:
+  - papers/peterson:padl:2001
+  - papers/reid:icse:1999
+- name: Kevin Hammond
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: HyungSeok Han
+  papers:
+  - papers/manes:ieeetse:2019
+- name: Choongwoo Han
+  papers:
+  - papers/manes:ieeetse:2019
+- name: Ben Hardekopf
+  papers:
+  - papers/tiwari:isca:2011
+- name: David S. Hardin
+  papers:
+  - papers/hardin:acl2:2006
+- name: Bharath Hariharan
+  papers:
+  - papers/sharma:pls:2013
+- name: Robert Harper
+  papers:
+  - papers/xi:icfp:2001
+- name: John Hatcliff
+  papers:
+  - papers/hatcliff:compsurv:2012
+- name: Chris Hawblitzel
+  papers:
+  - papers/ferraiuolo:sosp:2017
+  - papers/hawblitzel:osdi:2014
+  - papers/yang:pldi:2010
+- name: Shaobo He
+  papers:
+  - papers/baranowski:atva:2018
+- name: Eric C. R. Hehner
+  papers:
+  - papers/hehner:vstte:2008
+- name: Gernot Heiser
+  papers:
+  - papers/amani:asplos:2016
+  - papers/cock:ccs:2014
+  - papers/klein:sosp:2009
+- name: Fergus Henderson
+  papers:
+  - papers/chakravarty:haskffi:2003
+  - papers/jones:pldi:1999
+- name: Ulrich Hensel
+  papers:
+  - papers/becker:fm:2016
+- name: Thomas A. Henzinger
+  papers:
+  - papers/beyer:ijsttt:2007
+  - papers/beyer:sas:2004
+  - papers/henzinger:spin:2003
+- name: Philippe Herrmann
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Stefan Heule
+  papers:
+  - papers/heule:ftfjp:2011
+  - papers/heule:pldi:2016
+  - papers/heule:vmcai:2013
+  - papers/weitz:icfp:2017
+- name: Mike Hibler
+  papers:
+  - papers/spencer:security:1999
+- name: Mark A. Hillebrand
+  papers:
+  - papers/alkassar:vstte:2010
+- name: Ralf Hinze
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Yoichi Hirai
+  papers:
+  - papers/becker:fm:2016
+- name: Alex Hixon
+  papers:
+  - papers/amani:asplos:2016
+- name: C. A. R. Hoare
+  papers:
+  - papers/jones:pldi:1999
+- name: Aquinas Hobor
+  papers:
+  - papers/hobor:popl:2013
+- name: Michael Hohmuth
+  papers:
+  - papers/hohmuth:plos:2005
+  - papers/hohmuth:sigops:2002
+- name: Mark Horowitz
+  papers:
+  - papers/lie:secpri:2003
+  - papers/lie:sosp:2003
+- name: Matt Horsnell
+  papers:
+  - papers/stephens:micro:2017
+- name: Jon Howell
+  papers:
+  - papers/hawblitzel:osdi:2014
+- name: David Hoyes
+  papers:
+  - papers/reid:cav:2016
+- name: Catalin Hritcu
+  papers:
+  - papers/hritcu:icfp:2013
+- name: Wei Hu
+  papers:
+  - papers/oberg:dac:2010
+- name: Weizhe Hua
+  papers:
+  - papers/ferraiuolo:dac:2017
+- name: Paul Hudak
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+  - papers/peterson:padl:2001
+  - papers/reid:icse:1999
+- name: John Hughes
+  papers:
+  - papers/hritcu:icfp:2013
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Marieke Huisman
+  papers:
+  - papers/blom:ijsttt:2015
+- name: Sebastian Hunt
+  papers:
+  - papers/clark:entcs:2002
+- name: Warren A. Hunt
+  papers:
+  - papers/goel:acl2:2013
+  - papers/goel:fmcad:2014
+  - papers/goel:pcs:2017
+  - papers/kaufmann:utaustin:2012
+- name: Ray Hunt
+  papers:
+  - papers/pearce:compsurv:2013
+- name: Berkin Ilbeyi
+  papers:
+  - papers/lockhart:ispass:2015
+- name: Omar Inverso
+  papers:
+  - papers/fischer:ase:2013
+- name: Ali Irturk
+  papers:
+  - papers/oberg:dac:2010
+- name: Alexander Ivanov
+  papers:
+  - papers/liu:cpsspc:2018
+- name: "Franjo Ivan\u010Di\u0107"
+  papers:
+  - papers/babic:fse:2019
+- name: Kenneth E. Iverson
+  papers:
+  - papers/falkoff:ibm:1964
+- name: Bart Jacobs
+  papers:
+  - papers/barnett:fmco:2005
+  - papers/barnett:vstte:2005
+  - papers/jacobs:nfm:2011
+  - papers/jacobs:vstte:2010
+  - papers/penninckx:nfm:2012
+  - papers/philippaerts:scp:2014
+  - papers/smans:ecoop:2009
+  - papers/smans:fmood:2010
+  - papers/vogels:fmoods:2011
+- name: Ross Jeffery
+  papers:
+  - papers/andronick:icse:2012
+- name: Somesh Jha
+  papers:
+  - papers/clarke:cav:2000
+- name: Ranjit Jhala
+  papers:
+  - papers/beyer:ijsttt:2007
+  - papers/beyer:sas:2004
+  - papers/henzinger:spin:2003
+  - papers/jhala:compsurv:2009
+- name: Limin Jia
+  papers:
+  - papers/vasudevan:secpriv:2013
+  - papers/vasudevan:usenix:2016
+- name: Alexandre Joannou
+  papers:
+  - papers/nienhuis:secpriv:2020
+- name: Dylan Johnson
+  papers:
+  - papers/nelson:sosp:2017
+- name: Thomas Johnsson
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Simon L. Peyton Jones
+  papers:
+  - papers/chakravarty:haskffi:2003
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+  - papers/jones:hw:1997
+  - papers/jones:pldi:1999
+- name: Mark Jones
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Sarang Joshi
+  papers:
+  - papers/tahat:fmcad:2019
+- name: Jacques-Henri Jourdan
+  papers:
+  - papers/jung:popl:2017
+- name: Ralf Jung
+  papers:
+  - papers/jung:popl:2017
+  - papers/jung:popl:2020
+- name: Frans Kaashoek
+  papers:
+  - papers/efstathopoulos:sosp:2005
+- name: M. Frans Kaashoek
+  papers:
+  - papers/krohn:sosp:2007
+- name: Temesghen Kahsai
+  papers:
+  - papers/gurfinkel:cav:2015
+- name: Jeehoon Kang
+  papers:
+  - papers/jung:popl:2020
+- name: Ioannis T. Kassios
+  papers:
+  - papers/kassios:fm:2006
+- name: Ryan Kastner
+  papers:
+  - papers/oberg:dac:2010
+  - papers/tiwari:isca:2011
+- name: Matt Kaufmann
+  papers:
+  - papers/goel:acl2:2013
+  - papers/goel:fmcad:2014
+  - papers/goel:pcs:2017
+  - papers/kaufmann:utaustin:2012
+- name: Will Keen
+  papers:
+  - papers/reid:cav:2016
+- name: Stephen Kell
+  papers:
+  - papers/bastian:oopsla:2019
+- name: Gabriele Keller
+  papers:
+  - papers/amani:asplos:2016
+- name: M. Erkan Keremoglu
+  papers:
+  - papers/beyer:cav:2011
+- name: Gabriel Kerneis
+  papers:
+  - papers/gray:micro:2015
+- name: Danny Kershaw
+  papers:
+  - papers/woh:micro:2008
+- name: Narges Khakpour
+  papers:
+  - papers/khakpour:cpp:2013
+- name: Kareem Khazem
+  papers:
+  - papers/cook:cav:2018
+- name: Jieung Kim
+  papers:
+  - papers/gu:osdi:2016
+- name: Tim King
+  papers:
+  - papers/babic:fse:2019
+- name: Samuel Talmadge King
+  papers:
+  - papers/mai:asplos:2013
+- name: Florent Kirchner
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Steve Klabnik
+  papers:
+  - papers/klabnik:book:2018
+- name: Gerwin Klein
+  papers:
+  - papers/amani:asplos:2016
+  - papers/andronick:icse:2012
+  - papers/klein:sosp:2009
+  - papers/murray:secpriv:2013
+  - papers/sewell:pldi:2013
+- name: Naoki Kobayashi
+  papers:
+  - papers/matsushita:esop:2020
+- name: Eddie Kohler
+  papers:
+  - papers/efstathopoulos:sosp:2005
+  - papers/krohn:sosp:2007
+  - papers/zeldovich:osdi:2006
+- name: Rafal Kolanski
+  papers:
+  - papers/andronick:icse:2012
+  - papers/klein:sosp:2009
+- name: Anvesh Komuravelli
+  papers:
+  - papers/gurfinkel:cav:2015
+- name: Soonho Kong
+  papers:
+  - papers/demoura:cade:2015
+- name: Nikolai Kosmatov
+  papers:
+  - papers/blanchard:fmics:2015
+  - papers/cuoq:sefm:2012
+  - papers/mangano:crisis:2016
+- name: Mikhail Kovalev
+  papers:
+  - papers/alkassar:vstte:2012
+- name: Marcin Kowalczyk
+  papers:
+  - papers/chakravarty:haskffi:2003
+- name: Robbert Krebbers
+  papers:
+  - papers/jung:popl:2017
+- name: Arvind Krishnamurthy
+  papers:
+  - papers/fonseca:ecs:2017
+- name: Neel R. Krishnaswami
+  papers:
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/krishnaswami:tldi:2010
+- name: Daniel Kroening
+  papers:
+  - papers/clarke:tacas:2004
+  - papers/cook:cav:2018
+- name: Maxwell Krohn
+  papers:
+  - papers/efstathopoulos:sosp:2005
+  - papers/krohn:sosp:2007
+- name: Ramana Kumar
+  papers:
+  - papers/kumar:popl:2014
+  - papers/loow:pldi:2019
+- name: "C\xE9sar Kunz"
+  papers:
+  - papers/becker:fm:2016
+- name: Markus Kusano
+  papers:
+  - papers/babic:fse:2019
+- name: Volodymyr Kuznetsov
+  papers:
+  - papers/wagner:hotos:2013
+- name: Shuvendu K. Lahiri
+  papers:
+  - papers/chatterjee:tacas:2007
+  - papers/condit:popl:2009
+  - papers/lal:cav:2012
+- name: Akash Lal
+  papers:
+  - papers/lal:cav:2012
+  - papers/lal:fse:2014
+- name: Leslie Lamport
+  papers:
+  - papers/abadi:tcs:1991
+- name: Leonidas Lampropoulos
+  papers:
+  - papers/hritcu:icfp:2013
+- name: Vincent Laporte
+  papers:
+  - papers/barthe:iacr:2007
+- name: John Launchbury
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Ben Laurie
+  papers:
+  - papers/woodruff:isca:2014
+- name: Gary T. Leavens
+  papers:
+  - papers/hatcliff:compsurv:2012
+- name: Daan Leijen
+  papers:
+  - papers/chakravarty:haskffi:2003
+- name: Dirk Leinenbach
+  papers:
+  - papers/leinenbach:fm:2009
+- name: K. Rustan M. Leino
+  papers:
+  - papers/barnett:cacm:2011
+  - papers/barnett:cassis:2004
+  - papers/barnett:fmco:2005
+  - papers/barnett:vstte:2005
+  - papers/hatcliff:compsurv:2012
+  - papers/heule:ftfjp:2011
+  - papers/heule:vmcai:2013
+  - papers/legoues:sefm:2011
+  - papers/leino:fosad:2007
+  - papers/leino:icse:2013
+  - papers/leino:lpair:2010
+  - papers/leino:sac:2009
+  - papers/leino:tacas:2010
+- name: Matthieu Lemerre
+  papers:
+  - papers/blanchard:fmics:2015
+- name: Caroline Lemieux
+  papers:
+  - papers/babic:fse:2019
+- name: Jay Lepreau
+  papers:
+  - papers/eide:aspse:2001
+  - papers/eide:icse:2002
+  - papers/regehr:rtss:2003
+  - papers/reid:osdi:2000
+  - papers/spencer:security:1999
+- name: Flavio Lerda
+  papers:
+  - papers/clarke:tacas:2004
+- name: Xavier Leroy
+  papers:
+  - papers/leroy:cacm:2009
+- name: Michael Y. Levin
+  papers:
+  - papers/godefroid:acmq:2012
+- name: Timothy Levin
+  papers:
+  - papers/tiwari:isca:2011
+- name: Philip Levis
+  papers:
+  - papers/levy:apsys:2017
+  - papers/levy:plos:2015
+  - papers/levy:sosp:2017
+- name: Amit Levy
+  papers:
+  - papers/levy:apsys:2017
+  - papers/levy:plos:2015
+  - papers/levy:sosp:2017
+- name: Corey Lewis
+  papers:
+  - papers/murray:secpriv:2013
+- name: Xun Li
+  papers:
+  - papers/tiwari:isca:2009
+  - papers/tiwari:isca:2011
+- name: Percy Liang
+  papers:
+  - papers/sharma:pls:2013
+- name: David Lie
+  papers:
+  - papers/lie:secpri:2003
+  - papers/lie:sosp:2003
+- name: Japheth Lim
+  papers:
+  - papers/amani:asplos:2016
+- name: Yuan Lin
+  papers:
+  - papers/lin:sdr:2006
+  - papers/lin:sips:2006
+  - papers/reid:cases:2008
+  - papers/woh:micro:2008
+- name: Per Lindgren
+  papers:
+  - papers/lindner:indin:2018
+  - papers/lindner:indin:2019
+- name: Marcus Lindner
+  papers:
+  - papers/lindner:indin:2018
+  - papers/lindner:indin:2019
+- name: Jed Liu
+  papers:
+  - papers/liu:cpsspc:2018
+- name: Derek Lockhart
+  papers:
+  - papers/lockhart:ispass:2015
+- name: Francesco Logozzo
+  papers:
+  - papers/cousot:oopsla:2012
+  - papers/fahndrich:foveoos:2010
+  - papers/logozzo:vmcai:2011
+- name: Florian Lonsing
+  papers:
+  - papers/brummayer:sat:2010
+- name: Nuno P. Lopes
+  papers:
+  - papers/lopes:pldi:2015
+- name: Jacob R. Lorch
+  papers:
+  - papers/hawblitzel:osdi:2014
+- name: Peter Loscocco
+  papers:
+  - papers/spencer:security:1999
+- name: "Fr\xE9d\xE9ric Loulergue"
+  papers:
+  - papers/blanchard:fmics:2015
+- name: Alberto Lovato
+  papers:
+  - papers/ernst:icse:2016
+- name: Yuan Lu
+  papers:
+  - papers/clarke:cav:2000
+- name: Corine Lu
+  papers:
+  - papers/deng:hasp:2019
+- name: Mark Luk
+  papers:
+  - papers/seshadri:sosp:2007
+- name: Mulong Luo
+  papers:
+  - papers/liu:cpsspc:2018
+- name: Ziqing Luo
+  papers:
+  - papers/siegel:sc:2015
+- name: Steven Lyubomirsky
+  papers:
+  - papers/weitz:icfp:2017
+- name: "Andreas L\xF6\xF6w"
+  papers:
+  - papers/loow:pldi:2019
+- name: Damiano Macedonio
+  papers:
+  - papers/ernst:icse:2016
+- name: Parthasarathy Madhusudan
+  papers:
+  - papers/mai:asplos:2013
+- name: Grigorios Magklis
+  papers:
+  - papers/stephens:micro:2017
+- name: Scott A. Mahlke
+  papers:
+  - papers/lin:sdr:2006
+  - papers/lin:sips:2006
+  - papers/woh:micro:2008
+- name: Haohui Mai
+  papers:
+  - papers/mai:asplos:2013
+- name: Rupak Majumdar
+  papers:
+  - papers/ball:pldi:2001
+  - papers/beyer:ijsttt:2007
+  - papers/beyer:sas:2004
+  - papers/henzinger:spin:2003
+  - papers/jhala:compsurv:2009
+- name: Pasquale Malacaria
+  papers:
+  - papers/clark:entcs:2002
+- name: Valentin Manes
+  papers:
+  - papers/bohme:fse:2020
+- name: "Fr\xE9d\xE9ric Mangano"
+  papers:
+  - papers/mangano:crisis:2016
+- name: Petros Maniatis
+  papers:
+  - papers/martignoni:asplos:2012
+  - papers/vasudevan:usenix:2016
+- name: Muhammad Numair Mansur
+  papers:
+  - papers/mansur:arxiv:2020
+- name: Heiko Mantel
+  papers:
+  - papers/mantel:pls:2007
+  - papers/mantel:sp:2001
+- name: "Valentin J.M. Man\xE8s"
+  papers:
+  - papers/manes:ieeetse:2019
+- name: Luc Maranget
+  papers:
+  - papers/flur:popl:2016
+  - papers/sarkar:pldi:2011
+- name: "Claude March\xE9"
+  papers:
+  - papers/filliatre:cav:2007
+  - papers/filliatre:fem:2004
+- name: Andre V. Marianiello
+  papers:
+  - papers/siegel:sc:2015
+- name: Simon Marlow
+  papers:
+  - papers/chakravarty:haskffi:2003
+  - papers/jones:pldi:1999
+- name: Lorenzo Martignoni
+  papers:
+  - papers/martignoni:asplos:2012
+- name: Alejandro Martinez
+  papers:
+  - papers/stephens:micro:2017
+- name: Daniel Matichuk
+  papers:
+  - papers/murray:secpriv:2013
+- name: Yusuke Matsushita
+  papers:
+  - papers/matsushita:esop:2020
+- name: "David Mazi\xE8res"
+  papers:
+  - papers/efstathopoulos:sosp:2005
+  - papers/zeldovich:osdi:2006
+- name: Bita Mazloom
+  papers:
+  - papers/tiwari:asplos:2009
+- name: Stephen McCamant
+  papers:
+  - papers/martignoni:asplos:2012
+- name: Jonathan McCune
+  papers:
+  - papers/vasudevan:secpriv:2013
+- name: Kenneth L. McMillan
+  papers:
+  - papers/mcmillan:ecs:2003
+- name: Scott McPeak
+  papers:
+  - papers/necula:cc:2002
+- name: Erik Meijer
+  papers:
+  - papers/chakravarty:haskffi:2003
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: David Menendez
+  papers:
+  - papers/lopes:pldi:2015
+- name: Florian Merz
+  papers:
+  - papers/merz:vstte:2012
+- name: "Jos\xE9 Meseguer"
+  papers:
+  - papers/goguen:secpriv:1982
+  - papers/goguen:secpriv:1984
+- name: Todd Millstein
+  papers:
+  - papers/ball:pldi:2001
+- name: John C. Mitchell
+  papers:
+  - papers/lie:secpri:2003
+- name: David Molnar
+  papers:
+  - papers/godefroid:acmq:2012
+- name: Rosemary Monahan
+  papers:
+  - papers/leino:sac:2009
+- name: Benjamin Monate
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Felipe R. Monteiro
+  papers:
+  - papers/monteiro:arxiv:2019
+- name: Simon W. Moore
+  papers:
+  - papers/nienhuis:secpriv:2020
+  - papers/woodruff:isca:2014
+- name: Robert Morris
+  papers:
+  - papers/efstathopoulos:sosp:2005
+  - papers/krohn:sosp:2007
+- name: Greg Morrisett
+  papers:
+  - papers/morrisett:pldi:2012
+  - papers/morrisett:wcsss:1999
+  - papers/nanevski:icfp:2008
+  - papers/smith:esop:2000
+  - papers/walker:tic:2001
+- name: "Micha\u0142 Moskal"
+  papers:
+  - papers/cohen:cav:2010
+  - papers/cohen:entcs:2009
+  - papers/legoues:sefm:2011
+- name: Leonardo de Moura
+  papers:
+  - papers/barrett:mlf:2015
+  - papers/demoura:cade:2015
+  - papers/demoura:tacas:2008
+- name: Yannick Moy
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Trevor N. Mudge
+  papers:
+  - papers/lin:sdr:2006
+  - papers/lin:sips:2006
+  - papers/woh:micro:2008
+- name: Robert Mullenix
+  papers:
+  - papers/lin:sdr:2006
+- name: Dominic P. Mulligan
+  papers:
+  - papers/gray:micro:2015
+- name: Prashanth Mundkur
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+- name: Toby Murray
+  papers:
+  - papers/amani:asplos:2016
+  - papers/cock:ccs:2014
+  - papers/murray:secpriv:2013
+- name: Alan Mycroft
+  papers:
+  - papers/mycroft:esop:1999
+- name: Andrew C. Myers
+  papers:
+  - papers/ferraiuolo:asplos:2017
+  - papers/ferraiuolo:ccs:2018
+  - papers/ferraiuolo:dac:2017
+  - papers/liu:cpsspc:2018
+  - papers/myers:csfw:2004
+  - papers/zdancewic:csfw:2001
+  - papers/zdancewic:csfw:2003
+  - papers/zhang:asplos:2015
+- name: Magnus O. Myreen
+  papers:
+  - papers/fox:itp:2010
+  - papers/kumar:popl:2014
+  - papers/loow:pldi:2019
+  - papers/myreen:itp:2012
+  - papers/myreen:tphols:2009
+  - papers/sarkar:popl:2009
+  - papers/sewell:pldi:2013
+- name: Shashidhar Mysore
+  papers:
+  - papers/tiwari:asplos:2009
+- name: "Jan Tobias M\xFChlberg"
+  papers:
+  - papers/penninckx:nfm:2012
+  - papers/philippaerts:scp:2014
+- name: "Peter M\xFCller"
+  papers:
+  - papers/astrauskas:oopsla:2019
+  - papers/barnett:cacm:2011
+  - papers/hatcliff:compsurv:2012
+  - papers/heule:ftfjp:2011
+  - papers/heule:vmcai:2013
+  - papers/leino:fosad:2007
+  - papers/muller:vmcai:2016
+- name: Santosh Nagarakatte
+  papers:
+  - papers/lopes:pldi:2015
+- name: Yutaka Nagashima
+  papers:
+  - papers/amani:asplos:2016
+- name: Keiko Nakata
+  papers:
+  - papers/becker:fm:2016
+- name: Aleksandar Nanevski
+  papers:
+  - papers/nanevski:icfp:2008
+  - papers/nanevski:oopsla:2019
+- name: Arjun Narayan
+  papers:
+  - papers/hawblitzel:osdi:2014
+- name: Vikram Narayanan
+  papers:
+  - papers/narayanan:hotos:2019
+- name: Francesco Zappa Nardelli
+  papers:
+  - papers/bastian:oopsla:2019
+  - papers/sarkar:popl:2009
+- name: David A. Naumann
+  papers:
+  - papers/naumann:fmco:2004
+- name: Jorge A. Navas
+  papers:
+  - papers/gurfinkel:cav:2015
+- name: Matthew Naylor
+  papers:
+  - papers/nienhuis:secpriv:2020
+- name: George C. Necula
+  papers:
+  - papers/necula:cc:2002
+  - papers/necula:pldi:2000
+  - papers/necula:popl:1997
+- name: Luke Nelson
+  papers:
+  - papers/nelson:sosp:2017
+  - papers/nelson:sosp:2019
+  - papers/sigurbjarnarson:osdi:2018
+- name: Hamed Nemati
+  papers:
+  - papers/dam:ted:2013
+  - papers/dam:trusted:2013
+- name: Peter G. Neumann
+  papers:
+  - papers/nienhuis:secpriv:2020
+  - papers/woodruff:isca:2014
+- name: Allen Newell
+  papers:
+  - papers/barbacci:cmu:1972
+- name: James Newsome
+  papers:
+  - papers/vasudevan:secpriv:2013
+- name: Carol Nichols
+  papers:
+  - papers/klabnik:book:2018
+- name: Aina Niemetz
+  papers:
+  - papers/niemetz:jsat:2015
+- name: Kyndylan Nienhuis
+  papers:
+  - papers/nienhuis:secpriv:2020
+- name: Tobias Nipkow
+  papers:
+  - papers/nipkow:book:2002
+- name: Thomas Nordin
+  papers:
+  - papers/jones:hw:1997
+- name: Aditya V. Nori
+  papers:
+  - papers/sharma:pls:2013
+- name: Michael Norrish
+  papers:
+  - papers/klein:sosp:2009
+  - papers/kumar:popl:2014
+  - papers/loow:pldi:2019
+- name: Robert M. Norton
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/nienhuis:secpriv:2020
+  - papers/woodruff:isca:2014
+- name: Liam O'Connor
+  papers:
+  - papers/amani:asplos:2016
+- name: Peter W. O'Hearn
+  papers:
+  - papers/berdine:aplas:2005
+  - papers/berdine:fmco:2005
+  - papers/bornat:popl:2005
+  - papers/calcagno:popl:2009
+  - papers/distefano:tacas:2006
+  - papers/ohearn:cacm:2019
+  - papers/ohearn:tcs:2007
+- name: Jason Oberg
+  papers:
+  - papers/oberg:dac:2010
+- name: Jason K. Oberg
+  papers:
+  - papers/tiwari:isca:2011
+- name: Duckki Oe
+  papers:
+  - papers/stump:fmsd:2013
+- name: Scott Owens
+  papers:
+  - papers/kumar:popl:2014
+  - papers/sarkar:popl:2009
+- name: Anne Pacalet
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Aurojit Panda
+  papers:
+  - papers/balasubramanium:hotos:2017
+- name: Sven Panne
+  papers:
+  - papers/chakravarty:haskffi:2003
+- name: Pat Pannuto
+  papers:
+  - papers/levy:apsys:2017
+  - papers/levy:plos:2015
+  - papers/levy:sosp:2017
+- name: Michael A. Parker
+  papers:
+  - papers/regehr:rtss:2003
+- name: Matthew Parkinson
+  papers:
+  - papers/bornat:popl:2005
+  - papers/dinsdale-young:popl:2013
+  - papers/hatcliff:compsurv:2012
+  - papers/parkinson:popl:2005
+- name: Gennaro Parlato
+  papers:
+  - papers/fischer:ase:2013
+- name: Bryan Parno
+  papers:
+  - papers/ferraiuolo:sosp:2017
+  - papers/hawblitzel:osdi:2014
+- name: Andrei Paskevich
+  papers:
+  - papers/filliatre:esop:2013
+- name: Ashan Pathirane
+  papers:
+  - papers/reid:cav:2016
+- name: Daniel Patterson
+  papers:
+  - papers/weiss:arxiv:2018
+- name: Wolfgang J. Paul
+  papers:
+  - papers/alkassar:vstte:2010
+  - papers/alkassar:vstte:2012
+- name: Lawrence C. Paulson
+  papers:
+  - papers/nipkow:book:2002
+- name: Michael Pearce
+  papers:
+  - papers/pearce:compsurv:2013
+- name: Edgar Pek
+  papers:
+  - papers/mai:asplos:2013
+- name: Willem Penninckx
+  papers:
+  - papers/jacobs:nfm:2011
+  - papers/penninckx:nfm:2012
+  - papers/philippaerts:scp:2014
+- name: Stuart Pernsteiner
+  papers:
+  - papers/toman:ase:2015
+- name: Adrian Perrig
+  papers:
+  - papers/seshadri:sosp:2007
+- name: John Peterson
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+  - papers/peterson:hw:1995
+  - papers/peterson:padl:2001
+  - papers/reid:hw:1995
+  - papers/reid:icse:1999
+  - papers/reid:yale:1998
+- name: Elena Petrova
+  papers:
+  - papers/alkassar:vstte:2010
+- name: Pieter Philippaerts
+  papers:
+  - papers/jacobs:nfm:2011
+  - papers/philippaerts:scp:2014
+- name: Benjamin C. Pierce
+  papers:
+  - papers/hritcu:icfp:2013
+- name: Frank Piessens
+  papers:
+  - papers/jacobs:nfm:2011
+  - papers/jacobs:vstte:2010
+  - papers/penninckx:nfm:2012
+  - papers/philippaerts:scp:2014
+  - papers/smans:ecoop:2009
+  - papers/smans:fmood:2010
+  - papers/vogels:fmoods:2011
+- name: Amir Pnueli
+  papers:
+  - papers/pnueli:tacas:1998
+- name: Federico Poli
+  papers:
+  - papers/astrauskas:oopsla:2019
+- name: Pongsin Poosankam
+  papers:
+  - papers/martignoni:asplos:2012
+- name: Mathias Preiner
+  papers:
+  - papers/niemetz:jsat:2015
+- name: Nathanael Premillieu
+  papers:
+  - papers/stephens:micro:2017
+- name: Virgile Prevosto
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Armand Puccetti
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Christopher Pulte
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/flur:popl:2016
+  - papers/gray:micro:2015
+- name: Shaz Qadeer
+  papers:
+  - papers/chatterjee:tacas:2007
+  - papers/condit:popl:2009
+  - papers/lal:cav:2012
+  - papers/lal:fse:2014
+- name: Ning Qu
+  papers:
+  - papers/franklin:cmu:2008
+  - papers/seshadri:sosp:2007
+- name: Shree P. Rahul
+  papers:
+  - papers/necula:cc:2002
+- name: Sriram K. Rajamani
+  papers:
+  - papers/ball:pldi:2001
+- name: "Zvonimir Rakamari\u0107"
+  papers:
+  - papers/balasubramanium:hotos:2017
+  - papers/baranowski:atva:2018
+  - papers/chatterjee:tacas:2007
+  - papers/narayanan:hotos:2019
+  - papers/rakamaric:cav:2014
+- name: Jakob von Raumer
+  papers:
+  - papers/demoura:cade:2015
+- name: Binoy Ravindran
+  papers:
+  - papers/tahat:fmcad:2019
+  - papers/verbeek:fmmsd:2019
+- name: John Regehr
+  papers:
+  - papers/eide:icse:2002
+  - papers/lopes:pldi:2015
+  - papers/regehr:acp4is:2003
+  - papers/regehr:asplos:2004
+  - papers/regehr:emsoft:2003
+  - papers/regehr:lctes:2006
+  - papers/regehr:rtss:2003
+  - papers/regehr:tecs:2005
+- name: Alastair D. Reid
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/boettcher:date:2014
+  - papers/chakravarty:haskffi:2003
+  - papers/eide:aspse:2001
+  - papers/eide:icse:2002
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+  - papers/jones:hw:1997
+  - papers/jones:pldi:1999
+  - papers/lin:sdr:2006
+  - papers/lin:sips:2006
+  - papers/ozer:sbacpad:2007
+  - papers/peterson:hw:1995
+  - papers/peterson:padl:2001
+  - papers/regehr:acp4is:2003
+  - papers/regehr:asplos:2004
+  - papers/regehr:emsoft:2003
+  - papers/regehr:rtss:2003
+  - papers/regehr:tecs:2005
+  - papers/reid:cases:2008
+  - papers/reid:cav:2016
+  - papers/reid:fmcad:2016
+  - papers/reid:gfpw:1989
+  - papers/reid:gfpw:1993
+  - papers/reid:gfpw:1994
+  - papers/reid:hw:1995
+  - papers/reid:icse:1999
+  - papers/reid:ifl:1998
+  - papers/reid:msc:1993
+  - papers/reid:oopsla:2017
+  - papers/reid:osdi:2000
+  - papers/reid:phd:2019
+  - papers/reid:yale:1998
+  - papers/reid:yale:2001
+  - papers/stephens:micro:2017
+  - papers/woh:micro:2008
+- name: Alexander Reinhard
+  papers:
+  - papers/mantel:pls:2007
+- name: John C. Reynolds
+  papers:
+  - papers/reynolds:lics:2002
+- name: Andrew Reynolds
+  papers:
+  - papers/stump:fmsd:2013
+- name: Tamara  Rezk
+  papers:
+  - papers/barthe:csfw:2004
+- name: Alejandro Rico
+  papers:
+  - papers/stephens:micro:2017
+- name: Tom Ridge
+  papers:
+  - papers/sarkar:popl:2009
+- name: Christine Rizkallah
+  papers:
+  - papers/amani:asplos:2016
+- name: Michael Roe
+  papers:
+  - papers/nienhuis:secpriv:2020
+  - papers/woodruff:isca:2014
+- name: Ian Roessle
+  papers:
+  - papers/verbeek:fmmsd:2019
+- name: Muriel Roger
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Michael S. Rogers
+  papers:
+  - papers/siegel:sc:2015
+- name: Colin Runciman
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Leonid Ryzhyk
+  papers:
+  - papers/balasubramanium:hotos:2017
+  - papers/narayanan:hotos:2019
+- name: "Philipp R\xFCmmer"
+  papers:
+  - papers/leino:tacas:2010
+- name: Andrei Sabelfeld
+  papers:
+  - papers/myers:csfw:2004
+  - papers/sabelfield:jcs:2009
+- name: Jorge Luis Sacchini
+  papers:
+  - papers/becker:fm:2016
+- name: Hanan Samet
+  papers:
+  - papers/samet:phd:1975
+- name: Richard Samuels
+  papers:
+  - papers/morrisett:wcsss:1999
+- name: David Sands
+  papers:
+  - papers/sabelfield:jcs:2009
+- name: Thomas Santen
+  papers:
+  - papers/leinenbach:fm:2009
+- name: Sercan Sari
+  papers:
+  - papers/deng:hasp:2019
+- name: Susmit Sarkar
+  papers:
+  - papers/flur:popl:2016
+  - papers/gray:micro:2015
+  - papers/sarkar:pldi:2011
+  - papers/sarkar:popl:2009
+- name: Eric Schkufza
+  papers:
+  - papers/heule:pldi:2016
+  - papers/sharma:oopsla:2012
+- name: Fred B. Schneider
+  papers:
+  - papers/clarkson:jcs:2010
+- name: Wolfram Schulte
+  papers:
+  - papers/barnett:cacm:2011
+  - papers/barnett:cassis:2004
+  - papers/barnett:vstte:2005
+  - papers/cohen:cav:2010
+  - papers/cohen:entcs:2009
+- name: Edward J. Schwartz
+  papers:
+  - papers/manes:ieeetse:2019
+- name: Oliver Schwarz
+  papers:
+  - papers/khakpour:cpp:2013
+- name: Malte Schwerhoff
+  papers:
+  - papers/muller:vmcai:2016
+  - papers/schwerhoff:ecoop:2015
+- name: Sean Seefried
+  papers:
+  - papers/murray:secpriv:2013
+- name: Sangwon Seo
+  papers:
+  - papers/woh:micro:2008
+- name: Arvind Seshadri
+  papers:
+  - papers/franklin:cmu:2008
+  - papers/seshadri:sosp:2007
+- name: Thomas Sewell
+  papers:
+  - papers/amani:asplos:2016
+- name: Peter Sewell
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/flur:popl:2016
+  - papers/gray:micro:2015
+  - papers/nienhuis:secpriv:2020
+  - papers/sarkar:pldi:2011
+  - papers/sarkar:popl:2009
+- name: Thomas Arthur Leck Sewell
+  papers:
+  - papers/klein:sosp:2009
+  - papers/sewell:pldi:2013
+- name: Ali Sezgin
+  papers:
+  - papers/flur:popl:2016
+- name: Zhong Shao
+  papers:
+  - papers/costanzo:pldi:2016
+  - papers/gu:osdi:2016
+- name: Rahul Sharma
+  papers:
+  - papers/heule:pldi:2016
+  - papers/sharma:oopsla:2012
+  - papers/sharma:pls:2013
+- name: Erin Shepherd
+  papers:
+  - papers/reid:cav:2016
+- name: Benjamin Sherman
+  papers:
+  - papers/choi:icfp:2017
+- name: Timothy Sherwood
+  papers:
+  - papers/oberg:dac:2010
+  - papers/tiwari:asplos:2009
+  - papers/tiwari:isca:2009
+  - papers/tiwari:isca:2011
+- name: Xiaomu Shi
+  papers:
+  - papers/shi:phd:2013
+- name: Avraham Shinnar
+  papers:
+  - papers/nanevski:icfp:2008
+- name: Michael Siegel
+  papers:
+  - papers/pnueli:tacas:1998
+- name: Stephen F. Siegel
+  papers:
+  - papers/siegel:sc:2015
+- name: Joseph Sifakis
+  papers:
+  - papers/clarke:cacm:2009
+- name: Julien Signoles
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Helgi Sigurbjarnarson
+  papers:
+  - papers/nelson:sosp:2017
+  - papers/sigurbjarnarson:osdi:2016
+  - papers/sigurbjarnarson:osdi:2018
+- name: Eli Singerman
+  papers:
+  - papers/pnueli:tacas:1998
+- name: Satnam Singh
+  papers:
+  - papers/reid:gfpw:1993
+- name: Carsten Sinz
+  papers:
+  - papers/merz:vstte:2012
+- name: "Vilhelm Sj\xF6berg"
+  papers:
+  - papers/gu:osdi:2016
+- name: Lau Skorstengaard
+  papers:
+  - papers/skorstengaard:esop:2018
+  - papers/skorstengaard:popl:2019
+- name: Stephen Smalley
+  papers:
+  - papers/spencer:security:1999
+- name: Jan Smans
+  papers:
+  - papers/jacobs:nfm:2011
+  - papers/jacobs:vstte:2010
+  - papers/leino:fosad:2007
+  - papers/penninckx:nfm:2012
+  - papers/philippaerts:scp:2014
+  - papers/smans:ecoop:2009
+  - papers/smans:fmood:2010
+  - papers/vogels:fmoods:2011
+- name: Eric W. Smith
+  papers:
+  - papers/hardin:acl2:2006
+- name: Frederick Smith
+  papers:
+  - papers/morrisett:wcsss:1999
+  - papers/smith:esop:2000
+- name: Geoffrey Smith
+  papers:
+  - papers/smith:fossacs:2009
+- name: Dawn Song
+  papers:
+  - papers/martignoni:asplos:2012
+- name: Fu Song
+  papers:
+  - papers/wang:tase:2018
+- name: Antal Spector-Zabusky
+  papers:
+  - papers/hritcu:icfp:2013
+- name: Ray Spencer
+  papers:
+  - papers/spencer:security:1999
+- name: Fausto Spoto
+  papers:
+  - papers/ernst:icse:2016
+- name: Mark Staples
+  papers:
+  - papers/andronick:icse:2012
+- name: Ian Stark
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+  - papers/nienhuis:secpriv:2020
+- name: Shane G. Stephens
+  papers:
+  - papers/hohmuth:sigops:2002
+- name: Nigel Stephens
+  papers:
+  - papers/stephens:micro:2017
+- name: Leigh Stoller
+  papers:
+  - papers/reid:osdi:2000
+- name: Aaron Stump
+  papers:
+  - papers/barrett:cade:2000
+  - papers/stump:fmsd:2013
+- name: G. Edward Suh
+  papers:
+  - papers/ferraiuolo:asplos:2017
+  - papers/ferraiuolo:ccs:2018
+  - papers/ferraiuolo:dac:2017
+  - papers/liu:cpsspc:2018
+  - papers/zhang:asplos:2015
+- name: Alexander J. Summers
+  papers:
+  - papers/astrauskas:oopsla:2019
+  - papers/heule:ftfjp:2011
+  - papers/heule:vmcai:2013
+  - papers/muller:vmcai:2016
+  - papers/schwerhoff:ecoop:2015
+- name: Edward H. Sussenguth
+  papers:
+  - papers/falkoff:ibm:1964
+- name: "Gr\xE9goire Sutre"
+  papers:
+  - papers/henzinger:spin:2003
+- name: Jakub Szefer
+  papers:
+  - papers/deng:hasp:2019
+- name: "L\xE1szl\xF3 Szekeres"
+  papers:
+  - papers/babic:fse:2019
+- name: Amer Tahat
+  papers:
+  - papers/tahat:fmcad:2019
+- name: Ankur Taly
+  papers:
+  - papers/godefroid:pldi:2012
+- name: Yong Kiam Tan
+  papers:
+  - papers/loow:pldi:2019
+- name: Gang Tan
+  papers:
+  - papers/morrisett:pldi:2012
+- name: Serdar Tasiran
+  papers:
+  - papers/cook:cav:2018
+- name: Joseph Tassarotti
+  papers:
+  - papers/morrisett:pldi:2012
+- name: Zachary Tatlock
+  papers:
+  - papers/weitz:icfp:2017
+- name: Michael Tautschnig
+  papers:
+  - papers/cook:cav:2018
+- name: Hendrik Tews
+  papers:
+  - papers/becker:fm:2016
+  - papers/hohmuth:plos:2005
+  - papers/hohmuth:sigops:2002
+- name: Javier Thaine
+  papers:
+  - papers/ernst:icse:2016
+- name: Chandramohan A. Thekkath
+  papers:
+  - papers/lie:secpri:2003
+  - papers/lie:sosp:2003
+- name: Cesare Tinelli
+  papers:
+  - papers/barrett:smtlib:2016
+  - papers/stump:fmsd:2013
+- name: Mohit Tiwari
+  papers:
+  - papers/oberg:dac:2010
+  - papers/tiwari:asplos:2009
+  - papers/tiwari:isca:2009
+  - papers/tiwari:isca:2011
+- name: Stephan Tobies
+  papers:
+  - papers/cohen:cav:2010
+  - papers/cohen:entcs:2009
+- name: John Toman
+  papers:
+  - papers/toman:ase:2015
+- name: Emina Torlak
+  papers:
+  - papers/bornholt:oopsla:2018
+  - papers/nelson:sosp:2017
+  - papers/nelson:sosp:2019
+  - papers/sigurbjarnarson:osdi:2016
+  - papers/sigurbjarnarson:osdi:2018
+  - papers/toman:ase:2015
+  - papers/torlak:onward:2013
+  - papers/torlak:pldi:2014
+  - papers/weitz:icfp:2017
+- name: Jean-Baptiste Tristan
+  papers:
+  - papers/morrisett:pldi:2012
+- name: Takeshi Tsukada
+  papers:
+  - papers/matsushita:esop:2020
+- name: Harvey Tuch
+  papers:
+  - papers/klein:sosp:2009
+- name: Thomas Tuerk
+  papers:
+  - papers/becker:fm:2016
+  - papers/tuerk:vstte:2010
+- name: Joseph Tuong
+  papers:
+  - papers/amani:asplos:2016
+- name: Mark R. Tuttle
+  papers:
+  - papers/cook:cav:2018
+- name: Sebastian Ullrich
+  papers:
+  - papers/ullrich:msc:2016
+- name: Jonathan Valamehr
+  papers:
+  - papers/tiwari:isca:2011
+- name: Steve VanDeBogart
+  papers:
+  - papers/efstathopoulos:sosp:2005
+- name: Amit Vasudevan
+  papers:
+  - papers/vasudevan:secpriv:2013
+  - papers/vasudevan:usenix:2016
+- name: Helmut Veith
+  papers:
+  - papers/clarke:cav:2000
+- name: Herman Venter
+  papers:
+  - papers/barnett:cacm:2011
+  - papers/barnett:vstte:2005
+- name: Freek Verbeek
+  papers:
+  - papers/verbeek:fmmsd:2019
+- name: Muralidaran Vijayaraghavan
+  papers:
+  - papers/choi:icfp:2017
+- name: Jules Villard
+  papers:
+  - papers/hobor:popl:2013
+- name: "Fr\xE9d\xE9ric Vogels"
+  papers:
+  - papers/jacobs:nfm:2011
+  - papers/vogels:fmoods:2011
+- name: Peter Vrabel
+  papers:
+  - papers/reid:cav:2016
+- name: Dimitrios Vytiniotis
+  papers:
+  - papers/hritcu:icfp:2013
+- name: Philip Wadler
+  papers:
+  - papers/jones:hasklang:1999
+  - papers/jones:hasklib:1999
+- name: Jonas Wagner
+  papers:
+  - papers/wagner:hotos:2013
+- name: David Walker
+  papers:
+  - papers/morrisett:wcsss:1999
+  - papers/smith:esop:2000
+  - papers/walker:popl:2000
+  - papers/walker:tic:2001
+- name: Paul Walker
+  papers:
+  - papers/stephens:micro:2017
+- name: Malcolm Wallace
+  papers:
+  - papers/chakravarty:haskffi:2003
+- name: Wei Wang
+  papers:
+  - papers/babic:fse:2019
+- name: Xi Wang
+  papers:
+  - papers/fonseca:ecs:2017
+  - papers/nelson:sosp:2017
+  - papers/nelson:sosp:2019
+  - papers/sigurbjarnarson:osdi:2016
+  - papers/sigurbjarnarson:osdi:2018
+- name: Feng Wang
+  papers:
+  - papers/wang:tase:2018
+- name: Yao Wang
+  papers:
+  - papers/zhang:asplos:2015
+- name: Hassan M. G. Wassel
+  papers:
+  - papers/tiwari:asplos:2009
+  - papers/tiwari:isca:2009
+- name: Mark Wassell
+  papers:
+  - papers/armstrong:arw:2018
+  - papers/armstrong:popl19:2019
+  - papers/armstrong:spisa:2019
+- name: Robert N. M. Watson
+  papers:
+  - papers/nienhuis:secpriv:2020
+  - papers/woodruff:isca:2014
+- name: Kirk Webb
+  papers:
+  - papers/regehr:emsoft:2003
+  - papers/regehr:rtss:2003
+  - papers/regehr:tecs:2005
+- name: Michael Weber
+  papers:
+  - papers/chakravarty:haskffi:2003
+- name: Westley Weimer
+  papers:
+  - papers/necula:cc:2002
+- name: Stephanie Weirich
+  papers:
+  - papers/morrisett:wcsss:1999
+- name: Aaron Weiss
+  papers:
+  - papers/weiss:arxiv:2018
+- name: Konstantin Weitz
+  papers:
+  - papers/weitz:icfp:2017
+- name: Markus Wenzel
+  papers:
+  - papers/nipkow:book:2002
+- name: Mladen Wilder
+  papers:
+  - papers/woh:micro:2008
+- name: Nicky Williams
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Derek Williams
+  papers:
+  - papers/sarkar:pldi:2011
+- name: Simon Winwood
+  papers:
+  - papers/klein:sosp:2009
+- name: Mark Woh
+  papers:
+  - papers/lin:sdr:2006
+  - papers/woh:micro:2008
+- name: Maverick Woo
+  papers:
+  - papers/manes:ieeetse:2019
+- name: Jonathan Woodruff
+  papers:
+  - papers/woodruff:isca:2014
+- name: Xiongnan Newman Wu
+  papers:
+  - papers/gu:osdi:2016
+- name: "Valentin W\xFCstholz"
+  papers:
+  - papers/mansur:arxiv:2020
+- name: Hongwei Xi
+  papers:
+  - papers/xi:icfp:2001
+- name: Wenjie Xiong
+  papers:
+  - papers/deng:hasp:2019
+- name: Rui Xu
+  papers:
+  - papers/ferraiuolo:asplos:2017
+- name: Hui Xue
+  papers:
+  - papers/mai:asplos:2013
+- name: Boris Yakobowski
+  papers:
+  - papers/cuoq:sefm:2012
+- name: Hongseok Yang
+  papers:
+  - papers/calcagno:popl:2009
+  - papers/dinsdale-young:popl:2013
+  - papers/distefano:tacas:2006
+- name: Jean Yang
+  papers:
+  - papers/yang:pldi:2010
+- name: Alexander Yip
+  papers:
+  - papers/krohn:sosp:2007
+- name: William D. Young
+  papers:
+  - papers/hardin:acl2:2006
+- name: Ali Zaidi
+  papers:
+  - papers/reid:cav:2016
+- name: Steve Zdancewic
+  papers:
+  - papers/morrisett:wcsss:1999
+  - papers/myers:csfw:2004
+  - papers/zdancewic:csfw:2001
+  - papers/zdancewic:csfw:2003
+- name: Sherali Zeadally
+  papers:
+  - papers/pearce:compsurv:2013
+- name: Nickolai Zeldovich
+  papers:
+  - papers/zeldovich:osdi:2006
+- name: He Zhang
+  papers:
+  - papers/andronick:icse:2012
+- name: Danfeng Zhang
+  papers:
+  - papers/ferraiuolo:asplos:2017
+  - papers/hawblitzel:osdi:2014
+  - papers/zhang:asplos:2015
+- name: Kaiyuan Zhang
+  papers:
+  - papers/fonseca:ecs:2017
+  - papers/nelson:sosp:2017
+- name: Fuyuan Zhang
+  papers:
+  - papers/mansur:arxiv:2020
+- name: Min Zhang
+  papers:
+  - papers/wang:tase:2018
+- name: Jun Zhang
+  papers:
+  - papers/wang:tase:2018
+- name: Mark Zhao
+  papers:
+  - papers/ferraiuolo:ccs:2018
+- name: Manchun Zheng
+  papers:
+  - papers/siegel:sc:2015
+- name: Liming Zhu
+  papers:
+  - papers/andronick:icse:2012
+- name: Yunshan Zhu
+  papers:
+  - papers/biere:tacas:1999
+- name: Xiaoran Zhu
+  papers:
+  - papers/wang:tase:2018
+- name: David Ziegler
+  papers:
+  - papers/efstathopoulos:sosp:2005
+- name: Brian Zill
+  papers:
+  - papers/hawblitzel:osdi:2014
+- name: Timothy K. Zirkel
+  papers:
+  - papers/siegel:sc:2015
+- name: "Emre \xD6zer"
+  papers:
+  - papers/ozer:sbacpad:2007
