@@ -3,4 +3,7 @@
 .*.swo
 .sass-cache
 .jekyll-metadata
+RelatedWork.*
+Gemfile.lock
+Gemfile
 _site
