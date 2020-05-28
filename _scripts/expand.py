@@ -158,19 +158,19 @@ def get_authors(ps):
                 authors.setdefault(a, []).append(p)
     return authors
 
-def do_files(fs):
+def read_files(fs):
     ps = { f[1:-3]: read_md(f) for f in fs }
     for p, (h, b) in ps.items(): patch_links(h)
     ps = { p: (h, patch_body(b)) for p, (h, b) in ps.items() }
     add_backrefs(ps)
-    authors = get_authors(ps)
+    return ps
 
+def pp_md(ps, authors):
     header = {
             "title": "Related Work",
             "author": "Alastair D. Reid",
             "toc": True
             }
-
     print("---")
     print(yaml.dump(header))
     print("---")
@@ -180,12 +180,17 @@ def do_files(fs):
         print_file(p, h, b)
 
     print("# Author Index\n")
-    for a in sorted(authors.keys()):
+    for a in sorted(authors.keys(), key=lambda x: x.split(" ")[-1]):
         ps = authors[a]
         ps = [ f"[{p}](#{ref2url(p)})" for p in ps ]
         print(f"- {a}: {', '.join(ps)}")
 
 def main():
-    do_files(sys.argv[1:])
+    ps = read_files(sys.argv[1:])
+    authors = get_authors(ps)
+    pp_md(ps, authors)
+    with open("_data/authors.yaml", "w") as f:
+        authors = [ {"name": a, "papers":authors[a]} for a in sorted(authors.keys(), key=lambda x: x.split(" ")[-1]) ]
+        yaml.dump(authors, f)
 
 main()
