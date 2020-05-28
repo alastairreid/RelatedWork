@@ -52,7 +52,7 @@ def add_links(links):
 def add_backrefs(ps):
     ns = {}
     for p, (h, _) in ps.items():
-        h["refs"] = []
+        h["refs"] = {}
         for c in ["examples", "isa", "notes", "papers"]:
             for x, url in h[c].items():
                 ns.setdefault(url, {})[x] = name2ref(p)
@@ -189,8 +189,17 @@ def main():
     ps = read_files(sys.argv[1:])
     authors = get_authors(ps)
     pp_md(ps, authors)
+
+    # generate data file: list of authors and papers
     with open("_data/authors.yaml", "w") as f:
         authors = [ {"name": a, "papers":authors[a]} for a in sorted(authors.keys(), key=lambda x: x.split(" ")[-1]) ]
         yaml.dump(authors, f)
+
+    # generate references to each page
+    with open("_data/backrefs.yaml", "w") as f:
+        refs = {}
+        for c in ["papers", "notes"]:
+            refs[c] = { p: list([ r for r in h["refs"].values() if r.startswith(c) ]) for p, (h, _) in ps.items() }
+        yaml.dump(refs, f)
 
 main()
