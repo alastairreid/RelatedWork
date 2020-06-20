@@ -54,15 +54,15 @@ def add_backrefs(ps):
     for p, (h, _) in ps.items():
         h["refs"] = {}
         for c in ["examples", "isa", "notes", "papers"]:
-            for x, url in h[c].items():
-                ns.setdefault(url, {})[x] = name2ref(p)
-    for url, xs in ns.items():
-        if url in ps:
-            ps[url][0]["refs"] = xs
+            for x, ref in h[c].items():
+                ns.setdefault(ref, {})[x] = name2ref(p)
+    for ref, xs in ns.items():
+        if ref in ps:
+            ps[ref][0]["refs"] = xs
         else:
             # print(f"Reference to missing page {xs}")
             header = {
-                    "title": url,
+                    "title": ref,
                     "layout": "note",
                     "isa": {},
                     "examples": {},
@@ -200,6 +200,6 @@ def main():
         refs = {}
         for c in ["papers", "notes"]:
             refs[c] = { p: list([ r for r in h["refs"].values() if r.startswith(c) ]) for p, (h, _) in ps.items() }
-        yaml.dump(refs, f)
+        yaml.dump(krefs, f)
 
 main()
