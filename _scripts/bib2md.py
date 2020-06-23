@@ -247,6 +247,21 @@ def main():
     x = sys.stdin.read()
     x = x.replace('$\{$', '{')
     x = x.replace('$\}$', '}')
+    # todo: this is a bodge to cleanup ACM use of abbreviated month names
+    x = x.replace("month = jan", 'month = "January"')
+    x = x.replace("month = feb", 'month = "February"')
+    x = x.replace("month = mar", 'month = "March"')
+    x = x.replace("month = apr", 'month = "April"')
+    x = x.replace("month = may", 'month = "May"')
+    x = x.replace("month = jun", 'month = "June"')
+    x = x.replace("month = jul", 'month = "July"')
+    x = x.replace("month = aug", 'month = "August"')
+    x = x.replace("month = sep", 'month = "September"')
+    x = x.replace("month = oct", 'month = "October"')
+    x = x.replace("month = nov", 'month = "November"')
+    x = x.replace("month = dec", 'month = "December"')
+    # todo: cleanup ACM's pointless habit of abbreviating journal names
+    x = x.replace("Commun. ACM", 'Communications of the ACM')
     db = bibtexparser.loads(x, parser=parser)
 
     for e in db.entries:
