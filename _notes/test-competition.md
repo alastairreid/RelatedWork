@@ -6,6 +6,8 @@ notes:
 - FQL
 - KLEE verifier
 - SV competition
+papers:
+- beyer:ase:2019
 ---
 
 TestComp is an annual competition between automated software
@@ -17,8 +19,7 @@ A subset of FQL is used to specify problems of two forms:
 
 - Bug finding: generate tests that call the function "_VERIFIER_error".
 - Coverage: generate tests that cover all branches of the program.
-  - uses the
-    [testcov](https://gitlab.com/sosy-lab/software/test-suite-validator)
+  - uses the TestCov tool ([beyer:ase:2019])
     tool to evaluate test coverage
 
 The test programs are taken from [SV competition] and are
