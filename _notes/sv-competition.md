@@ -7,6 +7,7 @@ notes:
 - AoRTE
 - CPAchecker verifier
 - BLAST verifier
+- FQL
 - SeaHorn verifier
 - SMACK verifier
 ---
