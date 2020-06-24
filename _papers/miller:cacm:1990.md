@@ -24,7 +24,7 @@ url: https://doi.org/10.1145/96267.96279
 volume: '33'
 year: 1990
 notes:
-- Fuzzing
+- fuzz testing
 papers:
 ---
 {% include links.html %}

@@ -26,7 +26,7 @@ title: 'Software verification: Testing vs. model checking'
 year: 2017
 notes:
 - FQL
-- Fuzzing
+- Fuzz testing
 - Test Competition
 - SV Competition
 - KLEE Verifier

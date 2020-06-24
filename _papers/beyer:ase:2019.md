@@ -18,7 +18,7 @@ year: 2019
 notes:
 - Test competition
 - KLEE verifier
-- Fuzzing
+- Fuzz testing
 - FQL
 papers:
 - beyer:hvc:2018
