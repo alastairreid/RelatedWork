@@ -12,7 +12,7 @@ pages: 11
 read: true
 readings:
 - 2020-05-22
-title: 'Boosting Fuzzer Efficiency: An Information Theoretic Perspective'
+title: 'Boosting fuzzer efficiency: An information theoretic perspective'
 volume: ''
 year: 2020
 notes:

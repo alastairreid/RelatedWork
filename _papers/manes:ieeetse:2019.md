@@ -16,7 +16,7 @@ number: ''
 pages: 1-1
 read: false
 readings: []
-title: 'The Art, Science, and Engineering of Fuzzing: A Survey'
+title: 'The art, science, and engineering of fuzzing: A survey'
 volume: ''
 year: 2019
 notes:

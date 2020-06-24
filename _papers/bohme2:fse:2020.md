@@ -11,7 +11,7 @@ pages: 11
 read: true
 readings:
 - 2020-06-24
-title: 'Fuzzing: On the Exponential Cost of Vulnerability Discovery'
+title: 'Fuzzing: On the exponential cost of vulnerability discovery'
 volume: ''
 year: 2020
 notes:
