@@ -23,6 +23,23 @@ there can be an exponential number of paths.
 
 See also [bounded model checking] and [symbolic evaluation].
 
-<https://en.wikipedia.org/wiki/Concolic_testing>
+Types of symbolic execution include
+
+- "Concolic execution" mixes concrete and symbolic execution benefiting
+  from the efficiency and decidability of concrete execution and
+  the need to use concrete values when interacting with the program
+  environment (libraries, OS, etc.)
+  and from the stronger guarantees of symbolic execution.
+  (See <https://en.wikipedia.org/wiki/Concolic_testing>)
+
+  - Dynamic Symbolic Execution (DSE) relies on concrete execution
+    to drive symbolic execution using an instrumented interpreter/
+    simulator/... to build symbolic representations while executing
+    with concrete values.
+
+  - Selective Symbolic Execution (SSE)
+    interleaves concrete and symbolic execution with a focus on
+    performing symbolic execution as much of the code you
+    care about as possible.
 
 {% include links.html %}
