@@ -4,6 +4,7 @@ title: Symbolic execution
 wiki: https://en.wikipedia.org/wiki/Symbolic_execution
 notes:
 - bounded model checking
+- fuzz testing
 - separation logic
 - symbolic evaluation
 - symbolic execution
