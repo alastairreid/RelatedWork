@@ -9,6 +9,7 @@ notes:
 papers:
 - godefroid:cacm:2020
 - manes:ieeetse:2019
+- miller:cacm:1990
 ---
 
 Testing a piece of code with a broad range of
@@ -17,9 +18,10 @@ vulnerabilities.
 Unlike traditional testing, it uses less human understanding
 of the program and is often performed by non-developers of the code.
 
+See the surveys for more detail: [godefroid:cacm:2020], [manes:ieeetse:2019].
+
 Programs are often instrumented to detect more errors (e.g.,
 address/memory/UB/thread sanitizers, control-flow integrity, etc.).
-
 
 Three types of fuzzer based on how much knowledge of
 the program under test they exploit.
