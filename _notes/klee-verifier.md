@@ -7,6 +7,8 @@ notes:
 - LLVM compiler
 - symbolic execution
 papers:
+- cadar:cacm:2013
+- cadar:osdi:2008
 - lindner:indin:2018
 - lindner:indin:2019
 ---
