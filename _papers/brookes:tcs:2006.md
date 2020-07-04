@@ -11,7 +11,7 @@ abstract: We present a trace semantics for a language of parallel programs which
 added: 2020-02-05
 authors:
 - Stephen Brookes
-doi: https://doi.org/10.1016/j.tcs.2006.12.034
+doi: 10.1016/j.tcs.2006.12.034
 issn: 0304-3975
 journal: Theoretical Computer Science
 keywords: Concurrency, Pointers, Race condition, Semantics, Logic

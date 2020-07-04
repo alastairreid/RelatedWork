@@ -8,7 +8,7 @@ authors:
 - Jan Smans
 - Bart Jacobs
 - Frank Piessens
-doi: https://doi.org/10.1016/j.scico.2013.01.006
+doi: 10.1016/j.scico.2013.01.006
 issn: 0167-6423
 journal: 'Science of Computer Programming '
 layout: paper
