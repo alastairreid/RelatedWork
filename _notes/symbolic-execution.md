@@ -17,6 +17,7 @@ papers:
 - nelson:sosp:2019
 - bornholt:oopsla:2018
 - baldoni:compsurv:2018
+- avgerinos:icse:2014
 ---
 
 Following the terminology in section 3.1 of
@@ -59,12 +60,26 @@ Types of symbolic execution include
 
     Used in the [KLEE verifier].
 
+- Static Symbolic Execution (SSE) avoids path explosion by generating
+  a symbolic formula representing all paths through a piece of code.
+  It does this by merging formulae at join points in a pre-execution pass.
+
+  This approach has significant overlap with [bounded model checking]
+  and the term is mostly used in the context of hybrid approaches
+  such as [avgerinos:icse:2014].
+
 - Selective Symbolic Execution (SSE)
   interleaves concrete and symbolic execution with a focus on
   performing symbolic execution as much of the code you
   care about as possible.
 
   (I think this may be a special case of DSE?)
+
+todo: it is probably less useful to have a tree-shaped taxonomy of this topic
+than to have a list of design choices that define an N-dimensional taxonomy
+where most dimensions include "yes", "no" and "hybrid" on their axis.  This
+would better capture how thoroughly the symbolic execution design space has
+been explored.
 
 {% include paperlist.html %}
 {% include links.html %}
