@@ -1,5 +1,19 @@
 ---
+ENTRYTYPE: inproceedings
+authors:
+- Nathan Chong
+- Byron Cook
+- Konstantinos Kallas
+- Kareem Khazem
+- Felipe R. Monteiro
+- Daniel Schwartz-Narbonne
+- Serdar Tasiran
+- Michael Tautschnig
+- Mark R. Tuttle
+booktitle: Proceedings of the 2020 International Conference on Software Engineering (ICSE)
+doi: 10.1145/3377813.3381347
 title: Code-Level model checking in the software development workflow
+month: June
 year: 2020
 notes:
 - model checking
