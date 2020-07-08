@@ -23,6 +23,8 @@ url: https://doi.org/10.1145/1536616.1536637
 volume: '52'
 year: 2009
 notes:
+- SAT solver
+- survey
 papers:
 ---
 {% include links.html %}

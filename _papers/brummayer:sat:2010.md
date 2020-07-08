@@ -23,6 +23,7 @@ title: Automated testing and debugging of SAT and QBF solvers
 year: 2010
 notes:
 - SMT solver
+- SAT solver
 papers:
 - mansur:arxiv:2020
 - stump:fmsd:2013

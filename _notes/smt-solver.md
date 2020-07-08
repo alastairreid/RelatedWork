@@ -12,6 +12,7 @@ papers:
 notes:
 - Z3 solver
 - SMT-LIB format
+- SAT solver
 ---
 
 todo:
