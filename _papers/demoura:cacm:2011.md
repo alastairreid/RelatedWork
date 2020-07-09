@@ -3,7 +3,7 @@ ENTRYTYPE: article
 added: 2020-07-09
 address: New York, NY, USA
 authors:
-- Leonardo De Moura
+- Leonardo de Moura
 - Nikolaj Bjørner
 doi: 10.1145/1995376.1995394
 issn: 0001-0782

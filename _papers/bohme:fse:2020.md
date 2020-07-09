@@ -4,7 +4,7 @@ added: 2020-05-22
 authors:
 - Marcel Böhme
 - Valentin Manes
-- Sang-Kil Cha
+- Sang Kil Cha
 booktitle: Proceedings of the 2020 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering
 layout: paper
 number: ''

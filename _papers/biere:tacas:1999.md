@@ -11,7 +11,7 @@ address: Berlin, Heidelberg
 authors:
 - Armin Biere
 - Alessandro Cimatti
-- Edmund Clarke
+- Edmund M. Clarke
 - Yunshan Zhu
 booktitle: 'Tools and Algorithms for the Construction and Analysis of Systems: 5th International Conference, TACAS''99 Held as Part of the Joint European
   Conferences on Theory and Practice of Software, ETAPS''99 Amsterdam, The Netherlands, March 22-28, 1999 Proceedings'

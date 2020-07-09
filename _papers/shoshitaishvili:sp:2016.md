@@ -2,17 +2,17 @@
 ENTRYTYPE: inproceedings
 added: 2020-06-28
 authors:
-- Y. Shoshitaishvili
-- R. Wang
-- C. Salls
-- N. Stephens
-- M. Polino
-- A. Dutcher
-- J. Grosen
-- S. Feng
-- C. Hauser
-- C. Kruegel
-- G. Vigna
+- Yan Shoshitaishvili
+- Ruoyu Wang
+- Christopher Salls
+- Nick Stephens
+- Mario Polino
+- Andrew Dutcher
+- John Grosen
+- Siji Feng
+- Christophe Hauser
+- Christopher Kruegel
+- Giovanni Vigna
 booktitle: 2016 IEEE Symposium on Security and Privacy (SP)
 doi: 10.1109/SP.2016.17
 layout: paper

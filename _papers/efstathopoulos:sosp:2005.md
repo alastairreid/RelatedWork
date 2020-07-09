@@ -10,7 +10,7 @@ authors:
 - David Ziegler
 - Eddie Kohler
 - David Mazières
-- Frans Kaashoek
+- M. Frans Kaashoek
 - Robert Morris
 booktitle: Proceedings of the Twentieth ACM Symposium on Operating Systems Principles
 doi: 10.1145/1095810.1095813

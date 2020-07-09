@@ -7,9 +7,8 @@ abstract: 'Dynamic symbolic execution (DSE) is a well-known technique for automa
   v1.0) and has been designed to make it easy to experiment with and extend.'
 added: 2020-06-28
 authors:
-- Thomas BALL
-- Jakub DANIEL
 - Thomas Ball
+- Jakub Daniel
 booktitle: The 2014 Marktober Summer School on Deop
 edition: Proceedings of the 2014 Marktoberdorf Summer School on Dependable Software Systems Engineering, The 2014 Marktober Summer School on Deop
 journal: Proceedings of the 2014 Marktoberdorf Summer School on Dependable Software Systems Engineering

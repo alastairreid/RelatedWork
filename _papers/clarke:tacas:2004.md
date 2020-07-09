@@ -8,7 +8,7 @@ abstract: 'We present a tool for the formal verification of ANSI-C programs usin
 added: 2020-05-01
 address: Berlin, Heidelberg
 authors:
-- Edmund Clarke
+- Edmund M. Clarke
 - Daniel Kroening
 - Flavio Lerda
 booktitle: Tools and Algorithms for the Construction and Analysis of Systems

@@ -9,7 +9,7 @@ abstract: We present an automatic iterative abstraction-refinement methodology i
 added: 2020-05-01
 address: Berlin, Heidelberg
 authors:
-- Edmund Clarke
+- Edmund M. Clarke
 - Orna Grumberg
 - Somesh Jha
 - Yuan Lu

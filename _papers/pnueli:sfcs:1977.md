@@ -6,7 +6,7 @@ abstract: A unified approach to program verification is suggested, which applies
   and is particularly suitable for reasoning about concurrent programs.
 added: 2020-07-09
 authors:
-- A. Pnueli
+- Amir Pnueli
 booktitle: 18th Annual Symposium on Foundations of Computer Science (sfcs 1977)
 doi: 10.1109/SFCS.1977.32
 issn: 0272-5428
