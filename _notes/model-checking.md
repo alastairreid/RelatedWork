@@ -2,9 +2,12 @@
 layout: note
 title: Model checking
 wiki: https://en.wikipedia.org/wiki/Model_checking
+notes:
+- temporal logic
 papers:
 - jhala:compsurv:2009
 - clarke:cacm:2009
+- mcmillan:ecs:2003
 ---
 
 todo
@@ -15,9 +18,6 @@ todo
 
 <https://en.wikipedia.org/wiki/Widening_(computer_science)>
 
-Several kinds of temporal logic exist (<https://en.wikipedia.org/wiki/Temporal_logic#Temporal_logics>) including
-
-- <https://en.wikipedia.org/wiki/Linear_temporal_logic>
-- <https://en.wikipedia.org/wiki/Computation_tree_logic>
+[temporal logic]
 
 {% include links.html %}

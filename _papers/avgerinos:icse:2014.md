@@ -19,7 +19,7 @@ pages: 1083-1094
 publisher: Association for Computing Machinery
 read: true
 readings:
-- 08-07-2020
+- 2020-07-08
 series: ICSE 2014
 title: Enhancing symbolic execution with veritesting
 url: https://doi.org/10.1145/2568225.2568293

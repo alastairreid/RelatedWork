@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+added: 2020-07-06
 authors:
 - Nathan Chong
 - Byron Cook
@@ -12,8 +13,11 @@ authors:
 - Mark R. Tuttle
 booktitle: Proceedings of the 2020 International Conference on Software Engineering (ICSE)
 doi: 10.1145/3377813.3381347
-title: Code-Level model checking in the software development workflow
+title: Code-level model checking in the software development workflow
 month: June
+read: true
+readings:
+- 2020-07-06
 year: 2020
 notes:
 - model checking

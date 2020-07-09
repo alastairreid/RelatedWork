@@ -20,7 +20,7 @@ link: http://infoscience.epfl.ch/record/139393
 read: true
 readings:
 - 2020-06-28
-title: Selective Symbolic Execution
+title: Selective symbolic execution
 url: http://infoscience.epfl.ch/record/139393
 year: 2009
 notes:
