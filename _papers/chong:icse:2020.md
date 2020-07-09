@@ -1,4 +1,5 @@
 ---
+layout: paper
 ENTRYTYPE: inproceedings
 added: 2020-07-06
 authors:
