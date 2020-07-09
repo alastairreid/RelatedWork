@@ -73,7 +73,7 @@ def add_backrefs(ps):
             body = [
                     "This is a stub article"
                     ]
-            ps[url] = (header, body)
+            ps[ref] = (header, body)
 
 def pp_refs(label, xs):
     if xs:
@@ -200,6 +200,6 @@ def main():
         refs = {}
         for c in ["papers", "notes"]:
             refs[c] = { p: list([ r for r in h["refs"].values() if r.startswith(c) ]) for p, (h, _) in ps.items() }
-        yaml.dump(krefs, f)
+        yaml.dump(refs, f)
 
 main()
