@@ -20,7 +20,7 @@ number: ''
 pages: 138-157
 read: false
 readings: []
-title: 'SOK: (State of) The Art of War: Offensive Techniques in Binary Analysis'
+title: 'SOK: (State of) The Art of War: Offensive techniques in binary analysis'
 volume: ''
 year: 2016
 notes:

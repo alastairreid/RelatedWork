@@ -18,7 +18,7 @@ publisher: IEEE Computer Society
 read: false
 readings: []
 series: SP '10
-title: All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but Might Have Been Afraid to Ask)
+title: All you ever wanted to know about dynamic taint analysis and forward symbolic execution (but might have been afraid to ask)
 url: https://doi.org/10.1109/SP.2010.26
 year: 2010
 notes:

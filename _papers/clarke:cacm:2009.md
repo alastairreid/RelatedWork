@@ -25,6 +25,7 @@ volume: '52'
 year: 2009
 notes:
 - survey
+- Turing Award
 papers:
 ---
 {% include links.html %}

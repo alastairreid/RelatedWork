@@ -20,7 +20,7 @@ number: MSR-TR-2015-95
 publisher: IOS Press
 read: false
 readings: []
-title: Deconstructing Dynamic Symbolic Execution
+title: Deconstructing dynamic symbolic execution
 url: https://www.microsoft.com/en-us/research/publication/deconstructing-dynamic-symbolic-execution/
 year: 2015
 notes:

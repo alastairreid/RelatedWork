@@ -19,7 +19,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: PLDI '05
-title: 'DART: Directed Automated Random Testing'
+title: 'DART: Directed automated random testing'
 url: https://doi.org/10.1145/1065010.1065036
 year: 2005
 notes:
