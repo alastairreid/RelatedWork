@@ -36,7 +36,16 @@ the program under test they exploit.
 - hybrid fuzzers alternate between white- and grey-box fuzzing
   e.g., Driller
 
+Related concept of random test generation differs in that there
+may be more focus on generating inputs that are restricted in
+some way. For example, we might want to restrict to syntactically legal
+inputs.
+So we get concepts like
 
+- "rejection sampling" – retry generating a value until it satisfies some
+  predicate.
+- grammar-based generation and discovering grammars
+- use of dictionaries
 
 {% include paperlist.html %}
 {% include links.html %}

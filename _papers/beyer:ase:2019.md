@@ -21,7 +21,7 @@ notes:
 - Fuzz testing
 - FQL
 papers:
-- beyer:hvc:2018
+- beyer:hvc:2017
 ---
 
 TestCov is a tool that measures the coverage of a test suites
