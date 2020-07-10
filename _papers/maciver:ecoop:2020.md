@@ -11,7 +11,7 @@ pages: 13:1–13:28
 read: true
 readings:
 - 2020-07-09
-title: Test-case reduction via test-case generation: Insights from the Hypothesis reducer
+title: "Test-case reduction via test-case generation: Insights from the Hypothesis reducer"
 year: 2020
 notes:
 - fuzz testing
