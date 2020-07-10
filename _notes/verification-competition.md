@@ -13,5 +13,4 @@ drive a research area forward.
 interactive verification tools but these also test the expertise of the humans
 driving the tools.)
 
-{% include paperlist.html %}
 {% include links.html %}

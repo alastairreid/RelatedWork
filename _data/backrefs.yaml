@@ -1,0 +1,4098 @@
+notes:
+  notes/abstract-interpretation:
+  - - notes/seahorn-verifier
+    - - SeaHorn verifier
+      - null
+  notes/acl2-theorem-prover: []
+  notes/annotation-burden:
+  - - notes/ghost-code
+    - - Ghost code
+      - null
+  notes/aorte:
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  - - notes/extended-static-checking
+    - - Extended static checking (ESC)
+      - null
+  - - notes/sv-competition
+    - - Software Verification Competition (SV-COMP)
+      - null
+  notes/arm-architecture:
+  - - notes/asl
+    - - Arm Architecture Specification Language (ASL)
+      - null
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
+  - - notes/sail-language
+    - - Sail ISA specification language
+      - null
+  notes/asl:
+  - - notes/arm-architecture
+    - - Arm architecture
+      - null
+  - - notes/dependent-type
+    - - Dependent type
+      - null
+  - - notes/isa-specification
+    - - ISA specification
+      - null
+  - - notes/sail-language
+    - - Sail ISA specification language
+      - null
+  notes/auto-active-verification:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  - - notes/dafny-verifier
+    - - Dafny verifier
+      - null
+  - - notes/vcc-verifier
+    - - VCC verifier
+      - null
+  notes/bap-tool: []
+  notes/biabduction: []
+  notes/blast-verifier:
+  - - notes/cpachecker-verifier
+    - - CPAchecker verifier
+      - null
+  - - notes/sv-competition
+    - - Software Verification Competition (SV-COMP)
+      - null
+  notes/boogie-verifier:
+  - - notes/auto-active-verification
+    - - Auto active verification
+      - null
+  - - notes/civl-verifier
+    - - CIVL verifier
+      - null
+  - - notes/corral-verifier
+    - - Corral verifier
+      - null
+  - - notes/intermediate-verification-language
+    - - Intermediate verification language
+      - null
+  - - notes/smack-verifier
+    - - SMACK verifier
+      - null
+  - - notes/spec-sharp-project
+    - - Spec# project
+      - null
+  - - notes/vcc-verifier
+    - - VCC verifier
+      - null
+  - - notes/verification-condition-generator
+    - - Verification condition generator
+      - null
+  notes/bounded-model-checking:
+  - - notes/bounded-verification
+    - - Bounded verification
+      - null
+  - - notes/cbmc-verifier
+    - - CBMC verifier
+      - null
+  - - notes/symbolic-evaluation
+    - - Symbolic evaluation
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  notes/bounded-verification:
+  - - notes/bounded-model-checking
+    - - Bounded model-checking
+      - null
+  notes/cactus-plot: []
+  notes/capabilities:
+  - - notes/cheri-architecture
+    - - CHERI architecture
+      - null
+  notes/cbmc-verifier: []
+  notes/cegar:
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  notes/chalice-verifier:
+  - - notes/permission-logic
+    - - Permission logic
+      - null
+  notes/cheri-architecture:
+  - - notes/capabilities
+    - - Capabilities
+      - null
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
+  - - notes/sail-language
+    - - Sail ISA specification language
+      - null
+  notes/civl-verifier: []
+  notes/compcert-compiler:
+  - - notes/translation-validation
+    - - Translation validation
+      - null
+  notes/concurrent-separation-logic: []
+  notes/contract-driven-development:
+  - - notes/modular-verification
+    - - Modular verification
+      - null
+  - - notes/spec-sharp-project
+    - - Spec# project
+      - null
+  notes/coq-theorem-prover:
+  - - notes/compcert-compiler
+    - - CompCert compiler
+      - null
+  - - notes/dependent-type
+    - - Dependent type
+      - null
+  - - notes/nova-hypervisor
+    - - NOVA hypervisor
+      - null
+  notes/corral-verifier: []
+  notes/cpachecker-verifier:
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  - - notes/sv-competition
+    - - Software Verification Competition (SV-COMP)
+      - null
+  notes/dafny-verifier:
+  - - notes/auto-active-verification
+    - - Auto active verification
+      - null
+  notes/dart-verifier:
+  - - notes/fuzz-testing
+    - - Fuzz testing
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  notes/dependent-type:
+  - - notes/coq-theorem-prover
+    - - Coq theorem prover
+      - null
+  notes/entropy: []
+  notes/extended-static-checking:
+  - - notes/aorte
+    - - Absence of RunTime Errors (AoRTE)
+      - null
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  - - notes/sv-competition
+    - - Software Verification Competition (SV-COMP)
+      - null
+  notes/foreign-function-interface:
+  - - notes/smt-lib-format
+    - - SMT-LIB format
+      - null
+  notes/fql:
+  - - notes/sv-competition
+    - - Software Verification Competition (SV-COMP)
+      - null
+  - - notes/test-competition
+    - - Software Testing Competition (Test-Comp)
+      - null
+  notes/fractional-permissions:
+  - - notes/permission-accounting
+    - - Permission accounting
+      - null
+  - - notes/verifast-verifier
+    - - VeriFast verifier
+      - null
+  notes/frama-c-verifier:
+  - - notes/undefined-behaviour
+    - - Undefined behaviour
+      - null
+  notes/frame-rule:
+  - - notes/concurrent-separation-logic
+    - - Concurrent separation logic
+      - null
+  notes/fuzz-testing:
+  - - notes/sage-verifier
+    - - SAGE verifier
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  - - notes/test-case-reduction
+    - - Test-case reduction
+      - null
+  notes/ghost-code:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  notes/haskell-language: []
+  notes/hyperproperty:
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  notes/implicit-dynamic-frames:
+  - - notes/permission-logic
+    - - Permission logic
+      - null
+  notes/information-flow:
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  - - notes/self-composition
+    - - Self composition
+      - null
+  notes/instruction-set-architecture:
+  - - notes/arm-architecture
+    - - Arm architecture
+      - null
+  - - notes/cheri-architecture
+    - - CHERI architecture
+      - null
+  - - notes/isa-specification
+    - - ISA specification
+      - null
+  - - notes/mips-architecture
+    - - MIPS architecture
+      - null
+  - - notes/powerpc-architecture
+    - - Power-PC architecture
+      - null
+  - - notes/riscv-architecture
+    - - RISC-V architecture
+      - null
+  - - notes/x86-architecture
+    - - x86 architecture
+      - null
+  notes/interactive-theorem-prover:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  - - notes/coq-theorem-prover
+    - - Coq theorem prover
+      - null
+  - - notes/lean-theorem-prover
+    - - Lean theorem prover
+      - null
+  notes/intermediate-verification-language:
+  - - notes/boogie-verifier
+    - - Boogie verifier
+      - null
+  - - notes/civl-verifier
+    - - CIVL verifier
+      - null
+  - - notes/prusti-verifier
+    - - Prusti verifier
+      - null
+  - - notes/smack-verifier
+    - - SMACK verifier
+      - null
+  - - notes/viper-verifier
+    - - Viper verifier
+      - null
+  notes/isa-specification:
+  - - notes/arm-architecture
+    - - Arm architecture
+      - null
+  - - notes/asl
+    - - Arm Architecture Specification Language (ASL)
+      - null
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
+  - - notes/sail-language
+    - - Sail ISA specification language
+      - null
+  notes/klee-verifier:
+  - - notes/fuzz-testing
+    - - Fuzz testing
+      - null
+  - - notes/s2e-verifier
+    - - S2E verifier
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  - - notes/test-competition
+    - - Software Testing Competition (Test-Comp)
+      - null
+  notes/lean-theorem-prover:
+  - - notes/dependent-type
+    - - Dependent type
+      - null
+  notes/linear-logic:
+  - - notes/permission-logic
+    - - Permission logic
+      - null
+  notes/llvm-compiler:
+  - - notes/klee-verifier
+    - - KLEE verifier
+      - null
+  - - notes/seahorn-verifier
+    - - SeaHorn verifier
+      - null
+  - - notes/smack-verifier
+    - - SMACK verifier
+      - null
+  notes/loop-invariant:
+  - - notes/modular-verification
+    - - Modular verification
+      - null
+  notes/magic-wand:
+  - - notes/prusti-verifier
+    - - Prusti verifier
+      - null
+  notes/mips-architecture:
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
+  notes/mir:
+  - - notes/mir-interpreter
+    - - MIR interpreter (miri)
+      - null
+  notes/mir-interpreter:
+  - - notes/mir
+    - - MIR
+      - null
+  notes/model-checking:
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  - - notes/bounded-model-checking
+    - - Bounded model-checking
+      - null
+  - - notes/cpachecker-verifier
+    - - CPAchecker verifier
+      - null
+  - - notes/sat-solver
+    - - SAT solver
+      - null
+  - - notes/temporal-logic
+    - - Temporal logic
+      - null
+  notes/modular-verification:
+  - - notes/contract-driven-development
+    - - Contract driven development
+      - null
+  - - notes/spec-sharp-project
+    - - Spec# project
+      - null
+  notes/non-interference:
+  - - notes/hyperproperty
+    - - Hyperproperty
+      - null
+  notes/nova-hypervisor: []
+  notes/ownership-types:
+  - - notes/rust-language
+    - - Rust language
+      - null
+  notes/partial-order-reduction: []
+  notes/permission-accounting:
+  - - notes/fractional-permissions
+    - - Fractional permissions
+      - null
+  notes/permission-logic:
+  - - notes/boogie-verifier
+    - - Boogie verifier
+      - null
+  - - notes/chalice-verifier
+    - - Chalice verifier
+      - null
+  - - notes/fractional-permissions
+    - - Fractional permissions
+      - null
+  - - notes/implicit-dynamic-frames
+    - - Implicit dynamic frames
+      - null
+  - - notes/magic-wand
+    - - Magic wand
+      - null
+  - - notes/permission-accounting
+    - - Permission accounting
+      - null
+  - - notes/prusti-verifier
+    - - Prusti verifier
+      - null
+  - - notes/separation-logic
+    - - Separation logic
+      - null
+  - - notes/viper-verifier
+    - - Viper verifier
+      - null
+  notes/pin-tool: []
+  notes/powerpc-architecture:
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
+  - - notes/sail-language
+    - - Sail ISA specification language
+      - null
+  notes/proof-carrying-code:
+  - - notes/typed-assembly-language
+    - - Typed assembly language
+      - null
+  notes/prusti-verifier:
+  - - notes/ownership-types
+    - - Ownership types
+      - null
+  - - notes/prusti-verifier
+    - - Prusti verifier
+      - null
+  - - notes/rust-language
+    - - Rust language
+      - null
+  - - notes/viper-verifier
+    - - Viper verifier
+      - null
+  notes/riscv-architecture:
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
+  notes/rosette-solver: []
+  notes/rust-language:
+  - - notes/magic-wand
+    - - Magic wand
+      - null
+  - - notes/mir-interpreter
+    - - MIR interpreter (miri)
+      - null
+  - - notes/mir
+    - - MIR
+      - null
+  - - notes/ownership-types
+    - - Ownership types
+      - null
+  - - notes/prusti-verifier
+    - - Prusti verifier
+      - null
+  - - notes/rust-unsafe-code
+    - - Rust unsafe code
+      - null
+  - - notes/viper-verifier
+    - - Viper verifier
+      - null
+  notes/rust-unsafe-code: []
+  notes/s2e-verifier: []
+  notes/sage-verifier:
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  notes/sail-language:
+  - - notes/arm-architecture
+    - - Arm architecture
+      - null
+  - - notes/dependent-type
+    - - Dependent type
+      - null
+  - - notes/isa-specification
+    - - ISA specification
+      - null
+  notes/sat-solver:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  notes/seahorn-verifier:
+  - - notes/extended-static-checking
+    - - Extended static checking (ESC)
+      - null
+  - - notes/sv-competition
+    - - Software Verification Competition (SV-COMP)
+      - null
+  notes/self-composition:
+  - - notes/information-flow
+    - - Information flow
+      - null
+  notes/separation-logic:
+  - - notes/biabduction
+    - - Bi-abduction
+      - null
+  - - notes/concurrent-separation-logic
+    - - Concurrent separation logic
+      - null
+  - - notes/fractional-permissions
+    - - Fractional permissions
+      - null
+  - - notes/frame-rule
+    - - Frame rule
+      - null
+  - - notes/implicit-dynamic-frames
+    - - Implicit dynamic frames
+      - null
+  - - notes/magic-wand
+    - - Magic wand
+      - null
+  - - notes/permission-accounting
+    - - Permission accounting
+      - null
+  - - notes/permission-logic
+    - - Permission logic
+      - null
+  - - notes/smallfoot-verifier
+    - - Smallfoot verifier
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  - - notes/verifast-verifier
+    - - VeriFast verifier
+      - null
+  notes/smack-verifier:
+  - - notes/extended-static-checking
+    - - Extended static checking (ESC)
+      - null
+  - - notes/rust-language
+    - - Rust language
+      - null
+  - - notes/sv-competition
+    - - Software Verification Competition (SV-COMP)
+      - null
+  notes/smallfoot-verifier:
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  notes/smt-lib-format:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  notes/smt-solver:
+  - - notes/sat-solver
+    - - SAT solver
+      - null
+  - - notes/smt-lib-format
+    - - SMT-LIB format
+      - null
+  - - notes/z3-solver
+    - - Z3 theorem prover
+      - null
+  notes/spec-sharp-project:
+  - - notes/boogie-verifier
+    - - Boogie verifier
+      - null
+  notes/survey: []
+  notes/sv-competition:
+  - - notes/aorte
+    - - Absence of RunTime Errors (AoRTE)
+      - null
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  - - notes/cactus-plot
+    - - Cactus plot / Survival plot
+      - null
+  - - notes/cpachecker-verifier
+    - - CPAchecker verifier
+      - null
+  - - notes/extended-static-checking
+    - - Extended static checking (ESC)
+      - null
+  - - notes/fql
+    - - FShell Query Language (FQL)
+      - null
+  - - notes/test-competition
+    - - Software Testing Competition (Test-Comp)
+      - null
+  notes/symbolic-evaluation:
+  - - notes/bounded-model-checking
+    - - Bounded model-checking
+      - null
+  - - notes/rosette-solver
+    - - Rosette solver
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  notes/symbolic-execution:
+  - - notes/bounded-model-checking
+    - - Bounded model-checking
+      - null
+  - - notes/civl-verifier
+    - - CIVL verifier
+      - null
+  - - notes/dart-verifier
+    - - DART verifier
+      - null
+  - - notes/fuzz-testing
+    - - Fuzz testing
+      - null
+  - - notes/klee-verifier
+    - - KLEE verifier
+      - null
+  - - notes/s2e-verifier
+    - - S2E verifier
+      - null
+  - - notes/sage-verifier
+    - - SAGE verifier
+      - null
+  - - notes/symbolic-evaluation
+    - - Symbolic evaluation
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  notes/symbolic-model-checking: []
+  notes/systematization-of-knowledge: []
+  notes/temporal-logic:
+  - - notes/model-checking
+    - - Model checking
+      - null
+  notes/test-case-reduction: []
+  notes/test-competition: []
+  notes/test-driven-development:
+  - - notes/contract-driven-development
+    - - Contract driven development
+      - null
+  notes/translation-validation:
+  - - notes/compcert-compiler
+    - - CompCert compiler
+      - null
+  notes/turing-award: []
+  notes/typed-assembly-language: []
+  notes/undefined-behaviour:
+  - - notes/frama-c-verifier
+    - - Frama-C verifier
+      - null
+  - - notes/mir-interpreter
+    - - MIR interpreter (miri)
+      - null
+  - - notes/mir
+    - - MIR
+      - null
+  notes/vcc-verifier: []
+  notes/verifast-verifier:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  - - notes/auto-active-verification
+    - - Auto active verification
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  notes/verification-competition: []
+  notes/verification-condition-generator:
+  - - notes/boogie-verifier
+    - - Boogie verifier
+      - null
+  - - notes/viper-verifier
+    - - Viper verifier
+      - null
+  notes/viper-verifier:
+  - - notes/intermediate-verification-language
+    - - Intermediate verification language
+      - null
+  - - notes/ownership-types
+    - - Ownership types
+      - null
+  - - notes/permission-logic
+    - - Permission logic
+      - null
+  - - notes/prusti-verifier
+    - - Prusti verifier
+      - null
+  notes/why3-verifier: []
+  notes/x86-architecture:
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
+  notes/z3-solver:
+  - - notes/smt-lib-format
+    - - SMT-LIB format
+      - null
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  - - notes/vcc-verifier
+    - - VCC verifier
+      - null
+  papers/abadi:tcs:1991: []
+  papers/alkassar:vstte:2010: []
+  papers/alkassar:vstte:2012: []
+  papers/almeida:security:2016: []
+  papers/amani:asplos:2016: []
+  papers/andronick:icse:2012: []
+  papers/armstrong:arw:2018: []
+  papers/armstrong:popl19:2019: []
+  papers/armstrong:spisa:2019: []
+  papers/astrauskas:oopsla:2019:
+  - - notes/magic-wand
+    - - Magic wand
+      - null
+  - - notes/ownership-types
+    - - Ownership types
+      - null
+  - - notes/prusti-verifier
+    - - Prusti verifier
+      - null
+  - - notes/rust-language
+    - - Rust language
+      - null
+  papers/avgerinos:icse:2014:
+  - - notes/bap-tool
+    - - Binary Analysis Platform (BAP)
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  papers/babic:fse:2019: []
+  papers/balasubramanium:hotos:2017: []
+  papers/baldoni:compsurv:2018:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  papers/ball:dsse:2015: []
+  papers/ball:pldi:2001: []
+  papers/bansal:asplos:2006: []
+  papers/bansal:osdi:2008: []
+  papers/baranowski:atva:2018:
+  - - notes/rust-language
+    - - Rust language
+      - null
+  - - notes/smack-verifier
+    - - SMACK verifier
+      - null
+  papers/barbacci:cmu:1972: []
+  papers/barbacci:ieee:1981: []
+  papers/barnett:cacm:2011: []
+  papers/barnett:cassis:2004: []
+  papers/barnett:fmco:2005: []
+  papers/barnett:vstte:2005: []
+  papers/barrett:cade:2000:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  papers/barrett:mlf:2015:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  papers/barrett:smtlib:2016: []
+  papers/barthe:csfw:2004: []
+  papers/barthe:iacr:2007: []
+  papers/bastian:oopsla:2019: []
+  papers/becker:fm:2016:
+  - - notes/nova-hypervisor
+    - - NOVA hypervisor
+      - null
+  papers/berdine:aplas:2005: []
+  papers/berdine:fmco:2005: []
+  papers/beyer:ase:2019:
+  - - notes/test-competition
+    - - Software Testing Competition (Test-Comp)
+      - null
+  papers/beyer:cav:2011:
+  - - notes/cpachecker-verifier
+    - - CPAchecker verifier
+      - null
+  papers/beyer:hvc:2017: []
+  papers/beyer:ijsttt:2007:
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  papers/beyer:sas:2004:
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  papers/biere:tacas:1999: []
+  papers/blanchard:fmics:2015: []
+  papers/blom:ijsttt:2015:
+  - - notes/magic-wand
+    - - Magic wand
+      - null
+  papers/boettcher:date:2014: []
+  papers/bohme2:fse:2020: []
+  papers/bohme:fse:2020: []
+  papers/bornat:popl:2005:
+  - - notes/fractional-permissions
+    - - Fractional permissions
+      - null
+  - - notes/permission-accounting
+    - - Permission accounting
+      - null
+  papers/bornholt:oopsla:2018:
+  - - notes/bounded-model-checking
+    - - Bounded model-checking
+      - null
+  - - notes/symbolic-evaluation
+    - - Symbolic evaluation
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  papers/bowman:icfp:2015:
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  papers/brookes:tcs:2006: []
+  papers/brummayer:sat:2010:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  papers/cadar:cacm:2013:
+  - - notes/klee-verifier
+    - - KLEE verifier
+      - null
+  papers/cadar:osdi:2008:
+  - - notes/klee-verifier
+    - - KLEE verifier
+      - null
+  papers/calcagno:popl:2009:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  - - notes/modular-verification
+    - - Modular verification
+      - null
+  papers/chakravarty:haskffi:2003:
+  - - notes/foreign-function-interface
+    - - Foreign function interface
+      - null
+  papers/chatterjee:tacas:2007: []
+  papers/chipounov:asplos:2011:
+  - - notes/s2e-verifier
+    - - S2E verifier
+      - null
+  papers/chipounov:hotdep:2009:
+  - - notes/s2e-verifier
+    - - S2E verifier
+      - null
+  papers/chipounov:tcs:2012:
+  - - notes/s2e-verifier
+    - - S2E verifier
+      - null
+  papers/choi:icfp:2017: []
+  papers/chong:icse:2020: []
+  papers/clark:entcs:2002: []
+  papers/clarke:cacm:2009:
+  - - notes/model-checking
+    - - Model checking
+      - null
+  - - notes/temporal-logic
+    - - Temporal logic
+      - null
+  papers/clarke:cav:2000:
+  - - notes/cegar
+    - - CEGAR (Counter-Example Guided Abstraction Refinement)
+      - null
+  papers/clarke:tacas:2004:
+  - - notes/cbmc-verifier
+    - - CBMC verifier
+      - null
+  papers/clarkson:jcs:2010: []
+  papers/cock:ccs:2014: []
+  papers/cohen:cav:2010:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  papers/cohen:entcs:2009: []
+  papers/condit:popl:2009: []
+  papers/cook:cav:2018: []
+  papers/costanzo:pldi:2016:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  papers/cousot:oopsla:2012: []
+  papers/cuoq:sefm:2012:
+  - - notes/frama-c-verifier
+    - - Frama-C verifier
+      - null
+  papers/dam:ted:2013: []
+  papers/dam:trusted:2013: []
+  papers/damm:fmoods:1999: []
+  papers/dasgupta:pldi:2019: []
+  papers/degenbaev:phd:2012: []
+  papers/deline:pldi:2001: []
+  papers/demoura:cacm:2011: []
+  papers/demoura:cade:2015: []
+  papers/demoura:tacas:2008:
+  - - notes/z3-solver
+    - - Z3 theorem prover
+      - null
+  papers/deng:hasp:2019: []
+  papers/denning:cacm:1976: []
+  papers/dinsdale-young:popl:2013: []
+  papers/distefano:tacas:2006: []
+  papers/efstathopoulos:sosp:2005: []
+  papers/eide:aspse:2001: []
+  papers/eide:icse:2002: []
+  papers/ernst:icse:2016: []
+  papers/fahndrich:foveoos:2010:
+  - - notes/contract-driven-development
+    - - Contract driven development
+      - null
+  papers/falkoff:ibm:1964: []
+  papers/ferraiuolo:asplos:2017: []
+  papers/ferraiuolo:ccs:2018: []
+  papers/ferraiuolo:dac:2017: []
+  papers/ferraiuolo:sosp:2017:
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  papers/filliatre:cav:2007: []
+  papers/filliatre:esop:2013: []
+  papers/filliatre:fem:2004: []
+  papers/fischer:ase:2013: []
+  papers/flur:popl:2016: []
+  papers/fonseca:ecs:2017: []
+  papers/fox:cambridge:2001: []
+  papers/fox:itp:2010: []
+  papers/fox:itp:2012: []
+  papers/fox:itps:2015: []
+  papers/fox:tphols:2003: []
+  papers/franklin:cmu:2008: []
+  papers/godefroid:acmq:2012: []
+  papers/godefroid:cacm:2020:
+  - - notes/fuzz-testing
+    - - Fuzz testing
+      - null
+  papers/godefroid:pldi:2005: []
+  papers/godefroid:pldi:2012: []
+  papers/goel:acl2:2013: []
+  papers/goel:fmcad:2014: []
+  papers/goel:pcs:2017: []
+  papers/goel:phd:2016: []
+  papers/goguen:secpriv:1982:
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  papers/goguen:secpriv:1984:
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  papers/gray:micro:2015: []
+  papers/groce:issta:2017:
+  - - notes/test-case-reduction
+    - - Test-case reduction
+      - null
+  papers/grossman:esop:2002: []
+  papers/gu:osdi:2016:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  papers/gurfinkel:cav:2015:
+  - - notes/seahorn-verifier
+    - - SeaHorn verifier
+      - null
+  papers/hardin:acl2:2006: []
+  papers/hatcliff:compsurv:2012: []
+  papers/hawblitzel:osdi:2014: []
+  papers/hehner:vstte:2008:
+  - - notes/loop-invariant
+    - - Loop invariant
+      - null
+  papers/henzinger:spin:2003: []
+  papers/heule:ftfjp:2011:
+  - - notes/chalice-verifier
+    - - Chalice verifier
+      - null
+  - - notes/fractional-permissions
+    - - Fractional permissions
+      - null
+  - - notes/permission-accounting
+    - - Permission accounting
+      - null
+  papers/heule:pldi:2016: []
+  papers/heule:vmcai:2013: []
+  papers/hobor:popl:2013: []
+  papers/hohmuth:plos:2005: []
+  papers/hohmuth:sigops:2002: []
+  papers/holzer:cav:2008:
+  - - notes/fql
+    - - FShell Query Language (FQL)
+      - null
+  papers/holzer:hvc:2010:
+  - - notes/fql
+    - - FShell Query Language (FQL)
+      - null
+  papers/hritcu:icfp:2013: []
+  papers/jacobs:nfm:2011:
+  - - notes/verifast-verifier
+    - - VeriFast verifier
+      - null
+  papers/jacobs:vstte:2010:
+  - - notes/verifast-verifier
+    - - VeriFast verifier
+      - null
+  papers/jhala:compsurv:2009:
+  - - notes/bounded-model-checking
+    - - Bounded model-checking
+      - null
+  - - notes/model-checking
+    - - Model checking
+      - null
+  papers/jones:hasklang:1999: []
+  papers/jones:hasklib:1999: []
+  papers/jones:hw:1997:
+  - - notes/foreign-function-interface
+    - - Foreign function interface
+      - null
+  papers/jones:pldi:1999: []
+  papers/jung:popl:2017:
+  - - notes/rust-language
+    - - Rust language
+      - null
+  papers/jung:popl:2020:
+  - - notes/mir-interpreter
+    - - MIR interpreter (miri)
+      - null
+  - - notes/mir
+    - - MIR
+      - null
+  - - notes/ownership-types
+    - - Ownership types
+      - null
+  - - notes/rust-language
+    - - Rust language
+      - null
+  - - notes/rust-unsafe-code
+    - - Rust unsafe code
+      - null
+  papers/kassios:fm:2006: []
+  papers/kaufmann:utaustin:2012: []
+  papers/khakpour:cpp:2013: []
+  papers/klabnik:book:2018: []
+  papers/klein:sosp:2009:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  papers/krishnaswami:tldi:2010: []
+  papers/krohn:sosp:2007: []
+  papers/kumar:popl:2014: []
+  papers/lal:cav:2012: []
+  papers/lal:fse:2014: []
+  papers/legoues:sefm:2011:
+  - - notes/intermediate-verification-language
+    - - Intermediate verification language
+      - null
+  papers/leinenbach:fm:2009: []
+  papers/leino:fosad:2007: []
+  papers/leino:icse:2013:
+  - - notes/dafny-verifier
+    - - Dafny verifier
+      - null
+  papers/leino:lpair:2010: []
+  papers/leino:sac:2009: []
+  papers/leino:tacas:2010: []
+  papers/leroy:cacm:2009:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  - - notes/compcert-compiler
+    - - CompCert compiler
+      - null
+  papers/levy:apsys:2017:
+  - - notes/rust-language
+    - - Rust language
+      - null
+  papers/levy:plos:2015: []
+  papers/levy:sosp:2017: []
+  papers/lie:secpri:2003: []
+  papers/lie:sosp:2003: []
+  papers/lin:sdr:2006: []
+  papers/lin:sips:2006: []
+  papers/lindner:indin:2018:
+  - - notes/klee-verifier
+    - - KLEE verifier
+      - null
+  papers/lindner:indin:2019:
+  - - notes/klee-verifier
+    - - KLEE verifier
+      - null
+  papers/liu:cpsspc:2018: []
+  papers/lockhart:ispass:2015: []
+  papers/logozzo:vmcai:2011:
+  - - notes/contract-driven-development
+    - - Contract driven development
+      - null
+  papers/loow:pldi:2019: []
+  papers/lopes:pldi:2015: []
+  papers/maciver:ecoop:2020:
+  - - notes/test-case-reduction
+    - - Test-case reduction
+      - null
+  papers/mai:asplos:2013: []
+  papers/malik:cacm:2009:
+  - - notes/sat-solver
+    - - SAT solver
+      - null
+  papers/manes:ieeetse:2019:
+  - - notes/fuzz-testing
+    - - Fuzz testing
+      - null
+  papers/mangano:crisis:2016:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  papers/mansur:arxiv:2020:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  papers/mantel:pls:2007: []
+  papers/mantel:sp:2001: []
+  papers/martignoni:asplos:2012: []
+  papers/matsushita:esop:2020: []
+  papers/mcmillan:ecs:2003:
+  - - notes/model-checking
+    - - Model checking
+      - null
+  papers/merz:vstte:2012: []
+  papers/miller:cacm:1990:
+  - - notes/fuzz-testing
+    - - Fuzz testing
+      - null
+  papers/monteiro:arxiv:2019: []
+  papers/morrisett:pldi:2012: []
+  papers/morrisett:wcsss:1999:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  - - notes/typed-assembly-language
+    - - Typed assembly language
+      - null
+  papers/muller:vmcai:2016: []
+  papers/murray:secpriv:2013: []
+  papers/mycroft:esop:1999:
+  - - notes/typed-assembly-language
+    - - Typed assembly language
+      - null
+  papers/myers:csfw:2004: []
+  papers/myreen:itp:2012: []
+  papers/myreen:tphols:2009: []
+  papers/nanevski:icfp:2008: []
+  papers/nanevski:oopsla:2019: []
+  papers/narayanan:hotos:2019: []
+  papers/naumann:fmco:2004: []
+  papers/necula:cc:2002:
+  - - notes/blast-verifier
+    - - BLAST verifier
+      - null
+  - - notes/cpachecker-verifier
+    - - CPAchecker verifier
+      - null
+  papers/necula:pldi:2000:
+  - - notes/translation-validation
+    - - Translation validation
+      - null
+  papers/necula:popl:1997:
+  - - notes/proof-carrying-code
+    - - Proof carrying code
+      - null
+  papers/nelson:sosp:2017: []
+  papers/nelson:sosp:2019:
+  - - notes/auto-active-verification
+    - - Auto active verification
+      - null
+  - - notes/bounded-model-checking
+    - - Bounded model-checking
+      - null
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  - - notes/rosette-solver
+    - - Rosette solver
+      - null
+  - - notes/symbolic-evaluation
+    - - Symbolic evaluation
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
+  papers/niemetz:jsat:2015: []
+  papers/nienhuis:secpriv:2020:
+  - - notes/capabilities
+    - - Capabilities
+      - null
+  - - notes/cheri-architecture
+    - - CHERI architecture
+      - null
+  papers/nipkow:book:2002: []
+  papers/nyxbrain:sc2:2017: []
+  papers/oberg:dac:2010: []
+  papers/ohearn:cacm:2019: []
+  papers/ohearn:tcs:2007: []
+  papers/ozer:sbacpad:2007: []
+  papers/parkinson:popl:2005: []
+  papers/pearce:compsurv:2013: []
+  papers/penninckx:nfm:2012:
+  - - notes/verifast-verifier
+    - - VeriFast verifier
+      - null
+  papers/peterson:hw:1995: []
+  papers/peterson:padl:2001: []
+  papers/philippaerts:scp:2014:
+  - - notes/verifast-verifier
+    - - VeriFast verifier
+      - null
+  papers/pnueli:sfcs:1977:
+  - - notes/temporal-logic
+    - - Temporal logic
+      - null
+  papers/pnueli:tacas:1998:
+  - - notes/translation-validation
+    - - Translation validation
+      - null
+  papers/rakamaric:cav:2014:
+  - - notes/smack-verifier
+    - - SMACK verifier
+      - null
+  papers/regehr:acp4is:2003: []
+  papers/regehr:asplos:2004: []
+  papers/regehr:emsoft:2003: []
+  papers/regehr:lctes:2006: []
+  papers/regehr:pldi:2012:
+  - - notes/test-case-reduction
+    - - Test-case reduction
+      - null
+  papers/regehr:rtss:2003: []
+  papers/regehr:tecs:2005: []
+  papers/reid:cases:2008: []
+  papers/reid:cav:2016:
+  - - notes/asl
+    - - Arm Architecture Specification Language (ASL)
+      - null
+  papers/reid:fmcad:2016:
+  - - notes/asl
+    - - Arm Architecture Specification Language (ASL)
+      - null
+  papers/reid:gfpw:1989: []
+  papers/reid:gfpw:1993: []
+  papers/reid:gfpw:1994: []
+  papers/reid:hw:1995: []
+  papers/reid:icse:1999: []
+  papers/reid:ifl:1998: []
+  papers/reid:msc:1993: []
+  papers/reid:oopsla:2017:
+  - - notes/asl
+    - - Arm Architecture Specification Language (ASL)
+      - null
+  papers/reid:osdi:2000: []
+  papers/reid:phd:2019:
+  - - notes/asl
+    - - Arm Architecture Specification Language (ASL)
+      - null
+  papers/reid:yale:1998: []
+  papers/reid:yale:2001: []
+  papers/reynolds:lics:2002: []
+  papers/rushby:sri:1992:
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  papers/sabelfield:jcs:2009: []
+  papers/samet:phd:1975: []
+  papers/sarkar:pldi:2011: []
+  papers/sarkar:popl:2009: []
+  papers/schwartz:sp:2010: []
+  papers/schwerhoff:ecoop:2015:
+  - - notes/magic-wand
+    - - Magic wand
+      - null
+  - - notes/prusti-verifier
+    - - Prusti verifier
+      - null
+  papers/seshadri:sosp:2007: []
+  papers/sewell:pldi:2013: []
+  papers/sharma:oopsla:2012: []
+  papers/sharma:pls:2013: []
+  papers/shi:phd:2013: []
+  papers/shoshitaishvili:sp:2016: []
+  papers/siegel:sc:2015: []
+  papers/sigurbjarnarson:osdi:2016: []
+  papers/sigurbjarnarson:osdi:2018: []
+  papers/skorstengaard:esop:2018:
+  - - notes/capabilities
+    - - Capabilities
+      - null
+  - - notes/cheri-architecture
+    - - CHERI architecture
+      - null
+  papers/skorstengaard:popl:2019:
+  - - notes/capabilities
+    - - Capabilities
+      - null
+  - - notes/cheri-architecture
+    - - CHERI architecture
+      - null
+  papers/smans:ecoop:2009: []
+  papers/smans:fmood:2010: []
+  papers/smith:esop:2000: []
+  papers/smith:fossacs:2009: []
+  papers/spencer:security:1999: []
+  papers/stephens:micro:2017: []
+  papers/stephens:ndss:2016: []
+  papers/stump:fmsd:2013:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
+  papers/sutcliffe:ai:2001: []
+  papers/tahat:fmcad:2019: []
+  papers/tiwari:asplos:2009: []
+  papers/tiwari:isca:2009:
+  - - notes/non-interference
+    - - Non-interference
+      - null
+  papers/tiwari:isca:2011: []
+  papers/toman:ase:2015:
+  - - notes/rust-language
+    - - Rust language
+      - null
+  papers/torlak:onward:2013:
+  - - notes/rosette-solver
+    - - Rosette solver
+      - null
+  papers/torlak:pldi:2014:
+  - - notes/rosette-solver
+    - - Rosette solver
+      - null
+  papers/tuerk:vstte:2010:
+  - - notes/loop-invariant
+    - - Loop invariant
+      - null
+  papers/ullrich:msc:2016: []
+  papers/vasudevan:secpriv:2013: []
+  papers/vasudevan:usenix:2016:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  papers/verbeek:fmmsd:2019: []
+  papers/vogels:fmoods:2011:
+  - - notes/annotation-burden
+    - - Annotation burden
+      - null
+  papers/wagner:hotos:2013: []
+  papers/walker:popl:2000: []
+  papers/walker:tic:2001:
+  - - notes/ownership-types
+    - - Ownership types
+      - null
+  papers/wang:tase:2018: []
+  papers/weiss:arxiv:2018: []
+  papers/weitz:icfp:2017:
+  - - notes/rosette-solver
+    - - Rosette solver
+      - null
+  papers/woh:micro:2008: []
+  papers/woodruff:isca:2014:
+  - - notes/capabilities
+    - - Capabilities
+      - null
+  - - notes/cheri-architecture
+    - - CHERI architecture
+      - null
+  papers/xi:icfp:2001: []
+  papers/yang:pldi:2010: []
+  papers/zdancewic:csfw:2001: []
+  papers/zdancewic:csfw:2003: []
+  papers/zeldovich:osdi:2006: []
+  papers/zhang:asplos:2015: []
+papers:
+  notes/abstract-interpretation:
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  - - papers/cousot:oopsla:2012
+    - - An abstract interpretation framework for refactoring with application to extract
+        methods with contracts
+      - cousot:oopsla:2012
+  - - papers/cuoq:sefm:2012
+    - - 'Frama-C: A software analysis perspective'
+      - cuoq:sefm:2012
+  - - papers/fahndrich:foveoos:2010
+    - - Static contract checking with abstract interpretation
+      - fahndrich:foveoos:2010
+  - - papers/gurfinkel:cav:2015
+    - - The SeaHorn verification framework
+      - gurfinkel:cav:2015
+  - - papers/mai:asplos:2013
+    - - Verifying security invariants in ExpressOS
+      - mai:asplos:2013
+  - - papers/regehr:asplos:2004
+    - - 'HOIST: a system for automatically deriving static analyzers for embedded
+        systems'
+      - regehr:asplos:2004
+  - - papers/regehr:emsoft:2003
+    - - Eliminating stack overflow by abstract interpretation
+      - regehr:emsoft:2003
+  - - papers/regehr:lctes:2006
+    - - Deriving abstract transfer functions for analyzing embedded software
+      - regehr:lctes:2006
+  - - papers/regehr:tecs:2005
+    - - Eliminating stack overflow by abstract interpretation
+      - regehr:tecs:2005
+  notes/acl2-theorem-prover:
+  - - papers/goel:acl2:2013
+    - - Abstract stobjs and their application to ISA modeling
+      - goel:acl2:2013
+  - - papers/goel:fmcad:2014
+    - - Simulation and formal verification of x86 machine-code programs that make
+        system calls
+      - goel:fmcad:2014
+  - - papers/goel:pcs:2017
+    - - Engineering a Formal, Executable x86 ISA Simulator for Software Verification
+      - goel:pcs:2017
+  - - papers/goel:phd:2016
+    - - Formal verification of application and system programs based on a validated
+        x86 ISA model
+      - goel:phd:2016
+  notes/annotation-burden: []
+  notes/aorte: []
+  notes/arm-architecture:
+  - - papers/armstrong:arw:2018
+    - - 'Detailed models of instruction set architectures: From pseudocode to formal
+        semantics'
+      - armstrong:arw:2018
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/armstrong:spisa:2019
+    - - The state of Sail
+      - armstrong:spisa:2019
+  - - papers/dam:ted:2013
+    - - Machine code verification of a tiny ARM hypervisor
+      - dam:ted:2013
+  - - papers/dam:trusted:2013
+    - - Machine code verification of a tiny ARM hypervisor
+      - dam:trusted:2013
+  - - papers/flur:popl:2016
+    - - 'Modelling the ARMv8 architecture, operationally: concurrency and ISA'
+      - flur:popl:2016
+  - - papers/fox:cambridge:2001
+    - - A HOL specification of the ARM instruction set architecture
+      - fox:cambridge:2001
+  - - papers/fox:itp:2010
+    - - A trustworthy monadic formalization of the ARMv7 instruction set architecture
+      - fox:itp:2010
+  - - papers/fox:itp:2012
+    - - Directions in ISA specification
+      - fox:itp:2012
+  - - papers/fox:itps:2015
+    - - Improved tool support for machine-code decompilation in HOL4
+      - fox:itps:2015
+  - - papers/fox:tphols:2003
+    - - Formal specification and verification of ARM6
+      - fox:tphols:2003
+  - - papers/khakpour:cpp:2013
+    - - Machine assisted proof of ARMv7 instruction level isolation properties
+      - khakpour:cpp:2013
+  - - papers/lockhart:ispass:2015
+    - - 'Pydgin: generating fast instruction set simulators from simple architecture
+        descriptions with meta-tracing JIT compilers'
+      - lockhart:ispass:2015
+  - - papers/myreen:tphols:2009
+    - - Verified LISP Implementations on ARM, x86 and PowerPC
+      - myreen:tphols:2009
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  - - papers/sewell:pldi:2013
+    - - Translation validation for a verified OS kernel
+      - sewell:pldi:2013
+  - - papers/shi:phd:2013
+    - - Certification of an instruction set simulator
+      - shi:phd:2013
+  - - papers/stephens:micro:2017
+    - - The ARM scalable vector extension
+      - stephens:micro:2017
+  - - papers/tahat:fmcad:2019
+    - - Scalable translation validation of unverified legacy OS code
+      - tahat:fmcad:2019
+  notes/asl:
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  - - papers/tahat:fmcad:2019
+    - - Scalable translation validation of unverified legacy OS code
+      - tahat:fmcad:2019
+  notes/auto-active-verification:
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/leino:icse:2013
+    - - Developing verified programs with Dafny
+      - leino:icse:2013
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  - - papers/vogels:fmoods:2011
+    - - Annotation inference for separation logic based verifiers
+      - vogels:fmoods:2011
+  notes/bap-tool:
+  - - papers/avgerinos:icse:2014
+    - - Enhancing symbolic execution with veritesting
+      - avgerinos:icse:2014
+  notes/biabduction:
+  - - papers/calcagno:popl:2009
+    - - Compositional shape analysis by means of bi-abduction
+      - calcagno:popl:2009
+  notes/blast-verifier:
+  - - papers/beyer:ijsttt:2007
+    - - 'The software model checker BLAST: Applications to software engineering'
+      - beyer:ijsttt:2007
+  - - papers/beyer:sas:2004
+    - - The BLAST query language for software verification
+      - beyer:sas:2004
+  - - papers/holzer:cav:2008
+    - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
+      - holzer:cav:2008
+  notes/boogie-verifier:
+  - - papers/almeida:security:2016
+    - - Verifying constant-time implementations
+      - almeida:security:2016
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/legoues:sefm:2011
+    - - The Boogie verification debugger
+      - legoues:sefm:2011
+  - - papers/leino:icse:2013
+    - - Developing verified programs with Dafny
+      - leino:icse:2013
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  - - papers/leino:tacas:2010
+    - - 'A polymorphic intermediate verification language: Design and logical encoding'
+      - leino:tacas:2010
+  - - papers/rakamaric:cav:2014
+    - - 'SMACK: Decoupling source language details from verifier implementations'
+      - rakamaric:cav:2014
+  notes/bounded-model-checking:
+  - - papers/biere:tacas:1999
+    - - Symbolic model checking without BDDs
+      - biere:tacas:1999
+  - - papers/bornholt:oopsla:2018
+    - - Finding code that explodes under symbolic evaluation
+      - bornholt:oopsla:2018
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  - - papers/clarke:tacas:2004
+    - - A tool for checking ANSI-C programs
+      - clarke:tacas:2004
+  - - papers/cook:cav:2018
+    - - Model checking boot code from AWS data centers
+      - cook:cav:2018
+  - - papers/merz:vstte:2012
+    - - 'LLBMC: Bounded model checking of C and C++ programs using a compiler IR'
+      - merz:vstte:2012
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
+  - - papers/torlak:pldi:2014
+    - - A lightweight symbolic virtual machine for solver-aided host languages
+      - torlak:pldi:2014
+  notes/bounded-verification:
+  - - papers/biere:tacas:1999
+    - - Symbolic model checking without BDDs
+      - biere:tacas:1999
+  - - papers/cook:cav:2018
+    - - Model checking boot code from AWS data centers
+      - cook:cav:2018
+  - - papers/lal:cav:2012
+    - - A solver for reachability modulo theories
+      - lal:cav:2012
+  - - papers/toman:ase:2015
+    - - 'Crust: A bounded verifier for Rust'
+      - toman:ase:2015
+  notes/cactus-plot:
+  - - papers/astrauskas:oopsla:2019
+    - - Leveraging Rust types for modular specification and verification
+      - astrauskas:oopsla:2019
+  notes/capabilities:
+  - - papers/nienhuis:secpriv:2020
+    - - 'Rigorous engineering for hardware security: Formal modelling and proof in
+        the CHERI design and implementation process'
+      - nienhuis:secpriv:2020
+  - - papers/skorstengaard:esop:2018
+    - - Reasoning about a machine with local capabilities
+      - skorstengaard:esop:2018
+  - - papers/skorstengaard:popl:2019
+    - - 'StkTokens: Enforcing well-bracketed control flow and stack encapsulation
+        using linear capabilities'
+      - skorstengaard:popl:2019
+  - - papers/woodruff:isca:2014
+    - - 'The CHERI capability model: Revisiting RISC in an age of risk'
+      - woodruff:isca:2014
+  notes/cbmc-verifier:
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  - - papers/chong:icse:2020
+    - - Code-level model checking in the software development workflow
+      - chong:icse:2020
+  - - papers/clarke:tacas:2004
+    - - A tool for checking ANSI-C programs
+      - clarke:tacas:2004
+  - - papers/holzer:cav:2008
+    - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
+      - holzer:cav:2008
+  - - papers/toman:ase:2015
+    - - 'Crust: A bounded verifier for Rust'
+      - toman:ase:2015
+  notes/cegar:
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  - - papers/clarke:cav:2000
+    - - Counterexample-guided abstraction refinement
+      - clarke:cav:2000
+  - - papers/henzinger:spin:2003
+    - - Software verification with BLAST
+      - henzinger:spin:2003
+  notes/chalice-verifier:
+  - - papers/heule:ftfjp:2011
+    - - Fractional permissions without the fractions
+      - heule:ftfjp:2011
+  - - papers/leino:fosad:2007
+    - - Verification of concurrent programs with Chalice
+      - leino:fosad:2007
+  notes/cheri-architecture:
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/armstrong:spisa:2019
+    - - The state of Sail
+      - armstrong:spisa:2019
+  - - papers/nienhuis:secpriv:2020
+    - - 'Rigorous engineering for hardware security: Formal modelling and proof in
+        the CHERI design and implementation process'
+      - nienhuis:secpriv:2020
+  - - papers/skorstengaard:esop:2018
+    - - Reasoning about a machine with local capabilities
+      - skorstengaard:esop:2018
+  - - papers/skorstengaard:popl:2019
+    - - 'StkTokens: Enforcing well-bracketed control flow and stack encapsulation
+        using linear capabilities'
+      - skorstengaard:popl:2019
+  - - papers/woodruff:isca:2014
+    - - 'The CHERI capability model: Revisiting RISC in an age of risk'
+      - woodruff:isca:2014
+  notes/civl-verifier:
+  - - papers/siegel:sc:2015
+    - - 'CIVL: the concurrency intermediate verification language'
+      - siegel:sc:2015
+  notes/compcert-compiler:
+  - - papers/gu:osdi:2016
+    - - 'CertiKOS: An extensible architecture for building certified concurrent OS
+        Kernels'
+      - gu:osdi:2016
+  - - papers/leroy:cacm:2009
+    - - Formal verification of a realistic compiler
+      - leroy:cacm:2009
+  - - papers/vasudevan:usenix:2016
+    - - "\xFCberSpark: Enforcing verifiable object abstractions for automated compositional\
+        \ security analysis of a hypervisor"
+      - vasudevan:usenix:2016
+  notes/concurrent-separation-logic:
+  - - papers/brookes:tcs:2006
+    - - A semantics for concurrent separation logic
+      - brookes:tcs:2006
+  - - papers/ohearn:cacm:2019
+    - - Separation logic
+      - ohearn:cacm:2019
+  - - papers/ohearn:tcs:2007
+    - - Resources, concurrency, and local reasoning
+      - ohearn:tcs:2007
+  - - papers/penninckx:nfm:2012
+    - - Sound formal verification of Linux's USB BP keyboard driver
+      - penninckx:nfm:2012
+  notes/contract-driven-development:
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/deline:pldi:2001
+    - - Enforcing high-level protocols in low-level software
+      - deline:pldi:2001
+  - - papers/fahndrich:foveoos:2010
+    - - Static contract checking with abstract interpretation
+      - fahndrich:foveoos:2010
+  - - papers/hatcliff:compsurv:2012
+    - - Behavioral interface specification languages
+      - hatcliff:compsurv:2012
+  - - papers/leino:fosad:2007
+    - - Verification of concurrent programs with Chalice
+      - leino:fosad:2007
+  - - papers/lindner:indin:2018
+    - - No panic! Verification of Rust programs by symbolic execution
+      - lindner:indin:2018
+  - - papers/logozzo:vmcai:2011
+    - - Practical verification for the working programmer with CodeContracts and abstract
+        interpretation
+      - logozzo:vmcai:2011
+  - - papers/mai:asplos:2013
+    - - Verifying security invariants in ExpressOS
+      - mai:asplos:2013
+  notes/coq-theorem-prover:
+  - - papers/becker:fm:2016
+    - - Combining mechanized proofs and model-based testing in the formal analysis
+        of a hypervisor
+      - becker:fm:2016
+  - - papers/gu:osdi:2016
+    - - 'CertiKOS: An extensible architecture for building certified concurrent OS
+        Kernels'
+      - gu:osdi:2016
+  - - papers/jung:popl:2017
+    - - 'RustBelt: Securing the foundations of the Rust programming language'
+      - jung:popl:2017
+  - - papers/jung:popl:2020
+    - - 'Stacked borrows: An aliasing model for Rust'
+      - jung:popl:2020
+  - - papers/leroy:cacm:2009
+    - - Formal verification of a realistic compiler
+      - leroy:cacm:2009
+  - - papers/weitz:icfp:2017
+    - - 'SpaceSearch: A library for building and verifying solver-aided tools'
+      - weitz:icfp:2017
+  notes/corral-verifier:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/lal:cav:2012
+    - - A solver for reachability modulo theories
+      - lal:cav:2012
+  - - papers/lal:fse:2014
+    - - Powering the static driver verifier using Corral
+      - lal:fse:2014
+  notes/cpachecker-verifier:
+  - - papers/beyer:cav:2011
+    - - 'CPAchecker: A tool for configurable software verification'
+      - beyer:cav:2011
+  notes/dafny-verifier:
+  - - papers/legoues:sefm:2011
+    - - The Boogie verification debugger
+      - legoues:sefm:2011
+  - - papers/leino:icse:2013
+    - - Developing verified programs with Dafny
+      - leino:icse:2013
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  - - papers/mai:asplos:2013
+    - - Verifying security invariants in ExpressOS
+      - mai:asplos:2013
+  notes/dart-verifier:
+  - - papers/cadar:cacm:2013
+    - - 'Symbolic execution for software testing: Three decades later'
+      - cadar:cacm:2013
+  notes/dependent-type:
+  - - papers/armstrong:arw:2018
+    - - 'Detailed models of instruction set architectures: From pseudocode to formal
+        semantics'
+      - armstrong:arw:2018
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/armstrong:spisa:2019
+    - - The state of Sail
+      - armstrong:spisa:2019
+  - - papers/ferraiuolo:dac:2017
+    - - Secure information flow verification with mutable dependent types
+      - ferraiuolo:dac:2017
+  - - papers/nanevski:icfp:2008
+    - - 'Ynot: Dependent types for imperative programs'
+      - nanevski:icfp:2008
+  - - papers/nanevski:oopsla:2019
+    - - 'Specifying concurrent programs in separation logic: Morphisms and simulations'
+      - nanevski:oopsla:2019
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
+  - - papers/xi:icfp:2001
+    - - A dependently typed assembly language
+      - xi:icfp:2001
+  notes/entropy:
+  - - papers/bohme:fse:2020
+    - - 'Boosting fuzzer efficiency: An information theoretic perspective'
+      - bohme:fse:2020
+  notes/extended-static-checking:
+  - - papers/beyer:cav:2011
+    - - 'CPAchecker: A tool for configurable software verification'
+      - beyer:cav:2011
+  - - papers/beyer:ijsttt:2007
+    - - 'The software model checker BLAST: Applications to software engineering'
+      - beyer:ijsttt:2007
+  - - papers/lindner:indin:2018
+    - - No panic! Verification of Rust programs by symbolic execution
+      - lindner:indin:2018
+  - - papers/lindner:indin:2019
+    - - 'Verification of safety functions implemented in Rust: A symbolic execution
+        based approach'
+      - lindner:indin:2019
+  notes/foreign-function-interface:
+  - - papers/chakravarty:haskffi:2003
+    - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
+        98 report'
+      - chakravarty:haskffi:2003
+  - - papers/jones:hw:1997
+    - - 'Green Card: a foreign-language interface for Haskell'
+      - jones:hw:1997
+  - - papers/reid:gfpw:1994
+    - - 'Malloc pointers and stable pointers: Improving Haskell''s foreign language
+        interface'
+      - reid:gfpw:1994
+  notes/fql:
+  - - papers/beyer:ase:2019
+    - - 'TestCov: Robust test-suite execution and coverage measurement'
+      - beyer:ase:2019
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  - - papers/holzer:cav:2008
+    - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
+      - holzer:cav:2008
+  - - papers/holzer:hvc:2010
+    - - An introduction to test specification in FQL
+      - holzer:hvc:2010
+  notes/fractional-permissions:
+  - - papers/bornat:popl:2005
+    - - Permission accounting in separation logic
+      - bornat:popl:2005
+  - - papers/heule:ftfjp:2011
+    - - Fractional permissions without the fractions
+      - heule:ftfjp:2011
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/leino:fosad:2007
+    - - Verification of concurrent programs with Chalice
+      - leino:fosad:2007
+  notes/frama-c-verifier:
+  - - papers/blanchard:fmics:2015
+    - - A case study on formal verification of the Anaxagoros hypervisor paging system
+        with Frama-C
+      - blanchard:fmics:2015
+  - - papers/cuoq:sefm:2012
+    - - 'Frama-C: A software analysis perspective'
+      - cuoq:sefm:2012
+  - - papers/mangano:crisis:2016
+    - - 'Formal verification of a memory allocation module of Contiki with Frama-C:
+        a case study'
+      - mangano:crisis:2016
+  - - papers/vasudevan:usenix:2016
+    - - "\xFCberSpark: Enforcing verifiable object abstractions for automated compositional\
+        \ security analysis of a hypervisor"
+      - vasudevan:usenix:2016
+  notes/frame-rule:
+  - - papers/hobor:popl:2013
+    - - The ramifications of sharing in data structures
+      - hobor:popl:2013
+  - - papers/krishnaswami:tldi:2010
+    - - Verifying event-driven programs using ramified frame properties
+      - krishnaswami:tldi:2010
+  notes/fuzz-testing:
+  - - papers/beyer:ase:2019
+    - - 'TestCov: Robust test-suite execution and coverage measurement'
+      - beyer:ase:2019
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  - - papers/bohme2:fse:2020
+    - - 'Fuzzing: On the exponential cost of vulnerability discovery'
+      - bohme2:fse:2020
+  - - papers/bohme:fse:2020
+    - - 'Boosting fuzzer efficiency: An information theoretic perspective'
+      - bohme:fse:2020
+  - - papers/godefroid:cacm:2020
+    - - 'Fuzzing: Hack, art, and science'
+      - godefroid:cacm:2020
+  - - papers/maciver:ecoop:2020
+    - - 'Test-case reduction via test-case generation: Insights from the Hypothesis
+        reducer'
+      - maciver:ecoop:2020
+  - - papers/manes:ieeetse:2019
+    - - 'The art, science, and engineering of fuzzing: A survey'
+      - manes:ieeetse:2019
+  - - papers/miller:cacm:1990
+    - - An empirical study of the reliability of UNIX utilities
+      - miller:cacm:1990
+  notes/ghost-code:
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/leino:fosad:2007
+    - - Verification of concurrent programs with Chalice
+      - leino:fosad:2007
+  - - papers/leino:icse:2013
+    - - Developing verified programs with Dafny
+      - leino:icse:2013
+  notes/haskell-language:
+  - - papers/chakravarty:haskffi:2003
+    - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
+        98 report'
+      - chakravarty:haskffi:2003
+  - - papers/jones:hasklang:1999
+    - - 'Haskell 98: A non-strict, purely functional language'
+      - jones:hasklang:1999
+  - - papers/jones:hasklib:1999
+    - - Standard libraries for the Haskell 98 programming language
+      - jones:hasklib:1999
+  - - papers/jones:hw:1997
+    - - 'Green Card: a foreign-language interface for Haskell'
+      - jones:hw:1997
+  - - papers/jones:pldi:1999
+    - - A semantics for imprecise exceptions
+      - jones:pldi:1999
+  - - papers/peterson:hw:1995
+    - - Adding records to Haskell
+      - peterson:hw:1995
+  - - papers/peterson:padl:2001
+    - - 'FVision: A declarative language for visual tracking'
+      - peterson:padl:2001
+  - - papers/reid:gfpw:1993
+    - - Implementing Fudgets with standard widget sets
+      - reid:gfpw:1993
+  - - papers/reid:gfpw:1994
+    - - 'Malloc pointers and stable pointers: Improving Haskell''s foreign language
+        interface'
+      - reid:gfpw:1994
+  - - papers/reid:hw:1995
+    - - A proposal for the standard Haskell libraries
+      - reid:hw:1995
+  - - papers/reid:icse:1999
+    - - 'Prototyping real-time vision systems: An experiment in DSL design'
+      - reid:icse:1999
+  - - papers/reid:ifl:1998
+    - - 'Putting the spine back in the Spineless Tagless G-Machine: An implementation
+        of resumable black-holes'
+      - reid:ifl:1998
+  - - papers/reid:yale:1998
+    - - Designing the standard Haskell libraries
+      - reid:yale:1998
+  - - papers/reid:yale:2001
+    - - The Hugs graphics library (version 2.0)
+      - reid:yale:2001
+  notes/hyperproperty:
+  - - papers/clarkson:jcs:2010
+    - - Hyperproperties
+      - clarkson:jcs:2010
+  notes/implicit-dynamic-frames:
+  - - papers/kassios:fm:2006
+    - - 'Dynamic frames: Support for framing, dependencies and sharing without restrictions'
+      - kassios:fm:2006
+  - - papers/smans:ecoop:2009
+    - - 'Implicit dynamic frames: Combining dynamic frames and separation logic'
+      - smans:ecoop:2009
+  notes/information-flow:
+  - - papers/almeida:security:2016
+    - - Verifying constant-time implementations
+      - almeida:security:2016
+  - - papers/barthe:csfw:2004
+    - - Secure information flow by self composition
+      - barthe:csfw:2004
+  - - papers/barthe:iacr:2007
+    - - Provably secure compilation of side-channel countermeasures.
+      - barthe:iacr:2007
+  - - papers/clark:entcs:2002
+    - - Quantitative analysis of the leakage of confidential data
+      - clark:entcs:2002
+  - - papers/clarkson:jcs:2010
+    - - Hyperproperties
+      - clarkson:jcs:2010
+  - - papers/costanzo:pldi:2016
+    - - End-to-end verification of information flow security for C and assembly programs
+      - costanzo:pldi:2016
+  - - papers/deng:hasp:2019
+    - - 'SecChisel: Language and tool for practical and scalable security verification
+        of security-aware hardware architectures'
+      - deng:hasp:2019
+  - - papers/denning:cacm:1976
+    - - A lattice model of secure information flow
+      - denning:cacm:1976
+  - - papers/efstathopoulos:sosp:2005
+    - - Labels and event processes in the Asbestos operating system
+      - efstathopoulos:sosp:2005
+  - - papers/ferraiuolo:asplos:2017
+    - - Verification of a practical hardware security architecture through static
+        information flow analysis
+      - ferraiuolo:asplos:2017
+  - - papers/ferraiuolo:ccs:2018
+    - - 'HyperFlow: A processor architecture for nonmalleable, timing-safe information
+        flow security'
+      - ferraiuolo:ccs:2018
+  - - papers/ferraiuolo:dac:2017
+    - - Secure information flow verification with mutable dependent types
+      - ferraiuolo:dac:2017
+  - - papers/ferraiuolo:sosp:2017
+    - - 'Komodo: Using verification to disentangle secure-enclave hardware from software'
+      - ferraiuolo:sosp:2017
+  - - papers/goguen:secpriv:1982
+    - - Security policies and security models
+      - goguen:secpriv:1982
+  - - papers/goguen:secpriv:1984
+    - - Unwinding and inference control
+      - goguen:secpriv:1984
+  - - papers/hritcu:icfp:2013
+    - - Testing noninterference, quickly
+      - hritcu:icfp:2013
+  - - papers/khakpour:cpp:2013
+    - - Machine assisted proof of ARMv7 instruction level isolation properties
+      - khakpour:cpp:2013
+  - - papers/krohn:sosp:2007
+    - - Information flow control for standard OS abstractions
+      - krohn:sosp:2007
+  - - papers/leinenbach:fm:2009
+    - - Verifying the Microsoft Hyper-V hypervisor with VCC
+      - leinenbach:fm:2009
+  - - papers/liu:cpsspc:2018
+    - - Secure autonomous cyber-physical systems through verifiable information flow
+        control
+      - liu:cpsspc:2018
+  - - papers/mantel:pls:2007
+    - - Controlling the what and where of declassification in language-based security
+      - mantel:pls:2007
+  - - papers/mantel:sp:2001
+    - - Preserving information flow properties under refinement
+      - mantel:sp:2001
+  - - papers/murray:secpriv:2013
+    - - 'seL4: from general purpose to a proof of information flow enforcement'
+      - murray:secpriv:2013
+  - - papers/myers:csfw:2004
+    - - Enforcing robust declassification
+      - myers:csfw:2004
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  - - papers/oberg:dac:2010
+    - - Theoretical analysis of gate level information flow tracking
+      - oberg:dac:2010
+  - - papers/rushby:sri:1992
+    - - Noninterference, transitivity, and channel-control security policies
+      - rushby:sri:1992
+  - - papers/sabelfield:jcs:2009
+    - - 'Declassification: Dimensions and principles'
+      - sabelfield:jcs:2009
+  - - papers/sigurbjarnarson:osdi:2018
+    - - 'Nickel: A framework for design and verification of information flow control
+        systems'
+      - sigurbjarnarson:osdi:2018
+  - - papers/smith:fossacs:2009
+    - - On the foundations of quantitative information flow
+      - smith:fossacs:2009
+  - - papers/spencer:security:1999
+    - - 'The Flask security architecture: System support for diverse security policies'
+      - spencer:security:1999
+  - - papers/tiwari:asplos:2009
+    - - Complete information flow tracking from the gates up
+      - tiwari:asplos:2009
+  - - papers/tiwari:isca:2009
+    - - 'Execution leases: A hardware-supported mechanism for enforcing strong non-interference'
+      - tiwari:isca:2009
+  - - papers/tiwari:isca:2011
+    - - Crafting a usable microkernel, processor, and I/O system with strict and provable
+        information flow security
+      - tiwari:isca:2011
+  - - papers/vasudevan:usenix:2016
+    - - "\xFCberSpark: Enforcing verifiable object abstractions for automated compositional\
+        \ security analysis of a hypervisor"
+      - vasudevan:usenix:2016
+  - - papers/zdancewic:csfw:2001
+    - - Robust declassification
+      - zdancewic:csfw:2001
+  - - papers/zdancewic:csfw:2003
+    - - Observational determinism for concurrent program security
+      - zdancewic:csfw:2003
+  - - papers/zeldovich:osdi:2006
+    - - Making information flow explicit in HiStar
+      - zeldovich:osdi:2006
+  - - papers/zhang:asplos:2015
+    - - A hardware design language for timing-sensitive information flow security
+      - zhang:asplos:2015
+  notes/instruction-set-architecture:
+  - - papers/armstrong:arw:2018
+    - - 'Detailed models of instruction set architectures: From pseudocode to formal
+        semantics'
+      - armstrong:arw:2018
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/armstrong:spisa:2019
+    - - The state of Sail
+      - armstrong:spisa:2019
+  - - papers/dam:ted:2013
+    - - Machine code verification of a tiny ARM hypervisor
+      - dam:ted:2013
+  - - papers/dam:trusted:2013
+    - - Machine code verification of a tiny ARM hypervisor
+      - dam:trusted:2013
+  - - papers/dasgupta:pldi:2019
+    - - A complete formal semantics of x86-64 user-level instruction set architecture
+      - dasgupta:pldi:2019
+  - - papers/degenbaev:phd:2012
+    - - Formal specification of the x86 instruction set architecture
+      - degenbaev:phd:2012
+  - - papers/flur:popl:2016
+    - - 'Modelling the ARMv8 architecture, operationally: concurrency and ISA'
+      - flur:popl:2016
+  - - papers/fox:cambridge:2001
+    - - A HOL specification of the ARM instruction set architecture
+      - fox:cambridge:2001
+  - - papers/fox:itp:2010
+    - - A trustworthy monadic formalization of the ARMv7 instruction set architecture
+      - fox:itp:2010
+  - - papers/fox:itp:2012
+    - - Directions in ISA specification
+      - fox:itp:2012
+  - - papers/fox:itps:2015
+    - - Improved tool support for machine-code decompilation in HOL4
+      - fox:itps:2015
+  - - papers/fox:tphols:2003
+    - - Formal specification and verification of ARM6
+      - fox:tphols:2003
+  - - papers/goel:acl2:2013
+    - - Abstract stobjs and their application to ISA modeling
+      - goel:acl2:2013
+  - - papers/goel:fmcad:2014
+    - - Simulation and formal verification of x86 machine-code programs that make
+        system calls
+      - goel:fmcad:2014
+  - - papers/goel:pcs:2017
+    - - Engineering a Formal, Executable x86 ISA Simulator for Software Verification
+      - goel:pcs:2017
+  - - papers/goel:phd:2016
+    - - Formal verification of application and system programs based on a validated
+        x86 ISA model
+      - goel:phd:2016
+  - - papers/gray:micro:2015
+    - - An integrated concurrency and core-ISA architectural envelope definition,
+        and test oracle, for IBM POWER multiprocessors
+      - gray:micro:2015
+  - - papers/heule:pldi:2016
+    - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
+      - heule:pldi:2016
+  - - papers/kaufmann:utaustin:2012
+    - - Towards a formal model of the x86 ISA
+      - kaufmann:utaustin:2012
+  - - papers/lockhart:ispass:2015
+    - - 'Pydgin: generating fast instruction set simulators from simple architecture
+        descriptions with meta-tracing JIT compilers'
+      - lockhart:ispass:2015
+  - - papers/morrisett:pldi:2012
+    - - 'RockSalt: Better, faster, stronger SFI for the x86'
+      - morrisett:pldi:2012
+  - - papers/morrisett:wcsss:1999
+    - - 'TALx86: A realistic typed assembly language'
+      - morrisett:wcsss:1999
+  - - papers/myreen:tphols:2009
+    - - Verified LISP Implementations on ARM, x86 and PowerPC
+      - myreen:tphols:2009
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  - - papers/sarkar:pldi:2011
+    - - Understanding POWER multiprocessors
+      - sarkar:pldi:2011
+  - - papers/sarkar:popl:2009
+    - - The semantics of x86-CC multiprocessor machine code
+      - sarkar:popl:2009
+  - - papers/sewell:pldi:2013
+    - - Translation validation for a verified OS kernel
+      - sewell:pldi:2013
+  - - papers/shi:phd:2013
+    - - Certification of an instruction set simulator
+      - shi:phd:2013
+  - - papers/stephens:micro:2017
+    - - The ARM scalable vector extension
+      - stephens:micro:2017
+  notes/interactive-theorem-prover:
+  - - papers/demoura:cade:2015
+    - - The Lean theorem prover (system description)
+      - demoura:cade:2015
+  - - papers/nipkow:book:2002
+    - - 'Isabelle/HOL: A proof assistant for higher-order logic'
+      - nipkow:book:2002
+  notes/intermediate-verification-language:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/leino:tacas:2010
+    - - 'A polymorphic intermediate verification language: Design and logical encoding'
+      - leino:tacas:2010
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  - - papers/rakamaric:cav:2014
+    - - 'SMACK: Decoupling source language details from verifier implementations'
+      - rakamaric:cav:2014
+  - - papers/siegel:sc:2015
+    - - 'CIVL: the concurrency intermediate verification language'
+      - siegel:sc:2015
+  notes/isa-specification:
+  - - papers/armstrong:arw:2018
+    - - 'Detailed models of instruction set architectures: From pseudocode to formal
+        semantics'
+      - armstrong:arw:2018
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/armstrong:spisa:2019
+    - - The state of Sail
+      - armstrong:spisa:2019
+  - - papers/barbacci:cmu:1972
+    - - 'ISP: A language to describe instruction sets and other register transfer
+        systems'
+      - barbacci:cmu:1972
+  - - papers/barbacci:ieee:1981
+    - - 'Instruction set processor specifications (ISPS): The notation and its applications'
+      - barbacci:ieee:1981
+  - - papers/dam:ted:2013
+    - - Machine code verification of a tiny ARM hypervisor
+      - dam:ted:2013
+  - - papers/dam:trusted:2013
+    - - Machine code verification of a tiny ARM hypervisor
+      - dam:trusted:2013
+  - - papers/dasgupta:pldi:2019
+    - - A complete formal semantics of x86-64 user-level instruction set architecture
+      - dasgupta:pldi:2019
+  - - papers/degenbaev:phd:2012
+    - - Formal specification of the x86 instruction set architecture
+      - degenbaev:phd:2012
+  - - papers/falkoff:ibm:1964
+    - - A formal description of SYSTEM/360
+      - falkoff:ibm:1964
+  - - papers/flur:popl:2016
+    - - 'Modelling the ARMv8 architecture, operationally: concurrency and ISA'
+      - flur:popl:2016
+  - - papers/fox:cambridge:2001
+    - - A HOL specification of the ARM instruction set architecture
+      - fox:cambridge:2001
+  - - papers/fox:itp:2010
+    - - A trustworthy monadic formalization of the ARMv7 instruction set architecture
+      - fox:itp:2010
+  - - papers/fox:itp:2012
+    - - Directions in ISA specification
+      - fox:itp:2012
+  - - papers/fox:itps:2015
+    - - Improved tool support for machine-code decompilation in HOL4
+      - fox:itps:2015
+  - - papers/fox:tphols:2003
+    - - Formal specification and verification of ARM6
+      - fox:tphols:2003
+  - - papers/goel:acl2:2013
+    - - Abstract stobjs and their application to ISA modeling
+      - goel:acl2:2013
+  - - papers/goel:fmcad:2014
+    - - Simulation and formal verification of x86 machine-code programs that make
+        system calls
+      - goel:fmcad:2014
+  - - papers/goel:phd:2016
+    - - Formal verification of application and system programs based on a validated
+        x86 ISA model
+      - goel:phd:2016
+  - - papers/gray:micro:2015
+    - - An integrated concurrency and core-ISA architectural envelope definition,
+        and test oracle, for IBM POWER multiprocessors
+      - gray:micro:2015
+  - - papers/heule:pldi:2016
+    - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
+      - heule:pldi:2016
+  - - papers/kaufmann:utaustin:2012
+    - - Towards a formal model of the x86 ISA
+      - kaufmann:utaustin:2012
+  - - papers/lockhart:ispass:2015
+    - - 'Pydgin: generating fast instruction set simulators from simple architecture
+        descriptions with meta-tracing JIT compilers'
+      - lockhart:ispass:2015
+  - - papers/morrisett:pldi:2012
+    - - 'RockSalt: Better, faster, stronger SFI for the x86'
+      - morrisett:pldi:2012
+  - - papers/myreen:tphols:2009
+    - - Verified LISP Implementations on ARM, x86 and PowerPC
+      - myreen:tphols:2009
+  - - papers/regehr:asplos:2004
+    - - 'HOIST: a system for automatically deriving static analyzers for embedded
+        systems'
+      - regehr:asplos:2004
+  - - papers/regehr:emsoft:2003
+    - - Eliminating stack overflow by abstract interpretation
+      - regehr:emsoft:2003
+  - - papers/regehr:lctes:2006
+    - - Deriving abstract transfer functions for analyzing embedded software
+      - regehr:lctes:2006
+  - - papers/regehr:tecs:2005
+    - - Eliminating stack overflow by abstract interpretation
+      - regehr:tecs:2005
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  - - papers/sarkar:pldi:2011
+    - - Understanding POWER multiprocessors
+      - sarkar:pldi:2011
+  - - papers/sarkar:popl:2009
+    - - The semantics of x86-CC multiprocessor machine code
+      - sarkar:popl:2009
+  - - papers/sewell:pldi:2013
+    - - Translation validation for a verified OS kernel
+      - sewell:pldi:2013
+  - - papers/shi:phd:2013
+    - - Certification of an instruction set simulator
+      - shi:phd:2013
+  notes/klee-verifier:
+  - - papers/baldoni:compsurv:2018
+    - - A survey of symbolic execution techniques
+      - baldoni:compsurv:2018
+  - - papers/beyer:ase:2019
+    - - 'TestCov: Robust test-suite execution and coverage measurement'
+      - beyer:ase:2019
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  - - papers/cadar:cacm:2013
+    - - 'Symbolic execution for software testing: Three decades later'
+      - cadar:cacm:2013
+  - - papers/chipounov:hotdep:2009
+    - - Selective symbolic execution
+      - chipounov:hotdep:2009
+  - - papers/lindner:indin:2018
+    - - No panic! Verification of Rust programs by symbolic execution
+      - lindner:indin:2018
+  - - papers/lindner:indin:2019
+    - - 'Verification of safety functions implemented in Rust: A symbolic execution
+        based approach'
+      - lindner:indin:2019
+  - - papers/wagner:hotos:2013
+    - - '-Overify: Optimizing programs for fast verification'
+      - wagner:hotos:2013
+  notes/lean-theorem-prover:
+  - - papers/demoura:cade:2015
+    - - The Lean theorem prover (system description)
+      - demoura:cade:2015
+  notes/linear-logic:
+  - - papers/morrisett:wcsss:1999
+    - - 'TALx86: A realistic typed assembly language'
+      - morrisett:wcsss:1999
+  - - papers/nanevski:icfp:2008
+    - - 'Ynot: Dependent types for imperative programs'
+      - nanevski:icfp:2008
+  - - papers/smith:esop:2000
+    - - Alias types
+      - smith:esop:2000
+  - - papers/walker:tic:2001
+    - - Alias types for recursive data structures
+      - walker:tic:2001
+  notes/llvm-compiler:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/gurfinkel:cav:2015
+    - - The SeaHorn verification framework
+      - gurfinkel:cav:2015
+  - - papers/merz:vstte:2012
+    - - 'LLBMC: Bounded model checking of C and C++ programs using a compiler IR'
+      - merz:vstte:2012
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  - - papers/rakamaric:cav:2014
+    - - 'SMACK: Decoupling source language details from verifier implementations'
+      - rakamaric:cav:2014
+  notes/loop-invariant:
+  - - papers/hatcliff:compsurv:2012
+    - - Behavioral interface specification languages
+      - hatcliff:compsurv:2012
+  - - papers/hehner:vstte:2008
+    - - Specified blocks
+      - hehner:vstte:2008
+  - - papers/sharma:pls:2013
+    - - A data driven approach for algebraic loop invariants
+      - sharma:pls:2013
+  - - papers/tuerk:vstte:2010
+    - - Local reasoning about while-loops
+      - tuerk:vstte:2010
+  notes/magic-wand:
+  - - papers/blom:ijsttt:2015
+    - - Witnessing the elimination of magic wands
+      - blom:ijsttt:2015
+  - - papers/hobor:popl:2013
+    - - The ramifications of sharing in data structures
+      - hobor:popl:2013
+  - - papers/krishnaswami:tldi:2010
+    - - Verifying event-driven programs using ramified frame properties
+      - krishnaswami:tldi:2010
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  - - papers/schwerhoff:ecoop:2015
+    - - Lightweight support for magic wands in an automatic verifier
+      - schwerhoff:ecoop:2015
+  - - papers/tuerk:vstte:2010
+    - - Local reasoning about while-loops
+      - tuerk:vstte:2010
+  notes/mips-architecture:
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/armstrong:spisa:2019
+    - - The state of Sail
+      - armstrong:spisa:2019
+  notes/mir:
+  - - papers/jung:popl:2017
+    - - 'RustBelt: Securing the foundations of the Rust programming language'
+      - jung:popl:2017
+  - - papers/jung:popl:2020
+    - - 'Stacked borrows: An aliasing model for Rust'
+      - jung:popl:2020
+  - - papers/matsushita:esop:2020
+    - - 'RustHorn: CHC-based verification for Rust programs'
+      - matsushita:esop:2020
+  notes/mir-interpreter:
+  - - papers/jung:popl:2020
+    - - 'Stacked borrows: An aliasing model for Rust'
+      - jung:popl:2020
+  notes/model-checking:
+  - - papers/beyer:cav:2011
+    - - 'CPAchecker: A tool for configurable software verification'
+      - beyer:cav:2011
+  - - papers/beyer:ijsttt:2007
+    - - 'The software model checker BLAST: Applications to software engineering'
+      - beyer:ijsttt:2007
+  - - papers/beyer:sas:2004
+    - - The BLAST query language for software verification
+      - beyer:sas:2004
+  - - papers/biere:tacas:1999
+    - - Symbolic model checking without BDDs
+      - biere:tacas:1999
+  - - papers/chong:icse:2020
+    - - Code-level model checking in the software development workflow
+      - chong:icse:2020
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  - - papers/cook:cav:2018
+    - - Model checking boot code from AWS data centers
+      - cook:cav:2018
+  - - papers/henzinger:spin:2003
+    - - Software verification with BLAST
+      - henzinger:spin:2003
+  - - papers/mcmillan:ecs:2003
+    - - Model checking
+      - mcmillan:ecs:2003
+  notes/modular-verification:
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/calcagno:popl:2009
+    - - Compositional shape analysis by means of bi-abduction
+      - calcagno:popl:2009
+  - - papers/leino:fosad:2007
+    - - Verification of concurrent programs with Chalice
+      - leino:fosad:2007
+  - - papers/lindner:indin:2018
+    - - No panic! Verification of Rust programs by symbolic execution
+      - lindner:indin:2018
+  notes/non-interference:
+  - - papers/bowman:icfp:2015
+    - - Noninterference for free
+      - bowman:icfp:2015
+  - - papers/hritcu:icfp:2013
+    - - Testing noninterference, quickly
+      - hritcu:icfp:2013
+  - - papers/tiwari:isca:2009
+    - - 'Execution leases: A hardware-supported mechanism for enforcing strong non-interference'
+      - tiwari:isca:2009
+  notes/nova-hypervisor:
+  - - papers/becker:fm:2016
+    - - Combining mechanized proofs and model-based testing in the formal analysis
+        of a hypervisor
+      - becker:fm:2016
+  notes/ownership-types:
+  - - papers/levy:plos:2015
+    - - 'Ownership is theft: Experiences building an embedded OS in Rust'
+      - levy:plos:2015
+  - - papers/walker:tic:2001
+    - - Alias types for recursive data structures
+      - walker:tic:2001
+  notes/partial-order-reduction:
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  notes/permission-accounting:
+  - - papers/astrauskas:oopsla:2019
+    - - Leveraging Rust types for modular specification and verification
+      - astrauskas:oopsla:2019
+  - - papers/bornat:popl:2005
+    - - Permission accounting in separation logic
+      - bornat:popl:2005
+  - - papers/heule:ftfjp:2011
+    - - Fractional permissions without the fractions
+      - heule:ftfjp:2011
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/leino:fosad:2007
+    - - Verification of concurrent programs with Chalice
+      - leino:fosad:2007
+  notes/permission-logic:
+  - - papers/astrauskas:oopsla:2019
+    - - Leveraging Rust types for modular specification and verification
+      - astrauskas:oopsla:2019
+  - - papers/berdine:aplas:2005
+    - - Symbolic execution with separation logic
+      - berdine:aplas:2005
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  - - papers/blom:ijsttt:2015
+    - - Witnessing the elimination of magic wands
+      - blom:ijsttt:2015
+  - - papers/bornat:popl:2005
+    - - Permission accounting in separation logic
+      - bornat:popl:2005
+  - - papers/brookes:tcs:2006
+    - - A semantics for concurrent separation logic
+      - brookes:tcs:2006
+  - - papers/calcagno:popl:2009
+    - - Compositional shape analysis by means of bi-abduction
+      - calcagno:popl:2009
+  - - papers/deline:pldi:2001
+    - - Enforcing high-level protocols in low-level software
+      - deline:pldi:2001
+  - - papers/dinsdale-young:popl:2013
+    - - 'Views: Compositional reasoning for concurrent programs'
+      - dinsdale-young:popl:2013
+  - - papers/distefano:tacas:2006
+    - - A local shape analysis based on separation logic
+      - distefano:tacas:2006
+  - - papers/heule:ftfjp:2011
+    - - Fractional permissions without the fractions
+      - heule:ftfjp:2011
+  - - papers/heule:vmcai:2013
+    - - 'Abstract read permissions: Fractional permissions without the fractions'
+      - heule:vmcai:2013
+  - - papers/hobor:popl:2013
+    - - The ramifications of sharing in data structures
+      - hobor:popl:2013
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/jung:popl:2017
+    - - 'RustBelt: Securing the foundations of the Rust programming language'
+      - jung:popl:2017
+  - - papers/kassios:fm:2006
+    - - 'Dynamic frames: Support for framing, dependencies and sharing without restrictions'
+      - kassios:fm:2006
+  - - papers/krishnaswami:tldi:2010
+    - - Verifying event-driven programs using ramified frame properties
+      - krishnaswami:tldi:2010
+  - - papers/leino:fosad:2007
+    - - Verification of concurrent programs with Chalice
+      - leino:fosad:2007
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  - - papers/nanevski:icfp:2008
+    - - 'Ynot: Dependent types for imperative programs'
+      - nanevski:icfp:2008
+  - - papers/nanevski:oopsla:2019
+    - - 'Specifying concurrent programs in separation logic: Morphisms and simulations'
+      - nanevski:oopsla:2019
+  - - papers/ohearn:cacm:2019
+    - - Separation logic
+      - ohearn:cacm:2019
+  - - papers/ohearn:tcs:2007
+    - - Resources, concurrency, and local reasoning
+      - ohearn:tcs:2007
+  - - papers/parkinson:popl:2005
+    - - Separation logic and abstraction
+      - parkinson:popl:2005
+  - - papers/penninckx:nfm:2012
+    - - Sound formal verification of Linux's USB BP keyboard driver
+      - penninckx:nfm:2012
+  - - papers/philippaerts:scp:2014
+    - - 'Software verification with VeriFast: Industrial case studies'
+      - philippaerts:scp:2014
+  - - papers/reynolds:lics:2002
+    - - 'Separation logic: a logic for shared mutable data structures'
+      - reynolds:lics:2002
+  - - papers/schwerhoff:ecoop:2015
+    - - Lightweight support for magic wands in an automatic verifier
+      - schwerhoff:ecoop:2015
+  - - papers/smans:ecoop:2009
+    - - 'Implicit dynamic frames: Combining dynamic frames and separation logic'
+      - smans:ecoop:2009
+  - - papers/smans:fmood:2010
+    - - Heap-dependent expressions in separation logic
+      - smans:fmood:2010
+  - - papers/smith:esop:2000
+    - - Alias types
+      - smith:esop:2000
+  - - papers/vogels:fmoods:2011
+    - - Annotation inference for separation logic based verifiers
+      - vogels:fmoods:2011
+  - - papers/walker:tic:2001
+    - - Alias types for recursive data structures
+      - walker:tic:2001
+  notes/pin-tool:
+  - - papers/avgerinos:icse:2014
+    - - Enhancing symbolic execution with veritesting
+      - avgerinos:icse:2014
+  notes/powerpc-architecture:
+  - - papers/gray:micro:2015
+    - - An integrated concurrency and core-ISA architectural envelope definition,
+        and test oracle, for IBM POWER multiprocessors
+      - gray:micro:2015
+  - - papers/myreen:tphols:2009
+    - - Verified LISP Implementations on ARM, x86 and PowerPC
+      - myreen:tphols:2009
+  - - papers/sarkar:pldi:2011
+    - - Understanding POWER multiprocessors
+      - sarkar:pldi:2011
+  notes/proof-carrying-code:
+  - - papers/necula:popl:1997
+    - - Proof-carrying code
+      - necula:popl:1997
+  notes/prusti-verifier:
+  - - papers/blom:ijsttt:2015
+    - - Witnessing the elimination of magic wands
+      - blom:ijsttt:2015
+  - - papers/schwerhoff:ecoop:2015
+    - - Lightweight support for magic wands in an automatic verifier
+      - schwerhoff:ecoop:2015
+  notes/riscv-architecture:
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/armstrong:spisa:2019
+    - - The state of Sail
+      - armstrong:spisa:2019
+  - - papers/lockhart:ispass:2015
+    - - 'Pydgin: generating fast instruction set simulators from simple architecture
+        descriptions with meta-tracing JIT compilers'
+      - lockhart:ispass:2015
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  notes/rosette-solver:
+  - - papers/bornholt:oopsla:2018
+    - - Finding code that explodes under symbolic evaluation
+      - bornholt:oopsla:2018
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  - - papers/torlak:onward:2013
+    - - Growing solver-aided languages with Rosette
+      - torlak:onward:2013
+  - - papers/torlak:pldi:2014
+    - - A lightweight symbolic virtual machine for solver-aided host languages
+      - torlak:pldi:2014
+  - - papers/weitz:icfp:2017
+    - - 'SpaceSearch: A library for building and verifying solver-aided tools'
+      - weitz:icfp:2017
+  notes/rust-language:
+  - - papers/astrauskas:oopsla:2019
+    - - Leveraging Rust types for modular specification and verification
+      - astrauskas:oopsla:2019
+  - - papers/balasubramanium:hotos:2017
+    - - 'System programming in Rust: Beyond safety'
+      - balasubramanium:hotos:2017
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/jung:popl:2017
+    - - 'RustBelt: Securing the foundations of the Rust programming language'
+      - jung:popl:2017
+  - - papers/jung:popl:2020
+    - - 'Stacked borrows: An aliasing model for Rust'
+      - jung:popl:2020
+  - - papers/klabnik:book:2018
+    - - The Rust programming language
+      - klabnik:book:2018
+  - - papers/levy:apsys:2017
+    - - The case for writing a kernel in Rust
+      - levy:apsys:2017
+  - - papers/levy:plos:2015
+    - - 'Ownership is theft: Experiences building an embedded OS in Rust'
+      - levy:plos:2015
+  - - papers/levy:sosp:2017
+    - - Multiprogramming a 64kB computer safely and efficiently
+      - levy:sosp:2017
+  - - papers/lindner:indin:2018
+    - - No panic! Verification of Rust programs by symbolic execution
+      - lindner:indin:2018
+  - - papers/lindner:indin:2019
+    - - 'Verification of safety functions implemented in Rust: A symbolic execution
+        based approach'
+      - lindner:indin:2019
+  - - papers/matsushita:esop:2020
+    - - 'RustHorn: CHC-based verification for Rust programs'
+      - matsushita:esop:2020
+  - - papers/narayanan:hotos:2019
+    - - 'RedLeaf: Towards an operating system for safe and verified firmware'
+      - narayanan:hotos:2019
+  - - papers/toman:ase:2015
+    - - 'Crust: A bounded verifier for Rust'
+      - toman:ase:2015
+  - - papers/ullrich:msc:2016
+    - - Simple Verification of Rust Programs via Functional Purification
+      - ullrich:msc:2016
+  - - papers/wang:tase:2018
+    - - 'KRust: A formal executable semantics of Rust'
+      - wang:tase:2018
+  - - papers/weiss:arxiv:2018
+    - - 'Rust distilled: An expressive tower of languages'
+      - weiss:arxiv:2018
+  notes/rust-unsafe-code:
+  - - papers/jung:popl:2017
+    - - 'RustBelt: Securing the foundations of the Rust programming language'
+      - jung:popl:2017
+  - - papers/jung:popl:2020
+    - - 'Stacked borrows: An aliasing model for Rust'
+      - jung:popl:2020
+  - - papers/toman:ase:2015
+    - - 'Crust: A bounded verifier for Rust'
+      - toman:ase:2015
+  notes/s2e-verifier:
+  - - papers/chipounov:asplos:2011
+    - - 'S2E: A platform for in-vivo multi-path analysis of software systems'
+      - chipounov:asplos:2011
+  - - papers/chipounov:hotdep:2009
+    - - Selective symbolic execution
+      - chipounov:hotdep:2009
+  - - papers/chipounov:tcs:2012
+    - - 'The S2E platform: Design, implementation, and applications'
+      - chipounov:tcs:2012
+  notes/sage-verifier:
+  - - papers/godefroid:cacm:2020
+    - - 'Fuzzing: Hack, art, and science'
+      - godefroid:cacm:2020
+  notes/sail-language:
+  - - papers/armstrong:arw:2018
+    - - 'Detailed models of instruction set architectures: From pseudocode to formal
+        semantics'
+      - armstrong:arw:2018
+  - - papers/armstrong:popl19:2019
+    - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
+      - armstrong:popl19:2019
+  - - papers/armstrong:spisa:2019
+    - - The state of Sail
+      - armstrong:spisa:2019
+  notes/sat-solver:
+  - - papers/brummayer:sat:2010
+    - - Automated testing and debugging of SAT and QBF solvers
+      - brummayer:sat:2010
+  - - papers/demoura:cacm:2011
+    - - 'Satisfiability modulo theories: Introduction and applications'
+      - demoura:cacm:2011
+  - - papers/malik:cacm:2009
+    - - Boolean satisfiability from theoretical hardness to practical success
+      - malik:cacm:2009
+  notes/seahorn-verifier:
+  - - papers/gurfinkel:cav:2015
+    - - The SeaHorn verification framework
+      - gurfinkel:cav:2015
+  notes/self-composition:
+  - - papers/almeida:security:2016
+    - - Verifying constant-time implementations
+      - almeida:security:2016
+  - - papers/barthe:csfw:2004
+    - - Secure information flow by self composition
+      - barthe:csfw:2004
+  - - papers/barthe:iacr:2007
+    - - Provably secure compilation of side-channel countermeasures.
+      - barthe:iacr:2007
+  notes/separation-logic:
+  - - papers/berdine:aplas:2005
+    - - Symbolic execution with separation logic
+      - berdine:aplas:2005
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  - - papers/bornat:popl:2005
+    - - Permission accounting in separation logic
+      - bornat:popl:2005
+  - - papers/distefano:tacas:2006
+    - - A local shape analysis based on separation logic
+      - distefano:tacas:2006
+  - - papers/hatcliff:compsurv:2012
+    - - Behavioral interface specification languages
+      - hatcliff:compsurv:2012
+  - - papers/hobor:popl:2013
+    - - The ramifications of sharing in data structures
+      - hobor:popl:2013
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/krishnaswami:tldi:2010
+    - - Verifying event-driven programs using ramified frame properties
+      - krishnaswami:tldi:2010
+  - - papers/nanevski:oopsla:2019
+    - - 'Specifying concurrent programs in separation logic: Morphisms and simulations'
+      - nanevski:oopsla:2019
+  - - papers/ohearn:cacm:2019
+    - - Separation logic
+      - ohearn:cacm:2019
+  - - papers/ohearn:tcs:2007
+    - - Resources, concurrency, and local reasoning
+      - ohearn:tcs:2007
+  - - papers/parkinson:popl:2005
+    - - Separation logic and abstraction
+      - parkinson:popl:2005
+  - - papers/penninckx:nfm:2012
+    - - Sound formal verification of Linux's USB BP keyboard driver
+      - penninckx:nfm:2012
+  - - papers/philippaerts:scp:2014
+    - - 'Software verification with VeriFast: Industrial case studies'
+      - philippaerts:scp:2014
+  - - papers/reynolds:lics:2002
+    - - 'Separation logic: a logic for shared mutable data structures'
+      - reynolds:lics:2002
+  - - papers/schwerhoff:ecoop:2015
+    - - Lightweight support for magic wands in an automatic verifier
+      - schwerhoff:ecoop:2015
+  - - papers/smans:ecoop:2009
+    - - 'Implicit dynamic frames: Combining dynamic frames and separation logic'
+      - smans:ecoop:2009
+  - - papers/tuerk:vstte:2010
+    - - Local reasoning about while-loops
+      - tuerk:vstte:2010
+  - - papers/vogels:fmoods:2011
+    - - Annotation inference for separation logic based verifiers
+      - vogels:fmoods:2011
+  notes/smack-verifier:
+  - - papers/almeida:security:2016
+    - - Verifying constant-time implementations
+      - almeida:security:2016
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/rakamaric:cav:2014
+    - - 'SMACK: Decoupling source language details from verifier implementations'
+      - rakamaric:cav:2014
+  notes/smallfoot-verifier:
+  - - papers/berdine:aplas:2005
+    - - Symbolic execution with separation logic
+      - berdine:aplas:2005
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  - - papers/calcagno:popl:2009
+    - - Compositional shape analysis by means of bi-abduction
+      - calcagno:popl:2009
+  notes/smt-lib-format: []
+  notes/smt-solver:
+  - - papers/barrett:cade:2000
+    - - A framework for cooperating decision procedures
+      - barrett:cade:2000
+  - - papers/barrett:mlf:2015
+    - - Proofs in Satisfiability Modulo Theories
+      - barrett:mlf:2015
+  - - papers/barrett:smtlib:2016
+    - - The Satisfiability Modulo Theories Library (SMT-LIB)
+      - barrett:smtlib:2016
+  - - papers/brummayer:sat:2010
+    - - Automated testing and debugging of SAT and QBF solvers
+      - brummayer:sat:2010
+  - - papers/demoura:cacm:2011
+    - - 'Satisfiability modulo theories: Introduction and applications'
+      - demoura:cacm:2011
+  - - papers/demoura:tacas:2008
+    - - 'Z3: An efficient SMT solver'
+      - demoura:tacas:2008
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/leino:icse:2013
+    - - Developing verified programs with Dafny
+      - leino:icse:2013
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  - - papers/leino:sac:2009
+    - - Reasoning about comprehensions with first-order SMT solvers
+      - leino:sac:2009
+  - - papers/malik:cacm:2009
+    - - Boolean satisfiability from theoretical hardness to practical success
+      - malik:cacm:2009
+  - - papers/mansur:arxiv:2020
+    - - Detecting critical bugs in SMT solvers using blackbox mutational fuzzing
+      - mansur:arxiv:2020
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  - - papers/niemetz:jsat:2015
+    - - Boolector 2.0
+      - niemetz:jsat:2015
+  - - papers/stump:fmsd:2013
+    - - SMT proof checking using a logical framework
+      - stump:fmsd:2013
+  notes/spec-sharp-project:
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  - - papers/barnett:cassis:2004
+    - - 'The Spec# programming system: An overview'
+      - barnett:cassis:2004
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/barnett:vstte:2005
+    - - 'The Spec# programming system: Challenges and directions'
+      - barnett:vstte:2005
+  - - papers/deline:pldi:2001
+    - - Enforcing high-level protocols in low-level software
+      - deline:pldi:2001
+  - - papers/hatcliff:compsurv:2012
+    - - Behavioral interface specification languages
+      - hatcliff:compsurv:2012
+  - - papers/leino:sac:2009
+    - - Reasoning about comprehensions with first-order SMT solvers
+      - leino:sac:2009
+  notes/survey:
+  - - papers/baldoni:compsurv:2018
+    - - A survey of symbolic execution techniques
+      - baldoni:compsurv:2018
+  - - papers/cadar:cacm:2013
+    - - 'Symbolic execution for software testing: Three decades later'
+      - cadar:cacm:2013
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  - - papers/demoura:cacm:2011
+    - - 'Satisfiability modulo theories: Introduction and applications'
+      - demoura:cacm:2011
+  - - papers/godefroid:cacm:2020
+    - - 'Fuzzing: Hack, art, and science'
+      - godefroid:cacm:2020
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
+  - - papers/malik:cacm:2009
+    - - Boolean satisfiability from theoretical hardness to practical success
+      - malik:cacm:2009
+  - - papers/manes:ieeetse:2019
+    - - 'The art, science, and engineering of fuzzing: A survey'
+      - manes:ieeetse:2019
+  - - papers/mcmillan:ecs:2003
+    - - Model checking
+      - mcmillan:ecs:2003
+  - - papers/ohearn:cacm:2019
+    - - Separation logic
+      - ohearn:cacm:2019
+  notes/sv-competition:
+  - - papers/beyer:cav:2011
+    - - 'CPAchecker: A tool for configurable software verification'
+      - beyer:cav:2011
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  - - papers/beyer:ijsttt:2007
+    - - 'The software model checker BLAST: Applications to software engineering'
+      - beyer:ijsttt:2007
+  - - papers/holzer:cav:2008
+    - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
+      - holzer:cav:2008
+  notes/symbolic-evaluation:
+  - - papers/bornholt:oopsla:2018
+    - - Finding code that explodes under symbolic evaluation
+      - bornholt:oopsla:2018
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  - - papers/torlak:onward:2013
+    - - Growing solver-aided languages with Rosette
+      - torlak:onward:2013
+  - - papers/torlak:pldi:2014
+    - - A lightweight symbolic virtual machine for solver-aided host languages
+      - torlak:pldi:2014
+  notes/symbolic-execution:
+  - - papers/avgerinos:icse:2014
+    - - Enhancing symbolic execution with veritesting
+      - avgerinos:icse:2014
+  - - papers/baldoni:compsurv:2018
+    - - A survey of symbolic execution techniques
+      - baldoni:compsurv:2018
+  - - papers/berdine:aplas:2005
+    - - Symbolic execution with separation logic
+      - berdine:aplas:2005
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  - - papers/bornholt:oopsla:2018
+    - - Finding code that explodes under symbolic evaluation
+      - bornholt:oopsla:2018
+  - - papers/cadar:cacm:2013
+    - - 'Symbolic execution for software testing: Three decades later'
+      - cadar:cacm:2013
+  - - papers/cadar:osdi:2008
+    - - 'KLEE: Unassisted and automatic generation of high-coverage tests for complex
+        systems programs'
+      - cadar:osdi:2008
+  - - papers/chipounov:asplos:2011
+    - - 'S2E: A platform for in-vivo multi-path analysis of software systems'
+      - chipounov:asplos:2011
+  - - papers/chipounov:hotdep:2009
+    - - Selective symbolic execution
+      - chipounov:hotdep:2009
+  - - papers/chipounov:tcs:2012
+    - - 'The S2E platform: Design, implementation, and applications'
+      - chipounov:tcs:2012
+  - - papers/godefroid:acmq:2012
+    - - 'SAGE: Whitebox fuzzing for security testing'
+      - godefroid:acmq:2012
+  - - papers/godefroid:cacm:2020
+    - - 'Fuzzing: Hack, art, and science'
+      - godefroid:cacm:2020
+  - - papers/godefroid:pldi:2012
+    - - Automated synthesis of symbolic instruction encodings from I/O samples
+      - godefroid:pldi:2012
+  - - papers/lindner:indin:2018
+    - - No panic! Verification of Rust programs by symbolic execution
+      - lindner:indin:2018
+  - - papers/lindner:indin:2019
+    - - 'Verification of safety functions implemented in Rust: A symbolic execution
+        based approach'
+      - lindner:indin:2019
+  - - papers/manes:ieeetse:2019
+    - - 'The art, science, and engineering of fuzzing: A survey'
+      - manes:ieeetse:2019
+  - - papers/torlak:pldi:2014
+    - - A lightweight symbolic virtual machine for solver-aided host languages
+      - torlak:pldi:2014
+  notes/symbolic-model-checking:
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  notes/systematization-of-knowledge: []
+  notes/temporal-logic:
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  notes/test-case-reduction:
+  - - papers/groce:issta:2017
+    - - One test to rule them all
+      - groce:issta:2017
+  - - papers/maciver:ecoop:2020
+    - - 'Test-case reduction via test-case generation: Insights from the Hypothesis
+        reducer'
+      - maciver:ecoop:2020
+  - - papers/regehr:pldi:2012
+    - - Test-case reduction for C compiler bugs
+      - regehr:pldi:2012
+  notes/test-competition:
+  - - papers/beyer:ase:2019
+    - - 'TestCov: Robust test-suite execution and coverage measurement'
+      - beyer:ase:2019
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  notes/test-driven-development: []
+  notes/translation-validation:
+  - - papers/leroy:cacm:2009
+    - - Formal verification of a realistic compiler
+      - leroy:cacm:2009
+  - - papers/necula:pldi:2000
+    - - Translation validation for an optimizing compiler
+      - necula:pldi:2000
+  - - papers/pnueli:tacas:1998
+    - - Translation validation
+      - pnueli:tacas:1998
+  - - papers/samet:phd:1975
+    - - Automatically proving the correctness of translations involving optimized
+        code.
+      - samet:phd:1975
+  - - papers/sewell:pldi:2013
+    - - Translation validation for a verified OS kernel
+      - sewell:pldi:2013
+  - - papers/tahat:fmcad:2019
+    - - Scalable translation validation of unverified legacy OS code
+      - tahat:fmcad:2019
+  notes/turing-award:
+  - - papers/clarke:cacm:2009
+    - - 'Model checking: Algorithmic verification and debugging'
+      - clarke:cacm:2009
+  notes/typed-assembly-language:
+  - - papers/morrisett:wcsss:1999
+    - - 'TALx86: A realistic typed assembly language'
+      - morrisett:wcsss:1999
+  - - papers/mycroft:esop:1999
+    - - Type-based decompilation (or program reconstruction via type reconstruction)
+      - mycroft:esop:1999
+  - - papers/walker:popl:2000
+    - - A type system for expressive security policies
+      - walker:popl:2000
+  - - papers/walker:tic:2001
+    - - Alias types for recursive data structures
+      - walker:tic:2001
+  - - papers/xi:icfp:2001
+    - - A dependently typed assembly language
+      - xi:icfp:2001
+  - - papers/yang:pldi:2010
+    - - 'Safe to the last instruction: automated verification of a type-safe operating
+        system'
+      - yang:pldi:2010
+  notes/undefined-behaviour:
+  - - papers/jung:popl:2017
+    - - 'RustBelt: Securing the foundations of the Rust programming language'
+      - jung:popl:2017
+  - - papers/jung:popl:2020
+    - - 'Stacked borrows: An aliasing model for Rust'
+      - jung:popl:2020
+  - - papers/toman:ase:2015
+    - - 'Crust: A bounded verifier for Rust'
+      - toman:ase:2015
+  notes/vcc-verifier:
+  - - papers/cohen:cav:2010
+    - - Local verification of global invariants in concurrent programs
+      - cohen:cav:2010
+  - - papers/cohen:entcs:2009
+    - - A precise yet efficient memory model for C
+      - cohen:entcs:2009
+  - - papers/legoues:sefm:2011
+    - - The Boogie verification debugger
+      - legoues:sefm:2011
+  - - papers/leinenbach:fm:2009
+    - - Verifying the Microsoft Hyper-V hypervisor with VCC
+      - leinenbach:fm:2009
+  - - papers/vogels:fmoods:2011
+    - - Annotation inference for separation logic based verifiers
+      - vogels:fmoods:2011
+  notes/verifast-verifier:
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/penninckx:nfm:2012
+    - - Sound formal verification of Linux's USB BP keyboard driver
+      - penninckx:nfm:2012
+  - - papers/philippaerts:scp:2014
+    - - 'Software verification with VeriFast: Industrial case studies'
+      - philippaerts:scp:2014
+  - - papers/tuerk:vstte:2010
+    - - Local reasoning about while-loops
+      - tuerk:vstte:2010
+  - - papers/vogels:fmoods:2011
+    - - Annotation inference for separation logic based verifiers
+      - vogels:fmoods:2011
+  notes/verification-competition:
+  - - papers/nyxbrain:sc2:2017
+    - - Benchmarking solvers, SAT-style
+      - nyxbrain:sc2:2017
+  - - papers/sutcliffe:ai:2001
+    - - Evaluating general purpose automated theorem proving systems
+      - sutcliffe:ai:2001
+  notes/verification-condition-generator:
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  notes/viper-verifier:
+  - - papers/astrauskas:oopsla:2019
+    - - Leveraging Rust types for modular specification and verification
+      - astrauskas:oopsla:2019
+  - - papers/blom:ijsttt:2015
+    - - Witnessing the elimination of magic wands
+      - blom:ijsttt:2015
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  - - papers/schwerhoff:ecoop:2015
+    - - Lightweight support for magic wands in an automatic verifier
+      - schwerhoff:ecoop:2015
+  notes/why3-verifier:
+  - - papers/cuoq:sefm:2012
+    - - 'Frama-C: A software analysis perspective'
+      - cuoq:sefm:2012
+  - - papers/filliatre:cav:2007
+    - - The Why/Krakatoa/Caduceus platform for deductive program verification
+      - filliatre:cav:2007
+  - - papers/filliatre:esop:2013
+    - - "Why3 \u2014 where programs meet provers"
+      - filliatre:esop:2013
+  - - papers/filliatre:fem:2004
+    - - Multi-prover verification of C programs
+      - filliatre:fem:2004
+  notes/x86-architecture:
+  - - papers/dasgupta:pldi:2019
+    - - A complete formal semantics of x86-64 user-level instruction set architecture
+      - dasgupta:pldi:2019
+  - - papers/degenbaev:phd:2012
+    - - Formal specification of the x86 instruction set architecture
+      - degenbaev:phd:2012
+  - - papers/goel:acl2:2013
+    - - Abstract stobjs and their application to ISA modeling
+      - goel:acl2:2013
+  - - papers/goel:fmcad:2014
+    - - Simulation and formal verification of x86 machine-code programs that make
+        system calls
+      - goel:fmcad:2014
+  - - papers/goel:pcs:2017
+    - - Engineering a Formal, Executable x86 ISA Simulator for Software Verification
+      - goel:pcs:2017
+  - - papers/goel:phd:2016
+    - - Formal verification of application and system programs based on a validated
+        x86 ISA model
+      - goel:phd:2016
+  - - papers/heule:pldi:2016
+    - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
+      - heule:pldi:2016
+  - - papers/kaufmann:utaustin:2012
+    - - Towards a formal model of the x86 ISA
+      - kaufmann:utaustin:2012
+  - - papers/martignoni:asplos:2012
+    - - 'Path-exploration lifting: Hi-fi tests for lo-fi emulators'
+      - martignoni:asplos:2012
+  - - papers/morrisett:pldi:2012
+    - - 'RockSalt: Better, faster, stronger SFI for the x86'
+      - morrisett:pldi:2012
+  - - papers/morrisett:wcsss:1999
+    - - 'TALx86: A realistic typed assembly language'
+      - morrisett:wcsss:1999
+  - - papers/myreen:tphols:2009
+    - - Verified LISP Implementations on ARM, x86 and PowerPC
+      - myreen:tphols:2009
+  - - papers/sarkar:popl:2009
+    - - The semantics of x86-CC multiprocessor machine code
+      - sarkar:popl:2009
+  notes/z3-solver:
+  - - papers/avgerinos:icse:2014
+    - - Enhancing symbolic execution with veritesting
+      - avgerinos:icse:2014
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/demoura:tacas:2008
+    - - 'Z3: An efficient SMT solver'
+      - demoura:tacas:2008
+  - - papers/leino:icse:2013
+    - - Developing verified programs with Dafny
+      - leino:icse:2013
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  papers/abadi:tcs:1991: []
+  papers/alkassar:vstte:2010: []
+  papers/alkassar:vstte:2012: []
+  papers/almeida:security:2016: []
+  papers/amani:asplos:2016: []
+  papers/andronick:icse:2012: []
+  papers/armstrong:arw:2018: []
+  papers/armstrong:popl19:2019: []
+  papers/armstrong:spisa:2019: []
+  papers/astrauskas:oopsla:2019:
+  - - papers/matsushita:esop:2020
+    - - 'RustHorn: CHC-based verification for Rust programs'
+      - matsushita:esop:2020
+  papers/avgerinos:icse:2014: []
+  papers/babic:fse:2019: []
+  papers/balasubramanium:hotos:2017: []
+  papers/baldoni:compsurv:2018:
+  - - papers/cadar:cacm:2013
+    - - 'Symbolic execution for software testing: Three decades later'
+      - cadar:cacm:2013
+  papers/ball:dsse:2015: []
+  papers/ball:pldi:2001:
+  - - papers/henzinger:spin:2003
+    - - Software verification with BLAST
+      - henzinger:spin:2003
+  papers/bansal:asplos:2006: []
+  papers/bansal:osdi:2008: []
+  papers/baranowski:atva:2018:
+  - - papers/matsushita:esop:2020
+    - - 'RustHorn: CHC-based verification for Rust programs'
+      - matsushita:esop:2020
+  papers/barbacci:cmu:1972: []
+  papers/barbacci:ieee:1981: []
+  papers/barnett:cacm:2011:
+  - - papers/legoues:sefm:2011
+    - - The Boogie verification debugger
+      - legoues:sefm:2011
+  papers/barnett:cassis:2004:
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  papers/barnett:fmco:2005:
+  - - papers/almeida:security:2016
+    - - Verifying constant-time implementations
+      - almeida:security:2016
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  - - papers/legoues:sefm:2011
+    - - The Boogie verification debugger
+      - legoues:sefm:2011
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  papers/barnett:vstte:2005: []
+  papers/barrett:cade:2000: []
+  papers/barrett:mlf:2015:
+  - - papers/stump:fmsd:2013
+    - - SMT proof checking using a logical framework
+      - stump:fmsd:2013
+  papers/barrett:smtlib:2016: []
+  papers/barthe:csfw:2004: []
+  papers/barthe:iacr:2007: []
+  papers/bastian:oopsla:2019: []
+  papers/becker:fm:2016: []
+  papers/berdine:aplas:2005:
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  papers/berdine:fmco:2005:
+  - - papers/berdine:aplas:2005
+    - - Symbolic execution with separation logic
+      - berdine:aplas:2005
+  - - papers/calcagno:popl:2009
+    - - Compositional shape analysis by means of bi-abduction
+      - calcagno:popl:2009
+  papers/beyer:ase:2019: []
+  papers/beyer:cav:2011: []
+  papers/beyer:hvc:2017:
+  - - papers/beyer:ase:2019
+    - - 'TestCov: Robust test-suite execution and coverage measurement'
+      - beyer:ase:2019
+  papers/beyer:ijsttt:2007:
+  - - papers/beyer:cav:2011
+    - - 'CPAchecker: A tool for configurable software verification'
+      - beyer:cav:2011
+  - - papers/beyer:sas:2004
+    - - The BLAST query language for software verification
+      - beyer:sas:2004
+  papers/beyer:sas:2004:
+  - - papers/beyer:ijsttt:2007
+    - - 'The software model checker BLAST: Applications to software engineering'
+      - beyer:ijsttt:2007
+  papers/biere:tacas:1999: []
+  papers/blanchard:fmics:2015: []
+  papers/blom:ijsttt:2015: []
+  papers/boettcher:date:2014: []
+  papers/bohme2:fse:2020: []
+  papers/bohme:fse:2020: []
+  papers/bornat:popl:2005:
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  - - papers/heule:ftfjp:2011
+    - - Fractional permissions without the fractions
+      - heule:ftfjp:2011
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  papers/bornholt:oopsla:2018: []
+  papers/bowman:icfp:2015: []
+  papers/brookes:tcs:2006: []
+  papers/brummayer:sat:2010:
+  - - papers/barrett:mlf:2015
+    - - Proofs in Satisfiability Modulo Theories
+      - barrett:mlf:2015
+  - - papers/mansur:arxiv:2020
+    - - Detecting critical bugs in SMT solvers using blackbox mutational fuzzing
+      - mansur:arxiv:2020
+  - - papers/stump:fmsd:2013
+    - - SMT proof checking using a logical framework
+      - stump:fmsd:2013
+  papers/cadar:cacm:2013:
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  papers/cadar:osdi:2008: []
+  papers/calcagno:popl:2009: []
+  papers/chakravarty:haskffi:2003:
+  - - papers/jones:hw:1997
+    - - 'Green Card: a foreign-language interface for Haskell'
+      - jones:hw:1997
+  papers/chatterjee:tacas:2007:
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  papers/chipounov:asplos:2011: []
+  papers/chipounov:hotdep:2009: []
+  papers/chipounov:tcs:2012: []
+  papers/choi:icfp:2017: []
+  papers/chong:icse:2020: []
+  papers/clark:entcs:2002: []
+  papers/clarke:cacm:2009:
+  - - papers/mcmillan:ecs:2003
+    - - Model checking
+      - mcmillan:ecs:2003
+  papers/clarke:cav:2000: []
+  papers/clarke:tacas:2004: []
+  papers/clarkson:jcs:2010: []
+  papers/cock:ccs:2014: []
+  papers/cohen:cav:2010:
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/cohen:entcs:2009
+    - - A precise yet efficient memory model for C
+      - cohen:entcs:2009
+  - - papers/legoues:sefm:2011
+    - - The Boogie verification debugger
+      - legoues:sefm:2011
+  - - papers/philippaerts:scp:2014
+    - - 'Software verification with VeriFast: Industrial case studies'
+      - philippaerts:scp:2014
+  papers/cohen:entcs:2009: []
+  papers/condit:popl:2009: []
+  papers/cook:cav:2018: []
+  papers/costanzo:pldi:2016:
+  - - papers/murray:secpriv:2013
+    - - 'seL4: from general purpose to a proof of information flow enforcement'
+      - murray:secpriv:2013
+  papers/cousot:oopsla:2012: []
+  papers/cuoq:sefm:2012:
+  - - papers/filliatre:fem:2004
+    - - Multi-prover verification of C programs
+      - filliatre:fem:2004
+  - - papers/mangano:crisis:2016
+    - - 'Formal verification of a memory allocation module of Contiki with Frama-C:
+        a case study'
+      - mangano:crisis:2016
+  papers/dam:ted:2013: []
+  papers/dam:trusted:2013: []
+  papers/damm:fmoods:1999: []
+  papers/dasgupta:pldi:2019: []
+  papers/degenbaev:phd:2012: []
+  papers/deline:pldi:2001: []
+  papers/demoura:cacm:2011:
+  - - papers/malik:cacm:2009
+    - - Boolean satisfiability from theoretical hardness to practical success
+      - malik:cacm:2009
+  papers/demoura:cade:2015:
+  - - papers/ullrich:msc:2016
+    - - Simple Verification of Rust Programs via Functional Purification
+      - ullrich:msc:2016
+  papers/demoura:tacas:2008:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  - - papers/deng:hasp:2019
+    - - 'SecChisel: Language and tool for practical and scalable security verification
+        of security-aware hardware architectures'
+      - deng:hasp:2019
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  - - papers/zhang:asplos:2015
+    - - A hardware design language for timing-sensitive information flow security
+      - zhang:asplos:2015
+  papers/deng:hasp:2019: []
+  papers/denning:cacm:1976: []
+  papers/dinsdale-young:popl:2013: []
+  papers/distefano:tacas:2006: []
+  papers/efstathopoulos:sosp:2005:
+  - - papers/spencer:security:1999
+    - - 'The Flask security architecture: System support for diverse security policies'
+      - spencer:security:1999
+  papers/eide:aspse:2001: []
+  papers/eide:icse:2002: []
+  papers/ernst:icse:2016: []
+  papers/fahndrich:foveoos:2010:
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  papers/falkoff:ibm:1964: []
+  papers/ferraiuolo:asplos:2017: []
+  papers/ferraiuolo:ccs:2018: []
+  papers/ferraiuolo:dac:2017: []
+  papers/ferraiuolo:sosp:2017: []
+  papers/filliatre:cav:2007: []
+  papers/filliatre:esop:2013: []
+  papers/filliatre:fem:2004:
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  - - papers/philippaerts:scp:2014
+    - - 'Software verification with VeriFast: Industrial case studies'
+      - philippaerts:scp:2014
+  papers/fischer:ase:2013: []
+  papers/flur:popl:2016: []
+  papers/fonseca:ecs:2017: []
+  papers/fox:cambridge:2001: []
+  papers/fox:itp:2010: []
+  papers/fox:itp:2012: []
+  papers/fox:itps:2015: []
+  papers/fox:tphols:2003: []
+  papers/franklin:cmu:2008:
+  - - papers/seshadri:sosp:2007
+    - - 'SecVisor: A tiny hypervisor to provide lifetime kernel code integrity for
+        commodity OSes'
+      - seshadri:sosp:2007
+  papers/godefroid:acmq:2012: []
+  papers/godefroid:cacm:2020: []
+  papers/godefroid:pldi:2005: []
+  papers/godefroid:pldi:2012: []
+  papers/goel:acl2:2013: []
+  papers/goel:fmcad:2014: []
+  papers/goel:pcs:2017: []
+  papers/goel:phd:2016: []
+  papers/goguen:secpriv:1982:
+  - - papers/rushby:sri:1992
+    - - Noninterference, transitivity, and channel-control security policies
+      - rushby:sri:1992
+  papers/goguen:secpriv:1984: []
+  papers/gray:micro:2015: []
+  papers/groce:issta:2017: []
+  papers/grossman:esop:2002: []
+  papers/gu:osdi:2016:
+  - - papers/costanzo:pldi:2016
+    - - End-to-end verification of information flow security for C and assembly programs
+      - costanzo:pldi:2016
+  papers/gurfinkel:cav:2015:
+  - - papers/matsushita:esop:2020
+    - - 'RustHorn: CHC-based verification for Rust programs'
+      - matsushita:esop:2020
+  papers/hardin:acl2:2006: []
+  papers/hatcliff:compsurv:2012: []
+  papers/hawblitzel:osdi:2014: []
+  papers/hehner:vstte:2008:
+  - - papers/tuerk:vstte:2010
+    - - Local reasoning about while-loops
+      - tuerk:vstte:2010
+  papers/henzinger:spin:2003:
+  - - papers/ball:pldi:2001
+    - - Automatic predicate abstraction of C programs
+      - ball:pldi:2001
+  papers/heule:ftfjp:2011:
+  - - papers/heule:vmcai:2013
+    - - 'Abstract read permissions: Fractional permissions without the fractions'
+      - heule:vmcai:2013
+  papers/heule:pldi:2016: []
+  papers/heule:vmcai:2013: []
+  papers/hobor:popl:2013: []
+  papers/hohmuth:plos:2005: []
+  papers/hohmuth:sigops:2002: []
+  papers/holzer:cav:2008:
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  - - papers/holzer:hvc:2010
+    - - An introduction to test specification in FQL
+      - holzer:hvc:2010
+  papers/holzer:hvc:2010:
+  - - papers/beyer:hvc:2017
+    - - 'Software verification: Testing vs. model checking'
+      - beyer:hvc:2017
+  - - papers/holzer:cav:2008
+    - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
+      - holzer:cav:2008
+  papers/hritcu:icfp:2013: []
+  papers/jacobs:nfm:2011:
+  - - papers/astrauskas:oopsla:2019
+    - - Leveraging Rust types for modular specification and verification
+      - astrauskas:oopsla:2019
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  - - papers/legoues:sefm:2011
+    - - The Boogie verification debugger
+      - legoues:sefm:2011
+  - - papers/philippaerts:scp:2014
+    - - 'Software verification with VeriFast: Industrial case studies'
+      - philippaerts:scp:2014
+  - - papers/smans:ecoop:2009
+    - - 'Implicit dynamic frames: Combining dynamic frames and separation logic'
+      - smans:ecoop:2009
+  - - papers/tuerk:vstte:2010
+    - - Local reasoning about while-loops
+      - tuerk:vstte:2010
+  papers/jacobs:vstte:2010:
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  papers/jhala:compsurv:2009:
+  - - papers/mcmillan:ecs:2003
+    - - Model checking
+      - mcmillan:ecs:2003
+  papers/jones:hasklang:1999: []
+  papers/jones:hasklib:1999: []
+  papers/jones:hw:1997:
+  - - papers/chakravarty:haskffi:2003
+    - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
+        98 report'
+      - chakravarty:haskffi:2003
+  - - papers/jones:hw:1997
+    - - 'Green Card: a foreign-language interface for Haskell'
+      - jones:hw:1997
+  papers/jones:pldi:1999: []
+  papers/jung:popl:2017:
+  - - papers/jung:popl:2020
+    - - 'Stacked borrows: An aliasing model for Rust'
+      - jung:popl:2020
+  - - papers/toman:ase:2015
+    - - 'Crust: A bounded verifier for Rust'
+      - toman:ase:2015
+  papers/jung:popl:2020: []
+  papers/kassios:fm:2006: []
+  papers/kaufmann:utaustin:2012: []
+  papers/khakpour:cpp:2013: []
+  papers/klabnik:book:2018: []
+  papers/klein:sosp:2009:
+  - - papers/murray:secpriv:2013
+    - - 'seL4: from general purpose to a proof of information flow enforcement'
+      - murray:secpriv:2013
+  papers/krishnaswami:tldi:2010:
+  - - papers/hobor:popl:2013
+    - - The ramifications of sharing in data structures
+      - hobor:popl:2013
+  papers/krohn:sosp:2007:
+  - - papers/spencer:security:1999
+    - - 'The Flask security architecture: System support for diverse security policies'
+      - spencer:security:1999
+  papers/kumar:popl:2014: []
+  papers/lal:cav:2012: []
+  papers/lal:fse:2014:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  papers/legoues:sefm:2011: []
+  papers/leinenbach:fm:2009:
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  papers/leino:fosad:2007:
+  - - papers/muller:vmcai:2016
+    - - 'Viper: A verification infrastructure for permission-based reasoning'
+      - muller:vmcai:2016
+  papers/leino:icse:2013: []
+  papers/leino:lpair:2010:
+  - - papers/ferraiuolo:sosp:2017
+    - - 'Komodo: Using verification to disentangle secure-enclave hardware from software'
+      - ferraiuolo:sosp:2017
+  - - papers/legoues:sefm:2011
+    - - The Boogie verification debugger
+      - legoues:sefm:2011
+  - - papers/leino:icse:2013
+    - - Developing verified programs with Dafny
+      - leino:icse:2013
+  - - papers/mai:asplos:2013
+    - - Verifying security invariants in ExpressOS
+      - mai:asplos:2013
+  papers/leino:sac:2009: []
+  papers/leino:tacas:2010:
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  papers/leroy:cacm:2009: []
+  papers/levy:apsys:2017: []
+  papers/levy:plos:2015: []
+  papers/levy:sosp:2017: []
+  papers/lie:secpri:2003: []
+  papers/lie:sosp:2003: []
+  papers/lin:sdr:2006: []
+  papers/lin:sips:2006: []
+  papers/lindner:indin:2018:
+  - - papers/lindner:indin:2019
+    - - 'Verification of safety functions implemented in Rust: A symbolic execution
+        based approach'
+      - lindner:indin:2019
+  papers/lindner:indin:2019:
+  - - papers/lindner:indin:2018
+    - - No panic! Verification of Rust programs by symbolic execution
+      - lindner:indin:2018
+  papers/liu:cpsspc:2018: []
+  papers/lockhart:ispass:2015: []
+  papers/logozzo:vmcai:2011:
+  - - papers/barnett:cacm:2011
+    - - 'Specification and verification: The Spec# experience'
+      - barnett:cacm:2011
+  papers/loow:pldi:2019: []
+  papers/lopes:pldi:2015: []
+  papers/maciver:ecoop:2020: []
+  papers/mai:asplos:2013: []
+  papers/malik:cacm:2009:
+  - - papers/demoura:cacm:2011
+    - - 'Satisfiability modulo theories: Introduction and applications'
+      - demoura:cacm:2011
+  papers/manes:ieeetse:2019: []
+  papers/mangano:crisis:2016: []
+  papers/mansur:arxiv:2020:
+  - - papers/barrett:mlf:2015
+    - - Proofs in Satisfiability Modulo Theories
+      - barrett:mlf:2015
+  - - papers/brummayer:sat:2010
+    - - Automated testing and debugging of SAT and QBF solvers
+      - brummayer:sat:2010
+  - - papers/stump:fmsd:2013
+    - - SMT proof checking using a logical framework
+      - stump:fmsd:2013
+  papers/mantel:pls:2007: []
+  papers/mantel:sp:2001: []
+  papers/martignoni:asplos:2012: []
+  papers/matsushita:esop:2020:
+  - - papers/ullrich:msc:2016
+    - - Simple Verification of Rust Programs via Functional Purification
+      - ullrich:msc:2016
+  papers/mcmillan:ecs:2003: []
+  papers/merz:vstte:2012: []
+  papers/miller:cacm:1990: []
+  papers/monteiro:arxiv:2019: []
+  papers/morrisett:pldi:2012: []
+  papers/morrisett:wcsss:1999:
+  - - papers/smith:esop:2000
+    - - Alias types
+      - smith:esop:2000
+  - - papers/walker:popl:2000
+    - - A type system for expressive security policies
+      - walker:popl:2000
+  papers/muller:vmcai:2016:
+  - - papers/astrauskas:oopsla:2019
+    - - Leveraging Rust types for modular specification and verification
+      - astrauskas:oopsla:2019
+  papers/murray:secpriv:2013: []
+  papers/mycroft:esop:1999: []
+  papers/myers:csfw:2004: []
+  papers/myreen:itp:2012: []
+  papers/myreen:tphols:2009: []
+  papers/nanevski:icfp:2008: []
+  papers/nanevski:oopsla:2019: []
+  papers/narayanan:hotos:2019: []
+  papers/naumann:fmco:2004: []
+  papers/necula:cc:2002:
+  - - papers/henzinger:spin:2003
+    - - Software verification with BLAST
+      - henzinger:spin:2003
+  papers/necula:pldi:2000: []
+  papers/necula:popl:1997: []
+  papers/nelson:sosp:2017:
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  papers/nelson:sosp:2019:
+  - - papers/ferraiuolo:sosp:2017
+    - - 'Komodo: Using verification to disentangle secure-enclave hardware from software'
+      - ferraiuolo:sosp:2017
+  - - papers/torlak:pldi:2014
+    - - A lightweight symbolic virtual machine for solver-aided host languages
+      - torlak:pldi:2014
+  papers/niemetz:jsat:2015: []
+  papers/nienhuis:secpriv:2020:
+  - - papers/woodruff:isca:2014
+    - - 'The CHERI capability model: Revisiting RISC in an age of risk'
+      - woodruff:isca:2014
+  papers/nipkow:book:2002: []
+  papers/nyxbrain:sc2:2017: []
+  papers/oberg:dac:2010: []
+  papers/ohearn:cacm:2019:
+  - - papers/astrauskas:oopsla:2019
+    - - Leveraging Rust types for modular specification and verification
+      - astrauskas:oopsla:2019
+  - - papers/smans:ecoop:2009
+    - - 'Implicit dynamic frames: Combining dynamic frames and separation logic'
+      - smans:ecoop:2009
+  papers/ohearn:tcs:2007: []
+  papers/ozer:sbacpad:2007: []
+  papers/parkinson:popl:2005:
+  - - papers/berdine:fmco:2005
+    - - 'Smallfoot: Modular automatic assertion checking with separation logic'
+      - berdine:fmco:2005
+  papers/pearce:compsurv:2013: []
+  papers/penninckx:nfm:2012:
+  - - papers/philippaerts:scp:2014
+    - - 'Software verification with VeriFast: Industrial case studies'
+      - philippaerts:scp:2014
+  papers/peterson:hw:1995: []
+  papers/peterson:padl:2001: []
+  papers/philippaerts:scp:2014:
+  - - papers/jacobs:nfm:2011
+    - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
+      - jacobs:nfm:2011
+  papers/pnueli:sfcs:1977: []
+  papers/pnueli:tacas:1998:
+  - - papers/necula:pldi:2000
+    - - Translation validation for an optimizing compiler
+      - necula:pldi:2000
+  papers/rakamaric:cav:2014:
+  - - papers/almeida:security:2016
+    - - Verifying constant-time implementations
+      - almeida:security:2016
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/barnett:fmco:2005
+    - - 'Boogie: A modular reusable verifier for object-oriented programs'
+      - barnett:fmco:2005
+  papers/regehr:acp4is:2003: []
+  papers/regehr:asplos:2004: []
+  papers/regehr:emsoft:2003: []
+  papers/regehr:lctes:2006: []
+  papers/regehr:pldi:2012:
+  - - papers/maciver:ecoop:2020
+    - - 'Test-case reduction via test-case generation: Insights from the Hypothesis
+        reducer'
+      - maciver:ecoop:2020
+  papers/regehr:rtss:2003: []
+  papers/regehr:tecs:2005: []
+  papers/reid:cases:2008:
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  papers/reid:cav:2016:
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  papers/reid:fmcad:2016:
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  papers/reid:gfpw:1989: []
+  papers/reid:gfpw:1993: []
+  papers/reid:gfpw:1994: []
+  papers/reid:hw:1995: []
+  papers/reid:icse:1999: []
+  papers/reid:ifl:1998: []
+  papers/reid:msc:1993: []
+  papers/reid:oopsla:2017:
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  papers/reid:osdi:2000: []
+  papers/reid:phd:2019: []
+  papers/reid:yale:1998: []
+  papers/reid:yale:2001: []
+  papers/reynolds:lics:2002:
+  - - papers/jacobs:vstte:2010
+    - - 'VeriFast: Imperative programs as proofs'
+      - jacobs:vstte:2010
+  - - papers/ohearn:cacm:2019
+    - - Separation logic
+      - ohearn:cacm:2019
+  papers/rushby:sri:1992: []
+  papers/sabelfield:jcs:2009: []
+  papers/samet:phd:1975: []
+  papers/sarkar:pldi:2011: []
+  papers/sarkar:popl:2009: []
+  papers/schwartz:sp:2010: []
+  papers/schwerhoff:ecoop:2015:
+  - - papers/hehner:vstte:2008
+    - - Specified blocks
+      - hehner:vstte:2008
+  - - papers/tuerk:vstte:2010
+    - - Local reasoning about while-loops
+      - tuerk:vstte:2010
+  papers/seshadri:sosp:2007:
+  - - papers/franklin:cmu:2008
+    - - 'Attacking, repairing, and verifying SecVisor: A retrospective on the security
+        of a hypervisor'
+      - franklin:cmu:2008
+  papers/sewell:pldi:2013: []
+  papers/sharma:oopsla:2012: []
+  papers/sharma:pls:2013: []
+  papers/shi:phd:2013: []
+  papers/shoshitaishvili:sp:2016: []
+  papers/siegel:sc:2015: []
+  papers/sigurbjarnarson:osdi:2016:
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  papers/sigurbjarnarson:osdi:2018:
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  papers/skorstengaard:esop:2018:
+  - - papers/nienhuis:secpriv:2020
+    - - 'Rigorous engineering for hardware security: Formal modelling and proof in
+        the CHERI design and implementation process'
+      - nienhuis:secpriv:2020
+  - - papers/skorstengaard:popl:2019
+    - - 'StkTokens: Enforcing well-bracketed control flow and stack encapsulation
+        using linear capabilities'
+      - skorstengaard:popl:2019
+  - - papers/woodruff:isca:2014
+    - - 'The CHERI capability model: Revisiting RISC in an age of risk'
+      - woodruff:isca:2014
+  papers/skorstengaard:popl:2019:
+  - - papers/nienhuis:secpriv:2020
+    - - 'Rigorous engineering for hardware security: Formal modelling and proof in
+        the CHERI design and implementation process'
+      - nienhuis:secpriv:2020
+  - - papers/skorstengaard:esop:2018
+    - - Reasoning about a machine with local capabilities
+      - skorstengaard:esop:2018
+  - - papers/woodruff:isca:2014
+    - - 'The CHERI capability model: Revisiting RISC in an age of risk'
+      - woodruff:isca:2014
+  papers/smans:ecoop:2009: []
+  papers/smans:fmood:2010: []
+  papers/smith:esop:2000: []
+  papers/smith:fossacs:2009: []
+  papers/spencer:security:1999: []
+  papers/stephens:micro:2017: []
+  papers/stephens:ndss:2016: []
+  papers/stump:fmsd:2013:
+  - - papers/barrett:mlf:2015
+    - - Proofs in Satisfiability Modulo Theories
+      - barrett:mlf:2015
+  - - papers/brummayer:sat:2010
+    - - Automated testing and debugging of SAT and QBF solvers
+      - brummayer:sat:2010
+  - - papers/mansur:arxiv:2020
+    - - Detecting critical bugs in SMT solvers using blackbox mutational fuzzing
+      - mansur:arxiv:2020
+  papers/sutcliffe:ai:2001: []
+  papers/tahat:fmcad:2019: []
+  papers/tiwari:asplos:2009: []
+  papers/tiwari:isca:2009: []
+  papers/tiwari:isca:2011: []
+  papers/toman:ase:2015: []
+  papers/torlak:onward:2013: []
+  papers/torlak:pldi:2014:
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
+  - - papers/weitz:icfp:2017
+    - - 'SpaceSearch: A library for building and verifying solver-aided tools'
+      - weitz:icfp:2017
+  papers/tuerk:vstte:2010:
+  - - papers/hehner:vstte:2008
+    - - Specified blocks
+      - hehner:vstte:2008
+  - - papers/leino:lpair:2010
+    - - 'Dafny: An automatic program verifier for functional correctness'
+      - leino:lpair:2010
+  papers/ullrich:msc:2016:
+  - - papers/matsushita:esop:2020
+    - - 'RustHorn: CHC-based verification for Rust programs'
+      - matsushita:esop:2020
+  papers/vasudevan:secpriv:2013: []
+  papers/vasudevan:usenix:2016: []
+  papers/verbeek:fmmsd:2019: []
+  papers/vogels:fmoods:2011:
+  - - papers/philippaerts:scp:2014
+    - - 'Software verification with VeriFast: Industrial case studies'
+      - philippaerts:scp:2014
+  papers/wagner:hotos:2013: []
+  papers/walker:popl:2000: []
+  papers/walker:tic:2001: []
+  papers/wang:tase:2018: []
+  papers/weiss:arxiv:2018: []
+  papers/weitz:icfp:2017: []
+  papers/woh:micro:2008: []
+  papers/woodruff:isca:2014:
+  - - papers/nienhuis:secpriv:2020
+    - - 'Rigorous engineering for hardware security: Formal modelling and proof in
+        the CHERI design and implementation process'
+      - nienhuis:secpriv:2020
+  papers/xi:icfp:2001: []
+  papers/yang:pldi:2010: []
+  papers/zdancewic:csfw:2001: []
+  papers/zdancewic:csfw:2003: []
+  papers/zeldovich:osdi:2006:
+  - - papers/spencer:security:1999
+    - - 'The Flask security architecture: System support for diverse security policies'
+      - spencer:security:1999
+  papers/zhang:asplos:2015: []

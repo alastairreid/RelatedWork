@@ -348,6 +348,9 @@
 - name: Hao Chen
   papers:
   - papers/gu:osdi:2016
+- name: Yang Chen
+  papers:
+  - papers/regehr:pldi:2012
 - name: Rick Chen
   papers:
   - papers/reid:cav:2016
@@ -454,6 +457,7 @@
 - name: Pascal Cuoq
   papers:
   - papers/cuoq:sefm:2012
+  - papers/regehr:pldi:2012
 - name: Pedro R. D'Argenio
   papers:
   - papers/barthe:csfw:2004
@@ -465,6 +469,9 @@
   - papers/dam:ted:2013
   - papers/dam:trusted:2013
   - papers/khakpour:cpp:2013
+- name: Werner Damm
+  papers:
+  - papers/damm:fmoods:1999
 - name: Hoang-Hai Dang
   papers:
   - papers/jung:popl:2020
@@ -534,6 +541,9 @@
   papers:
   - papers/calcagno:popl:2009
   - papers/distefano:tacas:2006
+- name: Alastair F. Donaldson
+  papers:
+  - papers/maciver:ecoop:2020
 - name: Floris Van Doorn
   papers:
   - papers/demoura:cade:2015
@@ -581,10 +591,14 @@
   papers:
   - papers/eide:aspse:2001
   - papers/eide:icse:2002
+  - papers/regehr:pldi:2012
   - papers/reid:osdi:2000
 - name: Dhammika Elkaduwe
   papers:
   - papers/klein:sosp:2009
+- name: Chucky Ellison
+  papers:
+  - papers/regehr:pldi:2012
 - name: Kevin Elphinstone
   papers:
   - papers/klein:sosp:2009
@@ -797,6 +811,9 @@
 - name: Edmund Grimley-Evans
   papers:
   - papers/reid:cases:2008
+- name: Alex Groce
+  papers:
+  - papers/groce:issta:2017
 - name: John Grosen
   papers:
   - papers/shoshitaishvili:sp:2016
@@ -855,6 +872,9 @@
 - name: David S. Hardin
   papers:
   - papers/hardin:acl2:2006
+- name: David Harel
+  papers:
+  - papers/damm:fmoods:1999
 - name: Bharath Hariharan
   papers:
   - papers/sharma:pls:2013
@@ -930,6 +950,9 @@
   papers:
   - papers/hohmuth:plos:2005
   - papers/hohmuth:sigops:2002
+- name: Josie Holmes
+  papers:
+  - papers/groce:issta:2017
 - name: Andreas Holzer
   papers:
   - papers/holzer:cav:2008
@@ -1090,6 +1113,9 @@
 - name: Stephen Kell
   papers:
   - papers/bastian:oopsla:2019
+- name: Kevin Kellar
+  papers:
+  - papers/groce:issta:2017
 - name: Gabriele Keller
   papers:
   - papers/amani:asplos:2016
@@ -1370,6 +1396,9 @@
 - name: "Andreas L\xF6\xF6w"
   papers:
   - papers/loow:pldi:2019
+- name: David R. MacIver
+  papers:
+  - papers/maciver:ecoop:2020
 - name: Damiano Macedonio
   papers:
   - papers/ernst:icse:2016
@@ -1866,6 +1895,7 @@
   - papers/regehr:asplos:2004
   - papers/regehr:emsoft:2003
   - papers/regehr:lctes:2006
+  - papers/regehr:pldi:2012
   - papers/regehr:rtss:2003
   - papers/regehr:tecs:2005
 - name: Alastair D. Reid
@@ -2470,6 +2500,9 @@
   - papers/calcagno:popl:2009
   - papers/dinsdale-young:popl:2013
   - papers/distefano:tacas:2006
+- name: Xuejun Yang
+  papers:
+  - papers/regehr:pldi:2012
 - name: Jean Yang
   papers:
   - papers/yang:pldi:2010

@@ -55,12 +55,17 @@ def add_backrefs(ps):
         h["refs"] = {}
         for c in ["examples", "isa", "notes", "papers"]:
             for x, ref in h[c].items():
-                ns.setdefault(ref, {})[x] = name2ref(p)
+                rs = ns[ref] if ref in ns else {}
+                link = None if p.startswith("notes") else p.split("/")[1] # todo - change style for papers?
+                rs[p] = [h['title'], link]
+                ns[ref] = rs
+                # print(f"{ref} <- {p}", file=sys.stderr)
     for ref, xs in ns.items():
         if ref in ps:
+            # print(f"{ref} -> {xs}", file=sys.stderr)
             ps[ref][0]["refs"] = xs
         else:
-            # print(f"Reference to missing page {xs}")
+            print(f"Reference to missing page {ref} <- {xs}", file=sys.stderr)
             header = {
                     "title": ref,
                     "layout": "note",
@@ -78,7 +83,7 @@ def add_backrefs(ps):
 def pp_refs(label, xs):
     if xs:
         print(f"{label}: ")
-        print(",\n".join([f"[{x}](#{ref2url(y)})" for x, y in xs.items()]) + "\\")
+        print(",\n".join([f"[{x}](#{ref2url(x)})" for x in xs]) + "\\")
 
 def pp_link(text, url):
     if url:
@@ -199,7 +204,7 @@ def main():
     with open("_data/backrefs.yaml", "w") as f:
         refs = {}
         for c in ["papers", "notes"]:
-            refs[c] = { p: list([ r for r in h["refs"].values() if r.startswith(c) ]) for p, (h, _) in ps.items() }
+            refs[c] = { p: [ [r,l] for r,l in h["refs"].items() if r.startswith(c) ] for p, (h, _) in ps.items() }
         yaml.dump(refs, f)
 
 main()

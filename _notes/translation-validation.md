@@ -6,10 +6,9 @@ notes:
 papers:
 - pnueli:tacas:1998
 - necula:pldi:2000
+- samet:phd:1975
 ---
 
 todo:
-
-{% include paperlist.html %}
 
 {% include links.html %}

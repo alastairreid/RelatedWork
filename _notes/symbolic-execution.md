@@ -81,5 +81,4 @@ where most dimensions include "yes", "no" and "hybrid" on their axis.  This
 would better capture how thoroughly the symbolic execution design space has
 been explored.
 
-{% include paperlist.html %}
 {% include links.html %}

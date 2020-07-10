@@ -25,6 +25,4 @@ Systems based on permission logic:
 - [Chalice verifier]
 - [Viper verifier]
 
-{% include paperlist.html %}
-
 {% include links.html %}

@@ -34,6 +34,4 @@ Some topics are
 -  Systems
 -  Quantitative
 
-{% include paperlist.html %}
-
 {% include links.html %}

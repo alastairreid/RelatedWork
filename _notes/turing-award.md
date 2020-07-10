@@ -13,5 +13,4 @@ which is more balanced between hardware and software.
 
 IEEE John von Neumann Medal: https://en.wikipedia.org/wiki/IEEE_John_von_Neumann_Medal
 
-{% include paperlist.html %}
 {% include links.html %}

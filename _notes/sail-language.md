@@ -12,6 +12,4 @@ notes:
 
 todo:
 
-{% include paperlist.html %}
-
 {% include links.html %}

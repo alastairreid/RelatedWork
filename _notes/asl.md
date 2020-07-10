@@ -31,6 +31,4 @@ processor implementations ([reid:cav:2016]).
 > specification.
 > <br>--- Alastair Reid ([reid:phd:2019])
 
-{% include paperlist.html %}
-
 {% include links.html %}

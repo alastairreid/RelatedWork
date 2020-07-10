@@ -47,5 +47,4 @@ So we get concepts like
 - grammar-based generation and discovering grammars
 - use of dictionaries
 
-{% include paperlist.html %}
 {% include links.html %}

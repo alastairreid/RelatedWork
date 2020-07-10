@@ -9,7 +9,4 @@ notes:
 
 Specifications of [instruction set architecture]s.
 
-
-{% include paperlist.html %}
-
 {% include links.html %}
