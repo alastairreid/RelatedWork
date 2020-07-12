@@ -16,6 +16,6 @@ readings: []
 title: Model checking early requirements specifications in Tropos
 year: 2001
 notes:
-- requirements specifications
+- requirements specification
 ---
 {% include links.html %}

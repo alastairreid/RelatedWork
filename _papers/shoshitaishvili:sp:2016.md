@@ -24,7 +24,6 @@ title: 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
 volume: ''
 year: 2016
 notes:
-- reverse engineering
 - binary analysis
 papers:
 ---

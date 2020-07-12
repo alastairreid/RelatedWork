@@ -15,6 +15,6 @@ readings: []
 title: Easy approach to requirements syntax (EARS)
 year: 2009
 notes:
-- formal specifications
+- formal specification
 ---
 {% include links.html %}
