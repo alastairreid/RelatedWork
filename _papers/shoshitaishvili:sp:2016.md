@@ -20,10 +20,12 @@ number: ''
 pages: 138-157
 read: false
 readings: []
-title: 'SOK: (State of) The Art of War: Offensive techniques in binary analysis'
+title: 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
 volume: ''
 year: 2016
 notes:
+- reverse engineering
+- binary analysis
 papers:
 ---
 {% include links.html %}

@@ -11,8 +11,11 @@ organization: IEEE
 pages: 149-156
 read: false
 readings: []
-title: 'Symbolic Trajectory Evaluation: The Primary Validation Vehicle for Next Generation Intel Processor Graphics FPU'
+title: 'Symbolic trajectory evaluation: The primary validation vehicle for next generation Intel processor graphics FPU'
 year: 2012
 notes:
+- symbolic trajectory evaluation
+- CPU verification
+- x86 architecture
 ---
 {% include links.html %}

@@ -18,9 +18,11 @@ pages: 63-72
 publisher: ACM
 read: false
 readings: []
-title: The CRAY-1 Computer System
+title: The CRAY-1 computer system
 volume: '21'
 year: 1978
 notes:
+- Cray architecture
+- instruction set architecture
 ---
 {% include links.html %}

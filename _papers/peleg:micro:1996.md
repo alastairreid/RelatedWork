@@ -19,9 +19,12 @@ pages: 42-50
 publisher: IEEE Computer Society Press
 read: false
 readings: []
-title: MMX Technology Extension to the Intel Architecture
+title: MMX technology extension to the Intel architecture
 volume: '16'
 year: 1996
 notes:
+- x86 architecture
+- instruction set architecture
+- vector architecture
 ---
 {% include links.html %}

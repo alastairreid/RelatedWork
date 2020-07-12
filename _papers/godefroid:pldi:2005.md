@@ -23,6 +23,8 @@ title: 'DART: Directed automated random testing'
 url: https://doi.org/10.1145/1065010.1065036
 year: 2005
 notes:
+- concolic execution
+- symbolic execution
 papers:
 ---
 {% include links.html %}

@@ -13,5 +13,8 @@ readings: []
 title: ARM Architecture Reference Manual (ARMv5 edition)
 year: 2000
 notes:
+- Arm architecture
+- ISA specification
+- instruction set architecture
 ---
 {% include links.html %}

@@ -24,8 +24,10 @@ publisher: ACM
 read: false
 readings: []
 series: POPL '14
-title: A Trusted Mechanised JavaScript Specification
+title: A trusted mechanised JavaScript specification
 year: 2014
 notes:
+- JavaScript
+- formal specification
 ---
 {% include links.html %}

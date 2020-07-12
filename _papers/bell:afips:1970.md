@@ -16,7 +16,7 @@ publisher: ACM
 read: false
 readings: []
 series: AFIPS '70 (Spring)
-title: The PMS and ISP Descriptive Systems for Computer Structures
+title: The PMS and ISP descriptive systems for computer structures
 year: 1970
 notes:
 - ISA specification

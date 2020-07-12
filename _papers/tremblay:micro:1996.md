@@ -20,9 +20,12 @@ pages: 10-20
 publisher: IEEE Computer Society Press
 read: false
 readings: []
-title: VIS Speeds New Media Processing
+title: VIS speeds new media processing
 volume: '16'
 year: 1996
 notes:
+- vector architecture
+- instruction set architecture
+- SIMD
 ---
 {% include links.html %}

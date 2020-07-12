@@ -10,7 +10,7 @@ institution: Computational Logic, Inc
 layout: paper
 read: false
 readings: []
-title: Testing the FM9001 Microprocessor
+title: Testing the FM9001 microprocessor
 month: January
 year: 1995
 notes:

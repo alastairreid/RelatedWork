@@ -19,8 +19,10 @@ pages: 284-298
 publisher: Springer
 read: false
 readings: []
-title: 'Vx86: x86 Assembler Simulated in C Powered by Automated Theorem Proving'
+title: 'Vx86: x86 assembler simulated in C powered by automated theorem proving'
 year: 2008
 notes:
+- x86 architecture
+- binary analysis
 ---
 {% include links.html %}

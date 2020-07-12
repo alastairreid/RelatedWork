@@ -15,5 +15,8 @@ readings: []
 title: Describing instruction set processors using nML
 year: 1995
 notes:
+- ISA specification
+- formal specification
+- microarchitecture
 ---
 {% include links.html %}

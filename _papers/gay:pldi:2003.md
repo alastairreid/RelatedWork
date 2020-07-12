@@ -22,8 +22,9 @@ publisher: ACM
 read: false
 readings: []
 series: PLDI '03
-title: 'The nesC Language: A Holistic Approach to Networked Embedded Systems'
+title: 'The nesC language: A holistic approach to networked embedded systems'
 year: 2003
 notes:
+- events
 ---
 {% include links.html %}

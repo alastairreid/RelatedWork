@@ -19,9 +19,10 @@ pages: 213-226
 publisher: ACM
 read: false
 readings: []
-title: 'CRL: High-performance All-software Distributed Shared Memory'
+title: 'CRL: High-performance all-software distributed shared memory'
 volume: '29'
 year: 1995
 notes:
+- distributed shared memory
 ---
 {% include links.html %}

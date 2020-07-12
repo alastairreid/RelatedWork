@@ -12,8 +12,9 @@ layout: paper
 publisher: IEEE
 read: false
 readings: []
-title: Easy Approach to Requirements Syntax (EARS)
+title: Easy approach to requirements syntax (EARS)
 year: 2009
 notes:
+- formal specifications
 ---
 {% include links.html %}

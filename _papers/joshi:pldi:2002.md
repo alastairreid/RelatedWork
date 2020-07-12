@@ -19,7 +19,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: PLDI '02
-title: 'Denali: A Goal-Directed Superoptimizer'
+title: 'Denali: A goal-directed superoptimizer'
 url: https://doi.org/10.1145/512529.512566
 year: 2002
 notes:

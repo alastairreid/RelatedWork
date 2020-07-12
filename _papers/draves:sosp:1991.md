@@ -22,5 +22,7 @@ series: SOSP '91
 title: Using Continuations to Implement Thread Management and Communication in Operating Systems
 year: 1991
 notes:
+- continuations
+- threads
 ---
 {% include links.html %}

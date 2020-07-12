@@ -12,8 +12,11 @@ booktitle: Formal Methods in Computer-Aided Design, FMCAD
 layout: paper
 read: false
 readings: []
-title: Integrating Memory Consistency Models with Instruction-Level Abstraction for Heterogeneous System-on-Chip Verification
+title: Integrating memory consistency models with instruction-level abstraction for heterogeneous system-on-chip verification
 year: 2018
 notes:
+- weak memory
+- CPU verification
+- ISA specification
 ---
 {% include links.html %}

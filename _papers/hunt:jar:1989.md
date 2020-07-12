@@ -16,7 +16,7 @@ pages: 429-460
 publisher: Springer-Verlag New York, Inc.
 read: false
 readings: []
-title: Microprocessor Design Verification
+title: Microprocessor design verification
 volume: '5'
 year: 1989
 notes:

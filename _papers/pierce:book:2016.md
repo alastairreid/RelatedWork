@@ -7,7 +7,7 @@ authors:
 - Chris Casinghino
 - Marco Gaboardi
 - Michael Greenberg
-- Căt\textbackslash ǎlin Hriţcu
+- Cătǎlin Hriţcu
 - Vilhelm Sjöberg
 - Brent Yorgey
 bcp: 'Yes'
@@ -23,5 +23,6 @@ title: Software Foundations
 url: http://www.cis.upenn.edu/~bcpierce/sf
 year: 2016
 notes:
+- Coq theorem prover
 ---
 {% include links.html %}

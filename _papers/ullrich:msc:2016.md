@@ -7,7 +7,7 @@ layout: paper
 read: true
 readings: []
 school: Karlsruhe Institut of Technology
-title: Simple Verification of Rust Programs via Functional Purification
+title: Simple verification of Rust programs via functional purification
 year: 2016
 notes:
 - Rust language

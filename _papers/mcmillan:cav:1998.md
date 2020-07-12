@@ -20,5 +20,7 @@ readings: []
 title: Verification of an implementation of Tomasulo's algorithm by compositional model checking
 year: 1998
 notes:
+- CPU verification
+- model checking
 ---
 {% include links.html %}

@@ -16,5 +16,6 @@ readings: []
 title: A flexible formal verification framework for industrial scale validation
 year: 2011
 notes:
+- CPU verification
 ---
 {% include links.html %}

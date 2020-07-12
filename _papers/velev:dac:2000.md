@@ -17,8 +17,9 @@ publisher: ACM
 read: false
 readings: []
 series: DAC '00
-title: Formal Verification of Superscalar Microprocessors with Multicycle Functional Units, Exception, and Branch Prediction
+title: Formal verification of superscalar microprocessors with multicycle functional units, exception, and branch prediction
 year: 2000
 notes:
+- CPU verification
 ---
 {% include links.html %}

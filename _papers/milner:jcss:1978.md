@@ -15,5 +15,6 @@ title: A theory of type polymorphism in programming
 volume: '17'
 year: 1978
 notes:
+- type inference
 ---
 {% include links.html %}

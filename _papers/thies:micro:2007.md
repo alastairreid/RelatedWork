@@ -17,8 +17,9 @@ publisher: IEEE Computer Society
 read: false
 readings: []
 series: MICRO 40
-title: A Practical Approach to Exploiting Coarse-Grained Pipeline Parallelism in C Programs
+title: A practical approach to exploiting coarse-grained pipeline parallelism in C programs
 year: 2007
 notes:
+- pipeline parallelism
 ---
 {% include links.html %}

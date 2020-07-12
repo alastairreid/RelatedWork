@@ -11,8 +11,10 @@ location: Toronto, Canada
 month: June
 read: false
 readings: []
-title: Solver Aided Reverse Engineering of Architectural Features
+title: Solver aided reverse engineering of architectural features
 year: 2017
 notes:
+- Rosette verifier
+- ISA specification
 ---
 {% include links.html %}

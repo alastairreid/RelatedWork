@@ -14,8 +14,10 @@ pages: 52-71
 publisher: Springer-Verlag
 read: false
 readings: []
-title: Design and Synthesis of Synchronization Skeletons Using Branching-Time Temporal Logic
+title: Design and synthesis of synchronization skeletons using branching-time temporal logic
 year: 1982
 notes:
+- model checking
+- temporal logic
 ---
 {% include links.html %}

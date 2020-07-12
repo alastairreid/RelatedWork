@@ -13,8 +13,10 @@ pages: 89-98
 publisher: VDE Verlag
 read: false
 readings: []
-title: Proving the Correctness of Pipelined Micro-Architectures
+title: Proving the correctness of pipelined micro-architectures
 year: 2000
 notes:
+- CPU verification
+- microarchitecture
 ---
 {% include links.html %}

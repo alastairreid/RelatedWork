@@ -15,8 +15,9 @@ publisher: ACM
 read: false
 readings: []
 series: LFP '80
-title: Continuation-based Multiprocessing
+title: Continuation-based multiprocessing
 year: 1980
 notes:
+- continuations
 ---
 {% include links.html %}

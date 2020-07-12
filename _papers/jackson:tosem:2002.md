@@ -18,9 +18,11 @@ pages: 256-290
 publisher: ACM
 read: false
 readings: []
-title: 'Alloy: A Lightweight Object Modelling Notation'
+title: 'Alloy: A lightweight object modelling notation'
 volume: '11'
 year: 2002
 notes:
+- Alloy verifier
+- requirements specification
 ---
 {% include links.html %}

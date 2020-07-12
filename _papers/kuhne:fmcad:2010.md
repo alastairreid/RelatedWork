@@ -17,8 +17,10 @@ publisher: FMCAD Inc
 read: false
 readings: []
 series: FMCAD '10
-title: Automated Formal Verification of Processors Based on Architectural Models
+title: Automated formal verification of processors based on architectural models
 year: 2010
 notes:
+- CPU verification
+- ISA specification
 ---
 {% include links.html %}

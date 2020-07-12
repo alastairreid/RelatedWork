@@ -8,9 +8,10 @@ journal: IEEE Std. 1800-2012
 layout: paper
 read: false
 readings: []
-title: IEEE Standard for SystemVerilog - Unified Hardware Design, Specification, and Verification Language
+title: IEEE standard for SystemVerilog - Unified hardware design, specification, and verification language
 volume: ''
 year: 2013
 notes:
+- RTL
 ---
 {% include links.html %}

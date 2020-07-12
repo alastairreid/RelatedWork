@@ -23,5 +23,7 @@ series: SenSys '06
 title: 'Protothreads: Simplifying Event-driven Programming of Memory-constrained Embedded Systems'
 year: 2006
 notes:
+- threads
+- events
 ---
 {% include links.html %}

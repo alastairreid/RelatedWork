@@ -16,8 +16,11 @@ publisher: ACM
 read: false
 readings: []
 series: ISCA '83
-title: Very Long Instruction Word Architectures and the ELI-512
+title: Very long instruction word architectures and the ELI-512
 year: 1983
 notes:
+- VLIW
+- microarchitecture
+- instruction set architecture
 ---
 {% include links.html %}

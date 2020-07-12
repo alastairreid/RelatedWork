@@ -19,9 +19,10 @@ layout: paper
 month: January
 read: false
 readings: []
-title: 'Spectre Attacks: Exploiting Speculative Execution'
+title: 'Spectre attacks: Exploiting speculative execution'
 year: 2018
 notes:
 - microarchitecture
+- side channel
 ---
 {% include links.html %}

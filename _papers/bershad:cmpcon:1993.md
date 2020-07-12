@@ -10,8 +10,9 @@ doi: 10.1109/CMPCON.1993.289730
 layout: paper
 read: false
 readings: []
-title: The Midway Distributed Shared Memory System
+title: The Midway distributed shared memory system
 year: 1993
 notes:
+- distributed shared memory
 ---
 {% include links.html %}

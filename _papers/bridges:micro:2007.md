@@ -19,9 +19,11 @@ number: ''
 pages: 69-84
 read: false
 readings: []
-title: Revisiting the Sequential Programming Model for Multi-Core
+title: Revisiting the sequential programming model for multi-core
 volume: ''
 year: 2007
 notes:
+- threads
+- pipeline parallelism
 ---
 {% include links.html %}

@@ -11,8 +11,10 @@ layout: paper
 read: false
 readings: []
 series: DIFTS '14
-title: 'Processor Memory System Verification using DOGReL: a language for specifying End-to-End properties'
+title: 'Processor memory system verification using DOGReL: a language for specifying end-to-end properties'
 year: 2014
 notes:
+- weak memory
+- CPU verification
 ---
 {% include links.html %}

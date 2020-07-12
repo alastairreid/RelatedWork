@@ -18,9 +18,11 @@ publisher: USENIX Association
 read: false
 readings: []
 series: SEC'17
-title: 'CLKSCREW: Exposing the Perils of Security-oblivious Energy Management'
+title: 'CLKSCREW: Exposing the perils of security-oblivious energy management'
 url: https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-tang.pdf
 year: 2017
 notes:
+- side channel
+- microarchitecture
 ---
 {% include links.html %}

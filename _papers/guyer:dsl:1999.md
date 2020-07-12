@@ -14,7 +14,7 @@ publisher: USENIX Association
 read: false
 readings: []
 series: DSL'99
-title: An Annotation Language for Optimizing Software Libraries
+title: An annotation language for optimizing software libraries
 year: 1999
 notes:
 ---

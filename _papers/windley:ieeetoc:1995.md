@@ -15,5 +15,6 @@ title: Formal modeling and verification of microprocessors
 volume: '44'
 year: 1995
 notes:
+- CPU verification
 ---
 {% include links.html %}

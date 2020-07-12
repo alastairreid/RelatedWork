@@ -21,8 +21,9 @@ pages: 18-33
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: Integrated Semantics of Intermediate-Language C and Macro-Assembler for Pervasive Formal Verification of Operating Systems and Hypervisors from VerisoftXT
+title: Integrated semantics of intermediate-language C and macro-assembler for pervasive formal verification of operating systems and hypervisors from VerisoftXT
 year: 2012
 notes:
+- ISA specification
 ---
 {% include links.html %}

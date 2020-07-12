@@ -13,5 +13,6 @@ readings: []
 title: Towards a new model of abstraction in software engineering
 year: 1991
 notes:
+- Aspect oriented programming
 ---
 {% include links.html %}

@@ -17,9 +17,11 @@ pages: 8-21
 publisher: ACM
 read: false
 readings: []
-title: Reduced Instruction Set Computers
+title: Reduced instruction set computers
 volume: '28'
 year: 1985
 notes:
+- RISC architecture
+- instruction set architecture
 ---
 {% include links.html %}

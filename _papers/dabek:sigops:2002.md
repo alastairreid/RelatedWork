@@ -19,8 +19,10 @@ publisher: ACM
 read: false
 readings: []
 series: EW 10
-title: Event-driven Programming for Robust Software
+title: Event-driven programming for robust software
 year: 2002
 notes:
+- events
+- threads
 ---
 {% include links.html %}

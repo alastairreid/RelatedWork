@@ -24,5 +24,6 @@ readings: []
 title: 'EXOCHI: architecture and programming environment for a heterogeneous multi-core multithreaded system'
 year: 2007
 notes:
+- threads
 ---
 {% include links.html %}

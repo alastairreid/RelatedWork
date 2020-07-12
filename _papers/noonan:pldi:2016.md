@@ -19,10 +19,13 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: PLDI '16
-title: Polymorphic Type Inference for Machine Code
+title: Polymorphic type inference for machine code
 url: https://doi.org/10.1145/2908080.2908119
 year: 2016
 notes:
+- binary analysis
+- ISA specification
+- instruction set architecture
 papers:
 ---
 {% include links.html %}

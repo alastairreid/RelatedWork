@@ -16,5 +16,7 @@ title: Decoupled access/execute computer architectures
 volume: '2'
 year: 1984
 notes:
+- pipeline parallelism
+- microarchitecture
 ---
 {% include links.html %}

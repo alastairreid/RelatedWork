@@ -4,7 +4,7 @@ acmid: '2500574'
 added: 2019-11-16
 address: New York, NY, USA
 authors:
-- Catalin Hritcu
+- Cătǎlin Hriţcu
 - John Hughes
 - Benjamin C. Pierce
 - Antal Spector-Zabusky

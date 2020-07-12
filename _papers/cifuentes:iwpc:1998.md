@@ -19,5 +19,7 @@ readings: []
 title: Specifying the semantics of machine instructions
 year: 1998
 notes:
+- ISA specification
+- formal specification
 ---
 {% include links.html %}

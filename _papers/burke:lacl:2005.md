@@ -13,9 +13,11 @@ publisher: Springer
 read: false
 readings: []
 series: LNAI
-title: Translating Formal Software Specifications to Natural Language / A Grammar-Based Approach
+title: Translating formal software specifications to natural language / A grammar-based approach
 volume: '3402'
 year: 2005
 notes:
+- specifications
+- natural language
 ---
 {% include links.html %}

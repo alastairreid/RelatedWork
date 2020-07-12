@@ -17,5 +17,6 @@ title: Implementing remote procedure calls
 volume: '2'
 year: 1984
 notes:
+- remote procedure call
 ---
 {% include links.html %}

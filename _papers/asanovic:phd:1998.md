@@ -2,14 +2,17 @@
 ENTRYTYPE: phdthesis
 added: 2019-07-02
 authors:
-- Krste Asanovi{\' c}
+- Krste Asanović
 layout: paper
 month: May
 read: false
 readings: []
 school: University of California, Berkeley
-title: Vector Microprocessors
+title: Vector microprocessors
 year: 1998
 notes:
+- vector architecture
+- instruction set architecture
+- microarchitecture
 ---
 {% include links.html %}

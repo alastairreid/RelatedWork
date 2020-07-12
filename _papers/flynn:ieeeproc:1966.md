@@ -25,9 +25,12 @@ pages: 1901 - 1909
 read: false
 readings: []
 timestamp: 2012-07-04T12:42:26.000+0200
-title: Very High-Speed Computing Systems
+title: Very high-speed computing systems
 volume: '54'
 year: 1966
 notes:
+- SIMD
+- MIMD
+- data parallelism
 ---
 {% include links.html %}

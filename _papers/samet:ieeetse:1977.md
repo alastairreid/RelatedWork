@@ -15,9 +15,11 @@ number: '5'
 pages: 343-351
 read: false
 readings: []
-title: A Machine Description Facility for Compiler Testing
+title: A machine description facility for compiler testing
 volume: SE-3
 year: 1977
 notes:
+- ISA specification
+- translation validation
 ---
 {% include links.html %}

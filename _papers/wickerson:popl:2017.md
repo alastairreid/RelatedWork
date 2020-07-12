@@ -20,8 +20,9 @@ publisher: ACM
 read: false
 readings: []
 series: POPL 2017
-title: Automatically Comparing Memory Consistency Models
+title: Automatically comparing memory consistency models
 year: 2017
 notes:
+- weak memory
 ---
 {% include links.html %}

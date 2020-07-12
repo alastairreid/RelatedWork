@@ -13,8 +13,12 @@ pages: 1-27
 publisher: Springer
 read: false
 readings: []
-title: A Survey of Microarchitectural Timing Attacks and Countermeasures on Contemporary Hardware
+title: A survey of microarchitectural timing attacks and countermeasures on contemporary hardware
 year: 2016
 notes:
+- survey
+- microarchitecture
+- side channel
+- security
 ---
 {% include links.html %}

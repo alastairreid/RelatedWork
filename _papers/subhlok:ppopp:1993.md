@@ -19,8 +19,9 @@ publisher: ACM
 read: false
 readings: []
 series: PPOPP '93
-title: Exploiting Task and Data Parallelism on a Multicomputer
+title: Exploiting task and data parallelism on a multicomputer
 year: 1993
 notes:
+- data parallelism
 ---
 {% include links.html %}

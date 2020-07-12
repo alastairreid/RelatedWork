@@ -17,7 +17,7 @@ pages: 396-408
 publisher: ACM
 read: false
 readings: []
-title: Design of a Separable Transition-diagram Compiler
+title: Design of a separable transition-diagram compiler
 volume: '6'
 year: 1963
 notes:

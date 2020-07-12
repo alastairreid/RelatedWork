@@ -18,11 +18,12 @@ pages: 388-397
 publisher: Springer
 read: false
 readings: []
-title: Differential Power Analysis
+title: Differential power analysis
 year: 1999
 notes:
 - differential power analysis
 - microarchitecture
+- side channel
 - security
 ---
 {% include links.html %}

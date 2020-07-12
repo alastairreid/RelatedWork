@@ -23,5 +23,7 @@ series: ICSE '05
 title: 'DynAlloy: Upgrading Alloy with Actions'
 year: 2005
 notes:
+- Alloy verifier
+- requirements specification
 ---
 {% include links.html %}

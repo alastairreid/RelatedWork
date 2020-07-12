@@ -19,7 +19,7 @@ publisher: ACM
 read: false
 readings: []
 series: EuroSys '17
-title: An Empirical Study on the Correctness of Formally Verified Distributed Systems
+title: An empirical study on the correctness of formally verified distributed systems
 year: 2017
 topics:
 papers:

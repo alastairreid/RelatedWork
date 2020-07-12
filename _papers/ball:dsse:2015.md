@@ -24,6 +24,7 @@ title: Deconstructing dynamic symbolic execution
 url: https://www.microsoft.com/en-us/research/publication/deconstructing-dynamic-symbolic-execution/
 year: 2015
 notes:
+- symbolic execution
 papers:
 ---
 {% include links.html %}

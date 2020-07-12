@@ -19,9 +19,11 @@ pages: 280-290
 publisher: ACM
 read: false
 readings: []
-title: 'DAG Inlining: A Decision Procedure for Reachability-modulo-theories in Hierarchical Programs'
+title: 'DAG inlining: A decision procedure for reachability-modulo-theories in hierarchical programs'
 volume: '50'
 year: 2015
 notes:
+- model checking
+- SMT solver
 ---
 {% include links.html %}

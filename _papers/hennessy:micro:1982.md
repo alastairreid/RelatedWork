@@ -20,7 +20,7 @@ publisher: IEEE Press
 read: false
 readings: []
 series: MICRO 15
-title: 'MIPS: A Microprocessor Architecture'
+title: 'MIPS: A microprocessor architecture'
 year: 1982
 notes:
 - ISA specification

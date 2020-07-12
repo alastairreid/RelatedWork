@@ -20,8 +20,10 @@ publisher: ACM
 read: false
 readings: []
 series: PLDI '05
-title: Automatically Partitioning Packet Processing Applications for Pipelined Architectures
+title: Automatically partitioning packet processing applications for pipelined architectures
 year: 2005
 notes:
+- threads
+- pipeline parallelism
 ---
 {% include links.html %}

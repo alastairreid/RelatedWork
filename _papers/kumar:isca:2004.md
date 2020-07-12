@@ -32,6 +32,8 @@ title: Single-ISA heterogeneous multi-core architectures for multithreaded workl
 volume: ''
 year: 2004
 notes:
+- microarchitecture
+- parallelism
 papers:
 ---
 {% include links.html %}

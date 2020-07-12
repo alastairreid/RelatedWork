@@ -11,8 +11,10 @@ layout: paper
 publisher: Morgan Kaufmann Publishers Inc.
 read: false
 readings: []
-title: 'Computer Architecture, Fifth Edition: A Quantitative Approach'
+title: 'Computer architecture: A quantitative approach (Fifth edition)'
 year: 2011
 notes:
+- microarchitecture
+- instruction set architecture
 ---
 {% include links.html %}

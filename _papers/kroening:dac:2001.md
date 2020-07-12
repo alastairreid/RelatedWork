@@ -11,8 +11,10 @@ pages: 810-815
 publisher: ACM Press
 read: false
 readings: []
-title: Automated Pipeline Design
+title: Automated pipeline design
 year: 2001
 notes:
+- CPU verification
+- microarchitecture
 ---
 {% include links.html %}

@@ -17,8 +17,12 @@ publisher: ACM
 read: false
 readings: []
 series: HotOS '17
-title: Hardware is the New Software
+title: Hardware is the new software
 year: 2017
 notes:
+- instruction set architecture
+- microarchitecture
+- security
+- side channel
 ---
 {% include links.html %}

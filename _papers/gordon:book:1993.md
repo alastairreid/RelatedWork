@@ -11,5 +11,7 @@ readings: []
 title: 'Introduction to HOL: A Theorem Proving Environment for Higher Order Logic'
 year: 1993
 notes:
+- HOL theorem prover
+- interactive theorem prover
 ---
 {% include links.html %}

@@ -26,7 +26,7 @@ publisher: Springer-Verlag
 read: false
 readings: []
 series: CAV '09
-title: Replacing Testing with Formal Verification in Intel Core i7 Processor Execution Engine Validation
+title: Replacing testing with formal verification in Intel Core i7 processor execution engine validation
 year: 2009
 notes:
 - CPU verification

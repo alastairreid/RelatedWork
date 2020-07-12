@@ -16,5 +16,8 @@ readings: []
 title: 'Spectre is here to stay: An analysis of side-channels and speculative execution'
 year: 2019
 notes:
+- side channels
+- speculative execution
+- security
 ---
 {% include links.html %}

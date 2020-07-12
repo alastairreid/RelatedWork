@@ -22,6 +22,7 @@ title: All you ever wanted to know about dynamic taint analysis and forward symb
 url: https://doi.org/10.1109/SP.2010.26
 year: 2010
 notes:
+- symbolic execution
 papers:
 ---
 {% include links.html %}

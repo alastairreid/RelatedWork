@@ -22,6 +22,8 @@ title: 'Driller: Augmenting fuzzing through selective symbolic execution'
 url: http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2017/09/driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf
 year: 2016
 notes:
+- fuzz testing
+- symbolic execution
 papers:
 ---
 {% include links.html %}

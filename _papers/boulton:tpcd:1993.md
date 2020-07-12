@@ -23,5 +23,7 @@ url: https://www.cl.cam.ac.uk/~jrh13/papers/EmbeddingPaper.html
 volume: A-10
 year: 1993
 notes:
+- HOL theorem prover
+- embedding
 ---
 {% include links.html %}

@@ -8,8 +8,13 @@ month: May
 read: false
 readings: []
 school: University of California, Berkeley
-title: Scalable Vector Media Processors for Embedded Systems
+title: Scalable vector media processors for embedded systems
 year: 2002
 notes:
+- vector architecture
+- microarchitecture
+- instruction set architecture
+- SIMD
+- data parallelism
 ---
 {% include links.html %}

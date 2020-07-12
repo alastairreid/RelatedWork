@@ -18,9 +18,12 @@ pages: 321-359
 publisher: ACM
 read: false
 readings: []
-title: Memory Coherence in Shared Virtual Memory Systems
+title: Memory coherence in shared virtual memory systems
 volume: '7'
 year: 1989
 notes:
+- memory coherence
+- weak memory
+- distributed shared memory
 ---
 {% include links.html %}

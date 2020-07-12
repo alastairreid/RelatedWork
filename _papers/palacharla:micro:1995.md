@@ -15,5 +15,7 @@ readings: []
 title: Decoupling integer execution in superscalar processors
 year: 1995
 notes:
+- pipeline processing
+- microarchitecture
 ---
 {% include links.html %}

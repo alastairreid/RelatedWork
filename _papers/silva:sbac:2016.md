@@ -18,9 +18,10 @@ number: ''
 pages: 61-66
 read: false
 readings: []
-title: A Comparative Study of SYCL, OpenCL, and OpenMP
+title: A comparative study of SYCL, OpenCL, and OpenMP
 volume: ''
 year: 2016
 notes:
+- data parallelism
 ---
 {% include links.html %}

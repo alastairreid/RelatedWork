@@ -21,8 +21,9 @@ pages: 300-319
 publisher: Springer
 read: false
 readings: []
-title: A Methodology for Large-Scale Hardware Verification
+title: A methodology for large-scale hardware verification
 year: 2000
 notes:
+- CPU verification
 ---
 {% include links.html %}

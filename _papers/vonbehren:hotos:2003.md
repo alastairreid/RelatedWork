@@ -16,8 +16,10 @@ publisher: USENIX Association
 read: false
 readings: []
 series: HOTOS'03
-title: Why Events Are a Bad Idea (for High-concurrency Servers)
+title: Why events are a bad idea (for high-concurrency servers)
 year: 2003
 notes:
+- threads
+- events
 ---
 {% include links.html %}

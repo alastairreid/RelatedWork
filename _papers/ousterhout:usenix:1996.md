@@ -8,8 +8,9 @@ layout: paper
 month: June
 read: false
 readings: []
-title: Why Threads Are A Bad Idea (for most purposes) (Invited Talk)
+title: Why threads are a bad idea (for most purposes) (Invited talk)
 year: 1996
 notes:
+- threads
 ---
 {% include links.html %}

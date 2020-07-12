@@ -10,5 +10,7 @@ readings: []
 title: PDP-11/45 processor handbook
 year: 1973
 notes:
+- instruction set architecture
+- ISA specification
 ---
 {% include links.html %}

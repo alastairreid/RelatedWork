@@ -21,9 +21,11 @@ pages: 92-109
 publisher: ACM
 read: false
 readings: []
-title: A Survey of Asynchronous Remote Procedure Calls
+title: A survey of asynchronous remote procedure calls
 volume: '26'
 year: 1992
 notes:
+- remote procedure call
+- survey
 ---
 {% include links.html %}

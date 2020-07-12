@@ -15,10 +15,11 @@ read: false
 readings: []
 series: IFIP Conference Proceedings
 timestamp: Tue, 04 Mar 2003 07:57:24 +0100
-title: 'LSCs: Breathing Life into Message Sequence Charts'
+title: 'LSCs: Breathing life into message sequence charts'
 volume: '139'
 year: 1999
 notes:
+- formal specification
 papers:
 ---
 {% include links.html %}

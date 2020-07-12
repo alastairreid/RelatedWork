@@ -18,9 +18,11 @@ pages: 25-33
 publisher: ACM
 read: false
 readings: []
-title: The Case for the Reduced Instruction Set Computer
+title: The case for the reduced instruction set computer
 volume: '8'
 year: 1980
 notes:
+- RISC architecture
+- instruction set architecture
 ---
 {% include links.html %}

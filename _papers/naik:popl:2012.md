@@ -20,7 +20,7 @@ publisher: ACM
 read: false
 readings: []
 series: POPL '12
-title: Abstractions from Tests
+title: Abstractions from tests
 year: 2012
 notes:
 ---

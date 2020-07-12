@@ -15,7 +15,7 @@ pages: 7:1-7:74
 read: false
 readings: []
 timestamp: Thu, 07 May 2015 18:17:39 +0200
-title: 'Herding Cats: Modelling, Simulation, Testing, and Data Mining for Weak Memory'
+title: 'Herding cats: Modelling, simulation, testing, and data mining for weak memory'
 volume: '36'
 year: 2014
 notes:

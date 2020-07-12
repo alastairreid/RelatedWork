@@ -20,5 +20,6 @@ readings: []
 title: LISA-machine description language and generic machine model for HW/SW co-design
 year: 1996
 notes:
+- ISA specification
 ---
 {% include links.html %}

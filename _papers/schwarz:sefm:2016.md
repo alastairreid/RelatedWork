@@ -13,8 +13,10 @@ pages: 27-44
 read: false
 readings: []
 timestamp: Tue, 14 May 2019 10:00:54 +0200
-title: Automatic Derivation of Platform Noninterference Properties
+title: Automatic derivation of platform noninterference properties
 year: 2016
 notes:
+- non-interference
+- ARM architecture
 ---
 {% include links.html %}

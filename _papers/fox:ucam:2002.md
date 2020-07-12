@@ -14,5 +14,8 @@ title: Formal verification of the ARM6 micro-architecture
 url: http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-548.pdf
 year: 2002
 notes:
+- Arm architecture
+- CPU verification
+- microarchitecture
 ---
 {% include links.html %}

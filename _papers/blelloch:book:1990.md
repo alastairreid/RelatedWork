@@ -9,8 +9,10 @@ layout: paper
 publisher: MIT Press
 read: false
 readings: []
-title: Vector Models for Data-parallel Computing
+title: Vector models for data-parallel computing
 year: 1990
 notes:
+- vector architecture
+- data parallelism
 ---
 {% include links.html %}

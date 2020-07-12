@@ -21,6 +21,8 @@ title: The temporal logic of programs
 volume: ''
 year: 1977
 notes:
+- temporal logic
+- model checking
 papers:
 ---
 {% include links.html %}

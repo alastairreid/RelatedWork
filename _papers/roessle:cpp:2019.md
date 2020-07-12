@@ -19,8 +19,10 @@ publisher: ACM
 read: false
 readings: []
 series: CPP 2019
-title: Formally Verified Big Step Semantics out of x86-64 Binaries
+title: Formally verified big step semantics out of x86-64 binaries
 year: 2019
 notes:
+- x86 architecture
+- ISA specification
 ---
 {% include links.html %}

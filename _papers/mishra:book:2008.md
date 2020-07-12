@@ -10,8 +10,9 @@ layout: paper
 publisher: Morgan Kaufmann Publishers Inc.
 read: false
 readings: []
-title: Processor Description Languages
+title: Processor description languages
 year: 2008
 notes:
+- ISA specification
 ---
 {% include links.html %}

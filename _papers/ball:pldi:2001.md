@@ -23,6 +23,8 @@ title: Automatic predicate abstraction of C programs
 url: https://doi.org/10.1145/378795.378846
 year: 2001
 notes:
+- CEGAR
+- model checking
 papers:
 - henzinger:spin:2003
 ---

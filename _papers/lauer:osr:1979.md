@@ -18,9 +18,12 @@ pages: 3-19
 publisher: ACM
 read: false
 readings: []
-title: On the Duality of Operating System Structures
+title: On the duality of operating system structures
 volume: '13'
 year: 1979
 notes:
+- operating systems
+- continuations
+- threads
 ---
 {% include links.html %}
