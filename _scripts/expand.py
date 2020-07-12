@@ -36,6 +36,7 @@ def patch_body(body):
     return [ l for l in body if not re.match("{% include ", l) ]
 
 def read_md(f):
+    # print(f"Reading file {f}", file=sys.stderr)
     with open(f) as file:
         ls = file.readlines()
         t = ls[1:].index("---\n")
@@ -65,7 +66,7 @@ def add_backrefs(ps):
             # print(f"{ref} -> {xs}", file=sys.stderr)
             ps[ref][0]["refs"] = xs
         else:
-            print(f"Reference to missing page {ref} <- {xs}", file=sys.stderr)
+            print(f"Reference to missing page {ref} from {list(xs.keys())}", file=sys.stderr)
             header = {
                     "title": ref,
                     "layout": "note",
