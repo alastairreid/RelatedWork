@@ -22,3 +22,4 @@ notes:
 - CPU verification
 - Weak memory
 ---
+{% include links.html %}

@@ -23,3 +23,4 @@ title: Exploiting Task and Data Parallelism on a Multicomputer
 year: 1993
 notes:
 ---
+{% include links.html %}

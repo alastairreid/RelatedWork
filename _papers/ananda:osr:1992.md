@@ -26,3 +26,4 @@ volume: '26'
 year: 1992
 notes:
 ---
+{% include links.html %}

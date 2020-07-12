@@ -16,3 +16,4 @@ year: 1995
 notes:
 - CPU verification
 ---
+{% include links.html %}

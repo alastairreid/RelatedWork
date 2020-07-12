@@ -16,3 +16,4 @@ volume: '44'
 year: 1995
 notes:
 ---
+{% include links.html %}

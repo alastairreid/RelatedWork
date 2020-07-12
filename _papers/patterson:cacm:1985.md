@@ -22,3 +22,4 @@ volume: '28'
 year: 1985
 notes:
 ---
+{% include links.html %}

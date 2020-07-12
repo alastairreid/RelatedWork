@@ -21,3 +21,4 @@ year: 2014
 notes:
 - Weak memory
 ---
+{% include links.html %}

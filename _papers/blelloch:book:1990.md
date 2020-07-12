@@ -13,3 +13,4 @@ title: Vector Models for Data-parallel Computing
 year: 1990
 notes:
 ---
+{% include links.html %}

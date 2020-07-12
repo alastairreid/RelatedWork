@@ -24,3 +24,4 @@ title: Automatically Comparing Memory Consistency Models
 year: 2017
 notes:
 ---
+{% include links.html %}

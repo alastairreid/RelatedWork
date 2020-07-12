@@ -24,3 +24,4 @@ volume: '50'
 year: 2015
 notes:
 ---
+{% include links.html %}

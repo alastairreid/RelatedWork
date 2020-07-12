@@ -15,3 +15,4 @@ title: Automated Pipeline Design
 year: 2001
 notes:
 ---
+{% include links.html %}

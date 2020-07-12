@@ -30,3 +30,4 @@ notes:
 - microarchitecture
 - side channel
 ---
+{% include links.html %}

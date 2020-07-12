@@ -12,3 +12,4 @@ title: 'Introduction to HOL: A Theorem Proving Environment for Higher Order Logi
 year: 1993
 notes:
 ---
+{% include links.html %}

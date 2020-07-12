@@ -25,3 +25,4 @@ year: 2015
 notes:
 - survey
 ---
+{% include links.html %}

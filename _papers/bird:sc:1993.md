@@ -15,3 +15,4 @@ title: The Effectiveness of Decoupling
 year: 1993
 notes:
 ---
+{% include links.html %}

@@ -12,3 +12,4 @@ title: Scalable Vector Media Processors for Embedded Systems
 year: 2002
 notes:
 ---
+{% include links.html %}

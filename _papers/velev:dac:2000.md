@@ -21,3 +21,4 @@ title: Formal Verification of Superscalar Microprocessors with Multicycle Functi
 year: 2000
 notes:
 ---
+{% include links.html %}

@@ -26,3 +26,4 @@ notes:
 - instruction set architecture
 - SIMD
 ---
+{% include links.html %}

@@ -23,3 +23,4 @@ volume: '21'
 year: 1978
 notes:
 ---
+{% include links.html %}

@@ -16,3 +16,4 @@ volume: '17'
 year: 1978
 notes:
 ---
+{% include links.html %}

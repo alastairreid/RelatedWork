@@ -24,3 +24,4 @@ title: Automatically Partitioning Packet Processing Applications for Pipelined A
 year: 2005
 notes:
 ---
+{% include links.html %}

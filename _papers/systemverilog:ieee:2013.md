@@ -13,3 +13,4 @@ volume: ''
 year: 2013
 notes:
 ---
+{% include links.html %}

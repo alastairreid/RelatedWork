@@ -18,3 +18,4 @@ title: 'Constructions: A higher order proof system for mechanizing mathematics'
 year: 1985
 notes:
 ---
+{% include links.html %}

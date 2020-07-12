@@ -66,3 +66,4 @@ some functional properties.
 The paper is full of stories about how they interacted with and gained the
 trust of the developers and graphs showing the rate at which proofs, bugs, etc.
 were created/found/etc.
+{% include links.html %}

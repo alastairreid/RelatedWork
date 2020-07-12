@@ -28,3 +28,4 @@ title: A Trusted Mechanised JavaScript Specification
 year: 2014
 notes:
 ---
+{% include links.html %}

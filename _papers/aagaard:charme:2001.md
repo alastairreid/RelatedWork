@@ -25,3 +25,4 @@ year: 2001
 notes:
 - CPU verification
 ---
+{% include links.html %}

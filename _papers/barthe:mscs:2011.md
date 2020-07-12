@@ -18,3 +18,4 @@ volume: '21'
 year: 2011
 notes:
 ---
+{% include links.html %}

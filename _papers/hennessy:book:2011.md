@@ -15,3 +15,4 @@ title: 'Computer Architecture, Fifth Edition: A Quantitative Approach'
 year: 2011
 notes:
 ---
+{% include links.html %}

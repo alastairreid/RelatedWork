@@ -21,3 +21,4 @@ title: Hardware is the New Software
 year: 2017
 notes:
 ---
+{% include links.html %}

@@ -16,3 +16,4 @@ year: 1978
 notes:
 - ISA specification
 ---
+{% include links.html %}

@@ -20,3 +20,4 @@ title: Specifying the semantics of machine instructions
 year: 1998
 notes:
 ---
+{% include links.html %}

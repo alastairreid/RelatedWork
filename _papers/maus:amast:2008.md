@@ -23,3 +23,4 @@ title: 'Vx86: x86 Assembler Simulated in C Powered by Automated Theorem Proving'
 year: 2008
 notes:
 ---
+{% include links.html %}

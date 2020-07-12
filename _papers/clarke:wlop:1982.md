@@ -18,3 +18,4 @@ title: Design and Synthesis of Synchronization Skeletons Using Branching-Time Te
 year: 1982
 notes:
 ---
+{% include links.html %}

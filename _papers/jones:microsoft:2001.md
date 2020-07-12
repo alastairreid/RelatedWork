@@ -28,3 +28,4 @@ volume: ''
 year: 2001
 notes:
 ---
+{% include links.html %}

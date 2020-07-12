@@ -24,3 +24,4 @@ title: 'DynAlloy: Upgrading Alloy with Actions'
 year: 2005
 notes:
 ---
+{% include links.html %}

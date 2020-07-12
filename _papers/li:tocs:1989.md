@@ -23,3 +23,4 @@ volume: '7'
 year: 1989
 notes:
 ---
+{% include links.html %}

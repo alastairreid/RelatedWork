@@ -18,3 +18,4 @@ notes:
 - CPU verification
 - ISA specification
 ---
+{% include links.html %}

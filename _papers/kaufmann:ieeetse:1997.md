@@ -24,3 +24,4 @@ year: 1997
 notes:
 - ACL2 theorem prover
 ---
+{% include links.html %}

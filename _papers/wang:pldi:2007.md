@@ -25,3 +25,4 @@ title: 'EXOCHI: architecture and programming environment for a heterogeneous mul
 year: 2007
 notes:
 ---
+{% include links.html %}

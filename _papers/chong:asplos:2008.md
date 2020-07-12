@@ -19,3 +19,4 @@ year: 2008
 notes:
 - weak memory
 ---
+{% include links.html %}

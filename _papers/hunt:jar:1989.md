@@ -22,3 +22,4 @@ year: 1989
 notes:
 - CPU verification
 ---
+{% include links.html %}

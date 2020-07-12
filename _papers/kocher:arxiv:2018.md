@@ -24,3 +24,4 @@ year: 2018
 notes:
 - microarchitecture
 ---
+{% include links.html %}

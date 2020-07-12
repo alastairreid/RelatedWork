@@ -25,3 +25,4 @@ notes:
 - ISA specification
 - ACL2 verifier
 ---
+{% include links.html %}

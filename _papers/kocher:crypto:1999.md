@@ -25,3 +25,4 @@ notes:
 - microarchitecture
 - security
 ---
+{% include links.html %}

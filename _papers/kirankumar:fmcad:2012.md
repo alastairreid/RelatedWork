@@ -15,3 +15,4 @@ title: 'Symbolic Trajectory Evaluation: The Primary Validation Vehicle for Next 
 year: 2012
 notes:
 ---
+{% include links.html %}

@@ -15,3 +15,4 @@ url: http://arxiv.org/abs/math.NA/9810022
 year: 1998
 notes:
 ---
+{% include links.html %}

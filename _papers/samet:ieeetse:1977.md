@@ -20,3 +20,4 @@ volume: SE-3
 year: 1977
 notes:
 ---
+{% include links.html %}

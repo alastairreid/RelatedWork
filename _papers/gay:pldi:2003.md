@@ -26,3 +26,4 @@ title: 'The nesC Language: A Holistic Approach to Networked Embedded Systems'
 year: 2003
 notes:
 ---
+{% include links.html %}

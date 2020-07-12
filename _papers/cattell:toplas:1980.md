@@ -23,3 +23,4 @@ year: 1980
 notes:
 - ISA specification
 ---
+{% include links.html %}

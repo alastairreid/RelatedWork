@@ -19,3 +19,4 @@ title: Continuation-based Multiprocessing
 year: 1980
 notes:
 ---
+{% include links.html %}

@@ -18,3 +18,4 @@ title: An Annotation Language for Optimizing Software Libraries
 year: 1999
 notes:
 ---
+{% include links.html %}

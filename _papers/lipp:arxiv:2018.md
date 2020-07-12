@@ -24,3 +24,4 @@ year: 2018
 notes:
 - side channel
 ---
+{% include links.html %}

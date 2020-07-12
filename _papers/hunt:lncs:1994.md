@@ -19,3 +19,4 @@ year: 1994
 notes:
 - CPU verification
 ---
+{% include links.html %}

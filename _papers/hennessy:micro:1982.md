@@ -26,3 +26,4 @@ notes:
 - ISA specification
 - MIPS architecture
 ---
+{% include links.html %}

@@ -14,3 +14,4 @@ title: The Midway Distributed Shared Memory System
 year: 1993
 notes:
 ---
+{% include links.html %}

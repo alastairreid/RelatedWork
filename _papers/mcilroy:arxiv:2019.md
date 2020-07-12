@@ -17,3 +17,4 @@ title: 'Spectre is here to stay: An analysis of side-channels and speculative ex
 year: 2019
 notes:
 ---
+{% include links.html %}

@@ -14,3 +14,4 @@ title: 'Design and Programming of Embedded Multiprocessors: An Interface-Centric
 year: 2004
 notes:
 ---
+{% include links.html %}

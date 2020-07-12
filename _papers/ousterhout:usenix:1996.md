@@ -12,3 +12,4 @@ title: Why Threads Are A Bad Idea (for most purposes) (Invited Talk)
 year: 1996
 notes:
 ---
+{% include links.html %}

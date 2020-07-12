@@ -22,3 +22,4 @@ volume: '6'
 year: 1963
 notes:
 ---
+{% include links.html %}

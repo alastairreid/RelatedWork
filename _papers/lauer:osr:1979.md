@@ -23,3 +23,4 @@ volume: '13'
 year: 1979
 notes:
 ---
+{% include links.html %}

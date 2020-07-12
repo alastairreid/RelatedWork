@@ -23,3 +23,4 @@ topics:
 - code generator
 - ISA specification
 ---
+{% include links.html %}

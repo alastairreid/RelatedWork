@@ -16,3 +16,4 @@ title: Easy Approach to Requirements Syntax (EARS)
 year: 2009
 notes:
 ---
+{% include links.html %}

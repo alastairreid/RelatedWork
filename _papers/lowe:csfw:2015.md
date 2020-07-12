@@ -19,3 +19,4 @@ volume: ''
 year: 2002
 notes:
 ---
+{% include links.html %}

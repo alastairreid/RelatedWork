@@ -24,3 +24,4 @@ volume: '29'
 year: 1995
 notes:
 ---
+{% include links.html %}

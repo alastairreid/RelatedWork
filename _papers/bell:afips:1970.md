@@ -21,3 +21,4 @@ year: 1970
 notes:
 - ISA specification
 ---
+{% include links.html %}

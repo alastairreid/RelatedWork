@@ -24,3 +24,4 @@ title: Abstractions from Tests
 year: 2012
 notes:
 ---
+{% include links.html %}

@@ -18,3 +18,4 @@ volume: '3402'
 year: 2005
 notes:
 ---
+{% include links.html %}

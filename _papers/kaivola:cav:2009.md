@@ -31,3 +31,4 @@ year: 2009
 notes:
 - CPU verification
 ---
+{% include links.html %}

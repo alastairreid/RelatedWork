@@ -17,3 +17,4 @@ title: Proving the Correctness of Pipelined Micro-Architectures
 year: 2000
 notes:
 ---
+{% include links.html %}

@@ -24,3 +24,4 @@ volume: A-10
 year: 1993
 notes:
 ---
+{% include links.html %}

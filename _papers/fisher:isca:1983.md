@@ -20,3 +20,4 @@ title: Very Long Instruction Word Architectures and the ELI-512
 year: 1983
 notes:
 ---
+{% include links.html %}

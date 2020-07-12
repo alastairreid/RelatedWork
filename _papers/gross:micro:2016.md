@@ -21,3 +21,4 @@ volume: '36'
 year: 2016
 notes:
 ---
+{% include links.html %}

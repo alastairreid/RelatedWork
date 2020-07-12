@@ -27,3 +27,4 @@ volume: '6806'
 year: 2011
 notes:
 ---
+{% include links.html %}

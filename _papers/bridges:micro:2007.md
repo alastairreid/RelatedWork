@@ -24,3 +24,4 @@ volume: ''
 year: 2007
 notes:
 ---
+{% include links.html %}

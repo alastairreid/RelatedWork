@@ -14,3 +14,4 @@ title: ARM Architecture Reference Manual (ARMv5 edition)
 year: 2000
 notes:
 ---
+{% include links.html %}

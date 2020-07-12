@@ -21,3 +21,4 @@ title: Automated Formal Verification of Processors Based on Architectural Models
 year: 2010
 notes:
 ---
+{% include links.html %}

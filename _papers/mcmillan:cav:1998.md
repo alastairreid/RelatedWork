@@ -21,3 +21,4 @@ title: Verification of an implementation of Tomasulo's algorithm by compositiona
 year: 1998
 notes:
 ---
+{% include links.html %}

@@ -25,3 +25,4 @@ year: 2002
 notes:
 - stream processing
 ---
+{% include links.html %}

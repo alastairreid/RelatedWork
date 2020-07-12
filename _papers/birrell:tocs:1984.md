@@ -18,3 +18,4 @@ volume: '2'
 year: 1984
 notes:
 ---
+{% include links.html %}

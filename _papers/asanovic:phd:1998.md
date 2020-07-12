@@ -12,3 +12,4 @@ title: Vector Microprocessors
 year: 1998
 notes:
 ---
+{% include links.html %}

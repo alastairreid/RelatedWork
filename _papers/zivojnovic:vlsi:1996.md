@@ -21,3 +21,4 @@ title: LISA-machine description language and generic machine model for HW/SW co-
 year: 1996
 notes:
 ---
+{% include links.html %}

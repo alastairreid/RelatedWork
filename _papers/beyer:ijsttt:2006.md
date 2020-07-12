@@ -29,3 +29,4 @@ notes:
 - CPU verification
 - PVS verifier
 ---
+{% include links.html %}

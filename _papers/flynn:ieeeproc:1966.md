@@ -30,3 +30,4 @@ volume: '54'
 year: 1966
 notes:
 ---
+{% include links.html %}

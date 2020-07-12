@@ -24,3 +24,4 @@ year: 1999
 notes:
 - CPU verification
 ---
+{% include links.html %}

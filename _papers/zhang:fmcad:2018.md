@@ -16,3 +16,4 @@ title: Integrating Memory Consistency Models with Instruction-Level Abstraction 
 year: 2018
 notes:
 ---
+{% include links.html %}

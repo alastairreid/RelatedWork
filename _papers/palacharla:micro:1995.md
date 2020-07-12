@@ -16,3 +16,4 @@ title: Decoupling integer execution in superscalar processors
 year: 1995
 notes:
 ---
+{% include links.html %}

@@ -18,3 +18,4 @@ year: 2003
 notes:
 - CPU verification
 ---
+{% include links.html %}

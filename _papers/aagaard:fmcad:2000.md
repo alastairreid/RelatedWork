@@ -25,3 +25,4 @@ title: A Methodology for Large-Scale Hardware Verification
 year: 2000
 notes:
 ---
+{% include links.html %}

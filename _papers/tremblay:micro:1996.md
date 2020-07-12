@@ -25,3 +25,4 @@ volume: '16'
 year: 1996
 notes:
 ---
+{% include links.html %}

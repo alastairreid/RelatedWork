@@ -21,3 +21,4 @@ title: A Practical Approach to Exploiting Coarse-Grained Pipeline Parallelism in
 year: 2007
 notes:
 ---
+{% include links.html %}
