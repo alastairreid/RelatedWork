@@ -1,3 +1,7 @@
+- name: Mark D. Aagaard
+  papers:
+  - papers/aagaard:charme:2001
+  - papers/higgins:hldvt:2004
 - name: "Mart\xEDn Abadi"
   papers:
   - papers/abadi:tcs:1991
@@ -21,11 +25,18 @@
 - name: Bashir M. Al-Hashimi
   papers:
   - papers/boettcher:date:2014
+- name: Kenneth L. Albin
+  papers:
+  - papers/albin:cli:1995
+- name: Ken Albin
+  papers:
+  - papers/lahiri:hldvt:2001
 - name: Jonathan Aldrich
   papers:
   - papers/krishnaswami:tldi:2010
 - name: Jade Alglave
   papers:
+  - papers/alglave:toplas:2014
   - papers/sarkar:pldi:2011
   - papers/sarkar:popl:2009
 - name: Eyad Alkassar
@@ -132,6 +143,9 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: Forest Baskett
+  papers:
+  - papers/hennessy:micro:1982
 - name: "Th\xE9ophile Bastian"
   papers:
   - papers/bastian:oopsla:2019
@@ -160,6 +174,9 @@
 - name: Chester Bell
   papers:
   - papers/barbacci:cmu:1972
+- name: C. Gordon Bell
+  papers:
+  - papers/bell:afips:1970
 - name: Josh Berdine
   papers:
   - papers/berdine:aplas:2005
@@ -171,9 +188,15 @@
   - papers/beyer:hvc:2017
   - papers/beyer:ijsttt:2007
   - papers/beyer:sas:2004
+- name: Sven Beyer
+  papers:
+  - papers/beyer:ijsttt:2006
 - name: Abhijith Bharadwaj
   papers:
   - papers/verbeek:fmmsd:2019
+- name: Abhishek Bhattacharjee
+  papers:
+  - papers/lustig:asplos:2016
 - name: Armin Biere
   papers:
   - papers/biere:tacas:1999
@@ -200,6 +223,9 @@
 - name: Allan Blanchard
   papers:
   - papers/blanchard:fmics:2015
+- name: "Fr\xE9d\xE9ric Blanqui"
+  papers:
+  - papers/blanqui:rapido:2011
 - name: Stefan Blom
   papers:
   - papers/blom:ijsttt:2015
@@ -252,6 +278,9 @@
 - name: Matthew Brassil
   papers:
   - papers/murray:secpriv:2013
+- name: Bishop C. Brock
+  papers:
+  - papers/albin:cli:1995
 - name: Micah Brodsky
   papers:
   - papers/krohn:sosp:2007
@@ -268,9 +297,15 @@
 - name: Robert Brummayer
   papers:
   - papers/brummayer:sat:2010
+- name: Randal E. Bryant
+  papers:
+  - papers/lahiri:cav:2003
 - name: Stefan Bucur
   papers:
   - papers/babic:fse:2019
+- name: Jerry R. Burch
+  papers:
+  - papers/burch:cav:1994
 - name: Warren Burton
   papers:
   - papers/jones:hasklang:1999
@@ -316,6 +351,10 @@
 - name: Bruno Castro-Karney
   papers:
   - papers/sigurbjarnarson:osdi:2018
+- name: Roderic Geoffrey Galton Cattell
+  papers:
+  - papers/cattell:phd:1978
+  - papers/cattell:toplas:1980
 - name: Sang Kil Cha
   papers:
   - papers/avgerinos:icse:2014
@@ -371,6 +410,7 @@
   - papers/choi:icfp:2017
 - name: Nathan Chong
   papers:
+  - papers/chong:asplos:2008
   - papers/chong:icse:2020
 - name: Frederic T. Chong
   papers:
@@ -418,6 +458,7 @@
   - papers/condit:popl:2009
 - name: Byron Cook
   papers:
+  - papers/aagaard:charme:2001
   - papers/chong:icse:2020
   - papers/cook:cav:2018
 - name: Emilio Coppa
@@ -495,6 +536,9 @@
 - name: Brooks Davis
   papers:
   - papers/woodruff:isca:2014
+- name: Nancy A. Day
+  papers:
+  - papers/aagaard:charme:2001
 - name: Robert DeLine
   papers:
   - papers/barnett:fmco:2005
@@ -534,6 +578,7 @@
 - name: David L. Dill
   papers:
   - papers/barrett:cade:2000
+  - papers/burch:cav:1994
 - name: Thomas Dinsdale-Young
   papers:
   - papers/dinsdale-young:popl:2013
@@ -703,6 +748,9 @@
 - name: Jason Franklin
   papers:
   - papers/franklin:cmu:2008
+- name: Christopher W. Fraser
+  papers:
+  - papers/fraser:sigart:1977
 - name: Louis Fredriksen
   papers:
   - papers/miller:cacm:1990
@@ -767,6 +815,9 @@
 - name: David Gilday
   papers:
   - papers/reid:cav:2016
+- name: John Gill
+  papers:
+  - papers/hennessy:micro:1982
 - name: Neal Glew
   papers:
   - papers/morrisett:wcsss:1999
@@ -805,6 +856,9 @@
   - papers/armstrong:spisa:2019
   - papers/flur:popl:2016
   - papers/gray:micro:2015
+- name: David A. Greve
+  papers:
+  - papers/greve:fmcad:1998
 - name: Alberto Griggio
   papers:
   - papers/nyxbrain:sc2:2017
@@ -818,6 +872,9 @@
   papers:
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
+- name: Thomas Gross
+  papers:
+  - papers/hennessy:micro:1982
 - name: Dan Grossman
   papers:
   - papers/grossman:esop:2002
@@ -837,6 +894,9 @@
   papers:
   - papers/dam:ted:2013
   - papers/dam:trusted:2013
+- name: Aarti Gupta
+  papers:
+  - papers/huang:todaes:2019
 - name: Saurabh Gupta
   papers:
   - papers/sharma:pls:2013
@@ -903,10 +963,16 @@
   - papers/amani:asplos:2016
   - papers/cock:ccs:2014
   - papers/klein:sosp:2009
+- name: Claude Helmstetter
+  papers:
+  - papers/blanqui:rapido:2011
 - name: Fergus Henderson
   papers:
   - papers/chakravarty:haskffi:2003
   - papers/jones:pldi:1999
+- name: John Hennessy
+  papers:
+  - papers/hennessy:micro:1982
 - name: Ulrich Hensel
   papers:
   - papers/becker:fm:2016
@@ -927,6 +993,9 @@
 - name: Mike Hibler
   papers:
   - papers/spencer:security:1999
+- name: J. Thomas Higgins
+  papers:
+  - papers/higgins:hldvt:2004
 - name: Mark A. Hillebrand
   papers:
   - papers/alkassar:vstte:2010
@@ -979,6 +1048,9 @@
 - name: Weizhe Hua
   papers:
   - papers/ferraiuolo:dac:2017
+- name: Bo-Yuan Huang
+  papers:
+  - papers/huang:todaes:2019
 - name: Paul Hudak
   papers:
   - papers/jones:hasklang:1999
@@ -1014,6 +1086,9 @@
 - name: Ali Irturk
   papers:
   - papers/oberg:dac:2010
+- name: Samin Ishtiaq
+  papers:
+  - papers/chong:asplos:2008
 - name: Alexander Ivanov
   papers:
   - papers/liu:cpsspc:2018
@@ -1023,6 +1098,9 @@
 - name: Kenneth E. Iverson
   papers:
   - papers/falkoff:ibm:1964
+- name: Christian Jacobi
+  papers:
+  - papers/beyer:ijsttt:2006
 - name: Bart Jacobs
   papers:
   - papers/barnett:fmco:2005
@@ -1060,6 +1138,12 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: Vania Joloboff
+  papers:
+  - papers/blanqui:rapido:2011
+- name: Robert B. Jones
+  papers:
+  - papers/aagaard:charme:2001
 - name: Simon L. Peyton Jones
   papers:
   - papers/chakravarty:haskffi:2003
@@ -1074,9 +1158,16 @@
 - name: Sarang Joshi
   papers:
   - papers/tahat:fmcad:2019
+- name: Norman Jouppi
+  papers:
+  - papers/hennessy:micro:1982
 - name: Jacques-Henri Jourdan
   papers:
   - papers/jung:popl:2017
+- name: Warren A. Hunt Jr.
+  papers:
+  - papers/albin:cli:1995
+  - papers/hunt:lncs:1994
 - name: Ralf Jung
   papers:
   - papers/jung:popl:2017
@@ -1212,6 +1303,9 @@
   papers:
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
+- name: "Daniel Kr\xF6ning"
+  papers:
+  - papers/beyer:ijsttt:2006
 - name: Ramana Kumar
   papers:
   - papers/kumar:popl:2014
@@ -1231,6 +1325,8 @@
   papers:
   - papers/chatterjee:tacas:2007
   - papers/condit:popl:2009
+  - papers/lahiri:cav:2003
+  - papers/lahiri:hldvt:2001
   - papers/lal:cav:2012
 - name: Akash Lal
   papers:
@@ -1260,6 +1356,7 @@
   - papers/chakravarty:haskffi:2003
 - name: Dirk Leinenbach
   papers:
+  - papers/beyer:ijsttt:2006
   - papers/leinenbach:fm:2009
 - name: K. Rustan M. Leino
   papers:
@@ -1390,6 +1487,9 @@
 - name: Ziqing Luo
   papers:
   - papers/siegel:sc:2015
+- name: Daniel Lustig
+  papers:
+  - papers/lustig:asplos:2016
 - name: Steven Lyubomirsky
   papers:
   - papers/weitz:icfp:2017
@@ -1428,6 +1528,7 @@
   - papers/clark:entcs:2002
 - name: Sharad Malik
   papers:
+  - papers/huang:todaes:2019
   - papers/malik:cacm:2009
 - name: Valentin Manes
   papers:
@@ -1451,6 +1552,7 @@
   - papers/manes:ieeetse:2019
 - name: Luc Maranget
   papers:
+  - papers/alglave:toplas:2014
   - papers/flur:popl:2016
   - papers/sarkar:pldi:2011
 - name: "Claude March\xE9"
@@ -1470,6 +1572,9 @@
 - name: Alejandro Martinez
   papers:
   - papers/stephens:micro:2017
+- name: Margaret Martonosi
+  papers:
+  - papers/lustig:asplos:2016
 - name: Daniel Matichuk
   papers:
   - papers/murray:secpriv:2013
@@ -1528,6 +1633,9 @@
 - name: Benjamin Monate
   papers:
   - papers/cuoq:sefm:2012
+- name: "Jean-Fran\xE7ois Monin"
+  papers:
+  - papers/blanqui:rapido:2011
 - name: Felipe R. Monteiro
   papers:
   - papers/chong:icse:2020
@@ -1673,6 +1781,7 @@
 - name: Allen Newell
   papers:
   - papers/barbacci:cmu:1972
+  - papers/bell:afips:1970
 - name: James Newsome
   papers:
   - papers/vasudevan:secpriv:2013
@@ -1774,6 +1883,7 @@
   papers:
   - papers/alkassar:vstte:2010
   - papers/alkassar:vstte:2012
+  - papers/beyer:ijsttt:2006
 - name: Lawrence C. Paulson
   papers:
   - papers/nipkow:book:2002
@@ -1822,6 +1932,9 @@
   - papers/smans:ecoop:2009
   - papers/smans:fmood:2010
   - papers/vogels:fmoods:2011
+- name: Carl Pixley
+  papers:
+  - papers/lahiri:hldvt:2001
 - name: Amir Pnueli
   papers:
   - papers/pnueli:sfcs:1977
@@ -1844,6 +1957,9 @@
 - name: Virgile Prevosto
   papers:
   - papers/cuoq:sefm:2012
+- name: Steven Przybylski
+  papers:
+  - papers/hennessy:micro:1982
 - name: Armand Puccetti
   papers:
   - papers/cuoq:sefm:2012
@@ -1972,6 +2088,9 @@
 - name: Michael S. Rogers
   papers:
   - papers/siegel:sc:2015
+- name: Christopher Rowen
+  papers:
+  - papers/hennessy:micro:1982
 - name: Colin Runciman
   papers:
   - papers/jones:hasklang:1999
@@ -2061,6 +2180,9 @@
   papers:
   - papers/franklin:cmu:2008
   - papers/seshadri:sosp:2007
+- name: Geet Sethi
+  papers:
+  - papers/lustig:asplos:2016
 - name: Thomas Sewell
   papers:
   - papers/amani:asplos:2016
@@ -2104,6 +2226,7 @@
   - papers/tiwari:isca:2011
 - name: Xiaomu Shi
   papers:
+  - papers/blanqui:rapido:2011
   - papers/shi:phd:2013
 - name: Avraham Shinnar
   papers:
@@ -2158,6 +2281,9 @@
   - papers/smans:ecoop:2009
   - papers/smans:fmood:2010
   - papers/vogels:fmoods:2011
+- name: Lawrence M. Smith
+  papers:
+  - papers/albin:cli:1995
 - name: Eric W. Smith
   papers:
   - papers/hardin:acl2:2006
@@ -2186,6 +2312,9 @@
 - name: Fausto Spoto
   papers:
   - papers/ernst:icse:2016
+- name: Sudarshan K. Srinivasan
+  papers:
+  - papers/srinivasan:ieeetoc:2010
 - name: Mark Staples
   papers:
   - papers/andronick:icse:2012
@@ -2212,6 +2341,9 @@
   papers:
   - papers/barrett:cade:2000
   - papers/stump:fmsd:2013
+- name: Pramod Subramanyan
+  papers:
+  - papers/huang:todaes:2019
 - name: G. Edward Suh
   papers:
   - papers/ferraiuolo:asplos:2017
@@ -2268,6 +2400,7 @@
   - papers/weitz:icfp:2017
 - name: Michael Tautschnig
   papers:
+  - papers/alglave:toplas:2014
   - papers/chong:icse:2020
   - papers/cook:cav:2018
   - papers/holzer:cav:2008
@@ -2367,6 +2500,9 @@
 - name: Jules Villard
   papers:
   - papers/hobor:popl:2013
+- name: Yakir Vizel
+  papers:
+  - papers/huang:todaes:2019
 - name: "Fr\xE9d\xE9ric Vogels"
   papers:
   - papers/jacobs:nfm:2011
@@ -2542,6 +2678,9 @@
   papers:
   - papers/fonseca:ecs:2017
   - papers/nelson:sosp:2017
+- name: Hongce Zhang
+  papers:
+  - papers/huang:todaes:2019
 - name: Lintao Zhang
   papers:
   - papers/malik:cacm:2009

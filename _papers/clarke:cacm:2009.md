@@ -50,7 +50,7 @@ properties, reconfigurability properties, quality of service (e.g., jitter).
 
 And it talks about problems verifying real world systems: mixed
 hardware-software systems, using abstraction to scale (using hybrid
-[model-checking]/[abstract-interpretation] methods and compositional reasoning)
+[model checking] / [abstract interpretation] methods and compositional reasoning)
 and exploiting design-time architectural choices to improve verifiability.
 
 {% include links.html %}

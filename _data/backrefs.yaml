@@ -4,6 +4,7 @@ notes:
     - - SeaHorn verifier
       - null
   notes/acl2-theorem-prover: []
+  notes/acl2-verifier: []
   notes/annotation-burden:
   - - notes/ghost-code
     - - Ghost code
@@ -157,6 +158,7 @@ notes:
   - - notes/sv-competition
     - - Software Verification Competition (SV-COMP)
       - null
+  notes/cpu-verification: []
   notes/dafny-verifier:
   - - notes/auto-active-verification
     - - Auto active verification
@@ -441,6 +443,7 @@ notes:
   - - notes/viper-verifier
     - - Viper verifier
       - null
+  notes/pvs-verifier: []
   notes/riscv-architecture:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
@@ -686,6 +689,7 @@ notes:
   - - notes/prusti-verifier
     - - Prusti verifier
       - null
+  notes/weak-memory: []
   notes/why3-verifier: []
   notes/x86-architecture:
   - - notes/instruction-set-architecture
@@ -701,7 +705,10 @@ notes:
   - - notes/vcc-verifier
     - - VCC verifier
       - null
+  papers/aagaard:charme:2001: []
   papers/abadi:tcs:1991: []
+  papers/albin:cli:1995: []
+  papers/alglave:toplas:2014: []
   papers/alkassar:vstte:2010: []
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
@@ -772,6 +779,7 @@ notes:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
       - null
+  papers/bell:afips:1970: []
   papers/berdine:aplas:2005: []
   papers/berdine:fmco:2005: []
   papers/beyer:ase:2019:
@@ -783,6 +791,7 @@ notes:
     - - CPAchecker verifier
       - null
   papers/beyer:hvc:2017: []
+  papers/beyer:ijsttt:2006: []
   papers/beyer:ijsttt:2007:
   - - notes/blast-verifier
     - - BLAST verifier
@@ -793,6 +802,7 @@ notes:
       - null
   papers/biere:tacas:1999: []
   papers/blanchard:fmics:2015: []
+  papers/blanqui:rapido:2011: []
   papers/blom:ijsttt:2015:
   - - notes/magic-wand
     - - Magic wand
@@ -826,6 +836,7 @@ notes:
   - - notes/smt-solver
     - - SMT solver
       - null
+  papers/burch:cav:1994: []
   papers/cadar:cacm:2013:
   - - notes/klee-verifier
     - - KLEE verifier
@@ -841,6 +852,8 @@ notes:
   - - notes/modular-verification
     - - Modular verification
       - null
+  papers/cattell:phd:1978: []
+  papers/cattell:toplas:1980: []
   papers/chakravarty:haskffi:2003:
   - - notes/foreign-function-interface
     - - Foreign function interface
@@ -859,6 +872,7 @@ notes:
     - - S2E verifier
       - null
   papers/choi:icfp:2017: []
+  papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
   papers/clark:entcs:2002: []
   papers/clarke:cacm:2009:
@@ -941,6 +955,7 @@ notes:
   papers/fox:itps:2015: []
   papers/fox:tphols:2003: []
   papers/franklin:cmu:2008: []
+  papers/fraser:sigart:1977: []
   papers/godefroid:acmq:2012: []
   papers/godefroid:cacm:2020:
   - - notes/fuzz-testing
@@ -961,6 +976,7 @@ notes:
     - - Non-interference
       - null
   papers/gray:micro:2015: []
+  papers/greve:fmcad:1998: []
   papers/groce:issta:2017:
   - - notes/test-case-reduction
     - - Test-case reduction
@@ -981,6 +997,7 @@ notes:
   - - notes/loop-invariant
     - - Loop invariant
       - null
+  papers/hennessy:micro:1982: []
   papers/henzinger:spin:2003: []
   papers/heule:ftfjp:2011:
   - - notes/chalice-verifier
@@ -994,6 +1011,7 @@ notes:
       - null
   papers/heule:pldi:2016: []
   papers/heule:vmcai:2013: []
+  papers/higgins:hldvt:2004: []
   papers/hobor:popl:2013: []
   papers/hohmuth:plos:2005: []
   papers/hohmuth:sigops:2002: []
@@ -1006,6 +1024,8 @@ notes:
     - - FShell Query Language (FQL)
       - null
   papers/hritcu:icfp:2013: []
+  papers/huang:todaes:2019: []
+  papers/hunt:lncs:1994: []
   papers/jacobs:nfm:2011:
   - - notes/verifast-verifier
     - - VeriFast verifier
@@ -1059,6 +1079,8 @@ notes:
   papers/krishnaswami:tldi:2010: []
   papers/krohn:sosp:2007: []
   papers/kumar:popl:2014: []
+  papers/lahiri:cav:2003: []
+  papers/lahiri:hldvt:2001: []
   papers/lal:cav:2012: []
   papers/lal:fse:2014: []
   papers/legoues:sefm:2011:
@@ -1107,6 +1129,7 @@ notes:
       - null
   papers/loow:pldi:2019: []
   papers/lopes:pldi:2015: []
+  papers/lustig:asplos:2016: []
   papers/maciver:ecoop:2020:
   - - notes/test-case-reduction
     - - Test-case reduction
@@ -1279,7 +1302,10 @@ notes:
     - - Non-interference
       - null
   papers/sabelfield:jcs:2009: []
-  papers/samet:phd:1975: []
+  papers/samet:phd:1975:
+  - - notes/translation-validation
+    - - Translation validation
+      - null
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
   papers/schwartz:sp:2010: []
@@ -1318,6 +1344,7 @@ notes:
   papers/smith:esop:2000: []
   papers/smith:fossacs:2009: []
   papers/spencer:security:1999: []
+  papers/srinivasan:ieeetoc:2010: []
   papers/stephens:micro:2017: []
   papers/stephens:ndss:2016: []
   papers/stump:fmsd:2013:
@@ -1437,6 +1464,10 @@ papers:
     - - Formal verification of application and system programs based on a validated
         x86 ISA model
       - goel:phd:2016
+  notes/acl2-verifier:
+  - - papers/hardin:acl2:2006
+    - - A robust machine code proof framework for highly secure applications
+      - hardin:acl2:2006
   notes/annotation-burden: []
   notes/aorte: []
   notes/arm-architecture:
@@ -1796,6 +1827,46 @@ papers:
   - - papers/beyer:cav:2011
     - - 'CPAchecker: A tool for configurable software verification'
       - beyer:cav:2011
+  notes/cpu-verification:
+  - - papers/aagaard:charme:2001
+    - - A framework for microprocessor correctness statements
+      - aagaard:charme:2001
+  - - papers/albin:cli:1995
+    - - Testing the FM9001 Microprocessor
+      - albin:cli:1995
+  - - papers/beyer:ijsttt:2006
+    - - Putting it all together - Formal verification of the VAMP
+      - beyer:ijsttt:2006
+  - - papers/burch:cav:1994
+    - - Automatic verification of pipelined microprocessor control
+      - burch:cav:1994
+  - - papers/greve:fmcad:1998
+    - - Symbolic simulation of the JEM1 microprocessor
+      - greve:fmcad:1998
+  - - papers/higgins:hldvt:2004
+    - - Simplifying design and verification for structural hazards and datapaths in
+        pipelined circuits
+      - higgins:hldvt:2004
+  - - papers/huang:todaes:2019
+    - - 'Instruction-level abstraction (ILA): A uniform specification for system-on-chip
+        (SoC) verification'
+      - huang:todaes:2019
+  - - papers/hunt:lncs:1994
+    - - 'FM8501: A verified microprocessor'
+      - hunt:lncs:1994
+  - - papers/lahiri:cav:2003
+    - - Deductive verification of advanced out-of-order microprocessors
+      - lahiri:cav:2003
+  - - papers/lahiri:hldvt:2001
+    - - Experience with term level modeling and verification of the M* CORE microprocessor
+        core
+      - lahiri:hldvt:2001
+  - - papers/lustig:asplos:2016
+    - - 'COATCheck: Verifying memory ordering at the hardware-OS interface'
+      - lustig:asplos:2016
+  - - papers/srinivasan:ieeetoc:2010
+    - - Automatic Refinement Checking of Pipelines with Out-of-Order Execution
+      - srinivasan:ieeetoc:2010
   notes/dafny-verifier:
   - - papers/legoues:sefm:2011
     - - The Boogie verification debugger
@@ -2298,6 +2369,21 @@ papers:
   - - papers/barbacci:ieee:1981
     - - 'Instruction set processor specifications (ISPS): The notation and its applications'
       - barbacci:ieee:1981
+  - - papers/bell:afips:1970
+    - - The PMS and ISP Descriptive Systems for Computer Structures
+      - bell:afips:1970
+  - - papers/beyer:ijsttt:2006
+    - - Putting it all together - Formal verification of the VAMP
+      - beyer:ijsttt:2006
+  - - papers/blanqui:rapido:2011
+    - - 'Designing a CPU model: from a pseudo-formal document to fast code'
+      - blanqui:rapido:2011
+  - - papers/cattell:phd:1978
+    - - Formalization and automatic derivation of code generators
+      - cattell:phd:1978
+  - - papers/cattell:toplas:1980
+    - - Automatic derivation of code generators from machine descriptions
+      - cattell:toplas:1980
   - - papers/dam:ted:2013
     - - Machine code verification of a tiny ARM hypervisor
       - dam:ted:2013
@@ -2346,9 +2432,19 @@ papers:
     - - An integrated concurrency and core-ISA architectural envelope definition,
         and test oracle, for IBM POWER multiprocessors
       - gray:micro:2015
+  - - papers/hardin:acl2:2006
+    - - A robust machine code proof framework for highly secure applications
+      - hardin:acl2:2006
+  - - papers/hennessy:micro:1982
+    - - 'MIPS: A Microprocessor Architecture'
+      - hennessy:micro:1982
   - - papers/heule:pldi:2016
     - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
       - heule:pldi:2016
+  - - papers/huang:todaes:2019
+    - - 'Instruction-level abstraction (ILA): A uniform specification for system-on-chip
+        (SoC) verification'
+      - huang:todaes:2019
   - - papers/kaufmann:utaustin:2012
     - - Towards a formal model of the x86 ISA
       - kaufmann:utaustin:2012
@@ -2498,6 +2594,9 @@ papers:
   - - papers/armstrong:spisa:2019
     - - The state of Sail
       - armstrong:spisa:2019
+  - - papers/hennessy:micro:1982
+    - - 'MIPS: A Microprocessor Architecture'
+      - hennessy:micro:1982
   notes/mir:
   - - papers/jung:popl:2017
     - - 'RustBelt: Securing the foundations of the Rust programming language'
@@ -2727,6 +2826,10 @@ papers:
   - - papers/schwerhoff:ecoop:2015
     - - Lightweight support for magic wands in an automatic verifier
       - schwerhoff:ecoop:2015
+  notes/pvs-verifier:
+  - - papers/beyer:ijsttt:2006
+    - - Putting it all together - Formal verification of the VAMP
+      - beyer:ijsttt:2006
   notes/riscv-architecture:
   - - papers/armstrong:popl19:2019
     - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
@@ -3283,6 +3386,16 @@ papers:
   - - papers/schwerhoff:ecoop:2015
     - - Lightweight support for magic wands in an automatic verifier
       - schwerhoff:ecoop:2015
+  notes/weak-memory:
+  - - papers/alglave:toplas:2014
+    - - 'Herding Cats: Modelling, Simulation, Testing, and Data Mining for Weak Memory'
+      - alglave:toplas:2014
+  - - papers/chong:asplos:2008
+    - - Reasoning about the ARM weakly consistent memory model
+      - chong:asplos:2008
+  - - papers/lustig:asplos:2016
+    - - 'COATCheck: Verifying memory ordering at the hardware-OS interface'
+      - lustig:asplos:2016
   notes/why3-verifier:
   - - papers/cuoq:sefm:2012
     - - 'Frama-C: A software analysis perspective'
@@ -3354,7 +3467,10 @@ papers:
   - - papers/leino:lpair:2010
     - - 'Dafny: An automatic program verifier for functional correctness'
       - leino:lpair:2010
+  papers/aagaard:charme:2001: []
   papers/abadi:tcs:1991: []
+  papers/albin:cli:1995: []
+  papers/alglave:toplas:2014: []
   papers/alkassar:vstte:2010: []
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
@@ -3428,6 +3544,7 @@ papers:
   papers/barthe:iacr:2007: []
   papers/bastian:oopsla:2019: []
   papers/becker:fm:2016: []
+  papers/bell:afips:1970: []
   papers/berdine:aplas:2005:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
@@ -3445,6 +3562,7 @@ papers:
   - - papers/beyer:ase:2019
     - - 'TestCov: Robust test-suite execution and coverage measurement'
       - beyer:ase:2019
+  papers/beyer:ijsttt:2006: []
   papers/beyer:ijsttt:2007:
   - - papers/beyer:cav:2011
     - - 'CPAchecker: A tool for configurable software verification'
@@ -3458,6 +3576,7 @@ papers:
       - beyer:ijsttt:2007
   papers/biere:tacas:1999: []
   papers/blanchard:fmics:2015: []
+  papers/blanqui:rapido:2011: []
   papers/blom:ijsttt:2015: []
   papers/boettcher:date:2014: []
   papers/bohme2:fse:2020: []
@@ -3488,12 +3607,15 @@ papers:
   - - papers/stump:fmsd:2013
     - - SMT proof checking using a logical framework
       - stump:fmsd:2013
+  papers/burch:cav:1994: []
   papers/cadar:cacm:2013:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'
       - beyer:hvc:2017
   papers/cadar:osdi:2008: []
   papers/calcagno:popl:2009: []
+  papers/cattell:phd:1978: []
+  papers/cattell:toplas:1980: []
   papers/chakravarty:haskffi:2003:
   - - papers/jones:hw:1997
     - - 'Green Card: a foreign-language interface for Haskell'
@@ -3506,6 +3628,7 @@ papers:
   papers/chipounov:hotdep:2009: []
   papers/chipounov:tcs:2012: []
   papers/choi:icfp:2017: []
+  papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
   papers/clark:entcs:2002: []
   papers/clarke:cacm:2009:
@@ -3622,6 +3745,7 @@ papers:
     - - 'SecVisor: A tiny hypervisor to provide lifetime kernel code integrity for
         commodity OSes'
       - seshadri:sosp:2007
+  papers/fraser:sigart:1977: []
   papers/godefroid:acmq:2012: []
   papers/godefroid:cacm:2020: []
   papers/godefroid:pldi:2005: []
@@ -3636,6 +3760,7 @@ papers:
       - rushby:sri:1992
   papers/goguen:secpriv:1984: []
   papers/gray:micro:2015: []
+  papers/greve:fmcad:1998: []
   papers/groce:issta:2017: []
   papers/grossman:esop:2002: []
   papers/gu:osdi:2016:
@@ -3653,6 +3778,7 @@ papers:
   - - papers/tuerk:vstte:2010
     - - Local reasoning about while-loops
       - tuerk:vstte:2010
+  papers/hennessy:micro:1982: []
   papers/henzinger:spin:2003:
   - - papers/ball:pldi:2001
     - - Automatic predicate abstraction of C programs
@@ -3663,6 +3789,7 @@ papers:
       - heule:vmcai:2013
   papers/heule:pldi:2016: []
   papers/heule:vmcai:2013: []
+  papers/higgins:hldvt:2004: []
   papers/hobor:popl:2013: []
   papers/hohmuth:plos:2005: []
   papers/hohmuth:sigops:2002: []
@@ -3681,6 +3808,8 @@ papers:
     - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
       - holzer:cav:2008
   papers/hritcu:icfp:2013: []
+  papers/huang:todaes:2019: []
+  papers/hunt:lncs:1994: []
   papers/jacobs:nfm:2011:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
@@ -3747,6 +3876,8 @@ papers:
     - - 'The Flask security architecture: System support for diverse security policies'
       - spencer:security:1999
   papers/kumar:popl:2014: []
+  papers/lahiri:cav:2003: []
+  papers/lahiri:hldvt:2001: []
   papers/lal:cav:2012: []
   papers/lal:fse:2014:
   - - papers/baranowski:atva:2018
@@ -3808,6 +3939,7 @@ papers:
       - barnett:cacm:2011
   papers/loow:pldi:2019: []
   papers/lopes:pldi:2015: []
+  papers/lustig:asplos:2016: []
   papers/maciver:ecoop:2020: []
   papers/mai:asplos:2013: []
   papers/malik:cacm:2009:
@@ -4030,6 +4162,7 @@ papers:
   papers/smith:esop:2000: []
   papers/smith:fossacs:2009: []
   papers/spencer:security:1999: []
+  papers/srinivasan:ieeetoc:2010: []
   papers/stephens:micro:2017: []
   papers/stephens:ndss:2016: []
   papers/stump:fmsd:2013:
