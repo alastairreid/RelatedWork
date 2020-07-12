@@ -55,7 +55,10 @@ notes:
       - null
   notes/bap-tool: []
   notes/biabduction: []
-  notes/binary-analysis: []
+  notes/binary-analysis:
+  - - notes/bap-tool
+    - - Binary Analysis Platform (BAP)
+      - null
   notes/blast-verifier:
   - - notes/cpachecker-verifier
     - - CPAchecker verifier
@@ -136,8 +139,13 @@ notes:
     - - Translation validation
       - null
   notes/concurrent-separation-logic: []
-  notes/continuation: []
-  notes/continuations: []
+  notes/continuations:
+  - - notes/events
+    - - Events
+      - null
+  - - notes/threads
+    - - Threads
+      - null
   notes/contract-driven-development:
   - - notes/modular-verification
     - - Modular verification
@@ -167,6 +175,9 @@ notes:
   - - notes/isa-specification
     - - ISA specification
       - null
+  - - notes/symbolic-trajectory-evaluation
+    - - Symbolic trajectory evaluation
+      - null
   notes/cray-architecture: []
   notes/cvc4-solver: []
   notes/dafny-verifier:
@@ -180,8 +191,20 @@ notes:
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
-  notes/data-parallelism: []
-  notes/decoupling: []
+  notes/data-parallelism:
+  - - notes/mimd
+    - - Multiple Instruction Multiple Data (MIMD)
+      - null
+  - - notes/parallelism
+    - - Parallelism
+      - null
+  - - notes/simd
+    - - Single Instruction Multiple Data (SIMD)
+      - null
+  notes/decoupling:
+  - - notes/parallelism
+    - - Parallelism
+      - null
   notes/dependent-type:
   - - notes/coq-theorem-prover
     - - Coq theorem prover
@@ -275,6 +298,9 @@ notes:
   - - notes/powerpc-architecture
     - - Power-PC architecture
       - null
+  - - notes/risc-architecture
+    - - RISC architecture
+      - null
   - - notes/riscv-architecture
     - - RISC-V architecture
       - null
@@ -291,8 +317,14 @@ notes:
   - - notes/coq-theorem-prover
     - - Coq theorem prover
       - null
+  - - notes/hol-theorem-prover
+    - - HOL theorem prover
+      - null
   - - notes/lean-theorem-prover
     - - Lean theorem prover
+      - null
+  - - notes/pvs-theorem-prover
+    - - PVS theorem prover
       - null
   notes/intermediate-verification-language:
   - - notes/boogie-verifier
@@ -316,6 +348,9 @@ notes:
       - null
   - - notes/asl
     - - Arm Architecture Specification Language (ASL)
+      - null
+  - - notes/binary-analysis
+    - - Binary analysis
       - null
   - - notes/cpu-verification
     - - CPU verification
@@ -367,8 +402,26 @@ notes:
     - - Prusti verifier
       - null
   notes/memory-coherence: []
-  notes/microarchitecture: []
-  notes/mimd: []
+  notes/microarchitecture:
+  - - notes/differential-power-analysis
+    - - Differential Power Analysis
+      - null
+  - - notes/risc-architecture
+    - - RISC architecture
+      - null
+  - - notes/speculative-execution
+    - - Speculative execution
+      - null
+  - - notes/vliw
+    - - Very Long Instruction Word (VLIW)
+      - null
+  notes/mimd:
+  - - notes/data-parallelism
+    - - Data parallelism
+      - null
+  - - notes/parallelism
+    - - Parallelism
+      - null
   notes/mips-architecture:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
@@ -391,8 +444,14 @@ notes:
   - - notes/cpachecker-verifier
     - - CPAchecker verifier
       - null
+  - - notes/partial-order-reduction
+    - - Partial Order Reduction
+      - null
   - - notes/sat-solver
     - - SAT solver
+      - null
+  - - notes/symbolic-model-checking
+    - - Symbolic model checking
       - null
   - - notes/temporal-logic
     - - Temporal logic
@@ -415,7 +474,22 @@ notes:
   - - notes/rust-language
     - - Rust language
       - null
-  notes/parallelism: []
+  notes/parallelism:
+  - - notes/data-parallelism
+    - - Data parallelism
+      - null
+  - - notes/mimd
+    - - Multiple Instruction Multiple Data (MIMD)
+      - null
+  - - notes/pipeline-parallelism
+    - - Pipeline parallelism
+      - null
+  - - notes/simd
+    - - Single Instruction Multiple Data (SIMD)
+      - null
+  - - notes/threads
+    - - Threads
+      - null
   notes/partial-order-reduction: []
   notes/permission-accounting:
   - - notes/fractional-permissions
@@ -450,8 +524,10 @@ notes:
     - - Viper verifier
       - null
   notes/pin-tool: []
-  notes/pipeline-parallelism: []
-  notes/pipeline-processing: []
+  notes/pipeline-parallelism:
+  - - notes/stream-processing
+    - - Stream Processing
+      - null
   notes/powerpc-architecture:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
@@ -478,7 +554,10 @@ notes:
       - null
   notes/pvs-theorem-prover: []
   notes/remote-procedure-call: []
-  notes/requirements-specification: []
+  notes/requirements-specification:
+  - - notes/alloy-verifier
+    - - Alloy verifier
+      - null
   notes/rewrite-rules: []
   notes/risc-architecture: []
   notes/riscv-architecture:
@@ -536,7 +615,10 @@ notes:
   - - notes/sv-competition
     - - Software Verification Competition (SV-COMP)
       - null
-  notes/security: []
+  notes/security:
+  - - notes/differential-power-analysis
+    - - Differential Power Analysis
+      - null
   notes/self-composition:
   - - notes/information-flow
     - - Information flow
@@ -575,9 +657,26 @@ notes:
   - - notes/verifast-verifier
     - - VeriFast verifier
       - null
-  notes/side-channel: []
-  notes/side-channels: []
+  notes/side-channel:
+  - - notes/differential-power-analysis
+    - - Differential Power Analysis
+      - null
+  - - notes/security
+    - - Security
+      - null
   notes/simd:
+  - - notes/data-parallelism
+    - - Data parallelism
+      - null
+  - - notes/mimd
+    - - Multiple Instruction Multiple Data (MIMD)
+      - null
+  - - notes/parallelism
+    - - Parallelism
+      - null
+  - - notes/simd
+    - - Single Instruction Multiple Data (SIMD)
+      - null
   - - notes/vector-architecture
     - - Vector architecture
       - null
@@ -600,6 +699,9 @@ notes:
     - - SMT solver
       - null
   notes/smt-solver:
+  - - notes/cvc4-solver
+    - - CVC4 solver
+      - null
   - - notes/sat-solver
     - - SAT solver
       - null
@@ -613,10 +715,11 @@ notes:
   - - notes/boogie-verifier
     - - Boogie verifier
       - null
-  notes/specifications: []
-  notes/speculative-execution: []
+  notes/speculative-execution:
+  - - notes/parallelism
+    - - Parallelism
+      - null
   notes/stream-processing: []
-  notes/stream-programming: []
   notes/superoptimizer: []
   notes/survey: []
   notes/sv-competition:
@@ -692,7 +795,16 @@ notes:
   - - notes/contract-driven-development
     - - Contract driven development
       - null
-  notes/threads: []
+  notes/threads:
+  - - notes/continuations
+    - - Continuations
+      - null
+  - - notes/events
+    - - Events
+      - null
+  - - notes/parallelism
+    - - Parallelism
+      - null
   notes/translation-validation:
   - - notes/compcert-compiler
     - - CompCert compiler
@@ -701,7 +813,10 @@ notes:
     - - ISA specification
       - null
   notes/turing-award: []
-  notes/type-inference: []
+  notes/type-inference:
+  - - notes/dependent-type
+    - - Dependent type
+      - null
   notes/typed-assembly-language: []
   notes/undefined-behaviour:
   - - notes/frama-c-verifier
@@ -748,8 +863,14 @@ notes:
       - null
   notes/vliw: []
   notes/weak-memory:
+  - - notes/distributed-shared-memory
+    - - Distributed Shared Memory
+      - null
   - - notes/isa-specification
     - - ISA specification
+      - null
+  - - notes/memory-coherence
+    - - Memory coherence
       - null
   notes/why3-verifier: []
   notes/x86-architecture:
@@ -775,7 +896,10 @@ notes:
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
   papers/amani:asplos:2016: []
-  papers/ananda:osr:1992: []
+  papers/ananda:osr:1992:
+  - - notes/remote-procedure-call
+    - - Remote procedure call (RPC)
+      - null
   papers/andronick:icse:2012: []
   papers/armstrong:arw:2018: []
   papers/armstrong:popl19:2019: []
@@ -812,8 +936,14 @@ notes:
       - null
   papers/ball:dsse:2015: []
   papers/ball:pldi:2001: []
-  papers/bansal:asplos:2006: []
-  papers/bansal:osdi:2008: []
+  papers/bansal:asplos:2006:
+  - - notes/superoptimizer
+    - - Superoptimizer
+      - null
+  papers/bansal:osdi:2008:
+  - - notes/superoptimizer
+    - - Superoptimizer
+      - null
   papers/baranowski:atva:2018:
   - - notes/rust-language
     - - Rust language
@@ -832,7 +962,10 @@ notes:
   - - notes/smt-solver
     - - SMT solver
       - null
-  papers/barrett:cav:2011: []
+  papers/barrett:cav:2011:
+  - - notes/cvc4-solver
+    - - CVC4 solver
+      - null
   papers/barrett:mlf:2015:
   - - notes/smt-solver
     - - SMT solver
@@ -872,7 +1005,10 @@ notes:
       - null
   papers/biere:tacas:1999: []
   papers/bird:sc:1993: []
-  papers/birrell:tocs:1984: []
+  papers/birrell:tocs:1984:
+  - - notes/remote-procedure-call
+    - - Remote procedure call (RPC)
+      - null
   papers/blanchard:fmics:2015: []
   papers/blanqui:rapido:2011: []
   papers/blelloch:book:1990: []
@@ -880,7 +1016,10 @@ notes:
   - - notes/magic-wand
     - - Magic wand
       - null
-  papers/bodin:popl:2014: []
+  papers/bodin:popl:2014:
+  - - notes/javascript
+    - - JavaScript programming language
+      - null
   papers/boettcher:date:2014: []
   papers/bohme2:fse:2020: []
   papers/bohme:fse:2020: []
@@ -901,7 +1040,10 @@ notes:
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
-  papers/boulton:tpcd:1993: []
+  papers/boulton:tpcd:1993:
+  - - notes/embedding
+    - - Embedding
+      - null
   papers/bowman:icfp:2015:
   - - notes/non-interference
     - - Non-interference
@@ -1010,7 +1152,10 @@ notes:
   papers/denning:cacm:1976: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:tacas:2006: []
-  papers/draves:sosp:1991: []
+  papers/draves:sosp:1991:
+  - - notes/continuations
+    - - Continuations
+      - null
   papers/du:sc:2003: []
   papers/dunkels:enss:2006: []
   papers/efstathopoulos:sosp:2005: []
@@ -1036,7 +1181,19 @@ notes:
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
   papers/flur:popl:2016: []
-  papers/flynn:ieeeproc:1966: []
+  papers/flynn:ieeeproc:1966:
+  - - notes/data-parallelism
+    - - Data parallelism
+      - null
+  - - notes/mimd
+    - - Multiple Instruction Multiple Data (MIMD)
+      - null
+  - - notes/parallelism
+    - - Parallelism
+      - null
+  - - notes/simd
+    - - Single Instruction Multiple Data (SIMD)
+      - null
   papers/fonseca:ecs:2017: []
   papers/fox:cambridge:2001: []
   papers/fox:itp:2010: []
@@ -1049,7 +1206,10 @@ notes:
   papers/frias:icse:2005: []
   papers/fuxman:isre:2001: []
   papers/gay:pldi:2003: []
-  papers/ge:jce:2016: []
+  papers/ge:jce:2016:
+  - - notes/side-channel
+    - - Side Channel
+      - null
   papers/godefroid:acmq:2012: []
   papers/godefroid:cacm:2020:
   - - notes/fuzz-testing
@@ -1070,7 +1230,10 @@ notes:
     - - Non-interference
       - null
   papers/gordon:asplos:2002: []
-  papers/gordon:book:1993: []
+  papers/gordon:book:1993:
+  - - notes/hol-theorem-prover
+    - - HOL theorem prover
+      - null
   papers/gray:micro:2015: []
   papers/greve:fmcad:1998: []
   papers/groce:issta:2017:
@@ -1188,7 +1351,10 @@ notes:
     - - Annotation burden
       - null
   papers/kocher:arxiv:2018: []
-  papers/kocher:crypto:1999: []
+  papers/kocher:crypto:1999:
+  - - notes/differential-power-analysis
+    - - Differential Power Analysis
+      - null
   papers/kozyrakis:phd:2002: []
   papers/krishnaswami:tldi:2010: []
   papers/kroening:dac:2001: []
@@ -1203,7 +1369,13 @@ notes:
   papers/lal:cav:2012: []
   papers/lal:fse:2014: []
   papers/lal:pldi:2015: []
-  papers/lauer:osr:1979: []
+  papers/lauer:osr:1979:
+  - - notes/continuations
+    - - Continuations
+      - null
+  - - notes/threads
+    - - Threads
+      - null
   papers/lee:micro:1996: []
   papers/legoues:sefm:2011:
   - - notes/intermediate-verification-language
@@ -1231,7 +1403,13 @@ notes:
       - null
   papers/levy:plos:2015: []
   papers/levy:sosp:2017: []
-  papers/li:tocs:1989: []
+  papers/li:tocs:1989:
+  - - notes/distributed-shared-memory
+    - - Distributed Shared Memory
+      - null
+  - - notes/memory-coherence
+    - - Memory coherence
+      - null
   papers/lie:secpri:2003: []
   papers/lie:sosp:2003: []
   papers/lin:sdr:2006: []
@@ -1283,7 +1461,10 @@ notes:
   papers/maus:amast:2008: []
   papers/mavin:isre:2009: []
   papers/mcilroy:arxiv:2019: []
-  papers/mcmillan:cav:1998: []
+  papers/mcmillan:cav:1998:
+  - - notes/symbolic-model-checking
+    - - Symbolic model checking
+      - null
   papers/mcmillan:ecs:2003:
   - - notes/model-checking
     - - Model checking
@@ -1321,6 +1502,9 @@ notes:
   papers/necula:cc:2002:
   - - notes/blast-verifier
     - - BLAST verifier
+      - null
+  - - notes/cil-tool
+    - - CIL tool
       - null
   - - notes/cpachecker-verifier
     - - CPAchecker verifier
@@ -1367,12 +1551,27 @@ notes:
   papers/oberg:dac:2010: []
   papers/ohearn:cacm:2019: []
   papers/ohearn:tcs:2007: []
-  papers/ousterhout:usenix:1996: []
+  papers/ousterhout:usenix:1996:
+  - - notes/events
+    - - Events
+      - null
+  - - notes/threads
+    - - Threads
+      - null
   papers/ozer:sbacpad:2007: []
-  papers/palacharla:micro:1995: []
+  papers/palacharla:micro:1995:
+  - - notes/decoupling
+    - - Decoupling
+      - null
   papers/parkinson:popl:2005: []
-  papers/patterson:cacm:1985: []
-  papers/patterson:sigarch:1980: []
+  papers/patterson:cacm:1985:
+  - - notes/risc-architecture
+    - - RISC architecture
+      - null
+  papers/patterson:sigarch:1980:
+  - - notes/risc-architecture
+    - - RISC architecture
+      - null
   papers/pdp11:book:1973: []
   papers/pearce:compsurv:2013: []
   papers/peleg:micro:1996: []
@@ -1442,7 +1641,10 @@ notes:
   - - notes/non-interference
     - - Non-interference
       - null
-  papers/russell:cacm:1978: []
+  papers/russell:cacm:1978:
+  - - notes/cray-architecture
+    - - Cray architecture
+      - null
   papers/sabelfield:jcs:2009: []
   papers/samet:ieeetse:1977: []
   papers/samet:phd:1975:
@@ -1467,7 +1669,10 @@ notes:
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
   papers/shi:phd:2013: []
-  papers/shoshitaishvili:sp:2016: []
+  papers/shoshitaishvili:sp:2016:
+  - - notes/systematization-of-knowledge
+    - - Systematization of Knowledge (SoK)
+      - null
   papers/siegel:sc:2015: []
   papers/sigurbjarnarson:osdi:2016: []
   papers/sigurbjarnarson:osdi:2018: []
@@ -1491,7 +1696,10 @@ notes:
   papers/smans:fmood:2010: []
   papers/smith:esop:2000: []
   papers/smith:fossacs:2009: []
-  papers/smith:tocs:1984: []
+  papers/smith:tocs:1984:
+  - - notes/decoupling
+    - - Decoupling
+      - null
   papers/spencer:security:1999: []
   papers/srinivasan:ieeetoc:2010: []
   papers/stephens:micro:2017: []
@@ -1503,7 +1711,10 @@ notes:
       - null
   papers/subhlok:ppopp:1993: []
   papers/sutcliffe:ai:2001: []
-  papers/systemverilog:ieee:2013: []
+  papers/systemverilog:ieee:2013:
+  - - notes/rtl
+    - - RTL
+      - null
   papers/tahat:fmcad:2019: []
   papers/tang:sec:2017: []
   papers/thies:micro:2007: []
@@ -1544,7 +1755,13 @@ notes:
   - - notes/annotation-burden
     - - Annotation burden
       - null
-  papers/vonbehren:hotos:2003: []
+  papers/vonbehren:hotos:2003:
+  - - notes/events
+    - - Events
+      - null
+  - - notes/threads
+    - - Threads
+      - null
   papers/wagner:hotos:2013: []
   papers/walker:popl:2000: []
   papers/walker:tic:2001:
@@ -1966,7 +2183,6 @@ papers:
   - - papers/penninckx:nfm:2012
     - - Sound formal verification of Linux's USB BP keyboard driver
       - penninckx:nfm:2012
-  notes/continuation: []
   notes/continuations:
   - - papers/draves:sosp:1991
     - - Using Continuations to Implement Thread Management and Communication in Operating
@@ -1975,6 +2191,10 @@ papers:
   - - papers/lauer:osr:1979
     - - On the duality of operating system structures
       - lauer:osr:1979
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
   - - papers/wand:lfp:1980
     - - Continuation-based multiprocessing
       - wand:lfp:1980
@@ -2149,9 +2369,15 @@ papers:
         heterogeneous system-on-chip verification
       - zhang:fmcad:2018
   notes/cray-architecture:
+  - - papers/palacharla:micro:1995
+    - - Decoupling integer execution in superscalar processors
+      - palacharla:micro:1995
   - - papers/russell:cacm:1978
     - - The CRAY-1 computer system
       - russell:cacm:1978
+  - - papers/smith:tocs:1984
+    - - Decoupled access/execute computer architectures
+      - smith:tocs:1984
   notes/cvc4-solver:
   - - papers/barrett:cav:2011
     - - CVC4
@@ -2193,6 +2419,16 @@ papers:
   - - papers/bird:sc:1993
     - - The Effectiveness of Decoupling
       - bird:sc:1993
+  - - papers/palacharla:micro:1995
+    - - Decoupling integer execution in superscalar processors
+      - palacharla:micro:1995
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
+  - - papers/smith:tocs:1984
+    - - Decoupled access/execute computer architectures
+      - smith:tocs:1984
   notes/dependent-type:
   - - papers/armstrong:arw:2018
     - - 'Detailed models of instruction set architectures: From pseudocode to formal
@@ -2291,6 +2527,10 @@ papers:
   - - papers/bodin:popl:2014
     - - A trusted mechanised JavaScript specification
       - bodin:popl:2014
+  - - papers/burke:lacl:2005
+    - - Translating formal software specifications to natural language / A grammar-based
+        approach
+      - burke:lacl:2005
   - - papers/cifuentes:iwpc:1998
     - - Specifying the semantics of machine instructions
       - cifuentes:iwpc:1998
@@ -2786,6 +3026,12 @@ papers:
   - - papers/armstrong:spisa:2019
     - - The state of Sail
       - armstrong:spisa:2019
+  - - papers/bansal:asplos:2006
+    - - Automatic generation of peephole superoptimizers
+      - bansal:asplos:2006
+  - - papers/bansal:osdi:2008
+    - - Binary translation using peephole superoptimizers
+      - bansal:osdi:2008
   - - papers/barbacci:cmu:1972
     - - 'ISP: A language to describe instruction sets and other register transfer
         systems'
@@ -3213,6 +3459,9 @@ papers:
     - - Translating formal software specifications to natural language / A grammar-based
         approach
       - burke:lacl:2005
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
   notes/non-interference:
   - - papers/bowman:icfp:2015
     - - Noninterference for free
@@ -3390,14 +3639,6 @@ papers:
   - - papers/du:sc:2003
     - - Compiler Support for Exploiting Coarse-Grained Pipelined Parallelism.
       - du:sc:2003
-  - - papers/smith:tocs:1984
-    - - Decoupled access/execute computer architectures
-      - smith:tocs:1984
-  - - papers/thies:micro:2007
-    - - A practical approach to exploiting coarse-grained pipeline parallelism in
-        C programs
-      - thies:micro:2007
-  notes/pipeline-processing:
   - - papers/kruijtzer:codes:2004
     - - 'Design and programming of embedded multiprocessors: An interface-centric
         approach'
@@ -3405,6 +3646,17 @@ papers:
   - - papers/palacharla:micro:1995
     - - Decoupling integer execution in superscalar processors
       - palacharla:micro:1995
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
+  - - papers/smith:tocs:1984
+    - - Decoupled access/execute computer architectures
+      - smith:tocs:1984
+  - - papers/thies:micro:2007
+    - - A practical approach to exploiting coarse-grained pipeline parallelism in
+        C programs
+      - thies:micro:2007
   notes/powerpc-architecture:
   - - papers/gray:micro:2015
     - - An integrated concurrency and core-ISA architectural envelope definition,
@@ -3431,6 +3683,9 @@ papers:
   - - papers/beyer:ijsttt:2006
     - - Putting it all together - Formal verification of the VAMP
       - beyer:ijsttt:2006
+  - - papers/tahat:fmcad:2019
+    - - Scalable translation validation of unverified legacy OS code
+      - tahat:fmcad:2019
   notes/remote-procedure-call:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -3438,6 +3693,10 @@ papers:
   - - papers/birrell:tocs:1984
     - - Implementing remote procedure calls
       - birrell:tocs:1984
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
   notes/requirements-specification:
   - - papers/frias:icse:2005
     - - 'DynAlloy: Upgrading Alloy with Actions'
@@ -3448,18 +3707,27 @@ papers:
   - - papers/jackson:tosem:2002
     - - 'Alloy: A lightweight object modelling notation'
       - jackson:tosem:2002
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
   notes/rewrite-rules:
   - - papers/jones:microsoft:2001
     - - 'Playing by the rules: rewriting as a practical optimisation technique in
         GHC'
       - jones:microsoft:2001
   notes/risc-architecture:
+  - - papers/hennessy:micro:1982
+    - - 'MIPS: A microprocessor architecture'
+      - hennessy:micro:1982
   - - papers/patterson:cacm:1985
     - - Reduced instruction set computers
       - patterson:cacm:1985
   - - papers/patterson:sigarch:1980
     - - The case for the reduced instruction set computer
       - patterson:sigarch:1980
+  - - papers/seal:book:2000
+    - - ARM Architecture Reference Manual (ARMv5 edition)
+      - seal:book:2000
   notes/riscv-architecture:
   - - papers/armstrong:popl19:2019
     - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
@@ -3714,13 +3982,12 @@ papers:
   - - papers/lipp:arxiv:2018
     - - Meltdown
       - lipp:arxiv:2018
-  - - papers/tang:sec:2017
-    - - 'CLKSCREW: Exposing the perils of security-oblivious energy management'
-      - tang:sec:2017
-  notes/side-channels:
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
+  - - papers/tang:sec:2017
+    - - 'CLKSCREW: Exposing the perils of security-oblivious energy management'
+      - tang:sec:2017
   notes/simd:
   - - papers/flynn:ieeeproc:1966
     - - Very high-speed computing systems
@@ -3836,11 +4103,6 @@ papers:
   - - papers/leino:sac:2009
     - - Reasoning about comprehensions with first-order SMT solvers
       - leino:sac:2009
-  notes/specifications:
-  - - papers/burke:lacl:2005
-    - - Translating formal software specifications to natural language / A grammar-based
-        approach
-      - burke:lacl:2005
   notes/speculative-execution:
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
@@ -3849,11 +4111,16 @@ papers:
   - - papers/gordon:asplos:2002
     - - A stream compiler for communication-exposed architectures
       - gordon:asplos:2002
-  notes/stream-programming:
   - - papers/thies:ppopp:2005
     - - Teleport messaging for distributed stream programs
       - thies:ppopp:2005
   notes/superoptimizer:
+  - - papers/bansal:asplos:2006
+    - - Automatic generation of peephole superoptimizers
+      - bansal:asplos:2006
+  - - papers/bansal:osdi:2008
+    - - Binary translation using peephole superoptimizers
+      - bansal:osdi:2008
   - - papers/joshi:pldi:2002
     - - 'Denali: A goal-directed superoptimizer'
       - joshi:pldi:2002
@@ -4056,6 +4323,10 @@ papers:
   - - papers/ousterhout:usenix:1996
     - - Why threads are a bad idea (for most purposes) (Invited talk)
       - ousterhout:usenix:1996
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
   - - papers/vonbehren:hotos:2003
     - - Why events are a bad idea (for high-concurrency servers)
       - vonbehren:hotos:2003
@@ -4094,6 +4365,9 @@ papers:
   - - papers/milner:jcss:1978
     - - A theory of type polymorphism in programming
       - milner:jcss:1978
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
   notes/typed-assembly-language:
   - - papers/morrisett:wcsss:1999
     - - 'TALx86: A realistic typed assembly language'
