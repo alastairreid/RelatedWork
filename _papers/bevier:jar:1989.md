@@ -24,5 +24,6 @@ title: An approach to systems verification
 volume: '5'
 year: 1989
 notes:
+- CPU verification
 ---
 {% include links.html %}

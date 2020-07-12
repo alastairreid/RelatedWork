@@ -14,5 +14,7 @@ readings: []
 title: The Effectiveness of Decoupling
 year: 1993
 notes:
+- pipeline parallelism
+- decoupling
 ---
 {% include links.html %}

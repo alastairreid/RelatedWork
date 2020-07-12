@@ -16,7 +16,7 @@ number: '4'
 pages: 70-85
 read: false
 readings: []
-title: A retrospective on ``MIPS: A microprocessor architecture''
+title: "A retrospective on `MIPS: A microprocessor architecture'"
 volume: '36'
 year: 2016
 notes:

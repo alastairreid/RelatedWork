@@ -17,5 +17,7 @@ title: Secure information flow by self-composition
 volume: '21'
 year: 2011
 notes:
+- information flow
+- self composition
 ---
 {% include links.html %}
