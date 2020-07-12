@@ -20,7 +20,9 @@ readings: []
 series: ASPLOS XII
 title: Automatic generation of peephole superoptimizers
 year: 2006
-topics:
+notes:
+- superoptimizer
+- ISA specification
 papers:
 ---
 

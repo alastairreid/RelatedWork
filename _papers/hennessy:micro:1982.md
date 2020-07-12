@@ -25,5 +25,6 @@ year: 1982
 notes:
 - ISA specification
 - MIPS architecture
+- RISC architecture
 ---
 {% include links.html %}

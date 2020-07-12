@@ -5,6 +5,7 @@ website: https://github.com/BinaryAnalysisPlatform/bap
 papers:
 - avgerinos:icse:2014
 notes:
+- binary analysis
 ---
 
 A binary analysis tool developed at CMU in early 2010's

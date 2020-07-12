@@ -2,7 +2,9 @@
 examples: {}
 isa: {}
 layout: note
-notes: {}
+notes:
+- parallelism
 papers: {}
 title: Pipeline parallelism
 ---
+{% include links.html %}

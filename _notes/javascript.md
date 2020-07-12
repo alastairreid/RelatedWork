@@ -3,6 +3,8 @@ examples: {}
 isa: {}
 layout: note
 notes: {}
-papers: {}
+papers:
+- bodin:popl:2014
 title: JavaScript programming language
 ---
+{% include links.html %}

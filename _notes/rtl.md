@@ -3,6 +3,8 @@ examples: {}
 isa: {}
 layout: note
 notes: {}
-papers: {}
+papers:
+- systemverilog:ieee:2013
 title: RTL
 ---
+{% include links.html %}

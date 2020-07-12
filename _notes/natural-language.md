@@ -6,3 +6,4 @@ notes: {}
 papers: {}
 title: Natural language
 ---
+{% include links.html %}

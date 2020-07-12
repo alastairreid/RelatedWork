@@ -2,7 +2,11 @@
 examples: {}
 isa: {}
 layout: note
-notes: {}
-papers: {}
+notes:
+- threads
+papers:
+- lauer:osr:1979
+- draves:sosp:1991
 title: Continuations
 ---
+{% include links.html %}

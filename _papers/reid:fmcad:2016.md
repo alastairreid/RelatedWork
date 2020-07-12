@@ -37,6 +37,7 @@ notes:
 - ISA specification
 - instruction set architecture
 - dependent type
+- type inference
 - ASL
 papers:
 ---

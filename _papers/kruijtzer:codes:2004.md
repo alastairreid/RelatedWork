@@ -24,7 +24,7 @@ url: https://doi.ieeecomputersociety.org/10.1109/CODES+ISSS.2004.17
 volume: ''
 year: 2004
 notes:
-- pipeline processing
+- pipeline parallelism
 papers:
 ---
 {% include links.html %}

@@ -7,6 +7,7 @@ notes:
 - Coq theorem prover
 - ASL
 - Sail language
+- type inference
 ---
 
 A dependent type is a type whose definition depends on a value.

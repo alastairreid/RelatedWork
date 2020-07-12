@@ -15,7 +15,9 @@ readings: []
 title: Decoupling integer execution in superscalar processors
 year: 1995
 notes:
-- pipeline processing
+- pipeline parallelism
+- decoupling
 - microarchitecture
+- CRAY architecture
 ---
 {% include links.html %}

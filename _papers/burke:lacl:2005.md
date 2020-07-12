@@ -17,7 +17,7 @@ title: Translating formal software specifications to natural language / A gramma
 volume: '3402'
 year: 2005
 notes:
-- specifications
+- formal specification
 - natural language
 ---
 {% include links.html %}

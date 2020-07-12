@@ -15,6 +15,6 @@ readings: []
 title: Teleport messaging for distributed stream programs
 year: 2005
 notes:
-- stream programming
+- stream processing
 ---
 {% include links.html %}

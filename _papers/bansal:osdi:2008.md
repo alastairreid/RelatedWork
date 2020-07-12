@@ -19,7 +19,9 @@ series: OSDI'08
 title: Binary translation using peephole superoptimizers
 url: https://www.usenix.org/legacy/event/osdi08/tech/full_papers/bansal/bansal.pdf
 year: 2008
-topics:
+notes:
+- ISA specification
+- superoptimizer
 papers:
 ---
 

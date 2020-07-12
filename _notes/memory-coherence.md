@@ -2,7 +2,10 @@
 examples: {}
 isa: {}
 layout: note
-notes: {}
-papers: {}
+notes:
+- weak memory
+papers:
+- li:tocs:1989
 title: Memory coherence
 ---
+{% include links.html %}

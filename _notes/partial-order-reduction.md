@@ -2,7 +2,9 @@
 examples: {}
 isa: {}
 layout: note
-notes: {}
+notes:
+- model checking
 papers: {}
 title: Partial Order Reduction
 ---
+{% include links.html %}

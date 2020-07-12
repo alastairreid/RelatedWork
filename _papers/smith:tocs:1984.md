@@ -18,5 +18,7 @@ year: 1984
 notes:
 - pipeline parallelism
 - microarchitecture
+- decoupling
+- CRAY architecture
 ---
 {% include links.html %}

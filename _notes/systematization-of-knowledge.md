@@ -3,6 +3,8 @@ layout: note
 title: Systematization of Knowledge (SoK)
 website: https://oaklandsok.github.io/
 notes:
+papers:
+- shoshitaishvili:sp:2016
 ---
 
 Security and cryptography conferences accept papers that

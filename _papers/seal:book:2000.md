@@ -15,6 +15,7 @@ year: 2000
 notes:
 - Arm architecture
 - ISA specification
+- RISC architecture
 - instruction set architecture
 ---
 {% include links.html %}

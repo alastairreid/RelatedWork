@@ -2,7 +2,9 @@
 examples: {}
 isa: {}
 layout: note
-notes: {}
+notes:
+- CPU verification
 papers: {}
 title: Symbolic trajectory evaluation
 ---
+{% include links.html %}

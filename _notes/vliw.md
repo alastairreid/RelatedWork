@@ -2,7 +2,9 @@
 examples: {}
 isa: {}
 layout: note
-notes: {}
+notes:
+- microarchitecture
 papers: {}
 title: Very Long Instruction Word (VLIW)
 ---
+{% include links.html %}

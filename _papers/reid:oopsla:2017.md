@@ -36,6 +36,8 @@ notes:
 - ISA specification
 - instruction set architecture
 - dependent type
+- natural language
+- requirements specification
 papers:
 ---
 {% include links.html %}

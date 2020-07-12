@@ -8,3 +8,4 @@ notes:
 papers: {}
 title: Vector architecture
 ---
+{% include links.html %}

@@ -2,7 +2,9 @@
 examples: {}
 isa: {}
 layout: note
-notes: {}
+notes:
+- ISA specification
 papers: {}
 title: Binary analysis
 ---
+{% include links.html %}

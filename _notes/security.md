@@ -2,7 +2,9 @@
 examples: {}
 isa: {}
 layout: note
-notes: {}
+notes:
+- side channel
 papers: {}
 title: Security
 ---
+{% include links.html %}

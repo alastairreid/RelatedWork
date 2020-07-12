@@ -33,7 +33,12 @@ read: false
 readings: []
 title: 'SoC-C: efficient programming abstractions for heterogeneous multicore systems on chip'
 year: 2008
-topics:
+notes:
+- remote procedure call
+- pipeline parallelism
+- continuations
+- threads
+- decoupling
 papers:
 ---
 
