@@ -11,6 +11,7 @@ papers:
 - baldoni:compsurv:2018
 notes:
 - Z3 solver
+- CVC4 solver
 - SMT-LIB format
 - SAT solver
 ---
