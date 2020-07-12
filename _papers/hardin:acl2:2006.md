@@ -23,6 +23,6 @@ title: A robust machine code proof framework for highly secure applications
 year: 2006
 notes:
 - ISA specification
-- ACL2 verifier
+- ACL2 theorem prover
 ---
 {% include links.html %}

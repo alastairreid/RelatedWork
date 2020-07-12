@@ -26,7 +26,7 @@ title: CVC4
 volume: '6806'
 year: 2011
 notes:
-- CVC4 verifier
+- CVC4 solver
 - SMT solver
 ---
 {% include links.html %}

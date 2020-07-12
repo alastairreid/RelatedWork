@@ -14,7 +14,7 @@ readings: []
 title: Solver aided reverse engineering of architectural features
 year: 2017
 notes:
-- Rosette verifier
+- Rosette solver
 - ISA specification
 ---
 {% include links.html %}

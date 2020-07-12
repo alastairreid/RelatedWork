@@ -27,6 +27,6 @@ year: 2006
 notes:
 - ISA specification
 - CPU verification
-- PVS verifier
+- PVS theorem prover
 ---
 {% include links.html %}
