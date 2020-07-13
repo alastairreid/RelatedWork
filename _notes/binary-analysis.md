@@ -1,6 +1,4 @@
 ---
-examples: {}
-isa: {}
 layout: note
 notes:
 - ISA specification

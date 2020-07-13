@@ -41,6 +41,8 @@ topics:
 notes:
 - Arm architecture
 - instruction set architecture
+- SIMD
+- vector architecture
 papers:
 ---
 

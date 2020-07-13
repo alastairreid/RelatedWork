@@ -1,9 +1,9 @@
 ---
 examples: {}
-isa: {}
+isa:
+- instruction set architecture
 layout: note
 notes:
-- instruction set architecture
 - microarchitecture
 papers:
 - patterson:cacm:1985

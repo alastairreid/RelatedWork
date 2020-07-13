@@ -4,6 +4,7 @@ title: ISA specification
 notes:
 - instruction set architecture
 - ASL
+- ISP
 - Sail language
 - CPU verification
 - translation validation

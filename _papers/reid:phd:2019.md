@@ -49,6 +49,18 @@ notes:
 - Arm architecture
 - ISA specification
 - instruction set architecture
+- CPU verification
+- model checking
+- bounded model checking
+- RTL
+- requirements specification
+- remote procedure call
+- pipeline parallelism
+- continuations
+- threads
+- decoupling
+- SIMD
+- vector architecture
 papers:
 - reid:fmcad:2016
 - reid:cav:2016

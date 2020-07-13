@@ -6,6 +6,7 @@ wiki: https://en.wikipedia.org/wiki/Coq
 website: https://coq.inria.fr
 notes:
 - dependent type
+isa:
 - interactive theorem prover
 ---
 

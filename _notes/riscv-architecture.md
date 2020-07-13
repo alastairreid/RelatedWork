@@ -5,6 +5,7 @@ logo: https://content.riscv.org/wp-content/uploads/2018/09/riscv-logo.png
 wiki: https://en.wikipedia.org/wiki/RISC-V
 website: https://riscv.org/
 notes:
+isa:
 - instruction set architecture
 ---
 

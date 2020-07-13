@@ -1,6 +1,6 @@
 ---
-examples: {}
-isa: {}
+isa:
+- model checking
 layout: note
 notes:
 - model checking

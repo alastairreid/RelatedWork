@@ -12,5 +12,7 @@ year: 1973
 notes:
 - instruction set architecture
 - ISA specification
+- PDP11 architecture
+- ISP
 ---
 {% include links.html %}

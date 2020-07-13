@@ -1,7 +1,9 @@
 ---
 layout: note
 notes: {}
+isa:
+- instruction set architecture
 papers: {}
-title: Natural language
+title: PDP11 architecture
 ---
 {% include links.html %}

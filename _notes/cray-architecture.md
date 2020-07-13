@@ -1,8 +1,9 @@
 ---
-examples: {}
-isa: {}
+isa:
+- instruction set architecture
 layout: note
-notes: {}
+notes:
+- vector architecture
 papers:
 - russell:cacm:1978
 title: Cray architecture

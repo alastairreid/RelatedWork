@@ -22,7 +22,10 @@ year: 1981
 topics:
 notes:
 - ISA specification
+- instruction set architecture
+- ISP
 papers:
+- bell:afips:1970
 ---
 
 {% include links.html %}

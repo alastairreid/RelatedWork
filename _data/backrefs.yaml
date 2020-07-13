@@ -179,7 +179,10 @@ notes:
     - - Symbolic trajectory evaluation
       - null
   notes/cray-architecture: []
-  notes/cvc4-solver: []
+  notes/cvc4-solver:
+  - - notes/smt-solver
+    - - SMT solver
+      - null
   notes/dafny-verifier:
   - - notes/auto-active-verification
     - - Auto active verification
@@ -201,9 +204,15 @@ notes:
   - - notes/simd
     - - Single Instruction Multiple Data (SIMD)
       - null
+  - - notes/vector-architecture
+    - - Vector architecture
+      - null
   notes/decoupling:
   - - notes/parallelism
     - - Parallelism
+      - null
+  - - notes/stream-processing
+    - - Stream Processing
       - null
   notes/dependent-type:
   - - notes/coq-theorem-prover
@@ -288,6 +297,9 @@ notes:
       - null
   - - notes/cheri-architecture
     - - CHERI architecture
+      - null
+  - - notes/cray-architecture
+    - - Cray architecture
       - null
   - - notes/isa-specification
     - - ISA specification
@@ -412,6 +424,9 @@ notes:
   - - notes/speculative-execution
     - - Speculative execution
       - null
+  - - notes/vector-architecture
+    - - Vector architecture
+      - null
   - - notes/vliw
     - - Very Long Instruction Word (VLIW)
       - null
@@ -469,7 +484,10 @@ notes:
     - - Hyperproperty
       - null
   notes/nova-hypervisor: []
-  notes/operating-systems: []
+  notes/operating-systems:
+  - - notes/nova-hypervisor
+    - - NOVA hypervisor
+      - null
   notes/ownership-types:
   - - notes/rust-language
     - - Rust language
@@ -565,7 +583,10 @@ notes:
     - - Instruction set architecture
       - null
   notes/rosette-solver: []
-  notes/rtl: []
+  notes/rtl:
+  - - notes/symbolic-trajectory-evaluation
+    - - Symbolic trajectory evaluation
+      - null
   notes/rust-language:
   - - notes/magic-wand
     - - Magic wand
@@ -618,6 +639,9 @@ notes:
   notes/security:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
+      - null
+  - - notes/side-channel
+    - - Side Channel
       - null
   notes/self-composition:
   - - notes/information-flow
@@ -719,7 +743,10 @@ notes:
   - - notes/parallelism
     - - Parallelism
       - null
-  notes/stream-processing: []
+  notes/stream-processing:
+  - - notes/decoupling
+    - - Decoupling
+      - null
   notes/superoptimizer: []
   notes/survey: []
   notes/sv-competition:
@@ -829,7 +856,10 @@ notes:
     - - MIR
       - null
   notes/vcc-verifier: []
-  notes/vector-architecture: []
+  notes/vector-architecture:
+  - - notes/cray-architecture
+    - - Cray architecture
+      - null
   notes/verifast-verifier:
   - - notes/annotation-burden
     - - Annotation burden
@@ -1457,6 +1487,10 @@ notes:
   papers/mantel:pls:2007: []
   papers/mantel:sp:2001: []
   papers/martignoni:asplos:2012: []
+  papers/massalin:asplos:1987:
+  - - notes/superoptimizer
+    - - Superoptimizer
+      - null
   papers/matsushita:esop:2020: []
   papers/maus:amast:2008: []
   papers/mavin:isre:2009: []
@@ -2057,6 +2091,9 @@ papers:
   - - papers/reid:cav:2016
     - - End-to-end verification of ARM processors with ISA-formal
       - reid:cav:2016
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   - - papers/torlak:pldi:2014
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
@@ -2195,6 +2232,9 @@ papers:
     - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
         on chip'
       - reid:cases:2008
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   - - papers/wand:lfp:1980
     - - Continuation-based multiprocessing
       - wand:lfp:1980
@@ -2347,6 +2387,9 @@ papers:
     - - Verification of an implementation of Tomasulo's algorithm by compositional
         model checking
       - mcmillan:cav:1998
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   - - papers/slobodova:memocode:2011
     - - A flexible formal verification framework for industrial scale validation
       - slobodova:memocode:2011
@@ -2426,6 +2469,9 @@ papers:
     - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
         on chip'
       - reid:cases:2008
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   - - papers/smith:tocs:1984
     - - Decoupled access/execute computer architectures
       - smith:tocs:1984
@@ -3441,6 +3487,9 @@ papers:
   - - papers/pnueli:sfcs:1977
     - - The temporal logic of programs
       - pnueli:sfcs:1977
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   notes/modular-verification:
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
@@ -3650,6 +3699,9 @@ papers:
     - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
         on chip'
       - reid:cases:2008
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   - - papers/smith:tocs:1984
     - - Decoupled access/execute computer architectures
       - smith:tocs:1984
@@ -3697,6 +3749,9 @@ papers:
     - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
         on chip'
       - reid:cases:2008
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   notes/requirements-specification:
   - - papers/frias:icse:2005
     - - 'DynAlloy: Upgrading Alloy with Actions'
@@ -3710,6 +3765,9 @@ papers:
   - - papers/reid:oopsla:2017
     - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
       - reid:oopsla:2017
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   notes/rewrite-rules:
   - - papers/jones:microsoft:2001
     - - 'Playing by the rules: rewriting as a practical optimisation technique in
@@ -3764,6 +3822,9 @@ papers:
     - - Solver aided reverse engineering of architectural features
       - zorn:iscawddd:2017
   notes/rtl:
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   - - papers/systemverilog:ieee:2013
     - - IEEE standard for SystemVerilog - Unified hardware design, specification,
         and verification language
@@ -3998,6 +4059,16 @@ papers:
   - - papers/lee:micro:1996
     - - Subword parallelism with MAX-2
       - lee:micro:1996
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  - - papers/stephens:micro:2017
+    - - The ARM scalable vector extension
+      - stephens:micro:2017
   - - papers/tremblay:micro:1996
     - - VIS speeds new media processing
       - tremblay:micro:1996
@@ -4124,6 +4195,9 @@ papers:
   - - papers/joshi:pldi:2002
     - - 'Denali: A goal-directed superoptimizer'
       - joshi:pldi:2002
+  - - papers/massalin:asplos:1987
+    - - 'Superoptimizer: A Look at the Smallest Program'
+      - massalin:asplos:1987
   notes/survey:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -4327,6 +4401,9 @@ papers:
     - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
         on chip'
       - reid:cases:2008
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
   - - papers/vonbehren:hotos:2003
     - - Why events are a bad idea (for high-concurrency servers)
       - vonbehren:hotos:2003
@@ -4430,6 +4507,16 @@ papers:
   - - papers/peleg:micro:1996
     - - MMX technology extension to the Intel architecture
       - peleg:micro:1996
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
+  - - papers/reid:phd:2019
+    - - 'Defining interfaces between hardware and software: Quality and performance'
+      - reid:phd:2019
+  - - papers/stephens:micro:2017
+    - - The ARM scalable vector extension
+      - stephens:micro:2017
   - - papers/tremblay:micro:1996
     - - VIS speeds new media processing
       - tremblay:micro:1996
@@ -5152,6 +5239,7 @@ papers:
   papers/mantel:pls:2007: []
   papers/mantel:sp:2001: []
   papers/martignoni:asplos:2012: []
+  papers/massalin:asplos:1987: []
   papers/matsushita:esop:2020:
   - - papers/ullrich:msc:2016
     - - Simple verification of Rust programs via functional purification

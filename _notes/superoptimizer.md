@@ -1,9 +1,8 @@
 ---
-examples: {}
-isa: {}
 layout: note
 notes: {}
 papers:
+- massalin:asplos:1987
 - bansal:asplos:2006
 - bansal:osdi:2008
 title: Superoptimizer

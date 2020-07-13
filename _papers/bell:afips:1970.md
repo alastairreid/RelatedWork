@@ -20,5 +20,10 @@ title: The PMS and ISP descriptive systems for computer structures
 year: 1970
 notes:
 - ISA specification
+- instruction set architecture
+- ISP
+papers:
+- barbacci:ieee:1981
+- barbacci:cmu:1972
 ---
 {% include links.html %}

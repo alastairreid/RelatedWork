@@ -1,9 +1,8 @@
 ---
-examples: {}
-isa: {}
+isa:
+- interactive theorem prover
 layout: note
 notes:
-- interactive theorem prover
 papers:
 - gordon:book:1993
 title: HOL theorem prover

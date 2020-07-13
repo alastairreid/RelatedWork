@@ -1,8 +1,7 @@
 ---
-examples: {}
-isa: {}
 layout: note
-notes: {}
+notes:
+- security
 papers:
 - ge:jce:2016
 title: Side Channel

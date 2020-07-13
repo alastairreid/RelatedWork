@@ -39,6 +39,8 @@ notes:
 - continuations
 - threads
 - decoupling
+- SIMD
+- vector architecture
 papers:
 ---
 
