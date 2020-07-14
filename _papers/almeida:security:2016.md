@@ -14,6 +14,7 @@ read: true
 readings:
 - 2019-09-14
 title: Verifying constant-time implementations
+year: 2016
 topics:
 - security
 - tools

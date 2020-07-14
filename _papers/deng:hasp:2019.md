@@ -1,4 +1,5 @@
 ---
+ENTRYTYPE: inproceedings
 added: 2019-10-06
 layout: paper
 title: "SecChisel: Language and tool for practical and scalable security verification of security-aware hardware architectures"
