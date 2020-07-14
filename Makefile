@@ -15,4 +15,19 @@ RelatedWork.html: RelatedWork.md
 RelatedWork.epub: RelatedWork.md
 	pandoc $< -s -o $@
 
+RelatedWork.bib:
+	_scripts/md2bib.py RelatedWork.bib _papers/*.md
+
+showbib.pdf: RelatedWork.bib
+	pdflatex showbib
+	bibtex showbib
+	pdflatex showbib
+
+clean::
+	$(RM) showbib.{aux,blg,bbl,dvi,log,out,pdf}
+	${RM} RelatedWork.{bib,epub,html,md}
+	${RM} _data/authors.yaml
+	${RM} _data/backrefs.yaml
+
+
 # End
