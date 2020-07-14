@@ -4,9 +4,9 @@ acmid: '142121'
 added: 2019-07-02
 address: New York, NY, USA
 authors:
-- A. L. Ananda
-- B. H. Tay
-- E. K. Koh
+- Akkihebbal L. Ananda
+- Boon Hwa Tay
+- Eng Kiat Koh
 doi: 10.1145/142111.142121
 issn: 0163-5980
 issue_date: April 1992

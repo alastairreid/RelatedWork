@@ -4,7 +4,7 @@ acmid: '83476'
 added: 2019-07-02
 address: Secaucus, NJ, USA
 authors:
-- Hunt,Jr., Warren A.
+- Warren A. Hunt Jr.
 issn: 0168-7433
 issue_date: Dec. 1989
 journal: Journal of Automated Reasoning

@@ -3,11 +3,11 @@ ENTRYTYPE: inproceedings
 added: 2020-07-12
 address: Los Alamitos, CA, USA
 authors:
-- W. Kruijtzer
-- G. Essink
-- T. Henriksson
-- P. van der Wolf
-- E. de Kock
+- Pieter van der Wolf
+- Erwin A. de Kock
+- Tomas Henriksson
+- Wido Kruijtzer
+- Gerben Essink
 booktitle: Hardware/software codesign and system synthesis, International conference on
 doi: 10.1109/CODES+ISSS.2004.17
 issn: ''

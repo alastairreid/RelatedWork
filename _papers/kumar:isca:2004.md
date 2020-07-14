@@ -10,11 +10,11 @@ abstract: A single-ISA heterogeneous multi-core architecture is a chip multiproc
   speedup over a naive policy.
 added: 2020-07-12
 authors:
-- R. Kumar
-- D. M. Tullsen
-- P. Ranganathan
-- N. P. Jouppi
-- K. I. Farkas
+- Rakesh Kumar
+- Dean M. Tullsen
+- Parthasarathy Ranganathan
+- Norman P. Jouppi
+- Keith I. Farkas
 booktitle: Proceedings. 31st Annual International Symposium on Computer Architecture, 2004.
 doi: 10.1109/ISCA.2004.1310764
 issn: 1063-6897

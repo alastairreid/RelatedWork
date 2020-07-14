@@ -3,7 +3,7 @@ ENTRYTYPE: techreport
 added: 2019-07-01
 authors:
 - Mario R. Barbacci
-- Chester Bell
+- C. Gordon Bell
 - Allen Newell
 institution: Carnegie Mellon University
 layout: paper

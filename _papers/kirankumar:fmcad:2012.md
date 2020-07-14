@@ -2,7 +2,7 @@
 ENTRYTYPE: inproceedings
 added: 2019-07-02
 authors:
-- VM KiranKumar
+- V. M. Achutha KiranKumar
 - Arpan Gupta
 - Rajnish Ghughal
 booktitle: Formal Methods in Computer-Aided Design (FMCAD), 2012

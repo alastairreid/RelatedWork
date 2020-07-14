@@ -4,9 +4,9 @@ acmid: '224073'
 added: 2019-07-02
 address: New York, NY, USA
 authors:
-- K. L. Johnson
-- M. F. Kaashoek
-- D. A. Wallach
+- Kirk L. Johnson
+- M. Frans Kaashoek
+- Deborah A. Wallach
 doi: 10.1145/224057.224073
 issn: 0163-5980
 issue_date: Dec. 3, 1995
