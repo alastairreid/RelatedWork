@@ -5,7 +5,7 @@ added: 2019-07-01
 address: New York, NY, USA
 authors:
 - C. Gordon Bell
-- Allen Newell
+- Allen C. Newell
 booktitle: Proceedings of the May 5-7, 1970, Spring Joint Computer Conference
 doi: 10.1145/1476936.1476993
 layout: paper

@@ -4,7 +4,7 @@ added: 2019-07-01
 authors:
 - Mario R. Barbacci
 - C. Gordon Bell
-- Allen Newell
+- Allen C. Newell
 institution: Carnegie Mellon University
 layout: paper
 link: http://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=360601

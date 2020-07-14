@@ -2,8 +2,8 @@
 ENTRYTYPE: article
 added: 2019-07-02
 authors:
-- M. Kaufmann
-- J. S. Moore
+- Matt Kaufmann
+- J. Strother Moore
 doi: 10.1109/32.588534
 issn: 0098-5589
 journal: IEEE Transactions on Software Engineering

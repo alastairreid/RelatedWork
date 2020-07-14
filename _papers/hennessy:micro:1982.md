@@ -4,11 +4,11 @@ acmid: '800930'
 added: 2019-07-01
 address: Piscataway, NJ, USA
 authors:
-- John Hennessy
-- Norman Jouppi
+- John L. Hennessy
+- Norman P. Jouppi
 - Steven Przybylski
 - Christopher Rowen
-- Thomas Gross
+- Thomas R. Gross
 - Forest Baskett
 - John Gill
 booktitle: Proceedings of the 15th Annual Workshop on Microprogramming

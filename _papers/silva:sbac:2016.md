@@ -2,9 +2,9 @@
 ENTRYTYPE: inproceedings
 added: 2019-07-02
 authors:
-- H. C. D. Silva
-- F. Pisani
-- E. Borin
+- Hércules Cardoso da Silva
+- Flávia Pisani
+- Edson Borin
 booktitle: 2016 International Symposium on Computer Architecture and High Performance Computing Workshops (SBAC-PADW)
 doi: 10.1109/SBAC-PADW.2016.19
 issn: ''

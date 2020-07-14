@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2019-07-02
 authors:
 - Daniel Kroening
-- Wolfgang Paul
+- Wolfgang J. Paul
 - Silvia Mueller
 booktitle: Proceedings of ITG/GI/GMM-Workshop ''Methoden und Beschreibungssprachen zur Modellierung und Verifikation von Schaltungen und Systemen''
 editor: Waldschmidt, Klaus and Grimm, Christoph

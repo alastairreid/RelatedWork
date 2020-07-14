@@ -6,7 +6,7 @@ authors:
 - Norman P. Jouppi
 - John L. Hennessy
 - Steven Przybylski
-- Chris Rowen
+- Christopher Rowen
 doi: 10.1109/MM.2016.66
 issn: 0272-1732
 journal: IEEE Micro

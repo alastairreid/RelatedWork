@@ -3,7 +3,7 @@ ENTRYTYPE: book
 added: 2020-07-13
 authors:
 - C. Gordon Bell
-- A. C. Newell
+- Allen C. Newell
 isbn: '0070043574'
 layout: paper
 publisher: McGraw-Hill Pub. Co.

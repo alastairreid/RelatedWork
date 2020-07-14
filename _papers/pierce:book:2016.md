@@ -19,7 +19,7 @@ plclub: 'Yes'
 publisher: Electronic textbook
 read: false
 readings: []
-title: Software Foundations
+title: Software foundations
 url: http://www.cis.upenn.edu/~bcpierce/sf
 year: 2016
 notes:

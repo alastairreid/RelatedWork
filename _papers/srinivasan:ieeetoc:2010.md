@@ -13,7 +13,7 @@ pages: 1138-1144
 publisher: IEEE Computer Society
 read: false
 readings: []
-title: Automatic Refinement Checking of Pipelines with Out-of-Order Execution
+title: Automatic refinement checking of pipelines with out-of-order execution
 volume: '59'
 year: 2010
 notes:

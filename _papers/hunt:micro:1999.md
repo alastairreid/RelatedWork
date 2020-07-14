@@ -4,7 +4,7 @@ acmid: '624272'
 added: 2019-07-02
 address: Los Alamitos, CA, USA
 authors:
-- Warren A. Hunt, Jr.
+- Warren A. Hunt Jr.
 - Jun Sawada
 doi: 10.1109/40.768503
 issn: 0272-1732

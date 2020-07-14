@@ -11,10 +11,11 @@ layout: paper
 pages: 47-56
 read: false
 readings: []
-title: The Effectiveness of Decoupling
+title: The effectiveness of decoupling
 year: 1993
 notes:
 - pipeline parallelism
 - decoupling
+- microarchitecture
 ---
 {% include links.html %}

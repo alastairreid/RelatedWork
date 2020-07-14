@@ -12,7 +12,7 @@ authors:
 - Joel Beeren
 - Yutaka Nagashima
 - Japheth Lim
-- Thomas Sewell
+- Thomas Arthur Leck Sewell
 - Joseph Tuong
 - Gabriele Keller
 - Toby Murray

@@ -10,7 +10,7 @@ link: http://arxiv.org/abs/math.NA/9810022
 publisher: SIAM Press
 read: false
 readings: []
-title: 'Active Libraries: Rethinking the roles of compilers and libraries'
+title: 'Active libraries: Rethinking the roles of compilers and libraries'
 url: http://arxiv.org/abs/math.NA/9810022
 year: 1998
 notes:

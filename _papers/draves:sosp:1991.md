@@ -19,10 +19,11 @@ publisher: ACM
 read: false
 readings: []
 series: SOSP '91
-title: Using Continuations to Implement Thread Management and Communication in Operating Systems
+title: Using continuations to implement thread management and communication in operating systems
 year: 1991
 notes:
 - continuations
+- operating systems
 - threads
 ---
 {% include links.html %}

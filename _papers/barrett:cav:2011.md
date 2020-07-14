@@ -2,11 +2,11 @@
 ENTRYTYPE: inproceedings
 added: 2019-07-02
 authors:
-- Clark Barrett
+- Clark W. Barrett
 - Christopher L. Conway
 - Morgan Deters
 - Liana Hadarean
-- Dejan Jovanovi{\' c}
+- Dejan Jovanović
 - Tim King
 - Andrew Reynolds
 - Cesare Tinelli

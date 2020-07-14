@@ -2,9 +2,9 @@
 ENTRYTYPE: inproceedings
 added: 2019-07-02
 authors:
-- V. Zivojnovic
-- S. Pees
-- H. Meyr
+- Vojin Zivojnovic
+- Stefan Pees
+- Heinrich Meyr
 booktitle: VLSI Signal Processing, IX
 doi: 10.1109/VLSISP.1996.558311
 keywords: digital signal processing chips;digital simulation;pipeline processing;specification languages;ASAP sequencer;Gantt charts;HW/SW co-design;HW/SW
@@ -17,7 +17,7 @@ month: October
 pages: 127-136
 read: false
 readings: []
-title: LISA-machine description language and generic machine model for HW/SW co-design
+title: LISA – machine description language and generic machine model for HW/SW co-design
 year: 1996
 notes:
 - ISA specification

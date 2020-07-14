@@ -5,7 +5,7 @@ address: Nijmegen, The Netherlands
 authors:
 - Richard Boulton
 - Andrew Gordon
-- Mike Gordon
+- Michael J. C. Gordon
 - John Harrison
 - John Herbert
 - John Van Tassel

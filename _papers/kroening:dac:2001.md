@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2019-07-02
 authors:
 - Daniel Kroening
-- Wolfgang Paul
+- Wolfgang J. Paul
 booktitle: Proceedings of the 38th Design Automation Conference
 isbn: 1-58113-297-2
 layout: paper

@@ -12,7 +12,7 @@ authors:
 - Jeremy Wong
 - Henry Hoffmann
 - David Maze
-- Saman Amarasinghe
+- Saman P. Amarasinghe
 booktitle: Proceedings Architectural Support for Programming Languages and Operating Systems
 doi: 10.1145/605397.605428
 isbn: 1-58113-574-2

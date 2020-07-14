@@ -2,8 +2,8 @@
 ENTRYTYPE: inproceedings
 added: 2019-07-02
 authors:
-- D. A. Burke
-- K. Johannisson
+- David A. Burke
+- Kristofer Johannisson
 booktitle: Logical Aspects of Computational Linguistics (LACL 2005)
 doi: 10.1007/11422532_4
 editor: P. Blace, E. Stabler, J. Busquets and R. Moot

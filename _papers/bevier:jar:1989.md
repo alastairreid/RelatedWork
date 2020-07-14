@@ -7,7 +7,7 @@ abstract: The term systems verification refers to the specification and verifica
 added: 2019-07-02
 authors:
 - William R. Bevier
-- Warren A. Hunt
+- Warren A. Hunt Jr.
 - J. Strother Moore
 - William D. Young
 day: '01'

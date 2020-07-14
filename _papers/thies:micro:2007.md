@@ -6,7 +6,7 @@ address: Washington, DC, USA
 authors:
 - William Thies
 - Vikram Chandrasekhar
-- Saman Amarasinghe
+- Saman P. Amarasinghe
 booktitle: Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture
 doi: 10.1109/MICRO.2007.7
 isbn: 0-7695-3047-8

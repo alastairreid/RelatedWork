@@ -7,7 +7,7 @@ authors:
 - Jaspal Subhlok
 - James M. Stichnoth
 - David R. O'Hallaron
-- Thomas Gross
+- Thomas R. Gross
 booktitle: Proceedings of the Fourth ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming
 doi: 10.1145/155332.155334
 isbn: 0-89791-589-5

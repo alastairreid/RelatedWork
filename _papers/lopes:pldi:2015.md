@@ -20,7 +20,7 @@ publisher: ACM
 read: false
 readings: []
 series: PLDI '15
-title: Provably correct peephole optimizations with alive
+title: Provably correct peephole optimizations with Alive
 year: 2015
 topics:
 papers:

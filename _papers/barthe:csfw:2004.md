@@ -4,7 +4,7 @@ added: 2019-10-13
 authors:
 - Gilles Barthe
 - Pedro R. D'Argenio
-- Tamara  Rezk
+- Tamara Rezk
 booktitle: '17th IEEE Computer Security Foundations Workshop, (CSFW-17 2004)'
 doi: 10.1109/CSFW.2004.17
 layout: paper

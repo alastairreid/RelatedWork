@@ -8,9 +8,9 @@ abstract: We describe a facility for improving optimization of Haskell programs 
 added: 2019-07-02
 address: ''
 authors:
-- Simon Peyton Jones
+- Simon L. Peyton Jones
 - Andrew Tolmach
-- Tony Hoare
+- C. A. R. Hoare
 booktitle: Proceedings of the 2001 Haskell Workshop
 chapter: ''
 isbn: ''

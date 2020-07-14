@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2019-07-01
 authors:
 - Shilpi Goel
-- Warren A. Hunt
+- Warren A. Hunt Jr.
 - Matt Kaufmann
 - Soumava Ghosh
 bibsource: dblp computer science bibliography, http://dblp.org

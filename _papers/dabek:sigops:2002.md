@@ -6,7 +6,7 @@ address: New York, NY, USA
 authors:
 - Frank Dabek
 - Nickolai Zeldovich
-- Frans Kaashoek
+- M. Frans Kaashoek
 - David Mazières
 - Robert Morris
 booktitle: Proceedings of the 10th Workshop on ACM SIGOPS European Workshop

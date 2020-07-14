@@ -13,7 +13,7 @@ added: 2019-07-01
 address: Cham
 authors:
 - Shilpi Goel
-- Warren A. Hunt
+- Warren A. Hunt Jr.
 - Matt Kaufmann
 booktitle: Provably Correct Systems
 doi: 10.1007/978-3-319-48628-4_8
@@ -23,7 +23,7 @@ pages: 173-209
 publisher: Springer International Publishing
 read: false
 readings: []
-title: Engineering a Formal, Executable x86 ISA Simulator for Software Verification
+title: Engineering a formal, executable x86 ISA simulator for software verification
 year: 2017
 topics:
 notes:

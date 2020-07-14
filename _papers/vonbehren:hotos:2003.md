@@ -4,7 +4,7 @@ acmid: '1251058'
 added: 2019-07-02
 address: Berkeley, CA, USA
 authors:
-- Rob von Behren
+- Robert von Behren
 - Jeremy Condit
 - Eric Brewer
 booktitle: Proceedings of the 9th Conference on Hot Topics in Operating Systems - Volume 9
