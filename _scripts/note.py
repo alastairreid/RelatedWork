@@ -17,8 +17,8 @@ def main():
     entry = {
         "title": title,
         "layout": "note",
-        "isa": {},
-        "examples": {},
+        # "isa": {},
+        # "examples": {},
         "notes": {},
         "papers": {}
         }
