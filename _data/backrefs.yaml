@@ -26,6 +26,9 @@ notes:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
+  - - notes/l3
+    - - L3 specification language
+      - null
   - - notes/sail-language
     - - Sail ISA specification language
       - null
@@ -178,7 +181,10 @@ notes:
   - - notes/symbolic-trajectory-evaluation
     - - Symbolic trajectory evaluation
       - null
-  notes/cray-architecture: []
+  notes/cray-architecture:
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
   notes/cvc4-solver:
   - - notes/smt-solver
     - - SMT solver
@@ -237,7 +243,10 @@ notes:
   - - notes/smt-lib-format
     - - SMT-LIB format
       - null
-  notes/formal-specification: []
+  notes/formal-specification:
+  - - notes/l3
+    - - L3 specification language
+      - null
   notes/fql:
   - - notes/sv-competition
     - - Software Verification Competition (SV-COMP)
@@ -304,8 +313,14 @@ notes:
   - - notes/isa-specification
     - - ISA specification
       - null
+  - - notes/isp
+    - - Instruction Set Processor (ISP)
+      - null
   - - notes/mips-architecture
     - - MIPS architecture
+      - null
+  - - notes/pdp11-architecture
+    - - PDP11 architecture
       - null
   - - notes/powerpc-architecture
     - - Power-PC architecture
@@ -370,8 +385,18 @@ notes:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
+  - - notes/isp
+    - - Instruction Set Processor (ISP)
+      - null
+  - - notes/l3
+    - - L3 specification language
+      - null
   - - notes/sail-language
     - - Sail ISA specification language
+      - null
+  notes/isp:
+  - - notes/isa-specification
+    - - ISA specification
       - null
   notes/javascript: []
   notes/klee-verifier:
@@ -387,6 +412,7 @@ notes:
   - - notes/test-competition
     - - Software Testing Competition (Test-Comp)
       - null
+  notes/l3: []
   notes/lean-theorem-prover:
   - - notes/dependent-type
     - - Dependent type
@@ -509,6 +535,10 @@ notes:
     - - Threads
       - null
   notes/partial-order-reduction: []
+  notes/pdp11-architecture:
+  - - notes/instruction-set-architecture
+    - - Instruction set architecture
+      - null
   notes/permission-accounting:
   - - notes/fractional-permissions
     - - Fractional permissions
@@ -981,8 +1011,14 @@ notes:
   - - notes/smack-verifier
     - - SMACK verifier
       - null
-  papers/barbacci:cmu:1972: []
-  papers/barbacci:ieee:1981: []
+  papers/barbacci:cmu:1972:
+  - - notes/isp
+    - - Instruction Set Processor (ISP)
+      - null
+  papers/barbacci:ieee:1981:
+  - - notes/isp
+    - - Instruction Set Processor (ISP)
+      - null
   papers/barnett:cacm:2011: []
   papers/barnett:cassis:2004: []
   papers/barnett:fmco:2005: []
@@ -1010,7 +1046,14 @@ notes:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
       - null
-  papers/bell:afips:1970: []
+  papers/bell:afips:1970:
+  - - notes/isp
+    - - Instruction Set Processor (ISP)
+      - null
+  papers/bell:book:1971:
+  - - notes/isp
+    - - Instruction Set Processor (ISP)
+      - null
   papers/berdine:aplas:2005: []
   papers/berdine:fmco:2005: []
   papers/bershad:cmpcon:1993: []
@@ -1227,7 +1270,10 @@ notes:
   papers/fonseca:ecs:2017: []
   papers/fox:cambridge:2001: []
   papers/fox:itp:2010: []
-  papers/fox:itp:2012: []
+  papers/fox:itp:2012:
+  - - notes/l3
+    - - L3 specification language
+      - null
   papers/fox:itps:2015: []
   papers/fox:tphols:2003: []
   papers/fox:ucam:2002: []
@@ -1390,7 +1436,6 @@ notes:
   papers/kroening:dac:2001: []
   papers/kroening:itg:2000: []
   papers/krohn:sosp:2007: []
-  papers/kruijtzer:codes:2004: []
   papers/kuhne:fmcad:2010: []
   papers/kumar:isca:2004: []
   papers/kumar:popl:2014: []
@@ -1743,6 +1788,7 @@ notes:
   - - notes/smt-solver
     - - SMT solver
       - null
+  papers/su:computer:1974: []
   papers/subhlok:ppopp:1993: []
   papers/sutcliffe:ai:2001: []
   papers/systemverilog:ieee:2013:
@@ -1813,6 +1859,7 @@ notes:
   papers/wickerson:popl:2017: []
   papers/windley:ieeetoc:1995: []
   papers/woh:micro:2008: []
+  papers/wolf:codes:2004: []
   papers/woodruff:isca:2014:
   - - notes/capabilities
     - - Capabilities
@@ -1875,7 +1922,7 @@ papers:
         system calls
       - goel:fmcad:2014
   - - papers/goel:pcs:2017
-    - - Engineering a Formal, Executable x86 ISA Simulator for Software Verification
+    - - Engineering a formal, executable x86 ISA simulator for software verification
       - goel:pcs:2017
   - - papers/goel:phd:2016
     - - Formal verification of application and system programs based on a validated
@@ -2222,8 +2269,8 @@ papers:
       - penninckx:nfm:2012
   notes/continuations:
   - - papers/draves:sosp:1991
-    - - Using Continuations to Implement Thread Management and Communication in Operating
-        Systems
+    - - Using continuations to implement thread management and communication in operating
+        systems
       - draves:sosp:1991
   - - papers/lauer:osr:1979
     - - On the duality of operating system structures
@@ -2289,7 +2336,7 @@ papers:
     - - Formal verification of a realistic compiler
       - leroy:cacm:2009
   - - papers/pierce:book:2016
-    - - Software Foundations
+    - - Software foundations
       - pierce:book:2016
   - - papers/weitz:icfp:2017
     - - 'SpaceSearch: A library for building and verifying solver-aided tools'
@@ -2394,7 +2441,7 @@ papers:
     - - A flexible formal verification framework for industrial scale validation
       - slobodova:memocode:2011
   - - papers/srinivasan:ieeetoc:2010
-    - - Automatic Refinement Checking of Pipelines with Out-of-Order Execution
+    - - Automatic refinement checking of pipelines with out-of-order execution
       - srinivasan:ieeetoc:2010
   - - papers/stewart:difts:2014
     - - 'Processor memory system verification using DOGReL: a language for specifying
@@ -2460,7 +2507,7 @@ papers:
       - subhlok:ppopp:1993
   notes/decoupling:
   - - papers/bird:sc:1993
-    - - The Effectiveness of Decoupling
+    - - The effectiveness of decoupling
       - bird:sc:1993
   - - papers/palacharla:micro:1995
     - - Decoupling integer execution in superscalar processors
@@ -2583,6 +2630,9 @@ papers:
   - - papers/damm:fmoods:1999
     - - 'LSCs: Breathing life into message sequence charts'
       - damm:fmoods:1999
+  - - papers/falkoff:ibm:1964
+    - - A formal description of SYSTEM/360
+      - falkoff:ibm:1964
   - - papers/fauth:edtc:1995
     - - Describing instruction set processors using nML
       - fauth:edtc:1995
@@ -2896,9 +2946,19 @@ papers:
   - - papers/asanovic:phd:1998
     - - Vector microprocessors
       - asanovic:phd:1998
+  - - papers/barbacci:ieee:1981
+    - - 'Instruction set processor specifications (ISPS): The notation and its applications'
+      - barbacci:ieee:1981
   - - papers/baumann:hotos:2017
     - - Hardware is the new software
       - baumann:hotos:2017
+  - - papers/bell:afips:1970
+    - - The PMS and ISP descriptive systems for computer structures
+      - bell:afips:1970
+  - - papers/bell:book:1971
+    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
+        Series)'
+      - bell:book:1971
   - - papers/dam:ted:2013
     - - Machine code verification of a tiny ARM hypervisor
       - dam:ted:2013
@@ -2940,7 +3000,7 @@ papers:
         system calls
       - goel:fmcad:2014
   - - papers/goel:pcs:2017
-    - - Engineering a Formal, Executable x86 ISA Simulator for Software Verification
+    - - Engineering a formal, executable x86 ISA simulator for software verification
       - goel:pcs:2017
   - - papers/goel:phd:2016
     - - Formal verification of application and system programs based on a validated
@@ -3088,6 +3148,10 @@ papers:
   - - papers/bell:afips:1970
     - - The PMS and ISP descriptive systems for computer structures
       - bell:afips:1970
+  - - papers/bell:book:1971
+    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
+        Series)'
+      - bell:book:1971
   - - papers/beyer:ijsttt:2006
     - - Putting it all together - Formal verification of the VAMP
       - beyer:ijsttt:2006
@@ -3242,16 +3306,41 @@ papers:
   - - papers/shi:phd:2013
     - - Certification of an instruction set simulator
       - shi:phd:2013
+  - - papers/su:computer:1974
+    - - A survey of computer hardware description languages in the U.S.A.
+      - su:computer:1974
   - - papers/zhang:fmcad:2018
     - - Integrating memory consistency models with instruction-level abstraction for
         heterogeneous system-on-chip verification
       - zhang:fmcad:2018
   - - papers/zivojnovic:vlsi:1996
-    - - LISA-machine description language and generic machine model for HW/SW co-design
+    - - "LISA \u2013 machine description language and generic machine model for HW/SW\
+        \ co-design"
       - zivojnovic:vlsi:1996
   - - papers/zorn:iscawddd:2017
     - - Solver aided reverse engineering of architectural features
       - zorn:iscawddd:2017
+  notes/isp:
+  - - papers/barbacci:cmu:1972
+    - - 'ISP: A language to describe instruction sets and other register transfer
+        systems'
+      - barbacci:cmu:1972
+  - - papers/barbacci:ieee:1981
+    - - 'Instruction set processor specifications (ISPS): The notation and its applications'
+      - barbacci:ieee:1981
+  - - papers/bell:afips:1970
+    - - The PMS and ISP descriptive systems for computer structures
+      - bell:afips:1970
+  - - papers/bell:book:1971
+    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
+        Series)'
+      - bell:book:1971
+  - - papers/pdp11:book:1973
+    - - PDP-11/45 processor handbook
+      - pdp11:book:1973
+  - - papers/su:computer:1974
+    - - A survey of computer hardware description languages in the U.S.A.
+      - su:computer:1974
   notes/javascript:
   - - papers/bodin:popl:2014
     - - A trusted mechanised JavaScript specification
@@ -3282,6 +3371,10 @@ papers:
   - - papers/wagner:hotos:2013
     - - '-Overify: Optimizing programs for fast verification'
       - wagner:hotos:2013
+  notes/l3:
+  - - papers/fox:itp:2012
+    - - Directions in ISA specification
+      - fox:itp:2012
   notes/lean-theorem-prover:
   - - papers/demoura:cade:2015
     - - The Lean theorem prover (system description)
@@ -3359,6 +3452,13 @@ papers:
   - - papers/baumann:hotos:2017
     - - Hardware is the new software
       - baumann:hotos:2017
+  - - papers/bell:book:1971
+    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
+        Series)'
+      - bell:book:1971
+  - - papers/bird:sc:1993
+    - - The effectiveness of decoupling
+      - bird:sc:1993
   - - papers/fauth:edtc:1995
     - - Describing instruction set processors using nML
       - fauth:edtc:1995
@@ -3530,6 +3630,10 @@ papers:
         of a hypervisor
       - becker:fm:2016
   notes/operating-systems:
+  - - papers/draves:sosp:1991
+    - - Using continuations to implement thread management and communication in operating
+        systems
+      - draves:sosp:1991
   - - papers/lauer:osr:1979
     - - On the duality of operating system structures
       - lauer:osr:1979
@@ -3549,6 +3653,10 @@ papers:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
       - clarke:cacm:2009
+  notes/pdp11-architecture:
+  - - papers/pdp11:book:1973
+    - - PDP-11/45 processor handbook
+      - pdp11:book:1973
   notes/permission-accounting:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
@@ -3677,7 +3785,7 @@ papers:
       - avgerinos:icse:2014
   notes/pipeline-parallelism:
   - - papers/bird:sc:1993
-    - - The Effectiveness of Decoupling
+    - - The effectiveness of decoupling
       - bird:sc:1993
   - - papers/bridges:micro:2007
     - - Revisiting the sequential programming model for multi-core
@@ -3686,12 +3794,8 @@ papers:
     - - Automatically partitioning packet processing applications for pipelined architectures
       - dai:pldi:2005
   - - papers/du:sc:2003
-    - - Compiler Support for Exploiting Coarse-Grained Pipelined Parallelism.
+    - - Compiler support for exploiting coarse-grained pipelined parallelism.
       - du:sc:2003
-  - - papers/kruijtzer:codes:2004
-    - - 'Design and programming of embedded multiprocessors: An interface-centric
-        approach'
-      - kruijtzer:codes:2004
   - - papers/palacharla:micro:1995
     - - Decoupling integer execution in superscalar processors
       - palacharla:micro:1995
@@ -3709,6 +3813,10 @@ papers:
     - - A practical approach to exploiting coarse-grained pipeline parallelism in
         C programs
       - thies:micro:2007
+  - - papers/wolf:codes:2004
+    - - 'Design and programming of embedded multiprocessors: An interface-centric
+        approach'
+      - wolf:codes:2004
   notes/powerpc-architecture:
   - - papers/gray:micro:2015
     - - An integrated concurrency and core-ISA architectural envelope definition,
@@ -3825,6 +3933,9 @@ papers:
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
+  - - papers/su:computer:1974
+    - - A survey of computer hardware description languages in the U.S.A.
+      - su:computer:1974
   - - papers/systemverilog:ieee:2013
     - - IEEE standard for SystemVerilog - Unified hardware design, specification,
         and verification language
@@ -4196,7 +4307,7 @@ papers:
     - - 'Denali: A goal-directed superoptimizer'
       - joshi:pldi:2002
   - - papers/massalin:asplos:1987
-    - - 'Superoptimizer: A Look at the Smallest Program'
+    - - 'Superoptimizer: A look at the smallest program'
       - massalin:asplos:1987
   notes/survey:
   - - papers/ananda:osr:1992
@@ -4384,8 +4495,8 @@ papers:
     - - Automatically partitioning packet processing applications for pipelined architectures
       - dai:pldi:2005
   - - papers/draves:sosp:1991
-    - - Using Continuations to Implement Thread Management and Communication in Operating
-        Systems
+    - - Using continuations to implement thread management and communication in operating
+        systems
       - draves:sosp:1991
   - - papers/dunkels:enss:2006
     - - 'Protothreads: Simplifying Event-driven Programming of Memory-constrained
@@ -4622,7 +4733,7 @@ papers:
         system calls
       - goel:fmcad:2014
   - - papers/goel:pcs:2017
-    - - Engineering a Formal, Executable x86 ISA Simulator for Software Verification
+    - - Engineering a formal, executable x86 ISA simulator for software verification
       - goel:pcs:2017
   - - papers/goel:phd:2016
     - - Formal verification of application and system programs based on a validated
@@ -4715,8 +4826,22 @@ papers:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
-  papers/barbacci:cmu:1972: []
-  papers/barbacci:ieee:1981: []
+  papers/barbacci:cmu:1972:
+  - - papers/bell:afips:1970
+    - - The PMS and ISP descriptive systems for computer structures
+      - bell:afips:1970
+  - - papers/bell:book:1971
+    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
+        Series)'
+      - bell:book:1971
+  papers/barbacci:ieee:1981:
+  - - papers/bell:afips:1970
+    - - The PMS and ISP descriptive systems for computer structures
+      - bell:afips:1970
+  - - papers/bell:book:1971
+    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
+        Series)'
+      - bell:book:1971
   papers/barnett:cacm:2011:
   - - papers/legoues:sefm:2011
     - - The Boogie verification debugger
@@ -4762,7 +4887,19 @@ papers:
   papers/bastian:oopsla:2019: []
   papers/baumann:hotos:2017: []
   papers/becker:fm:2016: []
-  papers/bell:afips:1970: []
+  papers/bell:afips:1970:
+  - - papers/barbacci:cmu:1972
+    - - 'ISP: A language to describe instruction sets and other register transfer
+        systems'
+      - barbacci:cmu:1972
+  - - papers/barbacci:ieee:1981
+    - - 'Instruction set processor specifications (ISPS): The notation and its applications'
+      - barbacci:ieee:1981
+  - - papers/bell:book:1971
+    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
+        Series)'
+      - bell:book:1971
+  papers/bell:book:1971: []
   papers/berdine:aplas:2005:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
@@ -5144,7 +5281,6 @@ papers:
   - - papers/spencer:security:1999
     - - 'The Flask security architecture: System support for diverse security policies'
       - spencer:security:1999
-  papers/kruijtzer:codes:2004: []
   papers/kuhne:fmcad:2010: []
   papers/kumar:isca:2004: []
   papers/kumar:popl:2014: []
@@ -5479,6 +5615,7 @@ papers:
   - - papers/mansur:arxiv:2020
     - - Detecting critical bugs in SMT solvers using blackbox mutational fuzzing
       - mansur:arxiv:2020
+  papers/su:computer:1974: []
   papers/subhlok:ppopp:1993: []
   papers/sutcliffe:ai:2001: []
   papers/systemverilog:ieee:2013: []
@@ -5532,6 +5669,7 @@ papers:
   papers/wickerson:popl:2017: []
   papers/windley:ieeetoc:1995: []
   papers/woh:micro:2008: []
+  papers/wolf:codes:2004: []
   papers/woodruff:isca:2014:
   - - papers/nienhuis:secpriv:2020
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
