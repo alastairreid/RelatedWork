@@ -21,7 +21,7 @@ year: 1970
 notes:
 - ISA specification
 - instruction set architecture
-- ISP
+- ISPS
 papers:
 - barbacci:ieee:1981
 - barbacci:cmu:1972

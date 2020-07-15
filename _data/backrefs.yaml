@@ -313,7 +313,7 @@ notes:
   - - notes/isa-specification
     - - ISA specification
       - null
-  - - notes/isp
+  - - notes/isps
     - - Instruction Set Processor (ISP)
       - null
   - - notes/mips-architecture
@@ -385,7 +385,7 @@ notes:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
-  - - notes/isp
+  - - notes/isps
     - - Instruction Set Processor (ISP)
       - null
   - - notes/l3
@@ -394,7 +394,7 @@ notes:
   - - notes/sail-language
     - - Sail ISA specification language
       - null
-  notes/isp:
+  notes/isps:
   - - notes/isa-specification
     - - ISA specification
       - null
@@ -412,7 +412,10 @@ notes:
   - - notes/test-competition
     - - Software Testing Competition (Test-Comp)
       - null
-  notes/l3: []
+  notes/l3:
+  - - notes/isa-specification
+    - - ISA specification
+      - null
   notes/lean-theorem-prover:
   - - notes/dependent-type
     - - Dependent type
@@ -1011,14 +1014,24 @@ notes:
   - - notes/smack-verifier
     - - SMACK verifier
       - null
+  papers/barbacci2:computer:1973: []
+  papers/barbacci:afips:1977: []
   papers/barbacci:cmu:1972:
-  - - notes/isp
+  - - notes/isps
     - - Instruction Set Processor (ISP)
       - null
+  papers/barbacci:computer:1973: []
+  papers/barbacci:computer:1977: []
+  papers/barbacci:computer:1978: []
+  papers/barbacci:dac:1979: []
+  papers/barbacci:icse:1988: []
   papers/barbacci:ieee:1981:
-  - - notes/isp
+  - - notes/isps
     - - Instruction Set Processor (ISP)
       - null
+  papers/barbacci:ieeetc:1975: []
+  papers/barbacci:ieeetc:1981: []
+  papers/barbacci:isca:1973: []
   papers/barnett:cacm:2011: []
   papers/barnett:cassis:2004: []
   papers/barnett:fmco:2005: []
@@ -1047,11 +1060,11 @@ notes:
     - - NOVA hypervisor
       - null
   papers/bell:afips:1970:
-  - - notes/isp
+  - - notes/isps
     - - Instruction Set Processor (ISP)
       - null
   papers/bell:book:1971:
-  - - notes/isp
+  - - notes/isps
     - - Instruction Set Processor (ISP)
       - null
   papers/berdine:aplas:2005: []
@@ -1166,6 +1179,7 @@ notes:
   papers/choi:icfp:2017: []
   papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
+  papers/chu:ieeedtc:1992: []
   papers/cifuentes:iwpc:1998: []
   papers/clark:entcs:2002: []
   papers/clarke:cacm:2009:
@@ -1209,6 +1223,7 @@ notes:
       - null
   papers/dabek:sigops:2002: []
   papers/dai:pldi:2005: []
+  papers/dam:ieeetc:1981: []
   papers/dam:ted:2013: []
   papers/dam:trusted:2013: []
   papers/damm:fmoods:1999: []
@@ -1225,6 +1240,7 @@ notes:
   papers/denning:cacm:1976: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:tacas:2006: []
+  papers/djordjevic:cj:1985: []
   papers/draves:sosp:1991:
   - - notes/continuations
     - - Continuations
@@ -3320,14 +3336,45 @@ papers:
   - - papers/zorn:iscawddd:2017
     - - Solver aided reverse engineering of architectural features
       - zorn:iscawddd:2017
-  notes/isp:
+  notes/isps:
+  - - papers/barbacci2:computer:1973
+    - - 'ISP: A Notation to Describe A Computer''s Instruction Sets'
+      - barbacci2:computer:1973
+  - - papers/barbacci:afips:1977
+    - - 'An architectural research facility: ISP descriptions, simulation, data collection'
+      - barbacci:afips:1977
   - - papers/barbacci:cmu:1972
     - - 'ISP: A language to describe instruction sets and other register transfer
         systems'
       - barbacci:cmu:1972
+  - - papers/barbacci:computer:1973
+    - - 'PMS: A Notaton to Describe Computer Sructures'
+      - barbacci:computer:1973
+  - - papers/barbacci:computer:1977
+    - - Evaluation of the CFA Test Programs Via Formal Computer Descriptions
+      - barbacci:computer:1977
+  - - papers/barbacci:computer:1978
+    - - Using Emulation to Verify Formal Architecture Descriptions
+      - barbacci:computer:1978
+  - - papers/barbacci:dac:1979
+    - - Instruction set processor specifications for simulation, evaluation, and synthesis
+      - barbacci:dac:1979
+  - - papers/barbacci:icse:1988
+    - - Programming at the Processor-Memory-Switch Level
+      - barbacci:icse:1988
   - - papers/barbacci:ieee:1981
     - - 'Instruction set processor specifications (ISPS): The notation and its applications'
       - barbacci:ieee:1981
+  - - papers/barbacci:ieeetc:1975
+    - - A Comparison of Register Transfer Languages for Describing Computers and Digital
+        Systems
+      - barbacci:ieeetc:1975
+  - - papers/barbacci:ieeetc:1981
+    - - 'Instruction Set Processor Specifications (ISPS): The Notation and Its Applications'
+      - barbacci:ieeetc:1981
+  - - papers/barbacci:isca:1973
+    - - Automated Exploration of the Design Space for Register Transfer (RT) Systems
+      - barbacci:isca:1973
   - - papers/bell:afips:1970
     - - The PMS and ISP descriptive systems for computer structures
       - bell:afips:1970
@@ -3335,6 +3382,16 @@ papers:
     - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
         Series)'
       - bell:book:1971
+  - - papers/chu:ieeedtc:1992
+    - - 'Three Decades of HDLs: Part I, CDL Through TI-HDL'
+      - chu:ieeedtc:1992
+  - - papers/dam:ieeetc:1981
+    - - Simulation of a Horizontal Bit-Sliced Processor Using the ISPS Architecture
+        Simulation Facility
+      - dam:ieeetc:1981
+  - - papers/djordjevic:cj:1985
+    - - A PMS Level Notation for the Description and Simulation of Digital Systems
+      - djordjevic:cj:1985
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
       - pdp11:book:1973
@@ -4826,6 +4883,8 @@ papers:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
+  papers/barbacci2:computer:1973: []
+  papers/barbacci:afips:1977: []
   papers/barbacci:cmu:1972:
   - - papers/bell:afips:1970
     - - The PMS and ISP descriptive systems for computer structures
@@ -4834,6 +4893,11 @@ papers:
     - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
         Series)'
       - bell:book:1971
+  papers/barbacci:computer:1973: []
+  papers/barbacci:computer:1977: []
+  papers/barbacci:computer:1978: []
+  papers/barbacci:dac:1979: []
+  papers/barbacci:icse:1988: []
   papers/barbacci:ieee:1981:
   - - papers/bell:afips:1970
     - - The PMS and ISP descriptive systems for computer structures
@@ -4842,6 +4906,9 @@ papers:
     - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
         Series)'
       - bell:book:1971
+  papers/barbacci:ieeetc:1975: []
+  papers/barbacci:ieeetc:1981: []
+  papers/barbacci:isca:1973: []
   papers/barnett:cacm:2011:
   - - papers/legoues:sefm:2011
     - - The Boogie verification debugger
@@ -4994,6 +5061,7 @@ papers:
   papers/choi:icfp:2017: []
   papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
+  papers/chu:ieeedtc:1992: []
   papers/cifuentes:iwpc:1998: []
   papers/clark:entcs:2002: []
   papers/clarke:cacm:2009:
@@ -5038,6 +5106,7 @@ papers:
       - mangano:crisis:2016
   papers/dabek:sigops:2002: []
   papers/dai:pldi:2005: []
+  papers/dam:ieeetc:1981: []
   papers/dam:ted:2013: []
   papers/dam:trusted:2013: []
   papers/damm:fmoods:1999: []
@@ -5077,6 +5146,7 @@ papers:
   papers/denning:cacm:1976: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:tacas:2006: []
+  papers/djordjevic:cj:1985: []
   papers/draves:sosp:1991: []
   papers/du:sc:2003: []
   papers/dunkels:enss:2006: []

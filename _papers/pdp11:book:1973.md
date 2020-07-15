@@ -13,6 +13,6 @@ notes:
 - instruction set architecture
 - ISA specification
 - PDP11 architecture
-- ISP
+- ISPS
 ---
 {% include links.html %}

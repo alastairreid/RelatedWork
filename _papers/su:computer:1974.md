@@ -23,7 +23,7 @@ volume: '7'
 year: 1974
 notes:
 - ISA specification
-- ISP
+- ISPS
 - RTL
 papers:
 ---

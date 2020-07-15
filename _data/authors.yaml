@@ -142,8 +142,21 @@
   - papers/narayanan:hotos:2019
 - name: Mario R. Barbacci
   papers:
+  - papers/barbacci2:computer:1973
+  - papers/barbacci:afips:1977
   - papers/barbacci:cmu:1972
+  - papers/barbacci:computer:1973
+  - papers/barbacci:computer:1977
+  - papers/barbacci:computer:1978
+  - papers/barbacci:dac:1979
+  - papers/barbacci:icse:1988
   - papers/barbacci:ieee:1981
+  - papers/barbacci:ieeetc:1975
+  - papers/barbacci:ieeetc:1981
+  - papers/barbacci:isca:1973
+  - papers/chu:ieeedtc:1992
+  - papers/dam:ieeetc:1981
+  - papers/djordjevic:cj:1985
 - name: Manuel Barbosa
   papers:
   - papers/almeida:security:2016
@@ -214,7 +227,9 @@
   - papers/vonbehren:hotos:2003
 - name: C. Gordon Bell
   papers:
+  - papers/barbacci2:computer:1973
   - papers/barbacci:cmu:1972
+  - papers/barbacci:computer:1973
   - papers/bell:afips:1970
   - papers/bell:book:1971
 - name: Josh Berdine
@@ -518,6 +533,9 @@
 - name: Maria Christakis
   papers:
   - papers/mansur:arxiv:2020
+- name: Yaohan Chu
+  papers:
+  - papers/chu:ieeedtc:1992
 - name: Peter Chubb
   papers:
   - papers/amani:asplos:2016
@@ -641,6 +659,9 @@
 - name: Ross Daly
   papers:
   - papers/kim:isca:2014
+- name: Andries van Dam
+  papers:
+  - papers/dam:ieeetc:1981
 - name: Mads Dam
   papers:
   - papers/dam:ted:2013
@@ -721,6 +742,9 @@
   papers:
   - papers/skorstengaard:esop:2018
   - papers/skorstengaard:popl:2019
+- name: Donald L. Dietmeyer
+  papers:
+  - papers/chu:ieeedtc:1992
 - name: David L. Dill
   papers:
   - papers/barrett:cade:2000
@@ -735,6 +759,9 @@
 - name: David R. Ditzel
   papers:
   - papers/patterson:sigarch:1980
+- name: Jovan Djordjevic
+  papers:
+  - papers/djordjevic:cj:1985
 - name: Alastair F. Donaldson
   papers:
   - papers/maciver:ecoop:2020
@@ -751,6 +778,9 @@
 - name: Wei Du
   papers:
   - papers/du:sc:2003
+- name: James R. Duley
+  papers:
+  - papers/chu:ieeedtc:1992
 - name: Daniel Dunbar
   papers:
   - papers/cadar:osdi:2008
@@ -1062,6 +1092,9 @@
   papers:
   - papers/goguen:secpriv:1982
   - papers/goguen:secpriv:1984
+- name: Robert L. Gordon
+  papers:
+  - papers/barbacci:afips:1977
 - name: Andrew Gordon
   papers:
   - papers/boulton:tpcd:1993
@@ -1170,6 +1203,9 @@
   papers:
   - papers/peterson:padl:2001
   - papers/reid:icse:1999
+- name: Constantine Halatsis
+  papers:
+  - papers/dam:ieeetc:1981
 - name: Mike Hamburg
   papers:
   - papers/kocher:arxiv:2018
@@ -1278,6 +1314,9 @@
 - name: J. Thomas Higgins
   papers:
   - papers/higgins:hldvt:2004
+- name: Fredrick J. Hill
+  papers:
+  - papers/chu:ieeedtc:1992
 - name: Mark A. Hillebrand
   papers:
   - papers/alkassar:vstte:2010
@@ -1319,6 +1358,12 @@
 - name: Matt Horsnell
   papers:
   - papers/stephens:micro:2017
+- name: Brad Hosler
+  papers:
+  - papers/djordjevic:cj:1985
+- name: Rosemary Howbrigg
+  papers:
+  - papers/barbacci:afips:1977
 - name: Jon Howell
   papers:
   - papers/hawblitzel:osdi:2014
@@ -1443,6 +1488,9 @@
 - name: Kristofer Johannisson
   papers:
   - papers/burke:lacl:2005
+- name: Bill Johnson
+  papers:
+  - papers/chu:ieeedtc:1992
 - name: Kirk L. Johnson
   papers:
   - papers/johnson:osr:1995
@@ -1472,6 +1520,9 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: J. Joosten
+  papers:
+  - papers/dam:ieeetc:1981
 - name: Rajeev Joshi
   papers:
   - papers/joshi:pldi:2002
@@ -1801,6 +1852,9 @@
 - name: Xavier Leroy
   papers:
   - papers/leroy:cacm:2009
+- name: M. Letheren
+  papers:
+  - papers/dam:ieeetc:1981
 - name: Michael Y. Levin
   papers:
   - papers/godefroid:acmq:2012
@@ -2373,6 +2427,9 @@
 - name: Duckki Oe
   papers:
   - papers/stump:fmsd:2013
+- name: Greg Ordy
+  papers:
+  - papers/chu:ieeedtc:1992
 - name: John Ousterhout
   papers:
   - papers/ousterhout:usenix:1996
@@ -2400,6 +2457,9 @@
   - papers/levy:apsys:2017
   - papers/levy:plos:2015
   - papers/levy:sosp:2017
+- name: Alan Parker
+  papers:
+  - papers/barbacci:computer:1978
 - name: Michael A. Parker
   papers:
   - papers/regehr:rtss:2003
@@ -2674,6 +2734,9 @@
 - name: Christine Rizkallah
   papers:
   - papers/amani:asplos:2016
+- name: Martin Roberts
+  papers:
+  - papers/chu:ieeedtc:1992
 - name: Thomas Roberts
   papers:
   - papers/stewart:difts:2014
@@ -2691,6 +2754,9 @@
 - name: Michael S. Rogers
   papers:
   - papers/siegel:sc:2015
+- name: Charles W. Rose
+  papers:
+  - papers/chu:ieeedtc:1992
 - name: Christopher Rowen
   papers:
   - papers/gross:micro:2016
@@ -2895,6 +2961,13 @@
 - name: Stephen F. Siegel
   papers:
   - papers/siegel:sc:2015
+- name: Daniel P. Siewiorek
+  papers:
+  - papers/barbacci2:computer:1973
+  - papers/barbacci:afips:1977
+  - papers/barbacci:computer:1973
+  - papers/barbacci:computer:1977
+  - papers/barbacci:isca:1973
 - name: Joseph Sifakis
   papers:
   - papers/clarke:cacm:2009
@@ -3342,6 +3415,9 @@
 - name: Westley Weimer
   papers:
   - papers/necula:cc:2002
+- name: Charles B. Weinstock
+  papers:
+  - papers/barbacci:icse:1988
 - name: Stephanie Weirich
   papers:
   - papers/morrisett:wcsss:1999
@@ -3384,6 +3460,9 @@
 - name: Phillip J Windley
   papers:
   - papers/windley:ieeetoc:1995
+- name: Jeannette M. Wing
+  papers:
+  - papers/barbacci:icse:1988
 - name: Simon Winwood
   papers:
   - papers/klein:sosp:2009
@@ -3540,6 +3619,9 @@
 - name: Bill Zorn
   papers:
   - papers/zorn:iscawddd:2017
+- name: Susan Zuckerman
+  papers:
+  - papers/barbacci:afips:1977
 - name: "Emre \xD6zer"
   papers:
   - papers/ozer:sbacpad:2007

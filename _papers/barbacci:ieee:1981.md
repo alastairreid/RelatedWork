@@ -23,7 +23,7 @@ topics:
 notes:
 - ISA specification
 - instruction set architecture
-- ISP
+- ISPS
 papers:
 - bell:afips:1970
 ---

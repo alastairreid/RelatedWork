@@ -18,7 +18,7 @@ year: 1972
 topics:
 notes:
 - ISA specification
-- ISP
+- ISPS
 papers:
 - bell:afips:1970
 ---

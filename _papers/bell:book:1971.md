@@ -15,7 +15,7 @@ notes:
 - microarchitecture
 - ISA specification
 - instruction set architecture
-- ISP
+- ISPS
 papers:
 - bell:afips:1970
 - barbacci:cmu:1972
