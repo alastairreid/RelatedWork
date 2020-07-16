@@ -5,6 +5,8 @@ wiki: https://en.wikipedia.org/wiki/Separation_logic
 isa:
 - permission logic
 notes:
+- alias analysis
+- shape analysis
 ---
 
 Separation logic is an extension of [Hoare

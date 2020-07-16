@@ -4,6 +4,10 @@ notes:
     - - SeaHorn verifier
       - null
   notes/acl2-theorem-prover: []
+  notes/alias-analysis:
+  - - notes/separation-logic
+    - - Separation logic
+      - null
   notes/alloy-verifier: []
   notes/annotation-burden:
   - - notes/ghost-code
@@ -57,6 +61,10 @@ notes:
     - - VCC verifier
       - null
   notes/bap-tool: []
+  notes/bdd:
+  - - notes/symbolic-model-checking
+    - - Symbolic model checking
+      - null
   notes/biabduction: []
   notes/binary-analysis:
   - - notes/bap-tool
@@ -604,6 +612,10 @@ notes:
     - - Viper verifier
       - null
   notes/pvs-theorem-prover: []
+  notes/reachability:
+  - - notes/bounded-model-checking
+    - - Bounded model-checking
+      - null
   notes/remote-procedure-call: []
   notes/requirements-specification:
   - - notes/alloy-verifier
@@ -713,6 +725,10 @@ notes:
       - null
   - - notes/verifast-verifier
     - - VeriFast verifier
+      - null
+  notes/shape-analysis:
+  - - notes/separation-logic
+    - - Separation logic
       - null
   notes/side-channel:
   - - notes/differential-power-analysis
@@ -1950,6 +1966,10 @@ papers:
   - - papers/kaufmann:ieeetse:1997
     - - An industrial strength theorem prover for a logic based on Common Lisp
       - kaufmann:ieeetse:1997
+  notes/alias-analysis:
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/alloy-verifier:
   - - papers/frias:icse:2005
     - - 'DynAlloy: Upgrading Alloy with Actions'
@@ -2080,6 +2100,10 @@ papers:
   - - papers/avgerinos:icse:2014
     - - Enhancing symbolic execution with veritesting
       - avgerinos:icse:2014
+  notes/bdd:
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/biabduction:
   - - papers/calcagno:popl:2009
     - - Compositional shape analysis by means of bi-abduction
@@ -2104,6 +2128,9 @@ papers:
   - - papers/holzer:cav:2008
     - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
       - holzer:cav:2008
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/boogie-verifier:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -2148,6 +2175,9 @@ papers:
   - - papers/cook:cav:2018
     - - Model checking boot code from AWS data centers
       - cook:cav:2018
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   - - papers/merz:vstte:2012
     - - 'LLBMC: Bounded model checking of C and C++ programs using a compiler IR'
       - merz:vstte:2012
@@ -2205,6 +2235,9 @@ papers:
   - - papers/holzer:cav:2008
     - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
       - holzer:cav:2008
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
@@ -2221,6 +2254,9 @@ papers:
   - - papers/henzinger:spin:2003
     - - Software verification with BLAST
       - henzinger:spin:2003
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/chalice-verifier:
   - - papers/heule:ftfjp:2011
     - - Fractional permissions without the fractions
@@ -3418,6 +3454,9 @@ papers:
   - - papers/chipounov:hotdep:2009
     - - Selective symbolic execution
       - chipounov:hotdep:2009
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   - - papers/lindner:indin:2018
     - - No panic! Verification of Rust programs by symbolic execution
       - lindner:indin:2018
@@ -3630,6 +3669,9 @@ papers:
   - - papers/henzinger:spin:2003
     - - Software verification with BLAST
       - henzinger:spin:2003
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   - - papers/lal:pldi:2015
     - - 'DAG inlining: A decision procedure for reachability-modulo-theories in hierarchical
         programs'
@@ -3710,6 +3752,9 @@ papers:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
       - clarke:cacm:2009
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/pdp11-architecture:
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
@@ -3903,6 +3948,10 @@ papers:
   - - papers/tahat:fmcad:2019
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
+  notes/reachability:
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/remote-procedure-call:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -4154,6 +4203,9 @@ papers:
   - - papers/jacobs:vstte:2010
     - - 'VeriFast: Imperative programs as proofs'
       - jacobs:vstte:2010
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   - - papers/krishnaswami:tldi:2010
     - - Verifying event-driven programs using ramified frame properties
       - krishnaswami:tldi:2010
@@ -4190,6 +4242,10 @@ papers:
   - - papers/vogels:fmoods:2011
     - - Annotation inference for separation logic based verifiers
       - vogels:fmoods:2011
+  notes/shape-analysis:
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/side-channel:
   - - papers/baumann:hotos:2017
     - - Hardware is the new software
@@ -4424,6 +4480,9 @@ papers:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
       - bornholt:oopsla:2018
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   - - papers/nelson:sosp:2019
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
@@ -4481,6 +4540,9 @@ papers:
   - - papers/godefroid:pldi:2012
     - - Automated synthesis of symbolic instruction encodings from I/O samples
       - godefroid:pldi:2012
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   - - papers/lindner:indin:2018
     - - No panic! Verification of Rust programs by symbolic execution
       - lindner:indin:2018
@@ -4505,6 +4567,9 @@ papers:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
       - clarke:cacm:2009
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/symbolic-trajectory-evaluation:
   - - papers/kirankumar:fmcad:2012
     - - 'Symbolic trajectory evaluation: The primary validation vehicle for next generation
@@ -4519,6 +4584,9 @@ papers:
     - - Design and synthesis of synchronization skeletons using branching-time temporal
         logic
       - clarke:wlop:1982
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   - - papers/pnueli:sfcs:1977
     - - The temporal logic of programs
       - pnueli:sfcs:1977
