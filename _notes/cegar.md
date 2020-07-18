@@ -1,6 +1,7 @@
 ---
 layout: note
 title: CEGAR (Counter-Example Guided Abstraction Refinement)
+wiki: https://en.wikipedia.org/wiki/Abstraction_model_checking
 papers:
 - clarke:cav:2000
 ---

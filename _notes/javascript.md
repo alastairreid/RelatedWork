@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/JavaScript
 layout: note
 notes: {}
 papers:

@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Formal_specification
 layout: note
 notes: {}
 papers: {}

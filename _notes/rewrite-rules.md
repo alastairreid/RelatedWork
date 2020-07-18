@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Rewriting
 layout: note
 notes: {}
 papers: {}

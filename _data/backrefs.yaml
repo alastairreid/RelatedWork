@@ -238,6 +238,7 @@ notes:
       - null
   notes/differential-power-analysis: []
   notes/distributed-shared-memory: []
+  notes/domain-specific-language: []
   notes/embedding: []
   notes/entropy: []
   notes/events: []
@@ -281,6 +282,7 @@ notes:
   - - notes/concurrent-separation-logic
     - - Concurrent separation logic
       - null
+  notes/functional-reactive-programming: []
   notes/fuzz-testing:
   - - notes/sage-verifier
     - - SAGE verifier
@@ -701,6 +703,7 @@ notes:
   - - notes/smt-solver
     - - SMT solver
       - null
+  notes/sdr: []
   notes/seahorn-verifier:
   - - notes/extended-static-checking
     - - Extended static checking (ESC)
@@ -1227,6 +1230,10 @@ notes:
   papers/chong:icse:2020: []
   papers/chu:ieeedtc:1992: []
   papers/cifuentes:iwpc:1998: []
+  papers/claessen:sfm:2006:
+  - - notes/symbolic-trajectory-evaluation
+    - - Symbolic trajectory evaluation
+      - null
   papers/clark:entcs:2002: []
   papers/clarke:cacm:2009:
   - - notes/model-checking
@@ -2027,6 +2034,9 @@ papers:
   - - papers/armstrong:spisa:2019
     - - The state of Sail
       - armstrong:spisa:2019
+  - - papers/boettcher:date:2014
+    - - 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
+      - boettcher:date:2014
   - - papers/dam:ted:2013
     - - Machine code verification of a tiny ARM hypervisor
       - dam:ted:2013
@@ -2141,6 +2151,13 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/regehr:asplos:2004
+    - - 'HOIST: a system for automatically deriving static analyzers for embedded
+        systems'
+      - regehr:asplos:2004
+  - - papers/regehr:lctes:2006
+    - - Deriving abstract transfer functions for analyzing embedded software
+      - regehr:lctes:2006
   notes/biabduction:
   - - papers/calcagno:popl:2009
     - - Compositional shape analysis by means of bi-abduction
@@ -2527,6 +2544,9 @@ papers:
     - - Verification of an implementation of Tomasulo's algorithm by compositional
         model checking
       - mcmillan:cav:1998
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
@@ -2664,6 +2684,19 @@ papers:
   - - papers/li:tocs:1989
     - - Memory coherence in shared virtual memory systems
       - li:tocs:1989
+  notes/domain-specific-language:
+  - - papers/eide:aspse:2001
+    - - 'Aspect weaving as component knitting: Separating concerns with Knit'
+      - eide:aspse:2001
+  - - papers/eide:icse:2002
+    - - Static and dynamic structure in design patterns
+      - eide:icse:2002
+  - - papers/peterson:padl:2001
+    - - 'FVision: A declarative language for visual tracking'
+      - peterson:padl:2001
+  - - papers/reid:icse:1999
+    - - 'Prototyping real-time vision systems: An experiment in DSL design'
+      - reid:icse:1999
   notes/embedding:
   - - papers/boulton:tpcd:1993
     - - Experience with embedding hardware description languages in HOL
@@ -2735,6 +2768,12 @@ papers:
   - - papers/mavin:isre:2009
     - - Easy approach to requirements syntax (EARS)
       - mavin:isre:2009
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
+  - - papers/reid:msc:1993
+    - - A precise semantics for ultraloose specifications
+      - reid:msc:1993
   notes/fql:
   - - papers/beyer:ase:2019
     - - 'TestCov: Robust test-suite execution and coverage measurement'
@@ -2787,6 +2826,13 @@ papers:
   - - papers/krishnaswami:tldi:2010
     - - Verifying event-driven programs using ramified frame properties
       - krishnaswami:tldi:2010
+  notes/functional-reactive-programming:
+  - - papers/peterson:padl:2001
+    - - 'FVision: A declarative language for visual tracking'
+      - peterson:padl:2001
+  - - papers/reid:icse:1999
+    - - 'Prototyping real-time vision systems: An experiment in DSL design'
+      - reid:icse:1999
   notes/fuzz-testing:
   - - papers/babic:fse:2019
     - - 'FUDGE: Fuzz driver generation at scale'
@@ -2816,6 +2862,9 @@ papers:
   - - papers/miller:cacm:1990
     - - An empirical study of the reliability of UNIX utilities
       - miller:cacm:1990
+  - - papers/regehr:pldi:2012
+    - - Test-case reduction for C compiler bugs
+      - regehr:pldi:2012
   - - papers/stephens:ndss:2016
     - - 'Driller: Augmenting fuzzing through selective symbolic execution'
       - stephens:ndss:2016
@@ -3055,6 +3104,9 @@ papers:
     - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
         Series)'
       - bell:book:1971
+  - - papers/boettcher:date:2014
+    - - 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
+      - boettcher:date:2014
   - - papers/dam:ted:2013
     - - Machine code verification of a tiny ARM hypervisor
       - dam:ted:2013
@@ -3786,9 +3838,21 @@ papers:
     - - Using continuations to implement thread management and communication in operating
         systems
       - draves:sosp:1991
+  - - papers/eide:aspse:2001
+    - - 'Aspect weaving as component knitting: Separating concerns with Knit'
+      - eide:aspse:2001
+  - - papers/eide:icse:2002
+    - - Static and dynamic structure in design patterns
+      - eide:icse:2002
   - - papers/lauer:osr:1979
     - - On the duality of operating system structures
       - lauer:osr:1979
+  - - papers/regehr:acp4is:2003
+    - - Lock inference for systems software
+      - regehr:acp4is:2003
+  - - papers/reid:osdi:2000
+    - - 'Knit: Component composition for systems software'
+      - reid:osdi:2000
   notes/ownership-types:
   - - papers/levy:plos:2015
     - - 'Ownership is theft: Experiences building an embedded OS in Rust'
@@ -4200,6 +4264,16 @@ papers:
   - - papers/malik:cacm:2009
     - - Boolean satisfiability from theoretical hardness to practical success
       - malik:cacm:2009
+  notes/sdr:
+  - - papers/lin:sdr:2006
+    - - 'SPEX: A programming language for software defined radio'
+      - lin:sdr:2006
+  - - papers/lin:sips:2006
+    - - Design and implementation of turbo decoders for software defined radio
+      - lin:sips:2006
+  - - papers/woh:micro:2008
+    - - 'From SODA to scotch: The evolution of a wireless baseband processor'
+      - woh:micro:2008
   notes/seahorn-verifier:
   - - papers/gurfinkel:cav:2015
     - - The SeaHorn verification framework
@@ -4330,6 +4404,9 @@ papers:
     - - 'CLKSCREW: Exposing the perils of security-oblivious energy management'
       - tang:sec:2017
   notes/simd:
+  - - papers/boettcher:date:2014
+    - - 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
+      - boettcher:date:2014
   - - papers/flynn:ieeeproc:1966
     - - Very high-speed computing systems
       - flynn:ieeeproc:1966
@@ -4339,6 +4416,12 @@ papers:
   - - papers/lee:micro:1996
     - - Subword parallelism with MAX-2
       - lee:micro:1996
+  - - papers/lin:sdr:2006
+    - - 'SPEX: A programming language for software defined radio'
+      - lin:sdr:2006
+  - - papers/lin:sips:2006
+    - - Design and implementation of turbo decoders for software defined radio
+      - lin:sips:2006
   - - papers/reid:cases:2008
     - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
         on chip'
@@ -4352,6 +4435,9 @@ papers:
   - - papers/tremblay:micro:1996
     - - VIS speeds new media processing
       - tremblay:micro:1996
+  - - papers/woh:micro:2008
+    - - 'From SODA to scotch: The evolution of a wireless baseband processor'
+      - woh:micro:2008
   notes/smack-verifier:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -4630,6 +4716,9 @@ papers:
     - - Model checking
       - mcmillan:ecs:2003
   notes/symbolic-trajectory-evaluation:
+  - - papers/claessen:sfm:2006
+    - - An introduction to symbolic trajectory evaluation
+      - claessen:sfm:2006
   - - papers/kirankumar:fmcad:2012
     - - 'Symbolic trajectory evaluation: The primary validation vehicle for next generation
         Intel processor graphics FPU'
@@ -4698,6 +4787,10 @@ papers:
   - - papers/ousterhout:usenix:1996
     - - Why threads are a bad idea (for most purposes) (Invited talk)
       - ousterhout:usenix:1996
+  - - papers/ozer:sbacpad:2007
+    - - Low-cost techniques for reducing branch context pollution in a soft realtime
+        embedded multithreaded processor
+      - ozer:sbacpad:2007
   - - papers/reid:cases:2008
     - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
         on chip'
@@ -4799,12 +4892,21 @@ papers:
   - - papers/blelloch:book:1990
     - - Vector models for data-parallel computing
       - blelloch:book:1990
+  - - papers/boettcher:date:2014
+    - - 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
+      - boettcher:date:2014
   - - papers/kozyrakis:phd:2002
     - - Scalable vector media processors for embedded systems
       - kozyrakis:phd:2002
   - - papers/lee:micro:1996
     - - Subword parallelism with MAX-2
       - lee:micro:1996
+  - - papers/lin:sdr:2006
+    - - 'SPEX: A programming language for software defined radio'
+      - lin:sdr:2006
+  - - papers/lin:sips:2006
+    - - Design and implementation of turbo decoders for software defined radio
+      - lin:sips:2006
   - - papers/peleg:micro:1996
     - - MMX technology extension to the Intel architecture
       - peleg:micro:1996
@@ -4821,6 +4923,9 @@ papers:
   - - papers/tremblay:micro:1996
     - - VIS speeds new media processing
       - tremblay:micro:1996
+  - - papers/woh:micro:2008
+    - - 'From SODA to scotch: The evolution of a wireless baseband processor'
+      - woh:micro:2008
   notes/verifast-verifier:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
@@ -4871,6 +4976,19 @@ papers:
   - - papers/fisher:isca:1983
     - - Very long instruction word architectures and the ELI-512
       - fisher:isca:1983
+  - - papers/lin:sdr:2006
+    - - 'SPEX: A programming language for software defined radio'
+      - lin:sdr:2006
+  - - papers/lin:sips:2006
+    - - Design and implementation of turbo decoders for software defined radio
+      - lin:sips:2006
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
+  - - papers/woh:micro:2008
+    - - 'From SODA to scotch: The evolution of a wireless baseband processor'
+      - woh:micro:2008
   notes/weak-memory:
   - - papers/alglave:toplas:2014
     - - 'Herding cats: Modelling, simulation, testing, and data mining for weak memory'
@@ -5196,6 +5314,7 @@ papers:
   papers/chong:icse:2020: []
   papers/chu:ieeedtc:1992: []
   papers/cifuentes:iwpc:1998: []
+  papers/claessen:sfm:2006: []
   papers/clark:entcs:2002: []
   papers/clarke:cacm:2009:
   - - papers/mcmillan:ecs:2003
@@ -5700,14 +5819,35 @@ papers:
   papers/regehr:rtss:2003: []
   papers/regehr:tecs:2005: []
   papers/reid:cases:2008:
+  - - papers/lin:sdr:2006
+    - - 'SPEX: A programming language for software defined radio'
+      - lin:sdr:2006
+  - - papers/lin:sips:2006
+    - - Design and implementation of turbo decoders for software defined radio
+      - lin:sips:2006
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
+  - - papers/woh:micro:2008
+    - - 'From SODA to scotch: The evolution of a wireless baseband processor'
+      - woh:micro:2008
   papers/reid:cav:2016:
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
   papers/reid:fmcad:2016:
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
+  - - papers/reid:oopsla:2017
+    - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
+      - reid:oopsla:2017
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
@@ -5719,10 +5859,22 @@ papers:
   papers/reid:ifl:1998: []
   papers/reid:msc:1993: []
   papers/reid:oopsla:2017:
+  - - papers/reid:cav:2016
+    - - End-to-end verification of ARM processors with ISA-formal
+      - reid:cav:2016
+  - - papers/reid:fmcad:2016
+    - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
+      - reid:fmcad:2016
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
-  papers/reid:osdi:2000: []
+  papers/reid:osdi:2000:
+  - - papers/eide:aspse:2001
+    - - 'Aspect weaving as component knitting: Separating concerns with Knit'
+      - eide:aspse:2001
+  - - papers/eide:icse:2002
+    - - Static and dynamic structure in design patterns
+      - eide:icse:2002
   papers/reid:phd:2019: []
   papers/reid:yale:1998: []
   papers/reid:yale:2001: []
@@ -5876,7 +6028,11 @@ papers:
   papers/weitz:icfp:2017: []
   papers/wickerson:popl:2017: []
   papers/windley:ieeetoc:1995: []
-  papers/woh:micro:2008: []
+  papers/woh:micro:2008:
+  - - papers/reid:cases:2008
+    - - 'SoC-C: efficient programming abstractions for heterogeneous multicore systems
+        on chip'
+      - reid:cases:2008
   papers/wolf:codes:2004: []
   papers/woodruff:isca:2014:
   - - papers/nienhuis:secpriv:2020

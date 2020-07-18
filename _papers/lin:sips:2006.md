@@ -29,8 +29,13 @@ read: false
 readings: []
 title: Design and implementation of turbo decoders for software defined radio
 year: 2006
-topics:
+notes:
+- vector architecture
+- SIMD
+- VLIW
+- SDR
 papers:
+- reid:cases:2008
 ---
 
 {% include links.html %}

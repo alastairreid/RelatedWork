@@ -21,7 +21,8 @@ readings: []
 school: Glasgow School of Computing Science
 title: A precise semantics for ultraloose specifications
 year: 1993
-topics:
+notes:
+- formal specification
 papers:
 ---
 

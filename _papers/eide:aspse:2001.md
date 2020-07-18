@@ -23,8 +23,11 @@ read: false
 readings: []
 title: 'Aspect weaving as component knitting: Separating concerns with Knit'
 year: 2001
-topics:
+notes:
+- operating systems
+- Domain Specific Language
 papers:
+- reid:osdi:2000
 ---
 
 {% include links.html %}

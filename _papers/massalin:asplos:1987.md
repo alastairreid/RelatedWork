@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2020-07-13
 address: Washington, DC, USA
 authors:
-- Henry Massalin
+- Alexia Massalin
 booktitle: Proceedings of the Second International Conference on Architectual Support for Programming Languages and Operating Systems
 doi: 10.1145/36206.36194
 isbn: 0818608056

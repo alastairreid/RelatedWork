@@ -32,6 +32,7 @@ year: 2004
 notes:
 - abstract interpretation
 - ISA specification
+- BDD
 papers:
 ---
 

@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Cray
 isa:
 - instruction set architecture
 layout: note

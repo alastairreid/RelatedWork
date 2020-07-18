@@ -19,7 +19,8 @@ read: false
 readings: []
 title: Lock inference for systems software
 year: 2003
-topics:
+notes:
+- operating systems
 papers:
 ---
 

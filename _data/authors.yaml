@@ -549,6 +549,9 @@
 - name: Alessandro Cimatti
   papers:
   - papers/biere:tacas:1999
+- name: Koen Claessen
+  papers:
+  - papers/claessen:sfm:2006
 - name: David Clark
   papers:
   - papers/clark:entcs:2002
@@ -2073,7 +2076,7 @@
   papers:
   - papers/lustig:asplos:2016
   - papers/zhang:fmcad:2018
-- name: Henry Massalin
+- name: Alexia Massalin
   papers:
   - papers/massalin:asplos:1987
 - name: Daniel Matichuk
@@ -2755,6 +2758,9 @@
 - name: Michael S. Rogers
   papers:
   - papers/siegel:sc:2015
+- name: Jan-Willem Roorda
+  papers:
+  - papers/claessen:sfm:2006
 - name: Charles W. Rose
   papers:
   - papers/chu:ieeedtc:1992

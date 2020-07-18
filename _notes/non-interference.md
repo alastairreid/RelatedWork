@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Non-interference_(security)
 layout: note
 title: Non-interference
 notes:

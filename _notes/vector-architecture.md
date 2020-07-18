@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Vector_processor
 layout: note
 notes:
 - SIMD

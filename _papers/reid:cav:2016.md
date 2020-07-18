@@ -53,6 +53,9 @@ notes:
 - bounded model checking
 - dependent type
 - ASL
+- CPU verification
 papers:
+- reid:fmcad:2016
+- reid:oopsla:2017
 ---
 {% include links.html %}

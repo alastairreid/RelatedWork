@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Distributed_shared_memory
 layout: note
 notes:
 - weak memory

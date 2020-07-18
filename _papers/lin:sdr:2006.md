@@ -28,8 +28,13 @@ read: false
 readings: []
 title: 'SPEX: A programming language for software defined radio'
 year: 2006
-topics:
+notes:
+- SIMD
+- Vector architecture
+- VLIW
+- SDR
 papers:
+- reid:cases:2008
 ---
 
 {% include links.html %}

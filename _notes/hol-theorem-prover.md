@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/HOL_(proof_assistant)
 isa:
 - interactive theorem prover
 layout: note

@@ -26,7 +26,8 @@ read: false
 readings: []
 title: Low-cost techniques for reducing branch context pollution in a soft realtime embedded multithreaded processor
 year: 2007
-topics:
+notes:
+- threads
 papers:
 ---
 

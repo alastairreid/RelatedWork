@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Dafny
 layout: note
 title: Dafny verifier
 logo: https://www.microsoft.com/en-us/research/wp-content/uploads/2008/12/dafny-logo_sm.jpg

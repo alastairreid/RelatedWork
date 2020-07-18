@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/PowerPC
 layout: note
 title: Power-PC architecture
 notes:

@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/PDP-11
 layout: note
 notes: {}
 isa:

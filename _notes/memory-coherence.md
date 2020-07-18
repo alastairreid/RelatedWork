@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Memory_coherence
 layout: note
 notes:
 - weak memory

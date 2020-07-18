@@ -32,6 +32,8 @@ title: 'Prototyping real-time vision systems: An experiment in DSL design'
 year: 1999
 notes:
 - Haskell language
+- Functional Reactive Programming
+- Domain Specific Language
 papers:
 ---
 

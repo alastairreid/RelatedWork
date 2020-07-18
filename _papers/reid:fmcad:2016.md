@@ -39,7 +39,10 @@ notes:
 - dependent type
 - type inference
 - ASL
+- formal specification
 papers:
+- reid:cav:2016
+- reid:oopsla:2017
 ---
 
 {% include links.html %}

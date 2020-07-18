@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Continuation
 layout: note
 notes:
 - threads

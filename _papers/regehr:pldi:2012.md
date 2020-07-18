@@ -27,6 +27,7 @@ url: https://doi.org/10.1145/2254064.2254104
 year: 2012
 notes:
 - test-case reduction
+- fuzz testing
 papers:
 ---
 {% include links.html %}

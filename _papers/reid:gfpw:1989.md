@@ -20,7 +20,7 @@ readings: []
 series: Workshops in Computing
 title: Designing data structures
 year: 1989
-topics:
+notes:
 papers:
 ---
 

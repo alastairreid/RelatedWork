@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Pipeline_(software)
 layout: note
 notes:
 - parallelism

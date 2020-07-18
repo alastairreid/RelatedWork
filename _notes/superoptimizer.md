@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Superoptimization
 layout: note
 notes: {}
 papers:

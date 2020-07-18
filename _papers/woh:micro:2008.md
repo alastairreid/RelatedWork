@@ -43,8 +43,13 @@ read: false
 readings: []
 title: 'From SODA to scotch: The evolution of a wireless baseband processor'
 year: 2008
-topics:
+notes:
+- SIMD
+- vector architecture
+- VLIW
+- SDR
 papers:
+- reid:cases:2008
 ---
 
 {% include links.html %}

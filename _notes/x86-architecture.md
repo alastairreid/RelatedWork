@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/X86
 layout: note
 title: x86 architecture
 notes:

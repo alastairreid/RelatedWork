@@ -35,6 +35,8 @@ year: 2001
 topics:
 notes:
 - Haskell language
+- Functional Reactive Programming
+- Domain Specific Language
 papers:
 ---
 

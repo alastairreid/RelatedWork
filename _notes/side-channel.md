@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Side-channel_attack
 layout: note
 notes:
 - security

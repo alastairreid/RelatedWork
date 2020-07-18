@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
 examples: {}
 isa:
 - instruction set architecture

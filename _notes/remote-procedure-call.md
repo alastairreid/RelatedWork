@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Remote_procedure_call
 layout: note
 notes: {}
 papers:

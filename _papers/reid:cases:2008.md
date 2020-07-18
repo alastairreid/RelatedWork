@@ -41,7 +41,9 @@ notes:
 - decoupling
 - SIMD
 - vector architecture
+- VLIW
 papers:
+- woh:micro:2008
 ---
 
 {% include links.html %}

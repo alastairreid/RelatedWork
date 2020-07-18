@@ -30,7 +30,11 @@ read: false
 readings: []
 title: 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
 year: 2014
-topics:
+notes:
+- Arm architecture
+- SIMD
+- vector architecture
+- instruction set architecture
 papers:
 ---
 

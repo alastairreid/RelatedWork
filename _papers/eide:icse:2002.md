@@ -30,8 +30,11 @@ read: false
 readings: []
 title: Static and dynamic structure in design patterns
 year: 2002
-topics:
+notes:
+- operating systems
+- Domain Specific Language
 papers:
+- reid:osdi:2000
 ---
 
 {% include links.html %}

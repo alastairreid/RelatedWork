@@ -39,5 +39,7 @@ notes:
 - natural language
 - requirements specification
 papers:
+- reid:fmcad:2016
+- reid:cav:2016
 ---
 {% include links.html %}
