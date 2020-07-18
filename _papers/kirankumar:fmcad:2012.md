@@ -17,5 +17,7 @@ notes:
 - symbolic trajectory evaluation
 - CPU verification
 - x86 architecture
+papers:
+- segar:fmsd:1995
 ---
 {% include links.html %}

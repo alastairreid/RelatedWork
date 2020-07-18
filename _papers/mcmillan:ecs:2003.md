@@ -18,6 +18,9 @@ year: 2003
 notes:
 - survey
 - model checking
+- symbolic model checking
+- partial order reduction
+- temporal logic
 papers:
 - jhala:compsurv:2009
 - clarke:cacm:2009
@@ -27,16 +30,16 @@ This is a good survey of model checking that lays out the main concepts and
 why they matter:
 
 - specification
-  - temporal logic
+  - [temporal logic]
     - branching time logic (BTL)
       - computation tree logic (CTL)
     - linear temporal logic (LTL)
   - automata-based specification and verification
 - scaling and performance of implementation
   - the state explosion problem
-  - symbolic model checking
+  - [symbolic model checking]
   - exploitation of symmetry
-  - partial order-based reductions
+  - [partial order-based reductions][partial order reduction]
   - abstraction and compositional methods
     - abstraction
     - compositional methods

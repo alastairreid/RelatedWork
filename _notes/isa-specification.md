@@ -6,6 +6,7 @@ notes:
 - ASL
 - ISPS
 - L3
+- LISA
 - Sail language
 - CPU verification
 - translation validation

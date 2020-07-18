@@ -21,5 +21,6 @@ title: LISA – machine description language and generic machine model for HW/SW
 year: 1996
 notes:
 - ISA specification
+- LISA
 ---
 {% include links.html %}

@@ -37,6 +37,8 @@ notes:
 - alias analysis
 - shape analysis
 - temporal logic
+- buchi automaton
+- kripke structure
 - BDD
 - CEGAR
 - BLAST verifier
@@ -153,7 +155,7 @@ The sections give a good sense of what is covered
 - Liveness and termination
   - Finite state
 
-    Büchi automaton,
+    [Büchi automaton][buchi automaton],
     LTL [temporal logic],
     pushdown systems
   - Infinite state

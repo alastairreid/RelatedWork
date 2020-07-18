@@ -119,6 +119,10 @@ notes:
   - - notes/bounded-model-checking
     - - Bounded model-checking
       - null
+  notes/buchi-automaton:
+  - - notes/model-checking
+    - - Model checking
+      - null
   notes/cactus-plot: []
   notes/capabilities:
   - - notes/cheri-architecture
@@ -399,6 +403,9 @@ notes:
   - - notes/l3
     - - L3 specification language
       - null
+  - - notes/lisa
+    - - LISA
+      - null
   - - notes/sail-language
     - - Sail ISA specification language
       - null
@@ -420,6 +427,16 @@ notes:
   - - notes/test-competition
     - - Software Testing Competition (Test-Comp)
       - null
+  notes/kripke-structure:
+  - - notes/buchi-automaton
+    - - "B\xFCchi automaton"
+      - null
+  - - notes/model-checking
+    - - Model checking
+      - null
+  - - notes/temporal-logic
+    - - Temporal logic
+      - null
   notes/l3:
   - - notes/isa-specification
     - - ISA specification
@@ -431,6 +448,10 @@ notes:
   notes/linear-logic:
   - - notes/permission-logic
     - - Permission logic
+      - null
+  notes/lisa:
+  - - notes/isa-specification
+    - - ISA specification
       - null
   notes/llvm-compiler:
   - - notes/klee-verifier
@@ -493,8 +514,14 @@ notes:
   - - notes/bounded-model-checking
     - - Bounded model-checking
       - null
+  - - notes/buchi-automaton
+    - - "B\xFCchi automaton"
+      - null
   - - notes/cpachecker-verifier
     - - CPAchecker verifier
+      - null
+  - - notes/kripke-structure
+    - - Kripke structure
       - null
   - - notes/partial-order-reduction
     - - Partial Order Reduction
@@ -862,6 +889,9 @@ notes:
   notes/symbolic-trajectory-evaluation: []
   notes/systematization-of-knowledge: []
   notes/temporal-logic:
+  - - notes/buchi-automaton
+    - - "B\xFCchi automaton"
+      - null
   - - notes/model-checking
     - - Model checking
       - null
@@ -1775,6 +1805,10 @@ notes:
     - - Prusti verifier
       - null
   papers/seal:book:2000: []
+  papers/segar:fmsd:1995:
+  - - notes/symbolic-trajectory-evaluation
+    - - Symbolic trajectory evaluation
+      - null
   papers/seshadri:sosp:2007: []
   papers/sewell:pldi:2013: []
   papers/sharma:oopsla:2012: []
@@ -1906,7 +1940,10 @@ notes:
   papers/zeldovich:osdi:2006: []
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
-  papers/zivojnovic:vlsi:1996: []
+  papers/zivojnovic:vlsi:1996:
+  - - notes/lisa
+    - - LISA
+      - null
   papers/zorn:iscawddd:2017: []
 papers:
   notes/abstract-interpretation:
@@ -2203,6 +2240,10 @@ papers:
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
+  notes/buchi-automaton:
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/cactus-plot:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
@@ -2489,6 +2530,9 @@ papers:
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
+  - - papers/segar:fmsd:1995
+    - - Formal verification by symbolic evaluation of partially-ordered trajectories
+      - segar:fmsd:1995
   - - papers/slobodova:memocode:2011
     - - A flexible formal verification framework for industrial scale validation
       - slobodova:memocode:2011
@@ -3467,6 +3511,10 @@ papers:
   - - papers/wagner:hotos:2013
     - - '-Overify: Optimizing programs for fast verification'
       - wagner:hotos:2013
+  notes/kripke-structure:
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/l3:
   - - papers/fox:itp:2012
     - - Directions in ISA specification
@@ -3488,6 +3536,11 @@ papers:
   - - papers/walker:tic:2001
     - - Alias types for recursive data structures
       - walker:tic:2001
+  notes/lisa:
+  - - papers/zivojnovic:vlsi:1996
+    - - "LISA \u2013 machine description language and generic machine model for HW/SW\
+        \ co-design"
+      - zivojnovic:vlsi:1996
   notes/llvm-compiler:
   - - papers/baranowski:atva:2018
     - - Verifying Rust programs with SMACK
@@ -3755,6 +3808,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/mcmillan:ecs:2003
+    - - Model checking
+      - mcmillan:ecs:2003
   notes/pdp11-architecture:
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
@@ -4570,11 +4626,17 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/mcmillan:ecs:2003
+    - - Model checking
+      - mcmillan:ecs:2003
   notes/symbolic-trajectory-evaluation:
   - - papers/kirankumar:fmcad:2012
     - - 'Symbolic trajectory evaluation: The primary validation vehicle for next generation
         Intel processor graphics FPU'
       - kirankumar:fmcad:2012
+  - - papers/segar:fmsd:1995
+    - - Formal verification by symbolic evaluation of partially-ordered trajectories
+      - segar:fmsd:1995
   notes/systematization-of-knowledge: []
   notes/temporal-logic:
   - - papers/clarke:cacm:2009
@@ -4587,6 +4649,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/mcmillan:ecs:2003
+    - - Model checking
+      - mcmillan:ecs:2003
   - - papers/pnueli:sfcs:1977
     - - The temporal logic of programs
       - pnueli:sfcs:1977
@@ -5687,6 +5752,11 @@ papers:
     - - Local reasoning about while-loops
       - tuerk:vstte:2010
   papers/seal:book:2000: []
+  papers/segar:fmsd:1995:
+  - - papers/kirankumar:fmcad:2012
+    - - 'Symbolic trajectory evaluation: The primary validation vehicle for next generation
+        Intel processor graphics FPU'
+      - kirankumar:fmcad:2012
   papers/seshadri:sosp:2007:
   - - papers/franklin:cmu:2008
     - - 'Attacking, repairing, and verifying SecVisor: A retrospective on the security

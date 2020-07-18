@@ -4,6 +4,7 @@ title: Temporal logic
 wiki: https://en.wikipedia.org/wiki/Temporal_logic
 notes:
 - model checking
+- Kripke structure
 papers:
 - clarke:cacm:2009
 - pnueli:sfcs:1977
@@ -11,9 +12,10 @@ papers:
 
 todo
 
+<https://en.wikipedia.org/wiki/Category:Temporal_logic>
+
 <https://en.wikipedia.org/wiki/Model_checking>
 
-<https://en.wikipedia.org/wiki/Kripke_structure_(model_checking)>
 
 Several kinds of temporal logic exist (<https://en.wikipedia.org/wiki/Temporal_logic#Temporal_logics>) including
 

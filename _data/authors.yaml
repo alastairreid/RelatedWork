@@ -391,6 +391,7 @@
 - name: Randal E. Bryant
   papers:
   - papers/lahiri:cav:2003
+  - papers/segar:fmsd:1995
   - papers/velev:dac:2000
 - name: Stefan Bucur
   papers:
@@ -2873,6 +2874,7 @@
 - name: Carl-Johan H. Seger
   papers:
   - papers/aagaard:fmcad:2000
+  - papers/segar:fmsd:1995
 - name: Koushik Sen
   papers:
   - papers/cadar:cacm:2013
