@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/3-540-45937-5_16
 ENTRYTYPE: inproceedings
 abstract: 'This paper describes the C Intermediate Language: a highlevel representation along with a set of tools that permit easy analysis and source-to-source
   transformation of C programs.'

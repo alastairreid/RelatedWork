@@ -1,4 +1,5 @@
 ---
+doi: 10.1109/DAC.1979.1600090
 ENTRYTYPE: inproceedings
 added: 2020-07-14
 authors:

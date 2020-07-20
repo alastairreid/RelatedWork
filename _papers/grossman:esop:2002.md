@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/3-540-45927-8_3
 ENTRYTYPE: inproceedings
 abstract: We integrate existential types into a strongly typed C-like language. In
   particular, we show how a bad combination of existential types, mutation, and aliasing

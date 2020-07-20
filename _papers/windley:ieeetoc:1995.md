@@ -2,7 +2,7 @@
 ENTRYTYPE: article
 added: 2019-07-02
 authors:
-- Phillip J Windley
+- Phillip J. Windley
 doi: 10.1109/12.368009
 journal: Computers, IEEE Transactions on
 layout: paper

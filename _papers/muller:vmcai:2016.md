@@ -1,4 +1,5 @@
 ---
+doi: /10.1007/978-3-662-49122-5_2
 ENTRYTYPE: inproceedings
 abstract: 'The automation of verification techniques based on first-order logic specifications
   has benefitted greatly from verification infrastructures such as Boogie and Why.

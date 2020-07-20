@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: article
+doi: 10.23919/FMCAD.2019.8894252
 added: 2019-10-12
 authors:
 - Amer Tahat

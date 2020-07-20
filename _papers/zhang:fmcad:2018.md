@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+doi: 10.23919/FMCAD.2018.8603015
 added: 2019-07-02
 authors:
 - Hongce Zhang

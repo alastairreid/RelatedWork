@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-642-27705-4_3
 ENTRYTYPE: inproceedings
 abstract: Pervasive formal verification of operating systems and hypervisors is, due to their safety-critical aspects, a highly relevant area of research.
   Many implementations consist of both assembler and C functions. Formal verification of their correctness must consider the correct interaction of code

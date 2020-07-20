@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/3-540-58179-0_44
 ENTRYTYPE: inproceedings
 acmid: '735662'
 added: 2019-07-01

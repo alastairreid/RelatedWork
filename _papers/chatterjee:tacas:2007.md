@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-540-71209-1_4
 ENTRYTYPE: inproceedings
 abstract: Reasoning about heap-allocated data structures such as linked lists and
   arrays is challenging. The reachability predicate has proved to be useful for reasoning

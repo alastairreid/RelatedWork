@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-319-89884-1_17
 ENTRYTYPE: inproceedings
 abstract: Capability machines provide security guarantees at machine level which makes
   them an interesting target for secure compilation schemes that provably enforce

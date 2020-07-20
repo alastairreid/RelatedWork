@@ -1,4 +1,5 @@
 ---
+doi: 10.1109/FMCAD.2016.7886675
 ENTRYTYPE: inproceedings
 abstract: 'Processor specifications are of critical importance for verifying programs, compilers, operating systems/hypervisors, and, of course, for verifying
   microprocessors themselves.  But to be useful, the scope of these specifications must be sufficient for the task, the specification must be applicable

@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+doi: 10.1007/3-540-45332-6_7
 abstract: 'Linear type systems permit programmers to deallocate or explicitly recycle
   memory, but are severely restricted by the fact that they admit no aliasing. This
   paper describes a pseudo-linear type system that allows a degree of aliasing and

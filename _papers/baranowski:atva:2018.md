@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-030-01090-4_32
 ENTRYTYPE: inproceedings
 abstract:
   Rust is an emerging systems programming language with guaranteed

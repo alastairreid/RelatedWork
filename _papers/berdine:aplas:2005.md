@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/11575467_5
 ENTRYTYPE: inproceedings
 abstract: We describe a sound method for automatically proving Hoare triples for loop-free
   code in Separation Logic, for certain preconditions and postconditions (symbolic

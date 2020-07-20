@@ -4,7 +4,7 @@ added: 2019-07-01
 authors:
 - Shuvendu K. Lahiri
 - Carl Pixley
-- Ken Albin
+- Kenneth L. Albin
 bibsource: dblp computer science bibliography, http://dblp.org
 biburl: http://dblp.uni-trier.de/rec/bib/conf/hldvt/LahiriPA01
 booktitle: Proceedings of the Sixth IEEE International High-Level Design Validation and Test Workshop 2001, Monterey, California, USA, November 7-9, 2001

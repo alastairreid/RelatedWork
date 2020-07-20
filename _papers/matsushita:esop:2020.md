@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-030-44914-8_18
 ENTRYTYPE: inproceedings
 abstract: Reduction to the satisfiablility problem for constrained Horn clauses (CHCs) is a widely studied approach to automated program verification. The
   current CHC-based methods for pointer-manipulating programs, however, are not very scalable. This paper proposes a novel translation of pointer-manipulating

@@ -1,8 +1,9 @@
 ---
+doi: 10.1007/10930755_2
 ENTRYTYPE: inproceedings
 added: 2019-07-01
 authors:
-- Anthony Fox
+- Anthony C. J. Fox
 booktitle: Theorem Proving in Higher Order Logics (TPHOLs '03)
 doi: 10.1007/10930755_2
 editor: David Basin and Burkhart Wolff

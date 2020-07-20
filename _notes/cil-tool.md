@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/George_Necula#C_Intermediate_Language
 layout: note
 notes: {}
 papers:

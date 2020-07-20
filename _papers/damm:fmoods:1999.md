@@ -1,4 +1,5 @@
 ---
+doi: 10.1023/A:1011227529550
 ENTRYTYPE: inproceedings
 added: 2020-07-10
 authors:

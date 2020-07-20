@@ -35,8 +35,6 @@
 - name: Kenneth L. Albin
   papers:
   - papers/albin:cli:1995
-- name: Ken Albin
-  papers:
   - papers/lahiri:hldvt:2001
 - name: Jonathan Aldrich
   papers:
@@ -960,12 +958,10 @@
   - papers/fox:itp:2010
   - papers/fox:itp:2012
   - papers/fox:itps:2015
-  - papers/loow:pldi:2019
-  - papers/nienhuis:secpriv:2020
-- name: Anthony Fox
-  papers:
   - papers/fox:tphols:2003
   - papers/fox:ucam:2002
+  - papers/loow:pldi:2019
+  - papers/nienhuis:secpriv:2020
 - name: Jason Franklin
   papers:
   - papers/franklin:cmu:2008
@@ -1411,9 +1407,6 @@
 - name: Sebastian Hunt
   papers:
   - papers/clark:entcs:2002
-- name: Warren A. Hunt
-  papers:
-  - papers/kaufmann:utaustin:2012
 - name: Ray Hunt
   papers:
   - papers/pearce:compsurv:2013
@@ -1555,6 +1548,9 @@
   - papers/hunt:lncs:1994
   - papers/hunt:micro:1999
   - papers/slobodova:memocode:2011
+- name: Warren A. Hunt, Jr.
+  papers:
+  - papers/kaufmann:utaustin:2012
 - name: Benjamin Jun
   papers:
   - papers/kocher:crypto:1999
@@ -2821,7 +2817,7 @@
 - name: Jun Sawada
   papers:
   - papers/hunt:micro:1999
-- name: Wayne A Sawdon
+- name: Wayne A. Sawdon
   papers:
   - papers/bershad:cmpcon:1993
 - name: Christian Schallhart
@@ -3465,7 +3461,7 @@
 - name: Derek Williams
   papers:
   - papers/sarkar:pldi:2011
-- name: Phillip J Windley
+- name: Phillip J. Windley
   papers:
   - papers/windley:ieeetoc:1995
 - name: Jeannette M. Wing

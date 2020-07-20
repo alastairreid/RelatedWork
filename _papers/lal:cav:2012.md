@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-642-31424-7_32
 ENTRYTYPE: inproceedings
 abstract: Consider a sequential programming language with control flow constructs
   such as assignments, choice, loops, and procedure calls. We restrict the syntax

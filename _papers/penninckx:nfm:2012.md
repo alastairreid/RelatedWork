@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-642-28891-3_21
 ENTRYTYPE: inproceedings
 abstract: 'Case studies on formal software verification can be divided into two categories:
   while (i) unsound approaches may miss errors or report false-positive alarms due

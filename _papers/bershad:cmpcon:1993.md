@@ -4,7 +4,7 @@ added: 2019-07-02
 authors:
 - Brian N. Bershad
 - Matthew J. Zekauskas
-- Wayne A Sawdon
+- Wayne A. Sawdon
 booktitle: Digest of Papers, Compcon Spring
 doi: 10.1109/CMPCON.1993.289730
 layout: paper

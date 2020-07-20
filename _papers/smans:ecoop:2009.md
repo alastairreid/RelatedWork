@@ -17,6 +17,7 @@ authors:
 - Bart Jacobs
 - Frank Piessens
 booktitle: ECOOP 2009 -- Object-Oriented Programming
+doi: 10.1007/978-3-642-03013-0_8
 editor: Drossopoulou, Sophia
 isbn: 978-3-642-03013-0
 layout: paper

@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/11804192_6
 ENTRYTYPE: inproceedings
 abstract: 'Separation logic is a program logic for reasoning about programs that manipulate
   pointer data structures. We describe Smallfoot, a tool for checking certain lightweight

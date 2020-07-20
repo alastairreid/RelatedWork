@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/11813040_19
 ENTRYTYPE: inproceedings
 abstract: This paper addresses the frame problem for programming theories that support
   both sharing and encapsulation through specification variables. The concept of dynamic

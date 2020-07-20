@@ -1,5 +1,6 @@
 ---
 ENTRYTYPE: inproceedings
+doi: 10.1109/ISCA.2014.6853201
 added: 2020-05-04
 authors:
 - Jonathan Woodruff

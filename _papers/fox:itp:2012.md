@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-642-32347-8_23
 ENTRYTYPE: inproceedings
 abstract: This rough diamond presents a new domain-specific language (DSL) for producing detailed models of Instruction Set Architectures, such as ARM and
   x86. The language's design and methodology is discussed and we propose future plans for this work. Feedback is sought from the wider theorem proving community

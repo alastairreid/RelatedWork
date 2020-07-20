@@ -3351,6 +3351,9 @@ papers:
   - - papers/fox:tphols:2003
     - - Formal specification and verification of ARM6
       - fox:tphols:2003
+  - - papers/godefroid:pldi:2012
+    - - Automated synthesis of symbolic instruction encodings from I/O samples
+      - godefroid:pldi:2012
   - - papers/goel:acl2:2013
     - - Abstract stobjs and their application to ISA modeling
       - goel:acl2:2013
@@ -4679,9 +4682,6 @@ papers:
   - - papers/godefroid:pldi:2005
     - - 'DART: Directed automated random testing'
       - godefroid:pldi:2005
-  - - papers/godefroid:pldi:2012
-    - - Automated synthesis of symbolic instruction encodings from I/O samples
-      - godefroid:pldi:2012
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009

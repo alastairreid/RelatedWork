@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-319-21690-4_20
 ENTRYTYPE: inproceedings
 abstract: "In this paper, we present SeaHorn, a software verification framework. The
   key distinguishing feature of SeaHorn is its modular design that separates the concerns

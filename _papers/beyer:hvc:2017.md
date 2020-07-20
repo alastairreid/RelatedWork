@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-319-70389-3_7
 ENTRYTYPE: inproceedings
 abstract: In practice, software testing has been the established method for finding bugs in programs for a long time. But in the last 15 years, software
   model checking has received a lot of attention, and many successful tools for software model checking exist today. We believe it is time for a careful

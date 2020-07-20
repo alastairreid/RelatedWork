@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-540-24730-2_15
 ENTRYTYPE: inproceedings
 abstract: 'We present a tool for the formal verification of ANSI-C programs using Bounded Model Checking (BMC). The emphasis is on usability: the tool supports
   almost all ANSI-C language features, including pointer constructs, dynamic memory allocation, recursion, and the float and double data types. From the

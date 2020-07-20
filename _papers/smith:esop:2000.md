@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/3-540-46425-5_24
 ENTRYTYPE: inproceedings
 abstract: Linear type systems allow destructive operations such as object deallocation
   and imperative updates of functional data structures. These operations and others,

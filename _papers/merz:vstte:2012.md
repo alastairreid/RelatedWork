@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-642-27705-4_12
 ENTRYTYPE: inproceedings
 abstract: Bounded model checking (BMC) of C and C++ programs is challenging due to
   the complex and intricate syntax and semantics of these programming languages. The

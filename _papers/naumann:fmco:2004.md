@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/11561163_11
 ENTRYTYPE: inproceedings
 abstract: In object-oriented programming, reentrant method invocations and shared
   references make it difficult to achieve adequate encapsulation for sound modular

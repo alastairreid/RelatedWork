@@ -1,4 +1,5 @@
 ---
+wiki: https://en.wikipedia.org/wiki/Alias_analysis
 layout: note
 notes: {}
 papers: {}

@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/3-540-44829-2_17
 ENTRYTYPE: inproceedings
 abstract: Blast (the Berkeley Lazy Abstraction Software verification Tool) is a verification system for checking safety properties of C programs using automatic
   property-driven construction and model checking of software abstractions. Blast implements an abstract-model check-refine loop to check for reachability

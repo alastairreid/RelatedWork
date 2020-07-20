@@ -1,4 +1,5 @@
 ---
+doi: 10.1007/978-3-642-35873-9_20
 ENTRYTYPE: inproceedings
 abstract: 'Fractional Permissions are a popular approach to reasoning about programs
   that use shared-memory concurrency, because they provide a way of proving data race
