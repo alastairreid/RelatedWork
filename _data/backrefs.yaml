@@ -1116,6 +1116,8 @@ notes:
   - - notes/isps
     - - Instruction Set Processor (ISP)
       - null
+  papers/bell:cacm:2008: []
+  papers/bell:procieee:2014: []
   papers/berdine:aplas:2005: []
   papers/berdine:fmco:2005: []
   papers/bershad:cmpcon:1993: []
@@ -4577,6 +4579,9 @@ papers:
   - - papers/barr:tse:2015
     - - 'The oracle problem in software testing: A survey'
       - barr:tse:2015
+  - - papers/bell:procieee:2014
+    - - 'STARS: Rise and fall of minicomputers [scanning our past]'
+      - bell:procieee:2014
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
@@ -5218,6 +5223,11 @@ papers:
         Series)'
       - bell:book:1971
   papers/bell:book:1971: []
+  papers/bell:cacm:2008:
+  - - papers/bell:procieee:2014
+    - - 'STARS: Rise and fall of minicomputers [scanning our past]'
+      - bell:procieee:2014
+  papers/bell:procieee:2014: []
   papers/berdine:aplas:2005:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'

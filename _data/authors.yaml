@@ -230,6 +230,8 @@
   - papers/barbacci:computer:1973
   - papers/bell:afips:1970
   - papers/bell:book:1971
+  - papers/bell:cacm:2008
+  - papers/bell:procieee:2014
 - name: Josh Berdine
   papers:
   - papers/berdine:aplas:2005
