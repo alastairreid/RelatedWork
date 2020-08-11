@@ -8,6 +8,7 @@ notes:
 - L3
 - LISA
 - Sail language
+- SLED
 - CPU verification
 - translation validation
 - weak memory

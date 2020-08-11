@@ -23,6 +23,7 @@ url: https://doi.org/10.1145/253228.253300
 year: 1997
 notes:
 - ISA specification
+- SLED
 papers:
 ---
 {% include links.html %}

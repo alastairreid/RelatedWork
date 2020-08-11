@@ -24,6 +24,7 @@ title: Machine descriptions to build tools for embedded systems
 year: 1998
 notes:
 - ISA specification
+- SLED
 papers:
 ---
 {% include links.html %}

@@ -25,6 +25,7 @@ volume: '19'
 year: 1997
 notes:
 - ISA specification
+- SLED
 papers:
 ---
 {% include links.html %}

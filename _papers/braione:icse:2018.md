@@ -28,10 +28,11 @@ notes:
 - search based test generation
 - symbolic execution
 - fuzz testing
+- test generation
 papers:
 ---
 
-[Search-based test generation] alone is unable to generate inputs that
+[Search based test generation] alone is unable to generate inputs that
 have complex structures such as dependencies between different data structures.
 
 This paper uses symbolic execution to capture the missing dependencies and

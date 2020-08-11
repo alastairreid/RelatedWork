@@ -296,6 +296,9 @@ notes:
   - - notes/test-case-reduction
     - - Test-case reduction
       - null
+  - - notes/test-generation
+    - - Test generation
+      - null
   notes/ghost-code:
   - - notes/annotation-burden
     - - Annotation burden
@@ -413,6 +416,9 @@ notes:
       - null
   - - notes/sail-language
     - - Sail ISA specification language
+      - null
+  - - notes/sled
+    - - Specification language for encoding and decoding (SLED)
       - null
   notes/isps:
   - - notes/isa-specification
@@ -714,7 +720,10 @@ notes:
   - - notes/sv-competition
     - - Software Verification Competition (SV-COMP)
       - null
-  notes/search-based-test-generation: []
+  notes/search-based-test-generation:
+  - - notes/test-generation
+    - - Test generation
+      - null
   notes/security:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
@@ -786,6 +795,10 @@ notes:
       - null
   - - notes/vector-architecture
     - - Vector architecture
+      - null
+  notes/sled:
+  - - notes/isa-specification
+    - - ISA specification
       - null
   notes/smack-verifier:
   - - notes/extended-static-checking
@@ -895,6 +908,9 @@ notes:
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
+  - - notes/test-generation
+    - - Test generation
+      - null
   notes/symbolic-model-checking: []
   notes/symbolic-trajectory-evaluation: []
   notes/systematization-of-knowledge: []
@@ -910,6 +926,10 @@ notes:
   notes/test-driven-development:
   - - notes/contract-driven-development
     - - Contract driven development
+      - null
+  notes/test-generation:
+  - - notes/test-generation
+    - - Test generation
       - null
   notes/threads:
   - - notes/continuations
@@ -1939,6 +1959,7 @@ notes:
   papers/wand:lfp:1980: []
   papers/wang:pldi:2007: []
   papers/wang:tase:2018: []
+  papers/weigl:arxiv:2019: []
   papers/weiss:arxiv:2018: []
   papers/weitz:icfp:2017:
   - - notes/rosette-solver
@@ -3086,6 +3107,10 @@ papers:
     - - "\xFCberSpark: Enforcing verifiable object abstractions for automated compositional\
         \ security analysis of a hypervisor"
       - vasudevan:usenix:2016
+  - - papers/weigl:arxiv:2019
+    - - 'Relational test tables: A practical specification language for evolution
+        and security'
+      - weigl:arxiv:2019
   - - papers/zdancewic:csfw:2001
     - - Robust declassification
       - zdancewic:csfw:2001
@@ -3603,6 +3628,10 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/weigl:arxiv:2019
+    - - 'Relational test tables: A practical specification language for evolution
+        and security'
+      - weigl:arxiv:2019
   notes/l3:
   - - papers/fox:itp:2012
     - - Directions in ISA specification
@@ -3830,6 +3859,10 @@ papers:
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
+  - - papers/weigl:arxiv:2019
+    - - 'Relational test tables: A practical specification language for evolution
+        and security'
+      - weigl:arxiv:2019
   notes/modular-verification:
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
@@ -4478,6 +4511,19 @@ papers:
   - - papers/woh:micro:2008
     - - 'From SODA to scotch: The evolution of a wireless baseband processor'
       - woh:micro:2008
+  notes/sled:
+  - - papers/dias:popl:2010
+    - - Automatically generating instruction selectors using declarative machine descriptions
+      - dias:popl:2010
+  - - papers/fernandez:icse:1997
+    - - Automatic checking of instruction specifications
+      - fernandez:icse:1997
+  - - papers/ramsey:lctes:1998
+    - - Machine descriptions to build tools for embedded systems
+      - ramsey:lctes:1998
+  - - papers/ramsey:toplas:1997
+    - - Specifying representations of machine instructions
+      - ramsey:toplas:1997
   notes/smack-verifier:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -4812,6 +4858,17 @@ papers:
     - - 'Software verification: Testing vs. model checking'
       - beyer:hvc:2017
   notes/test-driven-development: []
+  notes/test-generation:
+  - - papers/braione:icse:2018
+    - - 'SUSHI: A test generator for programs with complex structured inputs'
+      - braione:icse:2018
+  - - papers/visser:tacas:2020
+    - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
+      - visser:tacas:2020
+  - - papers/weigl:arxiv:2019
+    - - 'Relational test tables: A practical specification language for evolution
+        and security'
+      - weigl:arxiv:2019
   notes/threads:
   - - papers/bridges:micro:2007
     - - Revisiting the sequential programming model for multi-core
@@ -6084,6 +6141,7 @@ papers:
   papers/wand:lfp:1980: []
   papers/wang:pldi:2007: []
   papers/wang:tase:2018: []
+  papers/weigl:arxiv:2019: []
   papers/weiss:arxiv:2018: []
   papers/weitz:icfp:2017: []
   papers/wickerson:popl:2017: []

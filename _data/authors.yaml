@@ -216,6 +216,9 @@
 - name: Hanno Becker
   papers:
   - papers/becker:fm:2016
+- name: Bernhard Beckert
+  papers:
+  - papers/weigl:arxiv:2019
 - name: Joel Beeren
   papers:
   - papers/amani:asplos:2016
@@ -468,6 +471,9 @@
   - papers/avgerinos:icse:2014
   - papers/bohme:fse:2020
   - papers/manes:ieeetse:2019
+- name: Suhyun Cha
+  papers:
+  - papers/weigl:arxiv:2019
 - name: Sagar Chaki
   papers:
   - papers/franklin:cmu:2008
@@ -3315,6 +3321,9 @@
   papers:
   - papers/chong:icse:2020
   - papers/cook:cav:2018
+- name: Mattias Ulbrich
+  papers:
+  - papers/weigl:arxiv:2019
 - name: Sebastian Ullrich
   papers:
   - papers/ullrich:msc:2016
@@ -3369,6 +3378,9 @@
 - name: Yakir Vizel
   papers:
   - papers/huang:todaes:2019
+- name: Birgit Vogel-Heuser
+  papers:
+  - papers/weigl:arxiv:2019
 - name: "Fr\xE9d\xE9ric Vogels"
   papers:
   - papers/jacobs:nfm:2011
@@ -3454,6 +3466,9 @@
 - name: Michael Weber
   papers:
   - papers/chakravarty:haskffi:2003
+- name: Alexander Weigl
+  papers:
+  - papers/weigl:arxiv:2019
 - name: Westley Weimer
   papers:
   - papers/necula:cc:2002
