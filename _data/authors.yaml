@@ -359,6 +359,9 @@
 - name: Martin Nyx Brain
   papers:
   - papers/nyxbrain:sc2:2017
+- name: Pietro Braione
+  papers:
+  - papers/braione:icse:2018
 - name: Matthew Brassil
   papers:
   - papers/murray:secpriv:2013
@@ -695,6 +698,9 @@
 - name: James H. Davenport
   papers:
   - papers/nyxbrain:sc2:2017
+- name: Jack W. Davidson
+  papers:
+  - papers/ramsey:lctes:1998
 - name: Jared Davis
   papers:
   - papers/slobodova:memocode:2011
@@ -730,6 +736,9 @@
 - name: Onur Demir
   papers:
   - papers/deng:hasp:2019
+- name: Giovanni Denaro
+  papers:
+  - papers/braione:icse:2018
 - name: Shuwen Deng
   papers:
   - papers/deng:hasp:2019
@@ -746,6 +755,9 @@
   papers:
   - papers/skorstengaard:esop:2018
   - papers/skorstengaard:popl:2019
+- name: "Jo\xE3o Dias"
+  papers:
+  - papers/dias:popl:2010
 - name: Donald L. Dietmeyer
   papers:
   - papers/chu:ieeedtc:1992
@@ -895,6 +907,12 @@
 - name: Siji Feng
   papers:
   - papers/shoshitaishvili:sp:2016
+- name: "Mary Fern\xE1ndez"
+  papers:
+  - papers/fernandez:icse:1997
+- name: "Mary F. Fern\xE1ndez"
+  papers:
+  - papers/ramsey:toplas:1997
 - name: Andrew Ferraiuolo
   papers:
   - papers/ferraiuolo:asplos:2017
@@ -1040,6 +1058,9 @@
   papers:
   - papers/cock:ccs:2014
   - papers/ge:jce:2016
+- name: Jaco Geldenhuys
+  papers:
+  - papers/visser:tacas:2020
 - name: Y. Serhan Gener
   papers:
   - papers/deng:hasp:2019
@@ -2083,6 +2104,9 @@
 - name: Yusuke Matsushita
   papers:
   - papers/matsushita:esop:2020
+- name: Andrea Mattavelli
+  papers:
+  - papers/braione:icse:2018
 - name: Stefan Maus
   papers:
   - papers/maus:amast:2008
@@ -2537,6 +2561,9 @@
 - name: Elena Petrova
   papers:
   - papers/alkassar:vstte:2010
+- name: "Mauro Pezz\xE8"
+  papers:
+  - papers/braione:icse:2018
 - name: Pieter Philippaerts
   papers:
   - papers/jacobs:nfm:2011
@@ -2636,6 +2663,12 @@
   - papers/chatterjee:tacas:2007
   - papers/narayanan:hotos:2019
   - papers/rakamaric:cav:2014
+- name: Norman Ramsey
+  papers:
+  - papers/dias:popl:2010
+  - papers/fernandez:icse:1997
+  - papers/ramsey:lctes:1998
+  - papers/ramsey:toplas:1997
 - name: Keith Randall
   papers:
   - papers/joshi:pldi:2002
@@ -3330,6 +3363,9 @@
 - name: Jules Villard
   papers:
   - papers/hobor:popl:2013
+- name: Willem Visser
+  papers:
+  - papers/visser:tacas:2020
 - name: Yakir Vizel
   papers:
   - papers/huang:todaes:2019

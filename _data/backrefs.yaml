@@ -287,6 +287,9 @@ notes:
   - - notes/sage-verifier
     - - SAGE verifier
       - null
+  - - notes/search-based-test-generation
+    - - Search based test generation
+      - null
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
@@ -711,6 +714,7 @@ notes:
   - - notes/sv-competition
     - - Software Verification Competition (SV-COMP)
       - null
+  notes/search-based-test-generation: []
   notes/security:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
@@ -881,6 +885,9 @@ notes:
       - null
   - - notes/sage-verifier
     - - SAGE verifier
+      - null
+  - - notes/search-based-test-generation
+    - - Search based test generation
       - null
   - - notes/symbolic-evaluation
     - - Symbolic evaluation
@@ -1185,6 +1192,7 @@ notes:
   - - notes/non-interference
     - - Non-interference
       - null
+  papers/braione:icse:2018: []
   papers/bridges:micro:2007: []
   papers/brookes:tcs:2006: []
   papers/brummayer:sat:2010:
@@ -1293,6 +1301,7 @@ notes:
       - null
   papers/deng:hasp:2019: []
   papers/denning:cacm:1976: []
+  papers/dias:popl:2010: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:tacas:2006: []
   papers/djordjevic:cj:1985: []
@@ -1312,6 +1321,7 @@ notes:
       - null
   papers/falkoff:ibm:1964: []
   papers/fauth:edtc:1995: []
+  papers/fernandez:icse:1997: []
   papers/ferraiuolo:asplos:2017: []
   papers/ferraiuolo:ccs:2018: []
   papers/ferraiuolo:dac:2017: []
@@ -1748,6 +1758,8 @@ notes:
   - - notes/smack-verifier
     - - SMACK verifier
       - null
+  papers/ramsey:lctes:1998: []
+  papers/ramsey:toplas:1997: []
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
   papers/regehr:emsoft:2003: []
@@ -1906,6 +1918,7 @@ notes:
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []
   papers/verbeek:fmmsd:2019: []
+  papers/visser:tacas:2020: []
   papers/vogels:fmoods:2011:
   - - notes/annotation-burden
     - - Annotation burden
@@ -2851,6 +2864,9 @@ papers:
   - - papers/bohme:fse:2020
     - - 'Boosting fuzzer efficiency: An information theoretic perspective'
       - bohme:fse:2020
+  - - papers/braione:icse:2018
+    - - 'SUSHI: A test generator for programs with complex structured inputs'
+      - braione:icse:2018
   - - papers/godefroid:cacm:2020
     - - 'Fuzzing: Hack, art, and science'
       - godefroid:cacm:2020
@@ -2870,6 +2886,9 @@ papers:
   - - papers/stephens:ndss:2016
     - - 'Driller: Augmenting fuzzing through selective symbolic execution'
       - stephens:ndss:2016
+  - - papers/visser:tacas:2020
+    - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
+      - visser:tacas:2020
   notes/ghost-code:
   - - papers/jacobs:nfm:2011
     - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
@@ -3329,12 +3348,18 @@ papers:
   - - papers/degenbaev:phd:2012
     - - Formal specification of the x86 instruction set architecture
       - degenbaev:phd:2012
+  - - papers/dias:popl:2010
+    - - Automatically generating instruction selectors using declarative machine descriptions
+      - dias:popl:2010
   - - papers/falkoff:ibm:1964
     - - A formal description of SYSTEM/360
       - falkoff:ibm:1964
   - - papers/fauth:edtc:1995
     - - Describing instruction set processors using nML
       - fauth:edtc:1995
+  - - papers/fernandez:icse:1997
+    - - Automatic checking of instruction specifications
+      - fernandez:icse:1997
   - - papers/flur:popl:2016
     - - 'Modelling the ARMv8 architecture, operationally: concurrency and ISA'
       - flur:popl:2016
@@ -3409,6 +3434,12 @@ papers:
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
       - pdp11:book:1973
+  - - papers/ramsey:lctes:1998
+    - - Machine descriptions to build tools for embedded systems
+      - ramsey:lctes:1998
+  - - papers/ramsey:toplas:1997
+    - - Specifying representations of machine instructions
+      - ramsey:toplas:1997
   - - papers/regehr:asplos:2004
     - - 'HOIST: a system for automatically deriving static analyzers for embedded
         systems'
@@ -4283,6 +4314,10 @@ papers:
   - - papers/gurfinkel:cav:2015
     - - The SeaHorn verification framework
       - gurfinkel:cav:2015
+  notes/search-based-test-generation:
+  - - papers/braione:icse:2018
+    - - 'SUSHI: A test generator for programs with complex structured inputs'
+      - braione:icse:2018
   notes/security:
   - - papers/baumann:hotos:2017
     - - Hardware is the new software
@@ -4626,6 +4661,9 @@ papers:
   - - papers/holzer:cav:2008
     - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
       - holzer:cav:2008
+  - - papers/visser:tacas:2020
+    - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
+      - visser:tacas:2020
   notes/symbolic-evaluation:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
@@ -4662,6 +4700,9 @@ papers:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
       - bornholt:oopsla:2018
+  - - papers/braione:icse:2018
+    - - 'SUSHI: A test generator for programs with complex structured inputs'
+      - braione:icse:2018
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
@@ -4710,6 +4751,9 @@ papers:
   - - papers/torlak:pldi:2014
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
+  - - papers/visser:tacas:2020
+    - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
+      - visser:tacas:2020
   notes/symbolic-model-checking:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
@@ -5286,6 +5330,7 @@ papers:
   papers/bornholt:oopsla:2018: []
   papers/boulton:tpcd:1993: []
   papers/bowman:icfp:2015: []
+  papers/braione:icse:2018: []
   papers/bridges:micro:2007: []
   papers/brookes:tcs:2006: []
   papers/brummayer:sat:2010:
@@ -5406,6 +5451,7 @@ papers:
       - zhang:asplos:2015
   papers/deng:hasp:2019: []
   papers/denning:cacm:1976: []
+  papers/dias:popl:2010: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:tacas:2006: []
   papers/djordjevic:cj:1985: []
@@ -5425,6 +5471,7 @@ papers:
       - barnett:cacm:2011
   papers/falkoff:ibm:1964: []
   papers/fauth:edtc:1995: []
+  papers/fernandez:icse:1997: []
   papers/ferraiuolo:asplos:2017: []
   papers/ferraiuolo:ccs:2018: []
   papers/ferraiuolo:dac:2017: []
@@ -5817,6 +5864,8 @@ papers:
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
+  papers/ramsey:lctes:1998: []
+  papers/ramsey:toplas:1997: []
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
   papers/regehr:emsoft:2003: []
@@ -6023,6 +6072,7 @@ papers:
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []
   papers/verbeek:fmmsd:2019: []
+  papers/visser:tacas:2020: []
   papers/vogels:fmoods:2011:
   - - papers/philippaerts:scp:2014
     - - 'Software verification with VeriFast: Industrial case studies'
