@@ -1259,6 +1259,7 @@ notes:
   papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
   papers/chu:ieeedtc:1992: []
+  papers/cifuentes:computer:2000: []
   papers/cifuentes:iwpc:1998: []
   papers/claessen:sfm:2006:
   - - notes/symbolic-trajectory-evaluation
@@ -3358,6 +3359,9 @@ papers:
   - - papers/cattell:toplas:1980
     - - Automatic derivation of code generators from machine descriptions
       - cattell:toplas:1980
+  - - papers/cifuentes:computer:2000
+    - - 'UQBT: Adaptable binary translation at low cost'
+      - cifuentes:computer:2000
   - - papers/cifuentes:iwpc:1998
     - - Specifying the semantics of machine instructions
       - cifuentes:iwpc:1998
@@ -4512,6 +4516,12 @@ papers:
     - - 'From SODA to scotch: The evolution of a wireless baseband processor'
       - woh:micro:2008
   notes/sled:
+  - - papers/cifuentes:computer:2000
+    - - 'UQBT: Adaptable binary translation at low cost'
+      - cifuentes:computer:2000
+  - - papers/cifuentes:iwpc:1998
+    - - Specifying the semantics of machine instructions
+      - cifuentes:iwpc:1998
   - - papers/dias:popl:2010
     - - Automatically generating instruction selectors using declarative machine descriptions
       - dias:popl:2010
@@ -5425,6 +5435,7 @@ papers:
   papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
   papers/chu:ieeedtc:1992: []
+  papers/cifuentes:computer:2000: []
   papers/cifuentes:iwpc:1998: []
   papers/claessen:sfm:2006: []
   papers/clark:entcs:2002: []

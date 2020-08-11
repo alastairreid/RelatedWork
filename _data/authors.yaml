@@ -554,6 +554,7 @@
   - papers/sharma:oopsla:2012
 - name: Cristina Cifuentes
   papers:
+  - papers/cifuentes:computer:2000
   - papers/cifuentes:iwpc:1998
 - name: Alessandro Cimatti
   papers:
@@ -864,6 +865,9 @@
   papers:
   - papers/clarke:cacm:2009
   - papers/clarke:wlop:1982
+- name: M. Van Emmerik
+  papers:
+  - papers/cifuentes:computer:2000
 - name: Michael Emmi
   papers:
   - papers/almeida:security:2016
