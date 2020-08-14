@@ -305,6 +305,7 @@ notes:
       - null
   notes/haskell-language: []
   notes/hol-theorem-prover: []
+  notes/human-factors: []
   notes/hyperproperty:
   - - notes/non-interference
     - - Non-interference
@@ -1534,6 +1535,7 @@ notes:
     - - Differential Power Analysis
       - null
   papers/kozyrakis:phd:2002: []
+  papers/krishnamurthi:fm:2019: []
   papers/krishnaswami:tldi:2010: []
   papers/kroening:dac:2001: []
   papers/kroening:itg:2000: []
@@ -2058,6 +2060,9 @@ papers:
   - - papers/jackson:tosem:2002
     - - 'Alloy: A lightweight object modelling notation'
       - jackson:tosem:2002
+  - - papers/krishnamurthi:fm:2019
+    - - The Human in Formal Methods
+      - krishnamurthi:fm:2019
   notes/annotation-burden: []
   notes/aorte: []
   notes/arm-architecture:
@@ -2977,6 +2982,10 @@ papers:
   - - papers/gordon:book:1993
     - - 'Introduction to HOL: A Theorem Proving Environment for Higher Order Logic'
       - gordon:book:1993
+  notes/human-factors:
+  - - papers/krishnamurthi:fm:2019
+    - - The Human in Formal Methods
+      - krishnamurthi:fm:2019
   notes/hyperproperty:
   - - papers/clarkson:jcs:2010
     - - Hyperproperties
@@ -3846,6 +3855,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/krishnamurthi:fm:2019
+    - - The Human in Formal Methods
+      - krishnamurthi:fm:2019
   - - papers/lal:pldi:2015
     - - 'DAG inlining: A decision procedure for reachability-modulo-theories in hierarchical
         programs'
@@ -4334,6 +4346,9 @@ papers:
   - - papers/demoura:cacm:2011
     - - 'Satisfiability modulo theories: Introduction and applications'
       - demoura:cacm:2011
+  - - papers/krishnamurthi:fm:2019
+    - - The Human in Formal Methods
+      - krishnamurthi:fm:2019
   - - papers/malik:cacm:2009
     - - Boolean satisfiability from theoretical hardness to practical success
       - malik:cacm:2009
@@ -4586,6 +4601,9 @@ papers:
   - - papers/jacobs:vstte:2010
     - - 'VeriFast: Imperative programs as proofs'
       - jacobs:vstte:2010
+  - - papers/krishnamurthi:fm:2019
+    - - The Human in Formal Methods
+      - krishnamurthi:fm:2019
   - - papers/lal:pldi:2015
     - - 'DAG inlining: A decision procedure for reachability-modulo-theories in hierarchical
         programs'
@@ -5718,6 +5736,7 @@ papers:
   papers/kocher:arxiv:2018: []
   papers/kocher:crypto:1999: []
   papers/kozyrakis:phd:2002: []
+  papers/krishnamurthi:fm:2019: []
   papers/krishnaswami:tldi:2010:
   - - papers/hobor:popl:2013
     - - The ramifications of sharing in data structures

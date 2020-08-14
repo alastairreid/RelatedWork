@@ -1739,6 +1739,9 @@
 - name: Robbert Krebbers
   papers:
   - papers/jung:popl:2017
+- name: Shriram Krishnamurthi
+  papers:
+  - papers/krishnamurthi:fm:2019
 - name: Arvind Krishnamurthy
   papers:
   - papers/fonseca:ecs:2017
@@ -2373,6 +2376,9 @@
 - name: Greg Nelson
   papers:
   - papers/joshi:pldi:2002
+- name: Tim Nelson
+  papers:
+  - papers/krishnamurthi:fm:2019
 - name: Luke Nelson
   papers:
   - papers/nelson:sosp:2017
