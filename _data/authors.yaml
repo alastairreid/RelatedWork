@@ -29,6 +29,7 @@
   - papers/heule:pldi:2016
   - papers/sharma:oopsla:2012
   - papers/sharma:pls:2013
+  - papers/xie:bugs:2005
 - name: Bashir M. Al-Hashimi
   papers:
   - papers/boettcher:date:2014
@@ -540,6 +541,9 @@
   - papers/tiwari:asplos:2009
   - papers/tiwari:isca:2009
   - papers/tiwari:isca:2011
+- name: Andy Chou
+  papers:
+  - papers/chou:bugs:2005
 - name: Maria Christakis
   papers:
   - papers/mansur:arxiv:2020
@@ -588,6 +592,9 @@
   - papers/alkassar:vstte:2012
   - papers/cohen:cav:2010
   - papers/cohen:entcs:2009
+- name: David R. Cok
+  papers:
+  - papers/cok:bugs:2005
 - name: David Cok
   papers:
   - papers/noonan:pldi:2016
@@ -1112,6 +1119,7 @@
 - name: Patrice Godefroid
   papers:
   - papers/godefroid:acmq:2012
+  - papers/godefroid:bugs:2005
   - papers/godefroid:cacm:2020
   - papers/godefroid:pldi:2005
   - papers/godefroid:pldi:2012
@@ -1228,6 +1236,7 @@
 - name: Brian Hackett
   papers:
   - papers/condit:popl:2009
+  - papers/xie:bugs:2005
 - name: Liana Hadarean
   papers:
   - papers/barrett:cav:2011
@@ -2327,6 +2336,7 @@
 - name: Mayur Naik
   papers:
   - papers/naik:popl:2012
+  - papers/xie:bugs:2005
 - name: Keiko Nakata
   papers:
   - papers/becker:fm:2016
@@ -3558,6 +3568,9 @@
 - name: Hongwei Xi
   papers:
   - papers/xi:icfp:2001
+- name: Yichen Xie
+  papers:
+  - papers/xie:bugs:2005
 - name: Wenjie Xiong
   papers:
   - papers/deng:hasp:2019
@@ -3625,6 +3638,9 @@
   papers:
   - papers/dabek:sigops:2002
   - papers/zeldovich:osdi:2006
+- name: Andreas Zeller
+  papers:
+  - papers/zeller:bugs:2005
 - name: He Zhang
   papers:
   - papers/andronick:icse:2012

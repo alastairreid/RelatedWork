@@ -123,6 +123,7 @@ notes:
   - - notes/model-checking
     - - Model checking
       - null
+  notes/bug-localization: []
   notes/cactus-plot: []
   notes/capabilities:
   - - notes/cheri-architecture
@@ -965,6 +966,7 @@ notes:
   - - notes/mir
     - - MIR
       - null
+  notes/under-approximation: []
   notes/vcc-verifier: []
   notes/vector-architecture:
   - - notes/cray-architecture
@@ -1259,6 +1261,7 @@ notes:
   papers/choi:icfp:2017: []
   papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
+  papers/chou:bugs:2005: []
   papers/chu:ieeedtc:1992: []
   papers/cifuentes:computer:2000: []
   papers/cifuentes:iwpc:1998: []
@@ -1290,6 +1293,7 @@ notes:
     - - Annotation burden
       - null
   papers/cohen:entcs:2009: []
+  papers/cok:bugs:2005: []
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
@@ -1390,6 +1394,7 @@ notes:
     - - Side Channel
       - null
   papers/godefroid:acmq:2012: []
+  papers/godefroid:bugs:2005: []
   papers/godefroid:cacm:2020:
   - - notes/fuzz-testing
     - - Fuzz testing
@@ -1980,10 +1985,12 @@ notes:
     - - CHERI architecture
       - null
   papers/xi:icfp:2001: []
+  papers/xie:bugs:2005: []
   papers/yang:pldi:2010: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
   papers/zeldovich:osdi:2006: []
+  papers/zeller:bugs:2005: []
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
   papers/zivojnovic:vlsi:1996:
@@ -2303,6 +2310,10 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  notes/bug-localization:
+  - - papers/zeller:bugs:2005
+    - - Locating defects is uncertain
+      - zeller:bugs:2005
   notes/cactus-plot:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
@@ -2647,6 +2658,9 @@ papers:
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
+  - - papers/godefroid:pldi:2005
+    - - 'DART: Directed automated random testing'
+      - godefroid:pldi:2005
   notes/data-parallelism:
   - - papers/blelloch:book:1990
     - - Vector models for data-parallel computing
@@ -4796,6 +4810,9 @@ papers:
   - - papers/godefroid:acmq:2012
     - - 'SAGE: Whitebox fuzzing for security testing'
       - godefroid:acmq:2012
+  - - papers/godefroid:bugs:2005
+    - - The soundness of bugs is what matters (position statement)
+      - godefroid:bugs:2005
   - - papers/godefroid:cacm:2020
     - - 'Fuzzing: Hack, art, and science'
       - godefroid:cacm:2020
@@ -5003,6 +5020,16 @@ papers:
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
+  notes/under-approximation:
+  - - papers/cok:bugs:2005
+    - - Issues in deploying software defect detection tools
+      - cok:bugs:2005
+  - - papers/godefroid:bugs:2005
+    - - The soundness of bugs is what matters (position statement)
+      - godefroid:bugs:2005
+  - - papers/xie:bugs:2005
+    - - Soundness and its role in bug detection systems
+      - xie:bugs:2005
   notes/vcc-verifier:
   - - papers/cohen:cav:2010
     - - Local verification of global invariants in concurrent programs
@@ -5452,6 +5479,7 @@ papers:
   papers/choi:icfp:2017: []
   papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
+  papers/chou:bugs:2005: []
   papers/chu:ieeedtc:1992: []
   papers/cifuentes:computer:2000: []
   papers/cifuentes:iwpc:1998: []
@@ -5480,6 +5508,7 @@ papers:
     - - 'Software verification with VeriFast: Industrial case studies'
       - philippaerts:scp:2014
   papers/cohen:entcs:2009: []
+  papers/cok:bugs:2005: []
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
@@ -5593,6 +5622,10 @@ papers:
   papers/gay:pldi:2003: []
   papers/ge:jce:2016: []
   papers/godefroid:acmq:2012: []
+  papers/godefroid:bugs:2005:
+  - - papers/xie:bugs:2005
+    - - Soundness and its role in bug detection systems
+      - xie:bugs:2005
   papers/godefroid:cacm:2020: []
   papers/godefroid:pldi:2005: []
   papers/godefroid:pldi:2012: []
@@ -6188,6 +6221,10 @@ papers:
         the CHERI design and implementation process'
       - nienhuis:secpriv:2020
   papers/xi:icfp:2001: []
+  papers/xie:bugs:2005:
+  - - papers/godefroid:bugs:2005
+    - - The soundness of bugs is what matters (position statement)
+      - godefroid:bugs:2005
   papers/yang:pldi:2010: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
@@ -6195,6 +6232,7 @@ papers:
   - - papers/spencer:security:1999
     - - 'The Flask security architecture: System support for diverse security policies'
       - spencer:security:1999
+  papers/zeller:bugs:2005: []
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
   papers/zivojnovic:vlsi:1996: []
