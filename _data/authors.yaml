@@ -1133,6 +1133,9 @@
   papers:
   - papers/goguen:secpriv:1982
   - papers/goguen:secpriv:1984
+- name: Peter Goodman
+  papers:
+  - papers/goodman:ndss:2018
 - name: Robert L. Gordon
   papers:
   - papers/barbacci:afips:1977
@@ -1176,6 +1179,7 @@
   - papers/reid:cases:2008
 - name: Alex Groce
   papers:
+  - papers/goodman:ndss:2018
   - papers/groce:issta:2017
 - name: John Grosen
   papers:

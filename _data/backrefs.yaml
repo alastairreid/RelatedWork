@@ -638,6 +638,7 @@ notes:
   - - notes/typed-assembly-language
     - - Typed assembly language
       - null
+  notes/property-based-testing: []
   notes/prusti-verifier:
   - - notes/ownership-types
     - - Ownership types
@@ -1413,6 +1414,7 @@ notes:
   - - notes/non-interference
     - - Non-interference
       - null
+  papers/goodman:ndss:2018: []
   papers/gordon:asplos:2002: []
   papers/gordon:book:1993:
   - - notes/hol-theorem-prover
@@ -2212,6 +2214,9 @@ papers:
     - - Compositional shape analysis by means of bi-abduction
       - calcagno:popl:2009
   notes/binary-analysis:
+  - - papers/goodman:ndss:2018
+    - - 'DeepState: Symbolic unit testing for C and C++'
+      - goodman:ndss:2018
   - - papers/maus:amast:2008
     - - 'Vx86: x86 assembler simulated in C powered by automated theorem proving'
       - maus:amast:2008
@@ -2911,6 +2916,9 @@ papers:
   - - papers/godefroid:cacm:2020
     - - 'Fuzzing: Hack, art, and science'
       - godefroid:cacm:2020
+  - - papers/goodman:ndss:2018
+    - - 'DeepState: Symbolic unit testing for C and C++'
+      - goodman:ndss:2018
   - - papers/maciver:ecoop:2020
     - - 'Test-case reduction via test-case generation: Insights from the Hypothesis
         reducer'
@@ -4153,6 +4161,10 @@ papers:
   - - papers/necula:popl:1997
     - - Proof-carrying code
       - necula:popl:1997
+  notes/property-based-testing:
+  - - papers/goodman:ndss:2018
+    - - 'DeepState: Symbolic unit testing for C and C++'
+      - goodman:ndss:2018
   notes/prusti-verifier:
   - - papers/blom:ijsttt:2015
     - - Witnessing the elimination of magic wands
@@ -4819,6 +4831,9 @@ papers:
   - - papers/godefroid:pldi:2005
     - - 'DART: Directed automated random testing'
       - godefroid:pldi:2005
+  - - papers/goodman:ndss:2018
+    - - 'DeepState: Symbolic unit testing for C and C++'
+      - goodman:ndss:2018
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
@@ -5638,6 +5653,7 @@ papers:
     - - Noninterference, transitivity, and channel-control security policies
       - rushby:sri:1992
   papers/goguen:secpriv:1984: []
+  papers/goodman:ndss:2018: []
   papers/gordon:asplos:2002: []
   papers/gordon:book:1993: []
   papers/gray:micro:2015: []
