@@ -11,13 +11,17 @@ read: true
 readings:
 - 2020-09-04
 title: "DeepState: Symbolic unit testing for C and C++"
+day: 18
+month: February
 year: 2018
+location: San Diego, California, USA
 pages: 7
 notes:
 - fuzz testing
 - symbolic execution
 - binary analysis
 - property-based testing
+- unit tests
 papers:
 ---
 

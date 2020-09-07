@@ -638,7 +638,10 @@ notes:
   - - notes/typed-assembly-language
     - - Typed assembly language
       - null
-  notes/property-based-testing: []
+  notes/property-based-testing:
+  - - notes/unit-tests
+    - - Unit tests
+      - null
   notes/prusti-verifier:
   - - notes/ownership-types
     - - Ownership types
@@ -726,6 +729,9 @@ notes:
   notes/search-based-test-generation:
   - - notes/test-generation
     - - Test generation
+      - null
+  - - notes/unit-tests
+    - - Unit tests
       - null
   notes/security:
   - - notes/differential-power-analysis
@@ -924,7 +930,10 @@ notes:
   - - notes/model-checking
     - - Model checking
       - null
-  notes/test-case-reduction: []
+  notes/test-case-reduction:
+  - - notes/unit-tests
+    - - Unit tests
+      - null
   notes/test-competition: []
   notes/test-driven-development:
   - - notes/contract-driven-development
@@ -933,6 +942,9 @@ notes:
   notes/test-generation:
   - - notes/test-generation
     - - Test generation
+      - null
+  - - notes/unit-tests
+    - - Unit tests
       - null
   notes/threads:
   - - notes/continuations
@@ -968,6 +980,10 @@ notes:
     - - MIR
       - null
   notes/under-approximation: []
+  notes/unit-tests:
+  - - notes/property-based-testing
+    - - Property-based testing
+      - null
   notes/vcc-verifier: []
   notes/vector-architecture:
   - - notes/cray-architecture
@@ -1266,6 +1282,10 @@ notes:
   papers/chu:ieeedtc:1992: []
   papers/cifuentes:computer:2000: []
   papers/cifuentes:iwpc:1998: []
+  papers/claessen:icfp:2000:
+  - - notes/property-based-testing
+    - - Property-based testing
+      - null
   papers/claessen:sfm:2006:
   - - notes/symbolic-trajectory-evaluation
     - - Symbolic trajectory evaluation
@@ -1389,6 +1409,7 @@ notes:
   papers/fraser:sigart:1977: []
   papers/frias:icse:2005: []
   papers/fuxman:isre:2001: []
+  papers/garg:icse:2013: []
   papers/gay:pldi:2003: []
   papers/ge:jce:2016:
   - - notes/side-channel
@@ -1916,6 +1937,7 @@ notes:
   papers/tang:sec:2017: []
   papers/thies:micro:2007: []
   papers/thies:ppopp:2005: []
+  papers/tillmann:fse:2005: []
   papers/tiwari:asplos:2009: []
   papers/tiwari:isca:2009:
   - - notes/non-interference
@@ -1995,6 +2017,7 @@ notes:
   papers/zeller:bugs:2005: []
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
+  papers/zhang:issta:2014: []
   papers/zivojnovic:vlsi:1996:
   - - notes/lisa
     - - LISA
@@ -2913,6 +2936,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/garg:icse:2013
+    - - Feedback-directed unit test generation for C/C++ using concolic execution
+      - garg:icse:2013
   - - papers/godefroid:cacm:2020
     - - 'Fuzzing: Hack, art, and science'
       - godefroid:cacm:2020
@@ -4165,6 +4191,9 @@ papers:
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/tillmann:fse:2005
+    - - Parameterized Unit Tests
+      - tillmann:fse:2005
   notes/prusti-verifier:
   - - papers/blom:ijsttt:2015
     - - Witnessing the elimination of magic wands
@@ -4658,6 +4687,9 @@ papers:
   - - papers/stump:fmsd:2013
     - - SMT proof checking using a logical framework
       - stump:fmsd:2013
+  - - papers/tillmann:fse:2005
+    - - Parameterized Unit Tests
+      - tillmann:fse:2005
   notes/spec-sharp-project:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
@@ -4819,6 +4851,9 @@ papers:
   - - papers/chipounov:tcs:2012
     - - 'The S2E platform: Design, implementation, and applications'
       - chipounov:tcs:2012
+  - - papers/garg:icse:2013
+    - - Feedback-directed unit test generation for C/C++ using concolic execution
+      - garg:icse:2013
   - - papers/godefroid:acmq:2012
     - - 'SAGE: Whitebox fuzzing for security testing'
       - godefroid:acmq:2012
@@ -4854,6 +4889,9 @@ papers:
   - - papers/stephens:ndss:2016
     - - 'Driller: Augmenting fuzzing through selective symbolic execution'
       - stephens:ndss:2016
+  - - papers/tillmann:fse:2005
+    - - Parameterized Unit Tests
+      - tillmann:fse:2005
   - - papers/torlak:pldi:2014
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
@@ -4919,6 +4957,9 @@ papers:
       - beyer:hvc:2017
   notes/test-driven-development: []
   notes/test-generation:
+  - - papers/babic:fse:2019
+    - - 'FUDGE: Fuzz driver generation at scale'
+      - babic:fse:2019
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
@@ -5045,6 +5086,27 @@ papers:
   - - papers/xie:bugs:2005
     - - Soundness and its role in bug detection systems
       - xie:bugs:2005
+  notes/unit-tests:
+  - - papers/braione:icse:2018
+    - - 'SUSHI: A test generator for programs with complex structured inputs'
+      - braione:icse:2018
+  - - papers/garg:icse:2013
+    - - Feedback-directed unit test generation for C/C++ using concolic execution
+      - garg:icse:2013
+  - - papers/goodman:ndss:2018
+    - - 'DeepState: Symbolic unit testing for C and C++'
+      - goodman:ndss:2018
+  - - papers/maciver:ecoop:2020
+    - - 'Test-case reduction via test-case generation: Insights from the Hypothesis
+        reducer'
+      - maciver:ecoop:2020
+  - - papers/tillmann:fse:2005
+    - - Parameterized Unit Tests
+      - tillmann:fse:2005
+  - - papers/weigl:arxiv:2019
+    - - 'Relational test tables: A practical specification language for evolution
+        and security'
+      - weigl:arxiv:2019
   notes/vcc-verifier:
   - - papers/cohen:cav:2010
     - - Local verification of global invariants in concurrent programs
@@ -5498,6 +5560,7 @@ papers:
   papers/chu:ieeedtc:1992: []
   papers/cifuentes:computer:2000: []
   papers/cifuentes:iwpc:1998: []
+  papers/claessen:icfp:2000: []
   papers/claessen:sfm:2006: []
   papers/clark:entcs:2002: []
   papers/clarke:cacm:2009:
@@ -5634,6 +5697,7 @@ papers:
   papers/fraser:sigart:1977: []
   papers/frias:icse:2005: []
   papers/fuxman:isre:2001: []
+  papers/garg:icse:2013: []
   papers/gay:pldi:2003: []
   papers/ge:jce:2016: []
   papers/godefroid:acmq:2012: []
@@ -6178,6 +6242,7 @@ papers:
   papers/tang:sec:2017: []
   papers/thies:micro:2007: []
   papers/thies:ppopp:2005: []
+  papers/tillmann:fse:2005: []
   papers/tiwari:asplos:2009: []
   papers/tiwari:isca:2009: []
   papers/tiwari:isca:2011: []
@@ -6251,5 +6316,6 @@ papers:
   papers/zeller:bugs:2005: []
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
+  papers/zhang:issta:2014: []
   papers/zivojnovic:vlsi:1996: []
   papers/zorn:iscawddd:2017: []

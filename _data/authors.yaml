@@ -48,6 +48,9 @@
 - name: Muneeb Ali
   papers:
   - papers/dunkels:enss:2006
+- name: Mohammad Amin Alipour
+  papers:
+  - papers/zhang:issta:2014
 - name: Eyad Alkassar
   papers:
   - papers/alkassar:vstte:2010
@@ -117,6 +120,9 @@
 - name: "Domagoj Babi\u0107"
   papers:
   - papers/babic:fse:2019
+- name: Gogul Balakrishnan
+  papers:
+  - papers/garg:icse:2013
 - name: Abhiram Balasubramanian
   papers:
   - papers/balasubramanium:hotos:2017
@@ -565,6 +571,7 @@
   - papers/biere:tacas:1999
 - name: Koen Claessen
   papers:
+  - papers/claessen:icfp:2000
   - papers/claessen:sfm:2006
 - name: David Clark
   papers:
@@ -1068,6 +1075,9 @@
   papers:
   - papers/bodin:popl:2014
   - papers/dinsdale-young:popl:2013
+- name: Pranav Garg
+  papers:
+  - papers/garg:icse:2013
 - name: David Gay
   papers:
   - papers/gay:pldi:2003
@@ -1181,6 +1191,7 @@
   papers:
   - papers/goodman:ndss:2018
   - papers/groce:issta:2017
+  - papers/zhang:issta:2014
 - name: John Grosen
   papers:
   - papers/shoshitaishvili:sp:2016
@@ -1216,6 +1227,7 @@
   - papers/dam:trusted:2013
 - name: Aarti Gupta
   papers:
+  - papers/garg:icse:2013
   - papers/huang:todaes:2019
   - papers/zhang:fmcad:2018
 - name: Arpan Gupta
@@ -1444,6 +1456,7 @@
   - papers/coquand:eurocal:1985
 - name: John Hughes
   papers:
+  - papers/claessen:icfp:2000
   - papers/hritcu:icfp:2013
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
@@ -1477,6 +1490,7 @@
 - name: "Franjo Ivan\u010Di\u0107"
   papers:
   - papers/babic:fse:2019
+  - papers/garg:icse:2013
 - name: Kenneth E. Iverson
   papers:
   - papers/falkoff:ibm:1964
@@ -2039,6 +2053,9 @@
 - name: Parthasarathy Madhusudan
   papers:
   - papers/mai:asplos:2013
+- name: Naoto Maeda
+  papers:
+  - papers/garg:icse:2013
 - name: Sergio Maffeis
   papers:
   - papers/bodin:popl:2014
@@ -2913,6 +2930,7 @@
   - papers/cohen:cav:2010
   - papers/cohen:entcs:2009
   - papers/maus:amast:2008
+  - papers/tillmann:fse:2005
 - name: Edward J. Schwartz
   papers:
   - papers/manes:ieeetse:2019
@@ -3275,6 +3293,9 @@
 - name: Xinmin Tian
   papers:
   - papers/wang:pldi:2007
+- name: Nikolai Tillmann
+  papers:
+  - papers/tillmann:fse:2005
 - name: Cesare Tinelli
   papers:
   - papers/barrett:cav:2011
@@ -3676,6 +3697,9 @@
 - name: Jun Zhang
   papers:
   - papers/wang:tase:2018
+- name: Chaoqiang Zhang
+  papers:
+  - papers/zhang:issta:2014
 - name: Mark Zhao
   papers:
   - papers/ferraiuolo:ccs:2018
