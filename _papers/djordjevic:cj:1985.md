@@ -16,7 +16,7 @@ pages: 357-365
 read: false
 readings: []
 timestamp: Sat, 20 May 2017 01:00:00 +0200
-title: A PMS Level Notation for the Description and Simulation of Digital Systems
+title: A PMS level notation for the description and simulation of digital systems
 url: https://doi.org/10.1093/comjnl/28.4.357
 volume: '28'
 year: 1985

@@ -17,7 +17,7 @@ publisher: IEEE Computer Society
 read: false
 readings: []
 timestamp: Mon, 30 Oct 2017 11:35:10 +0100
-title: Programming at the Processor-Memory-Switch Level
+title: Programming at the Processor-Memory-Switch level
 url: http://dl.acm.org/citation.cfm?id=55826
 year: 1988
 notes:

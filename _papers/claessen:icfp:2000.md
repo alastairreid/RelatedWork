@@ -16,7 +16,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: ICFP '00
-title: 'QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs'
+title: 'QuickCheck: A lightweight tool for random testing of Haskell programs'
 url: https://doi.org/10.1145/351240.351266
 year: 2000
 notes:

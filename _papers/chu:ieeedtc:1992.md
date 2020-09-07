@@ -22,7 +22,7 @@ pages: 69-81
 read: false
 readings: []
 timestamp: Sun, 17 May 2020 01:00:00 +0200
-title: 'Three Decades of HDLs: Part I, CDL Through TI-HDL'
+title: 'Three decades of HDLs: Part I, CDL through TI-HDL'
 url: https://doi.org/10.1109/54.143147
 volume: '9'
 year: 1992

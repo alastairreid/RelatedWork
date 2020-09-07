@@ -9,7 +9,7 @@ layout: paper
 publisher: McGraw-Hill Pub. Co.
 read: false
 readings: []
-title: 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science Series)'
+title: 'Computer structures: Readings and examples'
 year: 1971
 notes:
 - microarchitecture

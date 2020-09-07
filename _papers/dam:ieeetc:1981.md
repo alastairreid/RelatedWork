@@ -18,7 +18,7 @@ pages: 513-519
 read: false
 readings: []
 timestamp: Sat, 20 May 2017 01:00:00 +0200
-title: Simulation of a Horizontal Bit-Sliced Processor Using the ISPS Architecture Simulation Facility
+title: Simulation of a horizontal bit-sliced processor using the ISPS architecture simulation facility
 url: https://doi.org/10.1109/TC.1981.1675830
 volume: '30'
 year: 1981

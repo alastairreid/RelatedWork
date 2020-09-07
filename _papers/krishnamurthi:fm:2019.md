@@ -17,7 +17,7 @@ publisher: Springer International Publishing
 read: true
 readings:
 - 2020-08-14
-title: The Human in Formal Methods
+title: The human in formal methods
 year: 2019
 notes:
 - SAT solver

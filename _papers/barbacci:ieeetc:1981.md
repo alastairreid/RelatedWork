@@ -14,7 +14,7 @@ pages: 24-40
 read: false
 readings: []
 timestamp: Sat, 20 May 2017 01:00:00 +0200
-title: 'Instruction Set Processor Specifications (ISPS): The Notation and Its Applications'
+title: 'Instruction set processor specifications (ISPS): The notation and its applications'
 url: https://doi.org/10.1109/TC.1981.6312154
 volume: '30'
 year: 1981

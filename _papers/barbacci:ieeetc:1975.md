@@ -14,7 +14,7 @@ pages: 137-150
 read: false
 readings: []
 timestamp: Sat, 20 May 2017 01:00:00 +0200
-title: A Comparison of Register Transfer Languages for Describing Computers and Digital Systems
+title: A comparison of register transfer languages for describing computers and digital systems
 url: https://doi.org/10.1109/T-C.1975.224181
 volume: '24'
 year: 1975

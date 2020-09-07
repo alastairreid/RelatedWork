@@ -16,7 +16,7 @@ publisher: ACM
 read: false
 readings: []
 timestamp: Tue, 06 Nov 2018 00:00:00 +0100
-title: Automated Exploration of the Design Space for Register Transfer (RT) Systems
+title: Automated exploration of the design space for register transfer (RT) systems
 url: https://doi.org/10.1145/800123.803975
 year: 1973
 notes:

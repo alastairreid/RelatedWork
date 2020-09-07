@@ -15,7 +15,7 @@ pages: 36-43
 read: false
 readings: []
 timestamp: Mon, 05 Jun 2017 01:00:00 +0200
-title: Evaluation of the CFA Test Programs Via Formal Computer Descriptions
+title: Evaluation of the CFA test programs via formal computer descriptions
 url: https://doi.org/10.1109/C-M.1977.217524
 volume: '10'
 year: 1977

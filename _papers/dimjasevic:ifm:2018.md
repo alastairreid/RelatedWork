@@ -25,7 +25,7 @@ publisher: Springer International Publishing
 read: true
 readings:
 - 2020-09-07
-title: Study of Integrating Random and Symbolic Testing for Object-Oriented Software
+title: Study of integrating random and symbolic testing for object-oriented software
 year: 2018
 notes:
 - fuzz testing

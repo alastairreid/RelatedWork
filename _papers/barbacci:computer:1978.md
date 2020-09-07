@@ -15,7 +15,7 @@ pages: 51-56
 read: false
 readings: []
 timestamp: Wed, 17 May 2017 01:00:00 +0200
-title: Using Emulation to Verify Formal Architecture Descriptions
+title: Using emulation to verify formal architecture descriptions
 url: https://doi.org/10.1109/C-M.1978.218183
 volume: '11'
 year: 1978

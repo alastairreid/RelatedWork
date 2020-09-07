@@ -16,7 +16,7 @@ pages: 19-21
 read: false
 readings: []
 timestamp: Wed, 17 May 2017 01:00:00 +0200
-title: 'PMS: A Notaton to Describe Computer Sructures'
+title: 'PMS: A notation to describe computer structures'
 url: https://doi.org/10.1109/C-M.1973.217034
 volume: '6'
 year: 1973
