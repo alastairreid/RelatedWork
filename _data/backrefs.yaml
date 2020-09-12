@@ -1349,6 +1349,7 @@ notes:
   papers/deng:hasp:2019: []
   papers/denning:cacm:1976: []
   papers/dias:popl:2010: []
+  papers/dimjasevic:ifm:2018: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:tacas:2006: []
   papers/djordjevic:cj:1985: []
@@ -1859,6 +1860,9 @@ notes:
     - - Cray architecture
       - null
   papers/sabelfield:jcs:2009: []
+  papers/sadowski:cacm:2018: []
+  papers/sadowski:icse-seip:2018: []
+  papers/sadowski:icse:2015: []
   papers/samet:ieeetse:1977: []
   papers/samet:phd:1975:
   - - notes/translation-validation
@@ -2008,6 +2012,7 @@ notes:
   - - notes/cheri-architecture
     - - CHERI architecture
       - null
+  papers/wright:icsm:2013: []
   papers/xi:icfp:2001: []
   papers/xie:bugs:2005: []
   papers/yang:pldi:2010: []
@@ -2093,7 +2098,7 @@ papers:
     - - 'Alloy: A lightweight object modelling notation'
       - jackson:tosem:2002
   - - papers/krishnamurthi:fm:2019
-    - - The Human in Formal Methods
+    - - The human in formal methods
       - krishnamurthi:fm:2019
   notes/annotation-burden: []
   notes/aorte: []
@@ -2936,6 +2941,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/dimjasevic:ifm:2018
+    - - Study of integrating random and symbolic testing for object-oriented software
+      - dimjasevic:ifm:2018
   - - papers/garg:icse:2013
     - - Feedback-directed unit test generation for C/C++ using concolic execution
       - garg:icse:2013
@@ -3032,7 +3040,7 @@ papers:
       - gordon:book:1993
   notes/human-factors:
   - - papers/krishnamurthi:fm:2019
-    - - The Human in Formal Methods
+    - - The human in formal methods
       - krishnamurthi:fm:2019
   notes/hyperproperty:
   - - papers/clarkson:jcs:2010
@@ -3205,8 +3213,7 @@ papers:
     - - The PMS and ISP descriptive systems for computer structures
       - bell:afips:1970
   - - papers/bell:book:1971
-    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
-        Series)'
+    - - 'Computer structures: Readings and examples'
       - bell:book:1971
   - - papers/boettcher:date:2014
     - - 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
@@ -3401,8 +3408,7 @@ papers:
     - - The PMS and ISP descriptive systems for computer structures
       - bell:afips:1970
   - - papers/bell:book:1971
-    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
-        Series)'
+    - - 'Computer structures: Readings and examples'
       - bell:book:1971
   - - papers/beyer:ijsttt:2006
     - - Putting it all together - Formal verification of the VAMP
@@ -3602,49 +3608,48 @@ papers:
         systems'
       - barbacci:cmu:1972
   - - papers/barbacci:computer:1973
-    - - 'PMS: A Notaton to Describe Computer Sructures'
+    - - 'PMS: A notation to describe computer structures'
       - barbacci:computer:1973
   - - papers/barbacci:computer:1977
-    - - Evaluation of the CFA Test Programs Via Formal Computer Descriptions
+    - - Evaluation of the CFA test programs via formal computer descriptions
       - barbacci:computer:1977
   - - papers/barbacci:computer:1978
-    - - Using Emulation to Verify Formal Architecture Descriptions
+    - - Using emulation to verify formal architecture descriptions
       - barbacci:computer:1978
   - - papers/barbacci:dac:1979
     - - Instruction set processor specifications for simulation, evaluation, and synthesis
       - barbacci:dac:1979
   - - papers/barbacci:icse:1988
-    - - Programming at the Processor-Memory-Switch Level
+    - - Programming at the Processor-Memory-Switch level
       - barbacci:icse:1988
   - - papers/barbacci:ieee:1981
     - - 'Instruction set processor specifications (ISPS): The notation and its applications'
       - barbacci:ieee:1981
   - - papers/barbacci:ieeetc:1975
-    - - A Comparison of Register Transfer Languages for Describing Computers and Digital
-        Systems
+    - - A comparison of register transfer languages for describing computers and digital
+        systems
       - barbacci:ieeetc:1975
   - - papers/barbacci:ieeetc:1981
-    - - 'Instruction Set Processor Specifications (ISPS): The Notation and Its Applications'
+    - - 'Instruction set processor specifications (ISPS): The notation and its applications'
       - barbacci:ieeetc:1981
   - - papers/barbacci:isca:1973
-    - - Automated Exploration of the Design Space for Register Transfer (RT) Systems
+    - - Automated exploration of the design space for register transfer (RT) systems
       - barbacci:isca:1973
   - - papers/bell:afips:1970
     - - The PMS and ISP descriptive systems for computer structures
       - bell:afips:1970
   - - papers/bell:book:1971
-    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
-        Series)'
+    - - 'Computer structures: Readings and examples'
       - bell:book:1971
   - - papers/chu:ieeedtc:1992
-    - - 'Three Decades of HDLs: Part I, CDL Through TI-HDL'
+    - - 'Three decades of HDLs: Part I, CDL through TI-HDL'
       - chu:ieeedtc:1992
   - - papers/dam:ieeetc:1981
-    - - Simulation of a Horizontal Bit-Sliced Processor Using the ISPS Architecture
-        Simulation Facility
+    - - Simulation of a horizontal bit-sliced processor using the ISPS architecture
+        simulation facility
       - dam:ieeetc:1981
   - - papers/djordjevic:cj:1985
-    - - A PMS Level Notation for the Description and Simulation of Digital Systems
+    - - A PMS level notation for the description and simulation of digital systems
       - djordjevic:cj:1985
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
@@ -3780,8 +3785,7 @@ papers:
     - - Hardware is the new software
       - baumann:hotos:2017
   - - papers/bell:book:1971
-    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
-        Series)'
+    - - 'Computer structures: Readings and examples'
       - bell:book:1971
   - - papers/bird:sc:1993
     - - The effectiveness of decoupling
@@ -3904,7 +3908,7 @@ papers:
     - - Software model checking
       - jhala:compsurv:2009
   - - papers/krishnamurthi:fm:2019
-    - - The Human in Formal Methods
+    - - The human in formal methods
       - krishnamurthi:fm:2019
   - - papers/lal:pldi:2015
     - - 'DAG inlining: A decision procedure for reachability-modulo-theories in hierarchical
@@ -4192,7 +4196,7 @@ papers:
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
   - - papers/tillmann:fse:2005
-    - - Parameterized Unit Tests
+    - - Parameterized unit tests
       - tillmann:fse:2005
   notes/prusti-verifier:
   - - papers/blom:ijsttt:2015
@@ -4402,7 +4406,7 @@ papers:
     - - 'Satisfiability modulo theories: Introduction and applications'
       - demoura:cacm:2011
   - - papers/krishnamurthi:fm:2019
-    - - The Human in Formal Methods
+    - - The human in formal methods
       - krishnamurthi:fm:2019
   - - papers/malik:cacm:2009
     - - Boolean satisfiability from theoretical hardness to practical success
@@ -4657,7 +4661,7 @@ papers:
     - - 'VeriFast: Imperative programs as proofs'
       - jacobs:vstte:2010
   - - papers/krishnamurthi:fm:2019
-    - - The Human in Formal Methods
+    - - The human in formal methods
       - krishnamurthi:fm:2019
   - - papers/lal:pldi:2015
     - - 'DAG inlining: A decision procedure for reachability-modulo-theories in hierarchical
@@ -4688,7 +4692,7 @@ papers:
     - - SMT proof checking using a logical framework
       - stump:fmsd:2013
   - - papers/tillmann:fse:2005
-    - - Parameterized Unit Tests
+    - - Parameterized unit tests
       - tillmann:fse:2005
   notes/spec-sharp-project:
   - - papers/barnett:cacm:2011
@@ -4851,6 +4855,9 @@ papers:
   - - papers/chipounov:tcs:2012
     - - 'The S2E platform: Design, implementation, and applications'
       - chipounov:tcs:2012
+  - - papers/dimjasevic:ifm:2018
+    - - Study of integrating random and symbolic testing for object-oriented software
+      - dimjasevic:ifm:2018
   - - papers/garg:icse:2013
     - - Feedback-directed unit test generation for C/C++ using concolic execution
       - garg:icse:2013
@@ -4890,7 +4897,7 @@ papers:
     - - 'Driller: Augmenting fuzzing through selective symbolic execution'
       - stephens:ndss:2016
   - - papers/tillmann:fse:2005
-    - - Parameterized Unit Tests
+    - - Parameterized unit tests
       - tillmann:fse:2005
   - - papers/torlak:pldi:2014
     - - A lightweight symbolic virtual machine for solver-aided host languages
@@ -5090,6 +5097,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/dimjasevic:ifm:2018
+    - - Study of integrating random and symbolic testing for object-oriented software
+      - dimjasevic:ifm:2018
   - - papers/garg:icse:2013
     - - Feedback-directed unit test generation for C/C++ using concolic execution
       - garg:icse:2013
@@ -5101,7 +5111,7 @@ papers:
         reducer'
       - maciver:ecoop:2020
   - - papers/tillmann:fse:2005
-    - - Parameterized Unit Tests
+    - - Parameterized unit tests
       - tillmann:fse:2005
   - - papers/weigl:arxiv:2019
     - - 'Relational test tables: A practical specification language for evolution
@@ -5379,8 +5389,7 @@ papers:
     - - The PMS and ISP descriptive systems for computer structures
       - bell:afips:1970
   - - papers/bell:book:1971
-    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
-        Series)'
+    - - 'Computer structures: Readings and examples'
       - bell:book:1971
   papers/barbacci:computer:1973: []
   papers/barbacci:computer:1977: []
@@ -5392,8 +5401,7 @@ papers:
     - - The PMS and ISP descriptive systems for computer structures
       - bell:afips:1970
   - - papers/bell:book:1971
-    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
-        Series)'
+    - - 'Computer structures: Readings and examples'
       - bell:book:1971
   papers/barbacci:ieeetc:1975: []
   papers/barbacci:ieeetc:1981: []
@@ -5452,8 +5460,7 @@ papers:
     - - 'Instruction set processor specifications (ISPS): The notation and its applications'
       - barbacci:ieee:1981
   - - papers/bell:book:1971
-    - - 'Computer Structures: Readings and Examples (McGraw-Hill Computer Science
-        Series)'
+    - - 'Computer structures: Readings and examples'
       - bell:book:1971
   papers/bell:book:1971: []
   papers/bell:cacm:2008:
@@ -5645,6 +5652,7 @@ papers:
   papers/deng:hasp:2019: []
   papers/denning:cacm:1976: []
   papers/dias:popl:2010: []
+  papers/dimjasevic:ifm:2018: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:tacas:2006: []
   papers/djordjevic:cj:1985: []
@@ -5697,7 +5705,10 @@ papers:
   papers/fraser:sigart:1977: []
   papers/frias:icse:2005: []
   papers/fuxman:isre:2001: []
-  papers/garg:icse:2013: []
+  papers/garg:icse:2013:
+  - - papers/dimjasevic:ifm:2018
+    - - Study of integrating random and symbolic testing for object-oriented software
+      - dimjasevic:ifm:2018
   papers/gay:pldi:2003: []
   papers/ge:jce:2016: []
   papers/godefroid:acmq:2012: []
@@ -6148,6 +6159,9 @@ papers:
   papers/rushby:sri:1992: []
   papers/russell:cacm:1978: []
   papers/sabelfield:jcs:2009: []
+  papers/sadowski:cacm:2018: []
+  papers/sadowski:icse-seip:2018: []
+  papers/sadowski:icse:2015: []
   papers/samet:ieeetse:1977: []
   papers/samet:phd:1975: []
   papers/sarkar:pldi:2011: []
@@ -6301,6 +6315,7 @@ papers:
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
         the CHERI design and implementation process'
       - nienhuis:secpriv:2020
+  papers/wright:icsm:2013: []
   papers/xi:icfp:2001: []
   papers/xie:bugs:2005:
   - - papers/godefroid:bugs:2005

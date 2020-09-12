@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2020-09-10
 authors:
 - Caitlin Sadowski
-- Jeffrey Van Gogh
+- Jeffrey van Gogh
 - Ciera Jaspan
 - Emma Söderberg
 - Collin Winter

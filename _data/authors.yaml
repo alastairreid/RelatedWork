@@ -12,6 +12,9 @@
 - name: Vikram Adve
   papers:
   - papers/dasgupta:pldi:2019
+- name: Edward Aftandilian
+  papers:
+  - papers/sadowski:cacm:2018
 - name: Gagan Agrawal
   papers:
   - papers/du:sc:2003
@@ -120,6 +123,9 @@
 - name: "Domagoj Babi\u0107"
   papers:
   - papers/babic:fse:2019
+- name: Alberto Bacchelli
+  papers:
+  - papers/sadowski:icse-seip:2018
 - name: Gogul Balakrishnan
   papers:
   - papers/garg:icse:2013
@@ -457,6 +463,9 @@
   - papers/chipounov:hotdep:2009
   - papers/chipounov:tcs:2012
   - papers/wagner:hotos:2013
+- name: Chandler Carruth
+  papers:
+  - papers/wright:icsm:2013
 - name: Chris Casinghino
   papers:
   - papers/pierce:book:2016
@@ -559,6 +568,9 @@
 - name: Peter Chubb
   papers:
   - papers/amani:asplos:2016
+- name: Luke Church
+  papers:
+  - papers/sadowski:icse-seip:2018
 - name: Berkeley Churchill
   papers:
   - papers/sharma:oopsla:2012
@@ -602,8 +614,6 @@
 - name: David R. Cok
   papers:
   - papers/cok:bugs:2005
-- name: David Cok
-  papers:
   - papers/noonan:pldi:2016
 - name: Jamison D. Collins
   papers:
@@ -786,6 +796,9 @@
   papers:
   - papers/barrett:cade:2000
   - papers/burch:cav:1994
+- name: "Marko Dimja\u0161evi\u0107"
+  papers:
+  - papers/dimjasevic:ifm:2018
 - name: Thomas Dinsdale-Young
   papers:
   - papers/dinsdale-young:popl:2013
@@ -848,6 +861,9 @@
 - name: Matthew B. Dwyer
   papers:
   - papers/siegel:sc:2015
+- name: Alex Eagle
+  papers:
+  - papers/sadowski:cacm:2018
 - name: Jacob Eapen
   papers:
   - papers/stephens:micro:2017
@@ -931,11 +947,9 @@
 - name: Siji Feng
   papers:
   - papers/shoshitaishvili:sp:2016
-- name: "Mary Fern\xE1ndez"
-  papers:
-  - papers/fernandez:icse:1997
 - name: "Mary F. Fern\xE1ndez"
   papers:
+  - papers/fernandez:icse:1997
   - papers/ramsey:toplas:1997
 - name: Andrew Ferraiuolo
   papers:
@@ -1139,6 +1153,9 @@
   - papers/goel:fmcad:2014
   - papers/goel:pcs:2017
   - papers/goel:phd:2016
+- name: Jeffrey van Gogh
+  papers:
+  - papers/sadowski:icse:2015
 - name: Joseph A. Goguen
   papers:
   - papers/goguen:secpriv:1982
@@ -1419,6 +1436,9 @@
 - name: Brad Hosler
   papers:
   - papers/djordjevic:cj:1985
+- name: Falk Howar
+  papers:
+  - papers/dimjasevic:ifm:2018
 - name: Rosemary Howbrigg
   papers:
   - papers/barbacci:afips:1977
@@ -1517,6 +1537,13 @@
 - name: Joshua Jaffe
   papers:
   - papers/kocher:crypto:1999
+- name: Ciera Jaspan
+  papers:
+  - papers/sadowski:cacm:2018
+  - papers/sadowski:icse:2015
+- name: Daniel Jasper
+  papers:
+  - papers/wright:icsm:2013
 - name: Ross Jeffery
   papers:
   - papers/andronick:icse:2012
@@ -1528,10 +1555,8 @@
   - papers/beyer:ijsttt:2007
   - papers/beyer:sas:2004
   - papers/henzinger:spin:2003
-  - papers/jhala:compsurv:2009
-- name: Ranjit Jhalal
-  papers:
   - papers/jhala:cav:2001
+  - papers/jhala:compsurv:2009
 - name: Limin Jia
   papers:
   - papers/vasudevan:secpriv:2013
@@ -1607,10 +1632,8 @@
   - papers/hunt:jar:1989
   - papers/hunt:lncs:1994
   - papers/hunt:micro:1999
-  - papers/slobodova:memocode:2011
-- name: Warren A. Hunt, Jr.
-  papers:
   - papers/kaufmann:utaustin:2012
+  - papers/slobodova:memocode:2011
 - name: Benjamin Jun
   papers:
   - papers/kocher:crypto:1999
@@ -1720,6 +1743,9 @@
   - papers/klein:sosp:2009
   - papers/murray:secpriv:2013
   - papers/sewell:pldi:2013
+- name: Manuel Klimek
+  papers:
+  - papers/wright:icsm:2013
 - name: Naoki Kobayashi
   papers:
   - papers/matsushita:esop:2020
@@ -2023,6 +2049,9 @@
 - name: Corine Lu
   papers:
   - papers/deng:hasp:2019
+- name: Kasper Luckow
+  papers:
+  - papers/dimjasevic:ifm:2018
 - name: Guei-Yuan Lueh
   papers:
   - papers/wang:pldi:2007
@@ -2214,6 +2243,9 @@
 - name: Barton P. Miller
   papers:
   - papers/miller:cacm:1990
+- name: Liam Miller-Cushon
+  papers:
+  - papers/sadowski:cacm:2018
 - name: Todd Millstein
   papers:
   - papers/ball:pldi:2001
@@ -2708,6 +2740,7 @@
   - papers/balasubramanium:hotos:2017
   - papers/baranowski:atva:2018
   - papers/chatterjee:tacas:2007
+  - papers/dimjasevic:ifm:2018
   - papers/narayanan:hotos:2019
   - papers/rakamaric:cav:2014
 - name: Norman Ramsey
@@ -2867,6 +2900,11 @@
 - name: Jorge Luis Sacchini
   papers:
   - papers/becker:fm:2016
+- name: Caitlin Sadowski
+  papers:
+  - papers/sadowski:cacm:2018
+  - papers/sadowski:icse-seip:2018
+  - papers/sadowski:icse:2015
 - name: Mooly Sagiv
   papers:
   - papers/naik:popl:2012
@@ -3078,6 +3116,9 @@
 - name: Carsten Sinz
   papers:
   - papers/merz:vstte:2012
+- name: Michal Sipko
+  papers:
+  - papers/sadowski:icse-seip:2018
 - name: "Vilhelm Sj\xF6berg"
   papers:
   - papers/gu:osdi:2016
@@ -3226,6 +3267,10 @@
 - name: "L\xE1szl\xF3 Szekeres"
   papers:
   - papers/babic:fse:2019
+- name: "Emma S\xF6derberg"
+  papers:
+  - papers/sadowski:icse-seip:2018
+  - papers/sadowski:icse:2015
 - name: Amer Tahat
   papers:
   - papers/tahat:fmcad:2019
@@ -3461,6 +3506,9 @@
 - name: Deborah A. Wallach
   papers:
   - papers/johnson:osr:1995
+- name: Zhanyong Wan
+  papers:
+  - papers/wright:icsm:2013
 - name: Mitchell Wand
   papers:
   - papers/wand:lfp:1980
@@ -3565,6 +3613,9 @@
 - name: Jeannette M. Wing
   papers:
   - papers/barbacci:icse:1988
+- name: Collin Winter
+  papers:
+  - papers/sadowski:icse:2015
 - name: Simon Winwood
   papers:
   - papers/klein:sosp:2009
@@ -3584,6 +3635,9 @@
 - name: Jonathan Woodruff
   papers:
   - papers/woodruff:isca:2014
+- name: Hyrum K. Wright
+  papers:
+  - papers/wright:icsm:2013
 - name: Xiongnan Newman Wu
   papers:
   - papers/gu:osdi:2016

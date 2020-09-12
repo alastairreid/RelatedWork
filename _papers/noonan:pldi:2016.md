@@ -5,7 +5,7 @@ address: New York, NY, USA
 authors:
 - Matt Noonan
 - Alexey Loginov
-- David Cok
+- David R. Cok
 booktitle: Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation
 doi: 10.1145/2908080.2908119
 isbn: '9781450342612'

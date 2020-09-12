@@ -3,7 +3,7 @@ ENTRYTYPE: inproceedings
 added: 2020-08-11
 address: New York, NY, USA
 authors:
-- Mary Fernández
+- Mary F. Fernández
 - Norman Ramsey
 booktitle: Proceedings of the 19th International Conference on Software Engineering
 doi: 10.1145/253228.253300

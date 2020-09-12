@@ -2,7 +2,7 @@
 ENTRYTYPE: incollection
 added: 2019-07-02
 authors:
-- Ranjit Jhalal
+- Ranjit Jhala
 - Kenneth L. McMillan
 booktitle: Computer Aided Verification
 doi: 10.1007/3-540-44585-4_40
