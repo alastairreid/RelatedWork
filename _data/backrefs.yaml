@@ -1245,6 +1245,7 @@ notes:
       - null
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
+  papers/bush:spe:2000: []
   papers/cadar:cacm:2013:
   - - notes/klee-verifier
     - - KLEE verifier
@@ -4877,6 +4878,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/bush:spe:2000
+    - - A static analyzer for finding dynamic programming errors
+      - bush:spe:2000
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
@@ -5585,6 +5589,7 @@ papers:
       - stump:fmsd:2013
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
+  papers/bush:spe:2000: []
   papers/cadar:cacm:2013:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'

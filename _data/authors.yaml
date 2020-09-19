@@ -432,6 +432,9 @@
   papers:
   - papers/balasubramanium:hotos:2017
   - papers/narayanan:hotos:2019
+- name: William R. Bush
+  papers:
+  - papers/bush:spe:2000
 - name: "Marcel B\xF6hme"
   papers:
   - papers/bohme2:fse:2020
@@ -2687,6 +2690,9 @@
   - papers/smans:ecoop:2009
   - papers/smans:fmood:2010
   - papers/vogels:fmoods:2011
+- name: Jonathan D. Pincus
+  papers:
+  - papers/bush:spe:2000
 - name: "Fl\xE1via Pisani"
   papers:
   - papers/silva:sbac:2016
@@ -3122,6 +3128,9 @@
 - name: Stephen F. Siegel
   papers:
   - papers/siegel:sc:2015
+- name: David J. Sielaff
+  papers:
+  - papers/bush:spe:2000
 - name: Daniel P. Siewiorek
   papers:
   - papers/barbacci2:computer:1973
