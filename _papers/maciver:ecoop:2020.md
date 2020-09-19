@@ -17,6 +17,7 @@ notes:
 - fuzz testing
 - test-case reduction
 - unit tests
+- property-based testing
 papers:
 - regehr:pldi:2012
 ---

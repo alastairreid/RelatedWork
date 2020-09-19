@@ -226,6 +226,7 @@ notes:
   - - notes/vector-architecture
     - - Vector architecture
       - null
+  notes/decidability-ceiling: []
   notes/decoupling:
   - - notes/parallelism
     - - Parallelism
@@ -285,6 +286,9 @@ notes:
       - null
   notes/functional-reactive-programming: []
   notes/fuzz-testing:
+  - - notes/property-based-testing
+    - - Property-based testing
+      - null
   - - notes/sage-verifier
     - - SAGE verifier
       - null
@@ -1595,6 +1599,7 @@ notes:
   - - notes/dafny-verifier
     - - Dafny verifier
       - null
+  papers/leino:informatics:2001: []
   papers/leino:lpair:2010: []
   papers/leino:sac:2009: []
   papers/leino:tacas:2010: []
@@ -2100,7 +2105,10 @@ papers:
   - - papers/krishnamurthi:fm:2019
     - - The human in formal methods
       - krishnamurthi:fm:2019
-  notes/annotation-burden: []
+  notes/annotation-burden:
+  - - papers/leino:informatics:2001
+    - - 'Extended Static Checking: A Ten-Year Perspective'
+      - leino:informatics:2001
   notes/aorte: []
   notes/arm-architecture:
   - - papers/armstrong:arw:2018
@@ -2216,6 +2224,9 @@ papers:
   - - papers/leino:icse:2013
     - - Developing verified programs with Dafny
       - leino:icse:2013
+  - - papers/leino:informatics:2001
+    - - 'Extended Static Checking: A Ten-Year Perspective'
+      - leino:informatics:2001
   - - papers/leino:lpair:2010
     - - 'Dafny: An automatic program verifier for functional correctness'
       - leino:lpair:2010
@@ -2710,6 +2721,10 @@ papers:
   - - papers/subhlok:ppopp:1993
     - - Exploiting task and data parallelism on a multicomputer
       - subhlok:ppopp:1993
+  notes/decidability-ceiling:
+  - - papers/leino:informatics:2001
+    - - 'Extended Static Checking: A Ten-Year Perspective'
+      - leino:informatics:2001
   notes/decoupling:
   - - papers/bird:sc:1993
     - - The effectiveness of decoupling
@@ -2815,6 +2830,9 @@ papers:
   - - papers/beyer:ijsttt:2007
     - - 'The software model checker BLAST: Applications to software engineering'
       - beyer:ijsttt:2007
+  - - papers/leino:informatics:2001
+    - - 'Extended Static Checking: A Ten-Year Perspective'
+      - leino:informatics:2001
   - - papers/lindner:indin:2018
     - - No panic! Verification of Rust programs by symbolic execution
       - lindner:indin:2018
@@ -2941,6 +2959,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/claessen:icfp:2000
+    - - 'QuickCheck: A lightweight tool for random testing of Haskell programs'
+      - claessen:icfp:2000
   - - papers/dimjasevic:ifm:2018
     - - Study of integrating random and symbolic testing for object-oriented software
       - dimjasevic:ifm:2018
@@ -4192,9 +4213,16 @@ papers:
     - - Proof-carrying code
       - necula:popl:1997
   notes/property-based-testing:
+  - - papers/claessen:icfp:2000
+    - - 'QuickCheck: A lightweight tool for random testing of Haskell programs'
+      - claessen:icfp:2000
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/maciver:ecoop:2020
+    - - 'Test-case reduction via test-case generation: Insights from the Hypothesis
+        reducer'
+      - maciver:ecoop:2020
   - - papers/tillmann:fse:2005
     - - Parameterized unit tests
       - tillmann:fse:2005
@@ -4631,7 +4659,10 @@ papers:
   - - papers/calcagno:popl:2009
     - - Compositional shape analysis by means of bi-abduction
       - calcagno:popl:2009
-  notes/smt-lib-format: []
+  notes/smt-lib-format:
+  - - papers/leino:informatics:2001
+    - - 'Extended Static Checking: A Ten-Year Perspective'
+      - leino:informatics:2001
   notes/smt-solver:
   - - papers/barrett:cade:2000
     - - A framework for cooperating decision procedures
@@ -5097,6 +5128,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/claessen:icfp:2000
+    - - 'QuickCheck: A lightweight tool for random testing of Haskell programs'
+      - claessen:icfp:2000
   - - papers/dimjasevic:ifm:2018
     - - Study of integrating random and symbolic testing for object-oriented software
       - dimjasevic:ifm:2018
@@ -5450,7 +5484,10 @@ papers:
   papers/barthe:mscs:2011: []
   papers/bastian:oopsla:2019: []
   papers/baumann:hotos:2017: []
-  papers/becker:fm:2016: []
+  papers/becker:fm:2016:
+  - - papers/claessen:icfp:2000
+    - - 'QuickCheck: A lightweight tool for random testing of Haskell programs'
+      - claessen:icfp:2000
   papers/bell:afips:1970:
   - - papers/barbacci:cmu:1972
     - - 'ISP: A language to describe instruction sets and other register transfer
@@ -5589,6 +5626,9 @@ papers:
   - - papers/legoues:sefm:2011
     - - The Boogie verification debugger
       - legoues:sefm:2011
+  - - papers/leino:informatics:2001
+    - - 'Extended Static Checking: A Ten-Year Perspective'
+      - leino:informatics:2001
   - - papers/philippaerts:scp:2014
     - - 'Software verification with VeriFast: Industrial case studies'
       - philippaerts:scp:2014
@@ -5894,6 +5934,7 @@ papers:
     - - 'Viper: A verification infrastructure for permission-based reasoning'
       - muller:vmcai:2016
   papers/leino:icse:2013: []
+  papers/leino:informatics:2001: []
   papers/leino:lpair:2010:
   - - papers/ferraiuolo:sosp:2017
     - - 'Komodo: Using verification to disentangle secure-enclave hardware from software'
