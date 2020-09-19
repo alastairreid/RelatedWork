@@ -11,7 +11,7 @@ read: true
 readings:
 - 2020-09-04
 title: "DeepState: Symbolic unit testing for C and C++"
-day: 18
+day: "18"
 month: February
 year: 2018
 location: San Diego, California, USA
