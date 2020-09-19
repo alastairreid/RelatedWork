@@ -1447,6 +1447,8 @@ notes:
     - - HOL theorem prover
       - null
   papers/gray:micro:2015: []
+  papers/green:pandc:1990: []
+  papers/green:tutorial:1998: []
   papers/greve:fmcad:1998: []
   papers/groce:issta:2017:
   - - notes/test-case-reduction
@@ -1650,6 +1652,7 @@ notes:
   - - notes/test-case-reduction
     - - Test-case reduction
       - null
+  papers/macvean:ppig:2016: []
   papers/mai:asplos:2013: []
   papers/malik:cacm:2009:
   - - notes/sat-solver
@@ -1811,6 +1814,7 @@ notes:
   - - notes/translation-validation
     - - Translation validation
       - null
+  papers/potvin:cacm:2016: []
   papers/rakamaric:cav:2014:
   - - notes/smack-verifier
     - - SMACK verifier
@@ -1855,6 +1859,7 @@ notes:
   papers/reid:yale:1998: []
   papers/reid:yale:2001: []
   papers/reynolds:lics:2002: []
+  papers/rieman:chi:1995: []
   papers/roessle:cpp:2019: []
   papers/rushby:sri:1992:
   - - notes/non-interference
@@ -1920,6 +1925,8 @@ notes:
   papers/slobodova:memocode:2011: []
   papers/smans:ecoop:2009: []
   papers/smans:fmood:2010: []
+  papers/smetters:nspw:2002: []
+  papers/smith:book:1996: []
   papers/smith:esop:2000: []
   papers/smith:fossacs:2009: []
   papers/smith:tocs:1984:
@@ -5772,6 +5779,8 @@ papers:
   papers/gordon:asplos:2002: []
   papers/gordon:book:1993: []
   papers/gray:micro:2015: []
+  papers/green:pandc:1990: []
+  papers/green:tutorial:1998: []
   papers/greve:fmcad:1998: []
   papers/groce:issta:2017: []
   papers/gross:micro:2016: []
@@ -5986,6 +5995,7 @@ papers:
   papers/lowe:csfw:2015: []
   papers/lustig:asplos:2016: []
   papers/maciver:ecoop:2020: []
+  papers/macvean:ppig:2016: []
   papers/mai:asplos:2013: []
   papers/malik:cacm:2009:
   - - papers/demoura:cacm:2011
@@ -6106,6 +6116,7 @@ papers:
   - - papers/necula:pldi:2000
     - - Translation validation for an optimizing compiler
       - necula:pldi:2000
+  papers/potvin:cacm:2016: []
   papers/rakamaric:cav:2014:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -6196,6 +6207,7 @@ papers:
   - - papers/ohearn:cacm:2019
     - - Separation logic
       - ohearn:cacm:2019
+  papers/rieman:chi:1995: []
   papers/roessle:cpp:2019: []
   papers/rushby:sri:1992: []
   papers/russell:cacm:1978: []
@@ -6271,6 +6283,8 @@ papers:
   papers/slobodova:memocode:2011: []
   papers/smans:ecoop:2009: []
   papers/smans:fmood:2010: []
+  papers/smetters:nspw:2002: []
+  papers/smith:book:1996: []
   papers/smith:esop:2000: []
   papers/smith:fossacs:2009: []
   papers/smith:tocs:1984: []

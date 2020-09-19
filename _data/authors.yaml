@@ -305,6 +305,9 @@
   papers:
   - papers/demoura:cacm:2011
   - papers/demoura:tacas:2008
+- name: Alan F. Blackwell
+  papers:
+  - papers/green:tutorial:1998
 - name: Allan Blanchard
   papers:
   - papers/blanchard:fmics:2015
@@ -570,6 +573,7 @@
   - papers/amani:asplos:2016
 - name: Luke Church
   papers:
+  - papers/macvean:ppig:2016
   - papers/sadowski:icse-seip:2018
 - name: Berkeley Churchill
   papers:
@@ -581,6 +585,9 @@
 - name: Alessandro Cimatti
   papers:
   - papers/biere:tacas:1999
+- name: Craig Citro
+  papers:
+  - papers/macvean:ppig:2016
 - name: Koen Claessen
   papers:
   - papers/claessen:icfp:2000
@@ -726,6 +733,9 @@
   - papers/franklin:cmu:2008
   - papers/vasudevan:secpriv:2013
   - papers/vasudevan:usenix:2016
+- name: John Daughtry
+  papers:
+  - papers/macvean:ppig:2016
 - name: James H. Davenport
   papers:
   - papers/nyxbrain:sc2:2017
@@ -1023,6 +1033,9 @@
 - name: Jason Franklin
   papers:
   - papers/franklin:cmu:2008
+- name: Marita Franzke
+  papers:
+  - papers/rieman:chi:1995
 - name: Christopher W. Fraser
   papers:
   - papers/fraser:sigart:1977
@@ -1192,6 +1205,10 @@
   - papers/armstrong:spisa:2019
   - papers/flur:popl:2016
   - papers/gray:micro:2015
+- name: Thomas R. G. Green
+  papers:
+  - papers/green:pandc:1990
+  - papers/green:tutorial:1998
 - name: Michael Greenberg
   papers:
   - papers/pierce:book:2016
@@ -1204,6 +1221,9 @@
 - name: Edmund Grimley-Evans
   papers:
   - papers/reid:cases:2008
+- name: Rebecca E. Grinter
+  papers:
+  - papers/smetters:nspw:2002
 - name: Alex Groce
   papers:
   - papers/goodman:ndss:2018
@@ -1945,6 +1965,9 @@
 - name: M. Letheren
   papers:
   - papers/dam:ieeetc:1981
+- name: Josh Levenberg
+  papers:
+  - papers/potvin:cacm:2016
 - name: Michael Y. Levin
   papers:
   - papers/godefroid:acmq:2012
@@ -2080,6 +2103,9 @@
 - name: Damiano Macedonio
   papers:
   - papers/ernst:icse:2016
+- name: Andrew Macvean
+  papers:
+  - papers/macvean:ppig:2016
 - name: Parthasarathy Madhusudan
   papers:
   - papers/mai:asplos:2013
@@ -2686,6 +2712,9 @@
 - name: Pongsin Poosankam
   papers:
   - papers/martignoni:asplos:2012
+- name: Rachel Potvin
+  papers:
+  - papers/potvin:cacm:2016
 - name: Johan Van Praet
   papers:
   - papers/fauth:edtc:1995
@@ -2773,6 +2802,9 @@
 - name: Alexandre Rebert
   papers:
   - papers/avgerinos:icse:2014
+- name: David Redmiles
+  papers:
+  - papers/rieman:chi:1995
 - name: Erik Reeber
   papers:
   - papers/kaivola:cav:2009
@@ -2847,6 +2879,9 @@
 - name: Tom Ridge
   papers:
   - papers/sarkar:popl:2009
+- name: John Rieman
+  papers:
+  - papers/rieman:chi:1995
 - name: Christine Rizkallah
   papers:
   - papers/amani:asplos:2016
@@ -3145,6 +3180,9 @@
   - papers/smans:ecoop:2009
   - papers/smans:fmood:2010
   - papers/vogels:fmoods:2011
+- name: Diana K. Smetters
+  papers:
+  - papers/smetters:nspw:2002
 - name: Lawrence M. Smith
   papers:
   - papers/albin:cli:1995
@@ -3162,6 +3200,9 @@
   papers:
   - papers/palacharla:micro:1995
   - papers/smith:tocs:1984
+- name: Brian Cantwell Smith
+  papers:
+  - papers/smith:book:1996
 - name: Geoffrey Smith
   papers:
   - papers/smith:fossacs:2009
