@@ -16,7 +16,7 @@ pages: 22-24
 read: false
 readings: []
 timestamp: Wed, 17 May 2017 01:00:00 +0200
-title: 'ISP: A Notation to Describe A Computer''s Instruction Sets'
+title: 'ISP: A notation to describe a computer''s instruction sets'
 url: https://doi.org/10.1109/C-M.1973.217035
 volume: '6'
 year: 1973

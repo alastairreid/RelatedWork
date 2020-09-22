@@ -19,7 +19,7 @@ publisher: Springer Berlin Heidelberg
 read: true
 readings:
 - 2020-09-17
-title: 'Extended Static Checking: A Ten-Year Perspective'
+title: 'Extended static checking: A ten-year perspective'
 url: https://doi.org/10.1007/3-540-44577-3_11
 year: 2001
 notes:

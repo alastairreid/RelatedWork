@@ -17,7 +17,7 @@ publisher: College Publications
 read: false
 readings: []
 series: Mathematical Logic and Foundations
-title: Proofs in Satisfiability Modulo Theories
+title: Proofs in satisfiability modulo theories
 url: http://www.cs.stanford.edu/~barrett/pubs/BdMF15.pdf
 volume: '55'
 year: 2015

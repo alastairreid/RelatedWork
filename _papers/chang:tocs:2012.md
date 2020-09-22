@@ -26,7 +26,7 @@ numpages: '26'
 publisher: Association for Computing Machinery
 read: false
 readings: []
-title: 'Bigtable: A Distributed Storage System for Structured Data'
+title: 'Bigtable: A distributed storage system for structured data'
 url: https://doi.org/10.1145/1365815.1365816
 volume: '26'
 year: 2008

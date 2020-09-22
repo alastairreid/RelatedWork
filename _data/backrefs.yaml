@@ -2120,7 +2120,7 @@ papers:
       - krishnamurthi:fm:2019
   notes/annotation-burden:
   - - papers/leino:informatics:2001
-    - - 'Extended Static Checking: A Ten-Year Perspective'
+    - - 'Extended static checking: A ten-year perspective'
       - leino:informatics:2001
   notes/aorte: []
   notes/arm-architecture:
@@ -2238,7 +2238,7 @@ papers:
     - - Developing verified programs with Dafny
       - leino:icse:2013
   - - papers/leino:informatics:2001
-    - - 'Extended Static Checking: A Ten-Year Perspective'
+    - - 'Extended static checking: A ten-year perspective'
       - leino:informatics:2001
   - - papers/leino:lpair:2010
     - - 'Dafny: An automatic program verifier for functional correctness'
@@ -2736,7 +2736,7 @@ papers:
       - subhlok:ppopp:1993
   notes/decidability-ceiling:
   - - papers/leino:informatics:2001
-    - - 'Extended Static Checking: A Ten-Year Perspective'
+    - - 'Extended static checking: A ten-year perspective'
       - leino:informatics:2001
   notes/decoupling:
   - - papers/bird:sc:1993
@@ -2844,7 +2844,7 @@ papers:
     - - 'The software model checker BLAST: Applications to software engineering'
       - beyer:ijsttt:2007
   - - papers/leino:informatics:2001
-    - - 'Extended Static Checking: A Ten-Year Perspective'
+    - - 'Extended static checking: A ten-year perspective'
       - leino:informatics:2001
   - - papers/lindner:indin:2018
     - - No panic! Verification of Rust programs by symbolic execution
@@ -3021,7 +3021,7 @@ papers:
       - leino:icse:2013
   notes/google-infrastructure:
   - - papers/chang:tocs:2012
-    - - 'Bigtable: A Distributed Storage System for Structured Data'
+    - - 'Bigtable: A distributed storage system for structured data'
       - chang:tocs:2012
   - - papers/corbett:tocs:2013
     - - 'Spanner: Google''s globally distributed database'
@@ -3043,7 +3043,7 @@ papers:
       - wright:icsm:2013
   notes/google-papers:
   - - papers/chang:tocs:2012
-    - - 'Bigtable: A Distributed Storage System for Structured Data'
+    - - 'Bigtable: A distributed storage system for structured data'
       - chang:tocs:2012
   - - papers/corbett:tocs:2013
     - - 'Spanner: Google''s globally distributed database'
@@ -3679,7 +3679,7 @@ papers:
       - zorn:iscawddd:2017
   notes/isps:
   - - papers/barbacci2:computer:1973
-    - - 'ISP: A Notation to Describe A Computer''s Instruction Sets'
+    - - 'ISP: A notation to describe a computer''s instruction sets'
       - barbacci2:computer:1973
   - - papers/barbacci:afips:1977
     - - 'An architectural research facility: ISP descriptions, simulation, data collection'
@@ -4725,7 +4725,7 @@ papers:
       - calcagno:popl:2009
   notes/smt-lib-format:
   - - papers/leino:informatics:2001
-    - - 'Extended Static Checking: A Ten-Year Perspective'
+    - - 'Extended static checking: A ten-year perspective'
       - leino:informatics:2001
   notes/smt-solver:
   - - papers/barrett:cade:2000
@@ -4735,7 +4735,7 @@ papers:
     - - CVC4
       - barrett:cav:2011
   - - papers/barrett:mlf:2015
-    - - Proofs in Satisfiability Modulo Theories
+    - - Proofs in satisfiability modulo theories
       - barrett:mlf:2015
   - - papers/barrett:smtlib:2016
     - - The Satisfiability Modulo Theories Library (SMT-LIB)
@@ -5635,7 +5635,7 @@ papers:
   papers/brookes:tcs:2006: []
   papers/brummayer:sat:2010:
   - - papers/barrett:mlf:2015
-    - - Proofs in Satisfiability Modulo Theories
+    - - Proofs in satisfiability modulo theories
       - barrett:mlf:2015
   - - papers/mansur:arxiv:2020
     - - Detecting critical bugs in SMT solvers using blackbox mutational fuzzing
@@ -5696,7 +5696,7 @@ papers:
     - - The Boogie verification debugger
       - legoues:sefm:2011
   - - papers/leino:informatics:2001
-    - - 'Extended Static Checking: A Ten-Year Perspective'
+    - - 'Extended static checking: A ten-year perspective'
       - leino:informatics:2001
   - - papers/philippaerts:scp:2014
     - - 'Software verification with VeriFast: Industrial case studies'
@@ -6068,7 +6068,7 @@ papers:
   papers/mangano:crisis:2016: []
   papers/mansur:arxiv:2020:
   - - papers/barrett:mlf:2015
-    - - Proofs in Satisfiability Modulo Theories
+    - - Proofs in satisfiability modulo theories
       - barrett:mlf:2015
   - - papers/brummayer:sat:2010
     - - Automated testing and debugging of SAT and QBF solvers
@@ -6358,7 +6358,7 @@ papers:
   papers/stewart:difts:2014: []
   papers/stump:fmsd:2013:
   - - papers/barrett:mlf:2015
-    - - Proofs in Satisfiability Modulo Theories
+    - - Proofs in satisfiability modulo theories
       - barrett:mlf:2015
   - - papers/brummayer:sat:2010
     - - Automated testing and debugging of SAT and QBF solvers
