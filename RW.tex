@@ -1,0 +1,31 @@
+\documentclass{article}
+%\usepackage{showframe}
+\usepackage[a4paper,margin=1in]{geometry}
+
+% allow use of accents, etc. in bibtex file
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue,breaklinks,hidelinks]{hyperref}
+
+% Alas, this causes an error when combined with doi
+% Specify formatting for backreferences is bibliography
+%\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue,pagebackref=true,breaklinks,hidelinks]{hyperref}
+% \renewcommand*{\backref}[1]{}
+% \renewcommand*{\backrefalt}[4]{\emph{[%
+% \ifcase #1 Not cited.%
+% \or Cited on page~#2.%
+% \else Cited on pages #2.%
+% \fi%
+% ]
+% }}
+
+\usepackage{url,doi,natbib}
+
+\begin{document}
+
+\newpage
+\nocite{*}
+\bibliographystyle{plainnat}
+\bibliography{RelatedWork}
+\end{document}

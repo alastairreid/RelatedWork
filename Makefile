@@ -18,13 +18,13 @@ RelatedWork.epub: RelatedWork.md
 RelatedWork.bib:
 	_scripts/md2bib.py RelatedWork.bib _papers/*.md
 
-showbib.pdf: RelatedWork.bib
-	pdflatex showbib
-	bibtex showbib
-	pdflatex showbib
+RW.pdf: RelatedWork.bib
+	pdflatex RW
+	bibtex RW
+	pdflatex RW
 
 clean::
-	$(RM) showbib.{aux,blg,bbl,dvi,log,out,pdf}
+	$(RM) RW.{aux,blg,bbl,dvi,log,out,pdf}
 	${RM} RelatedWork.{bib,epub,html,md}
 	${RM} _data/authors.yaml
 	${RM} _data/backrefs.yaml

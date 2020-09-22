@@ -3,7 +3,12 @@
 .*.swo
 .sass-cache
 .jekyll-metadata
-RelatedWork.*
+RW.aux
+RW.bbl
+RW.blg
+RW.log
+RW.out
+RW.pdf
 Gemfile.lock
 Gemfile
 _site
