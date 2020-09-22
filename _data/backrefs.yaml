@@ -308,6 +308,8 @@ notes:
   - - notes/annotation-burden
     - - Annotation burden
       - null
+  notes/google-infrastructure: []
+  notes/google-papers: []
   notes/haskell-language: []
   notes/hol-theorem-prover: []
   notes/human-factors: []
@@ -590,6 +592,7 @@ notes:
     - - Threads
       - null
   notes/partial-order-reduction: []
+  notes/paxos: []
   notes/pdp11-architecture:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
@@ -1267,6 +1270,7 @@ notes:
   - - notes/foreign-function-interface
     - - Foreign function interface
       - null
+  papers/chang:tocs:2012: []
   papers/chatterjee:tacas:2007: []
   papers/chipounov:asplos:2011:
   - - notes/s2e-verifier
@@ -1324,6 +1328,7 @@ notes:
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
   papers/coquand:eurocal:1985: []
+  papers/corbett:tocs:2013: []
   papers/costanzo:pldi:2016:
   - - notes/annotation-burden
     - - Annotation burden
@@ -3014,6 +3019,53 @@ papers:
   - - papers/leino:icse:2013
     - - Developing verified programs with Dafny
       - leino:icse:2013
+  notes/google-infrastructure:
+  - - papers/chang:tocs:2012
+    - - 'Bigtable: A Distributed Storage System for Structured Data'
+      - chang:tocs:2012
+  - - papers/corbett:tocs:2013
+    - - 'Spanner: Google''s globally distributed database'
+      - corbett:tocs:2013
+  - - papers/potvin:cacm:2016
+    - - Why Google stores billions of lines of code in a single repository
+      - potvin:cacm:2016
+  - - papers/sadowski:cacm:2018
+    - - Lessons from building static analysis tools at Google
+      - sadowski:cacm:2018
+  - - papers/sadowski:icse-seip:2018
+    - - 'Modern code review: A case study at Google'
+      - sadowski:icse-seip:2018
+  - - papers/sadowski:icse:2015
+    - - 'Tricorder: Building a program analysis ecosystem'
+      - sadowski:icse:2015
+  - - papers/wright:icsm:2013
+    - - Large-scale automated refactoring using ClangMR
+      - wright:icsm:2013
+  notes/google-papers:
+  - - papers/chang:tocs:2012
+    - - 'Bigtable: A Distributed Storage System for Structured Data'
+      - chang:tocs:2012
+  - - papers/corbett:tocs:2013
+    - - 'Spanner: Google''s globally distributed database'
+      - corbett:tocs:2013
+  - - papers/macvean:ppig:2016
+    - - API usability at scale
+      - macvean:ppig:2016
+  - - papers/potvin:cacm:2016
+    - - Why Google stores billions of lines of code in a single repository
+      - potvin:cacm:2016
+  - - papers/sadowski:cacm:2018
+    - - Lessons from building static analysis tools at Google
+      - sadowski:cacm:2018
+  - - papers/sadowski:icse-seip:2018
+    - - 'Modern code review: A case study at Google'
+      - sadowski:icse-seip:2018
+  - - papers/sadowski:icse:2015
+    - - 'Tricorder: Building a program analysis ecosystem'
+      - sadowski:icse:2015
+  - - papers/wright:icsm:2013
+    - - Large-scale automated refactoring using ClangMR
+      - wright:icsm:2013
   notes/haskell-language:
   - - papers/chakravarty:haskffi:2003
     - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
@@ -4041,6 +4093,10 @@ papers:
   - - papers/mcmillan:ecs:2003
     - - Model checking
       - mcmillan:ecs:2003
+  notes/paxos:
+  - - papers/corbett:tocs:2013
+    - - 'Spanner: Google''s globally distributed database'
+      - corbett:tocs:2013
   notes/pdp11-architecture:
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
@@ -5602,6 +5658,7 @@ papers:
   - - papers/jones:hw:1997
     - - 'Green Card: a foreign-language interface for Haskell'
       - jones:hw:1997
+  papers/chang:tocs:2012: []
   papers/chatterjee:tacas:2007:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
@@ -5650,6 +5707,7 @@ papers:
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
   papers/coquand:eurocal:1985: []
+  papers/corbett:tocs:2013: []
   papers/costanzo:pldi:2016:
   - - papers/murray:secpriv:2013
     - - 'seL4: from general purpose to a proof of information flow enforcement'

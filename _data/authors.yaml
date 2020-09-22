@@ -424,6 +424,9 @@
 - name: David A. Burke
   papers:
   - papers/burke:lacl:2005
+- name: Mike Burrows
+  papers:
+  - papers/chang:tocs:2012
 - name: Warren Burton
   papers:
   - papers/jones:hasklang:1999
@@ -508,12 +511,18 @@
 - name: Manuel Chakravarty
   papers:
   - papers/chakravarty:haskffi:2003
+- name: Tushar Chandra
+  papers:
+  - papers/chang:tocs:2012
 - name: Vikram Chandrasekhar
   papers:
   - papers/thies:micro:2007
 - name: Bor-Yuh Evan Chang
   papers:
   - papers/barnett:fmco:2005
+- name: Fay Chang
+  papers:
+  - papers/chang:tocs:2012
 - name: Arthur Chargueraud
   papers:
   - papers/bodin:popl:2014
@@ -652,6 +661,9 @@
 - name: Thierry Coquand
   papers:
   - papers/coquand:eurocal:1985
+- name: James C. Corbett
+  papers:
+  - papers/corbett:tocs:2013
 - name: Joe Corbett-Davies
   papers:
   - papers/liu:cpsspc:2018
@@ -762,6 +774,10 @@
 - name: Will Deacon
   papers:
   - papers/flur:popl:2016
+- name: Jeffrey Dean
+  papers:
+  - papers/chang:tocs:2012
+  - papers/corbett:tocs:2013
 - name: Randall W. Dean
   papers:
   - papers/draves:sosp:1991
@@ -921,6 +937,9 @@
 - name: Dawson Engler
   papers:
   - papers/cadar:osdi:2008
+- name: Michael Epstein
+  papers:
+  - papers/corbett:tocs:2013
 - name: Johan Eriksson
   papers:
   - papers/lindner:indin:2019
@@ -974,6 +993,10 @@
 - name: Renato Ferreira
   papers:
   - papers/du:sc:2003
+- name: Andrew Fikes
+  papers:
+  - papers/chang:tocs:2012
+  - papers/corbett:tocs:2013
 - name: Daniele Filaretti
   papers:
   - papers/bodin:popl:2014
@@ -1061,6 +1084,12 @@
 - name: Vladimir Frolov
   papers:
   - papers/kaivola:cav:2009
+- name: Christopher Frost
+  papers:
+  - papers/corbett:tocs:2013
+- name: J. J. Furman
+  papers:
+  - papers/corbett:tocs:2013
 - name: Ariel Fuxman
   papers:
   - papers/fuxman:isre:2001
@@ -1128,6 +1157,10 @@
 - name: Vlad Georgescu
   papers:
   - papers/chipounov:hotdep:2009
+- name: Sanjay Ghemawat
+  papers:
+  - papers/chang:tocs:2012
+  - papers/corbett:tocs:2013
 - name: Branden Ghena
   papers:
   - papers/levy:apsys:2017
@@ -1246,6 +1279,9 @@
   - papers/grossman:esop:2002
   - papers/morrisett:wcsss:1999
   - papers/zorn:iscawddd:2017
+- name: Robert E. Gruber
+  papers:
+  - papers/chang:tocs:2012
 - name: Orna Grumberg
   papers:
   - papers/clarke:cav:2000
@@ -1265,6 +1301,9 @@
   papers:
   - papers/dam:ted:2013
   - papers/dam:trusted:2013
+- name: Andrey Gubarev
+  papers:
+  - papers/corbett:tocs:2013
 - name: Aarti Gupta
   papers:
   - papers/garg:icse:2013
@@ -1371,6 +1410,9 @@
   - papers/cock:ccs:2014
   - papers/ge:jce:2016
   - papers/klein:sosp:2009
+- name: Christopher Heiser
+  papers:
+  - papers/corbett:tocs:2013
 - name: Claude Helmstetter
   papers:
   - papers/blanqui:rapido:2011
@@ -1435,6 +1477,9 @@
 - name: Aquinas Hobor
   papers:
   - papers/hobor:popl:2013
+- name: Peter Hochschild
+  papers:
+  - papers/corbett:tocs:2013
 - name: Henry Hoffmann
   papers:
   - papers/gordon:asplos:2002
@@ -1475,6 +1520,10 @@
   papers:
   - papers/hritcu:icfp:2013
   - papers/pierce:book:2016
+- name: Wilson C. Hsieh
+  papers:
+  - papers/chang:tocs:2012
+  - papers/corbett:tocs:2013
 - name: Wei Hu
   papers:
   - papers/oberg:dac:2010
@@ -1682,6 +1731,9 @@
 - name: Jeehoon Kang
   papers:
   - papers/jung:popl:2020
+- name: Sebastian Kanthak
+  papers:
+  - papers/corbett:tocs:2013
 - name: Michal Karczmarek
   papers:
   - papers/gordon:asplos:2002
@@ -1780,6 +1832,9 @@
 - name: Erwin A. de Kock
   papers:
   - papers/wolf:codes:2004
+- name: Eugene Kogan
+  papers:
+  - papers/corbett:tocs:2013
 - name: Eng Kiat Koh
   papers:
   - papers/ananda:osr:1992
@@ -1991,6 +2046,9 @@
 - name: Corey Lewis
   papers:
   - papers/murray:secpriv:2013
+- name: Hongyi Li
+  papers:
+  - papers/corbett:tocs:2013
 - name: Long Li
   papers:
   - papers/dai:pldi:2005
@@ -2038,6 +2096,9 @@
 - name: Jed Liu
   papers:
   - papers/liu:cpsspc:2018
+- name: Alexander Lloyd
+  papers:
+  - papers/corbett:tocs:2013
 - name: Derek Lockhart
   papers:
   - papers/lockhart:ispass:2015
@@ -2257,6 +2318,9 @@
 - name: Ali S. Meli
   papers:
   - papers/gordon:asplos:2002
+- name: Sergey Melnik
+  papers:
+  - papers/corbett:tocs:2013
 - name: David Menendez
   papers:
   - papers/lopes:pldi:2015
@@ -2366,6 +2430,9 @@
 - name: Onur Mutlu
   papers:
   - papers/kim:isca:2014
+- name: David Mwaura
+  papers:
+  - papers/corbett:tocs:2013
 - name: Alan Mycroft
   papers:
   - papers/mycroft:esop:1999
@@ -2413,6 +2480,9 @@
 - name: Yutaka Nagashima
   papers:
   - papers/amani:asplos:2016
+- name: David Nagle
+  papers:
+  - papers/corbett:tocs:2013
 - name: Armaghan Naik
   papers:
   - papers/kaivola:cav:2009
@@ -2762,6 +2832,9 @@
   papers:
   - papers/franklin:cmu:2008
   - papers/seshadri:sosp:2007
+- name: Sean Quinlan
+  papers:
+  - papers/corbett:tocs:2013
 - name: Rodric M. Rabbah
   papers:
   - papers/thies:ppopp:2005
@@ -2791,6 +2864,9 @@
 - name: Parthasarathy Ranganathan
   papers:
   - papers/kumar:isca:2004
+- name: Rajesh Rao
+  papers:
+  - papers/corbett:tocs:2013
 - name: Richard F. Rashid
   papers:
   - papers/draves:sosp:1991
@@ -2911,6 +2987,9 @@
 - name: Michael S. Rogers
   papers:
   - papers/siegel:sc:2015
+- name: Lindsay Rolig
+  papers:
+  - papers/corbett:tocs:2013
 - name: Jan-Willem Roorda
   papers:
   - papers/claessen:sfm:2006
@@ -2950,6 +3029,9 @@
 - name: Mooly Sagiv
   papers:
   - papers/naik:popl:2012
+- name: Yasushi Saito
+  papers:
+  - papers/corbett:tocs:2013
 - name: Christopher Salls
   papers:
   - papers/shoshitaishvili:sp:2016
@@ -3318,6 +3400,9 @@
 - name: "L\xE1szl\xF3 Szekeres"
   papers:
   - papers/babic:fse:2019
+- name: Michal Szymaniak
+  papers:
+  - papers/corbett:tocs:2013
 - name: "Emma S\xF6derberg"
   papers:
   - papers/sadowski:icse-seip:2018
@@ -3362,6 +3447,7 @@
   - papers/ananda:osr:1992
 - name: Christopher Taylor
   papers:
+  - papers/corbett:tocs:2013
   - papers/kaivola:cav:2009
 - name: Tobias Tebbi
   papers:
@@ -3556,6 +3642,7 @@
   - papers/chakravarty:haskffi:2003
 - name: Deborah A. Wallach
   papers:
+  - papers/chang:tocs:2012
   - papers/johnson:osr:1995
 - name: Zhanyong Wan
   papers:
@@ -3566,6 +3653,9 @@
 - name: Wei Wang
   papers:
   - papers/babic:fse:2019
+- name: Ruth Wang
+  papers:
+  - papers/corbett:tocs:2013
 - name: Xi Wang
   papers:
   - papers/fonseca:ecs:2017
@@ -3683,6 +3773,9 @@
 - name: Maverick Woo
   papers:
   - papers/manes:ieeetse:2019
+- name: Dale Woodford
+  papers:
+  - papers/corbett:tocs:2013
 - name: Jonathan Woodruff
   papers:
   - papers/woodruff:isca:2014
