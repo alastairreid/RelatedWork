@@ -41,16 +41,41 @@ month: August
 number: '3'
 numpages: '22'
 publisher: Association for Computing Machinery
-read: false
-readings: []
+read: true
+readings:
+- 2020-09-21
 title: "Spanner: Google's globally distributed database"
 url: https://doi.org/10.1145/2491245
 volume: '31'
 year: 2013
 notes:
-- google papers
-- google infrastructure
+- google
 - Paxos
 papers:
+- chang:tocs:2012
 ---
+
+Spanner is a scalable, globally-distributed, temporal database that shards data
+across many [Paxos] instances.  It features automatic failover, resharding and
+migration.
+Although not explicitly stated, it seems to be a replacement for Bigtable
+([chang:tocs:2012]) and Megastore.
+One of the early clients was to support F1: an ads database.
+
+Spanner consists of something close to a temporal relational database,
+layered on top of a temporal key-value store, made robust against failure
+using [Paxos] and relying on "TrueTime" to keep global datacenters synchronized
+and allow global serialization of all transactions.
+
+"TrueTime" is a time service that provides time intervals that are guaranteed
+to be globally valid.
+This is implemented using a combination of GPS and atomic clocks.
+The atomic clocks are referred to as "Armageddon masters" and serve mostly as
+a backup in case GPS fails.
+
+The paper puts a lot of emphasis on the importance of TrueTime
+
+> As a community, we should no longer depend on loosely synchronized clocks and
+> weak time APIs in designing distributed algorithms.
+
 {% include links.html %}

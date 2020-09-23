@@ -1,6 +1,7 @@
 ---
 layout: note
-title: Google infrastructure
+title: Google papers and infrastructure
+url: https://research.google/pubs/
 ---
 
 A list of pieces of Google infrastructure mentioned in papers.  (Almost

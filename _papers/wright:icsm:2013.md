@@ -17,14 +17,38 @@ layout: paper
 month: Sep.
 number: ''
 pages: 548-551
-read: false
-readings: []
+read: true
+readings:
+- 2020-09-21
 title: Large-scale automated refactoring using ClangMR
 volume: ''
 year: 2013
 notes:
-- google papers
-- google infrastructure
+- google
 papers:
+- potvin:cacm:2016
 ---
+
+ClangMR is a refactoring tool that scales to systems of the size of
+Google's monorepo ([potvin:cacm:2016]).
+It consists of three phases:
+
+1. Collect a list of all the commands needed to compile code in the entire
+   repo.
+
+2. Compile using a modified compiler that stores the AST in memory (of many
+   machines running in parallel).
+
+   > it is roughly as fast to compile C++ code into a memory-held AST as it is
+   > to read a completely annotated AST out of distant storage
+
+3. Apply transformation rules based on AST pattern matching and substitutions.
+
+Transformations are limited to changes within the same translation units.
+
+The paper gives an example of a transformation that changed calls to an old,
+error-prone string splitting API into calls to a better API.
+The transformation was able to take advantage of constant arguments, etc.
+in the old code to produce a better/cleaner output.
+
 {% include links.html %}

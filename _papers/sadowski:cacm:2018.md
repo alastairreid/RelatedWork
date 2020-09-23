@@ -27,8 +27,12 @@ url: https://doi.org/10.1145/3188720
 volume: '61'
 year: 2018
 notes:
-- google papers
-- google infrastructure
+- google
 papers:
+- potvin:cacm:2016
+- chou:bugs:2005
+- wright:icsm:2013
+- sadowski:icse:2015
 ---
+
 {% include links.html %}

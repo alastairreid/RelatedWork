@@ -31,8 +31,7 @@ url: https://doi.org/10.1145/1365815.1365816
 volume: '26'
 year: 2008
 notes:
-- google papers
-- google infrastructure
+- google
 papers:
 ---
 {% include links.html %}

@@ -284,6 +284,7 @@ notes:
   - - notes/concurrent-separation-logic
     - - Concurrent separation logic
       - null
+  notes/friction-diagram: []
   notes/functional-reactive-programming: []
   notes/fuzz-testing:
   - - notes/property-based-testing
@@ -308,8 +309,7 @@ notes:
   - - notes/annotation-burden
     - - Annotation burden
       - null
-  notes/google-infrastructure: []
-  notes/google-papers: []
+  notes/google: []
   notes/haskell-language: []
   notes/hol-theorem-prover: []
   notes/human-factors: []
@@ -2946,6 +2946,10 @@ papers:
   - - papers/krishnaswami:tldi:2010
     - - Verifying event-driven programs using ramified frame properties
       - krishnaswami:tldi:2010
+  notes/friction-diagram:
+  - - papers/macvean:ppig:2016
+    - - API usability at scale
+      - macvean:ppig:2016
   notes/functional-reactive-programming:
   - - papers/peterson:padl:2001
     - - 'FVision: A declarative language for visual tracking'
@@ -3019,29 +3023,7 @@ papers:
   - - papers/leino:icse:2013
     - - Developing verified programs with Dafny
       - leino:icse:2013
-  notes/google-infrastructure:
-  - - papers/chang:tocs:2012
-    - - 'Bigtable: A distributed storage system for structured data'
-      - chang:tocs:2012
-  - - papers/corbett:tocs:2013
-    - - 'Spanner: Google''s globally distributed database'
-      - corbett:tocs:2013
-  - - papers/potvin:cacm:2016
-    - - Why Google stores billions of lines of code in a single repository
-      - potvin:cacm:2016
-  - - papers/sadowski:cacm:2018
-    - - Lessons from building static analysis tools at Google
-      - sadowski:cacm:2018
-  - - papers/sadowski:icse-seip:2018
-    - - 'Modern code review: A case study at Google'
-      - sadowski:icse-seip:2018
-  - - papers/sadowski:icse:2015
-    - - 'Tricorder: Building a program analysis ecosystem'
-      - sadowski:icse:2015
-  - - papers/wright:icsm:2013
-    - - Large-scale automated refactoring using ClangMR
-      - wright:icsm:2013
-  notes/google-papers:
+  notes/google:
   - - papers/chang:tocs:2012
     - - 'Bigtable: A distributed storage system for structured data'
       - chang:tocs:2012
@@ -5658,7 +5640,10 @@ papers:
   - - papers/jones:hw:1997
     - - 'Green Card: a foreign-language interface for Haskell'
       - jones:hw:1997
-  papers/chang:tocs:2012: []
+  papers/chang:tocs:2012:
+  - - papers/corbett:tocs:2013
+    - - 'Spanner: Google''s globally distributed database'
+      - corbett:tocs:2013
   papers/chatterjee:tacas:2007:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
@@ -5669,7 +5654,13 @@ papers:
   papers/choi:icfp:2017: []
   papers/chong:asplos:2008: []
   papers/chong:icse:2020: []
-  papers/chou:bugs:2005: []
+  papers/chou:bugs:2005:
+  - - papers/sadowski:cacm:2018
+    - - Lessons from building static analysis tools at Google
+      - sadowski:cacm:2018
+  - - papers/sadowski:icse:2015
+    - - 'Tricorder: Building a program analysis ecosystem'
+      - sadowski:icse:2015
   papers/chu:ieeedtc:1992: []
   papers/cifuentes:computer:2000: []
   papers/cifuentes:iwpc:1998: []
@@ -5707,7 +5698,10 @@ papers:
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
   papers/coquand:eurocal:1985: []
-  papers/corbett:tocs:2013: []
+  papers/corbett:tocs:2013:
+  - - papers/potvin:cacm:2016
+    - - Why Google stores billions of lines of code in a single repository
+      - potvin:cacm:2016
   papers/costanzo:pldi:2016:
   - - papers/murray:secpriv:2013
     - - 'seL4: from general purpose to a proof of information flow enforcement'
@@ -6179,7 +6173,19 @@ papers:
   - - papers/necula:pldi:2000
     - - Translation validation for an optimizing compiler
       - necula:pldi:2000
-  papers/potvin:cacm:2016: []
+  papers/potvin:cacm:2016:
+  - - papers/sadowski:cacm:2018
+    - - Lessons from building static analysis tools at Google
+      - sadowski:cacm:2018
+  - - papers/sadowski:icse-seip:2018
+    - - 'Modern code review: A case study at Google'
+      - sadowski:icse-seip:2018
+  - - papers/sadowski:icse:2015
+    - - 'Tricorder: Building a program analysis ecosystem'
+      - sadowski:icse:2015
+  - - papers/wright:icsm:2013
+    - - Large-scale automated refactoring using ClangMR
+      - wright:icsm:2013
   papers/rakamaric:cav:2014:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -6270,14 +6276,35 @@ papers:
   - - papers/ohearn:cacm:2019
     - - Separation logic
       - ohearn:cacm:2019
-  papers/rieman:chi:1995: []
+  papers/rieman:chi:1995:
+  - - papers/macvean:ppig:2016
+    - - API usability at scale
+      - macvean:ppig:2016
   papers/roessle:cpp:2019: []
   papers/rushby:sri:1992: []
   papers/russell:cacm:1978: []
   papers/sabelfield:jcs:2009: []
-  papers/sadowski:cacm:2018: []
-  papers/sadowski:icse-seip:2018: []
-  papers/sadowski:icse:2015: []
+  papers/sadowski:cacm:2018:
+  - - papers/potvin:cacm:2016
+    - - Why Google stores billions of lines of code in a single repository
+      - potvin:cacm:2016
+  - - papers/sadowski:icse:2015
+    - - 'Tricorder: Building a program analysis ecosystem'
+      - sadowski:icse:2015
+  papers/sadowski:icse-seip:2018:
+  - - papers/potvin:cacm:2016
+    - - Why Google stores billions of lines of code in a single repository
+      - potvin:cacm:2016
+  papers/sadowski:icse:2015:
+  - - papers/potvin:cacm:2016
+    - - Why Google stores billions of lines of code in a single repository
+      - potvin:cacm:2016
+  - - papers/sadowski:cacm:2018
+    - - Lessons from building static analysis tools at Google
+      - sadowski:cacm:2018
+  - - papers/sadowski:icse:2015
+    - - 'Tricorder: Building a program analysis ecosystem'
+      - sadowski:icse:2015
   papers/samet:ieeetse:1977: []
   papers/samet:phd:1975: []
   papers/sarkar:pldi:2011: []
@@ -6433,7 +6460,13 @@ papers:
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
         the CHERI design and implementation process'
       - nienhuis:secpriv:2020
-  papers/wright:icsm:2013: []
+  papers/wright:icsm:2013:
+  - - papers/sadowski:cacm:2018
+    - - Lessons from building static analysis tools at Google
+      - sadowski:cacm:2018
+  - - papers/sadowski:icse:2015
+    - - 'Tricorder: Building a program analysis ecosystem'
+      - sadowski:icse:2015
   papers/xi:icfp:2001: []
   papers/xie:bugs:2005:
   - - papers/godefroid:bugs:2005

@@ -24,8 +24,8 @@ title: 'Modern code review: A case study at Google'
 url: https://doi.org/10.1145/3183519.3183525
 year: 2018
 notes:
-- google papers
-- google infrastructure
+- google
 papers:
+- potvin:cacm:2016
 ---
 {% include links.html %}
