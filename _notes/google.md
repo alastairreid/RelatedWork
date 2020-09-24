@@ -8,6 +8,10 @@ A list of pieces of Google infrastructure mentioned in papers.  (Almost
 certainly out of date and inaccurate because it is based on what the papers
 said at the time they were written.)
 
+### Bazel
+
+Build system
+
 ### Bigtable
 ### ClangMR
 
@@ -20,7 +24,7 @@ Find dead code
 ### CodeSearch
 ### Critique
 
-Code review tool
+Code review tool [sadowski:icse-seip:2018]
 
 ### ErrorProne
 

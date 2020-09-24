@@ -45,6 +45,9 @@ It consists of three phases:
 3. Apply transformation rules based on AST pattern matching and substitutions.
 
 Transformations are limited to changes within the same translation units.
+(I think that is because this is all based on MapReduce and so they cannot
+propagate information from one translation unit to another. I think "MR" is
+short for "MapReduce"?)
 
 The paper gives an example of a transformation that changed calls to an old,
 error-prone string splitting API into calls to a better API.
