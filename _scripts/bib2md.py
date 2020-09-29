@@ -3,7 +3,8 @@
 import json
 import yaml
 from yaml import dump
-from yaml import CDumper as Dumper
+# from yaml import CDumper as Dumper
+from yaml import Dumper
 
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
