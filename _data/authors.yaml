@@ -288,6 +288,9 @@
   papers:
   - papers/ozer:sbacpad:2007
   - papers/stephens:micro:2017
+- name: Robert V. Binder
+  papers:
+  - papers/binder:cacm:1994
 - name: Peter L. Bird
   papers:
   - papers/bird:sc:1993
@@ -435,6 +438,9 @@
   papers:
   - papers/balasubramanium:hotos:2017
   - papers/narayanan:hotos:2019
+- name: Vannevar Bush
+  papers:
+  - papers/bush:atlantic:1945
 - name: William R. Bush
   papers:
   - papers/bush:spe:2000
@@ -899,6 +905,9 @@
 - name: John G. Edenhofner
   papers:
   - papers/siegel:sc:2015
+- name: N. P. Edwards
+  papers:
+  - papers/edwards:icrs:1975
 - name: Petros Efstathopoulos
   papers:
   - papers/efstathopoulos:sosp:2005
@@ -1065,9 +1074,15 @@
 - name: Christopher W. Fraser
   papers:
   - papers/fraser:sigart:1977
+- name: Gordon Fraser
+  papers:
+  - papers/ivankovic:fse:2019
 - name: Louis Fredriksen
   papers:
   - papers/miller:cacm:1990
+- name: R. S. Freedman
+  papers:
+  - papers/freedman:tse:1991
 - name: Markus Freericks
   papers:
   - papers/fauth:edtc:1995
@@ -1576,6 +1591,9 @@
 - name: Samin Ishtiaq
   papers:
   - papers/chong:asplos:2008
+- name: "Marko Ivankovi\u0107"
+  papers:
+  - papers/ivankovic:fse:2019
 - name: Alexander Ivanov
   papers:
   - papers/liu:cpsspc:2018
@@ -1713,6 +1731,9 @@
   papers:
   - papers/jung:popl:2017
   - papers/jung:popl:2020
+- name: "Ren\xE9 Just"
+  papers:
+  - papers/ivankovic:fse:2019
 - name: M. Frans Kaashoek
   papers:
   - papers/dabek:sigops:2002
@@ -2740,6 +2761,9 @@
 - name: Elena Petrova
   papers:
   - papers/alkassar:vstte:2010
+- name: "Goran Petrovi\u0107"
+  papers:
+  - papers/ivankovic:fse:2019
 - name: "Mauro Pezz\xE8"
   papers:
   - papers/braione:icse:2018

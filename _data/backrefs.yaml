@@ -956,6 +956,7 @@ notes:
   - - notes/unit-tests
     - - Unit tests
       - null
+  notes/testability: []
   notes/threads:
   - - notes/continuations
     - - Continuations
@@ -1199,6 +1200,7 @@ notes:
     - - BLAST verifier
       - null
   papers/biere:tacas:1999: []
+  papers/binder:cacm:1994: []
   papers/bird:sc:1993: []
   papers/birrell:tocs:1984:
   - - notes/remote-procedure-call
@@ -1252,6 +1254,7 @@ notes:
       - null
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
+  papers/bush:atlantic:1945: []
   papers/bush:spe:2000: []
   papers/cadar:cacm:2013:
   - - notes/klee-verifier
@@ -1373,6 +1376,7 @@ notes:
       - null
   papers/du:sc:2003: []
   papers/dunkels:enss:2006: []
+  papers/edwards:icrs:1975: []
   papers/efstathopoulos:sosp:2005: []
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
@@ -1422,6 +1426,7 @@ notes:
   papers/fox:ucam:2002: []
   papers/franklin:cmu:2008: []
   papers/fraser:sigart:1977: []
+  papers/freedman:tse:1991: []
   papers/frias:icse:2005: []
   papers/fuxman:isre:2001: []
   papers/garg:icse:2013: []
@@ -1514,6 +1519,7 @@ notes:
   papers/hunt:jar:1989: []
   papers/hunt:lncs:1994: []
   papers/hunt:micro:1999: []
+  papers/ivankovic:fse:2019: []
   papers/jackson:tosem:2002: []
   papers/jacobs:nfm:2011:
   - - notes/verifast-verifier
@@ -3034,6 +3040,9 @@ papers:
   - - papers/corbett:tocs:2013
     - - 'Spanner: Google''s globally distributed database'
       - corbett:tocs:2013
+  - - papers/ivankovic:fse:2019
+    - - Code coverage at Google
+      - ivankovic:fse:2019
   - - papers/macvean:ppig:2016
     - - API usability at scale
       - macvean:ppig:2016
@@ -5061,6 +5070,16 @@ papers:
     - - 'Relational test tables: A practical specification language for evolution
         and security'
       - weigl:arxiv:2019
+  notes/testability:
+  - - papers/binder:cacm:1994
+    - - Design for testability in object-oriented systems
+      - binder:cacm:1994
+  - - papers/edwards:icrs:1975
+    - - The effect of certain modular design principles on testability
+      - edwards:icrs:1975
+  - - papers/freedman:tse:1991
+    - - Testability of software components
+      - freedman:tse:1991
   notes/threads:
   - - papers/bridges:micro:2007
     - - Revisiting the sequential programming model for multi-core
@@ -5211,6 +5230,9 @@ papers:
   - - papers/sadowski:icse-seip:2018
     - - 'Modern code review: A case study at Google'
       - sadowski:icse-seip:2018
+  - - papers/sadowski:icse:2015
+    - - 'Tricorder: Building a program analysis ecosystem'
+      - sadowski:icse:2015
   notes/vcc-verifier:
   - - papers/cohen:cav:2010
     - - Local verification of global invariants in concurrent programs
@@ -5600,6 +5622,7 @@ papers:
     - - 'The software model checker BLAST: Applications to software engineering'
       - beyer:ijsttt:2007
   papers/biere:tacas:1999: []
+  papers/binder:cacm:1994: []
   papers/bird:sc:1993: []
   papers/birrell:tocs:1984: []
   papers/blanchard:fmics:2015: []
@@ -5641,6 +5664,7 @@ papers:
       - stump:fmsd:2013
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
+  papers/bush:atlantic:1945: []
   papers/bush:spe:2000: []
   papers/cadar:cacm:2013:
   - - papers/beyer:hvc:2017
@@ -5777,6 +5801,7 @@ papers:
   papers/draves:sosp:1991: []
   papers/du:sc:2003: []
   papers/dunkels:enss:2006: []
+  papers/edwards:icrs:1975: []
   papers/efstathopoulos:sosp:2005:
   - - papers/spencer:security:1999
     - - 'The Flask security architecture: System support for diverse security policies'
@@ -5821,6 +5846,7 @@ papers:
         commodity OSes'
       - seshadri:sosp:2007
   papers/fraser:sigart:1977: []
+  papers/freedman:tse:1991: []
   papers/frias:icse:2005: []
   papers/fuxman:isre:2001: []
   papers/garg:icse:2013:
@@ -5910,6 +5936,7 @@ papers:
   papers/hunt:jar:1989: []
   papers/hunt:lncs:1994: []
   papers/hunt:micro:1999: []
+  papers/ivankovic:fse:2019: []
   papers/jackson:tosem:2002: []
   papers/jacobs:nfm:2011:
   - - papers/astrauskas:oopsla:2019
