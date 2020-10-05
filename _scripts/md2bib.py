@@ -57,6 +57,9 @@ def main():
     # writer.order_entries_by = ('ENTRYTYPE', 'author', 'year')
     bibtex_str = bibtexparser.dumps(db, writer)
     with open(output, "w") as f:
+        print(("#############################################\n"
+               "# This file is machine generated, do not edit\n"
+               "#############################################\n"), file=f)
         print(bibtex_str, file=f)
 
 main()
