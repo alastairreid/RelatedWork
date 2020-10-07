@@ -2447,6 +2447,7 @@
   papers:
   - papers/amani:asplos:2016
   - papers/cock:ccs:2014
+  - papers/murray:secdev:2018
   - papers/murray:secpriv:2013
 - name: Onur Mutlu
   papers:
@@ -2653,6 +2654,9 @@
 - name: Duckki Oe
   papers:
   - papers/stump:fmsd:2013
+- name: Paul van Oorschot
+  papers:
+  - papers/murray:secdev:2018
 - name: Greg Ordy
   papers:
   - papers/chu:ieeedtc:1992

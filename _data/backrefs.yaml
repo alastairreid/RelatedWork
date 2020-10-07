@@ -1722,6 +1722,7 @@ notes:
     - - Typed assembly language
       - null
   papers/muller:vmcai:2016: []
+  papers/murray:secdev:2018: []
   papers/murray:secpriv:2013: []
   papers/mycroft:esop:1999:
   - - notes/typed-assembly-language
@@ -6141,6 +6142,7 @@ papers:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
       - astrauskas:oopsla:2019
+  papers/murray:secdev:2018: []
   papers/murray:secpriv:2013: []
   papers/mycroft:esop:1999: []
   papers/myers:csfw:2004: []
