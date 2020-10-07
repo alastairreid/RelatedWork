@@ -1062,6 +1062,7 @@ notes:
   papers/aagaard:fmcad:2000: []
   papers/abadi:tcs:1991: []
   papers/albin:cli:1995: []
+  papers/alexopoulos:tps:2020: []
   papers/alglave:toplas:2014: []
   papers/alkassar:vstte:2010: []
   papers/alkassar:vstte:2012: []
@@ -2052,6 +2053,7 @@ notes:
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
+  papers/zhang:toplas:2017: []
   papers/zivojnovic:vlsi:1996:
   - - notes/lisa
     - - LISA
@@ -5466,6 +5468,7 @@ papers:
   papers/aagaard:fmcad:2000: []
   papers/abadi:tcs:1991: []
   papers/albin:cli:1995: []
+  papers/alexopoulos:tps:2020: []
   papers/alglave:toplas:2014: []
   papers/alkassar:vstte:2010: []
   papers/alkassar:vstte:2012: []
@@ -6529,5 +6532,6 @@ papers:
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
+  papers/zhang:toplas:2017: []
   papers/zivojnovic:vlsi:1996: []
   papers/zorn:iscawddd:2017: []

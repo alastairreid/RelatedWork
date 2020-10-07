@@ -43,6 +43,9 @@
 - name: Jonathan Aldrich
   papers:
   - papers/krishnaswami:tldi:2010
+- name: Nikolaos Alexopoulos
+  papers:
+  - papers/alexopoulos:tps:2020
 - name: Jade Alglave
   papers:
   - papers/alglave:toplas:2014
@@ -1343,6 +1346,9 @@
   papers:
   - papers/kocher:arxiv:2018
   - papers/lipp:arxiv:2018
+- name: Sheikh Mahbub Habib
+  papers:
+  - papers/alexopoulos:tps:2020
 - name: Brian Hackett
   papers:
   - papers/condit:popl:2009
@@ -2468,6 +2474,7 @@
   - papers/zdancewic:csfw:2001
   - papers/zdancewic:csfw:2003
   - papers/zhang:asplos:2015
+  - papers/zhang:toplas:2017
 - name: John Mylopoulos
   papers:
   - papers/fuxman:isre:2001
@@ -2487,6 +2494,9 @@
   papers:
   - papers/penninckx:nfm:2012
   - papers/philippaerts:scp:2014
+- name: "Max M\xFChlh\xFCuser"
+  papers:
+  - papers/alexopoulos:tps:2020
 - name: "Peter M\xFCller"
   papers:
   - papers/astrauskas:oopsla:2019
@@ -2768,6 +2778,9 @@
 - name: "Goran Petrovi\u0107"
   papers:
   - papers/ivankovic:fse:2019
+- name: Simon Peyton-Jones
+  papers:
+  - papers/zhang:toplas:2017
 - name: "Mauro Pezz\xE8"
   papers:
   - papers/braione:icse:2018
@@ -3121,6 +3134,9 @@
   - papers/cohen:entcs:2009
   - papers/maus:amast:2008
   - papers/tillmann:fse:2005
+- name: Steffen Schulz
+  papers:
+  - papers/alexopoulos:tps:2020
 - name: Edward J. Schwartz
   papers:
   - papers/manes:ieeetse:2019
@@ -3649,6 +3665,7 @@
 - name: Dimitrios Vytiniotis
   papers:
   - papers/hritcu:icfp:2013
+  - papers/zhang:toplas:2017
 - name: Philip Wadler
   papers:
   - papers/jones:hasklang:1999
@@ -3903,6 +3920,7 @@
   - papers/ferraiuolo:asplos:2017
   - papers/hawblitzel:osdi:2014
   - papers/zhang:asplos:2015
+  - papers/zhang:toplas:2017
 - name: Kaiyuan Zhang
   papers:
   - papers/fonseca:ecs:2017
