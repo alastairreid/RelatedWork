@@ -14,6 +14,7 @@ authors:
 - Naoto Maeda
 - Aarti Gupta
 booktitle: Proceedings of the 2013 International Conference on Software Engineering
+doi: 10.1109/ICSE.2013.6606559
 isbn: '9781467330763'
 layout: paper
 location: San Francisco, CA, USA

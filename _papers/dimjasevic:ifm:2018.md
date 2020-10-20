@@ -17,6 +17,7 @@ authors:
 - Kasper Luckow
 - Zvonimir Rakamarić
 booktitle: Integrated Formal Methods
+doi: 10.1007/978-3-319-98938-9_6
 editor: Furia, Carlo A. and Winter, Kirsten
 isbn: 978-3-319-98938-9
 layout: paper

@@ -8,6 +8,7 @@ authors:
 - Willem Visser
 - Jaco Geldenhuys
 booktitle: Tools and Algorithms for the Construction and Analysis of Systems
+doi: 10.1007/978-3-030-45237-7_23
 editor: Biere, Armin and Parker, David
 isbn: 978-3-030-45237-7
 layout: paper
