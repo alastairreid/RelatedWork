@@ -234,6 +234,7 @@ notes:
   - - notes/stream-processing
     - - Stream Processing
       - null
+  notes/dependency-injection: []
   notes/dependent-type:
   - - notes/coq-theorem-prover
     - - Coq theorem prover
@@ -945,9 +946,28 @@ notes:
     - - Unit tests
       - null
   notes/test-competition: []
+  notes/test-double:
+  - - notes/dependency-injection
+    - - Dependency injection
+      - null
+  - - notes/test-driven-development
+    - - Test driven development
+      - null
+  - - notes/testability
+    - - Testability
+      - null
   notes/test-driven-development:
   - - notes/contract-driven-development
     - - Contract driven development
+      - null
+  - - notes/dependency-injection
+    - - Dependency injection
+      - null
+  - - notes/test-double
+    - - Test doubles (fakes, mocks and stubs)
+      - null
+  - - notes/testability
+    - - Testability
       - null
   notes/test-generation:
   - - notes/test-generation
@@ -956,7 +976,16 @@ notes:
   - - notes/unit-tests
     - - Unit tests
       - null
-  notes/testability: []
+  notes/testability:
+  - - notes/dependency-injection
+    - - Dependency injection
+      - null
+  - - notes/test-double
+    - - Test doubles (fakes, mocks and stubs)
+      - null
+  - - notes/test-driven-development
+    - - Test driven development
+      - null
   notes/threads:
   - - notes/continuations
     - - Continuations
@@ -2768,6 +2797,7 @@ papers:
   - - papers/smith:tocs:1984
     - - Decoupled access/execute computer architectures
       - smith:tocs:1984
+  notes/dependency-injection: []
   notes/dependent-type:
   - - papers/armstrong:arw:2018
     - - 'Detailed models of instruction set architectures: From pseudocode to formal
@@ -5058,6 +5088,7 @@ papers:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'
       - beyer:hvc:2017
+  notes/test-double: []
   notes/test-driven-development: []
   notes/test-generation:
   - - papers/babic:fse:2019
