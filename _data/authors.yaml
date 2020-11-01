@@ -12,6 +12,9 @@
 - name: Vikram Adve
   papers:
   - papers/dasgupta:pldi:2019
+- name: V. Adve
+  papers:
+  - papers/lattner:cgo:2004
 - name: Edward Aftandilian
   papers:
   - papers/sadowski:cacm:2018
@@ -343,6 +346,9 @@
 - name: Richard Bonichon
   papers:
   - papers/cuoq:sefm:2012
+- name: Kevin Boos
+  papers:
+  - papers/boos:plos:2017
 - name: Edson Borin
   papers:
   - papers/silva:sbac:2016
@@ -1979,6 +1985,9 @@
 - name: Vincent Laporte
   papers:
   - papers/barthe:iacr:2007
+- name: C. Lattner
+  papers:
+  - papers/lattner:cgo:2004
 - name: Hugh C. Lauer
   papers:
   - papers/lauer:osr:1979
@@ -3965,6 +3974,9 @@
 - name: Manchun Zheng
   papers:
   - papers/siegel:sc:2015
+- name: Lin Zhong
+  papers:
+  - papers/boos:plos:2017
 - name: Liming Zhu
   papers:
   - papers/andronick:icse:2012

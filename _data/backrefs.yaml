@@ -1251,6 +1251,7 @@ notes:
   papers/boettcher:date:2014: []
   papers/bohme2:fse:2020: []
   papers/bohme:fse:2020: []
+  papers/boos:plos:2017: []
   papers/bornat:popl:2005:
   - - notes/fractional-permissions
     - - Fractional permissions
@@ -1630,6 +1631,7 @@ notes:
   papers/lal:cav:2012: []
   papers/lal:fse:2014: []
   papers/lal:pldi:2015: []
+  papers/lattner:cgo:2004: []
   papers/lauer:osr:1979:
   - - notes/continuations
     - - Continuations
@@ -3842,6 +3844,9 @@ papers:
   - - papers/gurfinkel:cav:2015
     - - The SeaHorn verification framework
       - gurfinkel:cav:2015
+  - - papers/lattner:cgo:2004
+    - - 'LLVM: a compilation framework for lifelong program analysis   transformation'
+      - lattner:cgo:2004
   - - papers/merz:vstte:2012
     - - 'LLBMC: Bounded model checking of C and C++ programs using a compiler IR'
       - merz:vstte:2012
@@ -4083,6 +4088,9 @@ papers:
         of a hypervisor
       - becker:fm:2016
   notes/operating-systems:
+  - - papers/boos:plos:2017
+    - - 'Theseus: A State Spill-Free Operating System'
+      - boos:plos:2017
   - - papers/draves:sosp:1991
     - - Using continuations to implement thread management and communication in operating
         systems
@@ -4096,6 +4104,15 @@ papers:
   - - papers/lauer:osr:1979
     - - On the duality of operating system structures
       - lauer:osr:1979
+  - - papers/levy:apsys:2017
+    - - The case for writing a kernel in Rust
+      - levy:apsys:2017
+  - - papers/levy:plos:2015
+    - - 'Ownership is theft: Experiences building an embedded OS in Rust'
+      - levy:plos:2015
+  - - papers/levy:sosp:2017
+    - - Multiprogramming a 64kB computer safely and efficiently
+      - levy:sosp:2017
   - - papers/regehr:acp4is:2003
     - - Lock inference for systems software
       - regehr:acp4is:2003
@@ -4443,6 +4460,9 @@ papers:
   - - papers/baranowski:atva:2018
     - - Verifying Rust programs with SMACK
       - baranowski:atva:2018
+  - - papers/boos:plos:2017
+    - - 'Theseus: A State Spill-Free Operating System'
+      - boos:plos:2017
   - - papers/jung:popl:2017
     - - 'RustBelt: Securing the foundations of the Rust programming language'
       - jung:popl:2017
@@ -5679,6 +5699,7 @@ papers:
   papers/boettcher:date:2014: []
   papers/bohme2:fse:2020: []
   papers/bohme:fse:2020: []
+  papers/boos:plos:2017: []
   papers/bornat:popl:2005:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
@@ -6075,6 +6096,7 @@ papers:
     - - Verifying Rust programs with SMACK
       - baranowski:atva:2018
   papers/lal:pldi:2015: []
+  papers/lattner:cgo:2004: []
   papers/lauer:osr:1979: []
   papers/lee:micro:1996: []
   papers/legoues:sefm:2011: []
