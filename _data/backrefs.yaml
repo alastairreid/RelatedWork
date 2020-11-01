@@ -1120,6 +1120,7 @@ notes:
   - - notes/rust-language
     - - Rust language
       - null
+  papers/astrauskas:oopsla:2020: []
   papers/avgerinos:icse:2014:
   - - notes/bap-tool
     - - Binary Analysis Platform (BAP)
@@ -1413,6 +1414,7 @@ notes:
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
   papers/ernst:icse:2016: []
+  papers/evans:icse:2020: []
   papers/fahndrich:foveoos:2010:
   - - notes/contract-driven-development
     - - Contract driven development
@@ -3845,7 +3847,7 @@ papers:
     - - The SeaHorn verification framework
       - gurfinkel:cav:2015
   - - papers/lattner:cgo:2004
-    - - 'LLVM: a compilation framework for lifelong program analysis   transformation'
+    - - 'LLVM: a compilation framework for lifelong program analysis and transformation'
       - lattner:cgo:2004
   - - papers/merz:vstte:2012
     - - 'LLBMC: Bounded model checking of C and C++ programs using a compiler IR'
@@ -4089,7 +4091,7 @@ papers:
       - becker:fm:2016
   notes/operating-systems:
   - - papers/boos:plos:2017
-    - - 'Theseus: A State Spill-Free Operating System'
+    - - 'Theseus: A state spill-free operating system'
       - boos:plos:2017
   - - papers/draves:sosp:1991
     - - Using continuations to implement thread management and communication in operating
@@ -4454,6 +4456,9 @@ papers:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
       - astrauskas:oopsla:2019
+  - - papers/astrauskas:oopsla:2020
+    - - How do programmers use unsafe Rust?
+      - astrauskas:oopsla:2020
   - - papers/balasubramanium:hotos:2017
     - - 'System programming in Rust: Beyond safety'
       - balasubramanium:hotos:2017
@@ -4461,8 +4466,11 @@ papers:
     - - Verifying Rust programs with SMACK
       - baranowski:atva:2018
   - - papers/boos:plos:2017
-    - - 'Theseus: A State Spill-Free Operating System'
+    - - 'Theseus: A state spill-free operating system'
       - boos:plos:2017
+  - - papers/evans:icse:2020
+    - - Is Rust used safely by software developers?
+      - evans:icse:2020
   - - papers/jung:popl:2017
     - - 'RustBelt: Securing the foundations of the Rust programming language'
       - jung:popl:2017
@@ -4495,8 +4503,8 @@ papers:
     - - 'RedLeaf: Towards an operating system for safe and verified firmware'
       - narayanan:hotos:2019
   - - papers/qin:pldi:2020
-    - - Understanding Memory and Thread Safety Practices and Issues in Real-World
-        Rust Programs
+    - - Understanding memory and thread safety practices and issues in real-world
+        Rust programs
       - qin:pldi:2020
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
@@ -4511,6 +4519,12 @@ papers:
     - - 'Rust distilled: An expressive tower of languages'
       - weiss:arxiv:2018
   notes/rust-unsafe-code:
+  - - papers/astrauskas:oopsla:2020
+    - - How do programmers use unsafe Rust?
+      - astrauskas:oopsla:2020
+  - - papers/evans:icse:2020
+    - - Is Rust used safely by software developers?
+      - evans:icse:2020
   - - papers/jung:popl:2017
     - - 'RustBelt: Securing the foundations of the Rust programming language'
       - jung:popl:2017
@@ -4518,8 +4532,8 @@ papers:
     - - 'Stacked borrows: An aliasing model for Rust'
       - jung:popl:2020
   - - papers/qin:pldi:2020
-    - - Understanding Memory and Thread Safety Practices and Issues in Real-World
-        Rust Programs
+    - - Understanding memory and thread safety practices and issues in real-world
+        Rust programs
       - qin:pldi:2020
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
@@ -5546,6 +5560,7 @@ papers:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
+  papers/astrauskas:oopsla:2020: []
   papers/avgerinos:icse:2014: []
   papers/babic:fse:2019:
   - - papers/sadowski:cacm:2018
@@ -5876,6 +5891,7 @@ papers:
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
   papers/ernst:icse:2016: []
+  papers/evans:icse:2020: []
   papers/fahndrich:foveoos:2010:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'

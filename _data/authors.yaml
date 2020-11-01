@@ -112,6 +112,7 @@
 - name: Vytautas Astrauskas
   papers:
   - papers/astrauskas:oopsla:2019
+  - papers/astrauskas:oopsla:2020
 - name: David August
   papers:
   - papers/bridges:micro:2007
@@ -475,6 +476,7 @@
   - papers/nienhuis:secpriv:2020
 - name: Bradford Campbell
   papers:
+  - papers/evans:icse:2020
   - papers/levy:apsys:2017
   - papers/levy:plos:2015
   - papers/levy:sosp:2017
@@ -971,6 +973,9 @@
 - name: Gerben Essink
   papers:
   - papers/wolf:codes:2004
+- name: Ana Nora Evans
+  papers:
+  - papers/evans:icse:2020
 - name: Mbou Eyole
   papers:
   - papers/boettcher:date:2014
@@ -2300,6 +2305,9 @@
 - name: Alexia Massalin
   papers:
   - papers/massalin:asplos:1987
+- name: Christoph Matheja
+  papers:
+  - papers/astrauskas:oopsla:2020
 - name: Daniel Matichuk
   papers:
   - papers/murray:secpriv:2013
@@ -2512,6 +2520,7 @@
 - name: "Peter M\xFCller"
   papers:
   - papers/astrauskas:oopsla:2019
+  - papers/astrauskas:oopsla:2020
   - papers/barnett:cacm:2011
   - papers/hatcliff:compsurv:2012
   - papers/heule:ftfjp:2011
@@ -2832,6 +2841,7 @@
 - name: Federico Poli
   papers:
   - papers/astrauskas:oopsla:2019
+  - papers/astrauskas:oopsla:2020
 - name: Mario Polino
   papers:
   - papers/shoshitaishvili:sp:2016
@@ -3359,6 +3369,9 @@
 - name: Bryan So
   papers:
   - papers/miller:cacm:1990
+- name: Mary Lou Soffa
+  papers:
+  - papers/evans:icse:2020
 - name: Dawn Song
   papers:
   - papers/martignoni:asplos:2012
@@ -3437,6 +3450,7 @@
 - name: Alexander J. Summers
   papers:
   - papers/astrauskas:oopsla:2019
+  - papers/astrauskas:oopsla:2020
   - papers/heule:ftfjp:2011
   - papers/heule:vmcai:2013
   - papers/muller:vmcai:2016

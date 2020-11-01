@@ -21,7 +21,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: PLDI 2020
-title: Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs
+title: Understanding memory and thread safety practices and issues in real-world Rust programs
 url: https://doi.org/10.1145/3385412.3386036
 year: 2020
 notes:

@@ -27,7 +27,7 @@ number: ''
 pages: 75-86
 read: false
 readings: []
-title: 'LLVM: a compilation framework for lifelong program analysis   transformation'
+title: 'LLVM: a compilation framework for lifelong program analysis and transformation'
 volume: ''
 year: 2004
 notes:

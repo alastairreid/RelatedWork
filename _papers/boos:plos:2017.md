@@ -17,7 +17,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: PLOS'17
-title: 'Theseus: A State Spill-Free Operating System'
+title: 'Theseus: A state spill-free operating system'
 url: https://doi.org/10.1145/3144555.3144560
 year: 2017
 notes:
