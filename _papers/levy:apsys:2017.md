@@ -28,6 +28,7 @@ topics:
 - os
 notes:
 - Rust language
+- Operating Systems
 papers:
 ---
 

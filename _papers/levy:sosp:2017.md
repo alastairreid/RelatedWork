@@ -14,6 +14,7 @@ booktitle: Proceedings of the 26th Symposium on Operating Systems Principles
 doi: 10.1145/3132747.3132786
 isbn: '9781450350853'
 layout: paper
+link: https://doi.org/10.1145/3132747.3132786
 location: Shanghai, China
 numpages: '18'
 pages: 234-251
@@ -24,11 +25,9 @@ series: "SOSP '17"
 title: Multiprogramming a 64kB computer safely and efficiently
 url: https://doi.org/10.1145/3132747.3132786
 year: 2017
-topics:
-- os
 notes:
 - Rust language
+- Operating systems
 papers:
 ---
-
 {% include links.html %}
