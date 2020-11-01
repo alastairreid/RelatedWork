@@ -547,6 +547,9 @@
 - name: Hao Chen
   papers:
   - papers/gu:osdi:2016
+- name: Yilun Chen
+  papers:
+  - papers/qin:pldi:2020
 - name: Yang Chen
   papers:
   - papers/regehr:pldi:2012
@@ -2869,6 +2872,9 @@
   - papers/lal:cav:2012
   - papers/lal:fse:2014
   - papers/lal:pldi:2015
+- name: Boqin Qin
+  papers:
+  - papers/qin:pldi:2020
 - name: Ning Qu
   papers:
   - papers/franklin:cmu:2008
@@ -3347,6 +3353,9 @@
 - name: Dawn Song
   papers:
   - papers/martignoni:asplos:2012
+- name: Linhai Song
+  papers:
+  - papers/qin:pldi:2020
 - name: Fu Song
   papers:
   - papers/wang:tase:2018
@@ -3884,6 +3893,9 @@
   papers:
   - papers/bevier:jar:1989
   - papers/hardin:acl2:2006
+- name: Zeming Yu
+  papers:
+  - papers/qin:pldi:2020
 - name: Ali Zaidi
   papers:
   - papers/reid:cav:2016
@@ -3935,6 +3947,9 @@
 - name: Fuyuan Zhang
   papers:
   - papers/mansur:arxiv:2020
+- name: Yiying Zhang
+  papers:
+  - papers/qin:pldi:2020
 - name: Min Zhang
   papers:
   - papers/wang:tase:2018

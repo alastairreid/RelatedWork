@@ -530,6 +530,7 @@ notes:
   - - notes/mir
     - - MIR
       - null
+  notes/model-based-testing: []
   notes/model-checking:
   - - notes/blast-verifier
     - - BLAST verifier
@@ -1862,6 +1863,7 @@ notes:
     - - Translation validation
       - null
   papers/potvin:cacm:2016: []
+  papers/qin:pldi:2020: []
   papers/rakamaric:cav:2014:
   - - notes/smack-verifier
     - - SMACK verifier
@@ -3981,6 +3983,7 @@ papers:
   - - papers/jung:popl:2020
     - - 'Stacked borrows: An aliasing model for Rust'
       - jung:popl:2020
+  notes/model-based-testing: []
   notes/model-checking:
   - - papers/ball:pldi:2001
     - - Automatic predicate abstraction of C programs
@@ -4471,6 +4474,10 @@ papers:
   - - papers/narayanan:hotos:2019
     - - 'RedLeaf: Towards an operating system for safe and verified firmware'
       - narayanan:hotos:2019
+  - - papers/qin:pldi:2020
+    - - Understanding Memory and Thread Safety Practices and Issues in Real-World
+        Rust Programs
+      - qin:pldi:2020
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
@@ -4490,6 +4497,10 @@ papers:
   - - papers/jung:popl:2020
     - - 'Stacked borrows: An aliasing model for Rust'
       - jung:popl:2020
+  - - papers/qin:pldi:2020
+    - - Understanding Memory and Thread Safety Practices and Issues in Real-World
+        Rust Programs
+      - qin:pldi:2020
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
@@ -6263,6 +6274,7 @@ papers:
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
+  papers/qin:pldi:2020: []
   papers/rakamaric:cav:2014:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
