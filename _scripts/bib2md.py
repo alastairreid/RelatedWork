@@ -243,7 +243,7 @@ def cleanup(e):
     e['added'] = date.today()
 
 def main():
-    parser = BibTexParser()
+    parser = BibTexParser(common_strings=True)
     parser.customization = homogenize_latex_encoding
     x = sys.stdin.read()
     x = x.replace('$\{$', '{')
