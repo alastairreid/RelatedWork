@@ -13,7 +13,7 @@ primaryclass: cs.SE
 read: true
 readings:
 - 2021-02-10
-title: Evaluating Manual Intervention to Address the Challenges of Bug Finding with KLEE
+title: Evaluating manual intervention to address the challenges of bug finding with KLEE
 year: 2018
 notes:
 - symbolic execution
