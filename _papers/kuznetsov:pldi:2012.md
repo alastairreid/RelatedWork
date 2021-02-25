@@ -57,10 +57,10 @@ which opportunistically merges similar states.
 The paper has a nice overview of the design space of symbolic program analysis based on how the following
 are handled: loops/recursion; whether and how feasibility of branches is checked to avoid encoding infeasible branches;
 whether and how states from different paths are merged; and compositionality.
-With the exception of compositionality, this is captured in Algorithm~1 that presents a generic algorithm parameterized by
+With the exception of compositionality, this is captured in Algorithm 1 that presents a generic algorithm parameterized by
 a scheduling function, a state similarity relation and a branch checker.
 This is able to capture search based [symbolic execution] (as in KLEE and DART), [bounded model checking],
-static state merging of [verification condition generator]s, and function summaries (which can be seen as
+static state merging in [verification condition generator]s, and function summaries (which can be seen as
 merging states at the end of a function).
 
 Query Count Estimation (QCE) uses a preprocessing step to count the number of times
@@ -79,7 +79,7 @@ To reduce costs, DSM exploits knowledge of the QCE-based similarity relation
 to only store relevant parts of predecessor states.
 
 This was implemented in the [KLEE verifier] and evaluated on the standard KLEE benchmarks
-(the CoreUtils suite of commands: cp, mv, sort, cut, test, etc. - 82 tools in total).
+(the CoreUtils suite of commands: cp, mv, sort, cut, test, etc. – 82 tools in total).
 QCE+DSM improves scaling (number of paths explored in fixed time) to increase by orders of magnitude (up to 10^11).
 (A few slow down a little (due to ite expressions) and a few crash.)
 The paper measures the sensitivity to some of the QCE parameters and how much
