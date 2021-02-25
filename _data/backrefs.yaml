@@ -129,6 +129,13 @@ notes:
   - - notes/cheri-architecture
     - - CHERI architecture
       - null
+  notes/case-splitting:
+  - - notes/case-splitting
+    - - Case splitting
+      - null
+  - - notes/state-merging
+    - - State merging
+      - null
   notes/cbmc-verifier: []
   notes/cegar:
   - - notes/blast-verifier
@@ -541,6 +548,9 @@ notes:
   - - notes/buchi-automaton
     - - "B\xFCchi automaton"
       - null
+  - - notes/case-splitting
+    - - Case splitting
+      - null
   - - notes/cpachecker-verifier
     - - CPAchecker verifier
       - null
@@ -552,6 +562,9 @@ notes:
       - null
   - - notes/sat-solver
     - - SAT solver
+      - null
+  - - notes/state-merging
+    - - State merging
       - null
   - - notes/symbolic-model-checking
     - - Symbolic model checking
@@ -860,6 +873,10 @@ notes:
   - - notes/parallelism
     - - Parallelism
       - null
+  notes/state-merging:
+  - - notes/case-splitting
+    - - Case splitting
+      - null
   notes/stream-processing:
   - - notes/decoupling
     - - Decoupling
@@ -892,8 +909,14 @@ notes:
   - - notes/bounded-model-checking
     - - Bounded model-checking
       - null
+  - - notes/case-splitting
+    - - Case splitting
+      - null
   - - notes/rosette-solver
     - - Rosette solver
+      - null
+  - - notes/state-merging
+    - - State merging
       - null
   - - notes/symbolic-execution
     - - Symbolic execution
@@ -901,6 +924,9 @@ notes:
   notes/symbolic-execution:
   - - notes/bounded-model-checking
     - - Bounded model-checking
+      - null
+  - - notes/case-splitting
+    - - Case splitting
       - null
   - - notes/civl-verifier
     - - CIVL verifier
@@ -922,6 +948,9 @@ notes:
       - null
   - - notes/search-based-test-generation
     - - Search based test generation
+      - null
+  - - notes/state-merging
+    - - State merging
       - null
   - - notes/symbolic-evaluation
     - - Symbolic evaluation
@@ -951,11 +980,11 @@ notes:
   - - notes/dependency-injection
     - - Dependency injection
       - null
-  - - notes/test-driven-development
-    - - Test driven development
-      - null
   - - notes/testability
     - - Testability
+      - null
+  - - notes/test-driven-development
+    - - Test driven development
       - null
   notes/test-driven-development:
   - - notes/contract-driven-development
@@ -964,11 +993,11 @@ notes:
   - - notes/dependency-injection
     - - Dependency injection
       - null
-  - - notes/test-double
-    - - Test doubles (fakes, mocks and stubs)
-      - null
   - - notes/testability
     - - Testability
+      - null
+  - - notes/test-double
+    - - Test doubles (fakes, mocks and stubs)
       - null
   notes/test-generation:
   - - notes/test-generation
@@ -1129,6 +1158,7 @@ notes:
     - - Symbolic execution
       - null
   papers/babic:fse:2019: []
+  papers/bader:vmcai:2018: []
   papers/balasubramanium:hotos:2017: []
   papers/baldoni:compsurv:2018:
   - - notes/smt-solver
@@ -1293,6 +1323,7 @@ notes:
   - - notes/klee-verifier
     - - KLEE verifier
       - null
+  papers/cadar:fse:2015: []
   papers/cadar:osdi:2008:
   - - notes/klee-verifier
     - - KLEE verifier
@@ -1357,6 +1388,7 @@ notes:
       - null
   papers/clarke:wlop:1982: []
   papers/clarkson:jcs:2010: []
+  papers/coblenz:arxiv:2020: []
   papers/cock:ccs:2014: []
   papers/cohen:cav:2010:
   - - notes/annotation-burden
@@ -1463,6 +1495,7 @@ notes:
   papers/freedman:tse:1991: []
   papers/frias:icse:2005: []
   papers/fuxman:isre:2001: []
+  papers/galea:arxiv:2018: []
   papers/garg:icse:2013: []
   papers/gay:pldi:2003: []
   papers/ge:jce:2016:
@@ -1628,6 +1661,8 @@ notes:
   papers/kuhne:fmcad:2010: []
   papers/kumar:isca:2004: []
   papers/kumar:popl:2014: []
+  papers/kupferman:concur:2006: []
+  papers/kuznetsov:pldi:2012: []
   papers/lahiri:cav:2003: []
   papers/lahiri:hldvt:2001: []
   papers/lal:cav:2012: []
@@ -1763,6 +1798,7 @@ notes:
   - - notes/typed-assembly-language
     - - Typed assembly language
       - null
+  papers/myers:computer:2016: []
   papers/myers:csfw:2004: []
   papers/myreen:itp:2012: []
   papers/myreen:tphols:2009: []
@@ -1868,6 +1904,7 @@ notes:
       - null
   papers/potvin:cacm:2016: []
   papers/qin:pldi:2020: []
+  papers/qiu:nfm:2018: []
   papers/rakamaric:cav:2014:
   - - notes/smack-verifier
     - - SMACK verifier
@@ -1914,6 +1951,7 @@ notes:
   papers/reynolds:lics:2002: []
   papers/rieman:chi:1995: []
   papers/roessle:cpp:2019: []
+  papers/rozier:VSTTE:2016: []
   papers/rushby:sri:1992:
   - - notes/non-interference
     - - Non-interference
@@ -2025,6 +2063,7 @@ notes:
   - - notes/rosette-solver
     - - Rosette solver
       - null
+  papers/trabish:icse:2018: []
   papers/tremblay:micro:1996: []
   papers/tuerk:vstte:2010:
   - - notes/loop-invariant
@@ -2051,6 +2090,7 @@ notes:
   - - notes/threads
     - - Threads
       - null
+  papers/votipka:sp:2018: []
   papers/wagner:hotos:2013: []
   papers/walker:popl:2000: []
   papers/walker:tic:2001:
@@ -2085,6 +2125,7 @@ notes:
   papers/zdancewic:csfw:2003: []
   papers/zeldovich:osdi:2006: []
   papers/zeller:bugs:2005: []
+  papers/zhang:apsec:2018: []
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
@@ -2438,6 +2479,23 @@ papers:
   - - papers/woodruff:isca:2014
     - - 'The CHERI capability model: Revisiting RISC in an age of risk'
       - woodruff:isca:2014
+  notes/case-splitting:
+  - - papers/bornholt:oopsla:2018
+    - - Finding code that explodes under symbolic evaluation
+      - bornholt:oopsla:2018
+  - - papers/galea:arxiv:2018
+    - - Evaluating manual intervention to address the challenges of bug finding with
+        KLEE
+      - galea:arxiv:2018
+  - - papers/qiu:nfm:2018
+    - - Using test ranges to improve symbolic execution
+      - qiu:nfm:2018
+  - - papers/torlak:pldi:2014
+    - - A lightweight symbolic virtual machine for solver-aided host languages
+      - torlak:pldi:2014
+  - - papers/trabish:icse:2018
+    - - Chopped symbolic execution
+      - trabish:icse:2018
   notes/cbmc-verifier:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'
@@ -3091,12 +3149,12 @@ papers:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
       - sadowski:cacm:2018
-  - - papers/sadowski:icse-seip:2018
-    - - 'Modern code review: A case study at Google'
-      - sadowski:icse-seip:2018
   - - papers/sadowski:icse:2015
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
+  - - papers/sadowski:icse-seip:2018
+    - - 'Modern code review: A case study at Google'
+      - sadowski:icse-seip:2018
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
@@ -3789,12 +3847,22 @@ papers:
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
+  - - papers/cadar:fse:2015
+    - - Targeted program transformations for symbolic execution
+      - cadar:fse:2015
   - - papers/chipounov:hotdep:2009
     - - Selective symbolic execution
       - chipounov:hotdep:2009
+  - - papers/galea:arxiv:2018
+    - - Evaluating manual intervention to address the challenges of bug finding with
+        KLEE
+      - galea:arxiv:2018
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/kuznetsov:pldi:2012
+    - - Efficient state merging in symbolic execution
+      - kuznetsov:pldi:2012
   - - papers/lindner:indin:2018
     - - No panic! Verification of Rust programs by symbolic execution
       - lindner:indin:2018
@@ -3802,9 +3870,15 @@ papers:
     - - 'Verification of safety functions implemented in Rust: A symbolic execution
         based approach'
       - lindner:indin:2019
+  - - papers/trabish:icse:2018
+    - - Chopped symbolic execution
+      - trabish:icse:2018
   - - papers/wagner:hotos:2013
     - - '-Overify: Optimizing programs for fast verification'
       - wagner:hotos:2013
+  - - papers/zhang:apsec:2018
+    - - Boost symbolic execution using dynamic state merging and forking
+      - zhang:apsec:2018
   notes/kripke-structure:
   - - papers/jhala:compsurv:2009
     - - Software model checking
@@ -4029,6 +4103,9 @@ papers:
   - - papers/krishnamurthi:fm:2019
     - - The human in formal methods
       - krishnamurthi:fm:2019
+  - - papers/kupferman:concur:2006
+    - - Sanity checks in formal verification
+      - kupferman:concur:2006
   - - papers/lal:pldi:2015
     - - 'DAG inlining: A decision procedure for reachability-modulo-theories in hierarchical
         programs'
@@ -4888,6 +4965,19 @@ papers:
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
+  notes/state-merging:
+  - - papers/bornholt:oopsla:2018
+    - - Finding code that explodes under symbolic evaluation
+      - bornholt:oopsla:2018
+  - - papers/kuznetsov:pldi:2012
+    - - Efficient state merging in symbolic execution
+      - kuznetsov:pldi:2012
+  - - papers/torlak:pldi:2014
+    - - A lightweight symbolic virtual machine for solver-aided host languages
+      - torlak:pldi:2014
+  - - papers/zhang:apsec:2018
+    - - Boost symbolic execution using dynamic state merging and forking
+      - zhang:apsec:2018
   notes/stream-processing:
   - - papers/gordon:asplos:2002
     - - A stream compiler for communication-exposed architectures
@@ -5013,6 +5103,9 @@ papers:
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
+  - - papers/cadar:fse:2015
+    - - Targeted program transformations for symbolic execution
+      - cadar:fse:2015
   - - papers/cadar:osdi:2008
     - - 'KLEE: Unassisted and automatic generation of high-coverage tests for complex
         systems programs'
@@ -5029,6 +5122,10 @@ papers:
   - - papers/dimjasevic:ifm:2018
     - - Study of integrating random and symbolic testing for object-oriented software
       - dimjasevic:ifm:2018
+  - - papers/galea:arxiv:2018
+    - - Evaluating manual intervention to address the challenges of bug finding with
+        KLEE
+      - galea:arxiv:2018
   - - papers/garg:icse:2013
     - - Feedback-directed unit test generation for C/C++ using concolic execution
       - garg:icse:2013
@@ -5050,6 +5147,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/kuznetsov:pldi:2012
+    - - Efficient state merging in symbolic execution
+      - kuznetsov:pldi:2012
   - - papers/lindner:indin:2018
     - - No panic! Verification of Rust programs by symbolic execution
       - lindner:indin:2018
@@ -5060,6 +5160,9 @@ papers:
   - - papers/manes:ieeetse:2019
     - - 'The art, science, and engineering of fuzzing: A survey'
       - manes:ieeetse:2019
+  - - papers/qiu:nfm:2018
+    - - Using test ranges to improve symbolic execution
+      - qiu:nfm:2018
   - - papers/schwartz:sp:2010
     - - All you ever wanted to know about dynamic taint analysis and forward symbolic
         execution (but might have been afraid to ask)
@@ -5073,9 +5176,15 @@ papers:
   - - papers/torlak:pldi:2014
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
+  - - papers/trabish:icse:2018
+    - - Chopped symbolic execution
+      - trabish:icse:2018
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
+  - - papers/zhang:apsec:2018
+    - - Boost symbolic execution using dynamic state merging and forking
+      - zhang:apsec:2018
   notes/symbolic-model-checking:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
@@ -5109,6 +5218,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/kupferman:concur:2006
+    - - Sanity checks in formal verification
+      - kupferman:concur:2006
   - - papers/mcmillan:ecs:2003
     - - Model checking
       - mcmillan:ecs:2003
@@ -5303,15 +5415,23 @@ papers:
         and security'
       - weigl:arxiv:2019
   notes/usability:
+  - - papers/coblenz:arxiv:2020
+    - - 'PLIERS: A process that integrates user-centered methods into programming
+        language design'
+      - coblenz:arxiv:2020
   - - papers/macvean:ppig:2016
     - - API usability at scale
       - macvean:ppig:2016
-  - - papers/sadowski:icse-seip:2018
-    - - 'Modern code review: A case study at Google'
-      - sadowski:icse-seip:2018
+  - - papers/myers:computer:2016
+    - - 'Programmers are users too: Human-centered methods for improving programming
+        tools'
+      - myers:computer:2016
   - - papers/sadowski:icse:2015
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
+  - - papers/sadowski:icse-seip:2018
+    - - 'Modern code review: A case study at Google'
+      - sadowski:icse-seip:2018
   notes/vcc-verifier:
   - - papers/cohen:cav:2010
     - - Local verification of global invariants in concurrent programs
@@ -5566,6 +5686,7 @@ papers:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
       - sadowski:cacm:2018
+  papers/bader:vmcai:2018: []
   papers/balasubramanium:hotos:2017: []
   papers/baldoni:compsurv:2018:
   - - papers/cadar:cacm:2013
@@ -5728,7 +5849,11 @@ papers:
   - - papers/muller:vmcai:2016
     - - 'Viper: A verification infrastructure for permission-based reasoning'
       - muller:vmcai:2016
-  papers/bornholt:oopsla:2018: []
+  papers/bornholt:oopsla:2018:
+  - - papers/galea:arxiv:2018
+    - - Evaluating manual intervention to address the challenges of bug finding with
+        KLEE
+      - galea:arxiv:2018
   papers/boulton:tpcd:1993: []
   papers/bowman:icfp:2015: []
   papers/braione:icse:2018: []
@@ -5752,6 +5877,7 @@ papers:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'
       - beyer:hvc:2017
+  papers/cadar:fse:2015: []
   papers/cadar:osdi:2008: []
   papers/calcagno:popl:2009: []
   papers/cattell:phd:1978: []
@@ -5795,6 +5921,7 @@ papers:
   papers/clarke:tacas:2004: []
   papers/clarke:wlop:1982: []
   papers/clarkson:jcs:2010: []
+  papers/coblenz:arxiv:2020: []
   papers/cock:ccs:2014: []
   papers/cohen:cav:2010:
   - - papers/barnett:fmco:2005
@@ -5932,6 +6059,10 @@ papers:
   papers/freedman:tse:1991: []
   papers/frias:icse:2005: []
   papers/fuxman:isre:2001: []
+  papers/galea:arxiv:2018:
+  - - papers/bornholt:oopsla:2018
+    - - Finding code that explodes under symbolic evaluation
+      - bornholt:oopsla:2018
   papers/garg:icse:2013:
   - - papers/dimjasevic:ifm:2018
     - - Study of integrating random and symbolic testing for object-oriented software
@@ -6104,6 +6235,8 @@ papers:
   papers/kuhne:fmcad:2010: []
   papers/kumar:isca:2004: []
   papers/kumar:popl:2014: []
+  papers/kupferman:concur:2006: []
+  papers/kuznetsov:pldi:2012: []
   papers/lahiri:cav:2003: []
   papers/lahiri:hldvt:2001: []
   papers/lal:cav:2012: []
@@ -6228,6 +6361,7 @@ papers:
   papers/murray:secdev:2018: []
   papers/murray:secpriv:2013: []
   papers/mycroft:esop:1999: []
+  papers/myers:computer:2016: []
   papers/myers:csfw:2004: []
   papers/myreen:itp:2012: []
   papers/myreen:tphols:2009: []
@@ -6303,16 +6437,17 @@ papers:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
       - sadowski:cacm:2018
-  - - papers/sadowski:icse-seip:2018
-    - - 'Modern code review: A case study at Google'
-      - sadowski:icse-seip:2018
   - - papers/sadowski:icse:2015
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
+  - - papers/sadowski:icse-seip:2018
+    - - 'Modern code review: A case study at Google'
+      - sadowski:icse-seip:2018
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
   papers/qin:pldi:2020: []
+  papers/qiu:nfm:2018: []
   papers/rakamaric:cav:2014:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -6408,6 +6543,7 @@ papers:
     - - API usability at scale
       - macvean:ppig:2016
   papers/roessle:cpp:2019: []
+  papers/rozier:VSTTE:2016: []
   papers/rushby:sri:1992: []
   papers/russell:cacm:1978: []
   papers/sabelfield:jcs:2009: []
@@ -6415,12 +6551,12 @@ papers:
   - - papers/potvin:cacm:2016
     - - Why Google stores billions of lines of code in a single repository
       - potvin:cacm:2016
-  - - papers/sadowski:icse-seip:2018
-    - - 'Modern code review: A case study at Google'
-      - sadowski:icse-seip:2018
   - - papers/sadowski:icse:2015
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
+  - - papers/sadowski:icse-seip:2018
+    - - 'Modern code review: A case study at Google'
+      - sadowski:icse-seip:2018
   papers/sadowski:icse-seip:2018:
   - - papers/potvin:cacm:2016
     - - Why Google stores billions of lines of code in a single repository
@@ -6538,6 +6674,9 @@ papers:
   papers/toman:ase:2015: []
   papers/torlak:onward:2013: []
   papers/torlak:pldi:2014:
+  - - papers/bornholt:oopsla:2018
+    - - Finding code that explodes under symbolic evaluation
+      - bornholt:oopsla:2018
   - - papers/nelson:sosp:2019
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
@@ -6545,6 +6684,7 @@ papers:
   - - papers/weitz:icfp:2017
     - - 'SpaceSearch: A library for building and verifying solver-aided tools'
       - weitz:icfp:2017
+  papers/trabish:icse:2018: []
   papers/tremblay:micro:1996: []
   papers/tuerk:vstte:2010:
   - - papers/hehner:vstte:2008
@@ -6568,6 +6708,7 @@ papers:
     - - 'Software verification with VeriFast: Industrial case studies'
       - philippaerts:scp:2014
   papers/vonbehren:hotos:2003: []
+  papers/votipka:sp:2018: []
   papers/wagner:hotos:2013: []
   papers/walker:popl:2000: []
   papers/walker:tic:2001: []
@@ -6610,6 +6751,7 @@ papers:
     - - 'The Flask security architecture: System support for diverse security policies'
       - spencer:security:1999
   papers/zeller:bugs:2005: []
+  papers/zhang:apsec:2018: []
   papers/zhang:asplos:2015: []
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []

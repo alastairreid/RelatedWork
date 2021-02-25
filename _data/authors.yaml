@@ -45,6 +45,8 @@
   - papers/lahiri:hldvt:2001
 - name: Jonathan Aldrich
   papers:
+  - papers/bader:vmcai:2018
+  - papers/coblenz:arxiv:2020
   - papers/krishnaswami:tldi:2010
 - name: Nikolaos Alexopoulos
   papers:
@@ -133,6 +135,9 @@
 - name: Alberto Bacchelli
   papers:
   - papers/sadowski:icse-seip:2018
+- name: Johannes Bader
+  papers:
+  - papers/bader:vmcai:2018
 - name: Gogul Balakrishnan
   papers:
   - papers/garg:icse:2013
@@ -178,6 +183,9 @@
 - name: Manuel Barbosa
   papers:
   - papers/almeida:security:2016
+- name: Celeste Barnaby
+  papers:
+  - papers/coblenz:arxiv:2020
 - name: Mike Barnett
   papers:
   - papers/barnett:cacm:2011
@@ -431,6 +439,7 @@
 - name: Stefan Bucur
   papers:
   - papers/babic:fse:2019
+  - papers/kuznetsov:pldi:2012
 - name: Jerry R. Burch
   papers:
   - papers/burch:cav:1994
@@ -461,7 +470,9 @@
 - name: Cristian Cadar
   papers:
   - papers/cadar:cacm:2013
+  - papers/cadar:fse:2015
   - papers/cadar:osdi:2008
+  - papers/trabish:icse:2018
 - name: Cristiano Calcagno
   papers:
   - papers/berdine:aplas:2005
@@ -488,6 +499,7 @@
   - papers/chipounov:asplos:2011
   - papers/chipounov:hotdep:2009
   - papers/chipounov:tcs:2012
+  - papers/kuznetsov:pldi:2012
   - papers/wagner:hotos:2013
 - name: Chandler Carruth
   papers:
@@ -640,6 +652,9 @@
 - name: Natan Cliffer
   papers:
   - papers/krohn:sosp:2007
+- name: Michael Coblenz
+  papers:
+  - papers/coblenz:arxiv:2020
 - name: David Cock
   papers:
   - papers/cock:ccs:2014
@@ -1144,6 +1159,9 @@
 - name: Mikhail R. Gadelha
   papers:
   - papers/monteiro:arxiv:2019
+- name: John Galea
+  papers:
+  - papers/galea:arxiv:2018
 - name: Juan P. Galeotti
   papers:
   - papers/frias:icse:2005
@@ -1436,6 +1454,9 @@
 - name: Liang He
   papers:
   - papers/tremblay:micro:1996
+- name: Sean Heelan
+  papers:
+  - papers/galea:arxiv:2018
 - name: Eric C. R. Hehner
   papers:
   - papers/hehner:vstte:2008
@@ -1562,6 +1583,9 @@
 - name: Wei Hu
   papers:
   - papers/oberg:dac:2010
+- name: Jeremy Hu
+  papers:
+  - papers/votipka:sp:2018
 - name: Weizhe Hua
   papers:
   - papers/ferraiuolo:dac:2017
@@ -1769,6 +1793,9 @@
 - name: Konstantinos Kallas
   papers:
   - papers/chong:icse:2020
+- name: Gauri Kambhatla
+  papers:
+  - papers/coblenz:arxiv:2020
 - name: Jeehoon Kang
   papers:
   - papers/jung:popl:2020
@@ -1821,6 +1848,9 @@
   papers:
   - papers/chong:icse:2020
   - papers/cook:cav:2018
+- name: Sarfraz Khurshid
+  papers:
+  - papers/qiu:nfm:2018
 - name: Gregor Kiczales
   papers:
   - papers/kiczales:iwoos:1991
@@ -1833,6 +1863,9 @@
 - name: Jeremie Kim
   papers:
   - papers/kim:isca:2014
+- name: Johannes Kinder
+  papers:
+  - papers/kuznetsov:pldi:2012
 - name: Tim King
   papers:
   - papers/babic:fse:2019
@@ -1862,6 +1895,9 @@
 - name: Manuel Klimek
   papers:
   - papers/wright:icsm:2013
+- name: Andrew J. Ko
+  papers:
+  - papers/myers:computer:2016
 - name: Naoki Kobayashi
   papers:
   - papers/matsushita:esop:2020
@@ -1894,6 +1930,9 @@
 - name: Soonho Kong
   papers:
   - papers/demoura:cade:2015
+- name: Paulette Koronkevich
+  papers:
+  - papers/coblenz:arxiv:2020
 - name: Nikolai Kosmatov
   papers:
   - papers/blanchard:fmics:2015
@@ -1926,6 +1965,7 @@
   papers:
   - papers/clarke:tacas:2004
   - papers/cook:cav:2018
+  - papers/galea:arxiv:2018
   - papers/kroening:dac:2001
   - papers/kroening:itg:2000
 - name: Maxwell Krohn
@@ -1952,6 +1992,9 @@
 - name: "C\xE9sar Kunz"
   papers:
   - papers/becker:fm:2016
+- name: Orna Kupferman
+  papers:
+  - papers/kupferman:concur:2006
 - name: Markus Kusano
   papers:
   - papers/babic:fse:2019
@@ -1959,10 +2002,14 @@
   papers:
   - papers/chipounov:asplos:2011
   - papers/chipounov:tcs:2012
+  - papers/kuznetsov:pldi:2012
   - papers/wagner:hotos:2013
 - name: "Ulrich K\xFChne"
   papers:
   - papers/kuhne:fmcad:2010
+- name: Thomas D. LaToza
+  papers:
+  - papers/myers:computer:2016
 - name: Shuvendu K. Lahiri
   papers:
   - papers/chatterjee:tacas:2007
@@ -2125,6 +2172,9 @@
   - papers/lin:sips:2006
   - papers/reid:cases:2008
   - papers/woh:micro:2008
+- name: Zhiqiang Lin
+  papers:
+  - papers/zhang:apsec:2018
 - name: Per Lindgren
   papers:
   - papers/lindner:indin:2018
@@ -2317,6 +2367,7 @@
 - name: Andrea Mattavelli
   papers:
   - papers/braione:icse:2018
+  - papers/trabish:icse:2018
 - name: Stefan Maus
   papers:
   - papers/maus:amast:2008
@@ -2334,6 +2385,9 @@
 - name: Bita Mazloom
   papers:
   - papers/tiwari:asplos:2009
+- name: Michelle L. Mazurek
+  papers:
+  - papers/votipka:sp:2018
 - name: Stephen McCamant
   papers:
   - papers/martignoni:asplos:2012
@@ -2484,6 +2538,10 @@
 - name: Alan Mycroft
   papers:
   - papers/mycroft:esop:1999
+- name: Brad A. Myers
+  papers:
+  - papers/coblenz:arxiv:2020
+  - papers/myers:computer:2016
 - name: Andrew C. Myers
   papers:
   - papers/ferraiuolo:asplos:2017
@@ -2611,6 +2669,9 @@
 - name: Daniel Nevill
   papers:
   - papers/stewart:difts:2014
+- name: Daniel Neville
+  papers:
+  - papers/galea:arxiv:2018
 - name: Allen C. Newell
   papers:
   - papers/barbacci:cmu:1972
@@ -2884,6 +2945,9 @@
   - papers/armstrong:spisa:2019
   - papers/flur:popl:2016
   - papers/gray:micro:2015
+- name: "Corina S. P\u0103s\u0103reanu"
+  papers:
+  - papers/qiu:nfm:2018
 - name: Shaz Qadeer
   papers:
   - papers/chatterjee:tacas:2007
@@ -2894,6 +2958,9 @@
 - name: Boqin Qin
   papers:
   - papers/qin:pldi:2020
+- name: Rui Qiu
+  papers:
+  - papers/qiu:nfm:2018
 - name: Ning Qu
   papers:
   - papers/franklin:cmu:2008
@@ -2953,6 +3020,9 @@
 - name: David Redmiles
   papers:
   - papers/rieman:chi:1995
+- name: Elissa M. Redmiles
+  papers:
+  - papers/votipka:sp:2018
 - name: Erik Reeber
   papers:
   - papers/kaivola:cav:2009
@@ -3030,6 +3100,9 @@
 - name: John Rieman
   papers:
   - papers/rieman:chi:1995
+- name: Noam Rinetzky
+  papers:
+  - papers/trabish:icse:2018
 - name: Christine Rizkallah
   papers:
   - papers/amani:asplos:2016
@@ -3066,6 +3139,9 @@
   papers:
   - papers/gross:micro:2016
   - papers/hennessy:micro:1982
+- name: Kristin Yvonne Rozier
+  papers:
+  - papers/rozier:VSTTE:2016
 - name: Colin Runciman
   papers:
   - papers/jones:hasklang:1999
@@ -3090,8 +3166,8 @@
 - name: Caitlin Sadowski
   papers:
   - papers/sadowski:cacm:2018
-  - papers/sadowski:icse-seip:2018
   - papers/sadowski:icse:2015
+  - papers/sadowski:icse-seip:2018
 - name: Mooly Sagiv
   papers:
   - papers/naik:popl:2012
@@ -3415,6 +3491,9 @@
 - name: Nigel Stephens
   papers:
   - papers/stephens:micro:2017
+- name: Rock Stevens
+  papers:
+  - papers/votipka:sp:2018
 - name: Daryl Stewart
   papers:
   - papers/stewart:difts:2014
@@ -3455,6 +3534,9 @@
   - papers/heule:vmcai:2013
   - papers/muller:vmcai:2016
   - papers/schwerhoff:ecoop:2015
+- name: Joshua Sunshine
+  papers:
+  - papers/coblenz:arxiv:2020
 - name: Edward H. Sussenguth
   papers:
   - papers/falkoff:ibm:1964
@@ -3481,8 +3563,8 @@
   - papers/corbett:tocs:2013
 - name: "Emma S\xF6derberg"
   papers:
-  - papers/sadowski:icse-seip:2018
   - papers/sadowski:icse:2015
+  - papers/sadowski:icse-seip:2018
 - name: Amer Tahat
   papers:
   - papers/tahat:fmcad:2019
@@ -3498,6 +3580,9 @@
 - name: Adrian Tang
   papers:
   - papers/tang:sec:2017
+- name: "\xC9ric Tanter"
+  papers:
+  - papers/bader:vmcai:2018
 - name: Serdar Tasiran
   papers:
   - papers/chong:icse:2020
@@ -3592,6 +3677,9 @@
   - papers/torlak:onward:2013
   - papers/torlak:pldi:2014
   - papers/weitz:icfp:2017
+- name: David Trabish
+  papers:
+  - papers/trabish:icse:2018
 - name: Paolo Traverso
   papers:
   - papers/fuxman:isre:2001
@@ -3691,6 +3779,9 @@
 - name: Thiemo Voigt
   papers:
   - papers/dunkels:enss:2006
+- name: Daniel Votipka
+  papers:
+  - papers/votipka:sp:2018
 - name: Peter Vrabel
   papers:
   - papers/reid:cav:2016
@@ -3801,6 +3892,9 @@
 - name: Matt Welsh
   papers:
   - papers/gay:pldi:2003
+- name: Junye Wen
+  papers:
+  - papers/qiu:nfm:2018
 - name: Markus Wenzel
   papers:
   - papers/nipkow:book:2002
@@ -3837,6 +3931,9 @@
 - name: Simon Winwood
   papers:
   - papers/klein:sosp:2009
+- name: Jenna L. Wise
+  papers:
+  - papers/coblenz:arxiv:2020
 - name: Mark Woh
   papers:
   - papers/lin:sdr:2006
@@ -3889,6 +3986,9 @@
   - papers/dinsdale-young:popl:2013
   - papers/distefano:tacas:2006
   - papers/naik:popl:2012
+- name: Guowei Yang
+  papers:
+  - papers/qiu:nfm:2018
 - name: Xuejun Yang
   papers:
   - papers/regehr:pldi:2012
@@ -3903,12 +4003,18 @@
   - papers/ge:jce:2016
   - papers/kocher:arxiv:2018
   - papers/lipp:arxiv:2018
+- name: Weiliang Yin
+  papers:
+  - papers/zhang:apsec:2018
 - name: Alexander Yip
   papers:
   - papers/krohn:sosp:2007
 - name: Shin Yoo
   papers:
   - papers/barr:tse:2015
+- name: YoungSeok Yoon
+  papers:
+  - papers/myers:computer:2016
 - name: Brent Yorgey
   papers:
   - papers/pierce:book:2016
@@ -3979,6 +4085,9 @@
 - name: Jun Zhang
   papers:
   - papers/wang:tase:2018
+- name: Chao Zhang
+  papers:
+  - papers/zhang:apsec:2018
 - name: Chaoqiang Zhang
   papers:
   - papers/zhang:issta:2014
