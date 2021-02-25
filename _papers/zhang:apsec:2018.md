@@ -15,6 +15,7 @@ year: 2018
 notes:
 - symbolic execution
 - KLEE verifier
+- state merging
 papers:
 - kuznetsov:pldi:2012
 ---

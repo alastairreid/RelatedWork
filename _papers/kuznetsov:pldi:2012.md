@@ -40,6 +40,7 @@ notes:
 - bounded model checking
 - verification condition generator
 - KLEE verifier
+- state merging
 papers:
 ---
 

@@ -18,6 +18,7 @@ year: 2018
 notes:
 - symbolic execution
 - KLEE verifier
+- case splitting
 papers:
 - bornholt:oopsla:2018
 ---
@@ -66,6 +67,7 @@ Categorization of software problems that cause problems for symbolic execution
       (This reminded me of verifying crypto code where the function is effectively irreversible so solving for interesting
       input values is not possible.)
     - Inefficient environment models - eg memcpy creates 2n states when n is symbolic → mitigate by adding model to KLEE (using an otherwise inaccessible API?) or by constraining range of symbolic variables
+- One of the key fixes seems to be [case splitting] to replace symbolic values with concrete values.
 
 Evaluation of manual mitigations
 

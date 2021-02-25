@@ -12,7 +12,7 @@ address: Cham
 authors:
 - Rui Qiu
 - Sarfraz Khurshid
-- Corina S. P{\u a}s{\u a}reanu
+- Corina S. Păsăreanu
 - Junye Wen
 - Guowei Yang
 booktitle: NASA Formal Methods
@@ -27,6 +27,7 @@ title: Using test ranges to improve symbolic execution
 year: 2018
 notes:
 - symbolic execution
+- case splitting
 papers:
 ---
 {% include links.html %}

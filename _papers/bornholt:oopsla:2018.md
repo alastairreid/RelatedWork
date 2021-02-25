@@ -29,6 +29,8 @@ notes:
 - symbolic execution
 - bounded model checking
 - Rosette solver
+- case splitting
+- state merging
 papers:
 - galea:arxiv:2018
 - torlak:pldi:2014
@@ -58,10 +60,15 @@ List of antipatterns in solver-aided code
 
 - Algorithmic
 - Representation
-  - Irregular data structures that cause divergence in control flow. (IIRC, Rosette groups data structures by shape (they call it “type”) and merges flows that have the same shape.)
+  - Irregular data structures that cause divergence in control flow. (IIRC,
+    Rosette groups data structures by shape (they call it “type”) and merges
+    flows that have the same shape.)
 - Concreteness
   - Failure leads to large evaluation graphs with many infeasible paths.
-  - Introducing case splits can concretize symbolic values. Eg “if x == 0 { … 0 … } elsif x == 1 { … 1 … } else { … x … }” makes x concrete in the first two branches (and maybe the third option is an error case?) (Rosette’s for/all form does this (section 5.1))
+  - Introducing [case splits][case splitting] can concretize symbolic values.
+    Eg “if x == 0 { … 0 … } elsif x == 1 { … 1 … } else { … x … }” makes x
+    concrete in the first two branches (and maybe the third option is an error
+    case?) (Rosette’s for/all form does this (section 5.1))
 
 
 Profiling
