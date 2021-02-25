@@ -22,8 +22,9 @@ layout: paper
 month: May
 number: ''
 pages: 130-132
-read: false
-readings: []
+read: true
+readings:
+- 2021-02-25
 title: A synergistic approach for distributed symbolic execution using test ranges
 volume: ''
 year: 2017
@@ -31,5 +32,27 @@ notes:
 - symbolic execution
 - case splitting
 papers:
+- siddiqui:oopsla:2012
+- qiu:nfm:2018
 ---
+
+Test ranges (from [siddiqui:oopsla:2012]) compactly represent sets of program paths.
+using a pair of paths to define a range of paths
+based on lexicographic ordering of the paths and can be used to divide the symbolic
+execution tree into a number of subtrees that can be explored in parallel.
+
+This paper adds feasible ranges and unexplored ranges
+
+- **Feasible ranges** start with a shallow exploration of the tree up to a small depth
+  detecting infeasible branches as it goes
+  and then splits the tree into subtrees that only contain feasible paths.
+  This shares constraint solving results without sharing large constraint databases.
+
+- **Unexplored ranges** start with the results of some other test generation tool
+  and identifies unexplored ranges for SE to explore.
+
+Implemented using work-stealing, in Symbolic PathFinder
+
+
+
 {% include links.html %}
