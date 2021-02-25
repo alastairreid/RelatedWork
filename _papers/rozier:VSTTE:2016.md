@@ -17,7 +17,7 @@ pages: 8-26
 publisher: Springer International Publishing
 read: false
 readings: []
-title: 'Specification: The Biggest Bottleneck in Formal Methods and Autonomy'
+title: 'Specification: The biggest bottleneck in formal methods and autonomy'
 year: 2016
 notes:
 papers:
