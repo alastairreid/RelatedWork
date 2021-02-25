@@ -25,8 +25,9 @@ location: Gothenburg, Sweden
 numpages: '11'
 pages: 350-360
 publisher: Association for Computing Machinery
-read: false
-readings: []
+read: true
+readings:
+- 2021-02-25
 series: ICSE '18
 title: Chopped symbolic execution
 url: https://doi.org/10.1145/3180155.3180251
