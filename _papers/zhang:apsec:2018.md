@@ -16,5 +16,6 @@ notes:
 - symbolic execution
 - KLEE verifier
 papers:
+- kuznetsov:pldi:2012
 ---
 {% include links.html %}
