@@ -37,4 +37,51 @@ notes:
 - case splitting
 papers:
 ---
+
+This adds a form of lazy evaluation to symbolic execution: deferring execution
+of code until the analysis actually needs it.
+
+Chopped symbolic execution uses
+
+- A static pointer analysis to identify potential dependencies of the symbolic
+  state on the deferred code so that the code can be executed when it is
+  actually needed. (Whole program, flow/context-insensitive, field-sensitive
+  points-to analysis.)
+- A snapshot of the state just before the deferred code
+- Accesses to dependencies trigger execution of the deferred code
+- A list of "guiding constraints": constraints added to the path condition since
+  after the deferred code. These are added to filter out invalid executions.
+- Static program slicing of the deferred code is used to limit execution
+  to instructions that write to the dependencies.
+  (The 'static' slicing appears to take place just before the deferred code
+  is symbolically executed.)
+- A recovery cache avoids some need to execute the deferred code multiple times.
+  (I think there is some tension between this and slicing?)
+
+*[This seems to have all the elements one would expect in lazy evaluation:
+capturing the closure, creating thunks, using updates to avoid executing thunks
+multiple times.]*
+
+
+Notes
+
+- Deferring execution interferes with the search heuristics so deferred code can
+  be scheduled with some low probability.
+- There is a limitation involving symbolic addresses caused by the need to be
+  able to watch for accesses to dependencies.
+- Implemented as an extension to the [KLEE verifier].
+- Requires user to identify functions to be skipped.
+- Evaluation
+  - All comparisons are with an unmodified KLEE, not other approaches:
+    goal is to understand impact on symbolic execution.
+  - GNU libtasn1 (ASN.1 parsing library) with a focus on four CVEs.
+    - Improvements are dramatic 10x or more.
+    - The methodology for choosing what functions to skip seems to depend on
+      knowing something about the CVEs???
+  - Testsuite augmentation for BC, LibYAML, GNU oSIP.
+    - Goal is to improve on KLEE.
+    - Skip any functions whose descendents have adequate coverage.
+    - Decent improvement in coverage (up to double).
+
+
 {% include links.html %}
