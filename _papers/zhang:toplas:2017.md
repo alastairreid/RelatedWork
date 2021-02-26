@@ -7,7 +7,7 @@ authors:
 - Danfeng Zhang
 - Andrew C. Myers
 - Dimitrios Vytiniotis
-- Simon Peyton-Jones
+- Simon L. Peyton-Jones
 doi: 10.1145/3121137
 issn: 0164-0925
 issue_date: September 2017

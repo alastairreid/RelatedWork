@@ -12,8 +12,6 @@
 - name: Vikram Adve
   papers:
   - papers/dasgupta:pldi:2019
-- name: V. Adve
-  papers:
   - papers/lattner:cgo:2004
 - name: Edward Aftandilian
   papers:
@@ -622,6 +620,7 @@
 - name: Luke Church
   papers:
   - papers/macvean:ppig:2016
+  - papers/reid:hatra:2020
   - papers/sadowski:icse-seip:2018
 - name: Berkeley Churchill
   papers:
@@ -1086,6 +1085,7 @@
   - papers/armstrong:popl19:2019
   - papers/armstrong:spisa:2019
   - papers/flur:popl:2016
+  - papers/reid:hatra:2020
 - name: Michael J. Flynn
   papers:
   - papers/flynn:ieeeproc:1966
@@ -1393,6 +1393,9 @@
   papers:
   - papers/kocher:arxiv:2018
   - papers/lipp:arxiv:2018
+- name: Sarah de Haas
+  papers:
+  - papers/reid:hatra:2020
 - name: Sheikh Mahbub Habib
   papers:
   - papers/alexopoulos:tps:2020
@@ -1737,6 +1740,9 @@
 - name: Dylan Johnson
   papers:
   - papers/nelson:sosp:2017
+- name: Maritza Johnson
+  papers:
+  - papers/reid:hatra:2020
 - name: Thomas Johnsson
   papers:
   - papers/jones:hasklang:1999
@@ -1873,11 +1879,9 @@
   papers:
   - papers/chong:icse:2020
   - papers/cook:cav:2018
-- name: S. Khurshid
-  papers:
-  - papers/qiu:icse:2017
 - name: Sarfraz Khurshid
   papers:
+  - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
   - papers/siddiqui:oopsla:2012
 - name: Gregor Kiczales
@@ -2070,7 +2074,7 @@
 - name: Vincent Laporte
   papers:
   - papers/barthe:iacr:2007
-- name: C. Lattner
+- name: Chris Lattner
   papers:
   - papers/lattner:cgo:2004
 - name: Hugh C. Lauer
@@ -2082,6 +2086,7 @@
   - papers/jones:hasklib:1999
 - name: Ben Laurie
   papers:
+  - papers/reid:hatra:2020
   - papers/woodruff:isca:2014
 - name: Gary T. Leavens
   papers:
@@ -2852,9 +2857,6 @@
   papers:
   - papers/ferraiuolo:sosp:2017
   - papers/hawblitzel:osdi:2014
-- name: C. S. Pasareanu
-  papers:
-  - papers/qiu:icse:2017
 - name: Andrei Paskevich
   papers:
   - papers/filliatre:esop:2013
@@ -2917,7 +2919,7 @@
 - name: "Goran Petrovi\u0107"
   papers:
   - papers/ivankovic:fse:2019
-- name: Simon Peyton-Jones
+- name: Simon L. Peyton-Jones
   papers:
   - papers/zhang:toplas:2017
 - name: "Mauro Pezz\xE8"
@@ -3004,6 +3006,7 @@
   - papers/gray:micro:2015
 - name: "Corina S. P\u0103s\u0103reanu"
   papers:
+  - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
 - name: Shaz Qadeer
   papers:
@@ -3125,6 +3128,7 @@
   - papers/reid:gfpw:1989
   - papers/reid:gfpw:1993
   - papers/reid:gfpw:1994
+  - papers/reid:hatra:2020
   - papers/reid:hw:1995
   - papers/reid:icse:1999
   - papers/reid:ifl:1998

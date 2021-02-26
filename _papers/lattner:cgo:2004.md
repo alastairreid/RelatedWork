@@ -12,8 +12,8 @@ abstract: 'We describe LLVM (low level virtual machine), a compiler framework de
   several challenging compiler problems.'
 added: 2020-11-01
 authors:
-- C. Lattner
-- V. Adve
+- Chris Lattner
+- Vikram Adve
 booktitle: International Symposium on Code Generation and Optimization, 2004. CGO 2004.
 doi: 10.1109/CGO.2004.1281665
 issn: ''

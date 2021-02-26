@@ -2079,6 +2079,7 @@ notes:
   papers/reid:gfpw:1989: []
   papers/reid:gfpw:1993: []
   papers/reid:gfpw:1994: []
+  papers/reid:hatra:2020: []
   papers/reid:hw:1995: []
   papers/reid:icse:1999: []
   papers/reid:ifl:1998: []
@@ -2601,6 +2602,9 @@ papers:
   - - papers/reid:cav:2016
     - - End-to-end verification of ARM processors with ISA-formal
       - reid:cav:2016
+  - - papers/reid:hatra:2020
+    - - 'Towards making formal methods normal: meeting developers where they are'
+      - reid:hatra:2020
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
@@ -3291,6 +3295,9 @@ papers:
   - - papers/regehr:pldi:2012
     - - Test-case reduction for C compiler bugs
       - regehr:pldi:2012
+  - - papers/reid:hatra:2020
+    - - 'Towards making formal methods normal: meeting developers where they are'
+      - reid:hatra:2020
   - - papers/rutledge:icse:2020
     - - 'PG-KLEE: Trading soundness for coverage'
       - rutledge:icse:2020
@@ -4618,6 +4625,9 @@ papers:
     - - 'Test-case reduction via test-case generation: Insights from the Hypothesis
         reducer'
       - maciver:ecoop:2020
+  - - papers/reid:hatra:2020
+    - - 'Towards making formal methods normal: meeting developers where they are'
+      - reid:hatra:2020
   - - papers/tillmann:fse:2005
     - - Parameterized unit tests
       - tillmann:fse:2005
@@ -4787,6 +4797,9 @@ papers:
     - - Understanding memory and thread safety practices and issues in real-world
         Rust programs
       - qin:pldi:2020
+  - - papers/reid:hatra:2020
+    - - 'Towards making formal methods normal: meeting developers where they are'
+      - reid:hatra:2020
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
@@ -5392,6 +5405,9 @@ papers:
   - - papers/qiu:nfm:2018
     - - Using test ranges to improve symbolic execution
       - qiu:nfm:2018
+  - - papers/reid:hatra:2020
+    - - 'Towards making formal methods normal: meeting developers where they are'
+      - reid:hatra:2020
   - - papers/romano:phd:2014
     - - Methods for binary symbolic execution
       - romano:phd:2014
@@ -5664,6 +5680,9 @@ papers:
     - - 'Programmers are users too: Human-centered methods for improving programming
         tools'
       - myers:computer:2016
+  - - papers/reid:hatra:2020
+    - - 'Towards making formal methods normal: meeting developers where they are'
+      - reid:hatra:2020
   - - papers/sadowski:icse-seip:2018
     - - 'Modern code review: A case study at Google'
       - sadowski:icse-seip:2018
@@ -6835,6 +6854,7 @@ papers:
   papers/reid:gfpw:1989: []
   papers/reid:gfpw:1993: []
   papers/reid:gfpw:1994: []
+  papers/reid:hatra:2020: []
   papers/reid:hw:1995: []
   papers/reid:icse:1999: []
   papers/reid:ifl:1998: []

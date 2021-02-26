@@ -9,8 +9,8 @@ abstract: Symbolic execution is a systematic program analysis technique that has
 added: 2021-02-25
 authors:
 - Rui Qiu
-- S. Khurshid
-- C. S. Pasareanu
+- Sarfraz Khurshid
+- Corina S. Păsăreanu
 - Guowei Yang
 booktitle: 2017 IEEE/ACM 39th International Conference on Software Engineering Companion (ICSE-C)
 doi: 10.1109/ICSE-C.2017.116
