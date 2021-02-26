@@ -22,6 +22,7 @@ notes:
 - binary analysis
 - property-based testing
 - unit tests
+- verification performance
 papers:
 ---
 

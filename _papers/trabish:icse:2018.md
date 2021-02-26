@@ -36,6 +36,8 @@ notes:
 - symbolic execution
 - KLEE verifier
 - case splitting
+- verification performance
+- verifier performance
 papers:
 ---
 

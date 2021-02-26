@@ -30,6 +30,7 @@ year: 2020
 notes:
 - KLEE verifier
 - symbolic execution
+- fuzz testing
 papers:
 ---
 {% include links.html %}

@@ -31,6 +31,7 @@ year: 2017
 notes:
 - symbolic execution
 - case splitting
+- verifier performance
 papers:
 - siddiqui:oopsla:2012
 - qiu:nfm:2018

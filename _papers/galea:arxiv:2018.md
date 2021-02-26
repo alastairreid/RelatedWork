@@ -19,6 +19,8 @@ notes:
 - symbolic execution
 - KLEE verifier
 - case splitting
+- verification profiling
+- verification performance
 papers:
 - bornholt:oopsla:2018
 ---

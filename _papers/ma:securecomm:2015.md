@@ -27,9 +27,10 @@ pages: 287-304
 publisher: Springer International Publishing
 read: false
 readings: []
-title: Control Flow Obfuscation Using Neural Network to Fight Concolic Testing
+title: Control flow obfuscation using neural network to fight concolic testing
 year: 2015
 notes:
+- verifier performance
 papers:
 ---
 {% include links.html %}

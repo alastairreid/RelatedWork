@@ -31,9 +31,12 @@ notes:
 - Rosette solver
 - case splitting
 - state merging
+- verification profiling
+- verification performance
 papers:
 - galea:arxiv:2018
 - torlak:pldi:2014
+- kuznetsov:pldi:2012
 ---
 
 Like [galea:arxiv:2018] (which is also worth a read), this paper looks at how
@@ -74,7 +77,7 @@ List of antipatterns in solver-aided code
 Profiling
 
   - Considered input-sensitive profiling [Coppa et al., 2012] but correlation between input size and performance is often poor for symbolic evaluation: inaccurate and noisy.
-  - Considered path-based profiling [Kuznetsov et al., 2012]: rank functions based on number of infeasible paths explored and size of path conditions. But infeasible paths are not always the problem and measuring feasibility is expensive (uses solver); and does not work for BMC.
+  - Considered path-based profiling [kuznetsov:pldi:2012]: rank functions based on number of infeasible paths explored and size of path conditions. But infeasible paths are not always the problem and measuring feasibility is expensive (uses solver); and does not work for BMC.
   - These lead them to heap + graph model (above).
     - Symbolic profiler interface (I have transliterated the interface into pseudo-Rust).
       - mkTerm(Vec<term>) -> term

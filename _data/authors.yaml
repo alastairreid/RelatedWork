@@ -241,6 +241,9 @@
   - papers/baumann:hotos:2017
   - papers/ferraiuolo:sosp:2017
   - papers/nelson:sosp:2019
+- name: Wim Beck
+  papers:
+  - papers/milushev:forte:2012
 - name: Hanno Becker
   papers:
   - papers/becker:fm:2016
@@ -629,6 +632,7 @@
 - name: Alessandro Cimatti
   papers:
   - papers/biere:tacas:1999
+  - papers/mechtaev:fse:2018
 - name: Craig Citro
   papers:
   - papers/macvean:ppig:2016
@@ -646,6 +650,9 @@
   - papers/clarke:cav:2000
   - papers/clarke:tacas:2004
   - papers/clarke:wlop:1982
+- name: Dave Clarke
+  papers:
+  - papers/milushev:forte:2012
 - name: Michael R. Clarkson
   papers:
   - papers/clarkson:jcs:2010
@@ -1177,6 +1184,9 @@
 - name: Dennis Gannon
   papers:
   - papers/veldhuizen:oo:1998
+- name: Debin Gao
+  papers:
+  - papers/ma:securecomm:2015
 - name: Xin Gao
   papers:
   - papers/murray:secpriv:2013
@@ -1303,6 +1313,7 @@
   - papers/greve:fmcad:1998
 - name: Alberto Griggio
   papers:
+  - papers/mechtaev:fse:2018
   - papers/nyxbrain:sc2:2017
 - name: Edmund Grimley-Evans
   papers:
@@ -1595,6 +1606,9 @@
 - name: Bo-Yuan Huang
   papers:
   - papers/huang:todaes:2019
+- name: Zhipeng Huang
+  papers:
+  - papers/ma:securecomm:2015
 - name: Paul Hudak
   papers:
   - papers/jones:hasklang:1999
@@ -1691,6 +1705,9 @@
   - papers/henzinger:spin:2003
   - papers/jhala:cav:2001
   - papers/jhala:compsurv:2009
+- name: Chunfu Jia
+  papers:
+  - papers/ma:securecomm:2015
 - name: Limin Jia
   papers:
   - papers/vasudevan:secpriv:2013
@@ -1848,9 +1865,13 @@
   papers:
   - papers/chong:icse:2020
   - papers/cook:cav:2018
+- name: S. Khurshid
+  papers:
+  - papers/qiu:icse:2017
 - name: Sarfraz Khurshid
   papers:
   - papers/qiu:nfm:2018
+  - papers/siddiqui:oopsla:2012
 - name: Gregor Kiczales
   papers:
   - papers/kiczales:iwoos:1991
@@ -1938,6 +1959,9 @@
   - papers/blanchard:fmics:2015
   - papers/cuoq:sefm:2012
   - papers/mangano:crisis:2016
+- name: Phani Raj Goutham Kotcharlakota
+  papers:
+  - papers/pandey:issta:2019
 - name: Mikhail Kovalev
   papers:
   - papers/alkassar:vstte:2012
@@ -2017,6 +2041,7 @@
   - papers/lahiri:cav:2003
   - papers/lahiri:hldvt:2001
   - papers/lal:cav:2012
+  - papers/vanegue:sandp:2013
 - name: Konrad Lai
   papers:
   - papers/kim:isca:2014
@@ -2190,6 +2215,9 @@
 - name: Jed Liu
   papers:
   - papers/liu:cpsspc:2018
+- name: Weijie Liu
+  papers:
+  - papers/ma:securecomm:2015
 - name: Alexander Lloyd
   papers:
   - papers/corbett:tocs:2013
@@ -2255,6 +2283,12 @@
 - name: "Andreas L\xF6\xF6w"
   papers:
   - papers/loow:pldi:2019
+- name: Haoyu Ma
+  papers:
+  - papers/ma:securecomm:2015
+- name: Xinjie Ma
+  papers:
+  - papers/ma:securecomm:2015
 - name: David R. MacIver
   papers:
   - papers/maciver:ecoop:2020
@@ -2408,6 +2442,9 @@
 - name: Ross Mcilroy
   papers:
   - papers/mcilroy:arxiv:2019
+- name: Sergey Mechtaev
+  papers:
+  - papers/mechtaev:fse:2018
 - name: Erik Meijer
   papers:
   - papers/chakravarty:haskffi:2003
@@ -2447,6 +2484,9 @@
 - name: Robin Milner
   papers:
   - papers/milner:jcss:1978
+- name: Dimiter Milushev
+  papers:
+  - papers/milushev:forte:2012
 - name: Prabhat Mishra
   papers:
   - papers/mishra:book:2008
@@ -2752,6 +2792,9 @@
 - name: Greg Ordy
   papers:
   - papers/chu:ieeedtc:1992
+- name: Alessandro Orso
+  papers:
+  - papers/rutledge:icse:2020
 - name: John Ousterhout
   papers:
   - papers/ousterhout:usenix:1996
@@ -2771,6 +2814,9 @@
 - name: Sudhindra Pandav
   papers:
   - papers/kaivola:cav:2009
+- name: Awanish Pandey
+  papers:
+  - papers/pandey:issta:2019
 - name: Sven Panne
   papers:
   - papers/chakravarty:haskffi:2003
@@ -2798,6 +2844,9 @@
   papers:
   - papers/ferraiuolo:sosp:2017
   - papers/hawblitzel:osdi:2014
+- name: C. S. Pasareanu
+  papers:
+  - papers/qiu:icse:2017
 - name: Andrei Paskevich
   papers:
   - papers/filliatre:esop:2013
@@ -2960,6 +3009,7 @@
   - papers/qin:pldi:2020
 - name: Rui Qiu
   papers:
+  - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
 - name: Ning Qu
   papers:
@@ -3129,6 +3179,9 @@
 - name: Lindsay Rolig
   papers:
   - papers/corbett:tocs:2013
+- name: Anthony Romano
+  papers:
+  - papers/romano:phd:2014
 - name: Jan-Willem Roorda
   papers:
   - papers/claessen:sfm:2006
@@ -3139,6 +3192,12 @@
   papers:
   - papers/gross:micro:2016
   - papers/hennessy:micro:1982
+- name: Subhajit Roy
+  papers:
+  - papers/pandey:issta:2019
+- name: Abhik Roychoudhury
+  papers:
+  - papers/mechtaev:fse:2018
 - name: Kristin Yvonne Rozier
   papers:
   - papers/rozier:VSTTE:2016
@@ -3149,6 +3208,9 @@
 - name: Richard M. Russell
   papers:
   - papers/russell:cacm:1978
+- name: Richard Rutledge
+  papers:
+  - papers/rutledge:icse:2020
 - name: Leonid Ryzhyk
   papers:
   - papers/balasubramanium:hotos:2017
@@ -3166,8 +3228,8 @@
 - name: Caitlin Sadowski
   papers:
   - papers/sadowski:cacm:2018
-  - papers/sadowski:icse:2015
   - papers/sadowski:icse-seip:2018
+  - papers/sadowski:icse:2015
 - name: Mooly Sagiv
   papers:
   - papers/naik:popl:2012
@@ -3349,6 +3411,9 @@
   papers:
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
+- name: Junaid Haroon Siddiqui
+  papers:
+  - papers/siddiqui:oopsla:2012
 - name: Michael Siegel
   papers:
   - papers/pnueli:tacas:1998
@@ -3563,8 +3628,8 @@
   - papers/corbett:tocs:2013
 - name: "Emma S\xF6derberg"
   papers:
-  - papers/sadowski:icse:2015
   - papers/sadowski:icse-seip:2018
+  - papers/sadowski:icse:2015
 - name: Amer Tahat
   papers:
   - papers/tahat:fmcad:2019
@@ -3727,6 +3792,9 @@
 - name: Steve VanDeBogart
   papers:
   - papers/efstathopoulos:sosp:2005
+- name: Julien Vanegue
+  papers:
+  - papers/vanegue:sandp:2013
 - name: Amit Vasudevan
   papers:
   - papers/vasudevan:secpriv:2013
@@ -3988,6 +4056,7 @@
   - papers/naik:popl:2012
 - name: Guowei Yang
   papers:
+  - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
 - name: Xuejun Yang
   papers:

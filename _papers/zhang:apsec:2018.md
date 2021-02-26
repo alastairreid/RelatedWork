@@ -16,6 +16,7 @@ notes:
 - symbolic execution
 - KLEE verifier
 - state merging
+- verifier performance
 papers:
 - kuznetsov:pldi:2012
 ---
