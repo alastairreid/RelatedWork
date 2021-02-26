@@ -13,6 +13,10 @@ papers:
 title: Swarm verification
 ---
 
+*[Todo: need to go back to [holzmann:ieeetse:2011] that introduced the term
+and check that all the things I say below are "swarm" verification specifically
+and not just "parallel verification".]*
+
 Splitting a verification problem into pieces that can be tackled in parallel.
 In particular, largely automatic techniques that exploit some parameter and
 invoke multiple copies of the verifier with different parameter values and with
@@ -30,7 +34,8 @@ little/no overlap in what each instance is checking.
 
 - The Swarm Verification paper ([holzmann:ieeetse:2011]) is interested
   in finding violations by maximizing coverage within some time limit and
-  runs multiple diverse copies of the problem: using random seeds, etc.
+  runs multiple diverse copies of the problem: using random seeds, 
+  different parameters to heuristics, etc.
   to achieve diversity.
 
 - The Ranged Analysis paper ([siddiqui:oopsla:2012]) dynamically decides how
