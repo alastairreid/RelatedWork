@@ -23,7 +23,9 @@ notes:
 - property-based testing
 - unit tests
 - verification performance
+- swarm verification
 papers:
+- holzmann:ieeetse:2011
 ---
 
 DeepState seeks to narrow the gap between techniques that programmers are

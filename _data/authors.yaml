@@ -1325,6 +1325,7 @@
   papers:
   - papers/goodman:ndss:2018
   - papers/groce:issta:2017
+  - papers/holzmann:ieeetse:2011
   - papers/zhang:issta:2014
 - name: John Grosen
   papers:
@@ -1561,6 +1562,9 @@
   papers:
   - papers/holzer:cav:2008
   - papers/holzer:hvc:2010
+- name: Gerard J. Holzmann
+  papers:
+  - papers/holzmann:ieeetse:2011
 - name: Mark Horowitz
   papers:
   - papers/lie:secpri:2003
@@ -1758,6 +1762,7 @@
   - papers/dam:ieeetc:1981
 - name: Rajeev Joshi
   papers:
+  - papers/holzmann:ieeetse:2011
   - papers/joshi:pldi:2002
 - name: Sarang Joshi
   papers:

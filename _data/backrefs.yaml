@@ -109,6 +109,9 @@ notes:
   - - notes/cbmc-verifier
     - - CBMC verifier
       - null
+  - - notes/swarm-verification
+    - - Swarm verification
+      - null
   - - notes/symbolic-evaluation
     - - Symbolic evaluation
       - null
@@ -144,6 +147,9 @@ notes:
       - null
   - - notes/state-merging
     - - State merging
+      - null
+  - - notes/swarm-verification
+    - - Swarm verification
       - null
   - - notes/verification-performance
     - - Verification performance of code
@@ -950,6 +956,13 @@ notes:
   - - notes/test-competition
     - - Software Testing Competition (Test-Comp)
       - null
+  notes/swarm-verification:
+  - - notes/case-splitting
+    - - Case splitting
+      - null
+  - - notes/verification-performance
+    - - Verification performance of code
+      - null
   notes/symbolic-evaluation:
   - - notes/bounded-model-checking
     - - Bounded model-checking
@@ -1142,6 +1155,9 @@ notes:
     - - Viper verifier
       - null
   notes/verification-performance:
+  - - notes/swarm-verification
+    - - Swarm verification
+      - null
   - - notes/verification-profiling
     - - Verification profiling of code
       - null
@@ -1156,6 +1172,9 @@ notes:
     - - Verifier performance
       - null
   notes/verifier-performance:
+  - - notes/swarm-verification
+    - - Swarm verification
+      - null
   - - notes/verification-performance
     - - Verification performance of code
       - null
@@ -1622,6 +1641,9 @@ notes:
     - - Non-interference
       - null
   papers/goodman:ndss:2018:
+  - - notes/swarm-verification
+    - - Swarm verification
+      - null
   - - notes/verification-performance
     - - Verification performance of code
       - null
@@ -1682,6 +1704,13 @@ notes:
   papers/holzer:hvc:2010:
   - - notes/fql
     - - FShell Query Language (FQL)
+      - null
+  papers/holzmann:ieeetse:2011:
+  - - notes/swarm-verification
+    - - Swarm verification
+      - null
+  - - notes/verification-performance
+    - - Verification performance of code
       - null
   papers/hritcu:icfp:2013: []
   papers/huang:todaes:2019: []
@@ -2010,8 +2039,17 @@ notes:
       - null
   papers/potvin:cacm:2016: []
   papers/qin:pldi:2020: []
-  papers/qiu:icse:2017: []
-  papers/qiu:nfm:2018: []
+  papers/qiu:icse:2017:
+  - - notes/swarm-verification
+    - - Swarm verification
+      - null
+  - - notes/verifier-performance
+    - - Verifier performance
+      - null
+  papers/qiu:nfm:2018:
+  - - notes/verifier-performance
+    - - Verifier performance
+      - null
   papers/rakamaric:cav:2014:
   - - notes/smack-verifier
     - - SMACK verifier
@@ -2104,7 +2142,16 @@ notes:
   - - notes/systematization-of-knowledge
     - - Systematization of Knowledge (SoK)
       - null
-  papers/siddiqui:oopsla:2012: []
+  papers/siddiqui:oopsla:2012:
+  - - notes/swarm-verification
+    - - Swarm verification
+      - null
+  - - notes/verification-performance
+    - - Verification performance of code
+      - null
+  - - notes/verifier-performance
+    - - Verifier performance
+      - null
   papers/siegel:sc:2015: []
   papers/sigurbjarnarson:osdi:2016: []
   papers/sigurbjarnarson:osdi:2018: []
@@ -2173,7 +2220,10 @@ notes:
   - - notes/rosette-solver
     - - Rosette solver
       - null
-  papers/trabish:icse:2018: []
+  papers/trabish:icse:2018:
+  - - notes/verifier-performance
+    - - Verifier performance
+      - null
   papers/tremblay:micro:1996: []
   papers/tuerk:vstte:2010:
   - - notes/loop-invariant
@@ -4244,6 +4294,9 @@ papers:
   - - papers/henzinger:spin:2003
     - - Software verification with BLAST
       - henzinger:spin:2003
+  - - papers/holzmann:ieeetse:2011
+    - - Swarm verification techniques
+      - holzmann:ieeetse:2011
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
@@ -5208,6 +5261,13 @@ papers:
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
+  notes/swarm-verification:
+  - - papers/goodman:ndss:2018
+    - - 'DeepState: Symbolic unit testing for C and C++'
+      - goodman:ndss:2018
+  - - papers/holzmann:ieeetse:2011
+    - - Swarm verification techniques
+      - holzmann:ieeetse:2011
   notes/symbolic-evaluation:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
@@ -5710,6 +5770,9 @@ papers:
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/holzmann:ieeetse:2011
+    - - Swarm verification techniques
+      - holzmann:ieeetse:2011
   - - papers/trabish:icse:2018
     - - Chopped symbolic execution
       - trabish:icse:2018
@@ -5725,6 +5788,9 @@ papers:
   - - papers/cadar:fse:2015
     - - Targeted program transformations for symbolic execution
       - cadar:fse:2015
+  - - papers/holzmann:ieeetse:2011
+    - - Swarm verification techniques
+      - holzmann:ieeetse:2011
   - - papers/kuznetsov:pldi:2012
     - - Efficient state merging in symbolic execution
       - kuznetsov:pldi:2012
@@ -6313,7 +6379,10 @@ papers:
     - - Noninterference, transitivity, and channel-control security policies
       - rushby:sri:1992
   papers/goguen:secpriv:1984: []
-  papers/goodman:ndss:2018: []
+  papers/goodman:ndss:2018:
+  - - papers/holzmann:ieeetse:2011
+    - - Swarm verification techniques
+      - holzmann:ieeetse:2011
   papers/gordon:asplos:2002: []
   papers/gordon:book:1993: []
   papers/gray:micro:2015: []
@@ -6372,6 +6441,10 @@ papers:
   - - papers/holzer:cav:2008
     - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
       - holzer:cav:2008
+  papers/holzmann:ieeetse:2011:
+  - - papers/goodman:ndss:2018
+    - - 'DeepState: Symbolic unit testing for C and C++'
+      - goodman:ndss:2018
   papers/hritcu:icfp:2013: []
   papers/huang:todaes:2019: []
   papers/hunt:jar:1989: []

@@ -7,6 +7,7 @@ notes:
 - symbolic evaluation
 - case splitting
 - state merging
+- swarm verification
 ---
 
 In formal verification, case splitting consists of separately considering
