@@ -4,7 +4,7 @@ added: 2020-11-12
 address: Los Alamitos, CA, USA
 authors:
 - Brad A. Myers
-- Andrew J. Ko
+- Amy J. Ko
 - Thomas D. LaToza
 - YoungSeok Yoon
 doi: 10.1109/MC.2016.200

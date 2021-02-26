@@ -567,15 +567,16 @@
 - name: Yaohui Chen
   papers:
   - papers/babic:fse:2019
+- name: Yang Chen
+  papers:
+  - papers/groce:issta:2012
+  - papers/regehr:pldi:2012
 - name: Hao Chen
   papers:
   - papers/gu:osdi:2016
 - name: Yilun Chen
   papers:
   - papers/qin:pldi:2020
-- name: Yang Chen
-  papers:
-  - papers/regehr:pldi:2012
 - name: Rick Chen
   papers:
   - papers/reid:cav:2016
@@ -954,6 +955,7 @@
   papers:
   - papers/eide:aspse:2001
   - papers/eide:icse:2002
+  - papers/groce:issta:2012
   - papers/regehr:pldi:2012
   - papers/reid:osdi:2000
 - name: Dhammika Elkaduwe
@@ -1324,6 +1326,7 @@
 - name: Alex Groce
   papers:
   - papers/goodman:ndss:2018
+  - papers/groce:issta:2012
   - papers/groce:issta:2017
   - papers/holzmann:ieeetse:2011
   - papers/zhang:issta:2014
@@ -1921,7 +1924,7 @@
 - name: Manuel Klimek
   papers:
   - papers/wright:icsm:2013
-- name: Andrew J. Ko
+- name: Amy J. Ko
   papers:
   - papers/myers:computer:2016
 - name: Naoki Kobayashi
@@ -3084,6 +3087,7 @@
 - name: John Regehr
   papers:
   - papers/eide:icse:2002
+  - papers/groce:issta:2012
   - papers/lopes:pldi:2015
   - papers/regehr:acp4is:2003
   - papers/regehr:asplos:2004
@@ -4140,6 +4144,10 @@
   papers:
   - papers/fonseca:ecs:2017
   - papers/nelson:sosp:2017
+- name: Chaoqiang Zhang
+  papers:
+  - papers/groce:issta:2012
+  - papers/zhang:issta:2014
 - name: Hongce Zhang
   papers:
   - papers/huang:todaes:2019
@@ -4162,9 +4170,6 @@
 - name: Chao Zhang
   papers:
   - papers/zhang:apsec:2018
-- name: Chaoqiang Zhang
-  papers:
-  - papers/zhang:issta:2014
 - name: Mark Zhao
   papers:
   - papers/ferraiuolo:ccs:2018
