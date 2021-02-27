@@ -6412,7 +6412,10 @@ papers:
   papers/green:pandc:1990: []
   papers/green:tutorial:1998: []
   papers/greve:fmcad:1998: []
-  papers/groce:issta:2012: []
+  papers/groce:issta:2012:
+  - - papers/holzmann:ieeetse:2011
+    - - Swarm verification techniques
+      - holzmann:ieeetse:2011
   papers/groce:issta:2017: []
   papers/gross:micro:2016: []
   papers/grossman:esop:2002: []
