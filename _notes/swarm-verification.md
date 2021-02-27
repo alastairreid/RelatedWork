@@ -7,6 +7,7 @@ notes:
 - case splitting
 papers:
 - holzmann:ieeetse:2011
+- groce:issta:2012
 - goodman:ndss:2018
 - siddiqui:oopsla:2012
 - qiu:icse:2017
@@ -39,11 +40,19 @@ have higher coverage.
   This relied on the fact that the unrolled copies without checks would
   be evaluated faster than the copies with checks.
 
+An interesting variant of swarm *verification* is swarm *testing*
+([groce:issta:2012]) that relies on "feature omission diversity" to improve
+testing: generating tests that only exercise a subset of the features of the
+system. The key insight there is that features can *suppress* bugs as well as
+*activating* bugs so tests that randomly omit some features from testing can
+have a higher chance of catching some bugs. They suggest that this can also be
+used with model-checking and/or combined with swarm verification.
+
 Some slightly different techniques to achieve parallelism achieve diversity by
 configuring verification so that there is no overlap (not just *probably* no
 overlap).  Like swarm verification, there is no need to coordinate between jobs
 running in parallel but I am not clear whether they are really 'swarm
-verification' or just parallel verification.
+verification' or just parallel verification that scales well.
 
 - The Ranged Analysis paper ([siddiqui:oopsla:2012]) dynamically decides how
   to partition a symbolic execution task using work-stealing.
