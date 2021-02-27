@@ -18,6 +18,8 @@ papers:
 - bornholt:oopsla:2018
 - baldoni:compsurv:2018
 - avgerinos:icse:2014
+- kuznetsov:pldi:2012
+- siddiqui:oopsla:2012
 ---
 
 Following the terminology in section 3.1 of
@@ -30,6 +32,12 @@ evaluated directly and efficiently.  The price paid for this advantage is that
 there can be an exponential number of paths.
 
 See also [bounded model checking] and [symbolic evaluation].
+and see [kuznetsov:pldi:2012] for a unifying framework that
+describes the symbolic evaluation design space/spectrum in terms of
+how loop/recursion are handled, whether/how branches are tested for
+feasibility, whether/how states from different paths are merged and
+compositionality.
+
 
 Types of symbolic execution include
 
@@ -75,10 +83,27 @@ Types of symbolic execution include
 
   (I think this may be a special case of DSE?)
 
-todo: it is probably less useful to have a tree-shaped taxonomy of this topic
+- Forward symbolic execution constructs paths in normal program order.
+  *[I have seen references to backward symbolic execution but I
+  don't think I have seen backward symbolic execution being used
+  for software verification.]*
+
+*[todo: it is probably less useful to have a tree-shaped taxonomy of this topic
 than to have a list of design choices that define an N-dimensional taxonomy
 where most dimensions include "yes", "no" and "hybrid" on their axis.  This
 would better capture how thoroughly the symbolic execution design space has
-been explored.
+been explored.]*
+
+In part because of the exponential path explosion of pure symbolic execution,
+it is rarely feasible to check all paths so there has been a lot of work on
+scheduling algorithms that try to maximize coverage, to cover some part of the
+code (e.g., code that is part of a recent commit), to execute enough iterations
+to overflow a buffer, etc.  These scheduling algorithms make [state merging]
+harder (but see [kuznetsov:pldi:2012]), make ranged analysis harder
+([siddiqui:oopsla:2012]), and probably other impacts too.
+
+(Note that even if you could explore all paths, you still can't guarantee to find
+all bugs because things like external calls and syscalls require concretization
+and therefore lose completeness.)
 
 {% include links.html %}
