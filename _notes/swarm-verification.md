@@ -13,14 +13,21 @@ papers:
 title: Swarm verification
 ---
 
-*[Todo: need to go back to [holzmann:ieeetse:2011] that introduced the term
-and check that all the things I say below are "swarm" verification specifically
-and not just "parallel verification".]*
+Splitting an automated verification problem into pieces that can be tackled in parallel
+using a diverse set of configurations so that they can explore the search space
+more quickly and thoroughly.
+In the [original paper][holzmann:ieeetse:2011], the different runs were overlapping
+and there was some probablity of duplicated effort.
 
-Splitting a verification problem into pieces that can be tackled in parallel.
-In particular, largely automatic techniques that exploit some parameter and
-invoke multiple copies of the verifier with different parameter values and with
-little/no overlap in what each instance is checking.
+I think that a part of the benefit comes from increased search velocity early in
+a run so a small number of runs exploring different parts of the search space will
+have higher coverage.
+
+- The Swarm Verification paper ([holzmann:ieeetse:2011]) is interested
+  in finding violations by maximizing coverage within some time limit and
+  runs multiple diverse copies of the problem: using random seeds, 
+  different parameters to heuristics, etc.
+  to achieve diversity.
 
 - In [bounded model checking] of hardware, I have seen this done by varying the bounds.
   in a so-called "B swarm".
@@ -32,11 +39,11 @@ little/no overlap in what each instance is checking.
   This relied on the fact that the unrolled copies without checks would
   be evaluated faster than the copies with checks.
 
-- The Swarm Verification paper ([holzmann:ieeetse:2011]) is interested
-  in finding violations by maximizing coverage within some time limit and
-  runs multiple diverse copies of the problem: using random seeds, 
-  different parameters to heuristics, etc.
-  to achieve diversity.
+Some slightly different techniques to achieve parallelism achieve diversity by
+configuring verification so that there is no overlap (not just *probably* no
+overlap).  Like swarm verification, there is no need to coordinate between jobs
+running in parallel but I am not clear whether they are really 'swarm
+verification' or just parallel verification.
 
 - The Ranged Analysis paper ([siddiqui:oopsla:2012]) dynamically decides how
   to partition a symbolic execution task using work-stealing.
