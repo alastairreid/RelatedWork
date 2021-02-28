@@ -1224,6 +1224,7 @@ notes:
   papers/aagaard:charme:2001: []
   papers/aagaard:fmcad:2000: []
   papers/abadi:tcs:1991: []
+  papers/abtahi:chi:2020: []
   papers/albin:cli:1995: []
   papers/alexopoulos:tps:2020: []
   papers/alglave:toplas:2014: []
@@ -1340,6 +1341,7 @@ notes:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
       - null
+  papers/beckmann:msc:2020: []
   papers/bell:afips:1970:
   - - notes/isps
     - - Instruction Set Processor (ISP)
@@ -1549,6 +1551,7 @@ notes:
     - - Z3 theorem prover
       - null
   papers/deng:hasp:2019: []
+  papers/denis:hal:2020: []
   papers/denning:cacm:1976: []
   papers/dias:popl:2010: []
   papers/dimjasevic:ifm:2018: []
@@ -1660,6 +1663,7 @@ notes:
   - - notes/hol-theorem-prover
     - - HOL theorem prover
       - null
+  papers/gorse:msc:2020: []
   papers/gray:micro:2015: []
   papers/green:pandc:1990: []
   papers/green:tutorial:1998: []
@@ -1765,6 +1769,7 @@ notes:
   papers/jones:microsoft:2001: []
   papers/jones:pldi:1999: []
   papers/joshi:pldi:2002: []
+  papers/jung:cacm:2021: []
   papers/jung:popl:2017:
   - - notes/rust-language
     - - Rust language
@@ -1879,6 +1884,7 @@ notes:
       - null
   papers/lipp:arxiv:2018: []
   papers/liu:cpsspc:2018: []
+  papers/liu:icse:2020: []
   papers/lockhart:ispass:2015: []
   papers/logozzo:vmcai:2011:
   - - notes/contract-driven-development
@@ -2311,6 +2317,7 @@ notes:
   papers/wright:icsm:2013: []
   papers/xi:icfp:2001: []
   papers/xie:bugs:2005: []
+  papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
@@ -2318,6 +2325,7 @@ notes:
   papers/zeller:bugs:2005: []
   papers/zhang:apsec:2018: []
   papers/zhang:asplos:2015: []
+  papers/zhang:ccs:2020: []
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
   papers/zhang:toplas:2017: []
@@ -4670,9 +4678,15 @@ papers:
     - - Parameterized unit tests
       - tillmann:fse:2005
   notes/prusti-verifier:
+  - - papers/beckmann:msc:2020
+    - - Verifying safe clients of unsafe code and trait implementations in Rust
+      - beckmann:msc:2020
   - - papers/blom:ijsttt:2015
     - - Witnessing the elimination of magic wands
       - blom:ijsttt:2015
+  - - papers/gorse:msc:2020
+    - - Extended support for borrowing and lifetimes in Prusti
+      - gorse:msc:2020
   - - papers/schwerhoff:ecoop:2015
     - - Lightweight support for magic wands in an automatic verifier
       - schwerhoff:ecoop:2015
@@ -4782,6 +4796,10 @@ papers:
         and verification language
       - systemverilog:ieee:2013
   notes/rust-language:
+  - - papers/abtahi:chi:2020
+    - - 'Learning Rust: How experienced programmers leverage resources to learn a
+        new programming language'
+      - abtahi:chi:2020
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
       - astrauskas:oopsla:2019
@@ -4794,12 +4812,25 @@ papers:
   - - papers/baranowski:atva:2018
     - - Verifying Rust programs with SMACK
       - baranowski:atva:2018
+  - - papers/beckmann:msc:2020
+    - - Verifying safe clients of unsafe code and trait implementations in Rust
+      - beckmann:msc:2020
   - - papers/boos:plos:2017
     - - 'Theseus: A state spill-free operating system'
       - boos:plos:2017
+  - - papers/denis:hal:2020
+    - - Deductive program verification for a language with a Rust-like typing discipline
+        type [Internship report]
+      - denis:hal:2020
   - - papers/evans:icse:2020
     - - Is Rust used safely by software developers?
       - evans:icse:2020
+  - - papers/gorse:msc:2020
+    - - Extended support for borrowing and lifetimes in Prusti
+      - gorse:msc:2020
+  - - papers/jung:cacm:2021
+    - - 'Safe systems programming in Rust: The promise and the challenge'
+      - jung:cacm:2021
   - - papers/jung:popl:2017
     - - 'RustBelt: Securing the foundations of the Rust programming language'
       - jung:popl:2017
@@ -4825,6 +4856,9 @@ papers:
     - - 'Verification of safety functions implemented in Rust: A symbolic execution
         based approach'
       - lindner:indin:2019
+  - - papers/liu:icse:2020
+    - - Securing unsafe Rust programs with XRust
+      - liu:icse:2020
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
@@ -4850,6 +4884,13 @@ papers:
   - - papers/weiss:arxiv:2018
     - - 'Rust distilled: An expressive tower of languages'
       - weiss:arxiv:2018
+  - - papers/xu:arxiv:2021
+    - - Memory-safety challenge considered solved? An in-depth study with all Rust
+        CVEs
+      - xu:arxiv:2021
+  - - papers/zhang:ccs:2020
+    - - VRLifeTime - An IDE tool to avoid concurrency and memory bugs in Rust
+      - zhang:ccs:2020
   notes/rust-unsafe-code:
   - - papers/astrauskas:oopsla:2020
     - - How do programmers use unsafe Rust?
@@ -6014,6 +6055,7 @@ papers:
   papers/aagaard:charme:2001: []
   papers/aagaard:fmcad:2000: []
   papers/abadi:tcs:1991: []
+  papers/abtahi:chi:2020: []
   papers/albin:cli:1995: []
   papers/alexopoulos:tps:2020: []
   papers/alglave:toplas:2014: []
@@ -6133,6 +6175,7 @@ papers:
   - - papers/claessen:icfp:2000
     - - 'QuickCheck: A lightweight tool for random testing of Haskell programs'
       - claessen:icfp:2000
+  papers/beckmann:msc:2020: []
   papers/bell:afips:1970:
   - - papers/barbacci:cmu:1972
     - - 'ISP: A language to describe instruction sets and other register transfer
@@ -6362,6 +6405,7 @@ papers:
     - - A hardware design language for timing-sensitive information flow security
       - zhang:asplos:2015
   papers/deng:hasp:2019: []
+  papers/denis:hal:2020: []
   papers/denning:cacm:1976: []
   papers/dias:popl:2010: []
   papers/dimjasevic:ifm:2018: []
@@ -6453,6 +6497,7 @@ papers:
       - holzmann:ieeetse:2011
   papers/gordon:asplos:2002: []
   papers/gordon:book:1993: []
+  papers/gorse:msc:2020: []
   papers/gray:micro:2015: []
   papers/green:pandc:1990: []
   papers/green:tutorial:1998: []
@@ -6586,6 +6631,7 @@ papers:
   papers/jones:microsoft:2001: []
   papers/jones:pldi:1999: []
   papers/joshi:pldi:2002: []
+  papers/jung:cacm:2021: []
   papers/jung:popl:2017:
   - - papers/jung:popl:2020
     - - 'Stacked borrows: An aliasing model for Rust'
@@ -6695,6 +6741,7 @@ papers:
       - lindner:indin:2018
   papers/lipp:arxiv:2018: []
   papers/liu:cpsspc:2018: []
+  papers/liu:icse:2020: []
   papers/lockhart:ispass:2015: []
   papers/logozzo:vmcai:2011:
   - - papers/barnett:cacm:2011
@@ -7163,6 +7210,7 @@ papers:
   - - papers/godefroid:bugs:2005
     - - The soundness of bugs is what matters (position statement)
       - godefroid:bugs:2005
+  papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
@@ -7173,6 +7221,7 @@ papers:
   papers/zeller:bugs:2005: []
   papers/zhang:apsec:2018: []
   papers/zhang:asplos:2015: []
+  papers/zhang:ccs:2020: []
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
   papers/zhang:toplas:2017: []

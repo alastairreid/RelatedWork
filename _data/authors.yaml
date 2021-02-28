@@ -9,6 +9,9 @@
 - name: Oskar Abrahamsson
   papers:
   - papers/loow:pldi:2019
+- name: Parastoo Abtahi
+  papers:
+  - papers/abtahi:chi:2020
 - name: Vikram Adve
   papers:
   - papers/dasgupta:pldi:2019
@@ -249,6 +252,9 @@
 - name: Bernhard Beckert
   papers:
   - papers/weigl:arxiv:2019
+- name: Jakob Beckmann
+  papers:
+  - papers/beckmann:msc:2020
 - name: Joel Beeren
   papers:
   - papers/amani:asplos:2016
@@ -578,9 +584,13 @@
 - name: Yilun Chen
   papers:
   - papers/qin:pldi:2020
+  - papers/zhang:ccs:2020
 - name: Rick Chen
   papers:
   - papers/reid:cav:2016
+- name: Zhuangbin Chen
+  papers:
+  - papers/xu:arxiv:2021
 - name: Gautham N. Chinya
   papers:
   - papers/wang:pldi:2007
@@ -847,6 +857,9 @@
 - name: Shuwen Deng
   papers:
   - papers/deng:hasp:2019
+- name: Xavier Denis
+  papers:
+  - papers/denis:hal:2020
 - name: Dorothy E. Denning
   papers:
   - papers/denning:cacm:1976
@@ -866,6 +879,9 @@
 - name: Donald L. Dietmeyer
   papers:
   - papers/chu:ieeedtc:1992
+- name: Griffin Dietz
+  papers:
+  - papers/abtahi:chi:2020
 - name: David L. Dill
   papers:
   - papers/barrett:cade:2000
@@ -897,6 +913,7 @@
   - papers/draves:sosp:1991
 - name: Derek Dreyer
   papers:
+  - papers/jung:cacm:2021
   - papers/jung:popl:2017
   - papers/jung:popl:2020
 - name: Wei Du
@@ -1290,6 +1307,9 @@
 - name: Michael I. Gordon
   papers:
   - papers/gordon:asplos:2002
+- name: Lorenz Gorse
+  papers:
+  - papers/gorse:msc:2020
 - name: Pronnoy Goswami
   papers:
   - papers/tahat:fmcad:2019
@@ -1621,6 +1641,9 @@
 - name: Bo-Yuan Huang
   papers:
   - papers/huang:todaes:2019
+- name: Jeff Huang
+  papers:
+  - papers/liu:icse:2020
 - name: Zhipeng Huang
   papers:
   - papers/ma:securecomm:2015
@@ -1788,6 +1811,7 @@
   - papers/kumar:isca:2004
 - name: Jacques-Henri Jourdan
   papers:
+  - papers/jung:cacm:2021
   - papers/jung:popl:2017
 - name: "Dejan Jovanovi\u0107"
   papers:
@@ -1809,6 +1833,7 @@
   - papers/kocher:crypto:1999
 - name: Ralf Jung
   papers:
+  - papers/jung:cacm:2021
   - papers/jung:popl:2017
   - papers/jung:popl:2020
 - name: "Ren\xE9 Just"
@@ -1990,6 +2015,7 @@
   - papers/kozyrakis:phd:2002
 - name: Robbert Krebbers
   papers:
+  - papers/jung:cacm:2021
   - papers/jung:popl:2017
 - name: Shriram Krishnamurthi
   papers:
@@ -2234,6 +2260,9 @@
 - name: Jed Liu
   papers:
   - papers/liu:cpsspc:2018
+- name: Peiming Liu
+  papers:
+  - papers/liu:icse:2020
 - name: Weijie Liu
   papers:
   - papers/ma:securecomm:2015
@@ -2296,6 +2325,9 @@
 - name: Daniel Lustig
   papers:
   - papers/lustig:asplos:2016
+- name: Michael Lyu
+  papers:
+  - papers/xu:arxiv:2021
 - name: Steven Lyubomirsky
   papers:
   - papers/weitz:icfp:2017
@@ -3027,6 +3059,7 @@
 - name: Boqin Qin
   papers:
   - papers/qin:pldi:2020
+  - papers/zhang:ccs:2020
 - name: Rui Qiu
   papers:
   - papers/qiu:icse:2017
@@ -3543,6 +3576,7 @@
 - name: Linhai Song
   papers:
   - papers/qin:pldi:2020
+  - papers/zhang:ccs:2020
 - name: Fu Song
   papers:
   - papers/wang:tase:2018
@@ -3623,6 +3657,9 @@
   - papers/heule:vmcai:2013
   - papers/muller:vmcai:2016
   - papers/schwerhoff:ecoop:2015
+- name: Mingshen Sun
+  papers:
+  - papers/xu:arxiv:2021
 - name: Joshua Sunshine
   papers:
   - papers/coblenz:arxiv:2020
@@ -4067,6 +4104,9 @@
 - name: Rui Xu
   papers:
   - papers/ferraiuolo:asplos:2017
+- name: Hui Xu
+  papers:
+  - papers/xu:arxiv:2021
 - name: Hui Xue
   papers:
   - papers/mai:asplos:2013
@@ -4177,6 +4217,7 @@
 - name: Yiying Zhang
   papers:
   - papers/qin:pldi:2020
+  - papers/zhang:ccs:2020
 - name: Min Zhang
   papers:
   - papers/wang:tase:2018
@@ -4186,15 +4227,24 @@
 - name: Chao Zhang
   papers:
   - papers/zhang:apsec:2018
+- name: Ziyi Zhang
+  papers:
+  - papers/zhang:ccs:2020
 - name: Mark Zhao
   papers:
   - papers/ferraiuolo:ccs:2018
+- name: Gang Zhao
+  papers:
+  - papers/liu:icse:2020
 - name: Manchun Zheng
   papers:
   - papers/siegel:sc:2015
 - name: Lin Zhong
   papers:
   - papers/boos:plos:2017
+- name: Yangfan Zhou
+  papers:
+  - papers/xu:arxiv:2021
 - name: Liming Zhu
   papers:
   - papers/andronick:icse:2012
