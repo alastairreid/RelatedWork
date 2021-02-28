@@ -20,6 +20,7 @@ papers:
 - avgerinos:icse:2014
 - kuznetsov:pldi:2012
 - siddiqui:oopsla:2012
+- avgerinos:cacm:2014
 ---
 
 Following the terminology in section 3.1 of
@@ -98,7 +99,7 @@ In part because of the exponential path explosion of pure symbolic execution,
 it is rarely feasible to check all paths so there has been a lot of work on
 scheduling algorithms that try to maximize coverage, to cover some part of the
 code (e.g., code that is part of a recent commit), to execute enough iterations
-to overflow a buffer, etc.  These scheduling algorithms make [state merging]
+to overflow a buffer ([avgerinos:cacm:2014]), etc.  These scheduling algorithms make [state merging]
 harder (but see [kuznetsov:pldi:2012]), make ranged analysis harder
 ([siddiqui:oopsla:2012]), and probably other impacts too.
 

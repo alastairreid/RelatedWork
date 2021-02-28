@@ -60,6 +60,7 @@ notes:
   - - notes/vcc-verifier
     - - VCC verifier
       - null
+  notes/automatic-exploit-generation: []
   notes/bap-tool: []
   notes/bdd:
   - - notes/symbolic-model-checking
@@ -1253,6 +1254,13 @@ notes:
     - - Rust language
       - null
   papers/astrauskas:oopsla:2020: []
+  papers/avgerinos:cacm:2014:
+  - - notes/automatic-exploit-generation
+    - - Automatic exploit generation
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
   papers/avgerinos:icse:2014:
   - - notes/bap-tool
     - - Binary Analysis Platform (BAP)
@@ -1656,7 +1664,10 @@ notes:
   papers/green:pandc:1990: []
   papers/green:tutorial:1998: []
   papers/greve:fmcad:1998: []
-  papers/groce:issta:2012: []
+  papers/groce:issta:2012:
+  - - notes/swarm-verification
+    - - Swarm verification
+      - null
   papers/groce:issta:2017:
   - - notes/test-case-reduction
     - - Test-case reduction
@@ -1675,6 +1686,14 @@ notes:
   papers/hardin:acl2:2006: []
   papers/hatcliff:compsurv:2012: []
   papers/hawblitzel:osdi:2014: []
+  papers/heelan:msc:2009:
+  - - notes/automatic-exploit-generation
+    - - Automatic exploit generation
+      - null
+  papers/heelan:sec:2018:
+  - - notes/automatic-exploit-generation
+    - - Automatic exploit generation
+      - null
   papers/hehner:vstte:2008:
   - - notes/loop-invariant
     - - Loop invariant
@@ -1794,7 +1813,10 @@ notes:
   papers/kumar:isca:2004: []
   papers/kumar:popl:2014: []
   papers/kupferman:concur:2006: []
-  papers/kuznetsov:pldi:2012: []
+  papers/kuznetsov:pldi:2012:
+  - - notes/symbolic-execution
+    - - Symbolic execution
+      - null
   papers/lahiri:cav:2003: []
   papers/lahiri:hldvt:2001: []
   papers/lal:cav:2012: []
@@ -2147,6 +2169,9 @@ notes:
   papers/siddiqui:oopsla:2012:
   - - notes/swarm-verification
     - - Swarm verification
+      - null
+  - - notes/symbolic-execution
+    - - Symbolic execution
       - null
   - - notes/verification-performance
     - - Verification performance of code
@@ -2501,6 +2526,16 @@ papers:
   - - papers/vogels:fmoods:2011
     - - Annotation inference for separation logic based verifiers
       - vogels:fmoods:2011
+  notes/automatic-exploit-generation:
+  - - papers/avgerinos:cacm:2014
+    - - Automatic exploit generation
+      - avgerinos:cacm:2014
+  - - papers/heelan:msc:2009
+    - - Automatic generation of control flow hijacking exploits for software vulnerabilities
+      - heelan:msc:2009
+  - - papers/heelan:sec:2018
+    - - Automatic heap layout manipulation for exploitation
+      - heelan:sec:2018
   notes/bap-tool:
   - - papers/avgerinos:icse:2014
     - - Enhancing symbolic execution with veritesting
@@ -4025,6 +4060,9 @@ papers:
     - - A trusted mechanised JavaScript specification
       - bodin:popl:2014
   notes/klee-verifier:
+  - - papers/avgerinos:cacm:2014
+    - - Automatic exploit generation
+      - avgerinos:cacm:2014
   - - papers/baldoni:compsurv:2018
     - - A survey of symbolic execution techniques
       - baldoni:compsurv:2018
@@ -5994,6 +6032,13 @@ papers:
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
   papers/astrauskas:oopsla:2020: []
+  papers/avgerinos:cacm:2014:
+  - - papers/heelan:msc:2009
+    - - Automatic generation of control flow hijacking exploits for software vulnerabilities
+      - heelan:msc:2009
+  - - papers/heelan:sec:2018
+    - - Automatic heap layout manipulation for exploitation
+      - heelan:sec:2018
   papers/avgerinos:icse:2014: []
   papers/babic:fse:2019:
   - - papers/sadowski:cacm:2018
@@ -6431,6 +6476,20 @@ papers:
   papers/hardin:acl2:2006: []
   papers/hatcliff:compsurv:2012: []
   papers/hawblitzel:osdi:2014: []
+  papers/heelan:msc:2009:
+  - - papers/avgerinos:cacm:2014
+    - - Automatic exploit generation
+      - avgerinos:cacm:2014
+  - - papers/heelan:sec:2018
+    - - Automatic heap layout manipulation for exploitation
+      - heelan:sec:2018
+  papers/heelan:sec:2018:
+  - - papers/avgerinos:cacm:2014
+    - - Automatic exploit generation
+      - avgerinos:cacm:2014
+  - - papers/heelan:msc:2009
+    - - Automatic generation of control flow hijacking exploits for software vulnerabilities
+      - heelan:msc:2009
   papers/hehner:vstte:2008:
   - - papers/tuerk:vstte:2010
     - - Local reasoning about while-loops

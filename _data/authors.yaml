@@ -122,6 +122,7 @@
   - papers/jones:hasklib:1999
 - name: Thanassis Avgerinos
   papers:
+  - papers/avgerinos:cacm:2014
   - papers/avgerinos:icse:2014
   - papers/schwartz:sp:2010
 - name: Jeremy Avigad
@@ -427,6 +428,7 @@
   - papers/woh:micro:2008
 - name: David Brumley
   papers:
+  - papers/avgerinos:cacm:2014
   - papers/avgerinos:icse:2014
   - papers/schwartz:sp:2010
 - name: Robert Brummayer
@@ -523,6 +525,7 @@
   - papers/zorn:iscawddd:2017
 - name: Sang Kil Cha
   papers:
+  - papers/avgerinos:cacm:2014
   - papers/avgerinos:icse:2014
   - papers/bohme:fse:2020
   - papers/manes:ieeetse:2019
@@ -1475,6 +1478,8 @@
 - name: Sean Heelan
   papers:
   - papers/galea:arxiv:2018
+  - papers/heelan:msc:2009
+  - papers/heelan:sec:2018
 - name: Eric C. R. Hehner
   papers:
   - papers/hehner:vstte:2008
@@ -2002,6 +2007,7 @@
   - papers/clarke:tacas:2004
   - papers/cook:cav:2018
   - papers/galea:arxiv:2018
+  - papers/heelan:sec:2018
   - papers/kroening:dac:2001
   - papers/kroening:itg:2000
 - name: Maxwell Krohn
@@ -2466,6 +2472,9 @@
 - name: Thomas F. Melham
   papers:
   - papers/aagaard:fmcad:2000
+- name: Tom Melham
+  papers:
+  - papers/heelan:sec:2018
 - name: Ali S. Meli
   papers:
   - papers/gordon:asplos:2002
@@ -3077,6 +3086,7 @@
   - papers/bird:sc:1993
 - name: Alexandre Rebert
   papers:
+  - papers/avgerinos:cacm:2014
   - papers/avgerinos:icse:2014
 - name: David Redmiles
   papers:
@@ -3315,6 +3325,7 @@
   - papers/alexopoulos:tps:2020
 - name: Edward J. Schwartz
   papers:
+  - papers/avgerinos:cacm:2014
   - papers/manes:ieeetse:2019
   - papers/schwartz:sp:2010
 - name: Daniel Schwartz-Narbonne
@@ -4027,6 +4038,7 @@
   - papers/gordon:asplos:2002
 - name: Maverick Woo
   papers:
+  - papers/avgerinos:cacm:2014
   - papers/manes:ieeetse:2019
 - name: Dale Woodford
   papers:
