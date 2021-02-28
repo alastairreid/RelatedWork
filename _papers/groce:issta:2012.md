@@ -65,6 +65,8 @@ in swarm testing.
 (Although they do not evaluate it in this paper, they suggest that
 this would also be useful in model checking under a fixed time budget.)
 
+**The key insight of the paper is that features can suppress bugs.**
+
 > including a feature in a test does not always improve the ability of the test
 > to cover behavior and expose faults: some features can actively suppress the
 > exhibition of some behaviors.
@@ -73,9 +75,6 @@ The explanation is that different features tend to affect different parts
 of the system state so executing those features more tends to be better at
 exploring “deep” values of state variables.
 
-**The idea that features can suppress or activate bugs is one of the key insights
-of the paper.**
-
 The meat of the paper is three case studies that test this theory in practice:
 a flash file system (using random mutations), C compilers and a red-black tree.
 
@@ -83,11 +82,11 @@ For the flash file system, improvements are seen in all coverage metrics and,
 for mutants that are hard to "kill" (i.e., that pass most tests), significantly
 increases detection rates. Interestingly, testing with all features enabled
 tends towards "overkill": those mutants that are killed are killed by
-significantly more tests. Confirming the idea that traditional random testing
+significantly more tests. This confirms the idea that traditional random testing
 is not as random as we would like.
 
-An interesting side-effect of swarm-testing is that, after finding a bug multiple
-ways, you can calculate the relevance of each feature to the bug - possibly
+An interesting side-effect of swarm-testing is that, after finding the same bug in multiple
+configurations, you can calculate the relevance of each feature to the bug - possibly
 helping you to find the bug.
 (This is easy in the first experiment because you know that each mutant has just
 one bug that would cause any failure but they are able to revisit it during
@@ -96,8 +95,8 @@ in the compiler for bug triage.)
 
 It also allows them to examine the idea of features being bug triggers or bug
 suppressors. Interestingly, they find that some significant triggers are also
-suppressors and vice-versa: reinforcing the idea that omitting features in some
-tests might make it easier to find problems involving the other features.
+suppressors and vice-versa: reinforcing the idea that there is no such thing
+as a best configuration.
 
 The third experiment is a bit harder to interpret. There is a benefit
 but they also show that bad choices about what to discard and test size
