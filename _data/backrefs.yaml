@@ -2121,7 +2121,7 @@ notes:
   papers/rieman:chi:1995: []
   papers/roessle:cpp:2019: []
   papers/romano:phd:2014: []
-  papers/rozier:VSTTE:2016: []
+  papers/rozier:vstte:2016: []
   papers/rushby:sri:1992:
   - - notes/non-interference
     - - Non-interference
@@ -6954,7 +6954,7 @@ papers:
       - macvean:ppig:2016
   papers/roessle:cpp:2019: []
   papers/romano:phd:2014: []
-  papers/rozier:VSTTE:2016: []
+  papers/rozier:vstte:2016: []
   papers/rushby:sri:1992: []
   papers/russell:cacm:1978: []
   papers/rutledge:icse:2020: []

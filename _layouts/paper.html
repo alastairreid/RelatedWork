@@ -52,7 +52,8 @@ layout: default
       {{ page.number }}<br>
   {% elsif page.note %}
       {{ page.note }}<br>
-  {% elsif page.eprint %}
+  {% endif %}
+  {% if page.eprint %}
       {{ page.archiveprefix }} {{ page.eprint }} {{ page.primaryclass }}<br>
   {% endif %}
   {% if page.school and page.school != "" %} {{ page.school }}<br> {% endif %}

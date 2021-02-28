@@ -1,5 +1,5 @@
 ---
-ENTRYTYPE: mscthesis
+ENTRYTYPE: mastersthesis
 added: 2021-02-28
 authors:
 - Sean Heelan
