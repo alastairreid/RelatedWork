@@ -249,6 +249,9 @@
 - name: Hanno Becker
   papers:
   - papers/becker:fm:2016
+- name: Nils Becker
+  papers:
+  - papers/becker:tacas:2019
 - name: Bernhard Beckert
   papers:
   - papers/weigl:arxiv:2019
@@ -2674,6 +2677,7 @@
   - papers/astrauskas:oopsla:2019
   - papers/astrauskas:oopsla:2020
   - papers/barnett:cacm:2011
+  - papers/becker:tacas:2019
   - papers/hatcliff:compsurv:2012
   - papers/heule:ftfjp:2011
   - papers/heule:vmcai:2013
@@ -3653,6 +3657,7 @@
   papers:
   - papers/astrauskas:oopsla:2019
   - papers/astrauskas:oopsla:2020
+  - papers/becker:tacas:2019
   - papers/heule:ftfjp:2011
   - papers/heule:vmcai:2013
   - papers/muller:vmcai:2016

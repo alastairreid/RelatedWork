@@ -1341,6 +1341,7 @@ notes:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
       - null
+  papers/becker:tacas:2019: []
   papers/beckmann:msc:2020: []
   papers/bell:afips:1970:
   - - notes/isps
@@ -5186,6 +5187,9 @@ papers:
   - - papers/barrett:smtlib:2016
     - - The Satisfiability Modulo Theories Library (SMT-LIB)
       - barrett:smtlib:2016
+  - - papers/becker:tacas:2019
+    - - 'The Axiom profiler: Understanding and debugging SMT quantifier instantiations'
+      - becker:tacas:2019
   - - papers/brummayer:sat:2010
     - - Automated testing and debugging of SAT and QBF solvers
       - brummayer:sat:2010
@@ -5879,6 +5883,9 @@ papers:
     - - Chopped symbolic execution
       - trabish:icse:2018
   notes/verification-profiling:
+  - - papers/becker:tacas:2019
+    - - 'The Axiom profiler: Understanding and debugging SMT quantifier instantiations'
+      - becker:tacas:2019
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
       - bornholt:oopsla:2018
@@ -6175,6 +6182,7 @@ papers:
   - - papers/claessen:icfp:2000
     - - 'QuickCheck: A lightweight tool for random testing of Haskell programs'
       - claessen:icfp:2000
+  papers/becker:tacas:2019: []
   papers/beckmann:msc:2020: []
   papers/bell:afips:1970:
   - - papers/barbacci:cmu:1972
