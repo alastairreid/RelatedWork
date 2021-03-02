@@ -1469,6 +1469,8 @@
 - name: Mark Harman
   papers:
   - papers/barr:tse:2015
+  - papers/jia:ieeetse:2010
+  - papers/papadakis:advances:2019
 - name: Robert Harper
   papers:
   - papers/xi:icfp:2001
@@ -1746,6 +1748,10 @@
   - papers/henzinger:spin:2003
   - papers/jhala:cav:2001
   - papers/jhala:compsurv:2009
+- name: Yue Jia
+  papers:
+  - papers/jia:ieeetse:2010
+  - papers/papadakis:advances:2019
 - name: Chunfu Jia
   papers:
   - papers/ma:securecomm:2015
@@ -1939,6 +1945,9 @@
 - name: Samuel Talmadge King
   papers:
   - papers/mai:asplos:2013
+- name: Marinos Kintis
+  papers:
+  - papers/papadakis:advances:2019
 - name: V. M. Achutha KiranKumar
   papers:
   - papers/kirankumar:fmcad:2012
@@ -2883,6 +2892,9 @@
   - papers/levy:apsys:2017
   - papers/levy:plos:2015
   - papers/levy:sosp:2017
+- name: Mike Papadakis
+  papers:
+  - papers/papadakis:advances:2019
 - name: Alan Parker
   papers:
   - papers/barbacci:computer:1978
@@ -3811,6 +3823,9 @@
 - name: David Trabish
   papers:
   - papers/trabish:icse:2018
+- name: Yves Le Traon
+  papers:
+  - papers/papadakis:advances:2019
 - name: Paolo Traverso
   papers:
   - papers/fuxman:isre:2001
@@ -4219,6 +4234,9 @@
 - name: Fuyuan Zhang
   papers:
   - papers/mansur:arxiv:2020
+- name: Jie Zhang
+  papers:
+  - papers/papadakis:advances:2019
 - name: Yiying Zhang
   papers:
   - papers/qin:pldi:2020

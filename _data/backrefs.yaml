@@ -613,6 +613,7 @@ notes:
   - - notes/spec-sharp-project
     - - Spec# project
       - null
+  notes/mutation-testing: []
   notes/natural-language: []
   notes/non-interference:
   - - notes/hyperproperty
@@ -1760,6 +1761,10 @@ notes:
   - - notes/model-checking
     - - Model checking
       - null
+  papers/jia:ieeetse:2010:
+  - - notes/mutation-testing
+    - - Mutation testing
+      - null
   papers/johnson:osr:1995: []
   papers/jones:hasklang:1999: []
   papers/jones:hasklib:1999: []
@@ -1818,7 +1823,10 @@ notes:
   papers/kuhne:fmcad:2010: []
   papers/kumar:isca:2004: []
   papers/kumar:popl:2014: []
-  papers/kupferman:concur:2006: []
+  papers/kupferman:concur:2006:
+  - - notes/mutation-testing
+    - - Mutation testing
+      - null
   papers/kuznetsov:pldi:2012:
   - - notes/symbolic-execution
     - - Symbolic execution
@@ -2036,6 +2044,10 @@ notes:
     - - Decoupling
       - null
   papers/pandey:issta:2019: []
+  papers/papadakis:advances:2019:
+  - - notes/mutation-testing
+    - - Mutation testing
+      - null
   papers/parkinson:popl:2005: []
   papers/patterson:cacm:1985:
   - - notes/risc-architecture
@@ -4395,6 +4407,19 @@ papers:
   - - papers/lindner:indin:2018
     - - No panic! Verification of Rust programs by symbolic execution
       - lindner:indin:2018
+  notes/mutation-testing:
+  - - papers/groce:issta:2012
+    - - Swarm testing
+      - groce:issta:2012
+  - - papers/jia:ieeetse:2010
+    - - An analysis and survey of the development of mutation testing
+      - jia:ieeetse:2010
+  - - papers/kupferman:concur:2006
+    - - Sanity checks in formal verification
+      - kupferman:concur:2006
+  - - papers/papadakis:advances:2019
+    - - 'Mutation testing advances: An analysis and survey (chapter 6)'
+      - papadakis:advances:2019
   notes/natural-language:
   - - papers/burke:lacl:2005
     - - Translating formal software specifications to natural language / A grammar-based
@@ -5330,6 +5355,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/jia:ieeetse:2010
+    - - An analysis and survey of the development of mutation testing
+      - jia:ieeetse:2010
   - - papers/malik:cacm:2009
     - - Boolean satisfiability from theoretical hardness to practical success
       - malik:cacm:2009
@@ -5342,6 +5370,9 @@ papers:
   - - papers/ohearn:cacm:2019
     - - Separation logic
       - ohearn:cacm:2019
+  - - papers/papadakis:advances:2019
+    - - 'Mutation testing advances: An analysis and survey (chapter 6)'
+      - papadakis:advances:2019
   notes/sv-competition:
   - - papers/beyer:cav:2011
     - - 'CPAchecker: A tool for configurable software verification'
@@ -6625,6 +6656,7 @@ papers:
   - - papers/mcmillan:ecs:2003
     - - Model checking
       - mcmillan:ecs:2003
+  papers/jia:ieeetse:2010: []
   papers/johnson:osr:1995: []
   papers/jones:hasklang:1999: []
   papers/jones:hasklib:1999: []
@@ -6862,6 +6894,7 @@ papers:
   papers/ozer:sbacpad:2007: []
   papers/palacharla:micro:1995: []
   papers/pandey:issta:2019: []
+  papers/papadakis:advances:2019: []
   papers/parkinson:popl:2005:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'

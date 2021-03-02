@@ -35,6 +35,7 @@ url: https://doi.org/10.1145/2338965.2336763
 year: 2012
 notes:
 - swarm verification
+- mutation testing
 papers:
 - holzmann:ieeetse:2011
 ---
@@ -76,7 +77,7 @@ of the system state so executing those features more tends to be better at
 exploring “deep” values of state variables.
 
 The meat of the paper is three case studies that test this theory in practice:
-a flash file system (using random mutations), C compilers and a red-black tree.
+a flash file system (using [mutation testing]), C compilers and a red-black tree.
 
 For the flash file system, improvements are seen in all coverage metrics and,
 for mutants that are hard to "kill" (i.e., that pass most tests), significantly

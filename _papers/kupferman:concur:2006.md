@@ -29,6 +29,7 @@ year: 2006
 notes:
 - Model checking
 - Temporal logic
+- Mutation testing
 papers:
 ---
 
@@ -57,7 +58,7 @@ exactly once (node) and N times (tree). (The tree/node terminology comes from
 the definition in terms of a Kripke structure.)
 
 For both coverage and vacuity, it can be useful to produce witnesses that show
-how mutant implementations (slightly modified versions of the implementation)
+how [mutant implementations][mutation testing] (slightly modified versions of the implementation)
 would fail to satisfy the formula.
 
 > A witness is interesting if it satisfies the specification non-vacuously.
