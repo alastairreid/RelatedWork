@@ -34,6 +34,7 @@ notes:
 - Corral verifier
 - intermediate verification language
 - Rust language
+- Rust unsafe code
 - SMACK verifier
 - LLVM compiler
 papers:

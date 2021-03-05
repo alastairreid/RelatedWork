@@ -14,6 +14,7 @@ year: 2020
 notes:
 - Rust language
 - Prusti verifier
+- Rust unsafe code
 papers:
 ---
 {% include links.html %}

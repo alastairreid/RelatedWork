@@ -30,6 +30,7 @@ url: https://doi.org/10.1145/3377811.3380325
 year: 2020
 notes:
 - Rust language
+- Rust unsafe code
 papers:
 ---
 {% include links.html %}

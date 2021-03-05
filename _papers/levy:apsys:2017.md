@@ -28,6 +28,7 @@ topics:
 - os
 notes:
 - Rust language
+- Rust unsafe code
 - Operating Systems
 papers:
 ---
