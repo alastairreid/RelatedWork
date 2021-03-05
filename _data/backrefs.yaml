@@ -1229,6 +1229,7 @@ notes:
   papers/alkassar:vstte:2010: []
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
+  papers/almohri:codaspy:2018: []
   papers/amani:asplos:2016: []
   papers/ananda:osr:1992:
   - - notes/remote-procedure-call
@@ -2058,6 +2059,7 @@ notes:
   - - notes/mutation-testing
     - - Mutation testing
       - null
+  papers/papaevripides:acmtps:2021: []
   papers/parkinson:popl:2005: []
   papers/patterson:cacm:1985:
   - - notes/risc-architecture
@@ -4838,6 +4840,9 @@ papers:
     - - 'Learning Rust: How experienced programmers leverage resources to learn a
         new programming language'
       - abtahi:chi:2020
+  - - papers/almohri:codaspy:2018
+    - - 'Fidelius Charm: Isolating unsafe Rust code'
+      - almohri:codaspy:2018
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
       - astrauskas:oopsla:2019
@@ -4903,6 +4908,9 @@ papers:
   - - papers/narayanan:hotos:2019
     - - 'RedLeaf: Towards an operating system for safe and verified firmware'
       - narayanan:hotos:2019
+  - - papers/papaevripides:acmtps:2021
+    - - Exploiting mixed binaries
+      - papaevripides:acmtps:2021
   - - papers/qin:pldi:2020
     - - Understanding memory and thread safety practices and issues in real-world
         Rust programs
@@ -4930,6 +4938,9 @@ papers:
     - - VRLifeTime - An IDE tool to avoid concurrency and memory bugs in Rust
       - zhang:ccs:2020
   notes/rust-unsafe-code:
+  - - papers/almohri:codaspy:2018
+    - - 'Fidelius Charm: Isolating unsafe Rust code'
+      - almohri:codaspy:2018
   - - papers/astrauskas:oopsla:2020
     - - How do programmers use unsafe Rust?
       - astrauskas:oopsla:2020
@@ -4957,6 +4968,9 @@ papers:
   - - papers/liu:icse:2020
     - - Securing unsafe Rust programs with XRust
       - liu:icse:2020
+  - - papers/papaevripides:acmtps:2021
+    - - Exploiting mixed binaries
+      - papaevripides:acmtps:2021
   - - papers/qin:pldi:2020
     - - Understanding memory and thread safety practices and issues in real-world
         Rust programs
@@ -6131,6 +6145,7 @@ papers:
   papers/alkassar:vstte:2010: []
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
+  papers/almohri:codaspy:2018: []
   papers/amani:asplos:2016: []
   papers/ananda:osr:1992: []
   papers/andronick:icse:2012: []
@@ -6936,6 +6951,7 @@ papers:
   papers/palacharla:micro:1995: []
   papers/pandey:issta:2019: []
   papers/papadakis:advances:2019: []
+  papers/papaevripides:acmtps:2021: []
   papers/parkinson:popl:2005:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'

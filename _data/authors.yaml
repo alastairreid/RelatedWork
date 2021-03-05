@@ -70,6 +70,9 @@
 - name: "Jos\xE9 Bacelar Almeida"
   papers:
   - papers/almeida:security:2016
+- name: Hussain M. J. Almohri
+  papers:
+  - papers/almohri:codaspy:2018
 - name: Sidney Amani
   papers:
   - papers/amani:asplos:2016
@@ -116,6 +119,9 @@
   papers:
   - papers/astrauskas:oopsla:2019
   - papers/astrauskas:oopsla:2020
+- name: Elias Athanasopoulos
+  papers:
+  - papers/papaevripides:acmtps:2021
 - name: David August
   papers:
   - papers/bridges:micro:2007
@@ -1022,6 +1028,9 @@
 - name: Gerben Essink
   papers:
   - papers/wolf:codes:2004
+- name: David Evans
+  papers:
+  - papers/almohri:codaspy:2018
 - name: Ana Nora Evans
   papers:
   - papers/evans:icse:2020
@@ -2906,6 +2915,9 @@
 - name: Mike Papadakis
   papers:
   - papers/papadakis:advances:2019
+- name: Michalis Papaevripides
+  papers:
+  - papers/papaevripides:acmtps:2021
 - name: Alan Parker
   papers:
   - papers/barbacci:computer:1978
