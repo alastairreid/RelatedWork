@@ -5,9 +5,12 @@ notes:
 - symbolic execution
 - model checking
 - symbolic evaluation
-- case splitting
 - state merging
 - swarm verification
+papers:
+- goodman:ndss:2018
+- bornholt:oopsla:2018
+- holzmann:ieeetse:2012
 ---
 
 In formal verification, case splitting consists of separately considering

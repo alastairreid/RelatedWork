@@ -16,6 +16,7 @@ papers:
 - qiu:icse:2017
 - qiu:nfm:2018
 - trabish:icse:2018
+- goodman:ndss:2018
 title: Verifier performance
 ---
 
@@ -26,6 +27,7 @@ Optimizations used in automatic verification tools.
   - [siddiqui:oopsla:2012]
   - [qiu:icse:2017]
   - [qiu:nfm:2018]
+  - [goodman:ndss:2018]
 - [state merging]
 - [case splitting]
 - lazy symbolic execution
