@@ -16,7 +16,7 @@ pages: 1-15
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: Formal Methods for Privacy
+title: Formal methods for privacy
 year: 2009
 notes:
 papers:
