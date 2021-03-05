@@ -10,7 +10,7 @@ notes:
 papers:
 - goodman:ndss:2018
 - bornholt:oopsla:2018
-- holzmann:ieeetse:2012
+- holzmann:ieeetse:2011
 ---
 
 In formal verification, case splitting consists of separately considering

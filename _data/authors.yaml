@@ -594,6 +594,9 @@
 - name: Zhuangbin Chen
   papers:
   - papers/xu:arxiv:2021
+- name: James Cheney
+  papers:
+  - papers/grossman:pldi:2002
 - name: Gautham N. Chinya
   papers:
   - papers/wang:pldi:2007
@@ -1368,6 +1371,7 @@
 - name: Dan Grossman
   papers:
   - papers/grossman:esop:2002
+  - papers/grossman:pldi:2002
   - papers/morrisett:wcsss:1999
   - papers/zorn:iscawddd:2017
 - name: Robert E. Gruber
@@ -1555,6 +1559,9 @@
 - name: Mike Hibler
   papers:
   - papers/spencer:security:1999
+- name: Michael Hicks
+  papers:
+  - papers/grossman:pldi:2002
 - name: J. Thomas Higgins
   papers:
   - papers/higgins:hldvt:2004
@@ -1762,6 +1769,9 @@
 - name: Hong Jiang
   papers:
   - papers/wang:pldi:2007
+- name: Trevor Jim
+  papers:
+  - papers/grossman:pldi:2002
 - name: Alexandre Joannou
   papers:
   - papers/nienhuis:secpriv:2020
@@ -2590,6 +2600,7 @@
   - papers/krohn:sosp:2007
 - name: Greg Morrisett
   papers:
+  - papers/grossman:pldi:2002
   - papers/morrisett:pldi:2012
   - papers/morrisett:wcsss:1999
   - papers/nanevski:icfp:2008
@@ -3711,6 +3722,9 @@
 - name: Amer Tahat
   papers:
   - papers/tahat:fmcad:2019
+- name: Jean-Pierre Talpin
+  papers:
+  - papers/tofte:inco:1997
 - name: Ankur Taly
   papers:
   - papers/godefroid:pldi:2012
@@ -3800,6 +3814,9 @@
   papers:
   - papers/cohen:cav:2010
   - papers/cohen:entcs:2009
+- name: Mads Tofte
+  papers:
+  - papers/tofte:inco:1997
 - name: Andrew Tolmach
   papers:
   - papers/jones:microsoft:2001
@@ -3838,6 +3855,9 @@
 - name: Jean-Baptiste Tristan
   papers:
   - papers/morrisett:pldi:2012
+- name: Michael Carl Tschantz
+  papers:
+  - papers/tschantz:fm:2009
 - name: Takeshi Tsukada
   papers:
   - papers/matsushita:esop:2020
@@ -3980,6 +4000,9 @@
   - papers/nelson:sosp:2019
   - papers/sigurbjarnarson:osdi:2016
   - papers/sigurbjarnarson:osdi:2018
+- name: Yanling Wang
+  papers:
+  - papers/grossman:pldi:2002
 - name: Ruoyu Wang
   papers:
   - papers/shoshitaishvili:sp:2016
@@ -4074,6 +4097,7 @@
 - name: Jeannette M. Wing
   papers:
   - papers/barbacci:icse:1988
+  - papers/tschantz:fm:2009
 - name: Collin Winter
   papers:
   - papers/sadowski:icse:2015

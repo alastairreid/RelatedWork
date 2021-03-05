@@ -143,9 +143,6 @@ notes:
     - - CHERI architecture
       - null
   notes/case-splitting:
-  - - notes/case-splitting
-    - - Case splitting
-      - null
   - - notes/state-merging
     - - State merging
       - null
@@ -1412,6 +1409,9 @@ notes:
   - - notes/bounded-model-checking
     - - Bounded model-checking
       - null
+  - - notes/case-splitting
+    - - Case splitting
+      - null
   - - notes/symbolic-evaluation
     - - Symbolic evaluation
       - null
@@ -1654,11 +1654,17 @@ notes:
     - - Non-interference
       - null
   papers/goodman:ndss:2018:
+  - - notes/case-splitting
+    - - Case splitting
+      - null
   - - notes/swarm-verification
     - - Swarm verification
       - null
   - - notes/verification-performance
     - - Verification performance of code
+      - null
+  - - notes/verifier-performance
+    - - Verifier performance
       - null
   papers/gordon:asplos:2002: []
   papers/gordon:book:1993:
@@ -1680,6 +1686,7 @@ notes:
       - null
   papers/gross:micro:2016: []
   papers/grossman:esop:2002: []
+  papers/grossman:pldi:2002: []
   papers/gu:osdi:2016:
   - - notes/annotation-burden
     - - Annotation burden
@@ -1732,6 +1739,9 @@ notes:
     - - FShell Query Language (FQL)
       - null
   papers/holzmann:ieeetse:2011:
+  - - notes/case-splitting
+    - - Case splitting
+      - null
   - - notes/swarm-verification
     - - Swarm verification
       - null
@@ -2254,6 +2264,7 @@ notes:
     - - Non-interference
       - null
   papers/tiwari:isca:2011: []
+  papers/tofte:inco:1997: []
   papers/toman:ase:2015:
   - - notes/rust-language
     - - Rust language
@@ -2271,6 +2282,7 @@ notes:
     - - Verifier performance
       - null
   papers/tremblay:micro:1996: []
+  papers/tschantz:fm:2009: []
   papers/tuerk:vstte:2010:
   - - notes/loop-invariant
     - - Loop invariant
@@ -4921,15 +4933,30 @@ papers:
   - - papers/astrauskas:oopsla:2020
     - - How do programmers use unsafe Rust?
       - astrauskas:oopsla:2020
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
+  - - papers/beckmann:msc:2020
+    - - Verifying safe clients of unsafe code and trait implementations in Rust
+      - beckmann:msc:2020
   - - papers/evans:icse:2020
     - - Is Rust used safely by software developers?
       - evans:icse:2020
+  - - papers/jung:cacm:2021
+    - - 'Safe systems programming in Rust: The promise and the challenge'
+      - jung:cacm:2021
   - - papers/jung:popl:2017
     - - 'RustBelt: Securing the foundations of the Rust programming language'
       - jung:popl:2017
   - - papers/jung:popl:2020
     - - 'Stacked borrows: An aliasing model for Rust'
       - jung:popl:2020
+  - - papers/levy:apsys:2017
+    - - The case for writing a kernel in Rust
+      - levy:apsys:2017
+  - - papers/liu:icse:2020
+    - - Securing unsafe Rust programs with XRust
+      - liu:icse:2020
   - - papers/qin:pldi:2020
     - - Understanding memory and thread safety practices and issues in real-world
         Rust programs
@@ -4937,6 +4964,10 @@ papers:
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
+  - - papers/xu:arxiv:2021
+    - - Memory-safety challenge considered solved? An in-depth study with all Rust
+        CVEs
+      - xu:arxiv:2021
   notes/s2e-verifier:
   - - papers/chipounov:asplos:2011
     - - 'S2E: A platform for in-vivo multi-path analysis of software systems'
@@ -6548,6 +6579,10 @@ papers:
   papers/groce:issta:2017: []
   papers/gross:micro:2016: []
   papers/grossman:esop:2002: []
+  papers/grossman:pldi:2002:
+  - - papers/jung:cacm:2021
+    - - 'Safe systems programming in Rust: The promise and the challenge'
+      - jung:cacm:2021
   papers/gu:osdi:2016:
   - - papers/costanzo:pldi:2016
     - - End-to-end verification of information flow security for C and assembly programs
@@ -6673,13 +6708,19 @@ papers:
   papers/joshi:pldi:2002: []
   papers/jung:cacm:2021: []
   papers/jung:popl:2017:
+  - - papers/jung:cacm:2021
+    - - 'Safe systems programming in Rust: The promise and the challenge'
+      - jung:cacm:2021
   - - papers/jung:popl:2020
     - - 'Stacked borrows: An aliasing model for Rust'
       - jung:popl:2020
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
-  papers/jung:popl:2020: []
+  papers/jung:popl:2020:
+  - - papers/jung:cacm:2021
+    - - 'Safe systems programming in Rust: The promise and the challenge'
+      - jung:cacm:2021
   papers/kaivola:cav:2009: []
   papers/kassios:fm:2006: []
   papers/kaufmann:ieeetse:1997: []
@@ -7175,6 +7216,10 @@ papers:
   papers/tiwari:asplos:2009: []
   papers/tiwari:isca:2009: []
   papers/tiwari:isca:2011: []
+  papers/tofte:inco:1997:
+  - - papers/jung:cacm:2021
+    - - 'Safe systems programming in Rust: The promise and the challenge'
+      - jung:cacm:2021
   papers/toman:ase:2015: []
   papers/torlak:onward:2013: []
   papers/torlak:pldi:2014:
@@ -7190,6 +7235,7 @@ papers:
       - weitz:icfp:2017
   papers/trabish:icse:2018: []
   papers/tremblay:micro:1996: []
+  papers/tschantz:fm:2009: []
   papers/tuerk:vstte:2010:
   - - papers/hehner:vstte:2008
     - - Specified blocks
