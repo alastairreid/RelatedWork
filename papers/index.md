@@ -3,7 +3,9 @@ layout: default
 regenerate: true
 ---
 
-<h1>Summarised papers</h1>
+[Unsummarized papers](#unsummarized) are at the end.
+
+# Summarized papers
 
 <div class="posts">
     <ul>
@@ -14,7 +16,7 @@ regenerate: true
     </ul>
 </div>
 
-<h1>Backlog of papers to summarise</h1>
+# Backlog of papers to summarize {#unsummarized}
 
 <div class="posts">
     <ul>
