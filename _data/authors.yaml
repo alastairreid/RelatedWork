@@ -133,6 +133,7 @@
   papers:
   - papers/avgerinos:cacm:2014
   - papers/avgerinos:icse:2014
+  - papers/cha:sandp:2012
   - papers/schwartz:sp:2010
 - name: Jeremy Avigad
   papers:
@@ -280,6 +281,9 @@
   - papers/bell:book:1971
   - papers/bell:cacm:2008
   - papers/bell:procieee:2014
+- name: Aaron Bembenek
+  papers:
+  - papers/bembenek:oopsla:2020
 - name: Josh Berdine
   papers:
   - papers/berdine:aplas:2005
@@ -445,6 +449,7 @@
   papers:
   - papers/avgerinos:cacm:2014
   - papers/avgerinos:icse:2014
+  - papers/cha:sandp:2012
   - papers/schwartz:sp:2010
 - name: Robert Brummayer
   papers:
@@ -490,6 +495,7 @@
   - papers/cadar:cacm:2013
   - papers/cadar:fse:2015
   - papers/cadar:osdi:2008
+  - papers/kapus:fse:2019
   - papers/trabish:icse:2018
 - name: Cristiano Calcagno
   papers:
@@ -543,6 +549,7 @@
   - papers/avgerinos:cacm:2014
   - papers/avgerinos:icse:2014
   - papers/bohme:fse:2020
+  - papers/cha:sandp:2012
   - papers/manes:ieeetse:2019
 - name: Suhyun Cha
   papers:
@@ -621,6 +628,9 @@
 - name: Joonwon Choi
   papers:
   - papers/choi:icfp:2017
+- name: Stephen Chong
+  papers:
+  - papers/bembenek:oopsla:2020
 - name: Nathan Chong
   papers:
   - papers/chong:asplos:2008
@@ -951,6 +961,7 @@
   - papers/mangano:crisis:2016
 - name: Andrew Dutcher
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Nikil Dutt
@@ -1062,6 +1073,7 @@
   - papers/fauth:edtc:1995
 - name: Siji Feng
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
 - name: "Mary F. Fern\xE1ndez"
   papers:
@@ -1141,6 +1153,9 @@
   - papers/fox:ucam:2002
   - papers/loow:pldi:2019
   - papers/nienhuis:secpriv:2020
+- name: "Aur\xE9lien Francillon"
+  papers:
+  - papers/poeplau:usenix:2020
 - name: Jason Franklin
   papers:
   - papers/franklin:cmu:2008
@@ -1347,6 +1362,7 @@
   - papers/green:tutorial:1998
 - name: Michael Greenberg
   papers:
+  - papers/bembenek:oopsla:2020
   - papers/pierce:book:2016
 - name: David A. Greve
   papers:
@@ -1370,6 +1386,7 @@
   - papers/zhang:issta:2014
 - name: John Grosen
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Thomas R. Gross
@@ -1501,6 +1518,7 @@
   - papers/hatcliff:compsurv:2012
 - name: Christophe Hauser
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
 - name: Chris Hawblitzel
   papers:
@@ -1744,6 +1762,9 @@
 - name: Joshua Jaffe
   papers:
   - papers/kocher:crypto:1999
+- name: Yeongjin Jang
+  papers:
+  - papers/yun:usenix:2018
 - name: Ciera Jaspan
   papers:
   - papers/sadowski:cacm:2018
@@ -1891,6 +1912,9 @@
 - name: Sebastian Kanthak
   papers:
   - papers/corbett:tocs:2013
+- name: Timotej Kapus
+  papers:
+  - papers/kapus:fse:2019
 - name: Michal Karczmarek
   papers:
   - papers/gordon:asplos:2002
@@ -1954,6 +1978,9 @@
 - name: Jeremie Kim
   papers:
   - papers/kim:isca:2014
+- name: Taesoo Kim
+  papers:
+  - papers/yun:usenix:2018
 - name: Johannes Kinder
   papers:
   - papers/kuznetsov:pldi:2012
@@ -2073,6 +2100,7 @@
   - papers/krohn:sosp:2007
 - name: Christopher Kruegel
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Wido Kruijtzer
@@ -2163,6 +2191,9 @@
 - name: Ruby B. Lee
   papers:
   - papers/lee:micro:1996
+- name: Sangho Lee
+  papers:
+  - papers/yun:usenix:2018
 - name: Chris Leger
   papers:
   - papers/gordon:asplos:2002
@@ -3038,12 +3069,16 @@
   papers:
   - papers/pnueli:sfcs:1977
   - papers/pnueli:tacas:1998
+- name: Sebastian Poeplau
+  papers:
+  - papers/poeplau:usenix:2020
 - name: Federico Poli
   papers:
   - papers/astrauskas:oopsla:2019
   - papers/astrauskas:oopsla:2020
 - name: Mario Polino
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
 - name: "Carlos G. L\xF3pez Pombo"
   papers:
@@ -3160,6 +3195,7 @@
   papers:
   - papers/avgerinos:cacm:2014
   - papers/avgerinos:icse:2014
+  - papers/cha:sandp:2012
 - name: David Redmiles
   papers:
   - papers/rieman:chi:1995
@@ -3333,6 +3369,7 @@
   - papers/corbett:tocs:2013
 - name: Christopher Salls
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Hanan Samet
@@ -3505,6 +3542,7 @@
   - papers/nanevski:icfp:2008
 - name: Yan Shoshitaishvili
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Junaid Haroon Siddiqui
@@ -3648,6 +3686,7 @@
   - papers/hohmuth:sigops:2002
 - name: Nick Stephens
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Nigel Stephens
@@ -3668,6 +3707,9 @@
 - name: Leigh Stoller
   papers:
   - papers/reid:osdi:2000
+- name: "Jan Strej\u010Dek"
+  papers:
+  - papers/trtik:atva:2014
 - name: Aaron Stump
   papers:
   - papers/barrett:cade:2000
@@ -3867,6 +3909,9 @@
 - name: Jean-Baptiste Tristan
   papers:
   - papers/morrisett:pldi:2012
+- name: "Marek Trt\xEDk"
+  papers:
+  - papers/trtik:atva:2014
 - name: Michael Carl Tschantz
   papers:
   - papers/tschantz:fm:2009
@@ -3936,6 +3981,7 @@
   - papers/mcilroy:arxiv:2019
 - name: Giovanni Vigna
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Muralidaran Vijayaraghavan
@@ -4017,6 +4063,7 @@
   - papers/grossman:pldi:2002
 - name: Ruoyu Wang
   papers:
+  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Perry H. Wang
@@ -4163,6 +4210,9 @@
 - name: Hui Xu
   papers:
   - papers/xu:arxiv:2021
+- name: Meng Xu
+  papers:
+  - papers/yun:usenix:2018
 - name: Hui Xue
   papers:
   - papers/mai:asplos:2013
@@ -4215,6 +4265,9 @@
 - name: Zeming Yu
   papers:
   - papers/qin:pldi:2020
+- name: Insu Yun
+  papers:
+  - papers/yun:usenix:2018
 - name: Ali Zaidi
   papers:
   - papers/reid:cav:2016

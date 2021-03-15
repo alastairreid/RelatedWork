@@ -30,6 +30,7 @@ year: 2014
 notes:
 - Automatic Exploit Generation
 - KLEE verifier
+- symbolic execution
 papers:
 - heelan:msc:2009
 - heelan:sec:2018

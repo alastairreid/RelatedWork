@@ -1352,6 +1352,7 @@ notes:
       - null
   papers/bell:cacm:2008: []
   papers/bell:procieee:2014: []
+  papers/bembenek:oopsla:2020: []
   papers/berdine:aplas:2005: []
   papers/berdine:fmco:2005: []
   papers/bershad:cmpcon:1993: []
@@ -1462,6 +1463,7 @@ notes:
       - null
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
+  papers/cha:sandp:2012: []
   papers/chakravarty:haskffi:2003:
   - - notes/foreign-function-interface
     - - Foreign function interface
@@ -1808,6 +1810,7 @@ notes:
     - - Rust unsafe code
       - null
   papers/kaivola:cav:2009: []
+  papers/kapus:fse:2019: []
   papers/kassios:fm:2006: []
   papers/kaufmann:ieeetse:1997: []
   papers/kaufmann:utaustin:2012: []
@@ -2091,6 +2094,7 @@ notes:
   - - notes/translation-validation
     - - Translation validation
       - null
+  papers/poeplau:usenix:2020: []
   papers/potvin:cacm:2016: []
   papers/qin:pldi:2020: []
   papers/qiu:icse:2017:
@@ -2193,6 +2197,7 @@ notes:
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
   papers/shi:phd:2013: []
+  papers/shoshitaishvili:sandp:2016: []
   papers/shoshitaishvili:sp:2016:
   - - notes/systematization-of-knowledge
     - - Systematization of Knowledge (SoK)
@@ -2284,6 +2289,7 @@ notes:
     - - Verifier performance
       - null
   papers/tremblay:micro:1996: []
+  papers/trtik:atva:2014: []
   papers/tschantz:fm:2009: []
   papers/tuerk:vstte:2010:
   - - notes/loop-invariant
@@ -2346,6 +2352,7 @@ notes:
   papers/xie:bugs:2005: []
   papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
+  papers/yun:usenix:2018: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
   papers/zeldovich:osdi:2006: []
@@ -2591,6 +2598,9 @@ papers:
     - - Compositional shape analysis by means of bi-abduction
       - calcagno:popl:2009
   notes/binary-analysis:
+  - - papers/cha:sandp:2012
+    - - Unleashing Mayhem on binary code
+      - cha:sandp:2012
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
@@ -2600,6 +2610,9 @@ papers:
   - - papers/noonan:pldi:2016
     - - Polymorphic type inference for machine code
       - noonan:pldi:2016
+  - - papers/shoshitaishvili:sandp:2016
+    - - 'SOK: (State of) the art of war: Offensive techniques in binary analysis'
+      - shoshitaishvili:sandp:2016
   - - papers/shoshitaishvili:sp:2016
     - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
       - shoshitaishvili:sp:2016
@@ -4123,6 +4136,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/kapus:fse:2019
+    - - A segmented memory model for symbolic execution
+      - kapus:fse:2019
   - - papers/kuznetsov:pldi:2012
     - - Efficient state merging in symbolic execution
       - kuznetsov:pldi:2012
@@ -5465,6 +5481,9 @@ papers:
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
   notes/symbolic-execution:
+  - - papers/avgerinos:cacm:2014
+    - - Automatic exploit generation
+      - avgerinos:cacm:2014
   - - papers/avgerinos:icse:2014
     - - Enhancing symbolic execution with veritesting
       - avgerinos:icse:2014
@@ -5499,6 +5518,9 @@ papers:
     - - 'KLEE: Unassisted and automatic generation of high-coverage tests for complex
         systems programs'
       - cadar:osdi:2008
+  - - papers/cha:sandp:2012
+    - - Unleashing Mayhem on binary code
+      - cha:sandp:2012
   - - papers/chipounov:asplos:2011
     - - 'S2E: A platform for in-vivo multi-path analysis of software systems'
       - chipounov:asplos:2011
@@ -5536,6 +5558,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/kapus:fse:2019
+    - - A segmented memory model for symbolic execution
+      - kapus:fse:2019
   - - papers/kuznetsov:pldi:2012
     - - Efficient state merging in symbolic execution
       - kuznetsov:pldi:2012
@@ -5577,6 +5602,9 @@ papers:
     - - All you ever wanted to know about dynamic taint analysis and forward symbolic
         execution (but might have been afraid to ask)
       - schwartz:sp:2010
+  - - papers/shoshitaishvili:sandp:2016
+    - - 'SOK: (State of) the art of war: Offensive techniques in binary analysis'
+      - shoshitaishvili:sandp:2016
   - - papers/siddiqui:oopsla:2012
     - - Scaling symbolic execution using ranged analysis
       - siddiqui:oopsla:2012
@@ -5592,9 +5620,15 @@ papers:
   - - papers/trabish:icse:2018
     - - Chopped symbolic execution
       - trabish:icse:2018
+  - - papers/trtik:atva:2014
+    - - Symbolic memory with pointers
+      - trtik:atva:2014
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
   - - papers/zhang:apsec:2018
     - - Boost symbolic execution using dynamic state merging and forking
       - zhang:apsec:2018
@@ -6278,6 +6312,7 @@ papers:
     - - 'STARS: Rise and fall of minicomputers [scanning our past]'
       - bell:procieee:2014
   papers/bell:procieee:2014: []
+  papers/bembenek:oopsla:2020: []
   papers/berdine:aplas:2005:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
@@ -6371,6 +6406,7 @@ papers:
   papers/calcagno:popl:2009: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
+  papers/cha:sandp:2012: []
   papers/chakravarty:haskffi:2003:
   - - papers/jones:hw:1997
     - - 'Green Card: a foreign-language interface for Haskell'
@@ -6737,6 +6773,7 @@ papers:
     - - 'Safe systems programming in Rust: The promise and the challenge'
       - jung:cacm:2021
   papers/kaivola:cav:2009: []
+  papers/kapus:fse:2019: []
   papers/kassios:fm:2006: []
   papers/kaufmann:ieeetse:1997: []
   papers/kaufmann:utaustin:2012: []
@@ -6977,6 +7014,7 @@ papers:
   - - papers/necula:pldi:2000
     - - Translation validation for an optimizing compiler
       - necula:pldi:2000
+  papers/poeplau:usenix:2020: []
   papers/potvin:cacm:2016:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
@@ -7157,6 +7195,7 @@ papers:
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
   papers/shi:phd:2013: []
+  papers/shoshitaishvili:sandp:2016: []
   papers/shoshitaishvili:sp:2016: []
   papers/siddiqui:oopsla:2012:
   - - papers/qiu:icse:2017
@@ -7251,6 +7290,7 @@ papers:
       - weitz:icfp:2017
   papers/trabish:icse:2018: []
   papers/tremblay:micro:1996: []
+  papers/trtik:atva:2014: []
   papers/tschantz:fm:2009: []
   papers/tuerk:vstte:2010:
   - - papers/hehner:vstte:2008
@@ -7315,6 +7355,7 @@ papers:
       - godefroid:bugs:2005
   papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
+  papers/yun:usenix:2018: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
   papers/zeldovich:osdi:2006:
