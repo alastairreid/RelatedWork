@@ -101,6 +101,9 @@
   papers:
   - papers/andronick:icse:2012
   - papers/klein:sosp:2009
+- name: Marco Angelini
+  papers:
+  - papers/angelini:vizsec:2019
 - name: Jorge Aparicius
   papers:
   - papers/lindner:indin:2018
@@ -356,6 +359,9 @@
 - name: "Fr\xE9d\xE9ric Blanqui"
   papers:
   - papers/blanqui:rapido:2011
+- name: Graziano Blasilli
+  papers:
+  - papers/angelini:vizsec:2019
 - name: Guy E. Blelloch
   papers:
   - papers/blelloch:book:1990
@@ -398,6 +404,9 @@
   - papers/nelson:sosp:2019
   - papers/sigurbjarnarson:osdi:2016
   - papers/sigurbjarnarson:osdi:2018
+- name: Luca Borzacchiello
+  papers:
+  - papers/angelini:vizsec:2019
 - name: Bernard Botella
   papers:
   - papers/cuoq:sefm:2012
@@ -737,6 +746,7 @@
   - papers/cook:cav:2018
 - name: Emilio Coppa
   papers:
+  - papers/angelini:vizsec:2019
   - papers/baldoni:compsurv:2018
   - papers/coppa:ase:2017
 - name: Thierry Coquand
@@ -879,6 +889,7 @@
   - papers/reid:cav:2016
 - name: Camil Demetrescu
   papers:
+  - papers/angelini:vizsec:2019
   - papers/baldoni:compsurv:2018
   - papers/coppa:ase:2017
 - name: Onur Demir
@@ -986,6 +997,9 @@
 - name: Matthew B. Dwyer
   papers:
   - papers/siegel:sc:2015
+- name: "Daniele Cono D\u2019Elia"
+  papers:
+  - papers/angelini:vizsec:2019
 - name: Alex Eagle
   papers:
   - papers/sadowski:cacm:2018
@@ -2244,6 +2258,9 @@
 - name: Caroline Lemieux
   papers:
   - papers/babic:fse:2019
+- name: Simone Lenti
+  papers:
+  - papers/angelini:vizsec:2019
 - name: Jay Lepreau
   papers:
   - papers/eide:aspse:2001
@@ -2858,6 +2875,9 @@
 - name: James Newsome
   papers:
   - papers/vasudevan:secpriv:2013
+- name: Simone Nicchi
+  papers:
+  - papers/angelini:vizsec:2019
 - name: Carol Nichols
   papers:
   - papers/klabnik:book:2018
@@ -3408,6 +3428,9 @@
 - name: Thomas Santen
   papers:
   - papers/leinenbach:fm:2009
+- name: Giuseppe Santucci
+  papers:
+  - papers/angelini:vizsec:2019
 - name: Sercan Sari
   papers:
   - papers/deng:hasp:2019

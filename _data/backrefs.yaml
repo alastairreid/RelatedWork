@@ -1253,6 +1253,7 @@ notes:
     - - Remote procedure call (RPC)
       - null
   papers/andronick:icse:2012: []
+  papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
   papers/armstrong:popl19:2019: []
   papers/armstrong:spisa:2019: []
@@ -5671,6 +5672,9 @@ papers:
   - - papers/coppa:ase:2017
     - - Rethinking pointer reasoning in symbolic execution
       - coppa:ase:2017
+  - - papers/kapus:fse:2019
+    - - A segmented memory model for symbolic execution
+      - kapus:fse:2019
   notes/symbolic-model-checking:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
@@ -6032,6 +6036,9 @@ papers:
     - - Chopped symbolic execution
       - trabish:icse:2018
   notes/verification-profiling:
+  - - papers/angelini:vizsec:2019
+    - - 'SymNav: Visually assisting symbolic execution'
+      - angelini:vizsec:2019
   - - papers/becker:tacas:2019
     - - 'The Axiom profiler: Understanding and debugging SMT quantifier instantiations'
       - becker:tacas:2019
@@ -6222,6 +6229,7 @@ papers:
   papers/amani:asplos:2016: []
   papers/ananda:osr:1992: []
   papers/andronick:icse:2012: []
+  papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
   papers/armstrong:popl19:2019: []
   papers/armstrong:spisa:2019: []
@@ -6514,7 +6522,10 @@ papers:
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
-  papers/coppa:ase:2017: []
+  papers/coppa:ase:2017:
+  - - papers/kapus:fse:2019
+    - - A segmented memory model for symbolic execution
+      - kapus:fse:2019
   papers/coquand:eurocal:1985: []
   papers/corbett:tocs:2013:
   - - papers/potvin:cacm:2016

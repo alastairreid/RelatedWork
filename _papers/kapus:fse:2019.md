@@ -23,8 +23,9 @@ location: Tallinn, Estonia
 numpages: '11'
 pages: 774-784
 publisher: Association for Computing Machinery
-read: false
-readings: []
+read: true
+readings:
+- 2021-03-18
 series: ESEC/FSE 2019
 title: A segmented memory model for symbolic execution
 url: https://doi.org/10.1145/3338906.3338936
@@ -32,6 +33,33 @@ year: 2019
 notes:
 - symbolic execution
 - KLEE verifier
+- symbolic memory
 papers:
+- coppa:ase:2017
 ---
+
+This paper provides a different solution to the problem in [coppa:ase:2017]:
+how to handle symbolic addresses during symbolic execution.
+Forking (the default behaviour of [KLEE][KLEE verifier])
+every time the pointer target could refer to multiple objects ("multi-resolution")
+causes a path explosion while treating the entire memory as a single flat object
+is inefficient.
+
+Their solution is to use a pointer analysis to partition all objects/pointers into
+equivalence classes of objects that may alias.
+A separate segment with its own memory management (including its own free list)
+is created for each equivalence class and allocation is performed in the appropriate segment.
+They allow for possible bugs in the pointer analysis by performing a search in each
+segment: the performance benefit comes from the fact that only one will hit (in the absence
+of bugs).
+
+They evaluate on the Apache Portable Runtime (a sort of portability middleware layer),
+GNU m4, GNU make and SQLite.
+The new model is (significantly?) slower than standard KLEE on benchmarks that do not suffer from
+multiresolution.
+An alternative model that (aggressively?) merges paths is competitive with segmented memory
+but it times out on some of the benchmarks.
+They evaluate the impact of pointer analysis precision -- sometimes it matters.
+
+
 {% include links.html %}
