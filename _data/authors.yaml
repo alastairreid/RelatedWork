@@ -192,6 +192,9 @@
 - name: Manuel Barbosa
   papers:
   - papers/almeida:security:2016
+- name: "S\xE9bastien Bardin"
+  papers:
+  - papers/david:issta:2016
 - name: Celeste Barnaby
   papers:
   - papers/coblenz:arxiv:2020
@@ -735,6 +738,7 @@
 - name: Emilio Coppa
   papers:
   - papers/baldoni:compsurv:2018
+  - papers/coppa:ase:2017
 - name: Thierry Coquand
   papers:
   - papers/coquand:eurocal:1985
@@ -784,6 +788,9 @@
   papers:
   - papers/barthe:csfw:2004
   - papers/barthe:mscs:2011
+- name: Daniele Cono D'Elia
+  papers:
+  - papers/coppa:ase:2017
 - name: Daniele Cono D'elia
   papers:
   - papers/baldoni:compsurv:2018
@@ -831,6 +838,9 @@
 - name: James H. Davenport
   papers:
   - papers/nyxbrain:sc2:2017
+- name: Robin David
+  papers:
+  - papers/david:issta:2016
 - name: Jack W. Davidson
   papers:
   - papers/ramsey:lctes:1998
@@ -870,6 +880,7 @@
 - name: Camil Demetrescu
   papers:
   - papers/baldoni:compsurv:2018
+  - papers/coppa:ase:2017
 - name: Onur Demir
   papers:
   - papers/deng:hasp:2019
@@ -1071,6 +1082,9 @@
 - name: Andreas Fauth
   papers:
   - papers/fauth:edtc:1995
+- name: Josselin Feist
+  papers:
+  - papers/david:issta:2016
 - name: Siji Feng
   papers:
   - papers/shoshitaishvili:sandp:2016
@@ -2485,6 +2499,9 @@
 - name: Andre V. Marianiello
   papers:
   - papers/siegel:sc:2015
+- name: Jean-Yves Marion
+  papers:
+  - papers/david:issta:2016
 - name: Simon Marlow
   papers:
   - papers/chakravarty:haskffi:2003
@@ -2652,6 +2669,9 @@
   - papers/cohen:entcs:2009
   - papers/legoues:sefm:2011
   - papers/maus:amast:2008
+- name: Laurent Mounier
+  papers:
+  - papers/david:issta:2016
 - name: Leonardo de Moura
   papers:
   - papers/barrett:mlf:2015
@@ -3086,6 +3106,9 @@
 - name: Pongsin Poosankam
   papers:
   - papers/martignoni:asplos:2012
+- name: Marie-Laure Potet
+  papers:
+  - papers/david:issta:2016
 - name: Rachel Potvin
   papers:
   - papers/potvin:cacm:2016
@@ -3773,6 +3796,9 @@
   papers:
   - papers/sadowski:icse-seip:2018
   - papers/sadowski:icse:2015
+- name: Thanh Dinh Ta
+  papers:
+  - papers/david:issta:2016
 - name: Amer Tahat
   papers:
   - papers/tahat:fmcad:2019

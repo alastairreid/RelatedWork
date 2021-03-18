@@ -24,6 +24,7 @@ notes:
 - unit tests
 - verification performance
 - swarm verification
+- angr verifier
 papers:
 - holzmann:ieeetse:2011
 ---
