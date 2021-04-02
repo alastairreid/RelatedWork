@@ -47,4 +47,7 @@ explainable type system, it allows ["unsafe code"][Rust unsafe code] that may
 break the rules internally but is expected to provide a safe API to the rest of
 Rust. (See [jung:popl:2020].)
 
+*[Note that this summary is based on the PDF submitted to CACM for publication --
+the final version has a slightly different title, etc.]*
+
 {% include links.html %}

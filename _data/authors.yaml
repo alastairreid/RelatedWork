@@ -1070,6 +1070,9 @@
 - name: Ana Nora Evans
   papers:
   - papers/evans:icse:2020
+- name: James A. Evans
+  papers:
+  - papers/wu:arxiv:2017
 - name: Mbou Eyole
   papers:
   - papers/boettcher:date:2014
@@ -4124,6 +4127,9 @@
 - name: Feng Wang
   papers:
   - papers/wang:tase:2018
+- name: Dashun Wang
+  papers:
+  - papers/wu:arxiv:2017
 - name: Yao Wang
   papers:
   - papers/zhang:asplos:2015
@@ -4241,6 +4247,9 @@
 - name: Xiongnan Newman Wu
   papers:
   - papers/gu:osdi:2016
+- name: Lingfei Wu
+  papers:
+  - papers/wu:arxiv:2017
 - name: "Valentin W\xFCstholz"
   papers:
   - papers/mansur:arxiv:2020

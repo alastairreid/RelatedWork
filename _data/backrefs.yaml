@@ -2371,6 +2371,7 @@ notes:
     - - CHERI architecture
       - null
   papers/wright:icsm:2013: []
+  papers/wu:arxiv:2017: []
   papers/xi:icfp:2001: []
   papers/xie:bugs:2005: []
   papers/xu:arxiv:2021: []
@@ -7415,6 +7416,7 @@ papers:
   - - papers/sadowski:icse:2015
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
+  papers/wu:arxiv:2017: []
   papers/xi:icfp:2001: []
   papers/xie:bugs:2005:
   - - papers/godefroid:bugs:2005
