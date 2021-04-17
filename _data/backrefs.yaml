@@ -2165,6 +2165,8 @@ notes:
   - - notes/smack-verifier
     - - SMACK verifier
       - null
+  papers/ramos:cav:2011: []
+  papers/ramos:sec:2015: []
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
   papers/rath:epiq:2018: []
@@ -4242,6 +4244,12 @@ papers:
   - - papers/pandey:issta:2019
     - - Deferred concretization in symbolic execution via fuzzing
       - pandey:issta:2019
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
+  - - papers/rath:epiq:2018
+    - - Interoperability-guided testing of QUIC implementations using symbolic execution
+      - rath:epiq:2018
   - - papers/romano:phd:2014
     - - Methods for binary symbolic execution
       - romano:phd:2014
@@ -6324,6 +6332,9 @@ papers:
   - - papers/leino:lpair:2010
     - - 'Dafny: An automatic program verifier for functional correctness'
       - leino:lpair:2010
+  - - papers/rath:epiq:2018
+    - - Interoperability-guided testing of QUIC implementations using symbolic execution
+      - rath:epiq:2018
   papers/aagaard:charme:2001: []
   papers/aagaard:fmcad:2000: []
   papers/abadi:tcs:1991: []
@@ -7230,6 +7241,8 @@ papers:
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
+  papers/ramos:cav:2011: []
+  papers/ramos:sec:2015: []
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
   papers/rath:epiq:2018:
