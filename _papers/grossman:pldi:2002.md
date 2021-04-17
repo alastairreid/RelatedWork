@@ -31,6 +31,7 @@ title: Region-based memory management in Cyclone
 url: https://doi.org/10.1145/512529.512563
 year: 2002
 notes:
+- Cyclone language
 papers:
 ---
 {% include links.html %}

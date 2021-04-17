@@ -27,6 +27,7 @@ notes:
 - instruction set architecture
 - typed assembly language
 - linear logic
+- Cyclone language
 papers:
 ---
 
@@ -36,7 +37,7 @@ The main purpose of the types is to make the assembly code type/memory
 safe and so the focus is on distinguishing pointers from
 non-pointers and distinguishing the size and type of what each
 pointer points to.
-This paper is one of the later papers in a series on typed assembly language and also related to the Cyclone language: a type/memory-safe C substitute.
+This paper is one of the later papers in a series on typed assembly language and also related to the [Cyclone language]: a type/memory-safe C substitute.
 
 To demonstrate that their type system is expressive enough, they describe 'Popcorn' - a small C-like language that they can compile to TALx86.
 Compared with C, some major differences are that Popcorn
