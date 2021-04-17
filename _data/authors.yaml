@@ -95,6 +95,9 @@
 - name: David Andersen
   papers:
   - papers/spencer:security:1999
+- name: Brian Anderson
+  papers:
+  - papers/anderson:icse:2016
 - name: Jonathan Anderson
   papers:
   - papers/woodruff:isca:2014
@@ -302,6 +305,9 @@
 - name: Emery D. Berger
   papers:
   - papers/hertz:oopsla:2005
+- name: Lars Bergstrom
+  papers:
+  - papers/anderson:icse:2016
 - name: Brian N. Bershad
   papers:
   - papers/bershad:cmpcon:1993
@@ -1306,6 +1312,9 @@
   papers:
   - papers/kocher:arxiv:2018
   - papers/lipp:arxiv:2018
+- name: Jeffrey Gennari
+  papers:
+  - papers/gennari:vstte:2018
 - name: Vlad Georgescu
   papers:
   - papers/chipounov:hotdep:2009
@@ -1377,6 +1386,9 @@
 - name: Michael I. Gordon
   papers:
   - papers/gordon:asplos:2002
+- name: Manish Goregaokar
+  papers:
+  - papers/anderson:icse:2016
 - name: Lorenz Gorse
   papers:
   - papers/gorse:msc:2020
@@ -1479,6 +1491,7 @@
   - papers/sharma:pls:2013
 - name: Arie Gurfinkel
   papers:
+  - papers/gennari:vstte:2018
   - papers/gurfinkel:cav:2015
 - name: Samuel Z. Guyer
   papers:
@@ -1943,6 +1956,7 @@
   - papers/krohn:sosp:2007
 - name: Temesghen Kahsai
   papers:
+  - papers/gennari:vstte:2018
   - papers/gurfinkel:cav:2015
 - name: Roope Kaivola
   papers:
@@ -2569,6 +2583,9 @@
   papers:
   - papers/braione:icse:2018
   - papers/trabish:icse:2018
+- name: Josh Matthews
+  papers:
+  - papers/anderson:icse:2016
 - name: Stefan Maus
   papers:
   - papers/maus:amast:2008
@@ -2589,6 +2606,9 @@
 - name: Michelle L. Mazurek
   papers:
   - papers/votipka:sp:2018
+- name: Keegan McAllister
+  papers:
+  - papers/anderson:icse:2016
 - name: Stephen McCamant
   papers:
   - papers/martignoni:asplos:2012
@@ -2600,6 +2620,7 @@
   - papers/jhala:cav:2001
   - papers/mcmillan:cav:1998
   - papers/mcmillan:ecs:2003
+  - papers/mcmillan:sigcomm:2019
 - name: Phil McMinn
   papers:
   - papers/barr:tse:2015
@@ -2663,6 +2684,9 @@
 - name: John C. Mitchell
   papers:
   - papers/lie:secpri:2003
+- name: Jack Moffitt
+  papers:
+  - papers/anderson:icse:2016
 - name: David Molnar
   papers:
   - papers/godefroid:acmq:2012
@@ -2847,6 +2871,7 @@
   - papers/naumann:fmco:2004
 - name: Jorge A. Navas
   papers:
+  - papers/gennari:vstte:2018
   - papers/gurfinkel:cav:2015
 - name: Matthew Naylor
   papers:
@@ -3247,6 +3272,9 @@
 - name: Richard F. Rashid
   papers:
   - papers/draves:sosp:1991
+- name: Felix Rath
+  papers:
+  - papers/rath:epiq:2018
 - name: Jakob von Raumer
   papers:
   - papers/demoura:cade:2015
@@ -3458,6 +3486,9 @@
 - name: Giuseppe Santucci
   papers:
   - papers/angelini:vizsec:2019
+- name: Simon Sapin
+  papers:
+  - papers/anderson:icse:2016
 - name: Sercan Sari
   papers:
   - papers/deng:hasp:2019
@@ -3477,6 +3508,9 @@
   papers:
   - papers/holzer:cav:2008
   - papers/holzer:hvc:2010
+- name: Daniel Schemmel
+  papers:
+  - papers/rath:epiq:2018
 - name: Eric Schkufza
   papers:
   - papers/heule:pldi:2016
@@ -3508,6 +3542,7 @@
 - name: Edward J. Schwartz
   papers:
   - papers/avgerinos:cacm:2014
+  - papers/gennari:vstte:2018
   - papers/manes:ieeetse:2019
   - papers/schwartz:sp:2010
 - name: Daniel Schwartz-Narbonne
@@ -3870,6 +3905,9 @@
 - name: "\xC9ric Tanter"
   papers:
   - papers/bader:vmcai:2018
+- name: '{\''E}ric Tanter'
+  papers:
+  - papers/tanter:aosd:2010
 - name: Serdar Tasiran
   papers:
   - papers/chong:icse:2020
@@ -4178,6 +4216,9 @@
 - name: Michael Weber
   papers:
   - papers/chakravarty:haskffi:2003
+- name: Klaus Wehrle
+  papers:
+  - papers/rath:epiq:2018
 - name: Alexander Weigl
   papers:
   - papers/weigl:arxiv:2019
@@ -4463,6 +4504,9 @@
 - name: Bill Zorn
   papers:
   - papers/zorn:iscawddd:2017
+- name: Lenore D. Zuck
+  papers:
+  - papers/mcmillan:sigcomm:2019
 - name: Susan Zuckerman
   papers:
   - papers/barbacci:afips:1977

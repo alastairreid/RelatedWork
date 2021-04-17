@@ -1271,6 +1271,7 @@ notes:
   - - notes/remote-procedure-call
     - - Remote procedure call (RPC)
       - null
+  papers/anderson:icse:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
@@ -1679,6 +1680,7 @@ notes:
   - - notes/side-channel
     - - Side Channel
       - null
+  papers/gennari:vstte:2018: []
   papers/godefroid:acmq:2012: []
   papers/godefroid:bugs:2005: []
   papers/godefroid:cacm:2020:
@@ -2004,6 +2006,7 @@ notes:
   - - notes/model-checking
     - - Model checking
       - null
+  papers/mcmillan:sigcomm:2019: []
   papers/mechtaev:fse:2018: []
   papers/merz:vstte:2012: []
   papers/miller:cacm:1990:
@@ -2160,6 +2163,7 @@ notes:
       - null
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
+  papers/rath:epiq:2018: []
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
   papers/regehr:emsoft:2003: []
@@ -2308,6 +2312,7 @@ notes:
       - null
   papers/tahat:fmcad:2019: []
   papers/tang:sec:2017: []
+  papers/tanter:aosd:2010: []
   papers/thies:micro:2007: []
   papers/thies:ppopp:2005: []
   papers/tillmann:fse:2005: []
@@ -4930,6 +4935,9 @@ papers:
   - - papers/almohri:codaspy:2018
     - - 'Fidelius Charm: Isolating unsafe Rust code'
       - almohri:codaspy:2018
+  - - papers/anderson:icse:2016
+    - - Engineering the Servo web browser engine using Rust
+      - anderson:icse:2016
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
       - astrauskas:oopsla:2019
@@ -5118,6 +5126,9 @@ papers:
     - - 'From SODA to scotch: The evolution of a wireless baseband processor'
       - woh:micro:2008
   notes/seahorn-verifier:
+  - - papers/gennari:vstte:2018
+    - - Executable counterexamples in software model checking
+      - gennari:vstte:2018
   - - papers/gurfinkel:cav:2015
     - - The SeaHorn verification framework
       - gurfinkel:cav:2015
@@ -6276,6 +6287,7 @@ papers:
   papers/almohri:codaspy:2018: []
   papers/amani:asplos:2016: []
   papers/ananda:osr:1992: []
+  papers/anderson:icse:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
@@ -6705,6 +6717,7 @@ papers:
       - dimjasevic:ifm:2018
   papers/gay:pldi:2003: []
   papers/ge:jce:2016: []
+  papers/gennari:vstte:2018: []
   papers/godefroid:acmq:2012: []
   papers/godefroid:bugs:2005:
   - - papers/xie:bugs:2005
@@ -7029,6 +7042,7 @@ papers:
   papers/mcilroy:arxiv:2019: []
   papers/mcmillan:cav:1998: []
   papers/mcmillan:ecs:2003: []
+  papers/mcmillan:sigcomm:2019: []
   papers/mechtaev:fse:2018: []
   papers/merz:vstte:2012: []
   papers/miller:cacm:1990: []
@@ -7165,6 +7179,7 @@ papers:
       - barnett:fmco:2005
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
+  papers/rath:epiq:2018: []
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
   papers/regehr:emsoft:2003: []
@@ -7381,6 +7396,7 @@ papers:
   papers/systemverilog:ieee:2013: []
   papers/tahat:fmcad:2019: []
   papers/tang:sec:2017: []
+  papers/tanter:aosd:2010: []
   papers/thies:micro:2007: []
   papers/thies:ppopp:2005: []
   papers/tillmann:fse:2005: []
