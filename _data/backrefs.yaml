@@ -1100,6 +1100,7 @@ notes:
   - - notes/testability
     - - Testability
       - null
+  notes/test-doubles: []
   notes/test-driven-development:
   - - notes/contract-driven-development
     - - Contract driven development
@@ -5578,6 +5579,9 @@ papers:
   - - papers/beyer:ijsttt:2007
     - - 'The software model checker BLAST: Applications to software engineering'
       - beyer:ijsttt:2007
+  - - papers/gennari:vstte:2018
+    - - Executable counterexamples in software model checking
+      - gennari:vstte:2018
   - - papers/holzer:cav:2008
     - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
       - holzer:cav:2008
@@ -5846,6 +5850,10 @@ papers:
     - - 'Software verification: Testing vs. model checking'
       - beyer:hvc:2017
   notes/test-double: []
+  notes/test-doubles:
+  - - papers/gennari:vstte:2018
+    - - Executable counterexamples in software model checking
+      - gennari:vstte:2018
   notes/test-driven-development: []
   notes/test-generation:
   - - papers/babic:fse:2019
