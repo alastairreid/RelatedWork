@@ -477,6 +477,7 @@ notes:
   - - notes/isa-specification
     - - ISA specification
       - null
+  notes/ivy-verifier: []
   notes/javascript: []
   notes/klee-verifier:
   - - notes/fuzz-testing
@@ -736,6 +737,7 @@ notes:
     - - Viper verifier
       - null
   notes/pvs-theorem-prover: []
+  notes/quic-protocol: []
   notes/reachability:
   - - notes/bounded-model-checking
     - - Bounded model-checking
@@ -1241,6 +1243,7 @@ notes:
   - - notes/memory-coherence
     - - Memory coherence
       - null
+  notes/weakest-precondition: []
   notes/why3-verifier: []
   notes/x86-architecture:
   - - notes/instruction-set-architecture
@@ -4183,6 +4186,10 @@ papers:
   - - papers/su:computer:1974
     - - A survey of computer hardware description languages in the U.S.A.
       - su:computer:1974
+  notes/ivy-verifier:
+  - - papers/mcmillan:sigcomm:2019
+    - - Formal specification and testing of QUIC
+      - mcmillan:sigcomm:2019
   notes/javascript:
   - - papers/bodin:popl:2014
     - - A trusted mechanised JavaScript specification
@@ -4848,6 +4855,13 @@ papers:
   - - papers/tahat:fmcad:2019
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
+  notes/quic-protocol:
+  - - papers/mcmillan:sigcomm:2019
+    - - Formal specification and testing of QUIC
+      - mcmillan:sigcomm:2019
+  - - papers/rath:epiq:2018
+    - - Interoperability-guided testing of QUIC implementations using symbolic execution
+      - rath:epiq:2018
   notes/reachability:
   - - papers/jhala:compsurv:2009
     - - Software model checking
@@ -5692,6 +5706,9 @@ papers:
   - - papers/manes:ieeetse:2019
     - - 'The art, science, and engineering of fuzzing: A survey'
       - manes:ieeetse:2019
+  - - papers/mcmillan:sigcomm:2019
+    - - Formal specification and testing of QUIC
+      - mcmillan:sigcomm:2019
   - - papers/mechtaev:fse:2018
     - - Symbolic execution with existential second-order constraints
       - mechtaev:fse:2018
@@ -5707,6 +5724,9 @@ papers:
   - - papers/qiu:nfm:2018
     - - Using test ranges to improve symbolic execution
       - qiu:nfm:2018
+  - - papers/rath:epiq:2018
+    - - Interoperability-guided testing of QUIC implementations using symbolic execution
+      - rath:epiq:2018
   - - papers/reid:hatra:2020
     - - 'Towards making formal methods normal: meeting developers where they are'
       - reid:hatra:2020
@@ -5826,6 +5846,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/mcmillan:sigcomm:2019
+    - - Formal specification and testing of QUIC
+      - mcmillan:sigcomm:2019
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
@@ -6213,6 +6236,10 @@ papers:
     - - Integrating memory consistency models with instruction-level abstraction for
         heterogeneous system-on-chip verification
       - zhang:fmcad:2018
+  notes/weakest-precondition:
+  - - papers/mcmillan:sigcomm:2019
+    - - Formal specification and testing of QUIC
+      - mcmillan:sigcomm:2019
   notes/why3-verifier:
   - - papers/cuoq:sefm:2012
     - - 'Frama-C: A software analysis perspective'
@@ -7065,7 +7092,10 @@ papers:
   papers/mcilroy:arxiv:2019: []
   papers/mcmillan:cav:1998: []
   papers/mcmillan:ecs:2003: []
-  papers/mcmillan:sigcomm:2019: []
+  papers/mcmillan:sigcomm:2019:
+  - - papers/rath:epiq:2018
+    - - Interoperability-guided testing of QUIC implementations using symbolic execution
+      - rath:epiq:2018
   papers/mechtaev:fse:2018: []
   papers/merz:vstte:2012: []
   papers/miller:cacm:1990: []
@@ -7202,7 +7232,10 @@ papers:
       - barnett:fmco:2005
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
-  papers/rath:epiq:2018: []
+  papers/rath:epiq:2018:
+  - - papers/mcmillan:sigcomm:2019
+    - - Formal specification and testing of QUIC
+      - mcmillan:sigcomm:2019
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
   papers/regehr:emsoft:2003: []

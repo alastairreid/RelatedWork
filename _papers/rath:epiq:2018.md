@@ -30,6 +30,9 @@ title: Interoperability-guided testing of QUIC implementations using symbolic ex
 url: https://doi.org/10.1145/3284850.3284853
 year: 2018
 notes:
+- QUIC protocol
+- symbolic execution
 papers:
+- mcmillan:sigcomm:2019
 ---
 {% include links.html %}
