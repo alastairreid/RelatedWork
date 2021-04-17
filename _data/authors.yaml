@@ -83,6 +83,7 @@
   - papers/thies:ppopp:2005
 - name: Arthur Azevedo de Amorim
   papers:
+  - papers/azevedo:post:2018
   - papers/hritcu:icfp:2013
   - papers/pierce:book:2016
 - name: Akkihebbal L. Ananda
@@ -163,6 +164,9 @@
   papers:
   - papers/ball:dsse:2015
   - papers/ball:pldi:2001
+- name: Musard Balliu
+  papers:
+  - papers/guanciale:ccs:2020
 - name: Anindya Banerjee
   papers:
   - papers/nanevski:oopsla:2019
@@ -198,6 +202,7 @@
 - name: "S\xE9bastien Bardin"
   papers:
   - papers/david:issta:2016
+  - papers/nicole:arxiv:2020
 - name: Celeste Barnaby
   papers:
   - papers/coblenz:arxiv:2020
@@ -294,6 +299,9 @@
   papers:
   - papers/berdine:aplas:2005
   - papers/berdine:fmco:2005
+- name: Emery D. Berger
+  papers:
+  - papers/hertz:oopsla:2005
 - name: Brian N. Bershad
   papers:
   - papers/bershad:cmpcon:1993
@@ -820,6 +828,7 @@
   papers:
   - papers/dam:ted:2013
   - papers/dam:trusted:2013
+  - papers/guanciale:ccs:2020
   - papers/khakpour:cpp:2013
   - papers/schwarz:sefm:2016
 - name: Werner Damm
@@ -1453,6 +1462,7 @@
   papers:
   - papers/dam:ted:2013
   - papers/dam:trusted:2013
+  - papers/guanciale:ccs:2020
 - name: Andrey Gubarev
   papers:
   - papers/corbett:tocs:2013
@@ -1608,6 +1618,9 @@
 - name: Philippe Herrmann
   papers:
   - papers/cuoq:sefm:2012
+- name: Matthew Hertz
+  papers:
+  - papers/hertz:oopsla:2005
 - name: Stefan Heule
   papers:
   - papers/heule:ftfjp:2011
@@ -1692,6 +1705,9 @@
   papers:
   - papers/hritcu:icfp:2013
   - papers/pierce:book:2016
+- name: "C\u0103t\u0103lin Hri\u021Bcu"
+  papers:
+  - papers/azevedo:post:2018
 - name: Wilson C. Hsieh
   papers:
   - papers/chang:tocs:2012
@@ -2258,6 +2274,7 @@
 - name: Matthieu Lemerre
   papers:
   - papers/blanchard:fmics:2015
+  - papers/nicole:arxiv:2020
 - name: Caroline Lemieux
   papers:
   - papers/babic:fse:2019
@@ -2884,6 +2901,9 @@
 - name: Carol Nichols
   papers:
   - papers/klabnik:book:2018
+- name: Olivier Nicole
+  papers:
+  - papers/nicole:arxiv:2020
 - name: Aina Niemetz
   papers:
   - papers/niemetz:jsat:2015
@@ -3085,6 +3105,7 @@
   - papers/philippaerts:scp:2014
 - name: Benjamin C. Pierce
   papers:
+  - papers/azevedo:post:2018
   - papers/hritcu:icfp:2013
   - papers/pierce:book:2016
 - name: Frank Piessens
@@ -3330,6 +3351,9 @@
 - name: Noam Rinetzky
   papers:
   - papers/trabish:icse:2018
+- name: Xavier Rival
+  papers:
+  - papers/nicole:arxiv:2020
 - name: Christine Rizkallah
   papers:
   - papers/amani:asplos:2016

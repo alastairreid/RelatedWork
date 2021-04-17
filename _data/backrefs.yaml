@@ -345,6 +345,10 @@ notes:
   - - notes/test-generation
     - - Test generation
       - null
+  notes/garbage-collection:
+  - - notes/memory-management
+    - - Memory management
+      - null
   notes/ghost-code:
   - - notes/annotation-burden
     - - Annotation burden
@@ -540,6 +544,17 @@ notes:
     - - Prusti verifier
       - null
   notes/memory-coherence: []
+  notes/memory-management:
+  - - notes/garbage-collection
+    - - Garbage collection
+      - null
+  notes/memory-safety:
+  - - notes/garbage-collection
+    - - Garbage collection
+      - null
+  - - notes/memory-management
+    - - Memory management
+      - null
   notes/microarchitecture:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
@@ -723,6 +738,10 @@ notes:
   notes/reachability:
   - - notes/bounded-model-checking
     - - Bounded model-checking
+      - null
+  notes/reference-counting:
+  - - notes/memory-management
+    - - Memory management
       - null
   notes/remote-procedure-call: []
   notes/requirements-specification:
@@ -1286,6 +1305,7 @@ notes:
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
+  papers/azevedo:post:2018: []
   papers/babic:fse:2019: []
   papers/bader:vmcai:2018: []
   papers/balasubramanium:hotos:2017: []
@@ -1717,6 +1737,7 @@ notes:
   - - notes/annotation-burden
     - - Annotation burden
       - null
+  papers/guanciale:ccs:2020: []
   papers/gurfinkel:cav:2015:
   - - notes/seahorn-verifier
     - - SeaHorn verifier
@@ -1740,6 +1761,7 @@ notes:
   papers/hennessy:book:2011: []
   papers/hennessy:micro:1982: []
   papers/henzinger:spin:2003: []
+  papers/hertz:oopsla:2005: []
   papers/heule:ftfjp:2011:
   - - notes/chalice-verifier
     - - Chalice verifier
@@ -2054,6 +2076,7 @@ notes:
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
+  papers/nicole:arxiv:2020: []
   papers/niemetz:jsat:2015: []
   papers/nienhuis:secpriv:2020:
   - - notes/capabilities
@@ -3421,6 +3444,10 @@ papers:
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
+  notes/garbage-collection:
+  - - papers/hertz:oopsla:2005
+    - - Quantifying the performance of garbage collection vs. explicit memory management
+      - hertz:oopsla:2005
   notes/ghost-code:
   - - papers/jacobs:nfm:2011
     - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
@@ -4294,6 +4321,14 @@ papers:
   - - papers/li:tocs:1989
     - - Memory coherence in shared virtual memory systems
       - li:tocs:1989
+  notes/memory-management:
+  - - papers/hertz:oopsla:2005
+    - - Quantifying the performance of garbage collection vs. explicit memory management
+      - hertz:oopsla:2005
+  notes/memory-safety:
+  - - papers/azevedo:post:2018
+    - - The meaning of memory safety
+      - azevedo:post:2018
   notes/microarchitecture:
   - - papers/asanovic:phd:1998
     - - Vector microprocessors
@@ -4323,6 +4358,10 @@ papers:
   - - papers/gross:micro:2016
     - - 'A retrospective on `MIPS: A microprocessor architecture'''
       - gross:micro:2016
+  - - papers/guanciale:ccs:2020
+    - - 'InSpectre: Breaking and fixing microarchitectural vulnerabilities by formal
+        analysis'
+      - guanciale:ccs:2020
   - - papers/hennessy:book:2011
     - - 'Computer architecture: A quantitative approach (Fifth edition)'
       - hennessy:book:2011
@@ -4788,6 +4827,7 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  notes/reference-counting: []
   notes/remote-procedure-call:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -5116,6 +5156,9 @@ papers:
     - - Secure information flow by self-composition
       - barthe:mscs:2011
   notes/separation-logic:
+  - - papers/azevedo:post:2018
+    - - The meaning of memory safety
+      - azevedo:post:2018
   - - papers/berdine:aplas:2005
     - - Symbolic execution with separation logic
       - berdine:aplas:2005
@@ -5191,6 +5234,10 @@ papers:
     - - A survey of microarchitectural timing attacks and countermeasures on contemporary
         hardware
       - ge:jce:2016
+  - - papers/guanciale:ccs:2020
+    - - 'InSpectre: Breaking and fixing microarchitectural vulnerabilities by formal
+        analysis'
+      - guanciale:ccs:2020
   - - papers/kim:isca:2014
     - - 'Flipping bits in memory without accessing them: An experimental study of
         DRAM disturbance errors'
@@ -6251,6 +6298,7 @@ papers:
   - - papers/coppa:ase:2017
     - - Rethinking pointer reasoning in symbolic execution
       - coppa:ase:2017
+  papers/azevedo:post:2018: []
   papers/babic:fse:2019:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
@@ -6700,6 +6748,7 @@ papers:
   - - papers/costanzo:pldi:2016
     - - End-to-end verification of information flow security for C and assembly programs
       - costanzo:pldi:2016
+  papers/guanciale:ccs:2020: []
   papers/gurfinkel:cav:2015:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
@@ -6735,6 +6784,7 @@ papers:
   - - papers/ball:pldi:2001
     - - Automatic predicate abstraction of C programs
       - ball:pldi:2001
+  papers/hertz:oopsla:2005: []
   papers/heule:ftfjp:2011:
   - - papers/heule:vmcai:2013
     - - 'Abstract read permissions: Fractional permissions without the fractions'
@@ -7028,6 +7078,7 @@ papers:
   - - papers/torlak:pldi:2014
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
+  papers/nicole:arxiv:2020: []
   papers/niemetz:jsat:2015: []
   papers/nienhuis:secpriv:2020:
   - - papers/woodruff:isca:2014
