@@ -19,8 +19,9 @@ isbn: 978-3-319-89722-6
 layout: paper
 pages: 79-105
 publisher: Springer International Publishing
-read: false
-readings: []
+read: true
+readings:
+- 2021-04-17
 title: The meaning of memory safety
 year: 2018
 notes:

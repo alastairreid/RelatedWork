@@ -238,6 +238,7 @@ notes:
   - - notes/smt-solver
     - - SMT solver
       - null
+  notes/cyclone-language: []
   notes/dafny-verifier:
   - - notes/auto-active-verification
     - - Auto active verification
@@ -2964,6 +2965,9 @@ papers:
     - - Verifying security invariants in ExpressOS
       - mai:asplos:2013
   notes/coq-theorem-prover:
+  - - papers/azevedo:post:2018
+    - - The meaning of memory safety
+      - azevedo:post:2018
   - - papers/becker:fm:2016
     - - Combining mechanized proofs and model-based testing in the formal analysis
         of a hypervisor
@@ -3127,6 +3131,19 @@ papers:
   - - papers/barrett:cav:2011
     - - CVC4
       - barrett:cav:2011
+  notes/cyclone-language:
+  - - papers/azevedo:post:2018
+    - - The meaning of memory safety
+      - azevedo:post:2018
+  - - papers/grossman:esop:2002
+    - - Existential types for imperative languages
+      - grossman:esop:2002
+  - - papers/grossman:pldi:2002
+    - - Region-based memory management in Cyclone
+      - grossman:pldi:2002
+  - - papers/morrisett:wcsss:1999
+    - - 'TALx86: A realistic typed assembly language'
+      - morrisett:wcsss:1999
   notes/dafny-verifier:
   - - papers/legoues:sefm:2011
     - - The Boogie verification debugger
@@ -4534,6 +4551,9 @@ papers:
     - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
       - reid:oopsla:2017
   notes/non-interference:
+  - - papers/azevedo:post:2018
+    - - The meaning of memory safety
+      - azevedo:post:2018
   - - papers/bowman:icfp:2015
     - - Noninterference for free
       - bowman:icfp:2015
@@ -4944,6 +4964,9 @@ papers:
   - - papers/astrauskas:oopsla:2020
     - - How do programmers use unsafe Rust?
       - astrauskas:oopsla:2020
+  - - papers/azevedo:post:2018
+    - - The meaning of memory safety
+      - azevedo:post:2018
   - - papers/balasubramanium:hotos:2017
     - - 'System programming in Rust: Beyond safety'
       - balasubramanium:hotos:2017
