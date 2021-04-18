@@ -27,6 +27,9 @@ notes:
 - symbolic execution
 - DART verifier
 - KLEE verifier
+- EXE verifier
+- CUTE verifier
+- CREST verifier
 - survey
 papers:
 - baldoni:compsurv:2018
@@ -52,9 +55,9 @@ optimizations to make symbolic execution effective including
 
 It ends with a sketch of five symbolic execution tools:
 the [DART verifier],
-CUTE,
-CREST,
-EXE and
+[CUTE][CUTE verifier],
+[CREST][CREST verifier],
+[EXE][EXE verifier] and
 the [KLEE verifier].
 
 {% include links.html %}

@@ -234,6 +234,8 @@ notes:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
+  notes/crest-verifier: []
+  notes/cute-verifier: []
   notes/cvc4-solver:
   - - notes/smt-solver
     - - SMT solver
@@ -282,6 +284,7 @@ notes:
   notes/embedding: []
   notes/entropy: []
   notes/events: []
+  notes/exe-verifier: []
   notes/extended-static-checking:
   - - notes/aorte
     - - Absence of RunTime Errors (AoRTE)
@@ -478,6 +481,10 @@ notes:
     - - ISA specification
       - null
   notes/ivy-verifier: []
+  notes/java-pathfinder:
+  - - notes/lazy-initialization
+    - - Lazy initialization of symbolic values
+      - null
   notes/javascript: []
   notes/klee-verifier:
   - - notes/fuzz-testing
@@ -515,6 +522,7 @@ notes:
   - - notes/isa-specification
     - - ISA specification
       - null
+  notes/lazy-initialization: []
   notes/lean-theorem-prover:
   - - notes/dependent-type
     - - Dependent type
@@ -1504,6 +1512,9 @@ notes:
   - - notes/annotation-burden
     - - Annotation burden
       - null
+  - - notes/lazy-initialization
+    - - Lazy initialization of symbolic values
+      - null
   - - notes/modular-verification
     - - Modular verification
       - null
@@ -1586,6 +1597,7 @@ notes:
     - - Non-interference
       - null
   papers/cousot:oopsla:2012: []
+  papers/cui:asplos:2013: []
   papers/cuoq:sefm:2012:
   - - notes/frama-c-verifier
     - - Frama-C verifier
@@ -1624,6 +1636,10 @@ notes:
   papers/efstathopoulos:sosp:2005: []
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
+  papers/engler:issta:2007:
+  - - notes/lazy-initialization
+    - - Lazy initialization of symbolic values
+      - null
   papers/ernst:icse:2016: []
   papers/evans:icse:2020: []
   papers/fahndrich:foveoos:2010:
@@ -1869,6 +1885,10 @@ notes:
   papers/kaufmann:ieeetse:1997: []
   papers/kaufmann:utaustin:2012: []
   papers/khakpour:cpp:2013: []
+  papers/khurshid:tacas:2003:
+  - - notes/lazy-initialization
+    - - Lazy initialization of symbolic values
+      - null
   papers/kiczales:iwoos:1991: []
   papers/kim:isca:2014: []
   papers/kirankumar:fmcad:2012: []
@@ -2169,7 +2189,10 @@ notes:
     - - SMACK verifier
       - null
   papers/ramos:cav:2011: []
-  papers/ramos:sec:2015: []
+  papers/ramos:sec:2015:
+  - - notes/lazy-initialization
+    - - Lazy initialization of symbolic values
+      - null
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
   papers/rath:epiq:2018: []
@@ -2411,6 +2434,10 @@ notes:
   papers/wu:arxiv:2017: []
   papers/xi:icfp:2001: []
   papers/xie:bugs:2005: []
+  papers/xie:popl:2005:
+  - - notes/lazy-initialization
+    - - Lazy initialization of symbolic values
+      - null
   papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
   papers/yun:usenix:2018: []
@@ -3135,6 +3162,14 @@ papers:
   - - papers/smith:tocs:1984
     - - Decoupled access/execute computer architectures
       - smith:tocs:1984
+  notes/crest-verifier:
+  - - papers/cadar:cacm:2013
+    - - 'Symbolic execution for software testing: Three decades later'
+      - cadar:cacm:2013
+  notes/cute-verifier:
+  - - papers/cadar:cacm:2013
+    - - 'Symbolic execution for software testing: Three decades later'
+      - cadar:cacm:2013
   notes/cvc4-solver:
   - - papers/barrett:cav:2011
     - - CVC4
@@ -3291,6 +3326,13 @@ papers:
   - - papers/vonbehren:hotos:2003
     - - Why events are a bad idea (for high-concurrency servers)
       - vonbehren:hotos:2003
+  notes/exe-verifier:
+  - - papers/cadar:cacm:2013
+    - - 'Symbolic execution for software testing: Three decades later'
+      - cadar:cacm:2013
+  - - papers/engler:issta:2007
+    - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
+      - engler:issta:2007
   notes/extended-static-checking:
   - - papers/beyer:cav:2011
     - - 'CPAchecker: A tool for configurable software verification'
@@ -4195,6 +4237,16 @@ papers:
   - - papers/mcmillan:sigcomm:2019
     - - Formal specification and testing of QUIC
       - mcmillan:sigcomm:2019
+  notes/java-pathfinder:
+  - - papers/khurshid:tacas:2003
+    - - Generalized symbolic execution for model checking and testing
+      - khurshid:tacas:2003
+  - - papers/qiu:icse:2017
+    - - A synergistic approach for distributed symbolic execution using test ranges
+      - qiu:icse:2017
+  - - papers/qiu:nfm:2018
+    - - Using test ranges to improve symbolic execution
+      - qiu:nfm:2018
   notes/javascript:
   - - papers/bodin:popl:2014
     - - A trusted mechanised JavaScript specification
@@ -4221,6 +4273,9 @@ papers:
   - - papers/chipounov:hotdep:2009
     - - Selective symbolic execution
       - chipounov:hotdep:2009
+  - - papers/cui:asplos:2013
+    - - Verifying systems rules using rule-directed symbolic execution
+      - cui:asplos:2013
   - - papers/galea:arxiv:2018
     - - Evaluating manual intervention to address the challenges of bug finding with
         KLEE
@@ -4283,6 +4338,22 @@ papers:
   - - papers/fox:itp:2012
     - - Directions in ISA specification
       - fox:itp:2012
+  notes/lazy-initialization:
+  - - papers/calcagno:popl:2009
+    - - Compositional shape analysis by means of bi-abduction
+      - calcagno:popl:2009
+  - - papers/engler:issta:2007
+    - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
+      - engler:issta:2007
+  - - papers/khurshid:tacas:2003
+    - - Generalized symbolic execution for model checking and testing
+      - khurshid:tacas:2003
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   notes/lean-theorem-prover:
   - - papers/demoura:cade:2015
     - - The Lean theorem prover (system description)
@@ -5673,6 +5744,9 @@ papers:
   - - papers/coppa:ase:2017
     - - Rethinking pointer reasoning in symbolic execution
       - coppa:ase:2017
+  - - papers/cui:asplos:2013
+    - - Verifying systems rules using rule-directed symbolic execution
+      - cui:asplos:2013
   - - papers/david:issta:2016
     - - Specification of concretization and symbolization policies in symbolic execution
       - david:issta:2016
@@ -6584,7 +6658,16 @@ papers:
     - - '-Overify: Optimizing programs for fast verification'
       - wagner:hotos:2013
   papers/cadar:osdi:2008: []
-  papers/calcagno:popl:2009: []
+  papers/calcagno:popl:2009:
+  - - papers/engler:issta:2007
+    - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
+      - engler:issta:2007
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012:
@@ -6667,6 +6750,10 @@ papers:
     - - 'seL4: from general purpose to a proof of information flow enforcement'
       - murray:secpriv:2013
   papers/cousot:oopsla:2012: []
+  papers/cui:asplos:2013:
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
   papers/cuoq:sefm:2012:
   - - papers/filliatre:fem:2004
     - - Multi-prover verification of C programs
@@ -6735,6 +6822,13 @@ papers:
       - spencer:security:1999
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
+  papers/engler:issta:2007:
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   papers/ernst:icse:2016: []
   papers/evans:icse:2020: []
   papers/fahndrich:foveoos:2010:
@@ -6809,6 +6903,9 @@ papers:
   - - papers/holzmann:ieeetse:2011
     - - Swarm verification techniques
       - holzmann:ieeetse:2011
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
   papers/gordon:asplos:2002: []
   papers/gordon:book:1993: []
   papers/gorse:msc:2020: []
@@ -6979,6 +7076,19 @@ papers:
   papers/kaufmann:ieeetse:1997: []
   papers/kaufmann:utaustin:2012: []
   papers/khakpour:cpp:2013: []
+  papers/khurshid:tacas:2003:
+  - - papers/calcagno:popl:2009
+    - - Compositional shape analysis by means of bi-abduction
+      - calcagno:popl:2009
+  - - papers/engler:issta:2007
+    - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
+      - engler:issta:2007
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   papers/kiczales:iwoos:1991: []
   papers/kim:isca:2014: []
   papers/kirankumar:fmcad:2012: []
@@ -7256,8 +7366,23 @@ papers:
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
-  papers/ramos:cav:2011: []
-  papers/ramos:sec:2015: []
+  papers/ramos:cav:2011:
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
+  papers/ramos:sec:2015:
+  - - papers/cui:asplos:2013
+    - - Verifying systems rules using rule-directed symbolic execution
+      - cui:asplos:2013
+  - - papers/engler:issta:2007
+    - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
+      - engler:issta:2007
+  - - papers/goodman:ndss:2018
+    - - 'DeepState: Symbolic unit testing for C and C++'
+      - goodman:ndss:2018
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
   papers/rath:epiq:2018:
@@ -7573,6 +7698,16 @@ papers:
   - - papers/godefroid:bugs:2005
     - - The soundness of bugs is what matters (position statement)
       - godefroid:bugs:2005
+  papers/xie:popl:2005:
+  - - papers/calcagno:popl:2009
+    - - Compositional shape analysis by means of bi-abduction
+      - calcagno:popl:2009
+  - - papers/engler:issta:2007
+    - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
+      - engler:issta:2007
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
   papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
   papers/yun:usenix:2018: []

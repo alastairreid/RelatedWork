@@ -32,8 +32,11 @@ notes:
 - biabduction
 - smallfoot verifier
 - modular verification
+- lazy initialization
 papers:
 - berdine:fmco:2005
+- khurshid:tacas:2003
+- xie:popl:2005
 ---
 
 One of the big challenges in automated verification is the

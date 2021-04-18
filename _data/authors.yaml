@@ -37,6 +37,7 @@
   - papers/sharma:oopsla:2012
   - papers/sharma:pls:2013
   - papers/xie:bugs:2005
+  - papers/xie:popl:2005
 - name: Bashir M. Al-Hashimi
   papers:
   - papers/boettcher:date:2014
@@ -800,6 +801,9 @@
 - name: Juan Manuel Crespo
   papers:
   - papers/becker:fm:2016
+- name: Heming Cui
+  papers:
+  - papers/cui:asplos:2013
 - name: David Culler
   papers:
   - papers/gay:pldi:2003
@@ -984,6 +988,7 @@
 - name: Daniel Dunbar
   papers:
   - papers/cadar:osdi:2008
+  - papers/engler:issta:2007
 - name: Adam Dunkels
   papers:
   - papers/dunkels:enss:2006
@@ -1066,6 +1071,7 @@
 - name: Dawson Engler
   papers:
   - papers/cadar:osdi:2008
+  - papers/engler:issta:2007
   - papers/ramos:sec:2015
 - name: Dawson R. Engler
   papers:
@@ -1729,6 +1735,9 @@
   papers:
   - papers/chang:tocs:2012
   - papers/corbett:tocs:2013
+- name: Gang Hu
+  papers:
+  - papers/cui:asplos:2013
 - name: Wei Hu
   papers:
   - papers/oberg:dac:2010
@@ -2028,6 +2037,7 @@
   - papers/cook:cav:2018
 - name: Sarfraz Khurshid
   papers:
+  - papers/khurshid:tacas:2003
   - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
   - papers/siddiqui:oopsla:2012
@@ -3217,6 +3227,7 @@
   - papers/gray:micro:2015
 - name: "Corina S. P\u0103s\u0103reanu"
   papers:
+  - papers/khurshid:tacas:2003
   - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
 - name: Shaz Qadeer
@@ -4116,6 +4127,7 @@
   - papers/hobor:popl:2013
 - name: Willem Visser
   papers:
+  - papers/khurshid:tacas:2003
   - papers/visser:tacas:2020
 - name: Yakir Vizel
   papers:
@@ -4319,6 +4331,9 @@
 - name: Hyrum K. Wright
   papers:
   - papers/wright:icsm:2013
+- name: Jingyue Wu
+  papers:
+  - papers/cui:asplos:2013
 - name: Xiongnan Newman Wu
   papers:
   - papers/gu:osdi:2016
@@ -4334,6 +4349,7 @@
 - name: Yichen Xie
   papers:
   - papers/xie:bugs:2005
+  - papers/xie:popl:2005
 - name: Wenjie Xiong
   papers:
   - papers/deng:hasp:2019
@@ -4358,6 +4374,9 @@
   - papers/dinsdale-young:popl:2013
   - papers/distefano:tacas:2006
   - papers/naik:popl:2012
+- name: Junfeng Yang
+  papers:
+  - papers/cui:asplos:2013
 - name: Guowei Yang
   papers:
   - papers/qiu:icse:2017

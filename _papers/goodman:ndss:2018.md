@@ -27,6 +27,7 @@ notes:
 - angr verifier
 papers:
 - holzmann:ieeetse:2011
+- ramos:sec:2015
 ---
 
 DeepState seeks to narrow the gap between techniques that programmers are
@@ -53,6 +54,7 @@ They tackle problems around symbolic loop bounds and symbolic array accesses by
 forking particular concrete values to reduce the state (path?) explosion
 problem. They call this "pumping".
 _(I want to know more about this.)_
+(See also [ramos:sec:2015] for more on useful macros/operations in a DSE tools.)
 
 The code is [available on github](https://github.com/trailofbits/deepstate)
 under an open-source license;

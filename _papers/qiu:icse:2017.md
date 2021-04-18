@@ -32,6 +32,7 @@ notes:
 - symbolic execution
 - case splitting
 - verifier performance
+- Java PathFinder
 papers:
 - siddiqui:oopsla:2012
 - qiu:nfm:2018
