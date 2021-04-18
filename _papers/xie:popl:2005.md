@@ -30,6 +30,8 @@ url: https://doi.org/10.1145/1040305.1040334
 year: 2005
 notes:
 - lazy initialization
+- Saturn verifier
+- symbolic execution
 papers:
 - ramos:cav:2011
 - engler:issta:2007

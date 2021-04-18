@@ -37,7 +37,7 @@ Any errors detected by symbolic execution are only reported if the path conditio
 not depend on the value of an under-constrained variable.
 For example, if a pointer is dereferenced, we add a constraint that the pointer
 is non-null and a new under-constrained variable is created for the value read.
-This idea apparently originates in Java Path Finder (JPF) ([khurshid:tacas:2003],
+This idea apparently originates in Java PathFinder (JPF) ([khurshid:tacas:2003],
 [xie:popl:2005]).
 
 I'm not clear how this is different from abduction ([calcagno:popl:2009]) which

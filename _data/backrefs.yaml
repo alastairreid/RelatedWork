@@ -821,6 +821,7 @@ notes:
   - - notes/smt-solver
     - - SMT solver
       - null
+  notes/saturn-verifier: []
   notes/sdr: []
   notes/seahorn-verifier:
   - - notes/extended-static-checking
@@ -5234,6 +5235,10 @@ papers:
   - - papers/malik:cacm:2009
     - - Boolean satisfiability from theoretical hardness to practical success
       - malik:cacm:2009
+  notes/saturn-verifier:
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   notes/sdr:
   - - papers/lin:sdr:2006
     - - 'SPEX: A programming language for software defined radio'
@@ -5852,6 +5857,9 @@ papers:
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
