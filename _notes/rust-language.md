@@ -5,6 +5,7 @@ logo: https://www.rust-lang.org/static/images/rust-logo-blk.svg
 webpage: https://www.rust-lang.org
 wiki: https://en.wikipedia.org/wiki/Rust_(programming_language)
 papers:
+- anderson:icse:2016
 - astrauskas:oopsla:2019
 - baranowski:atva:2018
 - jung:popl:2017

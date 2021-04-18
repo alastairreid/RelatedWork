@@ -1275,7 +1275,10 @@ notes:
   - - notes/remote-procedure-call
     - - Remote procedure call (RPC)
       - null
-  papers/anderson:icse:2016: []
+  papers/anderson:icse:2016:
+  - - notes/rust-language
+    - - Rust language
+      - null
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
@@ -6951,6 +6954,9 @@ papers:
   papers/joshi:pldi:2002: []
   papers/jung:cacm:2021: []
   papers/jung:popl:2017:
+  - - papers/anderson:icse:2016
+    - - Engineering the Servo web browser engine using Rust
+      - anderson:icse:2016
   - - papers/jung:cacm:2021
     - - 'Safe systems programming in Rust: The promise and the challenge'
       - jung:cacm:2021
@@ -6961,6 +6967,9 @@ papers:
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
   papers/jung:popl:2020:
+  - - papers/anderson:icse:2016
+    - - Engineering the Servo web browser engine using Rust
+      - anderson:icse:2016
   - - papers/jung:cacm:2021
     - - 'Safe systems programming in Rust: The promise and the challenge'
       - jung:cacm:2021

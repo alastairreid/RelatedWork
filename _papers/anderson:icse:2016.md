@@ -30,8 +30,9 @@ location: Austin, Texas
 numpages: '9'
 pages: 81-89
 publisher: Association for Computing Machinery
-read: false
-readings: []
+read: true
+readings:
+- 2021-04-18
 series: ICSE '16
 title: Engineering the Servo web browser engine using Rust
 url: https://doi.org/10.1145/2889160.2889229
@@ -39,5 +40,24 @@ year: 2016
 notes:
 - Rust language
 papers:
+- jung:popl:2017
+- jung:popl:2020
 ---
+
+This is a good intro to the Rust language for PL researchers.
+It gives the motivation, a description of the challenges of building a high performance
+web browser, an intro to the ownership and concurrency features of Rust, closures,
+algebraic data types, a sketch
+of compilation via monomorphization (including across package boundaries), FFI,
+macros and plugins.
+
+Some of the things that it misses out (that I think PL people would appreciate) are
+
+- a closer look at the ownership system that really explores the connection with affine types
+- any discussion of the type-class derived mechanisms used both for generics (as in Haskell)
+  and to capture which types can be freely replicated and which must be passed by reference
+  and also which types can be passed to other threads and which must be protected.
+- a closer look at unsafe Rust code (see [jung:popl:2017] and [jung:popl:2020] for
+  an excellent discussion of this topic)
+
 {% include links.html %}
