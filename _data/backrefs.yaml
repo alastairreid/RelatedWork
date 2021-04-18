@@ -1100,7 +1100,6 @@ notes:
   - - notes/testability
     - - Testability
       - null
-  notes/test-doubles: []
   notes/test-driven-development:
   - - notes/contract-driven-development
     - - Contract driven development
@@ -5849,8 +5848,7 @@ papers:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'
       - beyer:hvc:2017
-  notes/test-double: []
-  notes/test-doubles:
+  notes/test-double:
   - - papers/gennari:vstte:2018
     - - Executable counterexamples in software model checking
       - gennari:vstte:2018

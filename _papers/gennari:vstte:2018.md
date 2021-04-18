@@ -27,7 +27,7 @@ title: Executable counterexamples in software model checking
 year: 2018
 notes:
 - SeaHorn verifier
-- Test doubles
+- Test double
 - SV competition
 papers:
 ---

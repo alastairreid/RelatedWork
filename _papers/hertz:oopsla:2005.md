@@ -31,8 +31,9 @@ location: San Diego, CA, USA
 numpages: '14'
 pages: 313-326
 publisher: Association for Computing Machinery
-read: false
-readings: []
+read: true
+readings:
+- 2021-04-18
 series: OOPSLA '05
 title: Quantifying the performance of garbage collection vs. explicit memory management
 url: https://doi.org/10.1145/1094811.1094836
@@ -42,4 +43,58 @@ notes:
 - garbage collection
 papers:
 ---
+
+This paper uses CPU performance simulators and oracles to measure the impact of replacing
+Java's garbage collectors with explicit memory management.
+They conclude that you need around 5x more physical memory before GC performs better than
+explicit memory management, it is 17% worse at a mere 3x and  70% worse at 2x memory.
+
+Their basic setup is to
+
+1. measure object lifetimes in a heavily instrumented initial run
+2. determine the earliest and latest times that each object could possibly be deallocated
+   by finding the last time the object is accessed and the time when the object first
+   becomes unreachable
+3. perform two measurement runs where a conventional malloc/free-style memory allocator
+   is used to deallocate objects at either the earliest or the latest possible time
+
+The measurement runs are repeated with a variety of state of the art conventional memory
+allocators and compared against performance with a variety of garbage collectors
+that use mark-sweep, copying, generational and hybrid approaches.
+
+They avoid interference from  the cost of their oracles by running this all in
+a modified version of the SimpleScalar CPU simulator which allows them to
+remove oracle time.  (But do they do anything to model the actual costs that an
+explicit memory allocation scheme needs to use to decide when to deallocate
+(reference counts, etc.)?)
+
+Some of the costs that they are concerned with are impact on L1-D$, L2$, L3$
+and virtual memory paging.
+In particular, they emphasize
+
+- the benefits of reusing recently allocated objects on cache miss rates (though later it seems this is not as conclusive as expected)
+when using explicit memory allocation
+- the disadvantages of periodically evicting recent objects from the memory cache
+- the significant cost of visiting virtual memory pages during garbage collection
+  that are outside the working set of the application itself
+
+They observe that
+
+- the cost of explicit memory management does not depend on heap size and
+  is linear in the number of objects allocated
+- (as expected) the GC runtime is inversely proportional
+  to the reachable heap size for non-generational collectors
+- (new observation) the GC runtime is inversely proportional to the heap size
+  for generational collectors
+
+They suggest future work of looking at region based allocators, BiBoP allocators
+(to remove overhead of object headers) and of comparing pauses in explicit
+memory allocators (when per-size quicklists are refilled) with the pauses
+in various GCs and of concurrent GCs.
+
+Overall conclusion: if you are running in a memory constrained environment
+(can't allocate 5x more memory than needed) or are running on a shared machine
+with other processes competing for physical memory, think twice about GC-based
+languages.
+
 {% include links.html %}
