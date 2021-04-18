@@ -2793,6 +2793,9 @@ papers:
   - - papers/torlak:pldi:2014
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   notes/bounded-verification:
   - - papers/biere:tacas:1999
     - - Symbolic model checking without BDDs
@@ -2875,6 +2878,9 @@ papers:
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   notes/cegar:
   - - papers/ball:pldi:2001
     - - Automatic predicate abstraction of C programs
@@ -5857,9 +5863,6 @@ papers:
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
-  - - papers/xie:popl:2005
-    - - Scalable error detection using boolean satisfiability
-      - xie:popl:2005
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
@@ -7378,9 +7381,6 @@ papers:
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
-  - - papers/xie:popl:2005
-    - - Scalable error detection using boolean satisfiability
-      - xie:popl:2005
   papers/ramos:sec:2015:
   - - papers/cui:asplos:2013
     - - Verifying systems rules using rule-directed symbolic execution
@@ -7391,6 +7391,9 @@ papers:
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/xie:popl:2005
+    - - Scalable error detection using boolean satisfiability
+      - xie:popl:2005
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
   papers/rath:epiq:2018:

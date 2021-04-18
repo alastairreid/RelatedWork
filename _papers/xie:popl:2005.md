@@ -22,8 +22,9 @@ location: Long Beach, California, USA
 numpages: '13'
 pages: 351-363
 publisher: Association for Computing Machinery
-read: false
-readings: []
+read: true
+readings:
+- 2021-04-18
 series: POPL '05
 title: Scalable error detection using boolean satisfiability
 url: https://doi.org/10.1145/1040305.1040334
@@ -31,11 +32,38 @@ year: 2005
 notes:
 - lazy initialization
 - Saturn verifier
-- symbolic execution
+- bounded model checking
+- CBMC verifier
 papers:
-- ramos:cav:2011
+- ramos:sec:2015
 - engler:issta:2007
 - khurshid:tacas:2003
 - calcagno:popl:2009
 ---
+
+[Saturn][Saturn verifier] is a SAT-based bug-finding tool for checking temporal logic formulae (expressed as state machines)
+on C programs and, in particular, for checking for locking errors in Linux kernel code.
+A key part of its design is the generation of function summaries using [lazy initialization]
+to infer the precondition of functions.
+It achieves a false positive rate of only 40%.
+A problem (that it shares with successors such as [engler:issta:2007] and [ramos:sec:2015]) is its handling of pointer aliases:
+the function summaries generated are always trees, not DAGs.
+
+Saturn is based on forward symbolic execution with merging at join points.
+Loops are handled by unrolling a bounded number of times.
+Function summaries are used to enable a bottom-up interprocedural analysis.
+That is, Saturn is a compositional [bounded model checker][bounded model checking].
+
+Saturn uses BDDs to represent boolean formualae used as guards in order to simplify the guards generated at join points.
+Program slicing is used (but not thoroughly described).
+
+When used on Linux, it generated 179 new bug reports involving locks.
+
+The related work section is interesting.
+For example, comparing with [CBMC][CBMC verifier], they emphasize the compositional analysis
+and the ability to use the particular errors being checked for to simplify the
+analysis and reduce the size of the function summaries: enabling Saturn to be used
+on very large codebases such as the Linux kernel.
+In contrast, they characterize CBMC as a whole-program assertion checker.
+
 {% include links.html %}
