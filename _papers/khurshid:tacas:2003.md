@@ -21,14 +21,44 @@ location: Warsaw, Poland
 numpages: '16'
 pages: 553-568
 publisher: Springer-Verlag
-read: false
-readings: []
+read: true
+readings:
+- 2021-04-22
 series: TACAS'03
 title: Generalized symbolic execution for model checking and testing
 year: 2003
 notes:
 - lazy initialization
 - Java PathFinder
+- Omega library
+- symbolic execution
+- separation logic
 papers:
+- xie:popl:2005
+- engler:issta:2007
+- calcagno:popl:2009
 ---
+
+Introduced the idea of [lazy initialization] to allow pointer-manipulating programs to be
+verified using [symbolic execution] without having to construct a data structure for the program to
+symbolically execute.
+
+As the name suggests, instead of constructing an input data structure first and then symbolically
+executing the code, the data structure is constructed *on demand*: each dereference of an uninitialized pointer
+either constructs a fresh object or chooses one of the previously constructed objects that the pointer
+could potentially refer to.
+
+This approach was used as the basis of [xie:popl:2005] and [engler:issta:2007] except that I think
+both of them just created a fresh object and did not consider previously initialized objects
+at the cost of ignoring possible structure sharing or cycles.
+
+I think it is also similar to the biabduction technique used in [calcagno:popl:2009] (again, with restrictions on sharing
+based on [separation logic]).
+
+The implementation technique is also interesting: unlike most approaches (e.g.,
+[xie:popl:2005]) that build the solver, etc into their tools, they use a
+preprocessor that replaces all concrete variables and operations with symbolic
+variables and operations. The only thing they need is a model checker capable
+of forking execution and backtracking.
+
 {% include links.html %}

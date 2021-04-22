@@ -649,6 +649,7 @@ notes:
     - - Hyperproperty
       - null
   notes/nova-hypervisor: []
+  notes/omega-library: []
   notes/operating-systems:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
@@ -934,6 +935,9 @@ notes:
   notes/smt-solver:
   - - notes/cvc4-solver
     - - CVC4 solver
+      - null
+  - - notes/omega-library
+    - - Omega library
       - null
   - - notes/sat-solver
     - - SAT solver
@@ -4670,6 +4674,10 @@ papers:
     - - Combining mechanized proofs and model-based testing in the formal analysis
         of a hypervisor
       - becker:fm:2016
+  notes/omega-library:
+  - - papers/khurshid:tacas:2003
+    - - Generalized symbolic execution for model checking and testing
+      - khurshid:tacas:2003
   notes/operating-systems:
   - - papers/boos:plos:2017
     - - 'Theseus: A state spill-free operating system'
@@ -5327,6 +5335,9 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/khurshid:tacas:2003
+    - - Generalized symbolic execution for model checking and testing
+      - khurshid:tacas:2003
   - - papers/krishnaswami:tldi:2010
     - - Verifying event-driven programs using ramified frame properties
       - krishnaswami:tldi:2010
@@ -5792,6 +5803,9 @@ papers:
   - - papers/kapus:fse:2019
     - - A segmented memory model for symbolic execution
       - kapus:fse:2019
+  - - papers/khurshid:tacas:2003
+    - - Generalized symbolic execution for model checking and testing
+      - khurshid:tacas:2003
   - - papers/kuznetsov:pldi:2012
     - - Efficient state merging in symbolic execution
       - kuznetsov:pldi:2012
@@ -6673,6 +6687,9 @@ papers:
   - - papers/engler:issta:2007
     - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
       - engler:issta:2007
+  - - papers/khurshid:tacas:2003
+    - - Generalized symbolic execution for model checking and testing
+      - khurshid:tacas:2003
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
@@ -6834,6 +6851,9 @@ papers:
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
   papers/engler:issta:2007:
+  - - papers/khurshid:tacas:2003
+    - - Generalized symbolic execution for model checking and testing
+      - khurshid:tacas:2003
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
@@ -7716,6 +7736,9 @@ papers:
   - - papers/engler:issta:2007
     - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
       - engler:issta:2007
+  - - papers/khurshid:tacas:2003
+    - - Generalized symbolic execution for model checking and testing
+      - khurshid:tacas:2003
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
