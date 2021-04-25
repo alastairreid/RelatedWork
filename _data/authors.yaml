@@ -302,6 +302,7 @@
 - name: Josh Berdine
   papers:
   - papers/berdine:aplas:2005
+  - papers/berdine:cav:2007
   - papers/berdine:fmco:2005
 - name: Emery D. Berger
   papers:
@@ -527,9 +528,11 @@
 - name: Cristiano Calcagno
   papers:
   - papers/berdine:aplas:2005
+  - papers/berdine:cav:2007
   - papers/berdine:fmco:2005
   - papers/bornat:popl:2005
   - papers/calcagno:popl:2009
+  - papers/calcagno:sas:2006
 - name: Brian Campbell
   papers:
   - papers/armstrong:arw:2018
@@ -568,6 +571,9 @@
   papers:
   - papers/cattell:phd:1978
   - papers/cattell:toplas:1980
+- name: "C\u0103lin Ca\u015Fcaval"
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Luis Ceze
   papers:
   - papers/zorn:iscawddd:2017
@@ -757,6 +763,7 @@
 - name: Byron Cook
   papers:
   - papers/aagaard:charme:2001
+  - papers/berdine:cav:2007
   - papers/chong:icse:2020
   - papers/cook:cav:2018
 - name: Emilio Coppa
@@ -957,7 +964,9 @@
   - papers/dinsdale-young:popl:2013
 - name: Dino Distefano
   papers:
+  - papers/berdine:cav:2007
   - papers/calcagno:popl:2009
+  - papers/calcagno:sas:2006
   - papers/distefano:tacas:2006
 - name: David R. Ditzel
   papers:
@@ -1199,6 +1208,9 @@
   papers:
   - papers/barrett:mlf:2015
   - papers/barrett:smtlib:2016
+- name: Nate Foster
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Anthony C. J. Fox
   papers:
   - papers/fox:cambridge:2001
@@ -1534,6 +1546,9 @@
 - name: Constantine Halatsis
   papers:
   - papers/dam:ieeetc:1981
+- name: William Hallahan
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Mike Hamburg
   papers:
   - papers/kocher:arxiv:2018
@@ -2266,6 +2281,9 @@
 - name: Ruby B. Lee
   papers:
   - papers/lee:micro:1996
+- name: Jeongkeun Lee
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Sangho Lee
   papers:
   - papers/yun:usenix:2018
@@ -2401,6 +2419,7 @@
 - name: Jed Liu
   papers:
   - papers/liu:cpsspc:2018
+  - papers/liu:sigcomm:2018
 - name: Peiming Liu
   papers:
   - papers/liu:icse:2020
@@ -2629,6 +2648,9 @@
 - name: Jonathan McCune
   papers:
   - papers/vasudevan:secpriv:2013
+- name: Nick McKeown
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Kenneth L. McMillan
   papers:
   - papers/jhala:cav:2001
@@ -2988,9 +3010,11 @@
 - name: Peter W. O'Hearn
   papers:
   - papers/berdine:aplas:2005
+  - papers/berdine:cav:2007
   - papers/berdine:fmco:2005
   - papers/bornat:popl:2005
   - papers/calcagno:popl:2009
+  - papers/calcagno:sas:2006
   - papers/distefano:tacas:2006
   - papers/ohearn:cacm:2019
   - papers/ohearn:tcs:2007
@@ -3536,6 +3560,9 @@
   papers:
   - papers/heule:pldi:2016
   - papers/sharma:oopsla:2012
+- name: Cole Schlesinger
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Sabine Schmaltz
   papers:
   - papers/schmaltz:vstte:2012
@@ -3645,6 +3672,9 @@
   papers:
   - papers/costanzo:pldi:2016
   - papers/gu:osdi:2016
+- name: Milad Sharif
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Rahul Sharma
   papers:
   - papers/heule:pldi:2016
@@ -3789,6 +3819,9 @@
 - name: Tyler Sorensen
   papers:
   - papers/wickerson:popl:2017
+- name: "Robert Soul\xE9"
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Antal Spector-Zabusky
   papers:
   - papers/hritcu:icfp:2013
@@ -4197,6 +4230,9 @@
 - name: Yanling Wang
   papers:
   - papers/grossman:pldi:2002
+- name: Han Wang
+  papers:
+  - papers/liu:sigcomm:2018
 - name: Ruoyu Wang
   papers:
   - papers/shoshitaishvili:sandp:2016
@@ -4277,6 +4313,9 @@
 - name: John Wickerson
   papers:
   - papers/wickerson:popl:2017
+- name: Thomas Wies
+  papers:
+  - papers/berdine:cav:2007
 - name: Mladen Wilder
   papers:
   - papers/woh:micro:2008
@@ -4370,7 +4409,9 @@
   - papers/cuoq:sefm:2012
 - name: Hongseok Yang
   papers:
+  - papers/berdine:cav:2007
   - papers/calcagno:popl:2009
+  - papers/calcagno:sas:2006
   - papers/dinsdale-young:popl:2013
   - papers/distefano:tacas:2006
   - papers/naik:popl:2012

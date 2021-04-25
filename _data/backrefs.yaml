@@ -1413,6 +1413,7 @@ notes:
   papers/bell:procieee:2014: []
   papers/bembenek:oopsla:2020: []
   papers/berdine:aplas:2005: []
+  papers/berdine:cav:2007: []
   papers/berdine:fmco:2005: []
   papers/bershad:cmpcon:1993: []
   papers/bevier:jar:1989: []
@@ -1523,6 +1524,7 @@ notes:
   - - notes/modular-verification
     - - Modular verification
       - null
+  papers/calcagno:sas:2006: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012: []
@@ -1987,6 +1989,7 @@ notes:
   papers/lipp:arxiv:2018: []
   papers/liu:cpsspc:2018: []
   papers/liu:icse:2020: []
+  papers/liu:sigcomm:2018: []
   papers/lockhart:ispass:2015: []
   papers/logozzo:vmcai:2011:
   - - notes/contract-driven-development
@@ -2466,6 +2469,9 @@ papers:
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
+  - - papers/calcagno:sas:2006
+    - - 'Beyond reachability: Shape abstraction in the presence of pointer arithmetic'
+      - calcagno:sas:2006
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
       - clarke:cacm:2009
@@ -5311,12 +5317,18 @@ papers:
   - - papers/berdine:aplas:2005
     - - Symbolic execution with separation logic
       - berdine:aplas:2005
+  - - papers/berdine:cav:2007
+    - - Shape analysis for composite data structures
+      - berdine:cav:2007
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
       - berdine:fmco:2005
   - - papers/bornat:popl:2005
     - - Permission accounting in separation logic
       - bornat:popl:2005
+  - - papers/calcagno:sas:2006
+    - - 'Beyond reachability: Shape abstraction in the presence of pointer arithmetic'
+      - calcagno:sas:2006
   - - papers/distefano:tacas:2006
     - - A local shape analysis based on separation logic
       - distefano:tacas:2006
@@ -6597,6 +6609,7 @@ papers:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
       - berdine:fmco:2005
+  papers/berdine:cav:2007: []
   papers/berdine:fmco:2005:
   - - papers/berdine:aplas:2005
     - - Symbolic execution with separation logic
@@ -6696,6 +6709,7 @@ papers:
   - - papers/xie:popl:2005
     - - Scalable error detection using boolean satisfiability
       - xie:popl:2005
+  papers/calcagno:sas:2006: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012:
@@ -7217,6 +7231,7 @@ papers:
   papers/lipp:arxiv:2018: []
   papers/liu:cpsspc:2018: []
   papers/liu:icse:2020: []
+  papers/liu:sigcomm:2018: []
   papers/lockhart:ispass:2015: []
   papers/logozzo:vmcai:2011:
   - - papers/barnett:cacm:2011
