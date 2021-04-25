@@ -3,6 +3,9 @@ notes:
   - - notes/seahorn-verifier
     - - SeaHorn verifier
       - null
+  - - notes/separation-logic
+    - - Separation logic
+      - null
   notes/acl2-theorem-prover: []
   notes/alias-analysis:
   - - notes/separation-logic
@@ -1060,6 +1063,9 @@ notes:
   - - notes/search-based-test-generation
     - - Search based test generation
       - null
+  - - notes/separation-logic
+    - - Separation logic
+      - null
   - - notes/state-merging
     - - State merging
       - null
@@ -1193,6 +1199,9 @@ notes:
       - null
   - - notes/auto-active-verification
     - - Auto active verification
+      - null
+  - - notes/separation-logic
+    - - Separation logic
       - null
   - - notes/symbolic-execution
     - - Symbolic execution
@@ -1524,7 +1533,13 @@ notes:
   - - notes/modular-verification
     - - Modular verification
       - null
-  papers/calcagno:sas:2006: []
+  - - notes/separation-logic
+    - - Separation logic
+      - null
+  papers/calcagno:sas:2006:
+  - - notes/separation-logic
+    - - Separation logic
+      - null
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012: []
