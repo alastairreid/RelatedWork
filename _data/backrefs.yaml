@@ -2497,6 +2497,9 @@ papers:
   - - papers/cuoq:sefm:2012
     - - 'Frama-C: A software analysis perspective'
       - cuoq:sefm:2012
+  - - papers/distefano:tacas:2006
+    - - A local shape analysis based on separation logic
+      - distefano:tacas:2006
   - - papers/fahndrich:foveoos:2010
     - - Static contract checking with abstract interpretation
       - fahndrich:foveoos:2010
@@ -5802,6 +5805,9 @@ papers:
   - - papers/dimjasevic:ifm:2018
     - - Study of integrating random and symbolic testing for object-oriented software
       - dimjasevic:ifm:2018
+  - - papers/distefano:tacas:2006
+    - - A local shape analysis based on separation logic
+      - distefano:tacas:2006
   - - papers/galea:arxiv:2018
     - - Evaluating manual intervention to address the challenges of bug finding with
         KLEE
@@ -6624,6 +6630,9 @@ papers:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
       - berdine:fmco:2005
+  - - papers/distefano:tacas:2006
+    - - A local shape analysis based on separation logic
+      - distefano:tacas:2006
   papers/berdine:cav:2007: []
   papers/berdine:fmco:2005:
   - - papers/berdine:aplas:2005
@@ -6712,6 +6721,9 @@ papers:
       - wagner:hotos:2013
   papers/cadar:osdi:2008: []
   papers/calcagno:popl:2009:
+  - - papers/distefano:tacas:2006
+    - - A local shape analysis based on separation logic
+      - distefano:tacas:2006
   - - papers/engler:issta:2007
     - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
       - engler:issta:2007
@@ -6724,7 +6736,10 @@ papers:
   - - papers/xie:popl:2005
     - - Scalable error detection using boolean satisfiability
       - xie:popl:2005
-  papers/calcagno:sas:2006: []
+  papers/calcagno:sas:2006:
+  - - papers/distefano:tacas:2006
+    - - A local shape analysis based on separation logic
+      - distefano:tacas:2006
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012:
