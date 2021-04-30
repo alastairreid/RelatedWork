@@ -1506,6 +1506,8 @@ notes:
   papers/braione:icse:2018: []
   papers/bridges:micro:2007: []
   papers/brookes:tcs:2006: []
+  papers/brown:asplos:2016: []
+  papers/brown:sec:2020: []
   papers/brummayer:sat:2010:
   - - notes/smt-solver
     - - SMT solver
@@ -2297,6 +2299,7 @@ notes:
   - - notes/symbolic-trajectory-evaluation
     - - Symbolic trajectory evaluation
       - null
+  papers/sen:fse:2005: []
   papers/seshadri:sosp:2007: []
   papers/sewell:pldi:2013: []
   papers/sharma:oopsla:2012: []
@@ -4374,6 +4377,9 @@ papers:
     - - Directions in ISA specification
       - fox:itp:2012
   notes/lazy-initialization:
+  - - papers/brown:sec:2020
+    - - 'Sys: A static/symbolic tool for finding good bugs in good (browser) code'
+      - brown:sec:2020
   - - papers/calcagno:popl:2009
     - - Compositional shape analysis by means of bi-abduction
       - calcagno:popl:2009
@@ -5768,6 +5774,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/brown:sec:2020
+    - - 'Sys: A static/symbolic tool for finding good bugs in good (browser) code'
+      - brown:sec:2020
   - - papers/bush:spe:2000
     - - A static analyzer for finding dynamic programming errors
       - bush:spe:2000
@@ -5886,6 +5895,9 @@ papers:
     - - All you ever wanted to know about dynamic taint analysis and forward symbolic
         execution (but might have been afraid to ask)
       - schwartz:sp:2010
+  - - papers/sen:fse:2005
+    - - 'CUTE: A concolic unit testing engine for C'
+      - sen:fse:2005
   - - papers/shoshitaishvili:sandp:2016
     - - 'SOK: (State of) the art of war: Offensive techniques in binary analysis'
       - shoshitaishvili:sandp:2016
@@ -6697,6 +6709,8 @@ papers:
   papers/braione:icse:2018: []
   papers/bridges:micro:2007: []
   papers/brookes:tcs:2006: []
+  papers/brown:asplos:2016: []
+  papers/brown:sec:2020: []
   papers/brummayer:sat:2010:
   - - papers/barrett:mlf:2015
     - - Proofs in satisfiability modulo theories
@@ -6715,6 +6729,9 @@ papers:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'
       - beyer:hvc:2017
+  - - papers/sen:fse:2005
+    - - 'CUTE: A concolic unit testing engine for C'
+      - sen:fse:2005
   papers/cadar:fse:2015:
   - - papers/wagner:hotos:2013
     - - '-Overify: Optimizing programs for fast verification'
@@ -7599,6 +7616,7 @@ papers:
     - - 'Symbolic trajectory evaluation: The primary validation vehicle for next generation
         Intel processor graphics FPU'
       - kirankumar:fmcad:2012
+  papers/sen:fse:2005: []
   papers/seshadri:sosp:2007:
   - - papers/franklin:cmu:2008
     - - 'Attacking, repairing, and verifying SecVisor: A retrospective on the security

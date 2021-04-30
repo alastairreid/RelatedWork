@@ -19,6 +19,9 @@
 - name: Edward Aftandilian
   papers:
   - papers/sadowski:cacm:2018
+- name: Gul Agha
+  papers:
+  - papers/sen:fse:2005
 - name: Gagan Agrawal
   papers:
   - papers/du:sc:2003
@@ -470,6 +473,10 @@
 - name: Stephen Brookes
   papers:
   - papers/brookes:tcs:2006
+- name: Fraser Brown
+  papers:
+  - papers/brown:asplos:2016
+  - papers/brown:sec:2020
 - name: Richard Bruce
   papers:
   - papers/woh:micro:2008
@@ -1079,6 +1086,8 @@
   - papers/klein:sosp:2009
 - name: Dawson Engler
   papers:
+  - papers/brown:asplos:2016
+  - papers/brown:sec:2020
   - papers/cadar:osdi:2008
   - papers/engler:issta:2007
   - papers/ramos:sec:2015
@@ -2583,6 +2592,9 @@
 - name: Andre V. Marianiello
   papers:
   - papers/siegel:sc:2015
+- name: Darko Marinov
+  papers:
+  - papers/sen:fse:2005
 - name: Jean-Yves Marion
   papers:
   - papers/david:issta:2016
@@ -2998,6 +3010,9 @@
 - name: Mark Novak
   papers:
   - papers/mavin:isre:2009
+- name: "Andres N\xF6tzli"
+  papers:
+  - papers/brown:asplos:2016
 - name: Liam O'Connor
   papers:
   - papers/amani:asplos:2016
@@ -3622,6 +3637,7 @@
   papers:
   - papers/cadar:cacm:2013
   - papers/godefroid:pldi:2005
+  - papers/sen:fse:2005
 - name: Shane Sendall
   papers:
   - papers/cifuentes:iwpc:1998
@@ -3843,6 +3859,9 @@
   - papers/armstrong:popl19:2019
   - papers/armstrong:spisa:2019
   - papers/nienhuis:secpriv:2020
+- name: Deian Stefan
+  papers:
+  - papers/brown:sec:2020
 - name: Shane G. Stephens
   papers:
   - papers/hohmuth:sigops:2002
