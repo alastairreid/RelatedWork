@@ -28,6 +28,7 @@ title: 'Under-constrained symbolic execution: Correctness checking for real code
 year: 2015
 notes:
 - KLEE verifier
+- symbolic execution
 - lazy initialization
 papers:
 - ramos:cav:2011

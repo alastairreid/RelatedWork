@@ -282,6 +282,7 @@ notes:
     - - Coq theorem prover
       - null
   notes/differential-power-analysis: []
+  notes/differential-testing: []
   notes/distributed-shared-memory: []
   notes/domain-specific-language: []
   notes/embedding: []
@@ -2180,6 +2181,7 @@ notes:
   - - notes/verifast-verifier
     - - VeriFast verifier
       - null
+  papers/person:fse:2008: []
   papers/peterson:hw:1995: []
   papers/peterson:padl:2001: []
   papers/philippaerts:scp:2014:
@@ -2466,6 +2468,7 @@ notes:
       - null
   papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
+  papers/yang:pldi:2011: []
   papers/yun:usenix:2018: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
@@ -3319,6 +3322,16 @@ papers:
   - - papers/kocher:crypto:1999
     - - Differential power analysis
       - kocher:crypto:1999
+  notes/differential-testing:
+  - - papers/person:fse:2008
+    - - Differential symbolic execution
+      - person:fse:2008
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
+  - - papers/yang:pldi:2011
+    - - Finding and understanding bugs in C compilers
+      - yang:pldi:2011
   notes/distributed-shared-memory:
   - - papers/bershad:cmpcon:1993
     - - The Midway distributed shared memory system
@@ -4340,6 +4353,9 @@ papers:
   - - papers/pandey:issta:2019
     - - Deferred concretization in symbolic execution via fuzzing
       - pandey:issta:2019
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
@@ -4389,6 +4405,9 @@ papers:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
@@ -5873,12 +5892,21 @@ papers:
   - - papers/pandey:issta:2019
     - - Deferred concretization in symbolic execution via fuzzing
       - pandey:issta:2019
+  - - papers/person:fse:2008
+    - - Differential symbolic execution
+      - person:fse:2008
   - - papers/qiu:icse:2017
     - - A synergistic approach for distributed symbolic execution using test ranges
       - qiu:icse:2017
   - - papers/qiu:nfm:2018
     - - Using test ranges to improve symbolic execution
       - qiu:nfm:2018
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
+  - - papers/ramos:sec:2015
+    - - 'Under-constrained symbolic execution: Correctness checking for real code'
+      - ramos:sec:2015
   - - papers/rath:epiq:2018
     - - Interoperability-guided testing of QUIC implementations using symbolic execution
       - rath:epiq:2018
@@ -5935,6 +5963,9 @@ papers:
   - - papers/kapus:fse:2019
     - - A segmented memory model for symbolic execution
       - kapus:fse:2019
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   notes/symbolic-model-checking:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
@@ -6747,6 +6778,9 @@ papers:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
@@ -6915,6 +6949,9 @@ papers:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
@@ -7175,6 +7212,9 @@ papers:
   - - papers/engler:issta:2007
     - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
       - engler:issta:2007
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
@@ -7411,6 +7451,10 @@ papers:
   - - papers/philippaerts:scp:2014
     - - 'Software verification with VeriFast: Industrial case studies'
       - philippaerts:scp:2014
+  papers/person:fse:2008:
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   papers/peterson:hw:1995: []
   papers/peterson:padl:2001: []
   papers/philippaerts:scp:2014:
@@ -7473,6 +7517,9 @@ papers:
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   - - papers/xie:popl:2005
     - - Scalable error detection using boolean satisfiability
       - xie:popl:2005
@@ -7802,11 +7849,18 @@ papers:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
   papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
+  papers/yang:pldi:2011:
+  - - papers/ramos:cav:2011
+    - - Practical, low-effort equivalence verification of real code
+      - ramos:cav:2011
   papers/yun:usenix:2018: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []

@@ -634,6 +634,7 @@
   papers:
   - papers/groce:issta:2012
   - papers/regehr:pldi:2012
+  - papers/yang:pldi:2011
 - name: Hao Chen
   papers:
   - papers/gu:osdi:2016
@@ -1032,6 +1033,7 @@
   - papers/levy:sosp:2017
 - name: Matthew B. Dwyer
   papers:
+  - papers/person:fse:2008
   - papers/siegel:sc:2015
 - name: "Daniele Cono D\u2019Elia"
   papers:
@@ -1061,6 +1063,10 @@
   - papers/groce:issta:2012
   - papers/regehr:pldi:2012
   - papers/reid:osdi:2000
+  - papers/yang:pldi:2011
+- name: Sebastian Elbaum
+  papers:
+  - papers/person:fse:2008
 - name: Dhammika Elkaduwe
   papers:
   - papers/klein:sosp:2009
@@ -3156,6 +3162,9 @@
 - name: Adrian Perrig
   papers:
   - papers/seshadri:sosp:2007
+- name: Suzette Person
+  papers:
+  - papers/person:fse:2008
 - name: John Peterson
   papers:
   - papers/jones:hasklang:1999
@@ -3267,6 +3276,7 @@
 - name: "Corina S. P\u0103s\u0103reanu"
   papers:
   - papers/khurshid:tacas:2003
+  - papers/person:fse:2008
   - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
 - name: Shaz Qadeer
@@ -3372,6 +3382,7 @@
   - papers/regehr:pldi:2012
   - papers/regehr:rtss:2003
   - papers/regehr:tecs:2005
+  - papers/yang:pldi:2011
 - name: Alastair D. Reid
   papers:
   - papers/armstrong:arw:2018
@@ -4444,6 +4455,7 @@
 - name: Xuejun Yang
   papers:
   - papers/regehr:pldi:2012
+  - papers/yang:pldi:2011
 - name: Nick Y. Yang
   papers:
   - papers/wang:pldi:2007
