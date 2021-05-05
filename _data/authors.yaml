@@ -115,6 +115,9 @@
 - name: Jorge Aparicius
   papers:
   - papers/lindner:indin:2018
+- name: Katerina Argyraki
+  papers:
+  - papers/zaostrovnykh:sosp:2019
 - name: Alasdair Armstrong
   papers:
   - papers/armstrong:arw:2018
@@ -302,11 +305,17 @@
 - name: Aaron Bembenek
   papers:
   - papers/bembenek:oopsla:2020
+- name: Thomas Benjamin
+  papers:
+  - papers/evtyushkin:asplos:2021
 - name: Josh Berdine
   papers:
   - papers/berdine:aplas:2005
   - papers/berdine:cav:2007
   - papers/berdine:fmco:2005
+- name: Tom Bergan
+  papers:
+  - papers/bergan:oopsla:2014
 - name: Emery D. Berger
   papers:
   - papers/hertz:oopsla:2005
@@ -562,6 +571,7 @@
   - papers/chipounov:tcs:2012
   - papers/kuznetsov:pldi:2012
   - papers/wagner:hotos:2013
+  - papers/zaostrovnykh:sosp:2019
 - name: Chandler Carruth
   papers:
   - papers/wright:icsm:2013
@@ -583,6 +593,7 @@
   - papers/liu:sigcomm:2018
 - name: Luis Ceze
   papers:
+  - papers/bergan:oopsla:2014
   - papers/zorn:iscawddd:2017
 - name: Sang Kil Cha
   papers:
@@ -1064,6 +1075,9 @@
   - papers/regehr:pldi:2012
   - papers/reid:osdi:2000
   - papers/yang:pldi:2011
+- name: Jeffrey A. Eitel
+  papers:
+  - papers/evtyushkin:asplos:2021
 - name: Sebastian Elbaum
   papers:
   - papers/person:fse:2008
@@ -1076,6 +1090,9 @@
 - name: Kevin Elphinstone
   papers:
   - papers/klein:sosp:2009
+- name: Jesse Elwell
+  papers:
+  - papers/evtyushkin:asplos:2021
 - name: E. Allen Emerson
   papers:
   - papers/clarke:cacm:2009
@@ -1122,6 +1139,9 @@
 - name: James A. Evans
   papers:
   - papers/wu:arxiv:2017
+- name: Dmitry Evtyushkin
+  papers:
+  - papers/evtyushkin:asplos:2021
 - name: Mbou Eyole
   papers:
   - papers/boettcher:date:2014
@@ -1364,6 +1384,9 @@
   - papers/levy:apsys:2017
   - papers/levy:plos:2015
   - papers/levy:sosp:2017
+- name: Abhrajit Ghosh
+  papers:
+  - papers/evtyushkin:asplos:2021
 - name: Soumava Ghosh
   papers:
   - papers/goel:fmcad:2014
@@ -1485,6 +1508,7 @@
   - papers/subhlok:ppopp:1993
 - name: Dan Grossman
   papers:
+  - papers/bergan:oopsla:2014
   - papers/grossman:esop:2002
   - papers/grossman:pldi:2002
   - papers/morrisett:wcsss:1999
@@ -1842,6 +1866,9 @@
 - name: Kenneth E. Iverson
   papers:
   - papers/falkoff:ibm:1964
+- name: Rishabh Iyer
+  papers:
+  - papers/zaostrovnykh:sosp:2019
 - name: Thomas Jablin
   papers:
   - papers/bridges:micro:2007
@@ -3142,6 +3169,9 @@
 - name: Michael Pearce
   papers:
   - papers/pearce:compsurv:2013
+- name: Luis Pedrosa
+  papers:
+  - papers/zaostrovnykh:sosp:2019
 - name: Stefan Pees
   papers:
   - papers/zivojnovic:vlsi:1996
@@ -3207,6 +3237,9 @@
 - name: Jonathan D. Pincus
   papers:
   - papers/bush:spe:2000
+- name: Solal Pirelli
+  papers:
+  - papers/zaostrovnykh:sosp:2019
 - name: "Fl\xE1via Pisani"
   papers:
   - papers/silva:sbac:2016
@@ -3456,6 +3489,9 @@
 - name: Christine Rizkallah
   papers:
   - papers/amani:asplos:2016
+- name: Matteo Rizzo
+  papers:
+  - papers/zaostrovnykh:sosp:2019
 - name: Martin Roberts
   papers:
   - papers/chu:ieeedtc:1992
@@ -3557,6 +3593,9 @@
 - name: Giuseppe Santucci
   papers:
   - papers/angelini:vizsec:2019
+- name: Angelo Sapello
+  papers:
+  - papers/evtyushkin:asplos:2021
 - name: Simon Sapin
   papers:
   - papers/anderson:icse:2016
@@ -4498,6 +4537,9 @@
 - name: Cristian Zamfir
   papers:
   - papers/chipounov:hotdep:2009
+- name: Arseniy Zaostrovnykh
+  papers:
+  - papers/zaostrovnykh:sosp:2019
 - name: Steve Zdancewic
   papers:
   - papers/morrisett:wcsss:1999

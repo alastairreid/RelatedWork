@@ -1425,6 +1425,7 @@ notes:
   papers/berdine:aplas:2005: []
   papers/berdine:cav:2007: []
   papers/berdine:fmco:2005: []
+  papers/bergan:oopsla:2014: []
   papers/bershad:cmpcon:1993: []
   papers/bevier:jar:1989: []
   papers/beyer:ase:2019:
@@ -1667,6 +1668,7 @@ notes:
       - null
   papers/ernst:icse:2016: []
   papers/evans:icse:2020: []
+  papers/evtyushkin:asplos:2021: []
   papers/fahndrich:foveoos:2010:
   - - notes/contract-driven-development
     - - Contract driven development
@@ -2470,6 +2472,7 @@ notes:
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011: []
   papers/yun:usenix:2018: []
+  papers/zaostrovnykh:sosp:2019: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
   papers/zeldovich:osdi:2006: []
@@ -5787,6 +5790,9 @@ papers:
   - - papers/berdine:fmco:2005
     - - 'Smallfoot: Modular automatic assertion checking with separation logic'
       - berdine:fmco:2005
+  - - papers/bergan:oopsla:2014
+    - - Symbolic execution of multithreaded programs from arbitrary program contexts
+      - bergan:oopsla:2014
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
       - bornholt:oopsla:2018
@@ -5953,6 +5959,9 @@ papers:
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
+  - - papers/zaostrovnykh:sosp:2019
+    - - Verifying software network functions with no verification expertise
+      - zaostrovnykh:sosp:2019
   - - papers/zhang:apsec:2018
     - - Boost symbolic execution using dynamic state merging and forking
       - zhang:apsec:2018
@@ -6684,6 +6693,7 @@ papers:
   - - papers/calcagno:popl:2009
     - - Compositional shape analysis by means of bi-abduction
       - calcagno:popl:2009
+  papers/bergan:oopsla:2014: []
   papers/bershad:cmpcon:1993: []
   papers/bevier:jar:1989: []
   papers/beyer:ase:2019: []
@@ -6960,6 +6970,7 @@ papers:
       - xie:popl:2005
   papers/ernst:icse:2016: []
   papers/evans:icse:2020: []
+  papers/evtyushkin:asplos:2021: []
   papers/fahndrich:foveoos:2010:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
@@ -7862,6 +7873,7 @@ papers:
     - - Practical, low-effort equivalence verification of real code
       - ramos:cav:2011
   papers/yun:usenix:2018: []
+  papers/zaostrovnykh:sosp:2019: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
   papers/zeldovich:osdi:2006:
