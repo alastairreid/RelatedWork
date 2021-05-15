@@ -2148,6 +2148,7 @@ notes:
   papers/nyxbrain:sc2:2017: []
   papers/oberg:dac:2010: []
   papers/ohearn:cacm:2019: []
+  papers/ohearn:popl:2019: []
   papers/ohearn:tcs:2007: []
   papers/ousterhout:usenix:1996:
   - - notes/events
@@ -6180,6 +6181,9 @@ papers:
   - - papers/godefroid:bugs:2005
     - - The soundness of bugs is what matters (position statement)
       - godefroid:bugs:2005
+  - - papers/ohearn:popl:2019
+    - - Incorrectness logic
+      - ohearn:popl:2019
   - - papers/xie:bugs:2005
     - - Soundness and its role in bug detection systems
       - xie:bugs:2005
@@ -7024,6 +7028,9 @@ papers:
   papers/gennari:vstte:2018: []
   papers/godefroid:acmq:2012: []
   papers/godefroid:bugs:2005:
+  - - papers/ohearn:popl:2019
+    - - Incorrectness logic
+      - ohearn:popl:2019
   - - papers/xie:bugs:2005
     - - Soundness and its role in bug detection systems
       - xie:bugs:2005
@@ -7442,6 +7449,7 @@ papers:
   - - papers/smans:ecoop:2009
     - - 'Implicit dynamic frames: Combining dynamic frames and separation logic'
       - smans:ecoop:2009
+  papers/ohearn:popl:2019: []
   papers/ohearn:tcs:2007: []
   papers/ousterhout:usenix:1996: []
   papers/ozer:sbacpad:2007: []
