@@ -658,6 +658,7 @@ notes:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
       - null
+  notes/over-approximation: []
   notes/ownership-types:
   - - notes/rust-language
     - - Rust language
@@ -1740,6 +1741,7 @@ notes:
       - null
   papers/godefroid:pldi:2005: []
   papers/godefroid:pldi:2012: []
+  papers/godefroid:popl:2010: []
   papers/goel:acl2:2013: []
   papers/goel:fmcad:2014: []
   papers/goel:pcs:2017: []
@@ -4634,6 +4636,9 @@ papers:
   - - papers/cook:cav:2018
     - - Model checking boot code from AWS data centers
       - cook:cav:2018
+  - - papers/godefroid:popl:2010
+    - - 'Compositional may-must program analysis: Unleashing the power of alternation'
+      - godefroid:popl:2010
   - - papers/henzinger:spin:2003
     - - Software verification with BLAST
       - henzinger:spin:2003
@@ -4764,6 +4769,10 @@ papers:
   - - papers/reid:osdi:2000
     - - 'Knit: Component composition for systems software'
       - reid:osdi:2000
+  notes/over-approximation:
+  - - papers/godefroid:popl:2010
+    - - 'Compositional may-must program analysis: Unleashing the power of alternation'
+      - godefroid:popl:2010
   notes/ownership-types:
   - - papers/levy:plos:2015
     - - 'Ownership is theft: Experiences building an embedded OS in Rust'
@@ -6182,6 +6191,9 @@ papers:
   - - papers/godefroid:bugs:2005
     - - The soundness of bugs is what matters (position statement)
       - godefroid:bugs:2005
+  - - papers/godefroid:popl:2010
+    - - 'Compositional may-must program analysis: Unleashing the power of alternation'
+      - godefroid:popl:2010
   - - papers/ohearn:popl:2019
     - - Incorrectness logic
       - ohearn:popl:2019
@@ -7039,6 +7051,7 @@ papers:
   papers/godefroid:cacm:2020: []
   papers/godefroid:pldi:2005: []
   papers/godefroid:pldi:2012: []
+  papers/godefroid:popl:2010: []
   papers/goel:acl2:2013: []
   papers/goel:fmcad:2014: []
   papers/goel:pcs:2017: []

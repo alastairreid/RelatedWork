@@ -1419,6 +1419,7 @@
   - papers/godefroid:cacm:2020
   - papers/godefroid:pldi:2005
   - papers/godefroid:pldi:2012
+  - papers/godefroid:popl:2010
 - name: Shilpi Goel
   papers:
   - papers/goel:acl2:2013
@@ -3030,6 +3031,7 @@
   - papers/jones:hw:1997
 - name: Aditya V. Nori
   papers:
+  - papers/godefroid:popl:2010
   - papers/sharma:pls:2013
 - name: Michael Norrish
   papers:
@@ -3348,6 +3350,7 @@
 - name: Sriram K. Rajamani
   papers:
   - papers/ball:pldi:2001
+  - papers/godefroid:popl:2010
 - name: "Zvonimir Rakamari\u0107"
   papers:
   - papers/balasubramanium:hotos:2017
@@ -4069,6 +4072,9 @@
 - name: Amber Telfer
   papers:
   - papers/kaivola:cav:2009
+- name: Sai Deep Tetali
+  papers:
+  - papers/godefroid:popl:2010
 - name: Hendrik Tews
   papers:
   - papers/becker:fm:2016
