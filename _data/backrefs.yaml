@@ -1650,6 +1650,7 @@ notes:
   papers/dias:popl:2010: []
   papers/dimjasevic:ifm:2018: []
   papers/dinsdale-young:popl:2013: []
+  papers/distefano:cacm:2019: []
   papers/distefano:tacas:2006: []
   papers/djordjevic:cj:1985: []
   papers/draves:sosp:1991:
@@ -6947,6 +6948,7 @@ papers:
   papers/dias:popl:2010: []
   papers/dimjasevic:ifm:2018: []
   papers/dinsdale-young:popl:2013: []
+  papers/distefano:cacm:2019: []
   papers/distefano:tacas:2006: []
   papers/djordjevic:cj:1985: []
   papers/draves:sosp:1991: []
@@ -7639,6 +7641,9 @@ papers:
   papers/rutledge:icse:2020: []
   papers/sabelfield:jcs:2009: []
   papers/sadowski:cacm:2018:
+  - - papers/distefano:cacm:2019
+    - - Scaling static analyses at Facebook
+      - distefano:cacm:2019
   - - papers/potvin:cacm:2016
     - - Why Google stores billions of lines of code in a single repository
       - potvin:cacm:2016
@@ -7653,6 +7658,9 @@ papers:
     - - Why Google stores billions of lines of code in a single repository
       - potvin:cacm:2016
   papers/sadowski:icse:2015:
+  - - papers/distefano:cacm:2019
+    - - Scaling static analyses at Facebook
+      - distefano:cacm:2019
   - - papers/potvin:cacm:2016
     - - Why Google stores billions of lines of code in a single repository
       - potvin:cacm:2016

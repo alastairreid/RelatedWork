@@ -986,6 +986,7 @@
   - papers/berdine:cav:2007
   - papers/calcagno:popl:2009
   - papers/calcagno:sas:2006
+  - papers/distefano:cacm:2019
   - papers/distefano:tacas:2006
 - name: David R. Ditzel
   papers:
@@ -1310,6 +1311,7 @@
   - papers/barnett:cacm:2011
   - papers/barnett:vstte:2005
   - papers/deline:pldi:2001
+  - papers/distefano:cacm:2019
   - papers/fahndrich:foveoos:2010
 - name: Marco Gaboardi
   papers:
@@ -2480,6 +2482,7 @@
 - name: Francesco Logozzo
   papers:
   - papers/cousot:oopsla:2012
+  - papers/distefano:cacm:2019
   - papers/fahndrich:foveoos:2010
   - papers/logozzo:vmcai:2011
 - name: Florian Lonsing
@@ -3063,6 +3066,7 @@
   - papers/bornat:popl:2005
   - papers/calcagno:popl:2009
   - papers/calcagno:sas:2006
+  - papers/distefano:cacm:2019
   - papers/distefano:tacas:2006
   - papers/ohearn:cacm:2019
   - papers/ohearn:popl:2019
