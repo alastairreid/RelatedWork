@@ -449,6 +449,7 @@ notes:
   - - notes/viper-verifier
     - - Viper verifier
       - null
+  notes/interpolation: []
   notes/isa-specification:
   - - notes/arm-architecture
     - - Arm architecture
@@ -539,6 +540,7 @@ notes:
   - - notes/isa-specification
     - - ISA specification
       - null
+  notes/llbmc-verifier: []
   notes/llvm-compiler:
   - - notes/klee-verifier
     - - KLEE verifier
@@ -1554,6 +1556,8 @@ notes:
       - null
   papers/chang:tocs:2012: []
   papers/chatterjee:tacas:2007: []
+  papers/chen:iiswc:2019: []
+  papers/chen:sp:2020: []
   papers/chipounov:asplos:2011:
   - - notes/s2e-verifier
     - - S2E verifier
@@ -1866,6 +1870,7 @@ notes:
   - - notes/verifast-verifier
     - - VeriFast verifier
       - null
+  papers/jaffar:arxiv:2020: []
   papers/jhala:cav:2001: []
   papers/jhala:compsurv:2009:
   - - notes/bounded-model-checking
@@ -2023,6 +2028,7 @@ notes:
   papers/lowe:csfw:2015: []
   papers/lustig:asplos:2016: []
   papers/ma:securecomm:2015: []
+  papers/maas:asplos:2020: []
   papers/maciver:ecoop:2020:
   - - notes/test-case-reduction
     - - Test-case reduction
@@ -2229,6 +2235,7 @@ notes:
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
   papers/rath:epiq:2018: []
+  papers/recoules:ase:2019: []
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
   papers/regehr:emsoft:2003: []
@@ -2292,6 +2299,7 @@ notes:
       - null
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
+  papers/schemmel:cav:2020: []
   papers/schmaltz:vstte:2012: []
   papers/schwartz:sp:2010: []
   papers/schwarz:sefm:2016: []
@@ -2487,6 +2495,7 @@ notes:
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
   papers/zhang:toplas:2017: []
+  papers/zhuang:pldi:2006: []
   papers/zivojnovic:vlsi:1996:
   - - notes/lisa
     - - LISA
@@ -2913,6 +2922,9 @@ papers:
   - - papers/holzer:cav:2008
     - - 'FShell: Systematic test case generation for dynamic analysis and measurement'
       - holzer:cav:2008
+  - - papers/jaffar:arxiv:2020
+    - - 'TracerX: Dynamic symbolic execution with interpolation'
+      - jaffar:arxiv:2020
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
@@ -4014,6 +4026,16 @@ papers:
   - - papers/siegel:sc:2015
     - - 'CIVL: the concurrency intermediate verification language'
       - siegel:sc:2015
+  notes/interpolation:
+  - - papers/baldoni:compsurv:2018
+    - - A survey of symbolic execution techniques
+      - baldoni:compsurv:2018
+  - - papers/jaffar:arxiv:2020
+    - - 'TracerX: Dynamic symbolic execution with interpolation'
+      - jaffar:arxiv:2020
+  - - papers/jhala:compsurv:2009
+    - - Software model checking
+      - jhala:compsurv:2009
   notes/isa-specification:
   - - papers/armstrong:arw:2018
     - - 'Detailed models of instruction set architectures: From pseudocode to formal
@@ -4338,6 +4360,9 @@ papers:
     - - Evaluating manual intervention to address the challenges of bug finding with
         KLEE
       - galea:arxiv:2018
+  - - papers/jaffar:arxiv:2020
+    - - 'TracerX: Dynamic symbolic execution with interpolation'
+      - jaffar:arxiv:2020
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
@@ -4443,6 +4468,10 @@ papers:
     - - "LISA \u2013 machine description language and generic machine model for HW/SW\
         \ co-design"
       - zivojnovic:vlsi:1996
+  notes/llbmc-verifier:
+  - - papers/jaffar:arxiv:2020
+    - - 'TracerX: Dynamic symbolic execution with interpolation'
+      - jaffar:arxiv:2020
   notes/llvm-compiler:
   - - papers/baranowski:atva:2018
     - - Verifying Rust programs with SMACK
@@ -5590,6 +5619,9 @@ papers:
   - - papers/jacobs:vstte:2010
     - - 'VeriFast: Imperative programs as proofs'
       - jacobs:vstte:2010
+  - - papers/jaffar:arxiv:2020
+    - - 'TracerX: Dynamic symbolic execution with interpolation'
+      - jaffar:arxiv:2020
   - - papers/krishnamurthi:fm:2019
     - - The human in formal methods
       - krishnamurthi:fm:2019
@@ -5654,6 +5686,9 @@ papers:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
       - bornholt:oopsla:2018
+  - - papers/jaffar:arxiv:2020
+    - - 'TracerX: Dynamic symbolic execution with interpolation'
+      - jaffar:arxiv:2020
   - - papers/kuznetsov:pldi:2012
     - - Efficient state merging in symbolic execution
       - kuznetsov:pldi:2012
@@ -5875,6 +5910,9 @@ papers:
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/jaffar:arxiv:2020
+    - - 'TracerX: Dynamic symbolic execution with interpolation'
+      - jaffar:arxiv:2020
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
@@ -6836,6 +6874,8 @@ papers:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
+  papers/chen:iiswc:2019: []
+  papers/chen:sp:2020: []
   papers/chipounov:asplos:2011: []
   papers/chipounov:hotdep:2009: []
   papers/chipounov:tcs:2012: []
@@ -7191,6 +7231,7 @@ papers:
   - - papers/muller:vmcai:2016
     - - 'Viper: A verification infrastructure for permission-based reasoning'
       - muller:vmcai:2016
+  papers/jaffar:arxiv:2020: []
   papers/jhala:cav:2001: []
   papers/jhala:compsurv:2009:
   - - papers/mcmillan:ecs:2003
@@ -7284,6 +7325,9 @@ papers:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
       - bornholt:oopsla:2018
+  - - papers/jaffar:arxiv:2020
+    - - 'TracerX: Dynamic symbolic execution with interpolation'
+      - jaffar:arxiv:2020
   - - papers/zhang:apsec:2018
     - - Boost symbolic execution using dynamic state merging and forking
       - zhang:apsec:2018
@@ -7362,6 +7406,7 @@ papers:
   papers/lowe:csfw:2015: []
   papers/lustig:asplos:2016: []
   papers/ma:securecomm:2015: []
+  papers/maas:asplos:2020: []
   papers/maciver:ecoop:2020: []
   papers/macvean:ppig:2016: []
   papers/mai:asplos:2013: []
@@ -7563,6 +7608,7 @@ papers:
   - - papers/mcmillan:sigcomm:2019
     - - Formal specification and testing of QUIC
       - mcmillan:sigcomm:2019
+  papers/recoules:ase:2019: []
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
   papers/regehr:emsoft:2003: []
@@ -7687,6 +7733,7 @@ papers:
   papers/samet:phd:1975: []
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
+  papers/schemmel:cav:2020: []
   papers/schmaltz:vstte:2012: []
   papers/schwartz:sp:2010: []
   papers/schwarz:sefm:2016: []
@@ -7916,5 +7963,6 @@ papers:
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
   papers/zhang:toplas:2017: []
+  papers/zhuang:pldi:2006: []
   papers/zivojnovic:vlsi:1996: []
   papers/zorn:iscawddd:2017: []

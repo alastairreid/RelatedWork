@@ -33,6 +33,7 @@ notes:
 - symbolic execution
 - symbolic model checking
 - reachability
+- interpolation
 - separation logic
 - alias analysis
 - shape analysis

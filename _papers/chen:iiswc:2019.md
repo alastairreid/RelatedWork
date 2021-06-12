@@ -8,7 +8,7 @@ authors:
 - Alex Renda
 - Eric Atkinson
 - Ondřej Sýkora
-- Saman Amarasinghe
+- Saman P. Amarasinghe
 - Michael Carbin
 booktitle: 2019 IEEE International Symposium on Workload Characterization (IISWC)
 doi: 10.1109/IISWC47752.2019.9042166

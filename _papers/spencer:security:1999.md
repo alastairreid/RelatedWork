@@ -7,7 +7,7 @@ authors:
 - Stephen Smalley
 - Peter Loscocco
 - Mike Hibler
-- David Andersen
+- David G. Andersen
 - Jay Lepreau
 booktitle: Proceedings of the 8th Conference on USENIX Security Symposium
 layout: paper
