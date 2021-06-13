@@ -13,6 +13,9 @@ notes:
       - null
   notes/alloy-verifier: []
   notes/angr-verifier:
+  - - notes/driller-verifier
+    - - Driller verifier
+      - null
   - - notes/symbolic-memory
     - - Symbolic memory
       - null
@@ -193,6 +196,28 @@ notes:
   - - notes/translation-validation
     - - Translation validation
       - null
+  notes/concolic-execution:
+  - - notes/angr-verifier
+    - - angr verifier
+      - null
+  - - notes/cute-verifier
+    - - CUTE verifier
+      - null
+  - - notes/dart-verifier
+    - - DART verifier
+      - null
+  - - notes/driller-verifier
+    - - Driller verifier
+      - null
+  - - notes/qsym-verifier
+    - - QSYM verifier
+      - null
+  - - notes/sage-verifier
+    - - SAGE verifier
+      - null
+  - - notes/symcc
+    - - SymCC
+      - null
   notes/concurrent-separation-logic: []
   notes/continuations:
   - - notes/events
@@ -238,7 +263,10 @@ notes:
     - - Instruction set architecture
       - null
   notes/crest-verifier: []
-  notes/cute-verifier: []
+  notes/cute-verifier:
+  - - notes/concolic-execution
+    - - Concolic execution
+      - null
   notes/cvc4-solver:
   - - notes/smt-solver
     - - SMT solver
@@ -248,7 +276,11 @@ notes:
   - - notes/auto-active-verification
     - - Auto active verification
       - null
+  notes/darpa-cgc: []
   notes/dart-verifier:
+  - - notes/concolic-execution
+    - - Concolic execution
+      - null
   - - notes/fuzz-testing
     - - Fuzz testing
       - null
@@ -285,6 +317,10 @@ notes:
   notes/differential-testing: []
   notes/distributed-shared-memory: []
   notes/domain-specific-language: []
+  notes/driller-verifier:
+  - - notes/concolic-execution
+    - - Concolic execution
+      - null
   notes/embedding: []
   notes/entropy: []
   notes/events: []
@@ -545,6 +581,9 @@ notes:
   - - notes/klee-verifier
     - - KLEE verifier
       - null
+  - - notes/s2e-verifier
+    - - S2E verifier
+      - null
   - - notes/seahorn-verifier
     - - SeaHorn verifier
       - null
@@ -559,6 +598,7 @@ notes:
   - - notes/prusti-verifier
     - - Prusti verifier
       - null
+  notes/mayhem: []
   notes/memory-coherence: []
   notes/memory-management:
   - - notes/garbage-collection
@@ -753,6 +793,14 @@ notes:
     - - Viper verifier
       - null
   notes/pvs-theorem-prover: []
+  notes/qemu:
+  - - notes/s2e-verifier
+    - - S2E verifier
+      - null
+  notes/qsym-verifier:
+  - - notes/concolic-execution
+    - - Concolic execution
+      - null
   notes/quic-protocol: []
   notes/reachability:
   - - notes/bounded-model-checking
@@ -812,6 +860,9 @@ notes:
   notes/rust-unsafe-code: []
   notes/s2e-verifier: []
   notes/sage-verifier:
+  - - notes/concolic-execution
+    - - Concolic execution
+      - null
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
@@ -1049,14 +1100,29 @@ notes:
   - - notes/civl-verifier
     - - CIVL verifier
       - null
+  - - notes/concolic-execution
+    - - Concolic execution
+      - null
+  - - notes/cute-verifier
+    - - CUTE verifier
+      - null
   - - notes/dart-verifier
     - - DART verifier
+      - null
+  - - notes/driller-verifier
+    - - Driller verifier
+      - null
+  - - notes/exe-verifier
+    - - EXE symbolic executor
       - null
   - - notes/fuzz-testing
     - - Fuzz testing
       - null
   - - notes/klee-verifier
     - - KLEE verifier
+      - null
+  - - notes/mayhem
+    - - Mayhem
       - null
   - - notes/s2e-verifier
     - - S2E verifier
@@ -1082,6 +1148,9 @@ notes:
   - - notes/symbolic-memory
     - - Symbolic memory
       - null
+  - - notes/symcc
+    - - SymCC
+      - null
   - - notes/test-generation
     - - Test generation
       - null
@@ -1100,6 +1169,7 @@ notes:
       - null
   notes/symbolic-model-checking: []
   notes/symbolic-trajectory-evaluation: []
+  notes/symcc: []
   notes/systematization-of-knowledge: []
   notes/temporal-logic:
   - - notes/buchi-automaton
@@ -1192,6 +1262,10 @@ notes:
     - - Property-based testing
       - null
   notes/usability: []
+  notes/valgrind:
+  - - notes/angr-verifier
+    - - angr verifier
+      - null
   notes/vcc-verifier: []
   notes/vector-architecture:
   - - notes/cray-architecture
@@ -1530,6 +1604,10 @@ notes:
   - - notes/klee-verifier
     - - KLEE verifier
       - null
+  papers/cadar:tiss:2008:
+  - - notes/exe-verifier
+    - - EXE symbolic executor
+      - null
   papers/calcagno:popl:2009:
   - - notes/annotation-burden
     - - Annotation burden
@@ -1549,7 +1627,10 @@ notes:
       - null
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
-  papers/cha:sandp:2012: []
+  papers/cha:sandp:2012:
+  - - notes/mayhem
+    - - Mayhem
+      - null
   papers/chakravarty:haskffi:2003:
   - - notes/foreign-function-interface
     - - Foreign function interface
@@ -1615,6 +1696,9 @@ notes:
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
   papers/coppa:ase:2017:
+  - - notes/angr-verifier
+    - - angr verifier
+      - null
   - - notes/symbolic-memory
     - - Symbolic memory
       - null
@@ -1669,6 +1753,9 @@ notes:
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
   papers/engler:issta:2007:
+  - - notes/exe-verifier
+    - - EXE symbolic executor
+      - null
   - - notes/lazy-initialization
     - - Lazy initialization of symbolic values
       - null
@@ -1737,13 +1824,22 @@ notes:
     - - Side Channel
       - null
   papers/gennari:vstte:2018: []
-  papers/godefroid:acmq:2012: []
+  papers/godefroid:acmq:2012:
+  - - notes/sage-verifier
+    - - SAGE verifier
+      - null
   papers/godefroid:bugs:2005: []
   papers/godefroid:cacm:2020:
   - - notes/fuzz-testing
     - - Fuzz testing
       - null
-  papers/godefroid:pldi:2005: []
+  - - notes/sage-verifier
+    - - SAGE verifier
+      - null
+  papers/godefroid:pldi:2005:
+  - - notes/dart-verifier
+    - - DART verifier
+      - null
   papers/godefroid:pldi:2012: []
   papers/godefroid:popl:2010: []
   papers/goel:acl2:2013: []
@@ -2006,14 +2102,8 @@ notes:
   papers/lie:sosp:2003: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
-  papers/lindner:indin:2018:
-  - - notes/klee-verifier
-    - - KLEE verifier
-      - null
-  papers/lindner:indin:2019:
-  - - notes/klee-verifier
-    - - KLEE verifier
-      - null
+  papers/lindner:indin:2018: []
+  papers/lindner:indin:2019: []
   papers/lipp:arxiv:2018: []
   papers/liu:cpsspc:2018: []
   papers/liu:icse:2020: []
@@ -2209,7 +2299,11 @@ notes:
   - - notes/translation-validation
     - - Translation validation
       - null
-  papers/poeplau:usenix:2020: []
+  papers/poeplau:acsac:2019: []
+  papers/poeplau:usenix:2020:
+  - - notes/symcc
+    - - SymCC
+      - null
   papers/potvin:cacm:2016: []
   papers/qin:pldi:2020: []
   papers/qiu:icse:2017:
@@ -2315,7 +2409,10 @@ notes:
   - - notes/symbolic-trajectory-evaluation
     - - Symbolic trajectory evaluation
       - null
-  papers/sen:fse:2005: []
+  papers/sen:fse:2005:
+  - - notes/cute-verifier
+    - - CUTE verifier
+      - null
   papers/seshadri:sosp:2007: []
   papers/sewell:pldi:2013: []
   papers/sharma:oopsla:2012: []
@@ -2371,7 +2468,10 @@ notes:
   papers/spencer:security:1999: []
   papers/srinivasan:ieeetoc:2010: []
   papers/stephens:micro:2017: []
-  papers/stephens:ndss:2016: []
+  papers/stephens:ndss:2016:
+  - - notes/driller-verifier
+    - - Driller verifier
+      - null
   papers/stewart:difts:2014: []
   papers/stump:fmsd:2013:
   - - notes/smt-solver
@@ -2483,7 +2583,10 @@ notes:
   papers/xu:arxiv:2021: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011: []
-  papers/yun:usenix:2018: []
+  papers/yun:usenix:2018:
+  - - notes/qsym-verifier
+    - - QSYM verifier
+      - null
   papers/zaostrovnykh:sosp:2019: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []
@@ -2586,6 +2689,9 @@ papers:
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/annotation-burden:
   - - papers/leino:informatics:2001
     - - 'Extended static checking: A ten-year perspective'
@@ -2999,6 +3105,10 @@ papers:
     - - "\xFCberSpark: Enforcing verifiable object abstractions for automated compositional\
         \ security analysis of a hypervisor"
       - vasudevan:usenix:2016
+  notes/concolic-execution:
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/concurrent-separation-logic:
   - - papers/brookes:tcs:2006
     - - A semantics for concurrent separation logic
@@ -3230,6 +3340,9 @@ papers:
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/cvc4-solver:
   - - papers/barrett:cav:2011
     - - CVC4
@@ -3260,6 +3373,10 @@ papers:
   - - papers/mai:asplos:2013
     - - Verifying security invariants in ExpressOS
       - mai:asplos:2013
+  notes/darpa-cgc:
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/dart-verifier:
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
@@ -3267,6 +3384,9 @@ papers:
   - - papers/godefroid:pldi:2005
     - - 'DART: Directed automated random testing'
       - godefroid:pldi:2005
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/data-parallelism:
   - - papers/blelloch:book:1990
     - - Vector models for data-parallel computing
@@ -3374,6 +3494,7 @@ papers:
   - - papers/reid:icse:1999
     - - 'Prototyping real-time vision systems: An experiment in DSL design'
       - reid:icse:1999
+  notes/driller-verifier: []
   notes/embedding:
   - - papers/boulton:tpcd:1993
     - - Experience with embedding hardware description languages in HOL
@@ -3403,6 +3524,9 @@ papers:
   - - papers/engler:issta:2007
     - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
       - engler:issta:2007
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/extended-static-checking:
   - - papers/beyer:cav:2011
     - - 'CPAchecker: A tool for configurable software verification'
@@ -4385,6 +4509,9 @@ papers:
   - - papers/pandey:issta:2019
     - - Deferred concretization in symbolic execution via fuzzing
       - pandey:issta:2019
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   - - papers/ramos:cav:2011
     - - Practical, low-effort equivalence verification of real code
       - ramos:cav:2011
@@ -4489,6 +4616,9 @@ papers:
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
       - nelson:sosp:2019
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   - - papers/rakamaric:cav:2014
     - - 'SMACK: Decoupling source language details from verifier implementations'
       - rakamaric:cav:2014
@@ -4524,6 +4654,10 @@ papers:
   - - papers/tuerk:vstte:2010
     - - Local reasoning about while-loops
       - tuerk:vstte:2010
+  notes/mayhem:
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/memory-coherence:
   - - papers/li:tocs:1989
     - - Memory coherence in shared virtual memory systems
@@ -5044,6 +5178,11 @@ papers:
   - - papers/tahat:fmcad:2019
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
+  notes/qemu: []
+  notes/qsym-verifier:
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/quic-protocol:
   - - papers/mcmillan:sigcomm:2019
     - - Formal specification and testing of QUIC
@@ -5313,6 +5452,9 @@ papers:
   - - papers/chipounov:tcs:2012
     - - 'The S2E platform: Design, implementation, and applications'
       - chipounov:tcs:2012
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/sage-verifier:
   - - papers/godefroid:cacm:2020
     - - 'Fuzzing: Hack, art, and science'
@@ -5650,6 +5792,9 @@ papers:
   - - papers/niemetz:jsat:2015
     - - Boolector 2.0
       - niemetz:jsat:2015
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   - - papers/stump:fmsd:2013
     - - SMT proof checking using a logical framework
       - stump:fmsd:2013
@@ -5950,6 +6095,13 @@ papers:
   - - papers/person:fse:2008
     - - Differential symbolic execution
       - person:fse:2008
+  - - papers/poeplau:acsac:2019
+    - - 'Systematic comparison of symbolic execution systems: Intermediate representation
+        and its generation'
+      - poeplau:acsac:2019
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   - - papers/qiu:icse:2017
     - - A synergistic approach for distributed symbolic execution using test ranges
       - qiu:icse:2017
@@ -6045,6 +6197,10 @@ papers:
   - - papers/segar:fmsd:1995
     - - Formal verification by symbolic evaluation of partially-ordered trajectories
       - segar:fmsd:1995
+  notes/symcc:
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   notes/systematization-of-knowledge: []
   notes/temporal-logic:
   - - papers/clarke:cacm:2009
@@ -6286,6 +6442,7 @@ papers:
   - - papers/sadowski:icse:2015
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
+  notes/valgrind: []
   notes/vcc-verifier:
   - - papers/cohen:cav:2010
     - - Local verification of global invariants in concurrent programs
@@ -6580,6 +6737,9 @@ papers:
   - - papers/leino:lpair:2010
     - - 'Dafny: An automatic program verifier for functional correctness'
       - leino:lpair:2010
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   - - papers/rath:epiq:2018
     - - Interoperability-guided testing of QUIC implementations using symbolic execution
       - rath:epiq:2018
@@ -6833,6 +6993,7 @@ papers:
     - - '-Overify: Optimizing programs for fast verification'
       - wagner:hotos:2013
   papers/cadar:osdi:2008: []
+  papers/cadar:tiss:2008: []
   papers/calcagno:popl:2009:
   - - papers/distefano:tacas:2006
     - - A local shape analysis based on separation logic
@@ -7546,7 +7707,15 @@ papers:
   - - papers/necula:pldi:2000
     - - Translation validation for an optimizing compiler
       - necula:pldi:2000
-  papers/poeplau:usenix:2020: []
+  papers/poeplau:acsac:2019:
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
+  papers/poeplau:usenix:2020:
+  - - papers/poeplau:acsac:2019
+    - - 'Systematic comparison of symbolic execution systems: Intermediate representation
+        and its generation'
+      - poeplau:acsac:2019
   papers/potvin:cacm:2016:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
@@ -7948,7 +8117,10 @@ papers:
   - - papers/ramos:cav:2011
     - - Practical, low-effort equivalence verification of real code
       - ramos:cav:2011
-  papers/yun:usenix:2018: []
+  papers/yun:usenix:2018:
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   papers/zaostrovnykh:sosp:2019: []
   papers/zdancewic:csfw:2001: []
   papers/zdancewic:csfw:2003: []

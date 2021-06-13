@@ -552,6 +552,7 @@
   - papers/cadar:cacm:2013
   - papers/cadar:fse:2015
   - papers/cadar:osdi:2008
+  - papers/cadar:tiss:2008
   - papers/kapus:fse:2019
   - papers/trabish:icse:2018
 - name: Harold W. Cain
@@ -1001,6 +1002,7 @@
   papers:
   - papers/barrett:cade:2000
   - papers/burch:cav:1994
+  - papers/cadar:tiss:2008
 - name: "Marko Dimja\u0161evi\u0107"
   papers:
   - papers/dimjasevic:ifm:2018
@@ -1143,6 +1145,7 @@
   - papers/ramos:sec:2015
 - name: Dawson R. Engler
   papers:
+  - papers/cadar:tiss:2008
   - papers/ramos:cav:2011
 - name: Michael Epstein
   papers:
@@ -1285,6 +1288,7 @@
   - papers/nienhuis:secpriv:2020
 - name: "Aur\xE9lien Francillon"
   papers:
+  - papers/poeplau:acsac:2019
   - papers/poeplau:usenix:2020
 - name: Jason Franklin
   papers:
@@ -1364,6 +1368,9 @@
 - name: Edward Gan
   papers:
   - papers/morrisett:pldi:2012
+- name: Vijay Ganesh
+  papers:
+  - papers/cadar:tiss:2008
 - name: Dennis Gannon
   papers:
   - papers/veldhuizen:oo:1998
@@ -3239,6 +3246,9 @@
 - name: Lawrence C. Paulson
   papers:
   - papers/nipkow:book:2002
+- name: Peter M. Pawlowski
+  papers:
+  - papers/cadar:tiss:2008
 - name: Michael Pearce
   papers:
   - papers/pearce:compsurv:2013
@@ -3328,6 +3338,7 @@
   - papers/pnueli:tacas:1998
 - name: Sebastian Poeplau
   papers:
+  - papers/poeplau:acsac:2019
   - papers/poeplau:usenix:2020
 - name: Federico Poli
   papers:

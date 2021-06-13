@@ -4,6 +4,8 @@ title: S2E verifier
 notes:
 - symbolic execution
 - KLEE verifier
+- LLVM compiler
+- QEMU
 papers:
 - chipounov:hotdep:2009
 - chipounov:asplos:2011

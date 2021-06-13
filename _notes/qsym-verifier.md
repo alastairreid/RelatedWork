@@ -2,9 +2,8 @@
 layout: note
 notes:
 - concolic execution
-- symbolic execution
 papers:
-- sen:fse:2005
-title: CUTE verifier
+- yun:usenix:2018
+title: QSYM verifier
 ---
 {% include links.html %}

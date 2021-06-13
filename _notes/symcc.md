@@ -2,9 +2,9 @@
 layout: note
 notes:
 - symbolic execution
+- concolic execution
 papers:
-- engler:issta:2007
-- cadar:tiss:2008
-title: EXE symbolic executor
+- poeplau:usenix:2020
+title: SymCC
 ---
 {% include links.html %}

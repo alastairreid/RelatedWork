@@ -3,8 +3,11 @@ layout: note
 title: SAGE verifier
 notes:
 - symbolic execution
+- concolic execution
 - fuzz testing
 papers:
+- godefroid:acmq:2012
+- godefroid:cacm:2020
 ---
 
 SAGE is a [symbolic execution] tool used for whitebox [fuzz testing]
