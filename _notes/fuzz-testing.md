@@ -6,6 +6,7 @@ notes:
 - symbolic execution
 - DART verifier
 - KLEE verifier
+- Driller verifier
 papers:
 - godefroid:cacm:2020
 - manes:ieeetse:2019
@@ -34,7 +35,7 @@ the program under test they exploit.
   - taint analysis that determines dependencies of branches on
     particular parts of input
 - hybrid fuzzers alternate between white- and grey-box fuzzing
-  e.g., Driller
+  e.g., [Driller verifier]
 
 Related concept of random test generation differs in that there
 may be more focus on generating inputs that are restricted in

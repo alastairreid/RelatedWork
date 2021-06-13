@@ -7,6 +7,7 @@ notes:
     - - Separation logic
       - null
   notes/acl2-theorem-prover: []
+  notes/afl-fuzzer: []
   notes/alias-analysis:
   - - notes/separation-logic
     - - Separation logic
@@ -321,6 +322,10 @@ notes:
   - - notes/concolic-execution
     - - Concolic execution
       - null
+  - - notes/fuzz-testing
+    - - Fuzz testing
+      - null
+  notes/dynamic-binary-translation: []
   notes/embedding: []
   notes/entropy: []
   notes/events: []
@@ -371,6 +376,9 @@ notes:
       - null
   notes/functional-reactive-programming: []
   notes/fuzz-testing:
+  - - notes/afl-fuzzer
+    - - AFL fuzzer
+      - null
   - - notes/property-based-testing
     - - Property-based testing
       - null
@@ -2668,6 +2676,10 @@ papers:
   - - papers/kaufmann:ieeetse:1997
     - - An industrial strength theorem prover for a logic based on Common Lisp
       - kaufmann:ieeetse:1997
+  notes/afl-fuzzer:
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
   notes/alias-analysis:
   - - papers/jhala:compsurv:2009
     - - Software model checking
@@ -3109,6 +3121,9 @@ papers:
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
   notes/concurrent-separation-logic:
   - - papers/brookes:tcs:2006
     - - A semantics for concurrent separation logic
@@ -3377,6 +3392,9 @@ papers:
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
   notes/dart-verifier:
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
@@ -3494,7 +3512,14 @@ papers:
   - - papers/reid:icse:1999
     - - 'Prototyping real-time vision systems: An experiment in DSL design'
       - reid:icse:1999
-  notes/driller-verifier: []
+  notes/driller-verifier:
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
+  notes/dynamic-binary-translation:
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
   notes/embedding:
   - - papers/boulton:tpcd:1993
     - - Experience with embedding hardware description languages in HOL
@@ -3710,6 +3735,9 @@ papers:
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
   notes/garbage-collection:
   - - papers/hertz:oopsla:2005
     - - Quantifying the performance of garbage collection vs. explicit memory management
@@ -7716,6 +7744,9 @@ papers:
     - - 'Systematic comparison of symbolic execution systems: Intermediate representation
         and its generation'
       - poeplau:acsac:2019
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
   papers/potvin:cacm:2016:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
