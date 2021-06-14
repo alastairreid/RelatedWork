@@ -25,14 +25,26 @@ location: Chicago, IL, USA
 numpages: '11'
 pages: 62-72
 publisher: Association for Computing Machinery
-read: false
-readings: []
+read: true
+readings:
+- 2021-06-14
 series: PLDI '05
 title: Checking type safety of foreign function calls
 url: https://doi.org/10.1145/1065010.1065019
 year: 2005
 notes:
 - foreign function interface
+- dependent type
+- type inference
 papers:
+- condit:esop:2007
 ---
+
+Checks [foreign function interface] calls between O'Caml and C.
+The important code (i.e., where the bugs happen) is the C code.
+They use a flow-sensitive type system based on the data representation
+to detect shape errors and they use an effect system to detect
+when calls from C to O'Caml (that could cause a GC) are
+made without appropriate precautions.
+
 {% include links.html %}
