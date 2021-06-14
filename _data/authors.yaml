@@ -104,6 +104,9 @@
 - name: Brian Anderson
   papers:
   - papers/anderson:icse:2016
+- name: Zachary Anderson
+  papers:
+  - papers/condit:esop:2007
 - name: Jonathan Anderson
   papers:
   - papers/woodruff:isca:2014
@@ -189,6 +192,9 @@
   papers:
   - papers/bansal:asplos:2006
   - papers/bansal:osdi:2008
+- name: "Zuzana Baranov\xE1"
+  papers:
+  - papers/baranova:atva:2017
 - name: Marek S. Baranowski
   papers:
   - papers/balasubramanium:hotos:2017
@@ -216,12 +222,17 @@
   - papers/almeida:security:2016
 - name: "S\xE9bastien Bardin"
   papers:
+  - papers/daniel:sandp:2020
   - papers/david:issta:2016
   - papers/nicole:arxiv:2020
   - papers/recoules:ase:2019
 - name: Celeste Barnaby
   papers:
   - papers/coblenz:arxiv:2020
+- name: "Ji\u0159\xED Barnat"
+  papers:
+  - papers/baranova:atva:2017
+  - papers/korencik:qrs:2020
 - name: Mike Barnett
   papers:
   - papers/barnett:cacm:2011
@@ -324,6 +335,7 @@
   - papers/bergan:oopsla:2014
 - name: Emery D. Berger
   papers:
+  - papers/curtsinger:cacm:2018
   - papers/hertz:oopsla:2005
 - name: Lars Bergstrom
   papers:
@@ -412,6 +424,9 @@
 - name: Martin Bodin
   papers:
   - papers/bodin:popl:2014
+- name: Etienne Boespflug
+  papers:
+  - papers/boespflug:fdtc:2020
 - name: Matthias Boettcher
   papers:
   - papers/boettcher:date:2014
@@ -540,6 +555,9 @@
 - name: William R. Bush
   papers:
   - papers/bush:spe:2000
+- name: Frank Busse
+  papers:
+  - papers/busse:issta:2020
 - name: "Marcel B\xF6hme"
   papers:
   - papers/bohme2:fse:2020
@@ -549,11 +567,13 @@
   - papers/schemmel:cav:2020
 - name: Cristian Cadar
   papers:
+  - papers/busse:issta:2020
   - papers/cadar:cacm:2013
   - papers/cadar:fse:2015
   - papers/cadar:osdi:2008
   - papers/cadar:tiss:2008
   - papers/kapus:fse:2019
+  - papers/liew:fse:2019
   - papers/trabish:icse:2018
 - name: Harold W. Cain
   papers:
@@ -581,6 +601,9 @@
 - name: Mark Campbell
   papers:
   - papers/liu:cpsspc:2018
+- name: Giovanni Camurati
+  papers:
+  - papers/corteggiani:usenix:2018
 - name: George Candea
   papers:
   - papers/chipounov:asplos:2011
@@ -637,6 +660,9 @@
 - name: Manuel Chakravarty
   papers:
   - papers/chakravarty:haskffi:2003
+- name: Marek Chalupa
+  papers:
+  - papers/chalupa:tacas:2021
 - name: Tushar Chandra
   papers:
   - papers/chang:tocs:2012
@@ -795,6 +821,7 @@
   - papers/wang:pldi:2007
 - name: Jeremy Condit
   papers:
+  - papers/condit:esop:2007
   - papers/condit:popl:2009
   - papers/vonbehren:hotos:2003
 - name: George A. Constantinides
@@ -838,6 +865,9 @@
 - name: "Lo\xEFc Correnson"
   papers:
   - papers/cuoq:sefm:2012
+- name: Nassim Corteggiani
+  papers:
+  - papers/corteggiani:usenix:2018
 - name: David Costanzo
   papers:
   - papers/costanzo:pldi:2016
@@ -865,6 +895,9 @@
   papers:
   - papers/cuoq:sefm:2012
   - papers/regehr:pldi:2012
+- name: Charlie Curtsinger
+  papers:
+  - papers/curtsinger:cacm:2018
 - name: Pedro R. D'Argenio
   papers:
   - papers/barthe:csfw:2004
@@ -903,6 +936,9 @@
 - name: Jakub Daniel
   papers:
   - papers/ball:dsse:2015
+- name: Lesly-Ann Daniel
+  papers:
+  - papers/daniel:sandp:2020
 - name: Zaynah Dargaye
   papers:
   - papers/cuoq:sefm:2012
@@ -1022,8 +1058,12 @@
 - name: Jovan Djordjevic
   papers:
   - papers/djordjevic:cj:1985
+- name: Brendan Dolan-Gavitt
+  papers:
+  - papers/roy:fse:2018
 - name: Alastair F. Donaldson
   papers:
+  - papers/liew:fse:2019
   - papers/maciver:ecoop:2020
 - name: Floris Van Doorn
   papers:
@@ -1039,6 +1079,9 @@
 - name: Wei Du
   papers:
   - papers/du:sc:2003
+- name: Yue Duan
+  papers:
+  - papers/zhao:ndss:2019
 - name: James R. Duley
   papers:
   - papers/chu:ieeedtc:1992
@@ -1133,6 +1176,9 @@
   papers:
   - papers/almeida:security:2016
   - papers/rakamaric:cav:2014
+- name: Cristian Ene
+  papers:
+  - papers/boespflug:fdtc:2020
 - name: Kai Engelhardt
   papers:
   - papers/klein:sosp:2009
@@ -1237,6 +1283,9 @@
 - name: Irene Finocchi
   papers:
   - papers/baldoni:compsurv:2018
+- name: Andrea Fioraldi
+  papers:
+  - papers/fioraldi:arxiv:2020
 - name: Bernd Fischer
   papers:
   - papers/fischer:ase:2013
@@ -1273,6 +1322,9 @@
   papers:
   - papers/barrett:mlf:2015
   - papers/barrett:smtlib:2016
+- name: Jeffrey S. Foster
+  papers:
+  - papers/furr:pldi:2005
 - name: Nate Foster
   papers:
   - papers/liu:sigcomm:2018
@@ -1288,6 +1340,7 @@
   - papers/nienhuis:secpriv:2020
 - name: "Aur\xE9lien Francillon"
   papers:
+  - papers/corteggiani:usenix:2018
   - papers/poeplau:acsac:2019
   - papers/poeplau:usenix:2020
 - name: Jason Franklin
@@ -1330,6 +1383,9 @@
 - name: J. J. Furman
   papers:
   - papers/corbett:tocs:2013
+- name: Michael Furr
+  papers:
+  - papers/furr:pldi:2005
 - name: Ariel Fuxman
   papers:
   - papers/fuxman:isre:2001
@@ -1389,6 +1445,7 @@
   - papers/garg:icse:2013
 - name: David Gay
   papers:
+  - papers/condit:esop:2007
   - papers/gay:pldi:2003
 - name: Qian Ge
   papers:
@@ -1453,6 +1510,7 @@
   - papers/godefroid:acmq:2012
   - papers/godefroid:bugs:2005
   - papers/godefroid:cacm:2020
+  - papers/godefroid:icse:2014
   - papers/godefroid:pldi:2005
   - papers/godefroid:pldi:2012
   - papers/godefroid:popl:2010
@@ -1569,6 +1627,7 @@
   papers:
   - papers/costanzo:pldi:2016
   - papers/gu:osdi:2016
+  - papers/li:sandp:2021
   - papers/nelson:sosp:2019
 - name: Roberto Guanciale
   papers:
@@ -1667,6 +1726,9 @@
 - name: Robert Harper
   papers:
   - papers/xi:icfp:2001
+- name: Matthew Harren
+  papers:
+  - papers/condit:esop:2007
 - name: John Harrison
   papers:
   - papers/boulton:tpcd:1993
@@ -1840,6 +1902,9 @@
 - name: Wei Hu
   papers:
   - papers/oberg:dac:2010
+- name: Yu Hu
+  papers:
+  - papers/roy:fse:2018
 - name: Jeremy Hu
   papers:
   - papers/votipka:sp:2018
@@ -1874,6 +1939,9 @@
   - papers/hritcu:icfp:2013
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: John Zhuang Hui
+  papers:
+  - papers/li:sandp:2021
 - name: Marieke Huisman
   papers:
   - papers/blom:ijsttt:2015
@@ -1956,6 +2024,9 @@
 - name: Mohammad Mahdi Javanmard
   papers:
   - papers/maas:asplos:2020
+- name: "Tom\xE1\u0161 Ja\u0161ek"
+  papers:
+  - papers/chalupa:tacas:2021
 - name: Ross Jeffery
   papers:
   - papers/andronick:icse:2012
@@ -1986,6 +2057,9 @@
 - name: Trevor Jim
   papers:
   - papers/grossman:pldi:2002
+- name: Wei Jin
+  papers:
+  - papers/jin:icst:2010
 - name: Alexandre Joannou
   papers:
   - papers/nienhuis:secpriv:2020
@@ -2121,6 +2195,9 @@
 - name: Will Keen
   papers:
   - papers/reid:cav:2016
+- name: "Katar\xEDna Kejstov\xE1"
+  papers:
+  - papers/baranova:atva:2017
 - name: Stephen Kell
   papers:
   - papers/bastian:oopsla:2019
@@ -2142,6 +2219,9 @@
 - name: Narges Khakpour
   papers:
   - papers/khakpour:cpp:2013
+- name: Haider Khan
+  papers:
+  - papers/rutledge:icse:2019
 - name: Kareem Khazem
   papers:
   - papers/chong:icse:2020
@@ -2152,6 +2232,7 @@
   - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
   - papers/siddiqui:oopsla:2012
+  - papers/yang:issta:2012
 - name: Gregor Kiczales
   papers:
   - papers/kiczales:iwoos:1991
@@ -2237,6 +2318,9 @@
 - name: Soonho Kong
   papers:
   - papers/demoura:cade:2015
+- name: "Luk\xE1\u0161 Koren\u010Dik"
+  papers:
+  - papers/korencik:qrs:2020
 - name: Paulette Koronkevich
   papers:
   - papers/coblenz:arxiv:2020
@@ -2317,6 +2401,9 @@
   - papers/chipounov:tcs:2012
   - papers/kuznetsov:pldi:2012
   - papers/wagner:hotos:2013
+- name: "Tade\xE1\u0161 Ku\u010Dera"
+  papers:
+  - papers/baranova:atva:2017
 - name: "Ulrich K\xFChne"
   papers:
   - papers/kuhne:fmcad:2010
@@ -2360,6 +2447,10 @@
 - name: Hugh C. Lauer
   papers:
   - papers/lauer:osr:1979
+- name: Henrich Lauko
+  papers:
+  - papers/baranova:atva:2017
+  - papers/korencik:qrs:2020
 - name: John Launchbury
   papers:
   - papers/jones:hasklang:1999
@@ -2474,6 +2565,12 @@
 - name: Long Li
   papers:
   - papers/dai:pldi:2005
+- name: Shih-Wei Li
+  papers:
+  - papers/li:sandp:2021
+- name: Xupeng Li
+  papers:
+  - papers/li:sandp:2021
 - name: Kai Li
   papers:
   - papers/li:tocs:1989
@@ -2488,6 +2585,9 @@
   papers:
   - papers/lie:secpri:2003
   - papers/lie:sosp:2003
+- name: Daniel Liew
+  papers:
+  - papers/liew:fse:2019
 - name: Japheth Lim
   papers:
   - papers/amani:asplos:2016
@@ -2648,6 +2748,7 @@
   - papers/beyer:sas:2004
   - papers/henzinger:spin:2003
   - papers/jhala:compsurv:2009
+  - papers/majumdar:icse:2007
 - name: Pasquale Malacaria
   papers:
   - papers/clark:entcs:2002
@@ -2889,6 +2990,7 @@
   - papers/maus:amast:2008
 - name: Laurent Mounier
   papers:
+  - papers/boespflug:fdtc:2020
   - papers/david:issta:2016
   - papers/recoules:ase:2019
 - name: Leonardo de Moura
@@ -2900,6 +3002,9 @@
 - name: Yannick Moy
   papers:
   - papers/cuoq:sefm:2012
+- name: "Jan Mr\xE1zek"
+  papers:
+  - papers/baranova:atva:2017
 - name: Trevor N. Mudge
   papers:
   - papers/lin:sdr:2006
@@ -3036,6 +3141,7 @@
   - papers/nienhuis:secpriv:2020
 - name: George C. Necula
   papers:
+  - papers/condit:esop:2007
   - papers/necula:cc:2002
   - papers/necula:pldi:2000
   - papers/necula:popl:1997
@@ -3087,6 +3193,9 @@
 - name: Olivier Nicole
   papers:
   - papers/nicole:arxiv:2020
+- name: Jason Nieh
+  papers:
+  - papers/li:sandp:2021
 - name: Aina Niemetz
   papers:
   - papers/niemetz:jsat:2015
@@ -3121,6 +3230,12 @@
 - name: Mark Novak
   papers:
   - papers/mavin:isre:2009
+- name: "Jakub Nov\xE1k"
+  papers:
+  - papers/chalupa:tacas:2021
+- name: Martin Nowack
+  papers:
+  - papers/busse:issta:2020
 - name: "Andres N\xF6tzli"
   papers:
   - papers/brown:asplos:2016
@@ -3166,6 +3281,8 @@
   - papers/chu:ieeedtc:1992
 - name: Alessandro Orso
   papers:
+  - papers/jin:icst:2010
+  - papers/rutledge:icse:2019
   - papers/rutledge:icse:2020
 - name: John Ousterhout
   papers:
@@ -3189,6 +3306,7 @@
 - name: Awanish Pandey
   papers:
   - papers/pandey:issta:2019
+  - papers/roy:fse:2018
 - name: Sven Panne
   papers:
   - papers/chakravarty:haskffi:2003
@@ -3203,6 +3321,9 @@
 - name: Michalis Papaevripides
   papers:
   - papers/papaevripides:acmtps:2021
+- name: Sunjae Park
+  papers:
+  - papers/rutledge:icse:2019
 - name: Alan Parker
   papers:
   - papers/barbacci:computer:1978
@@ -3356,6 +3477,7 @@
   - papers/martignoni:asplos:2012
 - name: Marie-Laure Potet
   papers:
+  - papers/boespflug:fdtc:2020
   - papers/david:issta:2016
   - papers/recoules:ase:2019
 - name: Rachel Potvin
@@ -3377,6 +3499,9 @@
 - name: Virgile Prevosto
   papers:
   - papers/cuoq:sefm:2012
+- name: Milos Prvulovic
+  papers:
+  - papers/rutledge:icse:2019
 - name: Steven Przybylski
   papers:
   - papers/gross:micro:2016
@@ -3397,6 +3522,7 @@
   - papers/person:fse:2008
   - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
+  - papers/yang:issta:2012
 - name: Shaz Qadeer
   papers:
   - papers/chatterjee:tacas:2007
@@ -3566,6 +3692,7 @@
   papers:
   - papers/barthe:csfw:2004
   - papers/barthe:mscs:2011
+  - papers/daniel:sandp:2020
 - name: Alejandro Rico
   papers:
   - papers/stephens:micro:2017
@@ -3578,6 +3705,7 @@
 - name: Noam Rinetzky
   papers:
   - papers/trabish:icse:2018
+  - papers/trabish:issta:2020
 - name: Xavier Rival
   papers:
   - papers/nicole:arxiv:2020
@@ -3629,12 +3757,17 @@
 - name: Subhajit Roy
   papers:
   - papers/pandey:issta:2019
+  - papers/roy:fse:2018
 - name: Abhik Roychoudhury
   papers:
   - papers/mechtaev:fse:2018
 - name: Kristin Yvonne Rozier
   papers:
   - papers/rozier:vstte:2016
+- name: "Petr Ro\u010Dkai"
+  papers:
+  - papers/baranova:atva:2017
+  - papers/korencik:qrs:2020
 - name: Colin Runciman
   papers:
   - papers/jones:hasklang:1999
@@ -3644,6 +3777,7 @@
   - papers/russell:cacm:1978
 - name: Richard Rutledge
   papers:
+  - papers/rutledge:icse:2019
   - papers/rutledge:icse:2020
 - name: Leonid Ryzhyk
   papers:
@@ -3786,6 +3920,7 @@
   papers:
   - papers/cadar:cacm:2013
   - papers/godefroid:pldi:2005
+  - papers/majumdar:icse:2007
   - papers/sen:fse:2005
 - name: Shane Sendall
   papers:
@@ -3848,6 +3983,9 @@
   - papers/heule:pldi:2016
   - papers/sharma:oopsla:2012
   - papers/sharma:pls:2013
+- name: Mary Sheeran
+  papers:
+  - papers/sheeran:fmcad:2000
 - name: Erin Shepherd
   papers:
   - papers/reid:cav:2016
@@ -3911,6 +4049,7 @@
 - name: Satnam Singh
   papers:
   - papers/reid:gfpw:1993
+  - papers/sheeran:fmcad:2000
 - name: Carsten Sinz
   papers:
   - papers/merz:vstte:2012
@@ -4034,6 +4173,9 @@
 - name: James M. Stichnoth
   papers:
   - papers/subhlok:ppopp:1993
+- name: J. Ryan Stinnett
+  papers:
+  - papers/liew:fse:2019
 - name: Salvatore Stolfo
   papers:
   - papers/tang:sec:2017
@@ -4042,11 +4184,15 @@
   - papers/reid:osdi:2000
 - name: "Jan Strej\u010Dek"
   papers:
+  - papers/chalupa:tacas:2021
   - papers/trtik:atva:2014
 - name: Aaron Stump
   papers:
   - papers/barrett:cade:2000
   - papers/stump:fmsd:2013
+- name: "Gunnar St\xE5lmarck"
+  papers:
+  - papers/sheeran:fmcad:2000
 - name: Stephen Y. H. Su
   papers:
   - papers/su:computer:1974
@@ -4239,6 +4385,7 @@
 - name: David Trabish
   papers:
   - papers/trabish:icse:2018
+  - papers/trabish:issta:2020
 - name: Yves Le Traon
   papers:
   - papers/papadakis:advances:2019
@@ -4566,6 +4713,9 @@
 - name: Hongwei Xi
   papers:
   - papers/xi:icfp:2001
+- name: Tao Xie
+  papers:
+  - papers/jin:icst:2010
 - name: Yichen Xie
   papers:
   - papers/xie:bugs:2005
@@ -4585,6 +4735,9 @@
 - name: Meng Xu
   papers:
   - papers/yun:usenix:2018
+- name: Jifeng Xuan
+  papers:
+  - papers/zhao:ndss:2019
 - name: Hui Xue
   papers:
   - papers/mai:asplos:2013
@@ -4606,6 +4759,7 @@
   papers:
   - papers/qiu:icse:2017
   - papers/qiu:nfm:2018
+  - papers/yang:issta:2012
 - name: Xuejun Yang
   papers:
   - papers/regehr:pldi:2012
@@ -4624,6 +4778,9 @@
 - name: Weiliang Yin
   papers:
   - papers/zhang:apsec:2018
+- name: Heng Yin
+  papers:
+  - papers/zhao:ndss:2019
 - name: Alexander Yip
   papers:
   - papers/krohn:sosp:2007
@@ -4649,6 +4806,9 @@
 - name: Ali Zaidi
   papers:
   - papers/reid:cav:2016
+- name: Alenka Zajic
+  papers:
+  - papers/rutledge:icse:2019
 - name: Cristian Zamfir
   papers:
   - papers/chipounov:hotdep:2009
@@ -4732,6 +4892,9 @@
 - name: Gang Zhao
   papers:
   - papers/liu:icse:2020
+- name: Lei Zhao
+  papers:
+  - papers/zhao:ndss:2019
 - name: Manchun Zheng
   papers:
   - papers/siegel:sc:2015
@@ -4780,3 +4943,12 @@
 - name: "Emre \xD6zer"
   papers:
   - papers/ozer:sbacpad:2007
+- name: "Anna \u0158echt\xE1\u010Dkov\xE1"
+  papers:
+  - papers/chalupa:tacas:2021
+- name: "Veronika \u0160okov\xE1"
+  papers:
+  - papers/chalupa:tacas:2021
+- name: "Vladim\xEDr \u0160till"
+  papers:
+  - papers/baranova:atva:2017

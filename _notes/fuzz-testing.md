@@ -7,6 +7,7 @@ notes:
 - DART verifier
 - KLEE verifier
 - Driller verifier
+- Hybrid testing
 papers:
 - godefroid:cacm:2020
 - manes:ieeetse:2019
@@ -34,7 +35,7 @@ the program under test they exploit.
   - [symbolic execution] such as [DART verifier] and [KLEE verifier]
   - taint analysis that determines dependencies of branches on
     particular parts of input
-- hybrid fuzzers alternate between white- and grey-box fuzzing
+- [hybrid testing] alternates between white- and grey-box fuzzing
   e.g., [Driller verifier]
 
 Related concept of random test generation differs in that there

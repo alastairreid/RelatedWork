@@ -31,6 +31,7 @@ url: https://doi.org/10.1145/3359789.3359796
 year: 2019
 notes:
 - symbolic execution
+- hybrid testing
 papers:
 - poeplau:usenix:2020
 ---

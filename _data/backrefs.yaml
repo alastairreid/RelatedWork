@@ -7,7 +7,10 @@ notes:
     - - Separation logic
       - null
   notes/acl2-theorem-prover: []
-  notes/afl-fuzzer: []
+  notes/afl-fuzzer:
+  - - notes/hybrid-testing
+    - - Hybrid testing
+      - null
   notes/alias-analysis:
   - - notes/separation-logic
     - - Separation logic
@@ -210,7 +213,10 @@ notes:
   - - notes/driller-verifier
     - - Driller verifier
       - null
-  - - notes/qsym-verifier
+  - - notes/hybrid-testing
+    - - Hybrid testing
+      - null
+  - - notes/qsym
     - - QSYM verifier
       - null
   - - notes/sage-verifier
@@ -316,6 +322,10 @@ notes:
       - null
   notes/differential-power-analysis: []
   notes/differential-testing: []
+  notes/digfuzz-fuzzer:
+  - - notes/hybrid-testing
+    - - Hybrid testing
+      - null
   notes/distributed-shared-memory: []
   notes/domain-specific-language: []
   notes/driller-verifier:
@@ -324,6 +334,9 @@ notes:
       - null
   - - notes/fuzz-testing
     - - Fuzz testing
+      - null
+  - - notes/hybrid-testing
+    - - Hybrid testing
       - null
   notes/dynamic-binary-translation: []
   notes/embedding: []
@@ -379,6 +392,9 @@ notes:
   - - notes/afl-fuzzer
     - - AFL fuzzer
       - null
+  - - notes/hybrid-testing
+    - - Hybrid testing
+      - null
   - - notes/property-based-testing
     - - Property-based testing
       - null
@@ -409,6 +425,10 @@ notes:
   notes/haskell-language: []
   notes/hol-theorem-prover: []
   notes/human-factors: []
+  notes/hybrid-testing:
+  - - notes/fuzz-testing
+    - - Fuzz testing
+      - null
   notes/hyperproperty:
   - - notes/non-interference
     - - Non-interference
@@ -805,9 +825,12 @@ notes:
   - - notes/s2e-verifier
     - - S2E verifier
       - null
-  notes/qsym-verifier:
+  notes/qsym:
   - - notes/concolic-execution
     - - Concolic execution
+      - null
+  - - notes/hybrid-testing
+    - - Hybrid testing
       - null
   notes/quic-protocol: []
   notes/reachability:
@@ -889,6 +912,10 @@ notes:
     - - SMT solver
       - null
   notes/saturn-verifier: []
+  notes/savior:
+  - - notes/hybrid-testing
+    - - Hybrid testing
+      - null
   notes/sdr: []
   notes/seahorn-verifier:
   - - notes/extended-static-checking
@@ -1126,6 +1153,9 @@ notes:
   - - notes/fuzz-testing
     - - Fuzz testing
       - null
+  - - notes/hybrid-testing
+    - - Hybrid testing
+      - null
   - - notes/klee-verifier
     - - KLEE verifier
       - null
@@ -1177,7 +1207,10 @@ notes:
       - null
   notes/symbolic-model-checking: []
   notes/symbolic-trajectory-evaluation: []
-  notes/symcc: []
+  notes/symcc:
+  - - notes/hybrid-testing
+    - - Hybrid testing
+      - null
   notes/systematization-of-knowledge: []
   notes/temporal-logic:
   - - notes/buchi-automaton
@@ -1442,6 +1475,7 @@ notes:
   - - notes/superoptimizer
     - - Superoptimizer
       - null
+  papers/baranova:atva:2017: []
   papers/baranowski:atva:2018:
   - - notes/rust-language
     - - Rust language
@@ -1552,6 +1586,7 @@ notes:
   - - notes/javascript
     - - JavaScript programming language
       - null
+  papers/boespflug:fdtc:2020: []
   papers/boettcher:date:2014: []
   papers/bohme2:fse:2020: []
   papers/bohme:fse:2020: []
@@ -1603,6 +1638,7 @@ notes:
   papers/burke:lacl:2005: []
   papers/bush:atlantic:1945: []
   papers/bush:spe:2000: []
+  papers/busse:issta:2020: []
   papers/cadar:cacm:2013:
   - - notes/klee-verifier
     - - KLEE verifier
@@ -1643,6 +1679,7 @@ notes:
   - - notes/foreign-function-interface
     - - Foreign function interface
       - null
+  papers/chalupa:tacas:2021: []
   papers/chang:tocs:2012: []
   papers/chatterjee:tacas:2007: []
   papers/chen:iiswc:2019: []
@@ -1700,6 +1737,7 @@ notes:
       - null
   papers/cohen:entcs:2009: []
   papers/cok:bugs:2005: []
+  papers/condit:esop:2007: []
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
@@ -1712,6 +1750,7 @@ notes:
       - null
   papers/coquand:eurocal:1985: []
   papers/corbett:tocs:2013: []
+  papers/corteggiani:usenix:2018: []
   papers/costanzo:pldi:2016:
   - - notes/annotation-burden
     - - Annotation burden
@@ -1725,12 +1764,14 @@ notes:
   - - notes/frama-c-verifier
     - - Frama-C verifier
       - null
+  papers/curtsinger:cacm:2018: []
   papers/dabek:sigops:2002: []
   papers/dai:pldi:2005: []
   papers/dam:ieeetc:1981: []
   papers/dam:ted:2013: []
   papers/dam:trusted:2013: []
   papers/damm:fmoods:1999: []
+  papers/daniel:sandp:2020: []
   papers/dasgupta:pldi:2019: []
   papers/david:issta:2016: []
   papers/degenbaev:phd:2012: []
@@ -1787,6 +1828,7 @@ notes:
   papers/filliatre:cav:2007: []
   papers/filliatre:esop:2013: []
   papers/filliatre:fem:2004: []
+  papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
   papers/flur:popl:2016: []
@@ -1817,6 +1859,7 @@ notes:
   papers/fraser:sigart:1977: []
   papers/freedman:tse:1991: []
   papers/frias:icse:2005: []
+  papers/furr:pldi:2005: []
   papers/fuxman:isre:2001: []
   papers/galea:arxiv:2018:
   - - notes/verification-performance
@@ -1844,6 +1887,7 @@ notes:
   - - notes/sage-verifier
     - - SAGE verifier
       - null
+  papers/godefroid:icse:2014: []
   papers/godefroid:pldi:2005:
   - - notes/dart-verifier
     - - DART verifier
@@ -1987,6 +2031,7 @@ notes:
   - - notes/mutation-testing
     - - Mutation testing
       - null
+  papers/jin:icst:2010: []
   papers/johnson:osr:1995: []
   papers/jones:hasklang:1999: []
   papers/jones:hasklib:1999: []
@@ -2041,6 +2086,7 @@ notes:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
       - null
+  papers/korencik:qrs:2020: []
   papers/kozyrakis:phd:2002: []
   papers/krishnamurthi:fm:2019: []
   papers/krishnaswami:tldi:2010: []
@@ -2099,6 +2145,7 @@ notes:
       - null
   papers/levy:plos:2015: []
   papers/levy:sosp:2017: []
+  papers/li:sandp:2021: []
   papers/li:tocs:1989:
   - - notes/distributed-shared-memory
     - - Distributed Shared Memory
@@ -2108,6 +2155,7 @@ notes:
       - null
   papers/lie:secpri:2003: []
   papers/lie:sosp:2003: []
+  papers/liew:fse:2019: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
   papers/lindner:indin:2018: []
@@ -2133,6 +2181,7 @@ notes:
       - null
   papers/macvean:ppig:2016: []
   papers/mai:asplos:2013: []
+  papers/majumdar:icse:2007: []
   papers/malik:cacm:2009:
   - - notes/sat-solver
     - - SAT solver
@@ -2380,6 +2429,7 @@ notes:
   papers/rieman:chi:1995: []
   papers/roessle:cpp:2019: []
   papers/romano:phd:2014: []
+  papers/roy:fse:2018: []
   papers/rozier:vstte:2016: []
   papers/rushby:sri:1992:
   - - notes/non-interference
@@ -2389,6 +2439,7 @@ notes:
   - - notes/cray-architecture
     - - Cray architecture
       - null
+  papers/rutledge:icse:2019: []
   papers/rutledge:icse:2020: []
   papers/sabelfield:jcs:2009: []
   papers/sadowski:cacm:2018: []
@@ -2425,6 +2476,7 @@ notes:
   papers/sewell:pldi:2013: []
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
+  papers/sheeran:fmcad:2000: []
   papers/shi:phd:2013: []
   papers/shoshitaishvili:sandp:2016: []
   papers/shoshitaishvili:sp:2016:
@@ -2521,6 +2573,7 @@ notes:
   - - notes/verifier-performance
     - - Verifier performance
       - null
+  papers/trabish:issta:2020: []
   papers/tremblay:micro:1996: []
   papers/trtik:atva:2014: []
   papers/tschantz:fm:2009: []
@@ -2589,10 +2642,11 @@ notes:
     - - Lazy initialization of symbolic values
       - null
   papers/xu:arxiv:2021: []
+  papers/yang:issta:2012: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011: []
   papers/yun:usenix:2018:
-  - - notes/qsym-verifier
+  - - notes/qsym
     - - QSYM verifier
       - null
   papers/zaostrovnykh:sosp:2019: []
@@ -2606,6 +2660,7 @@ notes:
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
   papers/zhang:toplas:2017: []
+  papers/zhao:ndss:2019: []
   papers/zhuang:pldi:2006: []
   papers/zivojnovic:vlsi:1996:
   - - notes/lisa
@@ -2677,6 +2732,9 @@ papers:
     - - An industrial strength theorem prover for a logic based on Common Lisp
       - kaufmann:ieeetse:1997
   notes/afl-fuzzer:
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
@@ -2865,6 +2923,10 @@ papers:
   - - papers/cha:sandp:2012
     - - Unleashing Mayhem on binary code
       - cha:sandp:2012
+  - - papers/daniel:sandp:2020
+    - - 'Binsec/Rel: Efficient relational symbolic execution for constant-time at
+        binary-level'
+      - daniel:sandp:2020
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
@@ -3118,6 +3180,12 @@ papers:
         \ security analysis of a hypervisor"
       - vasudevan:usenix:2016
   notes/concolic-execution:
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
+  - - papers/majumdar:icse:2007
+    - - Hybrid concolic testing
+      - majumdar:icse:2007
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
@@ -3489,6 +3557,11 @@ papers:
   - - papers/yang:pldi:2011
     - - Finding and understanding bugs in C compilers
       - yang:pldi:2011
+  notes/digfuzz-fuzzer:
+  - - papers/zhao:ndss:2019
+    - - 'Send Hardest Problems My Way: Probabilistic Path Prioritization for Hybrid
+        Fuzzing'
+      - zhao:ndss:2019
   notes/distributed-shared-memory:
   - - papers/bershad:cmpcon:1993
     - - The Midway distributed shared memory system
@@ -3513,6 +3586,9 @@ papers:
     - - 'Prototyping real-time vision systems: An experiment in DSL design'
       - reid:icse:1999
   notes/driller-verifier:
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
@@ -3574,6 +3650,9 @@ papers:
     - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
         98 report'
       - chakravarty:haskffi:2003
+  - - papers/furr:pldi:2005
+    - - Checking type safety of foreign function calls
+      - furr:pldi:2005
   - - papers/jones:hw:1997
     - - 'Green Card: a foreign-language interface for Haskell'
       - jones:hw:1997
@@ -3692,12 +3771,18 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
   - - papers/claessen:icfp:2000
     - - 'QuickCheck: A lightweight tool for random testing of Haskell programs'
       - claessen:icfp:2000
   - - papers/dimjasevic:ifm:2018
     - - Study of integrating random and symbolic testing for object-oriented software
       - dimjasevic:ifm:2018
+  - - papers/fioraldi:arxiv:2020
+    - - Program state abstraction for feedback-driven fuzz testing using likely invariants
+      - fioraldi:arxiv:2020
   - - papers/garg:icse:2013
     - - Feedback-directed unit test generation for C/C++ using concolic execution
       - garg:icse:2013
@@ -3707,6 +3792,9 @@ papers:
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/liew:fse:2019
+    - - 'Just fuzz it: Solving floating-point constraints using coverage-Guided fuzzing'
+      - liew:fse:2019
   - - papers/maciver:ecoop:2020
     - - 'Test-case reduction via test-case generation: Insights from the Hypothesis
         reducer'
@@ -3720,6 +3808,9 @@ papers:
   - - papers/pandey:issta:2019
     - - Deferred concretization in symbolic execution via fuzzing
       - pandey:issta:2019
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
   - - papers/regehr:pldi:2012
     - - Test-case reduction for C compiler bugs
       - regehr:pldi:2012
@@ -3840,6 +3931,30 @@ papers:
   - - papers/krishnamurthi:fm:2019
     - - The human in formal methods
       - krishnamurthi:fm:2019
+  notes/hybrid-testing:
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
+  - - papers/majumdar:icse:2007
+    - - Hybrid concolic testing
+      - majumdar:icse:2007
+  - - papers/poeplau:acsac:2019
+    - - 'Systematic comparison of symbolic execution systems: Intermediate representation
+        and its generation'
+      - poeplau:acsac:2019
+  - - papers/poeplau:usenix:2020
+    - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
+      - poeplau:usenix:2020
+  - - papers/stephens:ndss:2016
+    - - 'Driller: Augmenting fuzzing through selective symbolic execution'
+      - stephens:ndss:2016
+  - - papers/yun:usenix:2018
+    - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
+      - yun:usenix:2018
+  - - papers/zhao:ndss:2019
+    - - 'Send Hardest Problems My Way: Probabilistic Path Prioritization for Hybrid
+        Fuzzing'
+      - zhao:ndss:2019
   notes/hyperproperty:
   - - papers/clarkson:jcs:2010
     - - Hyperproperties
@@ -3873,6 +3988,10 @@ papers:
   - - papers/costanzo:pldi:2016
     - - End-to-end verification of information flow security for C and assembly programs
       - costanzo:pldi:2016
+  - - papers/daniel:sandp:2020
+    - - 'Binsec/Rel: Efficient relational symbolic execution for constant-time at
+        binary-level'
+      - daniel:sandp:2020
   - - papers/deng:hasp:2019
     - - 'SecChisel: Language and tool for practical and scalable security verification
         of security-aware hardware architectures'
@@ -4496,12 +4615,18 @@ papers:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'
       - beyer:hvc:2017
+  - - papers/busse:issta:2020
+    - - Running symbolic execution forever
+      - busse:issta:2020
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
   - - papers/cadar:fse:2015
     - - Targeted program transformations for symbolic execution
       - cadar:fse:2015
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
   - - papers/chipounov:hotdep:2009
     - - Selective symbolic execution
       - chipounov:hotdep:2009
@@ -4589,6 +4714,9 @@ papers:
   - - papers/engler:issta:2007
     - - 'Under-constrained execution: Making automatic code destruction easy and scalable'
       - engler:issta:2007
+  - - papers/godefroid:icse:2014
+    - - Micro execution
+      - godefroid:icse:2014
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
@@ -4802,6 +4930,9 @@ papers:
   - - papers/ball:pldi:2001
     - - Automatic predicate abstraction of C programs
       - ball:pldi:2001
+  - - papers/baranova:atva:2017
+    - - Model checking of C and C++ with DIVINE 4
+      - baranova:atva:2017
   - - papers/beyer:cav:2011
     - - 'CPAchecker: A tool for configurable software verification'
       - beyer:cav:2011
@@ -5207,7 +5338,10 @@ papers:
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
   notes/qemu: []
-  notes/qsym-verifier:
+  notes/qsym:
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
@@ -5515,6 +5649,10 @@ papers:
   - - papers/xie:popl:2005
     - - Scalable error detection using boolean satisfiability
       - xie:popl:2005
+  notes/savior:
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
   notes/sdr:
   - - papers/lin:sdr:2006
     - - 'SPEX: A programming language for software defined radio'
@@ -5566,6 +5704,10 @@ papers:
   - - papers/barthe:mscs:2011
     - - Secure information flow by self-composition
       - barthe:mscs:2011
+  - - papers/daniel:sandp:2020
+    - - 'Binsec/Rel: Efficient relational symbolic execution for constant-time at
+        binary-level'
+      - daniel:sandp:2020
   notes/separation-logic:
   - - papers/azevedo:post:2018
     - - The meaning of memory safety
@@ -5674,6 +5816,9 @@ papers:
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
+  - - papers/rutledge:icse:2019
+    - - Zero-overhead path prediction with progressive symbolic execution
+      - rutledge:icse:2019
   - - papers/tang:sec:2017
     - - 'CLKSCREW: Exposing the perils of security-oblivious energy management'
       - tang:sec:2017
@@ -5808,6 +5953,9 @@ papers:
   - - papers/leino:sac:2009
     - - Reasoning about comprehensions with first-order SMT solvers
       - leino:sac:2009
+  - - papers/liew:fse:2019
+    - - 'Just fuzz it: Solving floating-point constraints using coverage-Guided fuzzing'
+      - liew:fse:2019
   - - papers/malik:cacm:2009
     - - Boolean satisfiability from theoretical hardness to practical success
       - malik:cacm:2009
@@ -6012,6 +6160,9 @@ papers:
   - - papers/bergan:oopsla:2014
     - - Symbolic execution of multithreaded programs from arbitrary program contexts
       - bergan:oopsla:2014
+  - - papers/boespflug:fdtc:2020
+    - - Countermeasures optimization in multiple fault-injection context
+      - boespflug:fdtc:2020
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
       - bornholt:oopsla:2018
@@ -6024,6 +6175,9 @@ papers:
   - - papers/bush:spe:2000
     - - A static analyzer for finding dynamic programming errors
       - bush:spe:2000
+  - - papers/busse:issta:2020
+    - - Running symbolic execution forever
+      - busse:issta:2020
   - - papers/cadar:cacm:2013
     - - 'Symbolic execution for software testing: Three decades later'
       - cadar:cacm:2013
@@ -6037,6 +6191,12 @@ papers:
   - - papers/cha:sandp:2012
     - - Unleashing Mayhem on binary code
       - cha:sandp:2012
+  - - papers/chalupa:tacas:2021
+    - - 'Symbiotic 8: Beyond symbolic execution'
+      - chalupa:tacas:2021
+  - - papers/chen:sp:2020
+    - - 'SAVIOR: Towards bug-driven hybrid testing'
+      - chen:sp:2020
   - - papers/chipounov:asplos:2011
     - - 'S2E: A platform for in-vivo multi-path analysis of software systems'
       - chipounov:asplos:2011
@@ -6052,6 +6212,10 @@ papers:
   - - papers/cui:asplos:2013
     - - Verifying systems rules using rule-directed symbolic execution
       - cui:asplos:2013
+  - - papers/daniel:sandp:2020
+    - - 'Binsec/Rel: Efficient relational symbolic execution for constant-time at
+        binary-level'
+      - daniel:sandp:2020
   - - papers/david:issta:2016
     - - Specification of concretization and symbolization policies in symbolic execution
       - david:issta:2016
@@ -6095,6 +6259,9 @@ papers:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
+  - - papers/korencik:qrs:2020
+    - - On symbolic execution of decompiled programs
+      - korencik:qrs:2020
   - - papers/kuznetsov:pldi:2012
     - - Efficient state merging in symbolic execution
       - kuznetsov:pldi:2012
@@ -6105,6 +6272,9 @@ papers:
     - - 'Verification of safety functions implemented in Rust: A symbolic execution
         based approach'
       - lindner:indin:2019
+  - - papers/majumdar:icse:2007
+    - - Hybrid concolic testing
+      - majumdar:icse:2007
   - - papers/manes:ieeetse:2019
     - - 'The art, science, and engineering of fuzzing: A survey'
       - manes:ieeetse:2019
@@ -6151,6 +6321,12 @@ papers:
   - - papers/romano:phd:2014
     - - Methods for binary symbolic execution
       - romano:phd:2014
+  - - papers/roy:fse:2018
+    - - 'Bug synthesis: Challenging bug-finding tools with deep faults'
+      - roy:fse:2018
+  - - papers/rutledge:icse:2019
+    - - Zero-overhead path prediction with progressive symbolic execution
+      - rutledge:icse:2019
   - - papers/rutledge:icse:2020
     - - 'PG-KLEE: Trading soundness for coverage'
       - rutledge:icse:2020
@@ -6179,12 +6355,18 @@ papers:
   - - papers/trabish:icse:2018
     - - Chopped symbolic execution
       - trabish:icse:2018
+  - - papers/trabish:issta:2020
+    - - Relocatable addressing model for symbolic execution
+      - trabish:issta:2020
   - - papers/trtik:atva:2014
     - - Symbolic memory with pointers
       - trtik:atva:2014
   - - papers/visser:tacas:2020
     - - 'COASTAL: Combining concolic and fuzzing for Java (competition contribution)'
       - visser:tacas:2020
+  - - papers/yang:issta:2012
+    - - Memoized symbolic execution
+      - yang:issta:2012
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
@@ -6825,6 +7007,7 @@ papers:
       - henzinger:spin:2003
   papers/bansal:asplos:2006: []
   papers/bansal:osdi:2008: []
+  papers/baranova:atva:2017: []
   papers/baranowski:atva:2018:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
@@ -6966,6 +7149,7 @@ papers:
   papers/blelloch:book:1990: []
   papers/blom:ijsttt:2015: []
   papers/bodin:popl:2014: []
+  papers/boespflug:fdtc:2020: []
   papers/boettcher:date:2014: []
   papers/bohme2:fse:2020: []
   papers/bohme:fse:2020: []
@@ -7009,6 +7193,7 @@ papers:
   papers/burke:lacl:2005: []
   papers/bush:atlantic:1945: []
   papers/bush:spe:2000: []
+  papers/busse:issta:2020: []
   papers/cadar:cacm:2013:
   - - papers/beyer:hvc:2017
     - - 'Software verification: Testing vs. model checking'
@@ -7055,6 +7240,7 @@ papers:
   - - papers/jones:hw:1997
     - - 'Green Card: a foreign-language interface for Haskell'
       - jones:hw:1997
+  papers/chalupa:tacas:2021: []
   papers/chang:tocs:2012:
   - - papers/corbett:tocs:2013
     - - 'Spanner: Google''s globally distributed database'
@@ -7112,6 +7298,7 @@ papers:
       - philippaerts:scp:2014
   papers/cohen:entcs:2009: []
   papers/cok:bugs:2005: []
+  papers/condit:esop:2007: []
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
@@ -7124,6 +7311,7 @@ papers:
   - - papers/potvin:cacm:2016
     - - Why Google stores billions of lines of code in a single repository
       - potvin:cacm:2016
+  papers/corteggiani:usenix:2018: []
   papers/costanzo:pldi:2016:
   - - papers/murray:secpriv:2013
     - - 'seL4: from general purpose to a proof of information flow enforcement'
@@ -7141,12 +7329,14 @@ papers:
     - - 'Formal verification of a memory allocation module of Contiki with Frama-C:
         a case study'
       - mangano:crisis:2016
+  papers/curtsinger:cacm:2018: []
   papers/dabek:sigops:2002: []
   papers/dai:pldi:2005: []
   papers/dam:ieeetc:1981: []
   papers/dam:ted:2013: []
   papers/dam:trusted:2013: []
   papers/damm:fmoods:1999: []
+  papers/daniel:sandp:2020: []
   papers/dasgupta:pldi:2019: []
   papers/david:issta:2016:
   - - papers/coppa:ase:2017
@@ -7238,6 +7428,7 @@ papers:
   - - papers/philippaerts:scp:2014
     - - 'Software verification with VeriFast: Industrial case studies'
       - philippaerts:scp:2014
+  papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
   papers/flur:popl:2016: []
@@ -7257,6 +7448,7 @@ papers:
   papers/fraser:sigart:1977: []
   papers/freedman:tse:1991: []
   papers/frias:icse:2005: []
+  papers/furr:pldi:2005: []
   papers/fuxman:isre:2001: []
   papers/galea:arxiv:2018:
   - - papers/bornholt:oopsla:2018
@@ -7278,6 +7470,7 @@ papers:
     - - Soundness and its role in bug detection systems
       - xie:bugs:2005
   papers/godefroid:cacm:2020: []
+  papers/godefroid:icse:2014: []
   papers/godefroid:pldi:2005: []
   papers/godefroid:pldi:2012: []
   papers/godefroid:popl:2010: []
@@ -7427,6 +7620,7 @@ papers:
     - - Model checking
       - mcmillan:ecs:2003
   papers/jia:ieeetse:2010: []
+  papers/jin:icst:2010: []
   papers/johnson:osr:1995: []
   papers/jones:hasklang:1999: []
   papers/jones:hasklib:1999: []
@@ -7494,6 +7688,7 @@ papers:
       - murray:secpriv:2013
   papers/kocher:arxiv:2018: []
   papers/kocher:crypto:1999: []
+  papers/korencik:qrs:2020: []
   papers/kozyrakis:phd:2002: []
   papers/krishnamurthi:fm:2019: []
   papers/krishnaswami:tldi:2010:
@@ -7567,9 +7762,11 @@ papers:
   papers/levy:apsys:2017: []
   papers/levy:plos:2015: []
   papers/levy:sosp:2017: []
+  papers/li:sandp:2021: []
   papers/li:tocs:1989: []
   papers/lie:secpri:2003: []
   papers/lie:sosp:2003: []
+  papers/liew:fse:2019: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
   papers/lindner:indin:2018:
@@ -7599,6 +7796,7 @@ papers:
   papers/maciver:ecoop:2020: []
   papers/macvean:ppig:2016: []
   papers/mai:asplos:2013: []
+  papers/majumdar:icse:2007: []
   papers/malik:cacm:2009:
   - - papers/demoura:cacm:2011
     - - 'Satisfiability modulo theories: Introduction and applications'
@@ -7894,9 +8092,11 @@ papers:
       - macvean:ppig:2016
   papers/roessle:cpp:2019: []
   papers/romano:phd:2014: []
+  papers/roy:fse:2018: []
   papers/rozier:vstte:2016: []
   papers/rushby:sri:1992: []
   papers/russell:cacm:1978: []
+  papers/rutledge:icse:2019: []
   papers/rutledge:icse:2020: []
   papers/sabelfield:jcs:2009: []
   papers/sadowski:cacm:2018:
@@ -7959,6 +8159,7 @@ papers:
   papers/sewell:pldi:2013: []
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
+  papers/sheeran:fmcad:2000: []
   papers/shi:phd:2013: []
   papers/shoshitaishvili:sandp:2016: []
   papers/shoshitaishvili:sp:2016: []
@@ -8058,6 +8259,7 @@ papers:
     - - 'SpaceSearch: A library for building and verifying solver-aided tools'
       - weitz:icfp:2017
   papers/trabish:icse:2018: []
+  papers/trabish:issta:2020: []
   papers/tremblay:micro:1996: []
   papers/trtik:atva:2014:
   - - papers/coppa:ase:2017
@@ -8143,6 +8345,7 @@ papers:
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
   papers/xu:arxiv:2021: []
+  papers/yang:issta:2012: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011:
   - - papers/ramos:cav:2011
@@ -8166,6 +8369,7 @@ papers:
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
   papers/zhang:toplas:2017: []
+  papers/zhao:ndss:2019: []
   papers/zhuang:pldi:2006: []
   papers/zivojnovic:vlsi:1996: []
   papers/zorn:iscawddd:2017: []

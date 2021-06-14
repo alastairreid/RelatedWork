@@ -4,7 +4,7 @@ notes:
 - DART verifier
 - CUTE verifier
 - SAGE verifier
-- QSYM verifier
+- QSYM
 - Driller verifier
 isa:
 - symbolic execution

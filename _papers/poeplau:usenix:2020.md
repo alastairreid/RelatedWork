@@ -25,7 +25,7 @@ notes:
 - CUTE verifier
 - DART verifier
 - EXE verifier
-- QSYM verifier
+- QSYM
 - SymCC
 - angr verifier
 - S2E verifier
@@ -33,6 +33,8 @@ notes:
 - SMT solver
 - Z3 solver
 - DARPA CGC
+- fuzz testing
+- hybrid testing
 papers:
 - yun:usenix:2018
 - poeplau:acsac:2019

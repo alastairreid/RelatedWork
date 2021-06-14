@@ -23,6 +23,7 @@ notes:
 - Driller verifier
 - AFL fuzzer
 - Fuzz testing
+- Hybrid testing
 - Dynamic binary translation
 papers:
 - poeplau:usenix:2020
@@ -30,7 +31,7 @@ papers:
 
 QSYM significantly improves the performance of [concolic execution]
 of binaries
-to support Hybrid [fuzz testing].
+to support [hybrid testing] (a form of [fuzz testing]).
 The key ideas (based on a detailed examination of all the
 usual design choices and their problems) are
 

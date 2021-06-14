@@ -23,6 +23,7 @@ url: http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2017/09/dril
 year: 2016
 notes:
 - fuzz testing
+- hybrid testing
 - symbolic execution
 papers:
 ---
