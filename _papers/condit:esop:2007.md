@@ -19,11 +19,32 @@ isbn: 978-3-540-71316-6
 layout: paper
 pages: 520-535
 publisher: Springer Berlin Heidelberg
-read: false
-readings: []
+read: true
+readings:
+- 2021-06-14
 title: Dependent types for low-level programming
 year: 2007
 notes:
+- dependent type
+- Cyclone language
 papers:
+- furr:pldi:2005
 ---
+
+Deputy is a [dependent type] system for C that allows
+programmers to annotate pointers and tagged unions,
+infers annotations,
+and mostly performs compile-time checks that array/pointer offsets are in bounds
+but (to preserve decidability) falls back to run-time checks when necessary.
+
+The type system is flow-insensitive (contrast with [furr:pldi:2005])
+and the assignment rule is related to Hoare logic.
+Unlike CCured and the [Cyclone language], Deputy does not need fat pointers.
+
+The evaluation looked at 3 SPEC benchmarks, 9 Olden benchmarks, ptrdist
+benchmarks, and TinyOS benchmarks and looked at the number of lines changed
+(around 2-4% on average and up to 11%) and the runtime overhead (less than 25%
+in half the tests but up to 100%).
+
+
 {% include links.html %}

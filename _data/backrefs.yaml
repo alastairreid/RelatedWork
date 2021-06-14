@@ -3434,6 +3434,9 @@ papers:
   - - papers/azevedo:post:2018
     - - The meaning of memory safety
       - azevedo:post:2018
+  - - papers/condit:esop:2007
+    - - Dependent types for low-level programming
+      - condit:esop:2007
   - - papers/grossman:esop:2002
     - - Existential types for imperative languages
       - grossman:esop:2002
@@ -3522,9 +3525,15 @@ papers:
   - - papers/armstrong:spisa:2019
     - - The state of Sail
       - armstrong:spisa:2019
+  - - papers/condit:esop:2007
+    - - Dependent types for low-level programming
+      - condit:esop:2007
   - - papers/ferraiuolo:dac:2017
     - - Secure information flow verification with mutable dependent types
       - ferraiuolo:dac:2017
+  - - papers/furr:pldi:2005
+    - - Checking type safety of foreign function calls
+      - furr:pldi:2005
   - - papers/nanevski:icfp:2008
     - - 'Ynot: Dependent types for imperative programs'
       - nanevski:icfp:2008
@@ -3559,8 +3568,8 @@ papers:
       - yang:pldi:2011
   notes/digfuzz-fuzzer:
   - - papers/zhao:ndss:2019
-    - - 'Send Hardest Problems My Way: Probabilistic Path Prioritization for Hybrid
-        Fuzzing'
+    - - 'Send hardest problems my way: Probabilistic path prioritization for hybrid
+        fuzzing'
       - zhao:ndss:2019
   notes/distributed-shared-memory:
   - - papers/bershad:cmpcon:1993
@@ -3952,8 +3961,8 @@ papers:
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
   - - papers/zhao:ndss:2019
-    - - 'Send Hardest Problems My Way: Probabilistic Path Prioritization for Hybrid
-        Fuzzing'
+    - - 'Send hardest problems my way: Probabilistic path prioritization for hybrid
+        fuzzing'
       - zhao:ndss:2019
   notes/hyperproperty:
   - - papers/clarkson:jcs:2010
@@ -6552,6 +6561,9 @@ papers:
     - - 'Model checking: Algorithmic verification and debugging'
       - clarke:cacm:2009
   notes/type-inference:
+  - - papers/furr:pldi:2005
+    - - Checking type safety of foreign function calls
+      - furr:pldi:2005
   - - papers/milner:jcss:1978
     - - A theory of type polymorphism in programming
       - milner:jcss:1978
@@ -7298,7 +7310,10 @@ papers:
       - philippaerts:scp:2014
   papers/cohen:entcs:2009: []
   papers/cok:bugs:2005: []
-  papers/condit:esop:2007: []
+  papers/condit:esop:2007:
+  - - papers/furr:pldi:2005
+    - - Checking type safety of foreign function calls
+      - furr:pldi:2005
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
   papers/cook:cav:2018: []
@@ -7448,7 +7463,10 @@ papers:
   papers/fraser:sigart:1977: []
   papers/freedman:tse:1991: []
   papers/frias:icse:2005: []
-  papers/furr:pldi:2005: []
+  papers/furr:pldi:2005:
+  - - papers/condit:esop:2007
+    - - Dependent types for low-level programming
+      - condit:esop:2007
   papers/fuxman:isre:2001: []
   papers/galea:arxiv:2018:
   - - papers/bornholt:oopsla:2018
