@@ -15,7 +15,7 @@ link: https://www.ndss-symposium.org/ndss-paper/send-hardest-problems-my-way-pro
 read: false
 readings: []
 timestamp: Thu, 02 May 2019 15:52:50 +0200
-title: 'Send Hardest Problems My Way: Probabilistic Path Prioritization for Hybrid Fuzzing'
+title: 'Send hardest problems my way: Probabilistic path prioritization for hybrid fuzzing'
 url: https://www.ndss-symposium.org/ndss-paper/send-hardest-problems-my-way-probabilistic-path-prioritization-for-hybrid-fuzzing/
 year: 2019
 notes:

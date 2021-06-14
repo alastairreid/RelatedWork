@@ -15,8 +15,9 @@ doi: 10.1109/SP40000.2020.00002
 layout: paper
 number: ''
 pages: 1580-1596
-read: false
-readings: []
+read: true
+readings:
+- 2021-06-13
 title: 'SAVIOR: Towards bug-driven hybrid testing'
 volume: ''
 year: 2020
