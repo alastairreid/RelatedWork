@@ -28,4 +28,7 @@ Verifiers for Rust include
 [Prusti verifier],
 [SMACK verifier]
 
+An incredibly early description of Rust is [here](http://venge.net/graydon/talks/intro-talk-2.pdf)
+but many aspects of the language have changed since 2010.
+
 {% include links.html %}

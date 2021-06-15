@@ -2152,6 +2152,7 @@
   - papers/efstathopoulos:sosp:2005
   - papers/johnson:osr:1995
   - papers/krohn:sosp:2007
+  - papers/wang:sosp:2013
 - name: Temesghen Kahsai
   papers:
   - papers/gennari:vstte:2018
@@ -3370,6 +3371,9 @@
 - name: Peter M. Pawlowski
   papers:
   - papers/cadar:tiss:2008
+- name: Mathias Payer
+  papers:
+  - papers/szekeres:sandp:2013
 - name: Michael Pearce
   papers:
   - papers/pearce:compsurv:2013
@@ -4113,9 +4117,13 @@
 - name: Mary Lou Soffa
   papers:
   - papers/evans:icse:2020
+- name: Armando Solar-Lezama
+  papers:
+  - papers/wang:sosp:2013
 - name: Dawn Song
   papers:
   - papers/martignoni:asplos:2012
+  - papers/szekeres:sandp:2013
 - name: Linhai Song
   papers:
   - papers/qin:pldi:2020
@@ -4245,6 +4253,7 @@
 - name: "L\xE1szl\xF3 Szekeres"
   papers:
   - papers/babic:fse:2019
+  - papers/szekeres:sandp:2013
 - name: Michal Szymaniak
   papers:
   - papers/corbett:tocs:2013
@@ -4551,6 +4560,7 @@
   - papers/nelson:sosp:2019
   - papers/sigurbjarnarson:osdi:2016
   - papers/sigurbjarnarson:osdi:2018
+  - papers/wang:sosp:2013
 - name: Yanling Wang
   papers:
   - papers/grossman:pldi:2002
@@ -4605,6 +4615,7 @@
 - name: Tao Wei
   papers:
   - papers/chen:sp:2020
+  - papers/szekeres:sandp:2013
 - name: Alexander Weigl
   papers:
   - papers/weigl:arxiv:2019
@@ -4830,6 +4841,7 @@
 - name: Nickolai Zeldovich
   papers:
   - papers/dabek:sigops:2002
+  - papers/wang:sosp:2013
   - papers/zeldovich:osdi:2006
 - name: Andreas Zeller
   papers:

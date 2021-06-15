@@ -888,7 +888,10 @@ notes:
   - - notes/viper-verifier
     - - Viper verifier
       - null
-  notes/rust-unsafe-code: []
+  notes/rust-unsafe-code:
+  - - notes/undefined-behaviour
+    - - Undefined behaviour
+      - null
   notes/s2e-verifier: []
   notes/sage-verifier:
   - - notes/concolic-execution
@@ -1291,11 +1294,17 @@ notes:
   - - notes/frama-c-verifier
     - - Frama-C verifier
       - null
+  - - notes/memory-safety
+    - - Memory safety
+      - null
   - - notes/mir-interpreter
     - - MIR interpreter (miri)
       - null
   - - notes/mir
     - - MIR
+      - null
+  - - notes/rust-unsafe-code
+    - - Rust unsafe code
       - null
   notes/under-approximation: []
   notes/unit-tests:
@@ -1454,7 +1463,10 @@ notes:
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
-  papers/azevedo:post:2018: []
+  papers/azevedo:post:2018:
+  - - notes/memory-safety
+    - - Memory safety
+      - null
   papers/babic:fse:2019: []
   papers/bader:vmcai:2018: []
   papers/balasubramanium:hotos:2017: []
@@ -2544,6 +2556,10 @@ notes:
   - - notes/rtl
     - - RTL
       - null
+  papers/szekeres:sandp:2013:
+  - - notes/memory-safety
+    - - Memory safety
+      - null
   papers/tahat:fmcad:2019: []
   papers/tang:sec:2017: []
   papers/tanter:aosd:2010: []
@@ -2615,6 +2631,13 @@ notes:
       - null
   papers/wand:lfp:1980: []
   papers/wang:pldi:2007: []
+  papers/wang:sosp:2013:
+  - - notes/rust-unsafe-code
+    - - Rust unsafe code
+      - null
+  - - notes/undefined-behaviour
+    - - Undefined behaviour
+      - null
   papers/wang:tase:2018: []
   papers/weigl:arxiv:2019: []
   papers/weiss:arxiv:2018: []
@@ -4835,6 +4858,9 @@ papers:
   - - papers/azevedo:post:2018
     - - The meaning of memory safety
       - azevedo:post:2018
+  - - papers/szekeres:sandp:2013
+    - - 'SoK: Eternal war in memory'
+      - szekeres:sandp:2013
   notes/microarchitecture:
   - - papers/asanovic:phd:1998
     - - Vector microprocessors
@@ -6597,9 +6623,15 @@ papers:
   - - papers/jung:popl:2020
     - - 'Stacked borrows: An aliasing model for Rust'
       - jung:popl:2020
+  - - papers/szekeres:sandp:2013
+    - - 'SoK: Eternal war in memory'
+      - szekeres:sandp:2013
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
+  - - papers/wang:sosp:2013
+    - - 'Towards optimization-safe systems: Analyzing the impact of undefined behavior'
+      - wang:sosp:2013
   notes/under-approximation:
   - - papers/cok:bugs:2005
     - - Issues in deploying software defect detection tools
@@ -8250,6 +8282,7 @@ papers:
   papers/subhlok:ppopp:1993: []
   papers/sutcliffe:ai:2001: []
   papers/systemverilog:ieee:2013: []
+  papers/szekeres:sandp:2013: []
   papers/tahat:fmcad:2019: []
   papers/tang:sec:2017: []
   papers/tanter:aosd:2010: []
@@ -8316,6 +8349,7 @@ papers:
   papers/walker:tic:2001: []
   papers/wand:lfp:1980: []
   papers/wang:pldi:2007: []
+  papers/wang:sosp:2013: []
   papers/wang:tase:2018: []
   papers/weigl:arxiv:2019: []
   papers/weiss:arxiv:2018: []
