@@ -26,6 +26,8 @@ notes:
 - Rust language
 - Rust unsafe code
 papers:
+- astrauskas:oopsla:2020
+- qin:pldi:2020
 ---
 
 Empirical study of unsafe annotations in open source Rust crates.
@@ -63,6 +65,14 @@ intrinsics.[^but-why-is-SIMD-unsafe]
     SIMD instructions, all the other numbers would rise: 60% of unsafe Core calls
     would be to ptr, 50% of unsafe function calls would be to Rust functions
     and 30% would be to C functions and Rust intrinsics.
+
+The paper suggests auditing tools to detect transitive dependencies on
+functions with unsafe annotations, badges in crates.io, a public unsafe-review
+system.
+They also suggest annotating functions with pre-conditions under which the code
+is safe but note that this imposes some runtime overhead and programmer
+burden.
+
 
 
 

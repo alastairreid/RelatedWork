@@ -7021,7 +7021,14 @@ papers:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
-  papers/astrauskas:oopsla:2020: []
+  papers/astrauskas:oopsla:2020:
+  - - papers/evans:icse:2020
+    - - Is Rust used safely by software developers?
+      - evans:icse:2020
+  - - papers/qin:pldi:2020
+    - - Understanding memory and thread safety practices and issues in real-world
+        Rust programs
+      - qin:pldi:2020
   papers/avgerinos:cacm:2014:
   - - papers/heelan:msc:2009
     - - Automatic generation of control flow hijacking exploits for software vulnerabilities
@@ -7453,7 +7460,14 @@ papers:
     - - Scalable error detection using boolean satisfiability
       - xie:popl:2005
   papers/ernst:icse:2016: []
-  papers/evans:icse:2020: []
+  papers/evans:icse:2020:
+  - - papers/astrauskas:oopsla:2020
+    - - How do programmers use unsafe Rust?
+      - astrauskas:oopsla:2020
+  - - papers/qin:pldi:2020
+    - - Understanding memory and thread safety practices and issues in real-world
+        Rust programs
+      - qin:pldi:2020
   papers/evtyushkin:asplos:2021: []
   papers/fahndrich:foveoos:2010:
   - - papers/barnett:cacm:2011
@@ -8008,7 +8022,13 @@ papers:
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
-  papers/qin:pldi:2020: []
+  papers/qin:pldi:2020:
+  - - papers/astrauskas:oopsla:2020
+    - - How do programmers use unsafe Rust?
+      - astrauskas:oopsla:2020
+  - - papers/evans:icse:2020
+    - - Is Rust used safely by software developers?
+      - evans:icse:2020
   papers/qiu:icse:2017:
   - - papers/qiu:nfm:2018
     - - Using test ranges to improve symbolic execution

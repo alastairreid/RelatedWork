@@ -28,5 +28,7 @@ notes:
 - Rust language
 - Rust unsafe code
 papers:
+- astrauskas:oopsla:2020
+- evans:icse:2020
 ---
 {% include links.html %}
