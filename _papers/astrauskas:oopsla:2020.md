@@ -120,7 +120,25 @@ They find
   This was partly from auto-generated code
   and possibly some accidents due to legacy reasons.
   Only rarely did it seem to be done to document properties such as invariants that
-  the function might potentially break,
+  the function might potentially break.[^unsafe-scope] [^unsafe-functions-that-are-safe]
+
+[^unsafe-scope]:
+    See Ralf Jung's [The scope of unsafe](https://www.ralfj.de/blog/2016/01/09/the-scope-of-unsafe.html)
+    for a discussion of such invariants and how adding a function that
+    does not use unsafe can break an otherwise correct module that uses
+    unsafe elsewhere. In particular, he makes the point that *the following
+    statement is not true*
+
+    > in order to detect bugs in data structures like Vec it suffices to check functions involving unsafe code.
+
+  [^unsafe-functions-that-are-safe]:
+      [qin:pldi:2020] contains an example of `String::from_utf8_unchecked` as a function that is marked
+      as 'unsafe' but that performs no unsafe operations.
+      However, it is unsafe because the rest of the module relies on the fact that the string is
+      correct utf8.
+      An alternative choice would be to mark most/all other functions unsafe but it is considered
+      better to focus on the creation of strings.:
+
 
 - Intrinsics: Compiler intrinsics (core::intrinsics and std::intrinsics) are marked experimental/unstable
   and are not widely used.
