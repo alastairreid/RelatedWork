@@ -310,6 +310,9 @@
   papers:
   - papers/gay:pldi:2003
   - papers/vonbehren:hotos:2003
+- name: Alexis Beingessner
+  papers:
+  - papers/beingessner:msc:2015
 - name: C. Gordon Bell
   papers:
   - papers/barbacci2:computer:1973

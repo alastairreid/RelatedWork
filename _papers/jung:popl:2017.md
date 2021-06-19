@@ -33,6 +33,7 @@ notes:
 - undefined behaviour
 - mir
 - Rust unsafe code
+- RustBelt verifier
 - Coq theorem prover
 papers:
 ---

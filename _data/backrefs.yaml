@@ -250,6 +250,9 @@ notes:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
       - null
+  - - notes/rustbelt-verifier
+    - - RustBelt verifier
+      - null
   notes/corral-verifier: []
   notes/cpachecker-verifier:
   - - notes/blast-verifier
@@ -670,6 +673,9 @@ notes:
   - - notes/mir-interpreter
     - - MIR interpreter (miri)
       - null
+  - - notes/rustbelt-verifier
+    - - RustBelt verifier
+      - null
   notes/mir-interpreter:
   - - notes/mir
     - - MIR
@@ -780,6 +786,9 @@ notes:
       - null
   - - notes/prusti-verifier
     - - Prusti verifier
+      - null
+  - - notes/rustbelt-verifier
+    - - RustBelt verifier
       - null
   - - notes/separation-logic
     - - Separation logic
@@ -892,13 +901,20 @@ notes:
   - - notes/rust-unsafe-code
     - - Rust unsafe code
       - null
+  - - notes/rustbelt-verifier
+    - - RustBelt verifier
+      - null
   - - notes/viper-verifier
     - - Viper verifier
       - null
   notes/rust-unsafe-code:
+  - - notes/rustbelt-verifier
+    - - RustBelt verifier
+      - null
   - - notes/undefined-behaviour
     - - Undefined behaviour
       - null
+  notes/rustbelt-verifier: []
   notes/s2e-verifier: []
   notes/sage-verifier:
   - - notes/concolic-execution
@@ -1313,6 +1329,9 @@ notes:
   - - notes/rust-unsafe-code
     - - Rust unsafe code
       - null
+  - - notes/rustbelt-verifier
+    - - RustBelt verifier
+      - null
   notes/under-approximation: []
   notes/unit-tests:
   - - notes/property-based-testing
@@ -1552,6 +1571,7 @@ notes:
       - null
   papers/becker:tacas:2019: []
   papers/beckmann:msc:2020: []
+  papers/beingessner:msc:2015: []
   papers/bell:afips:1970:
   - - notes/isps
     - - Instruction Set Processor (ISP)
@@ -2073,6 +2093,9 @@ notes:
   papers/jung:popl:2017:
   - - notes/rust-language
     - - Rust language
+      - null
+  - - notes/rustbelt-verifier
+    - - RustBelt verifier
       - null
   papers/jung:popl:2020:
   - - notes/mir-interpreter
@@ -5154,6 +5177,9 @@ papers:
     - - 'Compositional may-must program analysis: Unleashing the power of alternation'
       - godefroid:popl:2010
   notes/ownership-types:
+  - - papers/beingessner:msc:2015
+    - - You can't spell trust without Rust
+      - beingessner:msc:2015
   - - papers/clarke:oopsla:1998
     - - Ownership types for flexible alias protection
       - clarke:oopsla:1998
@@ -5425,6 +5451,9 @@ papers:
       - jhala:compsurv:2009
   notes/reference-counting: []
   notes/regions:
+  - - papers/beingessner:msc:2015
+    - - You can't spell trust without Rust
+      - beingessner:msc:2015
   - - papers/clarke:oopsla:1998
     - - Ownership types for flexible alias protection
       - clarke:oopsla:1998
@@ -5557,6 +5586,9 @@ papers:
   - - papers/beckmann:msc:2020
     - - Verifying safe clients of unsafe code and trait implementations in Rust
       - beckmann:msc:2020
+  - - papers/beingessner:msc:2015
+    - - You can't spell trust without Rust
+      - beingessner:msc:2015
   - - papers/boos:plos:2017
     - - 'Theseus: A state spill-free operating system'
       - boos:plos:2017
@@ -5658,6 +5690,9 @@ papers:
   - - papers/beckmann:msc:2020
     - - Verifying safe clients of unsafe code and trait implementations in Rust
       - beckmann:msc:2020
+  - - papers/beingessner:msc:2015
+    - - You can't spell trust without Rust
+      - beingessner:msc:2015
   - - papers/evans:icse:2020
     - - Is Rust used safely by software developers?
       - evans:icse:2020
@@ -5690,6 +5725,13 @@ papers:
     - - Memory-safety challenge considered solved? An in-depth study with all Rust
         CVEs
       - xu:arxiv:2021
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
+  notes/rustbelt-verifier:
+  - - papers/jung:popl:2017
+    - - 'RustBelt: Securing the foundations of the Rust programming language'
+      - jung:popl:2017
   - - papers/yanovski:unknown:2021
     - - 'GhostCell: Separating permissions from data in Rust'
       - yanovski:unknown:2021
@@ -7191,6 +7233,10 @@ papers:
       - claessen:icfp:2000
   papers/becker:tacas:2019: []
   papers/beckmann:msc:2020: []
+  papers/beingessner:msc:2015:
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   papers/bell:afips:1970:
   - - papers/barbacci:cmu:1972
     - - 'ISP: A language to describe instruction sets and other register transfer
