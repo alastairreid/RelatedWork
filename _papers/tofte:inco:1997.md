@@ -33,6 +33,8 @@ url: https://doi.org/10.1006/inco.1996.2613
 volume: '132'
 year: 1997
 notes:
+- regions
+- ownership types
 papers:
 ---
 {% include links.html %}

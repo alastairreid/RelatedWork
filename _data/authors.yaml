@@ -790,6 +790,9 @@
   - papers/clarke:cav:2000
   - papers/clarke:tacas:2004
   - papers/clarke:wlop:1982
+- name: David G. Clarke
+  papers:
+  - papers/clarke:oopsla:1998
 - name: Dave Clarke
   papers:
   - papers/milushev:forte:2012
@@ -933,6 +936,7 @@
 - name: Hoang-Hai Dang
   papers:
   - papers/jung:popl:2020
+  - papers/yanovski:unknown:2021
 - name: Jakub Daniel
   papers:
   - papers/ball:dsse:2015
@@ -1076,6 +1080,7 @@
   - papers/jung:cacm:2021
   - papers/jung:popl:2017
   - papers/jung:popl:2020
+  - papers/yanovski:unknown:2021
 - name: Wei Du
   papers:
   - papers/du:sc:2003
@@ -1305,6 +1310,9 @@
   - papers/lin:sips:2006
   - papers/reid:cases:2008
   - papers/woh:micro:2008
+- name: Matthew Fluet
+  papers:
+  - papers/fluet:jfp:2006
 - name: Shaked Flur
   papers:
   - papers/armstrong:arw:2018
@@ -2143,6 +2151,7 @@
   - papers/jung:cacm:2021
   - papers/jung:popl:2017
   - papers/jung:popl:2020
+  - papers/yanovski:unknown:2021
 - name: "Ren\xE9 Just"
   papers:
   - papers/ivankovic:fse:2019
@@ -2284,6 +2293,9 @@
 - name: Manuel Klimek
   papers:
   - papers/wright:icsm:2013
+- name: Felix S. Klock
+  papers:
+  - papers/matsakis:hilt:2014
 - name: Amy J. Ko
   papers:
   - papers/myers:computer:2016
@@ -2826,6 +2838,9 @@
 - name: Daniel Matichuk
   papers:
   - papers/murray:secpriv:2013
+- name: Nicholas D. Matsakis
+  papers:
+  - papers/matsakis:hilt:2014
 - name: Yusuke Matsushita
   papers:
   - papers/matsushita:esop:2020
@@ -3206,6 +3221,9 @@
 - name: Tobias Nipkow
   papers:
   - papers/nipkow:book:2002
+- name: James Noble
+  papers:
+  - papers/clarke:oopsla:1998
 - name: Matt Noonan
   papers:
   - papers/noonan:pldi:2016
@@ -3484,6 +3502,9 @@
   - papers/boespflug:fdtc:2020
   - papers/david:issta:2016
   - papers/recoules:ase:2019
+- name: John M. Potter
+  papers:
+  - papers/clarke:oopsla:1998
 - name: Rachel Potvin
   papers:
   - papers/potvin:cacm:2016
@@ -3513,6 +3534,9 @@
 - name: Armand Puccetti
   papers:
   - papers/cuoq:sefm:2012
+- name: Riccardo Pucella
+  papers:
+  - papers/fluet:jfp:2006
 - name: Christopher Pulte
   papers:
   - papers/armstrong:arw:2018
@@ -4781,6 +4805,9 @@
 - name: Jean Yang
   papers:
   - papers/yang:pldi:2010
+- name: Joshua Yanovski
+  papers:
+  - papers/yanovski:unknown:2021
 - name: Yuval Yarom
   papers:
   - papers/ge:jce:2016

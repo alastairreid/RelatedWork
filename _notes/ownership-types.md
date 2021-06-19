@@ -9,6 +9,7 @@ notes:
 - Rust language
 - Prusti verifier
 - Viper verifier
+- Regions
 ---
 
 todo:

@@ -841,6 +841,13 @@ notes:
   - - notes/memory-management
     - - Memory management
       - null
+  notes/regions:
+  - - notes/ownership-types
+    - - Ownership types
+      - null
+  - - notes/rust-language
+    - - Rust language
+      - null
   notes/remote-procedure-call: []
   notes/requirements-specification:
   - - notes/alloy-verifier
@@ -1448,7 +1455,10 @@ notes:
   - - notes/rust-language
     - - Rust language
       - null
-  papers/astrauskas:oopsla:2020: []
+  papers/astrauskas:oopsla:2020:
+  - - notes/rust-unsafe-code
+    - - Rust unsafe code
+      - null
   papers/avgerinos:cacm:2014:
   - - notes/automatic-exploit-generation
     - - Automatic exploit generation
@@ -1735,6 +1745,7 @@ notes:
   - - notes/cegar
     - - CEGAR (Counter-Example Guided Abstraction Refinement)
       - null
+  papers/clarke:oopsla:1998: []
   papers/clarke:tacas:2004:
   - - notes/cbmc-verifier
     - - CBMC verifier
@@ -1821,7 +1832,10 @@ notes:
     - - Lazy initialization of symbolic values
       - null
   papers/ernst:icse:2016: []
-  papers/evans:icse:2020: []
+  papers/evans:icse:2020:
+  - - notes/rust-unsafe-code
+    - - Rust unsafe code
+      - null
   papers/evtyushkin:asplos:2021: []
   papers/fahndrich:foveoos:2010:
   - - notes/contract-driven-development
@@ -1843,6 +1857,7 @@ notes:
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
+  papers/fluet:jfp:2006: []
   papers/flur:popl:2016: []
   papers/flynn:ieeeproc:1966:
   - - notes/data-parallelism
@@ -2217,6 +2232,7 @@ notes:
   - - notes/superoptimizer
     - - Superoptimizer
       - null
+  papers/matsakis:hilt:2014: []
   papers/matsushita:esop:2020: []
   papers/maus:amast:2008: []
   papers/mavin:isre:2009: []
@@ -2374,7 +2390,10 @@ notes:
     - - SymCC
       - null
   papers/potvin:cacm:2016: []
-  papers/qin:pldi:2020: []
+  papers/qin:pldi:2020:
+  - - notes/rust-unsafe-code
+    - - Rust unsafe code
+      - null
   papers/qiu:icse:2017:
   - - notes/swarm-verification
     - - Swarm verification
@@ -2668,6 +2687,7 @@ notes:
   papers/yang:issta:2012: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011: []
+  papers/yanovski:unknown:2021: []
   papers/yun:usenix:2018:
   - - notes/qsym
     - - QSYM verifier
@@ -3305,6 +3325,9 @@ papers:
   - - papers/weitz:icfp:2017
     - - 'SpaceSearch: A library for building and verifying solver-aided tools'
       - weitz:icfp:2017
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   notes/corral-verifier:
   - - papers/baranowski:atva:2018
     - - Verifying Rust programs with SMACK
@@ -5131,12 +5154,21 @@ papers:
     - - 'Compositional may-must program analysis: Unleashing the power of alternation'
       - godefroid:popl:2010
   notes/ownership-types:
+  - - papers/clarke:oopsla:1998
+    - - Ownership types for flexible alias protection
+      - clarke:oopsla:1998
   - - papers/levy:plos:2015
     - - 'Ownership is theft: Experiences building an embedded OS in Rust'
       - levy:plos:2015
+  - - papers/tofte:inco:1997
+    - - Region-based memory management
+      - tofte:inco:1997
   - - papers/walker:tic:2001
     - - Alias types for recursive data structures
       - walker:tic:2001
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   notes/parallelism:
   - - papers/kumar:isca:2004
     - - Single-ISA heterogeneous multi-core architectures for multithreaded workload
@@ -5392,6 +5424,16 @@ papers:
     - - Software model checking
       - jhala:compsurv:2009
   notes/reference-counting: []
+  notes/regions:
+  - - papers/clarke:oopsla:1998
+    - - Ownership types for flexible alias protection
+      - clarke:oopsla:1998
+  - - papers/tofte:inco:1997
+    - - Region-based memory management
+      - tofte:inco:1997
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   notes/remote-procedure-call:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -5518,6 +5560,9 @@ papers:
   - - papers/boos:plos:2017
     - - 'Theseus: A state spill-free operating system'
       - boos:plos:2017
+  - - papers/clarke:oopsla:1998
+    - - Ownership types for flexible alias protection
+      - clarke:oopsla:1998
   - - papers/denis:hal:2020
     - - Deductive program verification for a language with a Rust-like typing discipline
         type [Internship report]
@@ -5559,6 +5604,9 @@ papers:
   - - papers/liu:icse:2020
     - - Securing unsafe Rust programs with XRust
       - liu:icse:2020
+  - - papers/matsakis:hilt:2014
+    - - The Rust language
+      - matsakis:hilt:2014
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
@@ -5591,6 +5639,9 @@ papers:
     - - Memory-safety challenge considered solved? An in-depth study with all Rust
         CVEs
       - xu:arxiv:2021
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   - - papers/zhang:ccs:2020
     - - VRLifeTime - An IDE tool to avoid concurrency and memory bugs in Rust
       - zhang:ccs:2020
@@ -5639,6 +5690,9 @@ papers:
     - - Memory-safety challenge considered solved? An in-depth study with all Rust
         CVEs
       - xu:arxiv:2021
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   notes/s2e-verifier:
   - - papers/chipounov:asplos:2011
     - - 'S2E: A platform for in-vivo multi-path analysis of software systems'
@@ -7326,6 +7380,10 @@ papers:
     - - Model checking
       - mcmillan:ecs:2003
   papers/clarke:cav:2000: []
+  papers/clarke:oopsla:1998:
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   papers/clarke:tacas:2004: []
   papers/clarke:wlop:1982: []
   papers/clarkson:jcs:2010: []
@@ -7492,6 +7550,10 @@ papers:
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
+  papers/fluet:jfp:2006:
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   papers/flur:popl:2016: []
   papers/flynn:ieeeproc:1966: []
   papers/fonseca:ecs:2017: []
@@ -7713,6 +7775,9 @@ papers:
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   papers/jung:popl:2020:
   - - papers/anderson:icse:2016
     - - Engineering the Servo web browser engine using Rust
@@ -7720,6 +7785,9 @@ papers:
   - - papers/jung:cacm:2021
     - - 'Safe systems programming in Rust: The promise and the challenge'
       - jung:cacm:2021
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   papers/kaivola:cav:2009: []
   papers/kapus:fse:2019: []
   papers/kassios:fm:2006: []
@@ -7881,6 +7949,7 @@ papers:
   papers/mantel:sp:2001: []
   papers/martignoni:asplos:2012: []
   papers/massalin:asplos:1987: []
+  papers/matsakis:hilt:2014: []
   papers/matsushita:esop:2020:
   - - papers/ullrich:msc:2016
     - - Simple verification of Rust programs via functional purification
@@ -8423,6 +8492,7 @@ papers:
   - - papers/ramos:cav:2011
     - - Practical, low-effort equivalence verification of real code
       - ramos:cav:2011
+  papers/yanovski:unknown:2021: []
   papers/yun:usenix:2018:
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'

@@ -16,6 +16,7 @@ notes:
 - ownership types
 - Prusti verifier
 - SMACK verifier
+- Regions
 ---
 
 Rust is a systems programming language that differs from C
