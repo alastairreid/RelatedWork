@@ -796,6 +796,7 @@ notes:
   - - notes/viper-verifier
     - - Viper verifier
       - null
+  notes/phantom-types: []
   notes/pin-tool: []
   notes/pipeline-parallelism:
   - - notes/stream-processing
@@ -1783,6 +1784,7 @@ notes:
   papers/condit:esop:2007: []
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
+  papers/conway:datamation:1968: []
   papers/cook:cav:2018: []
   papers/coppa:ase:2017:
   - - notes/angr-verifier
@@ -1840,6 +1842,7 @@ notes:
       - null
   papers/du:sc:2003: []
   papers/dunkels:enss:2006: []
+  papers/dutra:icse:2018: []
   papers/edwards:icrs:1975: []
   papers/efstathopoulos:sosp:2005: []
   papers/eide:aspse:2001: []
@@ -1877,7 +1880,10 @@ notes:
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
-  papers/fluet:jfp:2006: []
+  papers/fluet:jfp:2006:
+  - - notes/phantom-types
+    - - Phantom types
+      - null
   papers/flur:popl:2016: []
   papers/flynn:ieeeproc:1966:
   - - notes/data-parallelism
@@ -2078,7 +2084,9 @@ notes:
   - - notes/mutation-testing
     - - Mutation testing
       - null
+  papers/jiang:arxiv:2021: []
   papers/jin:icst:2010: []
+  papers/johnson:icse:2013: []
   papers/johnson:osr:1995: []
   papers/jones:hasklang:1999: []
   papers/jones:hasklib:1999: []
@@ -2221,6 +2229,7 @@ notes:
       - null
   papers/loow:pldi:2019: []
   papers/lopes:pldi:2015: []
+  papers/lopes:pldi:2021: []
   papers/lowe:csfw:2015: []
   papers/lustig:asplos:2016: []
   papers/ma:securecomm:2015: []
@@ -2365,6 +2374,8 @@ notes:
     - - Threads
       - null
   papers/ozer:sbacpad:2007: []
+  papers/padhye:issta:2019: []
+  papers/padhye:oopsla:2019: []
   papers/palacharla:micro:1995:
   - - notes/decoupling
     - - Decoupling
@@ -2587,6 +2598,7 @@ notes:
     - - Driller verifier
       - null
   papers/stewart:difts:2014: []
+  papers/stojmenovic:tpds:2010: []
   papers/stump:fmsd:2013:
   - - notes/smt-solver
     - - SMT solver
@@ -2874,6 +2886,10 @@ papers:
   - - papers/fox:ucam:2002
     - - Formal verification of the ARM6 micro-architecture
       - fox:ucam:2002
+  - - papers/jiang:arxiv:2021
+    - - 'Examiner: Automatically locating inconsistent instructions between real devices
+        and CPU emulators for Arm'
+      - jiang:arxiv:2021
   - - papers/khakpour:cpp:2013
     - - Machine assisted proof of ARMv7 instruction level isolation properties
       - khakpour:cpp:2013
@@ -2918,6 +2934,10 @@ papers:
   - - papers/armstrong:popl19:2019
     - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
       - armstrong:popl19:2019
+  - - papers/jiang:arxiv:2021
+    - - 'Examiner: Automatically locating inconsistent instructions between real devices
+        and CPU emulators for Arm'
+      - jiang:arxiv:2021
   - - papers/reid:cav:2016
     - - End-to-end verification of ARM processors with ISA-formal
       - reid:cav:2016
@@ -3025,9 +3045,6 @@ papers:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
       - almeida:security:2016
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
@@ -3352,9 +3369,6 @@ papers:
     - - 'GhostCell: Separating permissions from data in Rust'
       - yanovski:unknown:2021
   notes/corral-verifier:
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
@@ -3883,6 +3897,12 @@ papers:
   - - papers/miller:cacm:1990
     - - An empirical study of the reliability of UNIX utilities
       - miller:cacm:1990
+  - - papers/padhye:issta:2019
+    - - Semantic fuzzing with Zest
+      - padhye:issta:2019
+  - - papers/padhye:oopsla:2019
+    - - 'FuzzFactory: Domain-specific fuzzing with waypoints'
+      - padhye:oopsla:2019
   - - papers/pandey:issta:2019
     - - Deferred concretization in symbolic execution via fuzzing
       - pandey:issta:2019
@@ -4273,6 +4293,10 @@ papers:
   - - papers/heule:pldi:2016
     - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
       - heule:pldi:2016
+  - - papers/jiang:arxiv:2021
+    - - 'Examiner: Automatically locating inconsistent instructions between real devices
+        and CPU emulators for Arm'
+      - jiang:arxiv:2021
   - - papers/kaufmann:utaustin:2012
     - - Towards a formal model of the x86 ISA
       - kaufmann:utaustin:2012
@@ -4357,9 +4381,6 @@ papers:
     - - 'Isabelle/HOL: A proof assistant for higher-order logic'
       - nipkow:book:2002
   notes/intermediate-verification-language:
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
@@ -4506,6 +4527,10 @@ papers:
     - - 'Instruction-level abstraction (ILA): A uniform specification for system-on-chip
         (SoC) verification'
       - huang:todaes:2019
+  - - papers/jiang:arxiv:2021
+    - - 'Examiner: Automatically locating inconsistent instructions between real devices
+        and CPU emulators for Arm'
+      - jiang:arxiv:2021
   - - papers/kaufmann:utaustin:2012
     - - Towards a formal model of the x86 ISA
       - kaufmann:utaustin:2012
@@ -4834,9 +4859,6 @@ papers:
     - - 'TracerX: Dynamic symbolic execution with interpolation'
       - jaffar:arxiv:2020
   notes/llvm-compiler:
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
   - - papers/gurfinkel:cav:2015
     - - The SeaHorn verification framework
       - gurfinkel:cav:2015
@@ -5340,6 +5362,16 @@ papers:
   - - papers/walker:tic:2001
     - - Alias types for recursive data structures
       - walker:tic:2001
+  notes/phantom-types:
+  - - papers/beingessner:msc:2015
+    - - You can't spell trust without Rust
+      - beingessner:msc:2015
+  - - papers/fluet:jfp:2006
+    - - Phantom types and subtyping
+      - fluet:jfp:2006
+  - - papers/yanovski:unknown:2021
+    - - 'GhostCell: Separating permissions from data in Rust'
+      - yanovski:unknown:2021
   notes/pin-tool:
   - - papers/avgerinos:icse:2014
     - - Enhancing symbolic execution with veritesting
@@ -5581,7 +5613,7 @@ papers:
     - - 'System programming in Rust: Beyond safety'
       - balasubramanium:hotos:2017
   - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
+    - - Verifying Rust Programs with SMACK
       - baranowski:atva:2018
   - - papers/beckmann:msc:2020
     - - Verifying safe clients of unsafe code and trait implementations in Rust
@@ -5684,9 +5716,6 @@ papers:
   - - papers/astrauskas:oopsla:2020
     - - How do programmers use unsafe Rust?
       - astrauskas:oopsla:2020
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
   - - papers/beckmann:msc:2020
     - - Verifying safe clients of unsafe code and trait implementations in Rust
       - beckmann:msc:2020
@@ -5770,6 +5799,9 @@ papers:
   - - papers/demoura:cacm:2011
     - - 'Satisfiability modulo theories: Introduction and applications'
       - demoura:cacm:2011
+  - - papers/dutra:icse:2018
+    - - Efficient sampling of SAT solutions for testing
+      - dutra:icse:2018
   - - papers/krishnamurthi:fm:2019
     - - The human in formal methods
       - krishnamurthi:fm:2019
@@ -6012,7 +6044,7 @@ papers:
     - - Verifying constant-time implementations
       - almeida:security:2016
   - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
+    - - Verifying Rust Programs with SMACK
       - baranowski:atva:2018
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
@@ -6593,6 +6625,9 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  - - papers/dutra:icse:2018
+    - - Efficient sampling of SAT solutions for testing
+      - dutra:icse:2018
   - - papers/mcmillan:sigcomm:2019
     - - Formal specification and testing of QUIC
       - mcmillan:sigcomm:2019
@@ -6776,6 +6811,9 @@ papers:
     - - 'PLIERS: A process that integrates user-centered methods into programming
         language design'
       - coblenz:arxiv:2020
+  - - papers/johnson:icse:2013
+    - - Why don't software developers use static analysis tools to find bugs?
+      - johnson:icse:2013
   - - papers/macvean:ppig:2016
     - - API usability at scale
       - macvean:ppig:2016
@@ -7198,9 +7236,6 @@ papers:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
       - almeida:security:2016
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
@@ -7459,6 +7494,7 @@ papers:
       - furr:pldi:2005
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
+  papers/conway:datamation:1968: []
   papers/cook:cav:2018: []
   papers/coppa:ase:2017:
   - - papers/kapus:fse:2019
@@ -7511,9 +7547,6 @@ papers:
     - - Simple verification of Rust programs via functional purification
       - ullrich:msc:2016
   papers/demoura:tacas:2008:
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
@@ -7543,6 +7576,7 @@ papers:
   papers/draves:sosp:1991: []
   papers/du:sc:2003: []
   papers/dunkels:enss:2006: []
+  papers/dutra:icse:2018: []
   papers/edwards:icrs:1975: []
   papers/efstathopoulos:sosp:2005:
   - - papers/spencer:security:1999
@@ -7792,7 +7826,9 @@ papers:
     - - Model checking
       - mcmillan:ecs:2003
   papers/jia:ieeetse:2010: []
+  papers/jiang:arxiv:2021: []
   papers/jin:icst:2010: []
+  papers/johnson:icse:2013: []
   papers/johnson:osr:1995: []
   papers/jones:hasklang:1999: []
   papers/jones:hasklib:1999: []
@@ -7896,10 +7932,7 @@ papers:
   papers/lahiri:cav:2003: []
   papers/lahiri:hldvt:2001: []
   papers/lal:cav:2012: []
-  papers/lal:fse:2014:
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
+  papers/lal:fse:2014: []
   papers/lal:pldi:2015: []
   papers/lattner:cgo:2004: []
   papers/lauer:osr:1979: []
@@ -7966,7 +7999,11 @@ papers:
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
   papers/loow:pldi:2019: []
-  papers/lopes:pldi:2015: []
+  papers/lopes:pldi:2015:
+  - - papers/lopes:pldi:2021
+    - - 'Alive2: Bounded translation validation for LLVM'
+      - lopes:pldi:2021
+  papers/lopes:pldi:2021: []
   papers/lowe:csfw:2015: []
   papers/lustig:asplos:2016: []
   papers/ma:securecomm:2015: []
@@ -8079,6 +8116,8 @@ papers:
   papers/ohearn:tcs:2007: []
   papers/ousterhout:usenix:1996: []
   papers/ozer:sbacpad:2007: []
+  papers/padhye:issta:2019: []
+  papers/padhye:oopsla:2019: []
   papers/palacharla:micro:1995: []
   papers/pandey:issta:2019: []
   papers/papadakis:advances:2019: []
@@ -8159,9 +8198,6 @@ papers:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
       - almeida:security:2016
-  - - papers/baranowski:atva:2018
-    - - Verifying Rust programs with SMACK
-      - baranowski:atva:2018
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
@@ -8227,6 +8263,10 @@ papers:
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
   papers/reid:fmcad:2016:
+  - - papers/jiang:arxiv:2021
+    - - 'Examiner: Automatically locating inconsistent instructions between real devices
+        and CPU emulators for Arm'
+      - jiang:arxiv:2021
   - - papers/reid:cav:2016
     - - End-to-end verification of ARM processors with ISA-formal
       - reid:cav:2016
@@ -8245,6 +8285,10 @@ papers:
   papers/reid:ifl:1998: []
   papers/reid:msc:1993: []
   papers/reid:oopsla:2017:
+  - - papers/jiang:arxiv:2021
+    - - 'Examiner: Automatically locating inconsistent instructions between real devices
+        and CPU emulators for Arm'
+      - jiang:arxiv:2021
   - - papers/reid:cav:2016
     - - End-to-end verification of ARM processors with ISA-formal
       - reid:cav:2016
@@ -8403,6 +8447,7 @@ papers:
     - - Rethinking pointer reasoning in symbolic execution
       - coppa:ase:2017
   papers/stewart:difts:2014: []
+  papers/stojmenovic:tpds:2010: []
   papers/stump:fmsd:2013:
   - - papers/barrett:mlf:2015
     - - Proofs in satisfiability modulo theories

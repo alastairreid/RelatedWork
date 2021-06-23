@@ -21,6 +21,7 @@ notes:
 - Rust unsafe code
 - RustBelt verifier
 - Coq theorem prover
+- phantom types
 papers:
 - beingessner:msc:2015
 - fluet:jfp:2006

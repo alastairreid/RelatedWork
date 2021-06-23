@@ -16,6 +16,7 @@ notes:
 - ownership types
 - regions
 - Rust unsafe code
+- phantom types
 papers:
 ---
 {% include links.html %}

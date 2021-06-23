@@ -166,6 +166,9 @@
 - name: Alberto Bacchelli
   papers:
   - papers/sadowski:icse-seip:2018
+- name: Jonathan Bachrach
+  papers:
+  - papers/dutra:icse:2018
 - name: Johannes Bader
   papers:
   - papers/bader:vmcai:2018
@@ -198,8 +201,10 @@
 - name: Marek S. Baranowski
   papers:
   - papers/balasubramanium:hotos:2017
-  - papers/baranowski:atva:2018
   - papers/narayanan:hotos:2019
+- name: Marek Baranowski
+  papers:
+  - papers/baranowski:atva:2018
 - name: Mario R. Barbacci
   papers:
   - papers/barbacci2:computer:1973
@@ -473,6 +478,9 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: Robert Bowdidge
+  papers:
+  - papers/johnson:icse:2013
 - name: William J. Bowman
   papers:
   - papers/bowman:icfp:2015
@@ -839,6 +847,7 @@
 - name: Melvin E. Conway
   papers:
   - papers/conway:cacm:1963
+  - papers/conway:datamation:1968
 - name: Byron Cook
   papers:
   - papers/aagaard:charme:2001
@@ -1114,6 +1123,9 @@
   - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
+- name: Rafael Dutra
+  papers:
+  - papers/dutra:icse:2018
 - name: Nikil Dutt
   papers:
   - papers/mishra:book:2008
@@ -1910,6 +1922,9 @@
 - name: Gang Hu
   papers:
   - papers/cui:asplos:2013
+- name: Yufeng Hu
+  papers:
+  - papers/jiang:arxiv:2021
 - name: Wei Hu
   papers:
   - papers/oberg:dac:2010
@@ -1962,6 +1977,9 @@
 - name: Ray Hunt
   papers:
   - papers/pearce:compsurv:2013
+- name: Chung-Kil Hur
+  papers:
+  - papers/lopes:pldi:2021
 - name: IEEE
   papers:
   - papers/systemverilog:ieee:2013
@@ -2062,6 +2080,9 @@
   papers:
   - papers/vasudevan:secpriv:2013
   - papers/vasudevan:usenix:2016
+- name: Muhui Jiang
+  papers:
+  - papers/jiang:arxiv:2021
 - name: Hong Jiang
   papers:
   - papers/wang:pldi:2007
@@ -2080,6 +2101,9 @@
 - name: Bill Johnson
   papers:
   - papers/chu:ieeedtc:1992
+- name: Brittany Johnson
+  papers:
+  - papers/johnson:icse:2013
 - name: Kirk L. Johnson
   papers:
   - papers/johnson:osr:1995
@@ -2426,6 +2450,9 @@
 - name: Thomas D. LaToza
   papers:
   - papers/myers:computer:2016
+- name: Kevin Laeufer
+  papers:
+  - papers/dutra:icse:2018
 - name: Shuvendu K. Lahiri
   papers:
   - papers/chatterjee:tacas:2007
@@ -2490,6 +2517,9 @@
 - name: Jeongkeun Lee
   papers:
   - papers/liu:sigcomm:2018
+- name: Juneyoung Lee
+  papers:
+  - papers/lopes:pldi:2021
 - name: Sangho Lee
   papers:
   - papers/yun:usenix:2018
@@ -2530,6 +2560,8 @@
 - name: Caroline Lemieux
   papers:
   - papers/babic:fse:2019
+  - papers/padhye:issta:2019
+  - papers/padhye:oopsla:2019
 - name: Simone Lenti
   papers:
   - papers/angelini:vizsec:2019
@@ -2641,6 +2673,9 @@
 - name: Peiming Liu
   papers:
   - papers/liu:icse:2020
+- name: Zhengyang Liu
+  papers:
+  - papers/lopes:pldi:2021
 - name: Weijie Liu
   papers:
   - papers/ma:securecomm:2015
@@ -2665,6 +2700,7 @@
 - name: Nuno P. Lopes
   papers:
   - papers/lopes:pldi:2015
+  - papers/lopes:pldi:2021
 - name: Jacob R. Lorch
   papers:
   - papers/hawblitzel:osdi:2014
@@ -2698,6 +2734,9 @@
 - name: Mark Luk
   papers:
   - papers/seshadri:sosp:2007
+- name: Xiapu Luo
+  papers:
+  - papers/jiang:arxiv:2021
 - name: Mulong Luo
   papers:
   - papers/liu:cpsspc:2018
@@ -3043,6 +3082,9 @@
   - papers/armstrong:arw:2018
   - papers/armstrong:popl19:2019
   - papers/armstrong:spisa:2019
+- name: Emerson Murphy-Hill
+  papers:
+  - papers/johnson:icse:2013
 - name: Toby Murray
   papers:
   - papers/amani:asplos:2016
@@ -3316,6 +3358,10 @@
 - name: Anne Pacalet
   papers:
   - papers/cuoq:sefm:2012
+- name: Rohan Padhye
+  papers:
+  - papers/padhye:issta:2019
+  - papers/padhye:oopsla:2019
 - name: Subbarao Palacharla
   papers:
   - papers/palacharla:micro:1995
@@ -3339,6 +3385,7 @@
   - papers/levy:sosp:2017
 - name: Mike Papadakis
   papers:
+  - papers/padhye:issta:2019
   - papers/papadakis:advances:2019
 - name: Michalis Papaevripides
   papers:
@@ -3657,6 +3704,7 @@
   - papers/eide:icse:2002
   - papers/groce:issta:2012
   - papers/lopes:pldi:2015
+  - papers/lopes:pldi:2021
   - papers/regehr:acp4is:2003
   - papers/regehr:asplos:2004
   - papers/regehr:emsoft:2003
@@ -3709,6 +3757,9 @@
 - name: Alexander Reinhard
   papers:
   - papers/mantel:pls:2007
+- name: Kui Ren
+  papers:
+  - papers/jiang:arxiv:2021
 - name: Alex Renda
   papers:
   - papers/chen:iiswc:2019
@@ -3950,8 +4001,11 @@
 - name: Koushik Sen
   papers:
   - papers/cadar:cacm:2013
+  - papers/dutra:icse:2018
   - papers/godefroid:pldi:2005
   - papers/majumdar:icse:2007
+  - papers/padhye:issta:2019
+  - papers/padhye:oopsla:2019
   - papers/sen:fse:2005
 - name: Shane Sendall
   papers:
@@ -4074,6 +4128,9 @@
 - name: "H\xE9rcules Cardoso da Silva"
   papers:
   - papers/silva:sbac:2016
+- name: Laurent Simon
+  papers:
+  - papers/padhye:oopsla:2019
 - name: Eli Singerman
   papers:
   - papers/pnueli:tacas:1998
@@ -4147,6 +4204,9 @@
 - name: Armando Solar-Lezama
   papers:
   - papers/wang:sosp:2013
+- name: Yoonki Song
+  papers:
+  - papers/johnson:icse:2013
 - name: Dawn Song
   papers:
   - papers/martignoni:asplos:2012
@@ -4211,6 +4271,9 @@
 - name: J. Ryan Stinnett
   papers:
   - papers/liew:fse:2019
+- name: Ivan Stojmenovic
+  papers:
+  - papers/stojmenovic:tpds:2010
 - name: Salvatore Stolfo
   papers:
   - papers/tang:sec:2017
@@ -4424,6 +4487,7 @@
   - papers/trabish:issta:2020
 - name: Yves Le Traon
   papers:
+  - papers/padhye:issta:2019
   - papers/papadakis:advances:2019
 - name: Paolo Traverso
   papers:
@@ -4512,6 +4576,9 @@
   - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
+- name: Hayawardh Vijayakumar
+  papers:
+  - papers/padhye:oopsla:2019
 - name: Muralidaran Vijayaraghavan
   papers:
   - papers/choi:icfp:2017
@@ -4742,6 +4809,9 @@
 - name: Xiongnan Newman Wu
   papers:
   - papers/gu:osdi:2016
+- name: Lei Wu
+  papers:
+  - papers/jiang:arxiv:2021
 - name: Lingfei Wu
   papers:
   - papers/wu:arxiv:2017
@@ -4767,6 +4837,9 @@
 - name: Rui Xu
   papers:
   - papers/ferraiuolo:asplos:2017
+- name: Tianyi Xu
+  papers:
+  - papers/jiang:arxiv:2021
 - name: Hui Xu
   papers:
   - papers/xu:arxiv:2021
@@ -4943,9 +5016,15 @@
 - name: Lin Zhong
   papers:
   - papers/boos:plos:2017
+- name: Ming Zhong
+  papers:
+  - papers/jiang:arxiv:2021
 - name: Rundong Zhou
   papers:
   - papers/chen:sp:2020
+- name: Yajin Zhou
+  papers:
+  - papers/jiang:arxiv:2021
 - name: Yangfan Zhou
   papers:
   - papers/xu:arxiv:2021

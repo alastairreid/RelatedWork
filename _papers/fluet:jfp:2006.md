@@ -16,6 +16,7 @@ title: Phantom types and subtyping
 volume: '16'
 year: 2006
 notes:
+- phantom types
 papers:
 ---
 {% include links.html %}
