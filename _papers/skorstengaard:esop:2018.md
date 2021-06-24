@@ -28,9 +28,9 @@ readings:
 title: Reasoning about a machine with local capabilities
 year: 2018
 topics:
-- hardware
 - verification
 notes:
+- hardware
 - CHERI architecture
 - capabilities
 papers:

@@ -18,9 +18,8 @@ readings:
 - 2019-10-06
 title: Theoretical analysis of gate level information flow tracking
 year: 2010
-topics:
-- hardware
 notes:
+- hardware
 - information flow
 papers:
 ---

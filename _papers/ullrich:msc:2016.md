@@ -11,6 +11,7 @@ title: Simple verification of Rust programs via functional purification
 year: 2016
 notes:
 - Rust language
+- Horn clause
 papers:
 - matsushita:esop:2020
 - demoura:cade:2015

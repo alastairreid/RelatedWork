@@ -25,6 +25,7 @@ year: 2020
 notes:
 - Rust language
 - MIR
+- Horn clause
 papers:
 - gurfinkel:cav:2015
 - astrauskas:oopsla:2019

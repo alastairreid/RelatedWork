@@ -21,8 +21,9 @@ readings: []
 series: CCS'14
 title: 'The last mile: An empirical study of timing channels on seL4'
 year: 2014
-topics:
+notes:
 - hardware
+topics:
 - os
 - security
 - verification

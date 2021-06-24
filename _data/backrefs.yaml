@@ -425,8 +425,10 @@ notes:
     - - Annotation burden
       - null
   notes/google: []
+  notes/hardware: []
   notes/haskell-language: []
   notes/hol-theorem-prover: []
+  notes/horn-clause: []
   notes/human-factors: []
   notes/hybrid-testing:
   - - notes/fuzz-testing
@@ -851,6 +853,7 @@ notes:
   - - notes/memory-management
     - - Memory management
       - null
+  notes/refinement-types: []
   notes/regions:
   - - notes/ownership-types
     - - Ownership types
@@ -2002,6 +2005,7 @@ notes:
   - - notes/seahorn-verifier
     - - SeaHorn verifier
       - null
+  papers/gurfinkel:fmcad:2017: []
   papers/guyer:dsl:1999: []
   papers/hardin:acl2:2006: []
   papers/hatcliff:compsurv:2012: []
@@ -2145,6 +2149,7 @@ notes:
     - - Differential Power Analysis
       - null
   papers/korencik:qrs:2020: []
+  papers/kostyukov:pldi:2021: []
   papers/kozyrakis:phd:2002: []
   papers/krishnamurthi:fm:2019: []
   papers/krishnaswami:tldi:2010: []
@@ -2515,6 +2520,7 @@ notes:
   - - notes/translation-validation
     - - Translation validation
       - null
+  papers/sammler:pldi:2021: []
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
   papers/schemmel:cav:2020: []
@@ -2658,6 +2664,7 @@ notes:
   - - notes/annotation-burden
     - - Annotation burden
       - null
+  papers/vega:pldi:2021: []
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []
   papers/verbeek:fmmsd:2019: []
@@ -3045,6 +3052,9 @@ papers:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
       - almeida:security:2016
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
@@ -3362,6 +3372,10 @@ papers:
   - - papers/pierce:book:2016
     - - Software foundations
       - pierce:book:2016
+  - - papers/sammler:pldi:2021
+    - - 'RefinedC: Automating the foundational verification of C code with refined
+        ownership types'
+      - sammler:pldi:2021
   - - papers/weitz:icfp:2017
     - - 'SpaceSearch: A library for building and verifying solver-aided tools'
       - weitz:icfp:2017
@@ -3369,6 +3383,9 @@ papers:
     - - 'GhostCell: Separating permissions from data in Rust'
       - yanovski:unknown:2021
   notes/corral-verifier:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
@@ -3972,6 +3989,50 @@ papers:
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
+  notes/hardware:
+  - - papers/choi:icfp:2017
+    - - 'Kami: A platform for high-level parametric hardware specification and its
+        modular verification'
+      - choi:icfp:2017
+  - - papers/cock:ccs:2014
+    - - 'The last mile: An empirical study of timing channels on seL4'
+      - cock:ccs:2014
+  - - papers/ferraiuolo:dac:2017
+    - - Secure information flow verification with mutable dependent types
+      - ferraiuolo:dac:2017
+  - - papers/liu:cpsspc:2018
+    - - Secure autonomous cyber-physical systems through verifiable information flow
+        control
+      - liu:cpsspc:2018
+  - - papers/loow:pldi:2019
+    - - Verified compilation on a verified processor
+      - loow:pldi:2019
+  - - papers/oberg:dac:2010
+    - - Theoretical analysis of gate level information flow tracking
+      - oberg:dac:2010
+  - - papers/skorstengaard:esop:2018
+    - - Reasoning about a machine with local capabilities
+      - skorstengaard:esop:2018
+  - - papers/skorstengaard:popl:2019
+    - - 'StkTokens: Enforcing well-bracketed control flow and stack encapsulation
+        using linear capabilities'
+      - skorstengaard:popl:2019
+  - - papers/tiwari:asplos:2009
+    - - Complete information flow tracking from the gates up
+      - tiwari:asplos:2009
+  - - papers/tiwari:isca:2009
+    - - 'Execution leases: A hardware-supported mechanism for enforcing strong non-interference'
+      - tiwari:isca:2009
+  - - papers/tiwari:isca:2011
+    - - Crafting a usable microkernel, processor, and I/O system with strict and provable
+        information flow security
+      - tiwari:isca:2011
+  - - papers/vega:pldi:2021
+    - - 'Reticle: A virtual machine for programming modern FPGAs'
+      - vega:pldi:2021
+  - - papers/zhang:asplos:2015
+    - - A hardware design language for timing-sensitive information flow security
+      - zhang:asplos:2015
   notes/haskell-language:
   - - papers/chakravarty:haskffi:2003
     - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
@@ -4025,6 +4086,23 @@ papers:
   - - papers/gordon:book:1993
     - - 'Introduction to HOL: A Theorem Proving Environment for Higher Order Logic'
       - gordon:book:1993
+  notes/horn-clause:
+  - - papers/gennari:vstte:2018
+    - - Executable counterexamples in software model checking
+      - gennari:vstte:2018
+  - - papers/gurfinkel:cav:2015
+    - - The SeaHorn verification framework
+      - gurfinkel:cav:2015
+  - - papers/kostyukov:pldi:2021
+    - - Beyond the elementary representations of program invariants over algebraic
+        data types
+      - kostyukov:pldi:2021
+  - - papers/matsushita:esop:2020
+    - - 'RustHorn: CHC-based verification for Rust programs'
+      - matsushita:esop:2020
+  - - papers/ullrich:msc:2016
+    - - Simple verification of Rust programs via functional purification
+      - ullrich:msc:2016
   notes/human-factors:
   - - papers/krishnamurthi:fm:2019
     - - The human in formal methods
@@ -4381,6 +4459,9 @@ papers:
     - - 'Isabelle/HOL: A proof assistant for higher-order logic'
       - nipkow:book:2002
   notes/intermediate-verification-language:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
@@ -4859,6 +4940,9 @@ papers:
     - - 'TracerX: Dynamic symbolic execution with interpolation'
       - jaffar:arxiv:2020
   notes/llvm-compiler:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   - - papers/gurfinkel:cav:2015
     - - The SeaHorn verification framework
       - gurfinkel:cav:2015
@@ -5208,6 +5292,10 @@ papers:
   - - papers/levy:plos:2015
     - - 'Ownership is theft: Experiences building an embedded OS in Rust'
       - levy:plos:2015
+  - - papers/sammler:pldi:2021
+    - - 'RefinedC: Automating the foundational verification of C code with refined
+        ownership types'
+      - sammler:pldi:2021
   - - papers/tofte:inco:1997
     - - Region-based memory management
       - tofte:inco:1997
@@ -5482,6 +5570,11 @@ papers:
     - - Software model checking
       - jhala:compsurv:2009
   notes/reference-counting: []
+  notes/refinement-types:
+  - - papers/sammler:pldi:2021
+    - - 'RefinedC: Automating the foundational verification of C code with refined
+        ownership types'
+      - sammler:pldi:2021
   notes/regions:
   - - papers/beingessner:msc:2015
     - - You can't spell trust without Rust
@@ -5613,7 +5706,7 @@ papers:
     - - 'System programming in Rust: Beyond safety'
       - balasubramanium:hotos:2017
   - - papers/baranowski:atva:2018
-    - - Verifying Rust Programs with SMACK
+    - - Verifying Rust programs with SMACK
       - baranowski:atva:2018
   - - papers/beckmann:msc:2020
     - - Verifying safe clients of unsafe code and trait implementations in Rust
@@ -5716,6 +5809,9 @@ papers:
   - - papers/astrauskas:oopsla:2020
     - - How do programmers use unsafe Rust?
       - astrauskas:oopsla:2020
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   - - papers/beckmann:msc:2020
     - - Verifying safe clients of unsafe code and trait implementations in Rust
       - beckmann:msc:2020
@@ -5935,6 +6031,10 @@ papers:
   - - papers/reynolds:lics:2002
     - - 'Separation logic: a logic for shared mutable data structures'
       - reynolds:lics:2002
+  - - papers/sammler:pldi:2021
+    - - 'RefinedC: Automating the foundational verification of C code with refined
+        ownership types'
+      - sammler:pldi:2021
   - - papers/schwerhoff:ecoop:2015
     - - Lightweight support for magic wands in an automatic verifier
       - schwerhoff:ecoop:2015
@@ -6044,7 +6144,7 @@ papers:
     - - Verifying constant-time implementations
       - almeida:security:2016
   - - papers/baranowski:atva:2018
-    - - Verifying Rust Programs with SMACK
+    - - Verifying Rust programs with SMACK
       - baranowski:atva:2018
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
@@ -7236,6 +7336,9 @@ papers:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
       - almeida:security:2016
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
@@ -7547,6 +7650,9 @@ papers:
     - - Simple verification of Rust programs via functional purification
       - ullrich:msc:2016
   papers/demoura:tacas:2008:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
@@ -7723,6 +7829,7 @@ papers:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
+  papers/gurfinkel:fmcad:2017: []
   papers/guyer:dsl:1999: []
   papers/hardin:acl2:2006: []
   papers/hatcliff:compsurv:2012: []
@@ -7903,6 +8010,7 @@ papers:
   papers/kocher:arxiv:2018: []
   papers/kocher:crypto:1999: []
   papers/korencik:qrs:2020: []
+  papers/kostyukov:pldi:2021: []
   papers/kozyrakis:phd:2002: []
   papers/krishnamurthi:fm:2019: []
   papers/krishnaswami:tldi:2010:
@@ -7932,7 +8040,10 @@ papers:
   papers/lahiri:cav:2003: []
   papers/lahiri:hldvt:2001: []
   papers/lal:cav:2012: []
-  papers/lal:fse:2014: []
+  papers/lal:fse:2014:
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   papers/lal:pldi:2015: []
   papers/lattner:cgo:2004: []
   papers/lauer:osr:1979: []
@@ -8198,6 +8309,9 @@ papers:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
       - almeida:security:2016
+  - - papers/baranowski:atva:2018
+    - - Verifying Rust programs with SMACK
+      - baranowski:atva:2018
   - - papers/barnett:fmco:2005
     - - 'Boogie: A modular reusable verifier for object-oriented programs'
       - barnett:fmco:2005
@@ -8360,6 +8474,7 @@ papers:
       - sadowski:icse:2015
   papers/samet:ieeetse:1977: []
   papers/samet:phd:1975: []
+  papers/sammler:pldi:2021: []
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
   papers/schemmel:cav:2020: []
@@ -8511,6 +8626,7 @@ papers:
   papers/vanegue:sandp:2013: []
   papers/vasudevan:secpriv:2013: []
   papers/vasudevan:usenix:2016: []
+  papers/vega:pldi:2021: []
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []
   papers/verbeek:fmmsd:2019: []

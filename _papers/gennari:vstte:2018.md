@@ -29,6 +29,7 @@ notes:
 - SeaHorn verifier
 - Test double
 - SV competition
+- Horn clause
 papers:
 ---
 

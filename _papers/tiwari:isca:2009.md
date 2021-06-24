@@ -17,9 +17,9 @@ readings: []
 title: 'Execution leases: A hardware-supported mechanism for enforcing strong non-interference'
 year: 2009
 topics:
-- hardware
 - security
 notes:
+- hardware
 - information flow
 - non-interference
 papers:

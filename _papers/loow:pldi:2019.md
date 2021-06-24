@@ -18,8 +18,9 @@ read: false
 readings: []
 title: Verified compilation on a verified processor
 year: 2019
-topics:
+notes:
 - hardware
+topics:
 - verification
 papers:
 ---

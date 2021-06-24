@@ -23,6 +23,15 @@ papers:
 - avgerinos:cacm:2014
 ---
 
+**Terminology update:**
+There are multiple, consistent but conflicting uses of the term "symbolic execution"
+and "symbolic evaluation". These terms are used by different groups of people in
+different ways so, if you use these terms without qualification, you are likely
+to cause misunderstandings. Much better to use precise terms like DSE, concolic execution,
+bounded model checking, etc. which seem to have much more agreement about what they mean.
+
+*Old attempt to find a consistently used terminology follows -- use at your peril.*
+
 Following the terminology in section 3.1 of
 [bornholt:oopsla:2018], [symbolic execution] is a form of
 [symbolic evaluation] where a single path is followed at a time.

@@ -23,9 +23,9 @@ series: CPS-SPC '18
 pages: 48-59
 publisher: ACM
 topics:
-- hardware
 - security
 notes:
+- hardware
 - information flow
 papers:
 ---

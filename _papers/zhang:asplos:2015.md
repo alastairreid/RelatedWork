@@ -19,9 +19,9 @@ title: A hardware design language for timing-sensitive information flow security
 volume: '43'
 year: 2015
 topics:
-- hardware
 - security
 notes:
+- hardware
 - information flow
 papers:
 - demoura:tacas:2008

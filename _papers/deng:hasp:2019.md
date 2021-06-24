@@ -20,8 +20,9 @@ publisher: ACM
 read: true
 readings:
 - 2019-10-06
-topics:
+notes:
 - hardware
+topics:
 - security
 - tools
 notes:

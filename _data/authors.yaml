@@ -201,10 +201,8 @@
 - name: Marek S. Baranowski
   papers:
   - papers/balasubramanium:hotos:2017
-  - papers/narayanan:hotos:2019
-- name: Marek Baranowski
-  papers:
   - papers/baranowski:atva:2018
+  - papers/narayanan:hotos:2019
 - name: Mario R. Barbacci
   papers:
   - papers/barbacci2:computer:1973
@@ -648,6 +646,7 @@
 - name: Luis Ceze
   papers:
   - papers/bergan:oopsla:2014
+  - papers/vega:pldi:2021
   - papers/zorn:iscawddd:2017
 - name: Sang Kil Cha
   papers:
@@ -1092,6 +1091,7 @@
   - papers/jung:cacm:2021
   - papers/jung:popl:2017
   - papers/jung:popl:2020
+  - papers/sammler:pldi:2021
   - papers/yanovski:unknown:2021
 - name: Wei Du
   papers:
@@ -1264,6 +1264,9 @@
 - name: Andreas Fauth
   papers:
   - papers/fauth:edtc:1995
+- name: Grigory Fedyukovich
+  papers:
+  - papers/kostyukov:pldi:2021
 - name: Josselin Feist
   papers:
   - papers/david:issta:2016
@@ -1466,6 +1469,9 @@
 - name: Pranav Garg
   papers:
   - papers/garg:icse:2013
+- name: Deepak Garg
+  papers:
+  - papers/sammler:pldi:2021
 - name: David Gay
   papers:
   - papers/condit:esop:2007
@@ -1632,6 +1638,7 @@
   - papers/grossman:esop:2002
   - papers/grossman:pldi:2002
   - papers/morrisett:wcsss:1999
+  - papers/vega:pldi:2021
   - papers/zorn:iscawddd:2017
 - name: Robert E. Gruber
   papers:
@@ -1678,6 +1685,7 @@
   papers:
   - papers/gennari:vstte:2018
   - papers/gurfinkel:cav:2015
+  - papers/gurfinkel:fmcad:2017
 - name: Samuel Z. Guyer
   papers:
   - papers/guyer:dsl:1999
@@ -2011,6 +2019,9 @@
 - name: Kenneth E. Iverson
   papers:
   - papers/falkoff:ibm:1964
+- name: Alexander Ivrii
+  papers:
+  - papers/gurfinkel:fmcad:2017
 - name: Rishabh Iyer
   papers:
   - papers/zaostrovnykh:sosp:2019
@@ -2369,6 +2380,9 @@
   - papers/blanchard:fmics:2015
   - papers/cuoq:sefm:2012
   - papers/mangano:crisis:2016
+- name: Yurii Kostyukov
+  papers:
+  - papers/kostyukov:pldi:2021
 - name: Phani Raj Goutham Kotcharlakota
   papers:
   - papers/pandey:issta:2019
@@ -2385,6 +2399,7 @@
   papers:
   - papers/jung:cacm:2021
   - papers/jung:popl:2017
+  - papers/sammler:pldi:2021
 - name: Shriram Krishnamurthi
   papers:
   - papers/krishnamurthi:fm:2019
@@ -2565,6 +2580,9 @@
 - name: Simone Lenti
   papers:
   - papers/angelini:vizsec:2019
+- name: Rodolphe Lepigre
+  papers:
+  - papers/sammler:pldi:2021
 - name: Jay Lepreau
   papers:
   - papers/eide:aspse:2001
@@ -2928,6 +2946,9 @@
 - name: Kathryn S. McKinley
   papers:
   - papers/maas:asplos:2020
+- name: Joseph McMahan
+  papers:
+  - papers/vega:pldi:2021
 - name: Kenneth L. McMillan
   papers:
   - papers/jhala:cav:2001
@@ -2963,6 +2984,9 @@
 - name: Sergey Melnik
   papers:
   - papers/corbett:tocs:2013
+- name: Kayvan Memarian
+  papers:
+  - papers/sammler:pldi:2021
 - name: Charith Mendis
   papers:
   - papers/chen:iiswc:2019
@@ -3027,6 +3051,9 @@
   papers:
   - papers/nienhuis:secpriv:2020
   - papers/woodruff:isca:2014
+- name: Dmitry Mordvinov
+  papers:
+  - papers/kostyukov:pldi:2021
 - name: Robert Morris
   papers:
   - papers/dabek:sigops:2002
@@ -3895,6 +3922,12 @@
   papers:
   - papers/samet:ieeetse:1977
   - papers/samet:phd:1975
+- name: Michael Sammler
+  papers:
+  - papers/sammler:pldi:2021
+- name: Adrian Sampson
+  papers:
+  - papers/vega:pldi:2021
 - name: Richard Samuels
   papers:
   - papers/morrisett:wcsss:1999
@@ -4549,6 +4582,9 @@
   papers:
   - papers/vasudevan:secpriv:2013
   - papers/vasudevan:usenix:2016
+- name: Luis Vega
+  papers:
+  - papers/vega:pldi:2021
 - name: Helmut Veith
   papers:
   - papers/clarke:cav:2000

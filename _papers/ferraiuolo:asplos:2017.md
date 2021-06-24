@@ -18,8 +18,9 @@ readings: []
 title: Verification of a practical hardware security architecture through static information flow analysis
 volume: '45'
 year: 2017
-topics:
+notes:
 - hardware
+topics:
 - security
 - verification
 notes:

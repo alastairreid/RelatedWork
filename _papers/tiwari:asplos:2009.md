@@ -21,9 +21,9 @@ title: Complete information flow tracking from the gates up
 volume: '44'
 year: 2009
 topics:
-- hardware
 - security
 notes:
+- hardware
 - information flow
 papers:
 ---

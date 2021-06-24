@@ -39,6 +39,7 @@ notes:
 - abstract interpretation
 - SeaHorn verifier
 - LLVM compiler
+- Horn clause
 papers:
 ---
 
