@@ -323,6 +323,9 @@ notes:
   - - notes/coq-theorem-prover
     - - Coq theorem prover
       - null
+  - - notes/phantom-types
+    - - Phantom types
+      - null
   notes/differential-power-analysis: []
   notes/differential-testing: []
   notes/digfuzz-fuzzer:
@@ -357,6 +360,9 @@ notes:
     - - Software Verification Competition (SV-COMP)
       - null
   notes/foreign-function-interface:
+  - - notes/phantom-types
+    - - Phantom types
+      - null
   - - notes/smt-lib-format
     - - SMT-LIB format
       - null
@@ -798,7 +804,10 @@ notes:
   - - notes/viper-verifier
     - - Viper verifier
       - null
-  notes/phantom-types: []
+  notes/phantom-types:
+  - - notes/foreign-function-interface
+    - - Foreign function interface
+      - null
   notes/pin-tool: []
   notes/pipeline-parallelism:
   - - notes/stream-processing
@@ -1628,6 +1637,7 @@ notes:
   - - notes/magic-wand
     - - Magic wand
       - null
+  papers/blume:babel:2001: []
   papers/bodin:popl:2014:
   - - notes/javascript
     - - JavaScript programming language
@@ -1682,6 +1692,7 @@ notes:
       - null
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
+  papers/burton:toplas:1990: []
   papers/bush:atlantic:1945: []
   papers/bush:spe:2000: []
   papers/busse:issta:2020: []
@@ -1880,6 +1891,7 @@ notes:
   papers/filliatre:cav:2007: []
   papers/filliatre:esop:2013: []
   papers/filliatre:fem:2004: []
+  papers/finne:icfp:1999: []
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
@@ -2273,6 +2285,7 @@ notes:
   papers/matsushita:esop:2020: []
   papers/maus:amast:2008: []
   papers/mavin:isre:2009: []
+  papers/mcbride:jfp:2002: []
   papers/mcilroy:arxiv:2019: []
   papers/mcmillan:cav:1998:
   - - notes/symbolic-model-checking
@@ -2495,6 +2508,8 @@ notes:
       - null
   papers/reid:yale:1998: []
   papers/reid:yale:2001: []
+  papers/remy:popl:1989: []
+  papers/reppy:att:1996: []
   papers/reynolds:lics:2002: []
   papers/rieman:chi:1995: []
   papers/roessle:cpp:2019: []
@@ -2691,6 +2706,7 @@ notes:
     - - Ownership types
       - null
   papers/wand:lfp:1980: []
+  papers/wand:lics:1987: []
   papers/wang:pldi:2007: []
   papers/wang:sosp:2013:
   - - notes/rust-unsafe-code
@@ -3634,6 +3650,9 @@ papers:
   - - papers/furr:pldi:2005
     - - Checking type safety of foreign function calls
       - furr:pldi:2005
+  - - papers/mcbride:jfp:2002
+    - - 'Faking it: Simulating dependent types in Haskell'
+      - mcbride:jfp:2002
   - - papers/nanevski:icfp:2008
     - - 'Ynot: Dependent types for imperative programs'
       - nanevski:icfp:2008
@@ -3755,10 +3774,16 @@ papers:
         based approach'
       - lindner:indin:2019
   notes/foreign-function-interface:
+  - - papers/blume:babel:2001
+    - - 'No-longer-foreign: Teaching an ML compiler to speak C "natively"'
+      - blume:babel:2001
   - - papers/chakravarty:haskffi:2003
     - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
         98 report'
       - chakravarty:haskffi:2003
+  - - papers/finne:icfp:1999
+    - - Calling hell from heaven and heaven from hell
+      - finne:icfp:1999
   - - papers/furr:pldi:2005
     - - Checking type safety of foreign function calls
       - furr:pldi:2005
@@ -3769,6 +3794,9 @@ papers:
     - - 'Malloc pointers and stable pointers: Improving Haskell''s foreign language
         interface'
       - reid:gfpw:1994
+  - - papers/reppy:att:1996
+    - - A safe interface to sockets
+      - reppy:att:1996
   notes/formal-specification:
   - - papers/bodin:popl:2014
     - - A trusted mechanised JavaScript specification
@@ -5454,9 +5482,30 @@ papers:
   - - papers/beingessner:msc:2015
     - - You can't spell trust without Rust
       - beingessner:msc:2015
+  - - papers/blume:babel:2001
+    - - 'No-longer-foreign: Teaching an ML compiler to speak C "natively"'
+      - blume:babel:2001
+  - - papers/burton:toplas:1990
+    - - Type extension through polymorphism
+      - burton:toplas:1990
+  - - papers/finne:icfp:1999
+    - - Calling hell from heaven and heaven from hell
+      - finne:icfp:1999
   - - papers/fluet:jfp:2006
     - - Phantom types and subtyping
       - fluet:jfp:2006
+  - - papers/mcbride:jfp:2002
+    - - 'Faking it: Simulating dependent types in Haskell'
+      - mcbride:jfp:2002
+  - - papers/remy:popl:1989
+    - - Type checking records and variants in a natural extension of ML
+      - remy:popl:1989
+  - - papers/reppy:att:1996
+    - - A safe interface to sockets
+      - reppy:att:1996
+  - - papers/wand:lics:1987
+    - - Complete type inference for simple objects
+      - wand:lics:1987
   - - papers/yanovski:unknown:2021
     - - 'GhostCell: Separating permissions from data in Rust'
       - yanovski:unknown:2021
@@ -7437,6 +7486,7 @@ papers:
   papers/blanqui:rapido:2011: []
   papers/blelloch:book:1990: []
   papers/blom:ijsttt:2015: []
+  papers/blume:babel:2001: []
   papers/bodin:popl:2014: []
   papers/boespflug:fdtc:2020: []
   papers/boettcher:date:2014: []
@@ -7480,6 +7530,7 @@ papers:
       - stump:fmsd:2013
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
+  papers/burton:toplas:1990: []
   papers/bush:atlantic:1945: []
   papers/bush:spe:2000: []
   papers/busse:issta:2020: []
@@ -7733,6 +7784,7 @@ papers:
   - - papers/philippaerts:scp:2014
     - - 'Software verification with VeriFast: Industrial case studies'
       - philippaerts:scp:2014
+  papers/finne:icfp:1999: []
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
@@ -8150,6 +8202,7 @@ papers:
       - ullrich:msc:2016
   papers/maus:amast:2008: []
   papers/mavin:isre:2009: []
+  papers/mcbride:jfp:2002: []
   papers/mcilroy:arxiv:2019: []
   papers/mcmillan:cav:1998: []
   papers/mcmillan:ecs:2003: []
@@ -8422,6 +8475,8 @@ papers:
   papers/reid:phd:2019: []
   papers/reid:yale:1998: []
   papers/reid:yale:2001: []
+  papers/remy:popl:1989: []
+  papers/reppy:att:1996: []
   papers/reynolds:lics:2002:
   - - papers/jacobs:vstte:2010
     - - 'VeriFast: Imperative programs as proofs'
@@ -8644,6 +8699,7 @@ papers:
   papers/walker:popl:2000: []
   papers/walker:tic:2001: []
   papers/wand:lfp:1980: []
+  papers/wand:lics:1987: []
   papers/wang:pldi:2007: []
   papers/wang:sosp:2013: []
   papers/wang:tase:2018: []

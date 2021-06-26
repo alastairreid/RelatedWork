@@ -420,6 +420,9 @@
 - name: Stefan Blom
   papers:
   - papers/blom:ijsttt:2015
+- name: Matthias Blume
+  papers:
+  - papers/blume:babel:2001
 - name: Joshua Bockenek
   papers:
   - papers/verbeek:fmmsd:2019
@@ -550,6 +553,9 @@
 - name: Mike Burrows
   papers:
   - papers/chang:tocs:2012
+- name: F. Warren Burton
+  papers:
+  - papers/burton:toplas:1990
 - name: Warren Burton
   papers:
   - papers/jones:hasklang:1999
@@ -1303,6 +1309,7 @@
 - name: Sigbjorn Finne
   papers:
   - papers/chakravarty:haskffi:2003
+  - papers/finne:icfp:1999
 - name: Irene Finocchi
   papers:
   - papers/baldoni:compsurv:2018
@@ -2143,6 +2150,9 @@
   - papers/jones:hw:1997
   - papers/jones:microsoft:2001
   - papers/jones:pldi:1999
+- name: Simon Peyton Jones
+  papers:
+  - papers/finne:icfp:1999
 - name: Mark Jones
   papers:
   - papers/jones:hasklang:1999
@@ -2544,6 +2554,7 @@
 - name: Daan Leijen
   papers:
   - papers/chakravarty:haskffi:2003
+  - papers/finne:icfp:1999
 - name: Dirk Leinenbach
   papers:
   - papers/beyer:ijsttt:2006
@@ -2934,6 +2945,9 @@
 - name: Keegan McAllister
   papers:
   - papers/anderson:icse:2016
+- name: CONOR McBRIDE
+  papers:
+  - papers/mcbride:jfp:2002
 - name: Stephen McCamant
   papers:
   - papers/martignoni:asplos:2012
@@ -2970,6 +2984,7 @@
 - name: Erik Meijer
   papers:
   - papers/chakravarty:haskffi:2003
+  - papers/finne:icfp:1999
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
 - name: Thomas F. Melham
@@ -3790,6 +3805,9 @@
 - name: Alex Renda
   papers:
   - papers/chen:iiswc:2019
+- name: John H Reppy
+  papers:
+  - papers/reppy:att:1996
 - name: Andrew Reynolds
   papers:
   - papers/barrett:cav:2011
@@ -3892,6 +3910,9 @@
   papers:
   - papers/balasubramanium:hotos:2017
   - papers/narayanan:hotos:2019
+- name: "D. R\xE9my"
+  papers:
+  - papers/remy:popl:1989
 - name: "Philipp R\xFCmmer"
   papers:
   - papers/leino:tacas:2010
@@ -4677,6 +4698,7 @@
 - name: Mitchell Wand
   papers:
   - papers/wand:lfp:1980
+  - papers/wand:lics:1987
 - name: Wei Wang
   papers:
   - papers/babic:fse:2019
