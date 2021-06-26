@@ -3784,6 +3784,9 @@ papers:
   - - papers/finne:icfp:1999
     - - Calling hell from heaven and heaven from hell
       - finne:icfp:1999
+  - - papers/fluet:jfp:2006
+    - - Phantom types and subtyping
+      - fluet:jfp:2006
   - - papers/furr:pldi:2005
     - - Checking type safety of foreign function calls
       - furr:pldi:2005
@@ -7486,7 +7489,10 @@ papers:
   papers/blanqui:rapido:2011: []
   papers/blelloch:book:1990: []
   papers/blom:ijsttt:2015: []
-  papers/blume:babel:2001: []
+  papers/blume:babel:2001:
+  - - papers/fluet:jfp:2006
+    - - Phantom types and subtyping
+      - fluet:jfp:2006
   papers/bodin:popl:2014: []
   papers/boespflug:fdtc:2020: []
   papers/boettcher:date:2014: []
@@ -7784,7 +7790,10 @@ papers:
   - - papers/philippaerts:scp:2014
     - - 'Software verification with VeriFast: Industrial case studies'
       - philippaerts:scp:2014
-  papers/finne:icfp:1999: []
+  papers/finne:icfp:1999:
+  - - papers/fluet:jfp:2006
+    - - Phantom types and subtyping
+      - fluet:jfp:2006
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
@@ -8476,7 +8485,10 @@ papers:
   papers/reid:yale:1998: []
   papers/reid:yale:2001: []
   papers/remy:popl:1989: []
-  papers/reppy:att:1996: []
+  papers/reppy:att:1996:
+  - - papers/fluet:jfp:2006
+    - - Phantom types and subtyping
+      - fluet:jfp:2006
   papers/reynolds:lics:2002:
   - - papers/jacobs:vstte:2010
     - - 'VeriFast: Imperative programs as proofs'
