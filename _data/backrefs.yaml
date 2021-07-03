@@ -1891,7 +1891,10 @@ notes:
   papers/filliatre:cav:2007: []
   papers/filliatre:esop:2013: []
   papers/filliatre:fem:2004: []
-  papers/finne:icfp:1999: []
+  papers/finne:icfp:1999:
+  - - notes/foreign-function-interface
+    - - Foreign function interface
+      - null
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
@@ -2192,6 +2195,7 @@ notes:
   - - notes/threads
     - - Threads
       - null
+  papers/lauinger:trustcom:2020: []
   papers/lee:micro:1996: []
   papers/legoues:sefm:2011:
   - - notes/intermediate-verification-language
@@ -2674,6 +2678,7 @@ notes:
       - null
   papers/ullrich:msc:2016: []
   papers/vanegue:sandp:2013: []
+  papers/vantonder:icse:2018: []
   papers/vasudevan:secpriv:2013: []
   papers/vasudevan:usenix:2016:
   - - notes/annotation-burden
@@ -8108,6 +8113,7 @@ papers:
   papers/lal:pldi:2015: []
   papers/lattner:cgo:2004: []
   papers/lauer:osr:1979: []
+  papers/lauinger:trustcom:2020: []
   papers/lee:micro:1996: []
   papers/legoues:sefm:2011: []
   papers/leinenbach:fm:2009:
@@ -8570,7 +8576,10 @@ papers:
   papers/sewell:pldi:2013: []
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
-  papers/sheeran:fmcad:2000: []
+  papers/sheeran:fmcad:2000:
+  - - papers/gurfinkel:fmcad:2017
+    - - K-induction without unrolling
+      - gurfinkel:fmcad:2017
   papers/shi:phd:2013: []
   papers/shoshitaishvili:sandp:2016: []
   papers/shoshitaishvili:sp:2016: []
@@ -8691,6 +8700,7 @@ papers:
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
   papers/vanegue:sandp:2013: []
+  papers/vantonder:icse:2018: []
   papers/vasudevan:secpriv:2013: []
   papers/vasudevan:usenix:2016: []
   papers/vega:pldi:2021: []

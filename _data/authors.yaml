@@ -291,6 +291,9 @@
   - papers/baumann:hotos:2017
   - papers/ferraiuolo:sosp:2017
   - papers/nelson:sosp:2019
+- name: "Lars Baumg\xE4rtner"
+  papers:
+  - papers/lauinger:trustcom:2020
 - name: Wim Beck
   papers:
   - papers/milushev:forte:2012
@@ -1591,6 +1594,7 @@
 - name: Claire Le Goues
   papers:
   - papers/legoues:sefm:2011
+  - papers/vantonder:icse:2018
 - name: Paul Govereau
   papers:
   - papers/nanevski:icfp:2008
@@ -2515,6 +2519,9 @@
 - name: Hugh C. Lauer
   papers:
   - papers/lauer:osr:1979
+- name: Johannes Lauinger
+  papers:
+  - papers/lauinger:trustcom:2020
 - name: Henrich Lauko
   papers:
   - papers/baranova:atva:2017
@@ -3018,6 +3025,9 @@
 - name: Heinrich Meyr
   papers:
   - papers/zivojnovic:vlsi:1996
+- name: Mira Mezini
+  papers:
+  - papers/lauinger:trustcom:2020
 - name: Barton P. Miller
   papers:
   - papers/miller:cacm:1990
@@ -4521,6 +4531,9 @@
 - name: John Toman
   papers:
   - papers/toman:ase:2015
+- name: Rijnard van Tonder
+  papers:
+  - papers/vantonder:icse:2018
 - name: Nigel P. Topham
   papers:
   - papers/bird:sc:1993
@@ -4804,6 +4817,9 @@
 - name: John Wickerson
   papers:
   - papers/wickerson:popl:2017
+- name: Anna-Katharina Wickert
+  papers:
+  - papers/lauinger:trustcom:2020
 - name: Thomas Wies
   papers:
   - papers/berdine:cav:2007

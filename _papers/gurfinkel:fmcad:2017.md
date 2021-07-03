@@ -21,5 +21,6 @@ title: K-induction without unrolling
 year: 2017
 notes:
 papers:
+- sheeran:fmcad:2000
 ---
 {% include links.html %}
