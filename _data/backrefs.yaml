@@ -2016,6 +2016,7 @@ notes:
     - - Annotation burden
       - null
   papers/guanciale:ccs:2020: []
+  papers/guarnieri:sandp:2020: []
   papers/gurfinkel:cav:2015:
   - - notes/seahorn-verifier
     - - SeaHorn verifier
@@ -2528,6 +2529,7 @@ notes:
   - - notes/cray-architecture
     - - Cray architecture
       - null
+  papers/russinovich:acmq:2021: []
   papers/rutledge:icse:2019: []
   papers/rutledge:icse:2020: []
   papers/sabelfield:jcs:2009: []
@@ -2564,6 +2566,7 @@ notes:
       - null
   papers/seshadri:sosp:2007: []
   papers/sewell:pldi:2013: []
+  papers/shamis:arxiv:2021: []
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
   papers/sheeran:fmcad:2000: []
@@ -2688,6 +2691,7 @@ notes:
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []
   papers/verbeek:fmmsd:2019: []
+  papers/vila:pldi:2020: []
   papers/visser:tacas:2020: []
   papers/vogels:fmoods:2011:
   - - notes/annotation-burden
@@ -2731,6 +2735,7 @@ notes:
   papers/windley:ieeetoc:1995: []
   papers/woh:micro:2008: []
   papers/wolf:codes:2004: []
+  papers/wolff:draft:2021: []
   papers/woodruff:isca:2014:
   - - notes/capabilities
     - - Capabilities
@@ -3297,6 +3302,9 @@ papers:
   - - papers/chen:sp:2020
     - - 'SAVIOR: Towards bug-driven hybrid testing'
       - chen:sp:2020
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   - - papers/majumdar:icse:2007
     - - Hybrid concolic testing
       - majumdar:icse:2007
@@ -4036,6 +4044,9 @@ papers:
   - - papers/ferraiuolo:dac:2017
     - - Secure information flow verification with mutable dependent types
       - ferraiuolo:dac:2017
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   - - papers/liu:cpsspc:2018
     - - Secure autonomous cyber-physical systems through verifiable information flow
         control
@@ -4066,6 +4077,9 @@ papers:
   - - papers/vega:pldi:2021
     - - 'Reticle: A virtual machine for programming modern FPGAs'
       - vega:pldi:2021
+  - - papers/vila:pldi:2020
+    - - 'CacheQuery: Learning replacement policies from hardware caches'
+      - vila:pldi:2020
   - - papers/zhang:asplos:2015
     - - A hardware design language for timing-sensitive information flow security
       - zhang:asplos:2015
@@ -5261,6 +5275,9 @@ papers:
   - - papers/bowman:icfp:2015
     - - Noninterference for free
       - bowman:icfp:2015
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   - - papers/hritcu:icfp:2013
     - - Testing noninterference, quickly
       - hritcu:icfp:2013
@@ -6120,6 +6137,9 @@ papers:
     - - 'InSpectre: Breaking and fixing microarchitectural vulnerabilities by formal
         analysis'
       - guanciale:ccs:2020
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   - - papers/kim:isca:2014
     - - 'Flipping bits in memory without accessing them: An experimental study of
         DRAM disturbance errors'
@@ -6142,6 +6162,9 @@ papers:
   - - papers/tang:sec:2017
     - - 'CLKSCREW: Exposing the perils of security-oblivious energy management'
       - tang:sec:2017
+  - - papers/vila:pldi:2020
+    - - 'CacheQuery: Learning replacement policies from hardware caches'
+      - vila:pldi:2020
   notes/simd:
   - - papers/boettcher:date:2014
     - - 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
@@ -6248,6 +6271,9 @@ papers:
   - - papers/demoura:tacas:2008
     - - 'Z3: An efficient SMT solver'
       - demoura:tacas:2008
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   - - papers/jacobs:nfm:2011
     - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
       - jacobs:nfm:2011
@@ -6320,6 +6346,9 @@ papers:
     - - Reasoning about comprehensions with first-order SMT solvers
       - leino:sac:2009
   notes/speculative-execution:
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
@@ -6567,6 +6596,9 @@ papers:
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   - - papers/jaffar:arxiv:2020
     - - 'TracerX: Dynamic symbolic execution with interpolation'
       - jaffar:arxiv:2020
@@ -7891,6 +7923,7 @@ papers:
     - - End-to-end verification of information flow security for C and assembly programs
       - costanzo:pldi:2016
   papers/guanciale:ccs:2020: []
+  papers/guarnieri:sandp:2020: []
   papers/gurfinkel:cav:2015:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'
@@ -8512,6 +8545,7 @@ papers:
   papers/rozier:vstte:2016: []
   papers/rushby:sri:1992: []
   papers/russell:cacm:1978: []
+  papers/russinovich:acmq:2021: []
   papers/rutledge:icse:2019: []
   papers/rutledge:icse:2020: []
   papers/sabelfield:jcs:2009: []
@@ -8574,6 +8608,7 @@ papers:
         of a hypervisor'
       - franklin:cmu:2008
   papers/sewell:pldi:2013: []
+  papers/shamis:arxiv:2021: []
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
   papers/sheeran:fmcad:2000:
@@ -8707,6 +8742,7 @@ papers:
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []
   papers/verbeek:fmmsd:2019: []
+  papers/vila:pldi:2020: []
   papers/visser:tacas:2020: []
   papers/vogels:fmoods:2011:
   - - papers/philippaerts:scp:2014
@@ -8736,6 +8772,7 @@ papers:
         on chip'
       - reid:cases:2008
   papers/wolf:codes:2004: []
+  papers/wolff:draft:2021: []
   papers/woodruff:isca:2014:
   - - papers/nienhuis:secpriv:2020
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in

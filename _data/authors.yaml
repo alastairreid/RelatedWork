@@ -134,6 +134,9 @@
 - name: "Krste Asanovi\u0107"
   papers:
   - papers/asanovic:phd:1998
+- name: Edward Ashton
+  papers:
+  - papers/shamis:arxiv:2021
 - name: Vytautas Astrauskas
   papers:
   - papers/astrauskas:oopsla:2019
@@ -370,6 +373,9 @@
 - name: Abhijith Bharadwaj
   papers:
   - papers/verbeek:fmmsd:2019
+- name: Vikas Bhatia
+  papers:
+  - papers/russinovich:acmq:2021
 - name: Abhishek Bhattacharjee
   papers:
   - papers/lustig:asplos:2016
@@ -576,6 +582,9 @@
 - name: Frank Busse
   papers:
   - papers/busse:issta:2020
+- name: "Aurel B\xEDl\xFD"
+  papers:
+  - papers/wolff:draft:2021
 - name: "Marcel B\xF6hme"
   papers:
   - papers/bohme2:fse:2020
@@ -642,6 +651,9 @@
 - name: Ghila Castelnuovo
   papers:
   - papers/naik:popl:2012
+- name: Miguel Castro
+  papers:
+  - papers/shamis:arxiv:2021
 - name: Bruno Castro-Karney
   papers:
   - papers/sigurbjarnarson:osdi:2018
@@ -682,6 +694,9 @@
 - name: Marek Chalupa
   papers:
   - papers/chalupa:tacas:2021
+- name: Amaury Chamayou
+  papers:
+  - papers/shamis:arxiv:2021
 - name: Tushar Chandra
   papers:
   - papers/chang:tocs:2012
@@ -741,6 +756,7 @@
   - papers/chipounov:tcs:2012
 - name: David Chisnall
   papers:
+  - papers/russinovich:acmq:2021
   - papers/woodruff:isca:2014
 - name: Adam J. Chlipala
   papers:
@@ -818,6 +834,10 @@
 - name: Michael R. Clarkson
   papers:
   - papers/clarkson:jcs:2010
+- name: Sylvan Clebsch
+  papers:
+  - papers/russinovich:acmq:2021
+  - papers/shamis:arxiv:2021
 - name: Natan Cliffer
   papers:
   - papers/krohn:sosp:2007
@@ -891,6 +911,10 @@
 - name: Nassim Corteggiani
   papers:
   - papers/corteggiani:usenix:2018
+- name: Manuel Costa
+  papers:
+  - papers/russinovich:acmq:2021
+  - papers/shamis:arxiv:2021
 - name: David Costanzo
   papers:
   - papers/costanzo:pldi:2016
@@ -1019,6 +1043,10 @@
 - name: Anastasios Deligiannis
   papers:
   - papers/reid:cav:2016
+- name: Antoine Delignat-Lavaud
+  papers:
+  - papers/russinovich:acmq:2021
+  - papers/shamis:arxiv:2021
 - name: Camil Demetrescu
   papers:
   - papers/angelini:vizsec:2019
@@ -1364,6 +1392,12 @@
 - name: Nate Foster
   papers:
   - papers/liu:sigcomm:2018
+- name: "C\xE9dric Fournet"
+  papers:
+  - papers/russinovich:acmq:2021
+- name: Cedric Fournet
+  papers:
+  - papers/shamis:arxiv:2021
 - name: Anthony C. J. Fox
   papers:
   - papers/fox:cambridge:2001
@@ -1466,6 +1500,9 @@
 - name: Dennis Gannon
   papers:
   - papers/veldhuizen:oo:1998
+- name: Pierre Ganty
+  papers:
+  - papers/vila:pldi:2020
 - name: Debin Gao
   papers:
   - papers/ma:securecomm:2015
@@ -1675,6 +1712,10 @@
   - papers/dam:ted:2013
   - papers/dam:trusted:2013
   - papers/guanciale:ccs:2020
+- name: Marco Guarnieri
+  papers:
+  - papers/guarnieri:sandp:2020
+  - papers/vila:pldi:2020
 - name: Andrey Gubarev
   papers:
   - papers/corbett:tocs:2013
@@ -2275,6 +2316,9 @@
 - name: Gabriel Kerneis
   papers:
   - papers/gray:micro:2015
+- name: Matthew Kerner
+  papers:
+  - papers/shamis:arxiv:2021
 - name: Danny Kershaw
   papers:
   - papers/woh:micro:2008
@@ -2473,6 +2517,10 @@
 - name: "Tade\xE1\u0161 Ku\u010Dera"
   papers:
   - papers/baranova:atva:2017
+- name: "Boris K\xF6pf"
+  papers:
+  - papers/guarnieri:sandp:2020
+  - papers/vila:pldi:2020
 - name: "Ulrich K\xFChne"
   papers:
   - papers/kuhne:fmcad:2010
@@ -2818,6 +2866,9 @@
 - name: Sergio Maffeis
   papers:
   - papers/bodin:popl:2014
+- name: Julien Maffre
+  papers:
+  - papers/shamis:arxiv:2021
 - name: Rasool Maghareh
   papers:
   - papers/jaffar:arxiv:2020
@@ -2913,6 +2964,7 @@
 - name: Christoph Matheja
   papers:
   - papers/astrauskas:oopsla:2020
+  - papers/wolff:draft:2021
 - name: Daniel Matichuk
   papers:
   - papers/murray:secpriv:2013
@@ -3076,6 +3128,9 @@
   papers:
   - papers/nienhuis:secpriv:2020
   - papers/woodruff:isca:2014
+- name: "Jos\xE9 F. Morales"
+  papers:
+  - papers/guarnieri:sandp:2020
 - name: Dmitry Mordvinov
   papers:
   - papers/kostyukov:pldi:2021
@@ -3200,6 +3255,7 @@
   - papers/heule:vmcai:2013
   - papers/leino:fosad:2007
   - papers/muller:vmcai:2016
+  - papers/wolff:draft:2021
 - name: Santosh Nagarakatte
   papers:
   - papers/lopes:pldi:2015
@@ -3562,6 +3618,9 @@
   - papers/smans:ecoop:2009
   - papers/smans:fmood:2010
   - papers/vogels:fmoods:2011
+- name: Peter Pietzuch
+  papers:
+  - papers/shamis:arxiv:2021
 - name: Jonathan D. Pincus
   papers:
   - papers/bush:spe:2000
@@ -3806,6 +3865,9 @@
   - papers/reid:yale:2001
   - papers/stephens:micro:2017
   - papers/woh:micro:2008
+- name: Jan Reineke
+  papers:
+  - papers/guarnieri:sandp:2020
 - name: Alexander Reinhard
   papers:
   - papers/mantel:pls:2007
@@ -3912,6 +3974,10 @@
 - name: Richard M. Russell
   papers:
   - papers/russell:cacm:1978
+- name: Mark Russinovich
+  papers:
+  - papers/russinovich:acmq:2021
+  - papers/shamis:arxiv:2021
 - name: Richard Rutledge
   papers:
   - papers/rutledge:icse:2019
@@ -4120,6 +4186,9 @@
 - name: Muzammil Shahbaz
   papers:
   - papers/barr:tse:2015
+- name: Alex Shamis
+  papers:
+  - papers/shamis:arxiv:2021
 - name: Zhong Shao
   papers:
   - papers/costanzo:pldi:2016
@@ -4380,6 +4449,7 @@
   - papers/heule:vmcai:2013
   - papers/muller:vmcai:2016
   - papers/schwerhoff:ecoop:2015
+  - papers/wolff:draft:2021
 - name: Mingshen Sun
   papers:
   - papers/xu:arxiv:2021
@@ -4411,6 +4481,9 @@
 - name: Michal Szymaniak
   papers:
   - papers/corbett:tocs:2013
+- name: "Andr\xE9s S\xE1nchez"
+  papers:
+  - papers/guarnieri:sandp:2020
 - name: "Emma S\xF6derberg"
   papers:
   - papers/sadowski:icse-seip:2018
@@ -4616,6 +4689,9 @@
   papers:
   - papers/vasudevan:secpriv:2013
   - papers/vasudevan:usenix:2016
+- name: Kapil Vaswani
+  papers:
+  - papers/russinovich:acmq:2021
 - name: Luis Vega
   papers:
   - papers/vega:pldi:2021
@@ -4652,6 +4728,9 @@
 - name: Muralidaran Vijayaraghavan
   papers:
   - papers/choi:icfp:2017
+- name: Pepe Vila
+  papers:
+  - papers/vila:pldi:2020
 - name: Jules Villard
   papers:
   - papers/hobor:popl:2013
@@ -4861,6 +4940,9 @@
 - name: Pieter van der Wolf
   papers:
   - papers/wolf:codes:2004
+- name: Fabian Wolff
+  papers:
+  - papers/wolff:draft:2021
 - name: Jeremy Wong
   papers:
   - papers/gordon:asplos:2002
