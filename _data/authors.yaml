@@ -582,6 +582,9 @@
 - name: Frank Busse
   papers:
   - papers/busse:issta:2020
+- name: Theodore Butler
+  papers:
+  - papers/lietar:ismm:2019
 - name: "Aurel B\xEDl\xFD"
   papers:
   - papers/wolff:draft:2021
@@ -756,6 +759,7 @@
   - papers/chipounov:tcs:2012
 - name: David Chisnall
   papers:
+  - papers/lietar:ismm:2019
   - papers/russinovich:acmq:2021
   - papers/woodruff:isca:2014
 - name: Adam J. Chlipala
@@ -836,6 +840,7 @@
   - papers/clarkson:jcs:2010
 - name: Sylvan Clebsch
   papers:
+  - papers/lietar:ismm:2019
   - papers/russinovich:acmq:2021
   - papers/shamis:arxiv:2021
 - name: Natan Cliffer
@@ -1130,6 +1135,9 @@
   - papers/jung:popl:2020
   - papers/sammler:pldi:2021
   - papers/yanovski:unknown:2021
+- name: Sophia Drossopoulou
+  papers:
+  - papers/lietar:ismm:2019
 - name: Wei Du
   papers:
   - papers/du:sc:2003
@@ -1210,6 +1218,9 @@
 - name: Sebastian Elbaum
   papers:
   - papers/person:fse:2008
+- name: Liam Elberty
+  papers:
+  - papers/krishnamurthi:snapl:2019
 - name: Dhammika Elkaduwe
   papers:
   - papers/klein:sosp:2009
@@ -1413,6 +1424,9 @@
   - papers/corteggiani:usenix:2018
   - papers/poeplau:acsac:2019
   - papers/poeplau:usenix:2020
+- name: Juliana Franco
+  papers:
+  - papers/lietar:ismm:2019
 - name: Jason Franklin
   papers:
   - papers/franklin:cmu:2008
@@ -2461,6 +2475,7 @@
 - name: Shriram Krishnamurthi
   papers:
   - papers/krishnamurthi:fm:2019
+  - papers/krishnamurthi:snapl:2019
 - name: Arvind Krishnamurthy
   papers:
   - papers/fonseca:ecs:2017
@@ -2659,6 +2674,9 @@
 - name: Flavio Lerda
   papers:
   - papers/clarke:tacas:2004
+- name: Benjamin S. Lerner
+  papers:
+  - papers/krishnamurthi:snapl:2019
 - name: Xavier Leroy
   papers:
   - papers/leroy:cacm:2009
@@ -2763,6 +2781,9 @@
 - name: Weijie Liu
   papers:
   - papers/ma:securecomm:2015
+- name: "Paul Li\xE9tar"
+  papers:
+  - papers/lietar:ismm:2019
 - name: Alexander Lloyd
   papers:
   - papers/corbett:tocs:2013
@@ -3513,6 +3534,9 @@
   - papers/dinsdale-young:popl:2013
   - papers/hatcliff:compsurv:2012
   - papers/parkinson:popl:2005
+- name: Matthew J. Parkinson
+  papers:
+  - papers/lietar:ismm:2019
 - name: Gennaro Parlato
   papers:
   - papers/fischer:ase:2013
@@ -4188,6 +4212,7 @@
   - papers/barr:tse:2015
 - name: Alex Shamis
   papers:
+  - papers/lietar:ismm:2019
   - papers/shamis:arxiv:2021
 - name: Zhong Shao
   papers:
@@ -4927,6 +4952,9 @@
 - name: Collin Winter
   papers:
   - papers/sadowski:icse:2015
+- name: Christoph M. Wintersteiger
+  papers:
+  - papers/lietar:ismm:2019
 - name: Simon Winwood
   papers:
   - papers/klein:sosp:2009

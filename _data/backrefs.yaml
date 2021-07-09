@@ -2168,6 +2168,7 @@ notes:
   papers/kostyukov:pldi:2021: []
   papers/kozyrakis:phd:2002: []
   papers/krishnamurthi:fm:2019: []
+  papers/krishnamurthi:snapl:2019: []
   papers/krishnaswami:tldi:2010: []
   papers/kroening:dac:2001: []
   papers/kroening:itg:2000: []
@@ -2235,6 +2236,7 @@ notes:
       - null
   papers/lie:secpri:2003: []
   papers/lie:sosp:2003: []
+  papers/lietar:ismm:2019: []
   papers/liew:fse:2019: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
@@ -8112,6 +8114,7 @@ papers:
   papers/kostyukov:pldi:2021: []
   papers/kozyrakis:phd:2002: []
   papers/krishnamurthi:fm:2019: []
+  papers/krishnamurthi:snapl:2019: []
   papers/krishnaswami:tldi:2010:
   - - papers/hobor:popl:2013
     - - The ramifications of sharing in data structures
@@ -8188,6 +8191,7 @@ papers:
   papers/li:tocs:1989: []
   papers/lie:secpri:2003: []
   papers/lie:sosp:2003: []
+  papers/lietar:ismm:2019: []
   papers/liew:fse:2019: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
