@@ -1739,6 +1739,7 @@ notes:
   papers/chalupa:tacas:2021: []
   papers/chang:tocs:2012: []
   papers/chatterjee:tacas:2007: []
+  papers/chen:arxiv:2021: []
   papers/chen:iiswc:2019: []
   papers/chen:sp:2020: []
   papers/chipounov:asplos:2011:
@@ -2544,6 +2545,7 @@ notes:
     - - Translation validation
       - null
   papers/sammler:pldi:2021: []
+  papers/sardar:access:2021: []
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
   papers/schemmel:cav:2020: []
@@ -2745,6 +2747,7 @@ notes:
   - - notes/cheri-architecture
     - - CHERI architecture
       - null
+  papers/woodruff:tocs:2019: []
   papers/wright:icsm:2013: []
   papers/wu:arxiv:2017: []
   papers/xi:icfp:2001: []
@@ -3187,6 +3190,9 @@ papers:
   - - papers/woodruff:isca:2014
     - - 'The CHERI capability model: Revisiting RISC in an age of risk'
       - woodruff:isca:2014
+  - - papers/woodruff:tocs:2019
+    - - 'CHERI concentrate: Practical compressed capabilities'
+      - woodruff:tocs:2019
   notes/case-splitting:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
@@ -3279,6 +3285,9 @@ papers:
   - - papers/woodruff:isca:2014
     - - 'The CHERI capability model: Revisiting RISC in an age of risk'
       - woodruff:isca:2014
+  - - papers/woodruff:tocs:2019
+    - - 'CHERI concentrate: Practical compressed capabilities'
+      - woodruff:tocs:2019
   notes/cil-tool:
   - - papers/necula:cc:2002
     - - 'CIL: Intermediate language and tools for analysis and transformation of C
@@ -7634,6 +7643,7 @@ papers:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
       - barnett:cacm:2011
+  papers/chen:arxiv:2021: []
   papers/chen:iiswc:2019: []
   papers/chen:sp:2020: []
   papers/chipounov:asplos:2011: []
@@ -8586,6 +8596,7 @@ papers:
   papers/samet:ieeetse:1977: []
   papers/samet:phd:1975: []
   papers/sammler:pldi:2021: []
+  papers/sardar:access:2021: []
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
   papers/schemmel:cav:2020: []
@@ -8782,6 +8793,10 @@ papers:
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
         the CHERI design and implementation process'
       - nienhuis:secpriv:2020
+  - - papers/woodruff:tocs:2019
+    - - 'CHERI concentrate: Practical compressed capabilities'
+      - woodruff:tocs:2019
+  papers/woodruff:tocs:2019: []
   papers/wright:icsm:2013:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
