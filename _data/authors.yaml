@@ -315,6 +315,9 @@
 - name: Mohammad Bavarian
   papers:
   - papers/chen:arxiv:2021
+- name: Matt Beadon
+  papers:
+  - papers/dixit:arxiv:2021
 - name: Wim Beck
   papers:
   - papers/milushev:forte:2012
@@ -556,6 +559,9 @@
 - name: Richard Bruce
   papers:
   - papers/woh:micro:2008
+- name: Jean-Michel Bruel
+  papers:
+  - papers/bruel:compsurv:2021
 - name: David Brumley
   papers:
   - papers/avgerinos:cacm:2014
@@ -721,6 +727,9 @@
   papers:
   - papers/lin:sips:2006
   - papers/woh:micro:2008
+- name: Tejasvi Chakravarthy
+  papers:
+  - papers/dixit:arxiv:2021
 - name: Manuel Chakravarty
   papers:
   - papers/chakravarty:haskffi:2003
@@ -806,9 +815,13 @@
   papers:
   - papers/beyer:sas:2004
   - papers/choi:icfp:2017
+- name: Adam Chlipala
+  papers:
+  - papers/erbsen:pldi:2021
 - name: Joonwon Choi
   papers:
   - papers/choi:icfp:2017
+  - papers/erbsen:pldi:2021
 - name: Jong-Deok Choi
   papers:
   - papers/zhuang:pldi:2006
@@ -983,6 +996,9 @@
   papers:
   - papers/gay:pldi:2003
   - papers/levy:plos:2015
+- name: David E. Culler
+  papers:
+  - papers/hochschild:hotos:2021
 - name: Dave Cummings
   papers:
   - papers/chen:arxiv:2021
@@ -1156,6 +1172,9 @@
 - name: David R. Ditzel
   papers:
   - papers/patterson:sigarch:1980
+- name: Harish Dattatraya Dixit
+  papers:
+  - papers/dixit:arxiv:2021
 - name: Jovan Djordjevic
   papers:
   - papers/djordjevic:cj:1985
@@ -1236,6 +1255,9 @@
 - name: Jacob Eapen
   papers:
   - papers/stephens:micro:2017
+- name: Sophie Ebersold
+  papers:
+  - papers/bruel:compsurv:2021
 - name: John G. Edenhofner
   papers:
   - papers/siegel:sc:2015
@@ -1311,6 +1333,9 @@
 - name: Michael Epstein
   papers:
   - papers/corbett:tocs:2013
+- name: Andres Erbsen
+  papers:
+  - papers/erbsen:pldi:2021
 - name: Johan Eriksson
   papers:
   - papers/lindner:indin:2019
@@ -1555,6 +1580,9 @@
 - name: Juan P. Galeotti
   papers:
   - papers/frias:icse:2005
+- name: Florian Galinier
+  papers:
+  - papers/bruel:compsurv:2021
 - name: Jacek Galowicz
   papers:
   - papers/becker:fm:2016
@@ -1705,6 +1733,9 @@
 - name: Paul Govereau
   papers:
   - papers/nanevski:icfp:2008
+- name: Rama Govindaraju
+  papers:
+  - papers/hochschild:hotos:2021
 - name: Kathryn E. Gray
   papers:
   - papers/armstrong:arw:2018
@@ -1764,6 +1795,9 @@
 - name: Robert E. Gruber
   papers:
   - papers/chang:tocs:2012
+- name: Samuel Gruetter
+  papers:
+  - papers/erbsen:pldi:2021
 - name: Orna Grumberg
   papers:
   - papers/clarke:cav:2000
@@ -2011,6 +2045,9 @@
 - name: Peter Hochschild
   papers:
   - papers/corbett:tocs:2013
+- name: Peter H. Hochschild
+  papers:
+  - papers/hochschild:hotos:2021
 - name: Henry Hoffmann
   papers:
   - papers/gordon:asplos:2002
@@ -3078,6 +3115,9 @@
   papers:
   - papers/lustig:asplos:2016
   - papers/zhang:fmcad:2018
+- name: Chris Mason
+  papers:
+  - papers/dixit:arxiv:2021
 - name: Alexia Massalin
   papers:
   - papers/massalin:asplos:1987
@@ -3124,6 +3164,9 @@
 - name: Michelle L. Mazurek
   papers:
   - papers/votipka:sp:2018
+- name: Manuel Mazzara
+  papers:
+  - papers/bruel:compsurv:2021
 - name: Keegan McAllister
   papers:
   - papers/anderson:icse:2016
@@ -3203,6 +3246,9 @@
   papers:
   - papers/goguen:secpriv:1982
   - papers/goguen:secpriv:1984
+- name: Bertrand Meyer
+  papers:
+  - papers/bruel:compsurv:2021
 - name: Heinrich Meyr
   papers:
   - papers/zivojnovic:vlsi:1996
@@ -3239,6 +3285,9 @@
 - name: Jack Moffitt
   papers:
   - papers/anderson:icse:2016
+- name: Jeffrey C. Mogul
+  papers:
+  - papers/hochschild:hotos:2021
 - name: David Molnar
   papers:
   - papers/godefroid:acmq:2012
@@ -3343,6 +3392,9 @@
 - name: Saidgani Musaev
   papers:
   - papers/sardar:access:2021
+- name: Bharath Muthiah
+  papers:
+  - papers/dixit:arxiv:2021
 - name: Onur Mutlu
   papers:
   - papers/kim:isca:2014
@@ -3446,6 +3498,9 @@
 - name: David A. Naumann
   papers:
   - papers/naumann:fmco:2004
+- name: Alexandr Naumchev
+  papers:
+  - papers/bruel:compsurv:2021
 - name: Jorge A. Navas
   papers:
   - papers/gennari:vstte:2018
@@ -3721,6 +3776,9 @@
 - name: Alex Peleg
   papers:
   - papers/peleg:micro:1996
+- name: Sneha Pendharkar
+  papers:
+  - papers/dixit:arxiv:2021
 - name: Willem Penninckx
   papers:
   - papers/jacobs:nfm:2011
@@ -3946,6 +4004,7 @@
   - papers/joshi:pldi:2002
 - name: Parthasarathy Ranganathan
   papers:
+  - papers/hochschild:hotos:2021
   - papers/kumar:isca:2004
 - name: Rajesh Rao
   papers:
@@ -4212,6 +4271,9 @@
 - name: David Sands
   papers:
   - papers/sabelfield:jcs:2009
+- name: Sriram Sankar
+  papers:
+  - papers/dixit:arxiv:2021
 - name: Thomas Santen
   papers:
   - papers/leinenbach:fm:2009
@@ -4860,6 +4922,9 @@
 - name: Joseph Tuong
   papers:
   - papers/amani:asplos:2016
+- name: Paul Turner
+  papers:
+  - papers/hochschild:hotos:2021
 - name: Mark R. Tuttle
   papers:
   - papers/chong:icse:2020
@@ -4876,6 +4941,9 @@
 - name: Neil Vachharajani
   papers:
   - papers/bridges:micro:2007
+- name: Amin Vahdat
+  papers:
+  - papers/hochschild:hotos:2021
 - name: Jonathan Valamehr
   papers:
   - papers/tiwari:isca:2011
@@ -5160,6 +5228,9 @@
   papers:
   - papers/avgerinos:cacm:2014
   - papers/manes:ieeetse:2019
+- name: Clark Wood
+  papers:
+  - papers/erbsen:pldi:2021
 - name: Dale Woodford
   papers:
   - papers/corbett:tocs:2013

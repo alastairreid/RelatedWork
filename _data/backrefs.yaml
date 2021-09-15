@@ -431,7 +431,11 @@ notes:
     - - Annotation burden
       - null
   notes/google: []
-  notes/hardware: []
+  notes/hardware:
+  - - notes/hardware-faults
+    - - Hardware Faults
+      - null
+  notes/hardware-faults: []
   notes/haskell-language: []
   notes/hol-theorem-prover: []
   notes/horn-clause: []
@@ -1686,6 +1690,7 @@ notes:
   papers/brookes:tcs:2006: []
   papers/brown:asplos:2016: []
   papers/brown:sec:2020: []
+  papers/bruel:compsurv:2021: []
   papers/brummayer:sat:2010:
   - - notes/smt-solver
     - - SMT solver
@@ -1850,6 +1855,7 @@ notes:
   papers/dinsdale-young:popl:2013: []
   papers/distefano:cacm:2019: []
   papers/distefano:tacas:2006: []
+  papers/dixit:arxiv:2021: []
   papers/djordjevic:cj:1985: []
   papers/draves:sosp:1991:
   - - notes/continuations
@@ -1869,6 +1875,7 @@ notes:
   - - notes/lazy-initialization
     - - Lazy initialization of symbolic values
       - null
+  papers/erbsen:pldi:2021: []
   papers/ernst:icse:2016: []
   papers/evans:icse:2020:
   - - notes/rust-unsafe-code
@@ -2057,6 +2064,7 @@ notes:
   papers/heule:vmcai:2013: []
   papers/higgins:hldvt:2004: []
   papers/hobor:popl:2013: []
+  papers/hochschild:hotos:2021: []
   papers/hohmuth:plos:2005: []
   papers/hohmuth:sigops:2002: []
   papers/holzer:cav:2008:
@@ -2882,6 +2890,9 @@ papers:
   - - papers/leino:informatics:2001
     - - 'Extended static checking: A ten-year perspective'
       - leino:informatics:2001
+  - - papers/li:sandp:2021
+    - - A secure and formally verified Linux KVM hypervisor
+      - li:sandp:2021
   notes/aorte: []
   notes/arm-architecture:
   - - papers/armstrong:arw:2018
@@ -3409,6 +3420,9 @@ papers:
   - - papers/leroy:cacm:2009
     - - Formal verification of a realistic compiler
       - leroy:cacm:2009
+  - - papers/li:sandp:2021
+    - - A secure and formally verified Linux KVM hypervisor
+      - li:sandp:2021
   - - papers/pierce:book:2016
     - - Software foundations
       - pierce:book:2016
@@ -4023,6 +4037,9 @@ papers:
   - - papers/corbett:tocs:2013
     - - 'Spanner: Google''s globally distributed database'
       - corbett:tocs:2013
+  - - papers/hochschild:hotos:2021
+    - - Cores that don't count
+      - hochschild:hotos:2021
   - - papers/ivankovic:fse:2019
     - - Code coverage at Google
       - ivankovic:fse:2019
@@ -4094,6 +4111,13 @@ papers:
   - - papers/zhang:asplos:2015
     - - A hardware design language for timing-sensitive information flow security
       - zhang:asplos:2015
+  notes/hardware-faults:
+  - - papers/dixit:arxiv:2021
+    - - Silent data corruptions at scale
+      - dixit:arxiv:2021
+  - - papers/hochschild:hotos:2021
+    - - Cores that don't count
+      - hochschild:hotos:2021
   notes/haskell-language:
   - - papers/chakravarty:haskffi:2003
     - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
@@ -5336,6 +5360,9 @@ papers:
   - - papers/levy:sosp:2017
     - - Multiprogramming a 64kB computer safely and efficiently
       - levy:sosp:2017
+  - - papers/li:sandp:2021
+    - - A secure and formally verified Linux KVM hypervisor
+      - li:sandp:2021
   - - papers/regehr:acp4is:2003
     - - Lock inference for systems software
       - regehr:acp4is:2003
@@ -7572,6 +7599,7 @@ papers:
   papers/brookes:tcs:2006: []
   papers/brown:asplos:2016: []
   papers/brown:sec:2020: []
+  papers/bruel:compsurv:2021: []
   papers/brummayer:sat:2010:
   - - papers/barrett:mlf:2015
     - - Proofs in satisfiability modulo theories
@@ -7716,6 +7744,9 @@ papers:
       - potvin:cacm:2016
   papers/corteggiani:usenix:2018: []
   papers/costanzo:pldi:2016:
+  - - papers/li:sandp:2021
+    - - A secure and formally verified Linux KVM hypervisor
+      - li:sandp:2021
   - - papers/murray:secpriv:2013
     - - 'seL4: from general purpose to a proof of information flow enforcement'
       - murray:secpriv:2013
@@ -7784,6 +7815,10 @@ papers:
   papers/dinsdale-young:popl:2013: []
   papers/distefano:cacm:2019: []
   papers/distefano:tacas:2006: []
+  papers/dixit:arxiv:2021:
+  - - papers/hochschild:hotos:2021
+    - - Cores that don't count
+      - hochschild:hotos:2021
   papers/djordjevic:cj:1985: []
   papers/draves:sosp:1991: []
   papers/du:sc:2003: []
@@ -7809,6 +7844,7 @@ papers:
   - - papers/xie:popl:2005
     - - Scalable error detection using boolean satisfiability
       - xie:popl:2005
+  papers/erbsen:pldi:2021: []
   papers/ernst:icse:2016: []
   papers/evans:icse:2020:
   - - papers/astrauskas:oopsla:2020
@@ -7934,6 +7970,9 @@ papers:
   - - papers/costanzo:pldi:2016
     - - End-to-end verification of information flow security for C and assembly programs
       - costanzo:pldi:2016
+  - - papers/li:sandp:2021
+    - - A secure and formally verified Linux KVM hypervisor
+      - li:sandp:2021
   papers/guanciale:ccs:2020: []
   papers/guarnieri:sandp:2020: []
   papers/gurfinkel:cav:2015:
@@ -7981,6 +8020,10 @@ papers:
   papers/heule:vmcai:2013: []
   papers/higgins:hldvt:2004: []
   papers/hobor:popl:2013: []
+  papers/hochschild:hotos:2021:
+  - - papers/dixit:arxiv:2021
+    - - Silent data corruptions at scale
+      - dixit:arxiv:2021
   papers/hohmuth:plos:2005: []
   papers/hohmuth:sigops:2002: []
   papers/holzer:cav:2008:
@@ -8310,6 +8353,9 @@ papers:
   papers/necula:pldi:2000: []
   papers/necula:popl:1997: []
   papers/nelson:sosp:2017:
+  - - papers/li:sandp:2021
+    - - A secure and formally verified Linux KVM hypervisor
+      - li:sandp:2021
   - - papers/nelson:sosp:2019
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
