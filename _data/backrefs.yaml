@@ -426,6 +426,7 @@ notes:
   - - notes/memory-management
     - - Memory management
       - null
+  notes/genetic-algorithm: []
   notes/ghost-code:
   - - notes/annotation-burden
     - - Annotation burden
@@ -817,6 +818,7 @@ notes:
   - - notes/stream-processing
     - - Stream Processing
       - null
+  notes/power-virus: []
   notes/powerpc-architecture:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
@@ -879,6 +881,7 @@ notes:
   - - notes/alloy-verifier
     - - Alloy verifier
       - null
+  notes/resonant-frequency: []
   notes/rewrite-rules: []
   notes/risc-architecture: []
   notes/riscv-architecture:
@@ -2031,6 +2034,7 @@ notes:
       - null
   papers/gurfinkel:fmcad:2017: []
   papers/guyer:dsl:1999: []
+  papers/hadjilambrou:ispass:2019: []
   papers/hardin:acl2:2006: []
   papers/hatcliff:compsurv:2012: []
   papers/hawblitzel:osdi:2014: []
@@ -2935,6 +2939,9 @@ papers:
   - - papers/fox:ucam:2002
     - - Formal verification of the ARM6 micro-architecture
       - fox:ucam:2002
+  - - papers/hadjilambrou:ispass:2019
+    - - 'GeST: An automatic framework for generating CPU stress-tests'
+      - hadjilambrou:ispass:2019
   - - papers/jiang:arxiv:2021
     - - 'Examiner: Automatically locating inconsistent instructions between real devices
         and CPU emulators for Arm'
@@ -4017,6 +4024,10 @@ papers:
   - - papers/hertz:oopsla:2005
     - - Quantifying the performance of garbage collection vs. explicit memory management
       - hertz:oopsla:2005
+  notes/genetic-algorithm:
+  - - papers/hadjilambrou:ispass:2019
+    - - 'GeST: An automatic framework for generating CPU stress-tests'
+      - hadjilambrou:ispass:2019
   notes/ghost-code:
   - - papers/jacobs:nfm:2011
     - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
@@ -4115,6 +4126,9 @@ papers:
   - - papers/dixit:arxiv:2021
     - - Silent data corruptions at scale
       - dixit:arxiv:2021
+  - - papers/hadjilambrou:ispass:2019
+    - - 'GeST: An automatic framework for generating CPU stress-tests'
+      - hadjilambrou:ispass:2019
   - - papers/hochschild:hotos:2021
     - - Cores that don't count
       - hochschild:hotos:2021
@@ -5610,6 +5624,10 @@ papers:
     - - 'Design and programming of embedded multiprocessors: An interface-centric
         approach'
       - wolf:codes:2004
+  notes/power-virus:
+  - - papers/hadjilambrou:ispass:2019
+    - - 'GeST: An automatic framework for generating CPU stress-tests'
+      - hadjilambrou:ispass:2019
   notes/powerpc-architecture:
   - - papers/gray:micro:2015
     - - An integrated concurrency and core-ISA architectural envelope definition,
@@ -5730,6 +5748,10 @@ papers:
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
+  notes/resonant-frequency:
+  - - papers/hadjilambrou:ispass:2019
+    - - 'GeST: An automatic framework for generating CPU stress-tests'
+      - hadjilambrou:ispass:2019
   notes/rewrite-rules:
   - - papers/jones:microsoft:2001
     - - 'Playing by the rules: rewriting as a practical optimisation technique in
@@ -7302,6 +7324,9 @@ papers:
     - - Formal verification of application and system programs based on a validated
         x86 ISA model
       - goel:phd:2016
+  - - papers/hadjilambrou:ispass:2019
+    - - 'GeST: An automatic framework for generating CPU stress-tests'
+      - hadjilambrou:ispass:2019
   - - papers/heule:pldi:2016
     - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
       - heule:pldi:2016
@@ -7981,6 +8006,7 @@ papers:
       - matsushita:esop:2020
   papers/gurfinkel:fmcad:2017: []
   papers/guyer:dsl:1999: []
+  papers/hadjilambrou:ispass:2019: []
   papers/hardin:acl2:2006: []
   papers/hatcliff:compsurv:2012: []
   papers/hawblitzel:osdi:2014: []

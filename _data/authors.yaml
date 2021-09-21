@@ -583,6 +583,9 @@
   papers:
   - papers/babic:fse:2019
   - papers/kuznetsov:pldi:2012
+- name: David Bull
+  papers:
+  - papers/hadjilambrou:ispass:2019
 - name: Jerry R. Burch
   papers:
   - papers/burch:cav:1994
@@ -1054,6 +1057,9 @@
 - name: Zaynah Dargaye
   papers:
   - papers/cuoq:sefm:2012
+- name: Shidhartha Das
+  papers:
+  - papers/hadjilambrou:ispass:2019
 - name: Sandeep Dasgupta
   papers:
   - papers/dasgupta:pldi:2019
@@ -1878,6 +1884,9 @@
   papers:
   - papers/barrett:cav:2011
   - papers/stump:fmsd:2013
+- name: Zacharias Hadjilambrou
+  papers:
+  - papers/hadjilambrou:ispass:2019
 - name: Gregory D. Hager
   papers:
   - papers/peterson:padl:2001
@@ -4307,6 +4316,9 @@
 - name: Wayne A. Sawdon
   papers:
   - papers/bershad:cmpcon:1993
+- name: Yiannakis Sazeides
+  papers:
+  - papers/hadjilambrou:ispass:2019
 - name: Christian Schallhart
   papers:
   - papers/holzer:cav:2008
@@ -5162,6 +5174,9 @@
 - name: Markus Wenzel
   papers:
   - papers/nipkow:book:2002
+- name: Paul N Whatmough
+  papers:
+  - papers/hadjilambrou:ispass:2019
 - name: Jesse Whittemore
   papers:
   - papers/kaivola:cav:2009
