@@ -6,8 +6,7 @@ authors:
 - James Bornholt
 - Emina Torlak
 - Xi Wang
-booktitle: 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI
-  16)
+booktitle: 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)
 layout: paper
 pages: 1-16
 read: false

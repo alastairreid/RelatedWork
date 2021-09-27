@@ -347,6 +347,7 @@ notes:
   notes/dynamic-binary-translation: []
   notes/embedding: []
   notes/entropy: []
+  notes/equality-saturation: []
   notes/events: []
   notes/exe-verifier: []
   notes/extended-static-checking:
@@ -1584,6 +1585,8 @@ notes:
   papers/barthe:iacr:2007: []
   papers/barthe:mscs:2011: []
   papers/bastian:oopsla:2019: []
+  papers/baudin:cacm:2021: []
+  papers/bauereiss:ucam:2021: []
   papers/baumann:hotos:2017: []
   papers/becker:fm:2016:
   - - notes/nova-hypervisor
@@ -1842,6 +1845,7 @@ notes:
   papers/daniel:sandp:2020: []
   papers/dasgupta:pldi:2019: []
   papers/david:issta:2016: []
+  papers/dean:cacm:2013: []
   papers/degenbaev:phd:2012: []
   papers/deline:pldi:2001: []
   papers/demoura:cacm:2011: []
@@ -2296,7 +2300,9 @@ notes:
       - null
   papers/mantel:pls:2007: []
   papers/mantel:sp:2001: []
+  papers/marco:cav:2021: []
   papers/martignoni:asplos:2012: []
+  papers/martin:isca:2012: []
   papers/massalin:asplos:1987:
   - - notes/superoptimizer
     - - Superoptimizer
@@ -2536,6 +2542,7 @@ notes:
   papers/romano:phd:2014: []
   papers/roy:fse:2018: []
   papers/rozier:vstte:2016: []
+  papers/rudra:sosp:2021: []
   papers/rushby:sri:1992:
   - - notes/non-interference
     - - Non-interference
@@ -2697,6 +2704,7 @@ notes:
       - null
   papers/ullrich:msc:2016: []
   papers/vanegue:sandp:2013: []
+  papers/vanhattum:asplos:2021: []
   papers/vantonder:icse:2018: []
   papers/vasudevan:secpriv:2013: []
   papers/vasudevan:usenix:2016:
@@ -2748,6 +2756,7 @@ notes:
     - - Rosette solver
       - null
   papers/wickerson:popl:2017: []
+  papers/willsey:popl:2021: []
   papers/windley:ieeetoc:1995: []
   papers/woh:micro:2008: []
   papers/wolf:codes:2004: []
@@ -3777,6 +3786,13 @@ papers:
   - - papers/bohme:fse:2020
     - - 'Boosting fuzzer efficiency: An information theoretic perspective'
       - bohme:fse:2020
+  notes/equality-saturation:
+  - - papers/vanhattum:asplos:2021
+    - - Vectorization for Digital Signal Processors via equality saturation
+      - vanhattum:asplos:2021
+  - - papers/willsey:popl:2021
+    - - 'Egg: Fast and extensible equality saturation'
+      - willsey:popl:2021
   notes/events:
   - - papers/dabek:sigops:2002
     - - Event-driven programming for robust software
@@ -4048,6 +4064,9 @@ papers:
   - - papers/corbett:tocs:2013
     - - 'Spanner: Google''s globally distributed database'
       - corbett:tocs:2013
+  - - papers/dean:cacm:2013
+    - - The tail at scale
+      - dean:cacm:2013
   - - papers/hochschild:hotos:2021
     - - Cores that don't count
       - hochschild:hotos:2021
@@ -4322,6 +4341,10 @@ papers:
   - - papers/mantel:sp:2001
     - - Preserving information flow properties under refinement
       - mantel:sp:2001
+  - - papers/marco:cav:2021
+    - - 'Product programs in the wild: Retrofitting program verifiers to check information
+        flow security'
+      - marco:cav:2021
   - - papers/murray:secpriv:2013
     - - 'seL4: from general purpose to a proof of information flow enforcement'
       - murray:secpriv:2013
@@ -5914,6 +5937,9 @@ papers:
   - - papers/reid:hatra:2020
     - - 'Towards making formal methods normal: meeting developers where they are'
       - reid:hatra:2020
+  - - papers/rudra:sosp:2021
+    - - 'Rudra: Finding memory safety bugs in Rust at the Ecosystem scale'
+      - rudra:sosp:2021
   - - papers/toman:ase:2015
     - - 'Crust: A bounded verifier for Rust'
       - toman:ase:2015
@@ -6101,6 +6127,10 @@ papers:
     - - 'Binsec/Rel: Efficient relational symbolic execution for constant-time at
         binary-level'
       - daniel:sandp:2020
+  - - papers/marco:cav:2021
+    - - 'Product programs in the wild: Retrofitting program verifiers to check information
+        flow security'
+      - marco:cav:2021
   notes/separation-logic:
   - - papers/azevedo:post:2018
     - - The meaning of memory safety
@@ -6213,6 +6243,10 @@ papers:
   - - papers/lipp:arxiv:2018
     - - Meltdown
       - lipp:arxiv:2018
+  - - papers/martin:isca:2012
+    - - 'TimeWarp: Rethinking timekeeping and performance monitoring mechanisms to
+        mitigate side-channel attacks'
+      - martin:isca:2012
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
@@ -7516,6 +7550,8 @@ papers:
   papers/barthe:iacr:2007: []
   papers/barthe:mscs:2011: []
   papers/bastian:oopsla:2019: []
+  papers/baudin:cacm:2021: []
+  papers/bauereiss:ucam:2021: []
   papers/baumann:hotos:2017: []
   papers/becker:fm:2016:
   - - papers/claessen:icfp:2000
@@ -7801,6 +7837,7 @@ papers:
   - - papers/coppa:ase:2017
     - - Rethinking pointer reasoning in symbolic execution
       - coppa:ase:2017
+  papers/dean:cacm:2013: []
   papers/degenbaev:phd:2012: []
   papers/deline:pldi:2001: []
   papers/demoura:cacm:2011:
@@ -8324,7 +8361,9 @@ papers:
       - stump:fmsd:2013
   papers/mantel:pls:2007: []
   papers/mantel:sp:2001: []
+  papers/marco:cav:2021: []
   papers/martignoni:asplos:2012: []
+  papers/martin:isca:2012: []
   papers/massalin:asplos:1987: []
   papers/matsakis:hilt:2014: []
   papers/matsushita:esop:2020:
@@ -8629,6 +8668,7 @@ papers:
   papers/romano:phd:2014: []
   papers/roy:fse:2018: []
   papers/rozier:vstte:2016: []
+  papers/rudra:sosp:2021: []
   papers/rushby:sri:1992: []
   papers/russell:cacm:1978: []
   papers/russinovich:acmq:2021: []
@@ -8822,6 +8862,7 @@ papers:
     - - 'RustHorn: CHC-based verification for Rust programs'
       - matsushita:esop:2020
   papers/vanegue:sandp:2013: []
+  papers/vanhattum:asplos:2021: []
   papers/vantonder:icse:2018: []
   papers/vasudevan:secpriv:2013: []
   papers/vasudevan:usenix:2016: []
@@ -8852,6 +8893,7 @@ papers:
   papers/weiss:arxiv:2018: []
   papers/weitz:icfp:2017: []
   papers/wickerson:popl:2017: []
+  papers/willsey:popl:2021: []
   papers/windley:ieeetoc:1995: []
   papers/woh:micro:2008:
   - - papers/reid:cases:2008

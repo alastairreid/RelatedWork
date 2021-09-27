@@ -134,6 +134,7 @@
   - papers/armstrong:arw:2018
   - papers/armstrong:popl19:2019
   - papers/armstrong:spisa:2019
+  - papers/bauereiss:ucam:2021
 - name: Arvind
   papers:
   - papers/choi:icfp:2017
@@ -251,6 +252,9 @@
   papers:
   - papers/baranova:atva:2017
   - papers/korencik:qrs:2020
+- name: Graeme Barnes
+  papers:
+  - papers/bauereiss:ucam:2021
 - name: Elizabeth Barnes
   papers:
   - papers/chen:arxiv:2021
@@ -270,6 +274,9 @@
   - papers/barrett:cav:2011
   - papers/barrett:mlf:2015
   - papers/barrett:smtlib:2016
+- name: "Luiz Andr\xE9 Barroso"
+  papers:
+  - papers/dean:cacm:2013
 - name: John Barstow
   papers:
   - papers/kuhne:fmcad:2010
@@ -297,12 +304,14 @@
   - papers/wickerson:popl:2017
 - name: Patrick Baudin
   papers:
+  - papers/baudin:cacm:2021
   - papers/cuoq:sefm:2012
 - name: Thomas Bauereiss
   papers:
   - papers/armstrong:arw:2018
   - papers/armstrong:popl19:2019
   - papers/armstrong:spisa:2019
+  - papers/bauereiss:ucam:2021
   - papers/nienhuis:secpriv:2020
 - name: Andrew Baumann
   papers:
@@ -453,6 +462,9 @@
 - name: Matthias Blume
   papers:
   - papers/blume:babel:2001
+- name: "Fran{\xE7}ois Bobot"
+  papers:
+  - papers/baudin:cacm:2021
 - name: Joshua Bockenek
   papers:
   - papers/verbeek:fmmsd:2019
@@ -493,6 +505,7 @@
   - papers/nelson:sosp:2019
   - papers/sigurbjarnarson:osdi:2016
   - papers/sigurbjarnarson:osdi:2018
+  - papers/vanhattum:asplos:2021
 - name: Luca Borzacchiello
   papers:
   - papers/angelini:vizsec:2019
@@ -628,6 +641,9 @@
   papers:
   - papers/bohme2:fse:2020
   - papers/bohme:fse:2020
+- name: "David B\xFChler"
+  papers:
+  - papers/baudin:cacm:2021
 - name: "Julian B\xFCning"
   papers:
   - papers/schemmel:cav:2020
@@ -657,6 +673,7 @@
   - papers/armstrong:arw:2018
   - papers/armstrong:popl19:2019
   - papers/armstrong:spisa:2019
+  - papers/bauereiss:ucam:2021
   - papers/nienhuis:secpriv:2020
 - name: Bradford Campbell
   papers:
@@ -966,6 +983,9 @@
 - name: Digital Equipment Corporation
   papers:
   - papers/pdp11:book:1973
+- name: Lo{\"\i}c Correnson
+  papers:
+  - papers/baudin:cacm:2021
 - name: "Lo\xEFc Correnson"
   papers:
   - papers/cuoq:sefm:2012
@@ -1102,6 +1122,7 @@
   papers:
   - papers/chang:tocs:2012
   - papers/corbett:tocs:2013
+  - papers/dean:cacm:2013
 - name: Randall W. Dean
   papers:
   - papers/draves:sosp:1991
@@ -1126,6 +1147,9 @@
 - name: Onur Demir
   papers:
   - papers/deng:hasp:2019
+- name: John Demme
+  papers:
+  - papers/martin:isca:2012
 - name: Giovanni Denaro
   papers:
   - papers/braione:icse:2018
@@ -1287,6 +1311,9 @@
   - papers/regehr:pldi:2012
   - papers/reid:osdi:2000
   - papers/yang:pldi:2011
+- name: Marco Eilers
+  papers:
+  - papers/marco:cav:2021
 - name: Jeffrey A. Eitel
   papers:
   - papers/evtyushkin:asplos:2021
@@ -1352,6 +1379,9 @@
 - name: Gerben Essink
   papers:
   - papers/wolf:codes:2004
+- name: Lawrence Esswood
+  papers:
+  - papers/bauereiss:ucam:2021
 - name: David Evans
   papers:
   - papers/almohri:codaspy:2018
@@ -1455,6 +1485,9 @@
   papers:
   - papers/eide:aspse:2001
   - papers/reid:osdi:2000
+- name: Oliver Flatt
+  papers:
+  - papers/willsey:popl:2021
 - name: "Kriszti\xE1n Flautner"
   papers:
   - papers/lin:sdr:2006
@@ -2519,6 +2552,7 @@
   - papers/kirankumar:fmcad:2012
 - name: Florent Kirchner
   papers:
+  - papers/baudin:cacm:2021
   - papers/cuoq:sefm:2012
 - name: Steve Klabnik
   papers:
@@ -2585,6 +2619,7 @@
   - papers/coblenz:arxiv:2020
 - name: Nikolai Kosmatov
   papers:
+  - papers/baudin:cacm:2021
   - papers/blanchard:fmics:2015
   - papers/cuoq:sefm:2012
   - papers/mangano:crisis:2016
@@ -2754,6 +2789,9 @@
 - name: Juneyoung Lee
   papers:
   - papers/lopes:pldi:2021
+- name: Vincent T. Lee
+  papers:
+  - papers/vanhattum:asplos:2021
 - name: Sangho Lee
   papers:
   - papers/yun:usenix:2018
@@ -3114,9 +3152,15 @@
   papers:
   - papers/chakravarty:haskffi:2003
   - papers/jones:pldi:1999
+- name: "Andr\xE9 Maroneze"
+  papers:
+  - papers/baudin:cacm:2021
 - name: Lorenzo Martignoni
   papers:
   - papers/martignoni:asplos:2012
+- name: Robert Martin
+  papers:
+  - papers/martin:isca:2012
 - name: Alejandro Martinez
   papers:
   - papers/stephens:micro:2017
@@ -3221,6 +3265,9 @@
 - name: Sergey Mechtaev
   papers:
   - papers/mechtaev:fse:2018
+- name: Severin Meier
+  papers:
+  - papers/marco:cav:2021
 - name: Erik Meijer
   papers:
   - papers/chakravarty:haskffi:2003
@@ -3460,6 +3507,7 @@
   - papers/heule:ftfjp:2011
   - papers/heule:vmcai:2013
   - papers/leino:fosad:2007
+  - papers/marco:cav:2021
   - papers/muller:vmcai:2016
   - papers/wolff:draft:2021
 - name: Santosh Nagarakatte
@@ -3481,6 +3529,9 @@
 - name: Keiko Nakata
   papers:
   - papers/becker:fm:2016
+- name: Chandrakana Nandi
+  papers:
+  - papers/willsey:popl:2021
 - name: Aleksandar Nanevski
   papers:
   - papers/nanevski:icfp:2008
@@ -3584,6 +3635,9 @@
 - name: Kyndylan Nienhuis
   papers:
   - papers/nienhuis:secpriv:2020
+- name: Rachit Nigam
+  papers:
+  - papers/vanhattum:asplos:2021
 - name: Tobias Nipkow
   papers:
   - papers/nipkow:book:2002
@@ -3687,6 +3741,9 @@
 - name: Subbarao Palacharla
   papers:
   - papers/palacharla:micro:1995
+- name: Pavel Panchekha
+  papers:
+  - papers/willsey:popl:2021
 - name: Aurojit Panda
   papers:
   - papers/balasubramanium:hotos:2017
@@ -3796,6 +3853,9 @@
 - name: Stuart Pernsteiner
   papers:
   - papers/toman:ase:2015
+- name: Valentin Perrelle
+  papers:
+  - papers/baudin:cacm:2021
 - name: Adrian Perrig
   papers:
   - papers/seshadri:sosp:2007
@@ -3919,6 +3979,7 @@
   - papers/lipp:arxiv:2018
 - name: Virgile Prevosto
   papers:
+  - papers/baudin:cacm:2021
   - papers/cuoq:sefm:2012
 - name: Milos Prvulovic
   papers:
@@ -4273,6 +4334,7 @@
   - papers/sammler:pldi:2021
 - name: Adrian Sampson
   papers:
+  - papers/vanhattum:asplos:2021
   - papers/vega:pldi:2021
 - name: Richard Samuels
   papers:
@@ -4419,6 +4481,7 @@
   - papers/lustig:asplos:2016
 - name: Simha Sethumadhavan
   papers:
+  - papers/martin:isca:2012
   - papers/tang:sec:2017
 - name: Jaroslav Sevcik
   papers:
@@ -4433,11 +4496,15 @@
   - papers/armstrong:arw:2018
   - papers/armstrong:popl19:2019
   - papers/armstrong:spisa:2019
+  - papers/bauereiss:ucam:2021
   - papers/flur:popl:2016
   - papers/gray:micro:2015
   - papers/nienhuis:secpriv:2020
   - papers/sarkar:pldi:2011
   - papers/sarkar:popl:2009
+- name: Thomas Sewell
+  papers:
+  - papers/bauereiss:ucam:2021
 - name: Ali Sezgin
   papers:
   - papers/flur:popl:2016
@@ -4514,6 +4581,7 @@
   - papers/clarke:cacm:2009
 - name: Julien Signoles
   papers:
+  - papers/baudin:cacm:2021
   - papers/cuoq:sefm:2012
 - name: Helgi Sigurbjarnarson
   papers:
@@ -4639,6 +4707,7 @@
   - papers/armstrong:arw:2018
   - papers/armstrong:popl19:2019
   - papers/armstrong:spisa:2019
+  - papers/bauereiss:ucam:2021
   - papers/nienhuis:secpriv:2020
 - name: Deian Stefan
   papers:
@@ -4799,6 +4868,7 @@
 - name: Zachary Tatlock
   papers:
   - papers/weitz:icfp:2017
+  - papers/willsey:popl:2021
 - name: Michael Tautschnig
   papers:
   - papers/alglave:toplas:2014
@@ -4962,6 +5032,9 @@
 - name: Steve VanDeBogart
   papers:
   - papers/efstathopoulos:sosp:2005
+- name: Alexa VanHattum
+  papers:
+  - papers/vanhattum:asplos:2021
 - name: Julien Vanegue
   papers:
   - papers/vanegue:sandp:2013
@@ -5105,6 +5178,9 @@
 - name: Feng Wang
   papers:
   - papers/wang:tase:2018
+- name: Yisu Remy Wang
+  papers:
+  - papers/willsey:popl:2021
 - name: Dashun Wang
   papers:
   - papers/wu:arxiv:2017
@@ -5122,6 +5198,7 @@
   - papers/armstrong:spisa:2019
 - name: Robert N. M. Watson
   papers:
+  - papers/bauereiss:ucam:2021
   - papers/nienhuis:secpriv:2020
   - papers/woodruff:isca:2014
   - papers/woodruff:tocs:2019
@@ -5200,10 +5277,14 @@
   - papers/mavin:isre:2009
 - name: Nicky Williams
   papers:
+  - papers/baudin:cacm:2021
   - papers/cuoq:sefm:2012
 - name: Derek Williams
   papers:
   - papers/sarkar:pldi:2011
+- name: Max Willsey
+  papers:
+  - papers/willsey:popl:2021
 - name: Phillip J. Windley
   papers:
   - papers/windley:ieeetoc:1995
@@ -5523,6 +5604,9 @@
 - name: Susan Zuckerman
   papers:
   - papers/barbacci:afips:1977
+- name: Not yet public
+  papers:
+  - papers/rudra:sosp:2021
 - name: "Emre \xD6zer"
   papers:
   - papers/ozer:sbacpad:2007
