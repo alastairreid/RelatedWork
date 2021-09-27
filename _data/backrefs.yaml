@@ -7,6 +7,13 @@ notes:
     - - Separation logic
       - null
   notes/acl2-theorem-prover: []
+  notes/activation-function:
+  - - notes/relu
+    - - Rectified linear unit (RELU)
+      - null
+  - - notes/softmax
+    - - Soft max
+      - null
   notes/afl-fuzzer:
   - - notes/hybrid-testing
     - - Hybrid testing
@@ -64,6 +71,10 @@ notes:
     - - Sail ISA specification language
       - null
   notes/aspect-oriented-programming: []
+  notes/attention-function:
+  - - notes/transformer-model
+    - - Transformer machine learning model
+      - null
   notes/auto-active-verification:
   - - notes/annotation-burden
     - - Annotation burden
@@ -95,6 +106,7 @@ notes:
   - - notes/sv-competition
     - - Software Verification Competition (SV-COMP)
       - null
+  notes/bleu: []
   notes/boogie-verifier:
   - - notes/auto-active-verification
     - - Auto active verification
@@ -196,6 +208,7 @@ notes:
       - null
   notes/cil-tool: []
   notes/civl-verifier: []
+  notes/cnn: []
   notes/compcert-compiler:
   - - notes/translation-validation
     - - Translation validation
@@ -318,6 +331,7 @@ notes:
   - - notes/stream-processing
     - - Stream Processing
       - null
+  notes/deep-neural-networks: []
   notes/dependency-injection: []
   notes/dependent-type:
   - - notes/coq-theorem-prover
@@ -346,6 +360,10 @@ notes:
       - null
   notes/dynamic-binary-translation: []
   notes/embedding: []
+  notes/encoder-decoder-model:
+  - - notes/transformer-model
+    - - Transformer machine learning model
+      - null
   notes/entropy: []
   notes/equality-saturation: []
   notes/events: []
@@ -423,9 +441,14 @@ notes:
   - - notes/test-generation
     - - Test generation
       - null
+  notes/gan: []
   notes/garbage-collection:
   - - notes/memory-management
     - - Memory management
+      - null
+  notes/gating-network:
+  - - notes/mixture-of-experts
+    - - Mixture of experts
       - null
   notes/genetic-algorithm: []
   notes/ghost-code:
@@ -639,6 +662,14 @@ notes:
   - - notes/modular-verification
     - - Modular verification
       - null
+  notes/lstm:
+  - - notes/transformer-model
+    - - Transformer machine learning model
+      - null
+  notes/machine-learning:
+  - - notes/mixture-of-experts
+    - - Mixture of experts
+      - null
   notes/magic-wand:
   - - notes/prusti-verifier
     - - Prusti verifier
@@ -694,6 +725,10 @@ notes:
   - - notes/mir
     - - MIR
       - null
+  notes/mixture-of-experts:
+  - - notes/gating-network
+    - - Gating network
+      - null
   notes/model-based-testing: []
   notes/model-checking:
   - - notes/blast-verifier
@@ -738,6 +773,59 @@ notes:
       - null
   notes/mutation-testing: []
   notes/natural-language: []
+  notes/neural-network:
+  - - notes/activation-function
+    - - Activation function
+      - null
+  - - notes/attention-function
+    - - Attention function
+      - null
+  - - notes/cnn
+    - - Convolutional neural network (CNN)
+      - null
+  - - notes/deep-neural-networks
+    - - Deep neural networks
+      - null
+  - - notes/encoder-decoder-model
+    - - Encoder-decoder model
+      - null
+  - - notes/gan
+    - - Generative adversarial neural network (GAN)
+      - null
+  - - notes/lstm
+    - - Long short-term memory (LSTM)
+      - null
+  - - notes/mixture-of-experts
+    - - Mixture of experts
+      - null
+  - - notes/pytorch
+    - - PyTorch
+      - null
+  - - notes/relu
+    - - Rectified linear unit (RELU)
+      - null
+  - - notes/rnn
+    - - Recurrent neural network (RNN)
+      - null
+  - - notes/softmax
+    - - Soft max
+      - null
+  - - notes/tensorflow
+    - - TensorFlow
+      - null
+  - - notes/transformer-model
+    - - Transformer machine learning model
+      - null
+  notes/nlp:
+  - - notes/attention-function
+    - - Attention function
+      - null
+  - - notes/bleu
+    - - Bilingual evaluation understudy (BLEU)
+      - null
+  - - notes/transformer-model
+    - - Transformer machine learning model
+      - null
   notes/non-interference:
   - - notes/hyperproperty
     - - Hyperproperty
@@ -849,6 +937,10 @@ notes:
     - - Viper verifier
       - null
   notes/pvs-theorem-prover: []
+  notes/pytorch:
+  - - notes/tensorflow
+    - - TensorFlow
+      - null
   notes/qemu:
   - - notes/s2e-verifier
     - - S2E verifier
@@ -877,6 +969,10 @@ notes:
   - - notes/rust-language
     - - Rust language
       - null
+  notes/relu:
+  - - notes/activation-function
+    - - Activation function
+      - null
   notes/remote-procedure-call: []
   notes/requirements-specification:
   - - notes/alloy-verifier
@@ -888,6 +984,13 @@ notes:
   notes/riscv-architecture:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
+      - null
+  notes/rnn:
+  - - notes/lstm
+    - - Long short-term memory (LSTM)
+      - null
+  - - notes/transformer-model
+    - - Transformer machine learning model
       - null
   notes/rosette-solver:
   - - notes/verification-performance
@@ -1088,6 +1191,14 @@ notes:
   - - notes/z3-solver
     - - Z3 theorem prover
       - null
+  notes/softmax:
+  - - notes/activation-function
+    - - Activation function
+      - null
+  notes/sparse-model:
+  - - notes/attention-function
+    - - Attention function
+      - null
   notes/spec-sharp-project:
   - - notes/boogie-verifier
     - - Boogie verifier
@@ -1266,6 +1377,10 @@ notes:
   - - notes/model-checking
     - - Model checking
       - null
+  notes/tensorflow:
+  - - notes/pytorch
+    - - PyTorch
+      - null
   notes/test-case-reduction:
   - - notes/unit-tests
     - - Unit tests
@@ -1320,6 +1435,10 @@ notes:
       - null
   - - notes/parallelism
     - - Parallelism
+      - null
+  notes/transformer-model:
+  - - notes/attention-function
+    - - Attention function
       - null
   notes/translation-validation:
   - - notes/compcert-compiler
@@ -1895,6 +2014,7 @@ notes:
       - null
   papers/falkoff:ibm:1964: []
   papers/fauth:edtc:1995: []
+  papers/fedus:arxiv:2021: []
   papers/fernandez:icse:1997: []
   papers/ferraiuolo:asplos:2017: []
   papers/ferraiuolo:ccs:2018: []
@@ -2230,6 +2350,7 @@ notes:
   papers/leino:lpair:2010: []
   papers/leino:sac:2009: []
   papers/leino:tacas:2010: []
+  papers/lepikhin:arxiv:2020: []
   papers/leroy:cacm:2009:
   - - notes/annotation-burden
     - - Annotation burden
@@ -2592,6 +2713,10 @@ notes:
   papers/shamis:arxiv:2021: []
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
+  papers/shazeer:arxiv:2017:
+  - - notes/mixture-of-experts
+    - - Mixture of experts
+      - null
   papers/sheeran:fmcad:2000: []
   papers/shi:phd:2013: []
   papers/shoshitaishvili:sandp:2016: []
@@ -2710,6 +2835,13 @@ notes:
   papers/vasudevan:usenix:2016:
   - - notes/annotation-burden
     - - Annotation burden
+      - null
+  papers/vaswani:arxiv:2017:
+  - - notes/attention-function
+    - - Attention function
+      - null
+  - - notes/transformer-model
+    - - Transformer machine learning model
       - null
   papers/vega:pldi:2021: []
   papers/veldhuizen:oo:1998: []
@@ -2868,6 +3000,7 @@ papers:
   - - papers/kaufmann:ieeetse:1997
     - - An industrial strength theorem prover for a logic based on Common Lisp
       - kaufmann:ieeetse:1997
+  notes/activation-function: []
   notes/afl-fuzzer:
   - - papers/chen:sp:2020
     - - 'SAVIOR: Towards bug-driven hybrid testing'
@@ -3022,6 +3155,10 @@ papers:
   - - papers/kiczales:iwoos:1991
     - - Towards a new model of abstraction in software engineering
       - kiczales:iwoos:1991
+  notes/attention-function:
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
   notes/auto-active-verification:
   - - papers/jacobs:nfm:2011
     - - 'VeriFast: A powerful, sound, predictable, fast verifier for C and Java'
@@ -3106,6 +3243,10 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  notes/bleu:
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
   notes/boogie-verifier:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -3324,6 +3465,11 @@ papers:
   - - papers/siegel:sc:2015
     - - 'CIVL: the concurrency intermediate verification language'
       - siegel:sc:2015
+  notes/cnn:
+  - - papers/shazeer:arxiv:2017
+    - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
+        layer'
+      - shazeer:arxiv:2017
   notes/compcert-compiler:
   - - papers/gu:osdi:2016
     - - 'CertiKOS: An extensible architecture for building certified concurrent OS
@@ -3683,6 +3829,7 @@ papers:
   - - papers/smith:tocs:1984
     - - Decoupled access/execute computer architectures
       - smith:tocs:1984
+  notes/deep-neural-networks: []
   notes/dependency-injection: []
   notes/dependent-type:
   - - papers/armstrong:arw:2018
@@ -3782,6 +3929,10 @@ papers:
   - - papers/boulton:tpcd:1993
     - - Experience with embedding hardware description languages in HOL
       - boulton:tpcd:1993
+  notes/encoder-decoder-model:
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
   notes/entropy:
   - - papers/bohme:fse:2020
     - - 'Boosting fuzzer efficiency: An information theoretic perspective'
@@ -4036,10 +4187,16 @@ papers:
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
+  notes/gan: []
   notes/garbage-collection:
   - - papers/hertz:oopsla:2005
     - - Quantifying the performance of garbage collection vs. explicit memory management
       - hertz:oopsla:2005
+  notes/gating-network:
+  - - papers/shazeer:arxiv:2017
+    - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
+        layer'
+      - shazeer:arxiv:2017
   notes/genetic-algorithm:
   - - papers/hadjilambrou:ispass:2019
     - - 'GeST: An automatic framework for generating CPU stress-tests'
@@ -4067,12 +4224,19 @@ papers:
   - - papers/dean:cacm:2013
     - - The tail at scale
       - dean:cacm:2013
+  - - papers/fedus:arxiv:2021
+    - - 'Switch transformers: Scaling to trillion parameter models with simple and
+        efficient sparsity'
+      - fedus:arxiv:2021
   - - papers/hochschild:hotos:2021
     - - Cores that don't count
       - hochschild:hotos:2021
   - - papers/ivankovic:fse:2019
     - - Code coverage at Google
       - ivankovic:fse:2019
+  - - papers/lepikhin:arxiv:2020
+    - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
+      - lepikhin:arxiv:2020
   - - papers/macvean:ppig:2016
     - - API usability at scale
       - macvean:ppig:2016
@@ -4088,6 +4252,13 @@ papers:
   - - papers/sadowski:icse:2015
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
+  - - papers/shazeer:arxiv:2017
+    - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
+        layer'
+      - shazeer:arxiv:2017
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
@@ -5097,6 +5268,23 @@ papers:
   - - papers/tuerk:vstte:2010
     - - Local reasoning about while-loops
       - tuerk:vstte:2010
+  notes/lstm:
+  - - papers/shazeer:arxiv:2017
+    - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
+        layer'
+      - shazeer:arxiv:2017
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
+  notes/machine-learning:
+  - - papers/fedus:arxiv:2021
+    - - 'Switch transformers: Scaling to trillion parameter models with simple and
+        efficient sparsity'
+      - fedus:arxiv:2021
+  - - papers/shazeer:arxiv:2017
+    - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
+        layer'
+      - shazeer:arxiv:2017
   notes/magic-wand:
   - - papers/blom:ijsttt:2015
     - - Witnessing the elimination of magic wands
@@ -5234,6 +5422,18 @@ papers:
   - - papers/jung:popl:2020
     - - 'Stacked borrows: An aliasing model for Rust'
       - jung:popl:2020
+  notes/mixture-of-experts:
+  - - papers/fedus:arxiv:2021
+    - - 'Switch transformers: Scaling to trillion parameter models with simple and
+        efficient sparsity'
+      - fedus:arxiv:2021
+  - - papers/lepikhin:arxiv:2020
+    - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
+      - lepikhin:arxiv:2020
+  - - papers/shazeer:arxiv:2017
+    - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
+        layer'
+      - shazeer:arxiv:2017
   notes/model-based-testing: []
   notes/model-checking:
   - - papers/ball:pldi:2001
@@ -5340,6 +5540,22 @@ papers:
   - - papers/reid:oopsla:2017
     - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
       - reid:oopsla:2017
+  notes/neural-network:
+  - - papers/fedus:arxiv:2021
+    - - 'Switch transformers: Scaling to trillion parameter models with simple and
+        efficient sparsity'
+      - fedus:arxiv:2021
+  - - papers/lepikhin:arxiv:2020
+    - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
+      - lepikhin:arxiv:2020
+  - - papers/shazeer:arxiv:2017
+    - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
+        layer'
+      - shazeer:arxiv:2017
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
+  notes/nlp: []
   notes/non-interference:
   - - papers/azevedo:post:2018
     - - The meaning of memory safety
@@ -5703,6 +5919,7 @@ papers:
   - - papers/tahat:fmcad:2019
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
+  notes/pytorch: []
   notes/qemu: []
   notes/qsym:
   - - papers/chen:sp:2020
@@ -5741,6 +5958,7 @@ papers:
   - - papers/yanovski:unknown:2021
     - - 'GhostCell: Separating permissions from data in Rust'
       - yanovski:unknown:2021
+  notes/relu: []
   notes/remote-procedure-call:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -5808,6 +6026,7 @@ papers:
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
       - nelson:sosp:2019
+  notes/rnn: []
   notes/rosette-solver:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
@@ -6417,6 +6636,15 @@ papers:
   - - papers/tillmann:fse:2005
     - - Parameterized unit tests
       - tillmann:fse:2005
+  notes/softmax: []
+  notes/sparse-model:
+  - - papers/fedus:arxiv:2021
+    - - 'Switch transformers: Scaling to trillion parameter models with simple and
+        efficient sparsity'
+      - fedus:arxiv:2021
+  - - papers/lepikhin:arxiv:2020
+    - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
+      - lepikhin:arxiv:2020
   notes/spec-sharp-project:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
@@ -6878,6 +7106,7 @@ papers:
   - - papers/pnueli:sfcs:1977
     - - The temporal logic of programs
       - pnueli:sfcs:1977
+  notes/tensorflow: []
   notes/test-case-reduction:
   - - papers/groce:issta:2017
     - - One test to rule them all
@@ -6973,6 +7202,17 @@ papers:
     - - 'EXOCHI: architecture and programming environment for a heterogeneous multi-core
         multithreaded system'
       - wang:pldi:2007
+  notes/transformer-model:
+  - - papers/fedus:arxiv:2021
+    - - 'Switch transformers: Scaling to trillion parameter models with simple and
+        efficient sparsity'
+      - fedus:arxiv:2021
+  - - papers/lepikhin:arxiv:2020
+    - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
+      - lepikhin:arxiv:2020
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
   notes/translation-validation:
   - - papers/leroy:cacm:2009
     - - Formal verification of a realistic compiler
@@ -7923,6 +8163,10 @@ papers:
       - barnett:cacm:2011
   papers/falkoff:ibm:1964: []
   papers/fauth:edtc:1995: []
+  papers/fedus:arxiv:2021:
+  - - papers/lepikhin:arxiv:2020
+    - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
+      - lepikhin:arxiv:2020
   papers/fernandez:icse:1997: []
   papers/ferraiuolo:asplos:2017: []
   papers/ferraiuolo:ccs:2018: []
@@ -8299,6 +8543,7 @@ papers:
   - - papers/leino:lpair:2010
     - - 'Dafny: An automatic program verifier for functional correctness'
       - leino:lpair:2010
+  papers/lepikhin:arxiv:2020: []
   papers/leroy:cacm:2009: []
   papers/levy:apsys:2017: []
   papers/levy:plos:2015: []
@@ -8738,6 +8983,14 @@ papers:
   papers/shamis:arxiv:2021: []
   papers/sharma:oopsla:2012: []
   papers/sharma:pls:2013: []
+  papers/shazeer:arxiv:2017:
+  - - papers/fedus:arxiv:2021
+    - - 'Switch transformers: Scaling to trillion parameter models with simple and
+        efficient sparsity'
+      - fedus:arxiv:2021
+  - - papers/lepikhin:arxiv:2020
+    - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
+      - lepikhin:arxiv:2020
   papers/sheeran:fmcad:2000:
   - - papers/gurfinkel:fmcad:2017
     - - K-induction without unrolling
@@ -8866,6 +9119,7 @@ papers:
   papers/vantonder:icse:2018: []
   papers/vasudevan:secpriv:2013: []
   papers/vasudevan:usenix:2016: []
+  papers/vaswani:arxiv:2017: []
   papers/vega:pldi:2021: []
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []

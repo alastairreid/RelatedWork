@@ -804,6 +804,12 @@
 - name: Hao Chen
   papers:
   - papers/gu:osdi:2016
+- name: Dehao Chen
+  papers:
+  - papers/lepikhin:arxiv:2020
+- name: Zhifeng Chen
+  papers:
+  - papers/lepikhin:arxiv:2020
 - name: Yilun Chen
   papers:
   - papers/qin:pldi:2020
@@ -1100,6 +1106,9 @@
 - name: Jack W. Davidson
   papers:
   - papers/ramsey:lctes:1998
+- name: Andy Davis
+  papers:
+  - papers/shazeer:arxiv:2017
 - name: Jared Davis
   papers:
   - papers/slobodova:memocode:2011
@@ -1126,6 +1135,9 @@
 - name: Randall W. Dean
   papers:
   - papers/draves:sosp:1991
+- name: Jeff Dean
+  papers:
+  - papers/shazeer:arxiv:2017
 - name: Ulan Degenbaev
   papers:
   - papers/degenbaev:phd:2012
@@ -1420,6 +1432,9 @@
 - name: Andreas Fauth
   papers:
   - papers/fauth:edtc:1995
+- name: William Fedus
+  papers:
+  - papers/fedus:arxiv:2021
 - name: Grigory Fedyukovich
   papers:
   - papers/kostyukov:pldi:2021
@@ -1472,6 +1487,9 @@
 - name: Andrea Fioraldi
   papers:
   - papers/fioraldi:arxiv:2020
+- name: Orhan Firat
+  papers:
+  - papers/lepikhin:arxiv:2020
 - name: Bernd Fischer
   papers:
   - papers/fischer:ase:2013
@@ -1740,6 +1758,9 @@
   papers:
   - papers/goguen:secpriv:1982
   - papers/goguen:secpriv:1984
+- name: Aidan N. Gomez
+  papers:
+  - papers/vaswani:arxiv:2017
 - name: Peter Goodman
   papers:
   - papers/goodman:ndss:2018
@@ -2067,6 +2088,9 @@
 - name: Mark A. Hillebrand
   papers:
   - papers/alkassar:vstte:2010
+- name: Geoffrey Hinton
+  papers:
+  - papers/shazeer:arxiv:2017
 - name: Ralf Hinze
   papers:
   - papers/jones:hasklang:1999
@@ -2164,6 +2188,9 @@
 - name: Bo-Yuan Huang
   papers:
   - papers/huang:todaes:2019
+- name: Yanping Huang
+  papers:
+  - papers/lepikhin:arxiv:2020
 - name: Jeff Huang
   papers:
   - papers/liu:icse:2020
@@ -2367,6 +2394,9 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: Llion Jones
+  papers:
+  - papers/vaswani:arxiv:2017
 - name: J. Joosten
   papers:
   - papers/dam:ieeetc:1981
@@ -2433,6 +2463,7 @@
 - name: Lukasz Kaiser
   papers:
   - papers/chen:arxiv:2021
+  - papers/vaswani:arxiv:2017
 - name: Roope Kaivola
   papers:
   - papers/kaivola:cav:2009
@@ -2643,6 +2674,9 @@
   - papers/jung:cacm:2021
   - papers/jung:popl:2017
   - papers/sammler:pldi:2021
+- name: Maxim Krikun
+  papers:
+  - papers/lepikhin:arxiv:2020
 - name: Shriram Krishnamurthi
   papers:
   - papers/krishnamurthi:fm:2019
@@ -2771,6 +2805,9 @@
   papers:
   - papers/reid:hatra:2020
   - papers/woodruff:isca:2014
+- name: Quoc Le
+  papers:
+  - papers/shazeer:arxiv:2017
 - name: Gary T. Leavens
   papers:
   - papers/hatcliff:compsurv:2012
@@ -2783,6 +2820,9 @@
 - name: Ruby B. Lee
   papers:
   - papers/lee:micro:1996
+- name: HyoukJoong Lee
+  papers:
+  - papers/lepikhin:arxiv:2020
 - name: Jeongkeun Lee
   papers:
   - papers/liu:sigcomm:2018
@@ -2844,6 +2884,9 @@
 - name: Rodolphe Lepigre
   papers:
   - papers/sammler:pldi:2021
+- name: Dmitry Lepikhin
+  papers:
+  - papers/lepikhin:arxiv:2020
 - name: Jay Lepreau
   papers:
   - papers/eide:aspse:2001
@@ -3206,6 +3249,9 @@
 - name: David Maze
   papers:
   - papers/gordon:asplos:2002
+- name: Krzysztof Maziarz
+  papers:
+  - papers/shazeer:arxiv:2017
 - name: "David Mazi\xE8res"
   papers:
   - papers/dabek:sigops:2002
@@ -3326,6 +3372,9 @@
 - name: Dimiter Milushev
   papers:
   - papers/milushev:forte:2012
+- name: Azalia Mirhoseini
+  papers:
+  - papers/shazeer:arxiv:2017
 - name: Pamela Mishkin
   papers:
   - papers/chen:arxiv:2021
@@ -3790,6 +3839,9 @@
 - name: Gennaro Parlato
   papers:
   - papers/fischer:ase:2013
+- name: Niki Parmar
+  papers:
+  - papers/vaswani:arxiv:2017
 - name: Bryan Parno
   papers:
   - papers/ferraiuolo:sosp:2017
@@ -3941,6 +3993,9 @@
   papers:
   - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
+- name: Illia Polosukhin
+  papers:
+  - papers/vaswani:arxiv:2017
 - name: "Carlos G. L\xF3pez Pombo"
   papers:
   - papers/frias:icse:2005
@@ -4530,6 +4585,12 @@
   - papers/heule:pldi:2016
   - papers/sharma:oopsla:2012
   - papers/sharma:pls:2013
+- name: Noam Shazeer
+  papers:
+  - papers/fedus:arxiv:2021
+  - papers/lepikhin:arxiv:2020
+  - papers/shazeer:arxiv:2017
+  - papers/vaswani:arxiv:2017
 - name: Mary Sheeran
   papers:
   - papers/sheeran:fmcad:2000
@@ -5020,6 +5081,9 @@
 - name: Sebastian Ullrich
   papers:
   - papers/ullrich:msc:2016
+- name: Jakob Uszkoreit
+  papers:
+  - papers/vaswani:arxiv:2017
 - name: Neil Vachharajani
   papers:
   - papers/bridges:micro:2007
@@ -5045,6 +5109,9 @@
 - name: Kapil Vaswani
   papers:
   - papers/russinovich:acmq:2021
+- name: Ashish Vaswani
+  papers:
+  - papers/vaswani:arxiv:2017
 - name: Luis Vega
   papers:
   - papers/vega:pldi:2021
@@ -5377,6 +5444,9 @@
 - name: Tianyi Xu
   papers:
   - papers/jiang:arxiv:2021
+- name: Yuanzhong Xu
+  papers:
+  - papers/lepikhin:arxiv:2020
 - name: Hui Xu
   papers:
   - papers/xu:arxiv:2021
@@ -5595,6 +5665,9 @@
 - name: Vojin Zivojnovic
   papers:
   - papers/zivojnovic:vlsi:1996
+- name: Barret Zoph
+  papers:
+  - papers/fedus:arxiv:2021
 - name: Bill Zorn
   papers:
   - papers/zorn:iscawddd:2017
