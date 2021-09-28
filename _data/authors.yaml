@@ -141,6 +141,9 @@
 - name: "Krste Asanovi\u0107"
   papers:
   - papers/asanovic:phd:1998
+- name: Hadi Asghari-Moghaddam
+  papers:
+  - papers/hedge:micro:2019
 - name: Edward Ashton
   papers:
   - papers/shamis:arxiv:2021
@@ -1012,6 +1015,9 @@
 - name: Radhia Cousot
   papers:
   - papers/cousot:oopsla:2012
+- name: Neal Crago
+  papers:
+  - papers/hedge:micro:2019
 - name: Karl Crary
   papers:
   - papers/morrisett:wcsss:1999
@@ -1350,6 +1356,9 @@
 - name: Jesse Elwell
   papers:
   - papers/evtyushkin:asplos:2021
+- name: Joel Emer
+  papers:
+  - papers/hedge:micro:2019
 - name: E. Allen Emerson
   papers:
   - papers/clarke:cacm:2009
@@ -1515,6 +1524,9 @@
   - papers/lin:sips:2006
   - papers/reid:cases:2008
   - papers/woh:micro:2008
+- name: Christopher W. Fletcher
+  papers:
+  - papers/hedge:micro:2019
 - name: Matthew Fluet
   papers:
   - papers/fluet:jfp:2006
@@ -2023,6 +2035,9 @@
   - papers/galea:arxiv:2018
   - papers/heelan:msc:2009
   - papers/heelan:sec:2018
+- name: Kartik Hegde
+  papers:
+  - papers/hedge:micro:2019
 - name: Eric C. R. Hehner
   papers:
   - papers/hehner:vstte:2008
@@ -2297,6 +2312,9 @@
 - name: Shantanu Jain
   papers:
   - papers/chen:arxiv:2021
+- name: Aamer Jaleel
+  papers:
+  - papers/hedge:micro:2019
 - name: Yeongjin Jang
   papers:
   - papers/yun:usenix:2018
@@ -3909,6 +3927,9 @@
 - name: Alex Peleg
   papers:
   - papers/peleg:micro:1996
+- name: Michael Pellauer
+  papers:
+  - papers/hedge:micro:2019
 - name: Sneha Pendharkar
   papers:
   - papers/dixit:arxiv:2021
@@ -4749,6 +4770,9 @@
 - name: Armando Solar-Lezama
   papers:
   - papers/wang:sosp:2013
+- name: Edgar Solomonik
+  papers:
+  - papers/hedge:micro:2019
 - name: Yoonki Song
   papers:
   - papers/johnson:icse:2013

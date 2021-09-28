@@ -41,6 +41,7 @@ notes:
 - ReLU
 - Benes network
 papers:
+- hedge:micro:2019
 ---
 
 An accelerator for sparse matrix-matrix multiplies that achieves

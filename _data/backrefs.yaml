@@ -2163,6 +2163,7 @@ notes:
   papers/hardin:acl2:2006: []
   papers/hatcliff:compsurv:2012: []
   papers/hawblitzel:osdi:2014: []
+  papers/hedge:micro:2019: []
   papers/heelan:msc:2009:
   - - notes/automatic-exploit-generation
     - - Automatic exploit generation
@@ -4286,6 +4287,9 @@ papers:
   - - papers/guarnieri:sandp:2020
     - - 'Spectector: Principled detection of speculative information flows'
       - guarnieri:sandp:2020
+  - - papers/hedge:micro:2019
+    - - 'ExTensor: An accelerator for sparse tensor algebra'
+      - hedge:micro:2019
   - - papers/liu:cpsspc:2018
     - - Secure autonomous cyber-physical systems through verifiable information flow
         control
@@ -5559,6 +5563,9 @@ papers:
     - - 'Switch transformers: Scaling to trillion parameter models with simple and
         efficient sparsity'
       - fedus:arxiv:2021
+  - - papers/hedge:micro:2019
+    - - 'ExTensor: An accelerator for sparse tensor algebra'
+      - hedge:micro:2019
   - - papers/lepikhin:arxiv:2020
     - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
       - lepikhin:arxiv:2020
@@ -6678,6 +6685,9 @@ papers:
     - - 'Switch transformers: Scaling to trillion parameter models with simple and
         efficient sparsity'
       - fedus:arxiv:2021
+  - - papers/hedge:micro:2019
+    - - 'ExTensor: An accelerator for sparse tensor algebra'
+      - hedge:micro:2019
   - - papers/lepikhin:arxiv:2020
     - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
       - lepikhin:arxiv:2020
@@ -8331,6 +8341,11 @@ papers:
   papers/hardin:acl2:2006: []
   papers/hatcliff:compsurv:2012: []
   papers/hawblitzel:osdi:2014: []
+  papers/hedge:micro:2019:
+  - - papers/qin:hpca:2020
+    - - 'SIGMA: A sparse and irregular GEMM accelerator with flexible interconnects
+        for DNN training'
+      - qin:hpca:2020
   papers/heelan:msc:2009:
   - - papers/avgerinos:cacm:2014
     - - Automatic exploit generation
@@ -8798,7 +8813,10 @@ papers:
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
-  papers/qin:hpca:2020: []
+  papers/qin:hpca:2020:
+  - - papers/hedge:micro:2019
+    - - 'ExTensor: An accelerator for sparse tensor algebra'
+      - hedge:micro:2019
   papers/qin:pldi:2020:
   - - papers/astrauskas:oopsla:2020
     - - How do programmers use unsafe Rust?
