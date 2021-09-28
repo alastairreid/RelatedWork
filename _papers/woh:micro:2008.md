@@ -48,6 +48,7 @@ notes:
 - vector architecture
 - VLIW
 - SDR
+- Benes network
 papers:
 - reid:cases:2008
 ---

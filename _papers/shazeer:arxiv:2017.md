@@ -25,6 +25,7 @@ notes:
 - gating network
 - CNN
 - LSTM
+- NLP
 - google
 papers:
 ---

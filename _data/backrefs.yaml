@@ -91,6 +91,7 @@ notes:
   - - notes/symbolic-model-checking
     - - Symbolic model checking
       - null
+  notes/benes-network: []
   notes/biabduction: []
   notes/binary-analysis:
   - - notes/angr-verifier
@@ -2589,6 +2590,7 @@ notes:
     - - SymCC
       - null
   papers/potvin:cacm:2016: []
+  papers/qin:hpca:2020: []
   papers/qin:pldi:2020:
   - - notes/rust-unsafe-code
     - - Rust unsafe code
@@ -3203,6 +3205,14 @@ papers:
   - - papers/regehr:lctes:2006
     - - Deriving abstract transfer functions for analyzing embedded software
       - regehr:lctes:2006
+  notes/benes-network:
+  - - papers/qin:hpca:2020
+    - - 'SIGMA: A sparse and irregular GEMM accelerator with flexible interconnects
+        for DNN training'
+      - qin:hpca:2020
+  - - papers/woh:micro:2008
+    - - 'From SODA to scotch: The evolution of a wireless baseband processor'
+      - woh:micro:2008
   notes/biabduction:
   - - papers/calcagno:popl:2009
     - - Compositional shape analysis by means of bi-abduction
@@ -4286,6 +4296,10 @@ papers:
   - - papers/oberg:dac:2010
     - - Theoretical analysis of gate level information flow tracking
       - oberg:dac:2010
+  - - papers/qin:hpca:2020
+    - - 'SIGMA: A sparse and irregular GEMM accelerator with flexible interconnects
+        for DNN training'
+      - qin:hpca:2020
   - - papers/skorstengaard:esop:2018
     - - Reasoning about a machine with local capabilities
       - skorstengaard:esop:2018
@@ -5548,6 +5562,10 @@ papers:
   - - papers/lepikhin:arxiv:2020
     - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
       - lepikhin:arxiv:2020
+  - - papers/qin:hpca:2020
+    - - 'SIGMA: A sparse and irregular GEMM accelerator with flexible interconnects
+        for DNN training'
+      - qin:hpca:2020
   - - papers/shazeer:arxiv:2017
     - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
         layer'
@@ -5555,7 +5573,21 @@ papers:
   - - papers/vaswani:arxiv:2017
     - - Attention is all you need
       - vaswani:arxiv:2017
-  notes/nlp: []
+  notes/nlp:
+  - - papers/fedus:arxiv:2021
+    - - 'Switch transformers: Scaling to trillion parameter models with simple and
+        efficient sparsity'
+      - fedus:arxiv:2021
+  - - papers/lepikhin:arxiv:2020
+    - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
+      - lepikhin:arxiv:2020
+  - - papers/shazeer:arxiv:2017
+    - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
+        layer'
+      - shazeer:arxiv:2017
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
   notes/non-interference:
   - - papers/azevedo:post:2018
     - - The meaning of memory safety
@@ -5958,7 +5990,11 @@ papers:
   - - papers/yanovski:unknown:2021
     - - 'GhostCell: Separating permissions from data in Rust'
       - yanovski:unknown:2021
-  notes/relu: []
+  notes/relu:
+  - - papers/qin:hpca:2020
+    - - 'SIGMA: A sparse and irregular GEMM accelerator with flexible interconnects
+        for DNN training'
+      - qin:hpca:2020
   notes/remote-procedure-call:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -6645,6 +6681,10 @@ papers:
   - - papers/lepikhin:arxiv:2020
     - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
       - lepikhin:arxiv:2020
+  - - papers/qin:hpca:2020
+    - - 'SIGMA: A sparse and irregular GEMM accelerator with flexible interconnects
+        for DNN training'
+      - qin:hpca:2020
   notes/spec-sharp-project:
   - - papers/barnett:cacm:2011
     - - 'Specification and verification: The Spec# experience'
@@ -8758,6 +8798,7 @@ papers:
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
+  papers/qin:hpca:2020: []
   papers/qin:pldi:2020:
   - - papers/astrauskas:oopsla:2020
     - - How do programmers use unsafe Rust?

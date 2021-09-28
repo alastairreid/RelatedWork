@@ -20,6 +20,7 @@ notes:
 - machine learning
 - neural network
 - sparse model
+- NLP
 - google
 papers:
 - shazeer:arxiv:2017

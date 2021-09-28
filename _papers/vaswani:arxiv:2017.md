@@ -26,6 +26,7 @@ notes:
 - attention function
 - LSTM
 - BLEU
+- NLP
 - google
 papers:
 ---

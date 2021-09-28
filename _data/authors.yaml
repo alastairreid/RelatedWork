@@ -1086,6 +1086,9 @@
 - name: Shidhartha Das
   papers:
   - papers/hadjilambrou:ispass:2019
+- name: Dipankar Das
+  papers:
+  - papers/qin:hpca:2020
 - name: Sandeep Dasgupta
   papers:
   - papers/dasgupta:pldi:2019
@@ -2503,6 +2506,9 @@
   - papers/goel:pcs:2017
   - papers/kaufmann:ieeetse:1997
   - papers/kaufmann:utaustin:2012
+- name: Bharat Kaul
+  papers:
+  - papers/qin:hpca:2020
 - name: Will Keen
   papers:
   - papers/reid:cav:2016
@@ -2677,6 +2683,9 @@
 - name: Maxim Krikun
   papers:
   - papers/lepikhin:arxiv:2020
+- name: Tushar Krishna
+  papers:
+  - papers/qin:hpca:2020
 - name: Shriram Krishnamurthi
   papers:
   - papers/krishnamurthi:fm:2019
@@ -2740,6 +2749,9 @@
 - name: "Tade\xE1\u0161 Ku\u010Dera"
   papers:
   - papers/baranova:atva:2017
+- name: Hyoukjun Kwon
+  papers:
+  - papers/qin:hpca:2020
 - name: "Boris K\xF6pf"
   papers:
   - papers/guarnieri:sandp:2020
@@ -3559,6 +3571,9 @@
   - papers/marco:cav:2021
   - papers/muller:vmcai:2016
   - papers/wolff:draft:2021
+- name: Vineet Nadella
+  papers:
+  - papers/qin:hpca:2020
 - name: Santosh Nagarakatte
   papers:
   - papers/lopes:pldi:2015
@@ -4073,6 +4088,9 @@
   - papers/lal:cav:2012
   - papers/lal:fse:2014
   - papers/lal:pldi:2015
+- name: Eric Qin
+  papers:
+  - papers/qin:hpca:2020
 - name: Boqin Qin
   papers:
   - papers/qin:pldi:2020
@@ -4380,6 +4398,9 @@
   - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
+- name: Ananda Samajdar
+  papers:
+  - papers/qin:hpca:2020
 - name: Hanan Samet
   papers:
   - papers/samet:ieeetse:1977
@@ -4757,6 +4778,9 @@
 - name: Fausto Spoto
   papers:
   - papers/ernst:icse:2016
+- name: Sudarshan Srinivasan
+  papers:
+  - papers/qin:hpca:2020
 - name: Sudarshan K. Srinivasan
   papers:
   - papers/srinivasan:ieeetoc:2010

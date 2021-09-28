@@ -25,6 +25,7 @@ notes:
 - transformer model
 - sparse model
 - Mixture of Experts
+- NLP
 - google
 papers:
 - fedus:arxiv:2021
