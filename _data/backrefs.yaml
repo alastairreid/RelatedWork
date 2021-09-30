@@ -325,6 +325,7 @@ notes:
     - - Vector architecture
       - null
   notes/decidability-ceiling: []
+  notes/decoupled-access-execute: []
   notes/decoupling:
   - - notes/parallelism
     - - Parallelism
@@ -730,6 +731,7 @@ notes:
   - - notes/gating-network
     - - Gating network
       - null
+  notes/mlp: []
   notes/model-based-testing: []
   notes/model-checking:
   - - notes/blast-verifier
@@ -993,6 +995,7 @@ notes:
   - - notes/transformer-model
     - - Transformer machine learning model
       - null
+  notes/roofline-performance-model: []
   notes/rosette-solver:
   - - notes/verification-performance
     - - Verification performance of code
@@ -1221,6 +1224,7 @@ notes:
   - - notes/verifier-performance
     - - Verifier performance
       - null
+  notes/stochastic-gradient-descent: []
   notes/stream-processing:
   - - notes/decoupling
     - - Decoupling
@@ -1378,9 +1382,22 @@ notes:
   - - notes/model-checking
     - - Model checking
       - null
+  notes/tensor:
+  - - notes/tensorflow
+    - - TensorFlow
+      - null
+  - - notes/tpu
+    - - Tensor Processing Unit (TPU)
+      - null
   notes/tensorflow:
   - - notes/pytorch
     - - PyTorch
+      - null
+  - - notes/tensor
+    - - Tensor
+      - null
+  - - notes/tpu
+    - - Tensor Processing Unit (TPU)
       - null
   notes/test-case-reduction:
   - - notes/unit-tests
@@ -1437,6 +1454,7 @@ notes:
   - - notes/parallelism
     - - Parallelism
       - null
+  notes/tpu: []
   notes/transformer-model:
   - - notes/attention-function
     - - Attention function
@@ -1578,6 +1596,10 @@ notes:
       - null
   papers/aagaard:charme:2001: []
   papers/aagaard:fmcad:2000: []
+  papers/abadi:arxiv:2016:
+  - - notes/tensorflow
+    - - TensorFlow
+      - null
   papers/abadi:tcs:1991: []
   papers/abtahi:chi:2020: []
   papers/albin:cli:1995: []
@@ -2068,6 +2090,7 @@ notes:
   papers/frias:icse:2005: []
   papers/furr:pldi:2005: []
   papers/fuxman:isre:2001: []
+  papers/gale:arxiv:2019: []
   papers/galea:arxiv:2018:
   - - notes/verification-performance
     - - Verification performance of code
@@ -2256,6 +2279,11 @@ notes:
   papers/jones:microsoft:2001: []
   papers/jones:pldi:1999: []
   papers/joshi:pldi:2002: []
+  papers/jouppi:isca:2017:
+  - - notes/tpu
+    - - Tensor Processing Unit (TPU)
+      - null
+  papers/jouppi:micro:2018: []
   papers/jung:cacm:2021: []
   papers/jung:popl:2017:
   - - notes/rust-language
@@ -3477,6 +3505,12 @@ papers:
     - - 'CIVL: the concurrency intermediate verification language'
       - siegel:sc:2015
   notes/cnn:
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
+  - - papers/jouppi:micro:2018
+    - - Motivation for and evaluation of the first tensor processing unit
+      - jouppi:micro:2018
   - - papers/shazeer:arxiv:2017
     - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
         layer'
@@ -3823,6 +3857,10 @@ papers:
   - - papers/leino:informatics:2001
     - - 'Extended static checking: A ten-year perspective'
       - leino:informatics:2001
+  notes/decoupled-access-execute:
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
   notes/decoupling:
   - - papers/bird:sc:1993
     - - The effectiveness of decoupling
@@ -4226,6 +4264,9 @@ papers:
     - - Developing verified programs with Dafny
       - leino:icse:2013
   notes/google:
+  - - papers/abadi:arxiv:2016
+    - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
+      - abadi:arxiv:2016
   - - papers/chang:tocs:2012
     - - 'Bigtable: A distributed storage system for structured data'
       - chang:tocs:2012
@@ -4245,6 +4286,9 @@ papers:
   - - papers/ivankovic:fse:2019
     - - Code coverage at Google
       - ivankovic:fse:2019
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
   - - papers/lepikhin:arxiv:2020
     - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
       - lepikhin:arxiv:2020
@@ -4290,6 +4334,12 @@ papers:
   - - papers/hedge:micro:2019
     - - 'ExTensor: An accelerator for sparse tensor algebra'
       - hedge:micro:2019
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
+  - - papers/jouppi:micro:2018
+    - - Motivation for and evaluation of the first tensor processing unit
+      - jouppi:micro:2018
   - - papers/liu:cpsspc:2018
     - - Secure autonomous cyber-physical systems through verifiable information flow
         control
@@ -5452,6 +5502,13 @@ papers:
     - - 'Outrageously large neural networks: The sparsely-gated mixture-of-experts
         layer'
       - shazeer:arxiv:2017
+  notes/mlp:
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
+  - - papers/jouppi:micro:2018
+    - - Motivation for and evaluation of the first tensor processing unit
+      - jouppi:micro:2018
   notes/model-based-testing: []
   notes/model-checking:
   - - papers/ball:pldi:2001
@@ -5559,13 +5616,25 @@ papers:
     - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
       - reid:oopsla:2017
   notes/neural-network:
+  - - papers/abadi:arxiv:2016
+    - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
+      - abadi:arxiv:2016
   - - papers/fedus:arxiv:2021
     - - 'Switch transformers: Scaling to trillion parameter models with simple and
         efficient sparsity'
       - fedus:arxiv:2021
+  - - papers/gale:arxiv:2019
+    - - The state of sparsity in deep neural networks
+      - gale:arxiv:2019
   - - papers/hedge:micro:2019
     - - 'ExTensor: An accelerator for sparse tensor algebra'
       - hedge:micro:2019
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
+  - - papers/jouppi:micro:2018
+    - - Motivation for and evaluation of the first tensor processing unit
+      - jouppi:micro:2018
   - - papers/lepikhin:arxiv:2020
     - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
       - lepikhin:arxiv:2020
@@ -6069,7 +6138,17 @@ papers:
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
       - nelson:sosp:2019
-  notes/rnn: []
+  notes/rnn:
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
+  - - papers/jouppi:micro:2018
+    - - Motivation for and evaluation of the first tensor processing unit
+      - jouppi:micro:2018
+  notes/roofline-performance-model:
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
   notes/rosette-solver:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
@@ -6685,6 +6764,9 @@ papers:
     - - 'Switch transformers: Scaling to trillion parameter models with simple and
         efficient sparsity'
       - fedus:arxiv:2021
+  - - papers/gale:arxiv:2019
+    - - The state of sparsity in deep neural networks
+      - gale:arxiv:2019
   - - papers/hedge:micro:2019
     - - 'ExTensor: An accelerator for sparse tensor algebra'
       - hedge:micro:2019
@@ -6740,6 +6822,10 @@ papers:
   - - papers/zhang:apsec:2018
     - - Boost symbolic execution using dynamic state merging and forking
       - zhang:apsec:2018
+  notes/stochastic-gradient-descent:
+  - - papers/abadi:arxiv:2016
+    - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
+      - abadi:arxiv:2016
   notes/stream-processing:
   - - papers/gordon:asplos:2002
     - - A stream compiler for communication-exposed architectures
@@ -7156,7 +7242,26 @@ papers:
   - - papers/pnueli:sfcs:1977
     - - The temporal logic of programs
       - pnueli:sfcs:1977
-  notes/tensorflow: []
+  notes/tensor:
+  - - papers/abadi:arxiv:2016
+    - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
+      - abadi:arxiv:2016
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
+  - - papers/jouppi:micro:2018
+    - - Motivation for and evaluation of the first tensor processing unit
+      - jouppi:micro:2018
+  notes/tensorflow:
+  - - papers/abadi:arxiv:2016
+    - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
+      - abadi:arxiv:2016
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
+  - - papers/jouppi:micro:2018
+    - - Motivation for and evaluation of the first tensor processing unit
+      - jouppi:micro:2018
   notes/test-case-reduction:
   - - papers/groce:issta:2017
     - - One test to rule them all
@@ -7252,6 +7357,10 @@ papers:
     - - 'EXOCHI: architecture and programming environment for a heterogeneous multi-core
         multithreaded system'
       - wang:pldi:2007
+  notes/tpu:
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
   notes/transformer-model:
   - - papers/fedus:arxiv:2021
     - - 'Switch transformers: Scaling to trillion parameter models with simple and
@@ -7709,6 +7818,7 @@ papers:
       - rath:epiq:2018
   papers/aagaard:charme:2001: []
   papers/aagaard:fmcad:2000: []
+  papers/abadi:arxiv:2016: []
   papers/abadi:tcs:1991: []
   papers/abtahi:chi:2020: []
   papers/albin:cli:1995: []
@@ -8264,6 +8374,7 @@ papers:
     - - Dependent types for low-level programming
       - condit:esop:2007
   papers/fuxman:isre:2001: []
+  papers/gale:arxiv:2019: []
   papers/galea:arxiv:2018:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
@@ -8466,6 +8577,14 @@ papers:
   papers/jones:microsoft:2001: []
   papers/jones:pldi:1999: []
   papers/joshi:pldi:2002: []
+  papers/jouppi:isca:2017:
+  - - papers/jouppi:micro:2018
+    - - Motivation for and evaluation of the first tensor processing unit
+      - jouppi:micro:2018
+  papers/jouppi:micro:2018:
+  - - papers/jouppi:isca:2017
+    - - In-datacenter performance analysis of a tensor processing unit
+      - jouppi:isca:2017
   papers/jung:cacm:2021: []
   papers/jung:popl:2017:
   - - papers/anderson:icse:2016

@@ -1,11 +1,10 @@
 ---
 layout: note
 notes:
-- neural network
 - tensor
-- PyTorch
+- TensorFlow
 papers:
-- abadi:arxiv:2016
-title: TensorFlow
+- jouppi:isca:2017
+title: Tensor Processing Unit (TPU)
 ---
 {% include links.html %}
