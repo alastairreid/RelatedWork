@@ -96,6 +96,9 @@
   - papers/gordon:asplos:2002
   - papers/thies:micro:2007
   - papers/thies:ppopp:2005
+- name: Saman Amarasinghe
+  papers:
+  - papers/kjolstad:oopsla:2017
 - name: Dario Amodei
   papers:
   - papers/chen:arxiv:2021
@@ -910,6 +913,9 @@
 - name: Andy Chou
   papers:
   - papers/chou:bugs:2005
+- name: Stephen Chou
+  papers:
+  - papers/kjolstad:oopsla:2017
 - name: Maria Christakis
   papers:
   - papers/mansur:arxiv:2020
@@ -2639,6 +2645,9 @@
 - name: Gauri Kambhatla
   papers:
   - papers/coblenz:arxiv:2020
+- name: Shoaib Kamil
+  papers:
+  - papers/kjolstad:oopsla:2017
 - name: Jeehoon Kang
   papers:
   - papers/jung:popl:2020
@@ -2763,6 +2772,9 @@
   papers:
   - papers/baudin:cacm:2021
   - papers/cuoq:sefm:2012
+- name: Fredrik Kjolstad
+  papers:
+  - papers/kjolstad:oopsla:2017
 - name: Steve Klabnik
   papers:
   - papers/klabnik:book:2018
@@ -3274,6 +3286,9 @@
 - name: Guei-Yuan Lueh
   papers:
   - papers/wang:pldi:2007
+- name: David Lugato
+  papers:
+  - papers/kjolstad:oopsla:2017
 - name: Mark Luk
   papers:
   - papers/seshadri:sosp:2007

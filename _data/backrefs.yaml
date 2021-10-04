@@ -2340,6 +2340,7 @@ notes:
   papers/kiczales:iwoos:1991: []
   papers/kim:isca:2014: []
   papers/kirankumar:fmcad:2012: []
+  papers/kjolstad:oopsla:2017: []
   papers/klabnik:book:2018: []
   papers/klein:sosp:2009:
   - - notes/annotation-burden
@@ -5675,6 +5676,9 @@ papers:
   - - papers/jouppi:micro:2018
     - - Motivation for and evaluation of the first tensor processing unit
       - jouppi:micro:2018
+  - - papers/kjolstad:oopsla:2017
+    - - The tensor algebra compiler
+      - kjolstad:oopsla:2017
   - - papers/lepikhin:arxiv:2020
     - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
       - lepikhin:arxiv:2020
@@ -6819,6 +6823,9 @@ papers:
   - - papers/hedge:micro:2019
     - - 'ExTensor: An accelerator for sparse tensor algebra'
       - hedge:micro:2019
+  - - papers/kjolstad:oopsla:2017
+    - - The tensor algebra compiler
+      - kjolstad:oopsla:2017
   - - papers/lepikhin:arxiv:2020
     - - 'GShard: Scaling giant models with conditional computation and automatic sharding'
       - lepikhin:arxiv:2020
@@ -7301,6 +7308,9 @@ papers:
   - - papers/jouppi:micro:2018
     - - Motivation for and evaluation of the first tensor processing unit
       - jouppi:micro:2018
+  - - papers/kjolstad:oopsla:2017
+    - - The tensor algebra compiler
+      - kjolstad:oopsla:2017
   notes/tensorflow:
   - - papers/abadi:arxiv:2016
     - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
@@ -7314,6 +7324,9 @@ papers:
   - - papers/jouppi:micro:2018
     - - Motivation for and evaluation of the first tensor processing unit
       - jouppi:micro:2018
+  - - papers/kjolstad:oopsla:2017
+    - - The tensor algebra compiler
+      - kjolstad:oopsla:2017
   notes/test-case-reduction:
   - - papers/groce:issta:2017
     - - One test to rule them all
@@ -8696,6 +8709,7 @@ papers:
   papers/kiczales:iwoos:1991: []
   papers/kim:isca:2014: []
   papers/kirankumar:fmcad:2012: []
+  papers/kjolstad:oopsla:2017: []
   papers/klabnik:book:2018: []
   papers/klein:sosp:2009:
   - - papers/murray:secpriv:2013
