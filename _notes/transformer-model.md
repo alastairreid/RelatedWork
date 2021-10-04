@@ -2,7 +2,7 @@
 layout: note
 notes:
 - neural network
-- encoder-decoder model
+- auto-encoder model
 - attention function
 - RNN
 - LSTM

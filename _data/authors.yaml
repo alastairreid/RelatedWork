@@ -747,6 +747,9 @@
 - name: Ghila Castelnuovo
   papers:
   - papers/naik:popl:2012
+- name: Pablo Samuel Castro
+  papers:
+  - papers/evci:arxiv:2021
 - name: Miguel Castro
   papers:
   - papers/shamis:arxiv:2021
@@ -1318,6 +1321,9 @@
 - name: Yue Duan
   papers:
   - papers/zhao:ndss:2019
+- name: Marat Dukhan
+  papers:
+  - papers/elsen:arxiv:2019
 - name: James R. Duley
   papers:
   - papers/chu:ieeedtc:1992
@@ -1415,7 +1421,10 @@
   - papers/klein:sosp:2009
 - name: Erich Elsen
   papers:
+  - papers/elsen:arxiv:2019
+  - papers/evci:arxiv:2021
   - papers/gale:arxiv:2019
+  - papers/gale:arxiv:2020
 - name: Jesse Elwell
   papers:
   - papers/evtyushkin:asplos:2021
@@ -1478,6 +1487,9 @@
 - name: James A. Evans
   papers:
   - papers/wu:arxiv:2017
+- name: Utku Evci
+  papers:
+  - papers/evci:arxiv:2021
 - name: Dmitry Evtyushkin
   papers:
   - papers/evtyushkin:asplos:2021
@@ -1711,7 +1723,10 @@
   - papers/monteiro:arxiv:2019
 - name: Trevor Gale
   papers:
+  - papers/elsen:arxiv:2019
+  - papers/evci:arxiv:2021
   - papers/gale:arxiv:2019
+  - papers/gale:arxiv:2020
 - name: John Galea
   papers:
   - papers/galea:arxiv:2018
@@ -3556,6 +3571,9 @@
 - name: David Menendez
   papers:
   - papers/lopes:pldi:2015
+- name: Jacob Menick
+  papers:
+  - papers/evci:arxiv:2021
 - name: Florian Merz
   papers:
   - papers/merz:vstte:2012
@@ -4950,6 +4968,9 @@
 - name: Laurent Simon
   papers:
   - papers/padhye:oopsla:2019
+- name: Karen Simonyan
+  papers:
+  - papers/elsen:arxiv:2019
 - name: Eli Singerman
   papers:
   - papers/pnueli:tacas:1998
@@ -5895,6 +5916,7 @@
   - papers/hardin:acl2:2006
 - name: Cliff Young
   papers:
+  - papers/gale:arxiv:2020
   - papers/jouppi:isca:2017
   - papers/jouppi:micro:2018
 - name: Yuan Yu
@@ -5909,6 +5931,9 @@
 - name: Insu Yun
   papers:
   - papers/yun:usenix:2018
+- name: Matei Zaharia
+  papers:
+  - papers/gale:arxiv:2020
 - name: Ali Zaidi
   papers:
   - papers/reid:cav:2016

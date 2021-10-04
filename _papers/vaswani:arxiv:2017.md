@@ -21,7 +21,7 @@ title: Attention is all you need
 year: 2017
 notes:
 - neural network
-- encoder-decoder model
+- auto-encoder model
 - transformer model
 - attention function
 - LSTM
@@ -35,7 +35,7 @@ Introduced the [transformer model] and replacing the recurrent layers
 entirely with [attention][attention function]
 to improve efficiency.
 
-Uses multi-head [attention][attention function] in [encoder-decoder][encoder-decoder model]
+Uses multi-head [attention][attention function] in [encoder-decoder][auto-encoder model]
 layers, self-attention layers in the encoder
 and attention layers that avoid leftward information flow.
 Uses sin/cos functions of varying frequencies to encode position.

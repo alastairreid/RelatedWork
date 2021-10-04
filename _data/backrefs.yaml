@@ -85,6 +85,10 @@ notes:
   - - notes/vcc-verifier
     - - VCC verifier
       - null
+  notes/auto-encoder-model:
+  - - notes/transformer-model
+    - - Transformer machine learning model
+      - null
   notes/automatic-exploit-generation: []
   notes/bap-tool: []
   notes/bdd:
@@ -362,10 +366,6 @@ notes:
       - null
   notes/dynamic-binary-translation: []
   notes/embedding: []
-  notes/encoder-decoder-model:
-  - - notes/transformer-model
-    - - Transformer machine learning model
-      - null
   notes/entropy: []
   notes/equality-saturation: []
   notes/events: []
@@ -783,14 +783,14 @@ notes:
   - - notes/attention-function
     - - Attention function
       - null
+  - - notes/auto-encoder-model
+    - - Auto-encoder model
+      - null
   - - notes/cnn
     - - Convolutional neural network (CNN)
       - null
   - - notes/deep-neural-networks
     - - Deep neural networks
-      - null
-  - - notes/encoder-decoder-model
-    - - Encoder-decoder model
       - null
   - - notes/gan
     - - Generative adversarial neural network (GAN)
@@ -818,6 +818,9 @@ notes:
       - null
   - - notes/transformer-model
     - - Transformer machine learning model
+      - null
+  - - notes/xnnpack
+    - - XNNPACK
       - null
   notes/nlp:
   - - notes/attention-function
@@ -943,6 +946,9 @@ notes:
   notes/pytorch:
   - - notes/tensorflow
     - - TensorFlow
+      - null
+  - - notes/xnnpack
+    - - XNNPACK
       - null
   notes/qemu:
   - - notes/s2e-verifier
@@ -1203,6 +1209,9 @@ notes:
   - - notes/attention-function
     - - Attention function
       - null
+  - - notes/xnnpack
+    - - XNNPACK
+      - null
   notes/spec-sharp-project:
   - - notes/boogie-verifier
     - - Boogie verifier
@@ -1399,6 +1408,9 @@ notes:
   - - notes/tpu
     - - Tensor Processing Unit (TPU)
       - null
+  - - notes/xnnpack
+    - - XNNPACK
+      - null
   notes/test-case-reduction:
   - - notes/unit-tests
     - - Unit tests
@@ -1584,6 +1596,7 @@ notes:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
+  notes/xnnpack: []
   notes/z3-solver:
   - - notes/smt-lib-format
     - - SMT-LIB format
@@ -2017,6 +2030,10 @@ notes:
   papers/efstathopoulos:sosp:2005: []
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
+  papers/elsen:arxiv:2019:
+  - - notes/xnnpack
+    - - XNNPACK
+      - null
   papers/engler:issta:2007:
   - - notes/exe-verifier
     - - EXE symbolic executor
@@ -2030,6 +2047,7 @@ notes:
   - - notes/rust-unsafe-code
     - - Rust unsafe code
       - null
+  papers/evci:arxiv:2021: []
   papers/evtyushkin:asplos:2021: []
   papers/fahndrich:foveoos:2010:
   - - notes/contract-driven-development
@@ -2091,6 +2109,7 @@ notes:
   papers/furr:pldi:2005: []
   papers/fuxman:isre:2001: []
   papers/gale:arxiv:2019: []
+  papers/gale:arxiv:2020: []
   papers/galea:arxiv:2018:
   - - notes/verification-performance
     - - Verification performance of code
@@ -3209,6 +3228,10 @@ papers:
   - - papers/vogels:fmoods:2011
     - - Annotation inference for separation logic based verifiers
       - vogels:fmoods:2011
+  notes/auto-encoder-model:
+  - - papers/vaswani:arxiv:2017
+    - - Attention is all you need
+      - vaswani:arxiv:2017
   notes/automatic-exploit-generation:
   - - papers/avgerinos:cacm:2014
     - - Automatic exploit generation
@@ -3978,10 +4001,6 @@ papers:
   - - papers/boulton:tpcd:1993
     - - Experience with embedding hardware description languages in HOL
       - boulton:tpcd:1993
-  notes/encoder-decoder-model:
-  - - papers/vaswani:arxiv:2017
-    - - Attention is all you need
-      - vaswani:arxiv:2017
   notes/entropy:
   - - papers/bohme:fse:2020
     - - 'Boosting fuzzer efficiency: An information theoretic perspective'
@@ -4276,10 +4295,22 @@ papers:
   - - papers/dean:cacm:2013
     - - The tail at scale
       - dean:cacm:2013
+  - - papers/elsen:arxiv:2019
+    - - Fast sparse ConvNets
+      - elsen:arxiv:2019
+  - - papers/evci:arxiv:2021
+    - - 'Rigging the lottery: Making all tickets winners'
+      - evci:arxiv:2021
   - - papers/fedus:arxiv:2021
     - - 'Switch transformers: Scaling to trillion parameter models with simple and
         efficient sparsity'
       - fedus:arxiv:2021
+  - - papers/gale:arxiv:2019
+    - - The state of sparsity in deep neural networks
+      - gale:arxiv:2019
+  - - papers/gale:arxiv:2020
+    - - Sparse GPU kernels for deep learning
+      - gale:arxiv:2020
   - - papers/hochschild:hotos:2021
     - - Cores that don't count
       - hochschild:hotos:2021
@@ -5619,6 +5650,12 @@ papers:
   - - papers/abadi:arxiv:2016
     - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
       - abadi:arxiv:2016
+  - - papers/elsen:arxiv:2019
+    - - Fast sparse ConvNets
+      - elsen:arxiv:2019
+  - - papers/evci:arxiv:2021
+    - - 'Rigging the lottery: Making all tickets winners'
+      - evci:arxiv:2021
   - - papers/fedus:arxiv:2021
     - - 'Switch transformers: Scaling to trillion parameter models with simple and
         efficient sparsity'
@@ -5626,6 +5663,9 @@ papers:
   - - papers/gale:arxiv:2019
     - - The state of sparsity in deep neural networks
       - gale:arxiv:2019
+  - - papers/gale:arxiv:2020
+    - - Sparse GPU kernels for deep learning
+      - gale:arxiv:2020
   - - papers/hedge:micro:2019
     - - 'ExTensor: An accelerator for sparse tensor algebra'
       - hedge:micro:2019
@@ -6760,6 +6800,12 @@ papers:
       - tillmann:fse:2005
   notes/softmax: []
   notes/sparse-model:
+  - - papers/elsen:arxiv:2019
+    - - Fast sparse ConvNets
+      - elsen:arxiv:2019
+  - - papers/evci:arxiv:2021
+    - - 'Rigging the lottery: Making all tickets winners'
+      - evci:arxiv:2021
   - - papers/fedus:arxiv:2021
     - - 'Switch transformers: Scaling to trillion parameter models with simple and
         efficient sparsity'
@@ -6767,6 +6813,9 @@ papers:
   - - papers/gale:arxiv:2019
     - - The state of sparsity in deep neural networks
       - gale:arxiv:2019
+  - - papers/gale:arxiv:2020
+    - - Sparse GPU kernels for deep learning
+      - gale:arxiv:2020
   - - papers/hedge:micro:2019
     - - 'ExTensor: An accelerator for sparse tensor algebra'
       - hedge:micro:2019
@@ -7256,6 +7305,9 @@ papers:
   - - papers/abadi:arxiv:2016
     - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
       - abadi:arxiv:2016
+  - - papers/elsen:arxiv:2019
+    - - Fast sparse ConvNets
+      - elsen:arxiv:2019
   - - papers/jouppi:isca:2017
     - - In-datacenter performance analysis of a tensor processing unit
       - jouppi:isca:2017
@@ -7794,6 +7846,10 @@ papers:
   - - papers/sarkar:popl:2009
     - - The semantics of x86-CC multiprocessor machine code
       - sarkar:popl:2009
+  notes/xnnpack:
+  - - papers/elsen:arxiv:2019
+    - - Fast sparse ConvNets
+      - elsen:arxiv:2019
   notes/z3-solver:
   - - papers/avgerinos:icse:2014
     - - Enhancing symbolic execution with veritesting
@@ -8293,6 +8349,7 @@ papers:
       - spencer:security:1999
   papers/eide:aspse:2001: []
   papers/eide:icse:2002: []
+  papers/elsen:arxiv:2019: []
   papers/engler:issta:2007:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
@@ -8316,6 +8373,7 @@ papers:
     - - Understanding memory and thread safety practices and issues in real-world
         Rust programs
       - qin:pldi:2020
+  papers/evci:arxiv:2021: []
   papers/evtyushkin:asplos:2021: []
   papers/fahndrich:foveoos:2010:
   - - papers/barnett:cacm:2011
@@ -8375,6 +8433,7 @@ papers:
       - condit:esop:2007
   papers/fuxman:isre:2001: []
   papers/gale:arxiv:2019: []
+  papers/gale:arxiv:2020: []
   papers/galea:arxiv:2018:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
