@@ -1839,6 +1839,9 @@
 - name: Milind Girkar
   papers:
   - papers/wang:pldi:2007
+- name: Klaus v. Gleissenthall
+  papers:
+  - papers/gleissenthall:ccs:2021
 - name: Neal Glew
   papers:
   - papers/morrisett:wcsss:1999
@@ -2481,6 +2484,7 @@
   papers:
   - papers/beyer:ijsttt:2007
   - papers/beyer:sas:2004
+  - papers/gleissenthall:ccs:2021
   - papers/henzinger:spin:2003
   - papers/jhala:cav:2001
   - papers/jhala:compsurv:2009
@@ -2734,6 +2738,9 @@
   - papers/qiu:nfm:2018
   - papers/siddiqui:oopsla:2012
   - papers/yang:issta:2012
+- name: "Rami G\xF6khan Kici"
+  papers:
+  - papers/gleissenthall:ccs:2021
 - name: Gregor Kiczales
   papers:
   - papers/kiczales:iwoos:1991
@@ -5119,6 +5126,7 @@
 - name: Deian Stefan
   papers:
   - papers/brown:sec:2020
+  - papers/gleissenthall:ccs:2021
 - name: Dan Steinberg
   papers:
   - papers/jouppi:isca:2017

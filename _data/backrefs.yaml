@@ -2124,6 +2124,7 @@ notes:
     - - Side Channel
       - null
   papers/gennari:vstte:2018: []
+  papers/gleissenthall:ccs:2021: []
   papers/godefroid:acmq:2012:
   - - notes/sage-verifier
     - - SAGE verifier
@@ -4360,6 +4361,9 @@ papers:
   - - papers/ferraiuolo:dac:2017
     - - Secure information flow verification with mutable dependent types
       - ferraiuolo:dac:2017
+  - - papers/gleissenthall:ccs:2021
+    - - Solver-aided constant-time hardware verification
+      - gleissenthall:ccs:2021
   - - papers/guarnieri:sandp:2020
     - - 'Spectector: Principled detection of speculative information flows'
       - guarnieri:sandp:2020
@@ -4581,6 +4585,9 @@ papers:
   - - papers/ferraiuolo:sosp:2017
     - - 'Komodo: Using verification to disentangle secure-enclave hardware from software'
       - ferraiuolo:sosp:2017
+  - - papers/gleissenthall:ccs:2021
+    - - Solver-aided constant-time hardware verification
+      - gleissenthall:ccs:2021
   - - papers/goguen:secpriv:1982
     - - Security policies and security models
       - goguen:secpriv:1982
@@ -5449,6 +5456,9 @@ papers:
     - - A survey of microarchitectural timing attacks and countermeasures on contemporary
         hardware
       - ge:jce:2016
+  - - papers/gleissenthall:ccs:2021
+    - - Solver-aided constant-time hardware verification
+      - gleissenthall:ccs:2021
   - - papers/gross:micro:2016
     - - 'A retrospective on `MIPS: A microprocessor architecture'''
       - gross:micro:2016
@@ -6608,6 +6618,9 @@ papers:
     - - A survey of microarchitectural timing attacks and countermeasures on contemporary
         hardware
       - ge:jce:2016
+  - - papers/gleissenthall:ccs:2021
+    - - Solver-aided constant-time hardware verification
+      - gleissenthall:ccs:2021
   - - papers/guanciale:ccs:2020
     - - 'InSpectre: Breaking and fixing microarchitectural vulnerabilities by formal
         analysis'
@@ -8400,7 +8413,10 @@ papers:
       - lepikhin:arxiv:2020
   papers/fernandez:icse:1997: []
   papers/ferraiuolo:asplos:2017: []
-  papers/ferraiuolo:ccs:2018: []
+  papers/ferraiuolo:ccs:2018:
+  - - papers/gleissenthall:ccs:2021
+    - - Solver-aided constant-time hardware verification
+      - gleissenthall:ccs:2021
   papers/ferraiuolo:dac:2017: []
   papers/ferraiuolo:sosp:2017: []
   papers/filliatre:cav:2007: []
@@ -8458,6 +8474,7 @@ papers:
   papers/gay:pldi:2003: []
   papers/ge:jce:2016: []
   papers/gennari:vstte:2018: []
+  papers/gleissenthall:ccs:2021: []
   papers/godefroid:acmq:2012: []
   papers/godefroid:bugs:2005:
   - - papers/ohearn:popl:2019
