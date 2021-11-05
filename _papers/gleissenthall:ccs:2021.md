@@ -14,7 +14,6 @@ layout: paper
 location: Virtual Event, Republic of Korea
 numpages: '16'
 publisher: Association for Computing Machinery
-read: false
 readings: []
 series: CCS '21
 title: 'Solver-aided constant-time hardware verification'

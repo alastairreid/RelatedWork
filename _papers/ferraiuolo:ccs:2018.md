@@ -13,11 +13,10 @@ read: false
 readings: []
 title: 'HyperFlow: A processor architecture for nonmalleable, timing-safe information flow security'
 year: 2018
-notes:
-- hardware
 topics:
 - security
 notes:
+- hardware
 - information flow
 papers:
 ---
