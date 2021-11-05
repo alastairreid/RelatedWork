@@ -1795,6 +1795,7 @@ notes:
   - - notes/remote-procedure-call
     - - Remote procedure call (RPC)
       - null
+  papers/bishop:jacm:2019: []
   papers/blanchard:fmics:2015: []
   papers/blanqui:rapido:2011: []
   papers/blelloch:book:1990: []
@@ -1811,6 +1812,7 @@ notes:
   papers/boettcher:date:2014: []
   papers/bohme2:fse:2020: []
   papers/bohme:fse:2020: []
+  papers/bond:usenix:2017: []
   papers/boos:plos:2017: []
   papers/bornat:popl:2005:
   - - notes/fractional-permissions
@@ -1856,6 +1858,7 @@ notes:
   - - notes/smt-solver
     - - SMT solver
       - null
+  papers/bryant:cmu:2018: []
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
   papers/burton:toplas:1990: []
@@ -1999,6 +2002,7 @@ notes:
   papers/damm:fmoods:1999: []
   papers/daniel:sandp:2020: []
   papers/dasgupta:pldi:2019: []
+  papers/dasgupta:pldi:2020: []
   papers/david:issta:2016: []
   papers/dean:cacm:2013: []
   papers/degenbaev:phd:2012: []
@@ -2145,6 +2149,8 @@ notes:
   papers/godefroid:pldi:2012: []
   papers/godefroid:popl:2010: []
   papers/goel:acl2:2013: []
+  papers/goel:cav:2021: []
+  papers/goel:cpp:2020: []
   papers/goel:fmcad:2014: []
   papers/goel:pcs:2017: []
   papers/goel:phd:2016: []
@@ -2219,6 +2225,7 @@ notes:
   - - notes/loop-invariant
     - - Loop invariant
       - null
+  papers/hendrix:itp:2019: []
   papers/hennessy:book:2011: []
   papers/hennessy:micro:1982: []
   papers/henzinger:spin:2003: []
@@ -2259,6 +2266,7 @@ notes:
     - - Verification performance of code
       - null
   papers/hritcu:icfp:2013: []
+  papers/hsiao:micro:2021: []
   papers/huang:todaes:2019: []
   papers/hunt:jar:1989: []
   papers/hunt:lncs:1994: []
@@ -2432,6 +2440,7 @@ notes:
   papers/lindner:indin:2018: []
   papers/lindner:indin:2019: []
   papers/lipp:arxiv:2018: []
+  papers/liu:arxiv:2021: []
   papers/liu:cpsspc:2018: []
   papers/liu:icse:2020: []
   papers/liu:sigcomm:2018: []
@@ -2577,6 +2586,7 @@ notes:
       - null
   papers/nipkow:book:2002: []
   papers/noonan:pldi:2016: []
+  papers/nordholz:eurosys:2020: []
   papers/nyxbrain:sc2:2017: []
   papers/oberg:dac:2010: []
   papers/ohearn:cacm:2019: []
@@ -2962,6 +2972,7 @@ notes:
     - - Lazy initialization of symbolic values
       - null
   papers/xu:arxiv:2021: []
+  papers/xu:cav:2021: []
   papers/yang:issta:2012: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011: []
@@ -3279,9 +3290,18 @@ papers:
     - - 'Binsec/Rel: Efficient relational symbolic execution for constant-time at
         binary-level'
       - daniel:sandp:2020
+  - - papers/dasgupta:pldi:2020
+    - - Scalable validation of binary lifters
+      - dasgupta:pldi:2020
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
+  - - papers/hendrix:itp:2019
+    - - Towards verified binary raising
+      - hendrix:itp:2019
+  - - papers/liu:arxiv:2021
+    - - Proving LTL properties of bitvector programs and decompiled binaries (extended)
+      - liu:arxiv:2021
   - - papers/maus:amast:2008
     - - 'Vx86: x86 assembler simulated in C powered by automated theorem proving'
       - maus:amast:2008
@@ -3701,12 +3721,21 @@ papers:
   - - papers/beyer:ijsttt:2006
     - - Putting it all together - Formal verification of the VAMP
       - beyer:ijsttt:2006
+  - - papers/bryant:cmu:2018
+    - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
+      - bryant:cmu:2018
   - - papers/burch:cav:1994
     - - Automatic verification of pipelined microprocessor control
       - burch:cav:1994
   - - papers/fox:ucam:2002
     - - Formal verification of the ARM6 micro-architecture
       - fox:ucam:2002
+  - - papers/goel:cav:2021
+    - - Balancing automation and control for formal verification of microprocessors
+      - goel:cav:2021
+  - - papers/goel:cpp:2020
+    - - Verifying x86 instruction implementations
+      - goel:cpp:2020
   - - papers/greve:fmcad:1998
     - - Symbolic simulation of the JEM1 microprocessor
       - greve:fmcad:1998
@@ -4351,6 +4380,9 @@ papers:
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
   notes/hardware:
+  - - papers/bryant:cmu:2018
+    - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
+      - bryant:cmu:2018
   - - papers/choi:icfp:2017
     - - 'Kami: A platform for high-level parametric hardware specification and its
         modular verification'
@@ -4364,6 +4396,12 @@ papers:
   - - papers/gleissenthall:ccs:2021
     - - Solver-aided constant-time hardware verification
       - gleissenthall:ccs:2021
+  - - papers/goel:cav:2021
+    - - Balancing automation and control for formal verification of microprocessors
+      - goel:cav:2021
+  - - papers/goel:cpp:2020
+    - - Verifying x86 instruction implementations
+      - goel:cpp:2020
   - - papers/guarnieri:sandp:2020
     - - 'Spectector: Principled detection of speculative information flows'
       - guarnieri:sandp:2020
@@ -4920,9 +4958,19 @@ papers:
   - - papers/beyer:ijsttt:2006
     - - Putting it all together - Formal verification of the VAMP
       - beyer:ijsttt:2006
+  - - papers/bishop:jacm:2019
+    - - 'Engineering with logic: Rigorous test-oracle specification and validation
+        for TCP/IP and the sockets API'
+      - bishop:jacm:2019
   - - papers/blanqui:rapido:2011
     - - 'Designing a CPU model: from a pseudo-formal document to fast code'
       - blanqui:rapido:2011
+  - - papers/bond:usenix:2017
+    - - 'Vale: Verifying high-performance cryptographic assembly code'
+      - bond:usenix:2017
+  - - papers/bryant:cmu:2018
+    - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
+      - bryant:cmu:2018
   - - papers/cattell:phd:1978
     - - Formalization and automatic derivation of code generators
       - cattell:phd:1978
@@ -4944,6 +4992,9 @@ papers:
   - - papers/dasgupta:pldi:2019
     - - A complete formal semantics of x86-64 user-level instruction set architecture
       - dasgupta:pldi:2019
+  - - papers/dasgupta:pldi:2020
+    - - Scalable validation of binary lifters
+      - dasgupta:pldi:2020
   - - papers/degenbaev:phd:2012
     - - Formal specification of the x86 instruction set architecture
       - degenbaev:phd:2012
@@ -4983,6 +5034,12 @@ papers:
   - - papers/goel:acl2:2013
     - - Abstract stobjs and their application to ISA modeling
       - goel:acl2:2013
+  - - papers/goel:cav:2021
+    - - Balancing automation and control for formal verification of microprocessors
+      - goel:cav:2021
+  - - papers/goel:cpp:2020
+    - - Verifying x86 instruction implementations
+      - goel:cpp:2020
   - - papers/goel:fmcad:2014
     - - Simulation and formal verification of x86 machine-code programs that make
         system calls
@@ -4998,12 +5055,19 @@ papers:
   - - papers/hardin:acl2:2006
     - - A robust machine code proof framework for highly secure applications
       - hardin:acl2:2006
+  - - papers/hendrix:itp:2019
+    - - Towards verified binary raising
+      - hendrix:itp:2019
   - - papers/hennessy:micro:1982
     - - 'MIPS: A microprocessor architecture'
       - hennessy:micro:1982
   - - papers/heule:pldi:2016
     - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
       - heule:pldi:2016
+  - - papers/hsiao:micro:2021
+    - - Synthesizing formal models of hardware from RTL for efficient verification
+        of memory model implementations
+      - hsiao:micro:2021
   - - papers/huang:todaes:2019
     - - 'Instruction-level abstraction (ILA): A uniform specification for system-on-chip
         (SoC) verification'
@@ -5018,6 +5082,9 @@ papers:
   - - papers/kuhne:fmcad:2010
     - - Automated formal verification of processors based on architectural models
       - kuhne:fmcad:2010
+  - - papers/liu:arxiv:2021
+    - - Proving LTL properties of bitvector programs and decompiled binaries (extended)
+      - liu:arxiv:2021
   - - papers/lockhart:ispass:2015
     - - 'Pydgin: generating fast instruction set simulators from simple architecture
         descriptions with meta-tracing JIT compilers'
@@ -5034,6 +5101,9 @@ papers:
   - - papers/noonan:pldi:2016
     - - Polymorphic type inference for machine code
       - noonan:pldi:2016
+  - - papers/nordholz:eurosys:2020
+    - - Design of a symbolically executable embedded hypervisor
+      - nordholz:eurosys:2020
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
       - pdp11:book:1973
@@ -5096,6 +5166,9 @@ papers:
   - - papers/su:computer:1974
     - - A survey of computer hardware description languages in the U.S.A.
       - su:computer:1974
+  - - papers/xu:cav:2021
+    - - Automatic generation and validation of instruction encoders and decoders
+      - xu:cav:2021
   - - papers/zhang:fmcad:2018
     - - Integrating memory consistency models with instruction-level abstraction for
         heterogeneous system-on-chip verification
@@ -7166,6 +7239,9 @@ papers:
   - - papers/milushev:forte:2012
     - - Noninterference via symbolic execution
       - milushev:forte:2012
+  - - papers/nordholz:eurosys:2020
+    - - Design of a symbolically executable embedded hypervisor
+      - nordholz:eurosys:2020
   - - papers/pandey:issta:2019
     - - Deferred concretization in symbolic execution via fuzzing
       - pandey:issta:2019
@@ -8103,6 +8179,7 @@ papers:
   papers/binder:cacm:1994: []
   papers/bird:sc:1993: []
   papers/birrell:tocs:1984: []
+  papers/bishop:jacm:2019: []
   papers/blanchard:fmics:2015: []
   papers/blanqui:rapido:2011: []
   papers/blelloch:book:1990: []
@@ -8116,6 +8193,7 @@ papers:
   papers/boettcher:date:2014: []
   papers/bohme2:fse:2020: []
   papers/bohme:fse:2020: []
+  papers/bond:usenix:2017: []
   papers/boos:plos:2017: []
   papers/bornat:popl:2005:
   - - papers/berdine:fmco:2005
@@ -8153,6 +8231,7 @@ papers:
   - - papers/stump:fmsd:2013
     - - SMT proof checking using a logical framework
       - stump:fmsd:2013
+  papers/bryant:cmu:2018: []
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
   papers/burton:toplas:1990: []
@@ -8315,6 +8394,10 @@ papers:
   papers/damm:fmoods:1999: []
   papers/daniel:sandp:2020: []
   papers/dasgupta:pldi:2019: []
+  papers/dasgupta:pldi:2020:
+  - - papers/hendrix:itp:2019
+    - - Towards verified binary raising
+      - hendrix:itp:2019
   papers/david:issta:2016:
   - - papers/coppa:ase:2017
     - - Rethinking pointer reasoning in symbolic execution
@@ -8489,6 +8572,8 @@ papers:
   papers/godefroid:pldi:2012: []
   papers/godefroid:popl:2010: []
   papers/goel:acl2:2013: []
+  papers/goel:cav:2021: []
+  papers/goel:cpp:2020: []
   papers/goel:fmcad:2014: []
   papers/goel:pcs:2017: []
   papers/goel:phd:2016: []
@@ -8564,6 +8649,7 @@ papers:
   - - papers/tuerk:vstte:2010
     - - Local reasoning about while-loops
       - tuerk:vstte:2010
+  papers/hendrix:itp:2019: []
   papers/hennessy:book:2011: []
   papers/hennessy:micro:1982:
   - - papers/gross:micro:2016
@@ -8610,6 +8696,7 @@ papers:
     - - Swarm testing
       - groce:issta:2012
   papers/hritcu:icfp:2013: []
+  papers/hsiao:micro:2021: []
   papers/huang:todaes:2019: []
   papers/hunt:jar:1989: []
   papers/hunt:lncs:1994: []
@@ -8830,6 +8917,7 @@ papers:
     - - No panic! Verification of Rust programs by symbolic execution
       - lindner:indin:2018
   papers/lipp:arxiv:2018: []
+  papers/liu:arxiv:2021: []
   papers/liu:cpsspc:2018: []
   papers/liu:icse:2020: []
   papers/liu:sigcomm:2018: []
@@ -8949,6 +9037,7 @@ papers:
       - woodruff:isca:2014
   papers/nipkow:book:2002: []
   papers/noonan:pldi:2016: []
+  papers/nordholz:eurosys:2020: []
   papers/nyxbrain:sc2:2017: []
   papers/oberg:dac:2010: []
   papers/ohearn:cacm:2019:
@@ -9106,6 +9195,9 @@ papers:
     - - 'From SODA to scotch: The evolution of a wireless baseband processor'
       - woh:micro:2008
   papers/reid:cav:2016:
+  - - papers/bryant:cmu:2018
+    - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
+      - bryant:cmu:2018
   - - papers/reid:fmcad:2016
     - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
       - reid:fmcad:2016
@@ -9463,6 +9555,7 @@ papers:
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
       - ramos:sec:2015
   papers/xu:arxiv:2021: []
+  papers/xu:cav:2021: []
   papers/yang:issta:2012: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011:
