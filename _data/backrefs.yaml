@@ -90,7 +90,10 @@ notes:
     - - Transformer machine learning model
       - null
   notes/automatic-exploit-generation: []
-  notes/bap-tool: []
+  notes/bap-tool:
+  - - notes/valgrind-tool
+    - - Valgrind binary instrumentation tool
+      - null
   notes/bdd:
   - - notes/symbolic-model-checking
     - - Symbolic model checking
@@ -103,6 +106,19 @@ notes:
       - null
   - - notes/bap-tool
     - - Binary Analysis Platform (BAP)
+      - null
+  notes/binary-instrumentation:
+  - - notes/dynamic-binary-translation
+    - - Dynamic binary translation (DBT)
+      - null
+  - - notes/dynamorio-tool
+    - - DynamoRIO binary instrumentation tool
+      - null
+  - - notes/pin-tool
+    - - PIN binary instrumentation tool
+      - null
+  - - notes/valgrind-tool
+    - - Valgrind binary instrumentation tool
       - null
   notes/blast-verifier:
   - - notes/cpachecker-verifier
@@ -172,6 +188,10 @@ notes:
       - null
   notes/bug-localization: []
   notes/cactus-plot: []
+  notes/cakeml-compiler:
+  - - notes/verified-compilers
+    - - Verified compilers
+      - null
   notes/capabilities:
   - - notes/cheri-architecture
     - - CHERI architecture
@@ -217,6 +237,9 @@ notes:
   notes/compcert-compiler:
   - - notes/translation-validation
     - - Translation validation
+      - null
+  - - notes/verified-compilers
+    - - Verified compilers
       - null
   notes/concolic-execution:
   - - notes/angr-verifier
@@ -340,11 +363,20 @@ notes:
   notes/deep-neural-networks: []
   notes/dependency-injection: []
   notes/dependent-type:
+  - - notes/asl
+    - - Arm Architecture Specification Language (ASL)
+      - null
   - - notes/coq-theorem-prover
     - - Coq theorem prover
       - null
+  - - notes/liquid-type
+    - - Liquid type
+      - null
   - - notes/phantom-types
     - - Phantom types
+      - null
+  - - notes/sail-language
+    - - Sail ISA specification language
       - null
   notes/differential-power-analysis: []
   notes/differential-testing: []
@@ -364,7 +396,26 @@ notes:
   - - notes/hybrid-testing
     - - Hybrid testing
       - null
-  notes/dynamic-binary-translation: []
+  notes/dynamic-binary-translation:
+  - - notes/dynamorio-tool
+    - - DynamoRIO binary instrumentation tool
+      - null
+  - - notes/pin-tool
+    - - PIN binary instrumentation tool
+      - null
+  - - notes/valgrind-tool
+    - - Valgrind binary instrumentation tool
+      - null
+  notes/dynamorio-tool:
+  - - notes/binary-instrumentation
+    - - Binary instrumentation
+      - null
+  - - notes/dynamic-binary-translation
+    - - Dynamic binary translation (DBT)
+      - null
+  - - notes/valgrind-tool
+    - - Valgrind binary instrumentation tool
+      - null
   notes/embedding: []
   notes/entropy: []
   notes/equality-saturation: []
@@ -587,6 +638,7 @@ notes:
   - - notes/sled
     - - Specification language for encoding and decoding (SLED)
       - null
+  notes/isabelle-theorem-prover: []
   notes/isps:
   - - notes/isa-specification
     - - ISA specification
@@ -641,6 +693,16 @@ notes:
   notes/linear-logic:
   - - notes/permission-logic
     - - Permission logic
+      - null
+  notes/liquid-type:
+  - - notes/asl
+    - - Arm Architecture Specification Language (ASL)
+      - null
+  - - notes/dependent-type
+    - - Dependent type
+      - null
+  - - notes/sail-language
+    - - Sail ISA specification language
       - null
   notes/lisa:
   - - notes/isa-specification
@@ -838,6 +900,7 @@ notes:
       - null
   notes/nova-hypervisor: []
   notes/omega-library: []
+  notes/operating-system: []
   notes/operating-systems:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
@@ -908,7 +971,16 @@ notes:
   - - notes/foreign-function-interface
     - - Foreign function interface
       - null
-  notes/pin-tool: []
+  notes/pin-tool:
+  - - notes/binary-instrumentation
+    - - Binary instrumentation
+      - null
+  - - notes/dynamic-binary-translation
+    - - Dynamic binary translation (DBT)
+      - null
+  - - notes/valgrind-tool
+    - - Valgrind binary instrumentation tool
+      - null
   notes/pipeline-parallelism:
   - - notes/stream-processing
     - - Stream Processing
@@ -1478,6 +1550,7 @@ notes:
   - - notes/isa-specification
     - - ISA specification
       - null
+  notes/tso: []
   notes/turing-award: []
   notes/type-inference:
   - - notes/dependent-type
@@ -1512,6 +1585,16 @@ notes:
   notes/valgrind:
   - - notes/angr-verifier
     - - angr verifier
+      - null
+  notes/valgrind-tool:
+  - - notes/bap-tool
+    - - Binary Analysis Platform (BAP)
+      - null
+  - - notes/binary-instrumentation
+    - - Binary instrumentation
+      - null
+  - - notes/dynamic-binary-translation
+    - - Dynamic binary translation (DBT)
       - null
   notes/vcc-verifier: []
   notes/vector-architecture:
@@ -1556,6 +1639,10 @@ notes:
   - - notes/verifier-performance
     - - Verifier performance
       - null
+  notes/verified-compilers:
+  - - notes/compcert-compiler
+    - - CompCert compiler
+      - null
   notes/verifier-performance:
   - - notes/swarm-verification
     - - Swarm verification
@@ -1590,6 +1677,9 @@ notes:
   - - notes/memory-coherence
     - - Memory coherence
       - null
+  - - notes/tso
+    - - Total store order (TSO)
+      - null
   notes/weakest-precondition: []
   notes/why3-verifier: []
   notes/x86-architecture:
@@ -1622,6 +1712,7 @@ notes:
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
   papers/almohri:codaspy:2018: []
+  papers/amadio:fpara:2014: []
   papers/amani:asplos:2016: []
   papers/ananda:osr:1992:
   - - notes/remote-procedure-call
@@ -1634,6 +1725,7 @@ notes:
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
+  papers/armstrong:cav:2021: []
   papers/armstrong:popl19:2019: []
   papers/armstrong:spisa:2019: []
   papers/asanovic:phd:1998: []
@@ -1742,6 +1834,7 @@ notes:
   papers/bastian:oopsla:2019: []
   papers/baudin:cacm:2021: []
   papers/bauereiss:ucam:2021: []
+  papers/baumann:eucnc:2016: []
   papers/baumann:hotos:2017: []
   papers/becker:fm:2016:
   - - notes/nova-hypervisor
@@ -1854,6 +1947,10 @@ notes:
   papers/brown:asplos:2016: []
   papers/brown:sec:2020: []
   papers/bruel:compsurv:2021: []
+  papers/brumley:cav:2011:
+  - - notes/bap-tool
+    - - Binary Analysis Platform (BAP)
+      - null
   papers/brummayer:sat:2010:
   - - notes/smt-solver
     - - SMT solver
@@ -1895,6 +1992,7 @@ notes:
   - - notes/separation-logic
     - - Separation logic
       - null
+  papers/campbell:fmcad:2016: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012:
@@ -2083,6 +2181,7 @@ notes:
     - - Phantom types
       - null
   papers/flur:popl:2016: []
+  papers/flur:popl:2017: []
   papers/flynn:ieeeproc:1966:
   - - notes/data-parallelism
     - - Data parallelism
@@ -2098,6 +2197,7 @@ notes:
       - null
   papers/fonseca:ecs:2017: []
   papers/fox:cambridge:2001: []
+  papers/fox:cpp:2017: []
   papers/fox:itp:2010: []
   papers/fox:itp:2012:
   - - notes/l3
@@ -2282,6 +2382,7 @@ notes:
     - - VeriFast verifier
       - null
   papers/jaffar:arxiv:2020: []
+  papers/jensen:popl:2013: []
   papers/jhala:cav:2001: []
   papers/jhala:compsurv:2009:
   - - notes/bounded-model-checking
@@ -2298,6 +2399,7 @@ notes:
   papers/jin:icst:2010: []
   papers/johnson:icse:2013: []
   papers/johnson:osr:1995: []
+  papers/joloboff:dsetta:2015: []
   papers/jones:hasklang:1999: []
   papers/jones:hasklib:1999: []
   papers/jones:hw:1997:
@@ -2341,6 +2443,7 @@ notes:
   papers/kassios:fm:2006: []
   papers/kaufmann:ieeetse:1997: []
   papers/kaufmann:utaustin:2012: []
+  papers/kennedy:ppdp:2013: []
   papers/khakpour:cpp:2013: []
   papers/khurshid:tacas:2003:
   - - notes/lazy-initialization
@@ -2371,7 +2474,10 @@ notes:
   papers/krohn:sosp:2007: []
   papers/kuhne:fmcad:2010: []
   papers/kumar:isca:2004: []
-  papers/kumar:popl:2014: []
+  papers/kumar:popl:2014:
+  - - notes/verified-compilers
+    - - Verified compilers
+      - null
   papers/kupferman:concur:2006:
   - - notes/mutation-testing
     - - Mutation testing
@@ -2417,6 +2523,9 @@ notes:
   - - notes/compcert-compiler
     - - CompCert compiler
       - null
+  - - notes/verified-compilers
+    - - Verified compilers
+      - null
   papers/levy:apsys:2017:
   - - notes/rust-language
     - - Rust language
@@ -2431,10 +2540,12 @@ notes:
   - - notes/memory-coherence
     - - Memory coherence
       - null
+  papers/li:usenix:2021: []
   papers/lie:secpri:2003: []
   papers/lie:sosp:2003: []
   papers/lietar:ismm:2019: []
   papers/liew:fse:2019: []
+  papers/lim:toplas:2013: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
   papers/lindner:indin:2018: []
@@ -2522,6 +2633,7 @@ notes:
     - - Typed assembly language
       - null
   papers/muller:vmcai:2016: []
+  papers/mulligan:icfp:2014: []
   papers/murray:secdev:2018: []
   papers/murray:secpriv:2013: []
   papers/mycroft:esop:1999:
@@ -2575,6 +2687,7 @@ notes:
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
+  papers/nethercote:pldi:2007: []
   papers/nicole:arxiv:2020: []
   papers/niemetz:jsat:2015: []
   papers/nienhuis:secpriv:2020:
@@ -2650,6 +2763,7 @@ notes:
     - - SymCC
       - null
   papers/potvin:cacm:2016: []
+  papers/pulte:popl:2017: []
   papers/qin:hpca:2020: []
   papers/qin:pldi:2020:
   - - notes/rust-unsafe-code
@@ -2723,6 +2837,10 @@ notes:
   papers/rieman:chi:1995: []
   papers/roessle:cpp:2019: []
   papers/romano:phd:2014: []
+  papers/rondon:pldi:2008:
+  - - notes/liquid-type
+    - - Liquid type
+      - null
   papers/roy:fse:2018: []
   papers/rozier:vstte:2016: []
   papers/rudra:sosp:2021: []
@@ -2741,10 +2859,16 @@ notes:
   papers/sadowski:cacm:2018: []
   papers/sadowski:icse-seip:2018: []
   papers/sadowski:icse:2015: []
-  papers/samet:ieeetse:1977: []
+  papers/samet:ieeetse:1977:
+  - - notes/verified-compilers
+    - - Verified compilers
+      - null
   papers/samet:phd:1975:
   - - notes/translation-validation
     - - Translation validation
+      - null
+  - - notes/verified-compilers
+    - - Verified compilers
       - null
   papers/sammler:pldi:2021: []
   papers/sardar:access:2021: []
@@ -2771,6 +2895,11 @@ notes:
     - - CUTE verifier
       - null
   papers/seshadri:sosp:2007: []
+  papers/sevcik:jacm:2013: []
+  papers/sewell:cacm:2010:
+  - - notes/tso
+    - - Total store order (TSO)
+      - null
   papers/sewell:pldi:2013: []
   papers/shamis:arxiv:2021: []
   papers/sharma:oopsla:2012: []
@@ -2803,6 +2932,7 @@ notes:
   papers/sigurbjarnarson:osdi:2016: []
   papers/sigurbjarnarson:osdi:2018: []
   papers/silva:sbac:2016: []
+  papers/simner:pls:2020: []
   papers/skorstengaard:esop:2018:
   - - notes/capabilities
     - - Capabilities
@@ -2844,6 +2974,7 @@ notes:
   papers/su:computer:1974: []
   papers/subhlok:ppopp:1993: []
   papers/sutcliffe:ai:2001: []
+  papers/syeda:itp:2018: []
   papers/systemverilog:ieee:2013:
   - - notes/rtl
     - - RTL
@@ -2853,8 +2984,10 @@ notes:
     - - Memory safety
       - null
   papers/tahat:fmcad:2019: []
+  papers/tan:icfp:2016: []
   papers/tang:sec:2017: []
   papers/tanter:aosd:2010: []
+  papers/tao:sosp:2021: []
   papers/thies:micro:2007: []
   papers/thies:ppopp:2005: []
   papers/tillmann:fse:2005: []
@@ -2943,6 +3076,10 @@ notes:
     - - Undefined behaviour
       - null
   papers/wang:tase:2018: []
+  papers/watson:sandp:2015:
+  - - notes/cheri-architecture
+    - - CHERI architecture
+      - null
   papers/weigl:arxiv:2019: []
   papers/weiss:arxiv:2018: []
   papers/weitz:icfp:2017:
@@ -2966,6 +3103,7 @@ notes:
   papers/wright:icsm:2013: []
   papers/wu:arxiv:2017: []
   papers/xi:icfp:2001: []
+  papers/xi:jfp:2007: []
   papers/xie:bugs:2005: []
   papers/xie:popl:2005:
   - - notes/lazy-initialization
@@ -3026,6 +3164,10 @@ papers:
   - - papers/gurfinkel:cav:2015
     - - The SeaHorn verification framework
       - gurfinkel:cav:2015
+  - - papers/lim:toplas:2013
+    - - 'TSL: A system for generating abstract interpreters and its application to
+        machine-code analysis'
+      - lim:toplas:2013
   - - papers/mai:asplos:2013
     - - Verifying security invariants in ExpressOS
       - mai:asplos:2013
@@ -3114,6 +3256,9 @@ papers:
   - - papers/armstrong:spisa:2019
     - - The state of Sail
       - armstrong:spisa:2019
+  - - papers/baumann:eucnc:2016
+    - - A high assurance virtualization platform for ARMv8
+      - baumann:eucnc:2016
   - - papers/boettcher:date:2014
     - - 'Advanced SIMD: Extending the reach of contemporary SIMD architectures'
       - boettcher:date:2014
@@ -3126,6 +3271,9 @@ papers:
   - - papers/flur:popl:2016
     - - 'Modelling the ARMv8 architecture, operationally: concurrency and ISA'
       - flur:popl:2016
+  - - papers/flur:popl:2017
+    - - 'Mixed-size concurrency: ARM, POWER, C/C++11, and SC'
+      - flur:popl:2017
   - - papers/fox:cambridge:2001
     - - A HOL specification of the ARM instruction set architecture
       - fox:cambridge:2001
@@ -3151,6 +3299,9 @@ papers:
     - - 'Examiner: Automatically locating inconsistent instructions between real devices
         and CPU emulators for Arm'
       - jiang:arxiv:2021
+  - - papers/joloboff:dsetta:2015
+    - - Towards verified faithful simulation
+      - joloboff:dsetta:2015
   - - papers/khakpour:cpp:2013
     - - Machine assisted proof of ARMv7 instruction level isolation properties
       - khakpour:cpp:2013
@@ -3161,6 +3312,10 @@ papers:
   - - papers/myreen:tphols:2009
     - - Verified LISP Implementations on ARM, x86 and PowerPC
       - myreen:tphols:2009
+  - - papers/pulte:popl:2017
+    - - 'Simplifying ARM concurrency: Multicopy-atomic axiomatic and operational models
+        for ARMv8'
+      - pulte:popl:2017
   - - papers/reid:cav:2016
     - - End-to-end verification of ARM processors with ISA-formal
       - reid:cav:2016
@@ -3185,12 +3340,18 @@ papers:
   - - papers/shi:phd:2013
     - - Certification of an instruction set simulator
       - shi:phd:2013
+  - - papers/simner:pls:2020
+    - - 'ARMv8-A system semantics: Instruction fetch in relaxed architectures'
+      - simner:pls:2020
   - - papers/stephens:micro:2017
     - - The ARM scalable vector extension
       - stephens:micro:2017
   - - papers/tahat:fmcad:2019
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
+  - - papers/tao:sosp:2021
+    - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
+      - tao:sosp:2021
   notes/asl:
   - - papers/armstrong:popl19:2019
     - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
@@ -3259,6 +3420,9 @@ papers:
   - - papers/avgerinos:icse:2014
     - - Enhancing symbolic execution with veritesting
       - avgerinos:icse:2014
+  - - papers/brumley:cav:2011
+    - - 'BAP: A binary analysis platform'
+      - brumley:cav:2011
   notes/bdd:
   - - papers/jhala:compsurv:2009
     - - Software model checking
@@ -3283,6 +3447,12 @@ papers:
     - - Compositional shape analysis by means of bi-abduction
       - calcagno:popl:2009
   notes/binary-analysis:
+  - - papers/amadio:fpara:2014
+    - - Certified complexity (CerCo)
+      - amadio:fpara:2014
+  - - papers/brumley:cav:2011
+    - - 'BAP: A binary analysis platform'
+      - brumley:cav:2011
   - - papers/cha:sandp:2012
     - - Unleashing Mayhem on binary code
       - cha:sandp:2012
@@ -3314,6 +3484,10 @@ papers:
   - - papers/shoshitaishvili:sp:2016
     - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
       - shoshitaishvili:sp:2016
+  notes/binary-instrumentation:
+  - - papers/nethercote:pldi:2007
+    - - 'Valgrind: A framework for heavyweight dynamic binary instrumentation'
+      - nethercote:pldi:2007
   notes/blast-verifier:
   - - papers/beyer:ijsttt:2007
     - - 'The software model checker BLAST: Applications to software engineering'
@@ -3427,6 +3601,13 @@ papers:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
       - astrauskas:oopsla:2019
+  notes/cakeml-compiler:
+  - - papers/fox:cpp:2017
+    - - Verified compilation of CakeML to multiple machine-code targets
+      - fox:cpp:2017
+  - - papers/tan:icfp:2016
+    - - A new verified compiler backend for CakeML
+      - tan:icfp:2016
   notes/capabilities:
   - - papers/nienhuis:secpriv:2020
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
@@ -3523,6 +3704,9 @@ papers:
   - - papers/armstrong:spisa:2019
     - - The state of Sail
       - armstrong:spisa:2019
+  - - papers/bauereiss:ucam:2021
+    - - Verified security for the Morello capability-enhanced prototype Arm architecture
+      - bauereiss:ucam:2021
   - - papers/nienhuis:secpriv:2020
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
         the CHERI design and implementation process'
@@ -3534,6 +3718,9 @@ papers:
     - - 'StkTokens: Enforcing well-bracketed control flow and stack encapsulation
         using linear capabilities'
       - skorstengaard:popl:2019
+  - - papers/watson:sandp:2015
+    - - 'CHERI: A hybrid capability-system architecture for scalable software compartmentalization'
+      - watson:sandp:2015
   - - papers/woodruff:isca:2014
     - - 'The CHERI capability model: Revisiting RISC in an age of risk'
       - woodruff:isca:2014
@@ -3568,6 +3755,9 @@ papers:
   - - papers/leroy:cacm:2009
     - - Formal verification of a realistic compiler
       - leroy:cacm:2009
+  - - papers/sevcik:jacm:2013
+    - - 'CompCertTSO: A verified compiler for relaxed-memory concurrency'
+      - sevcik:jacm:2013
   - - papers/vasudevan:usenix:2016
     - - "\xFCberSpark: Enforcing verifiable object abstractions for automated compositional\
         \ security analysis of a hypervisor"
@@ -3669,12 +3859,18 @@ papers:
   - - papers/jung:popl:2020
     - - 'Stacked borrows: An aliasing model for Rust'
       - jung:popl:2020
+  - - papers/kennedy:ppdp:2013
+    - - 'Coq: The world''s best macro assembler?'
+      - kennedy:ppdp:2013
   - - papers/leroy:cacm:2009
     - - Formal verification of a realistic compiler
       - leroy:cacm:2009
   - - papers/li:sandp:2021
     - - A secure and formally verified Linux KVM hypervisor
       - li:sandp:2021
+  - - papers/mulligan:icfp:2014
+    - - 'Lem: Reusable engineering of real-world semantics'
+      - mulligan:icfp:2014
   - - papers/pierce:book:2016
     - - Software foundations
       - pierce:book:2016
@@ -3972,9 +4168,15 @@ papers:
   - - papers/reid:oopsla:2017
     - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
       - reid:oopsla:2017
+  - - papers/rondon:pldi:2008
+    - - Liquid types
+      - rondon:pldi:2008
   - - papers/xi:icfp:2001
     - - A dependently typed assembly language
       - xi:icfp:2001
+  - - papers/xi:jfp:2007
+    - - Dependent ML An approach to practical programming with dependent types
+      - xi:jfp:2007
   notes/differential-power-analysis:
   - - papers/kocher:crypto:1999
     - - Differential power analysis
@@ -4028,6 +4230,7 @@ papers:
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
+  notes/dynamorio-tool: []
   notes/embedding:
   - - papers/boulton:tpcd:1993
     - - Experience with embedding hardware description languages in HOL
@@ -4390,6 +4593,10 @@ papers:
   - - papers/cock:ccs:2014
     - - 'The last mile: An empirical study of timing channels on seL4'
       - cock:ccs:2014
+  - - papers/ferraiuolo:ccs:2018
+    - - 'HyperFlow: A processor architecture for nonmalleable, timing-safe information
+        flow security'
+      - ferraiuolo:ccs:2018
   - - papers/ferraiuolo:dac:2017
     - - Secure information flow verification with mutable dependent types
       - ferraiuolo:dac:2017
@@ -4767,6 +4974,9 @@ papers:
   - - papers/flur:popl:2016
     - - 'Modelling the ARMv8 architecture, operationally: concurrency and ISA'
       - flur:popl:2016
+  - - papers/flur:popl:2017
+    - - 'Mixed-size concurrency: ARM, POWER, C/C++11, and SC'
+      - flur:popl:2017
   - - papers/fox:cambridge:2001
     - - A HOL specification of the ARM instruction set architecture
       - fox:cambridge:2001
@@ -4809,6 +5019,9 @@ papers:
   - - papers/heule:pldi:2016
     - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
       - heule:pldi:2016
+  - - papers/jensen:popl:2013
+    - - High-level separation logic for low-level code
+      - jensen:popl:2013
   - - papers/jiang:arxiv:2021
     - - 'Examiner: Automatically locating inconsistent instructions between real devices
         and CPU emulators for Arm'
@@ -4886,6 +5099,9 @@ papers:
   - - papers/tremblay:micro:1996
     - - VIS speeds new media processing
       - tremblay:micro:1996
+  - - papers/watson:sandp:2015
+    - - 'CHERI: A hybrid capability-system architecture for scalable software compartmentalization'
+      - watson:sandp:2015
   notes/interactive-theorem-prover:
   - - papers/demoura:cade:2015
     - - The Lean theorem prover (system description)
@@ -4930,6 +5146,9 @@ papers:
     - - 'Detailed models of instruction set architectures: From pseudocode to formal
         semantics'
       - armstrong:arw:2018
+  - - papers/armstrong:cav:2021
+    - - 'Isla: Integrating full-scale ISA semantics and axiomatic concurrency models'
+      - armstrong:cav:2021
   - - papers/armstrong:popl19:2019
     - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
       - armstrong:popl19:2019
@@ -4949,6 +5168,12 @@ papers:
   - - papers/barbacci:ieee:1981
     - - 'Instruction set processor specifications (ISPS): The notation and its applications'
       - barbacci:ieee:1981
+  - - papers/bauereiss:ucam:2021
+    - - Verified security for the Morello capability-enhanced prototype Arm architecture
+      - bauereiss:ucam:2021
+  - - papers/baumann:eucnc:2016
+    - - A high assurance virtualization platform for ARMv8
+      - baumann:eucnc:2016
   - - papers/bell:afips:1970
     - - The PMS and ISP descriptive systems for computer structures
       - bell:afips:1970
@@ -4968,9 +5193,15 @@ papers:
   - - papers/bond:usenix:2017
     - - 'Vale: Verifying high-performance cryptographic assembly code'
       - bond:usenix:2017
+  - - papers/brumley:cav:2011
+    - - 'BAP: A binary analysis platform'
+      - brumley:cav:2011
   - - papers/bryant:cmu:2018
     - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
       - bryant:cmu:2018
+  - - papers/campbell:fmcad:2016
+    - - Extracting behaviour from an executable instruction set model
+      - campbell:fmcad:2016
   - - papers/cattell:phd:1978
     - - Formalization and automatic derivation of code generators
       - cattell:phd:1978
@@ -5013,9 +5244,15 @@ papers:
   - - papers/flur:popl:2016
     - - 'Modelling the ARMv8 architecture, operationally: concurrency and ISA'
       - flur:popl:2016
+  - - papers/flur:popl:2017
+    - - 'Mixed-size concurrency: ARM, POWER, C/C++11, and SC'
+      - flur:popl:2017
   - - papers/fox:cambridge:2001
     - - A HOL specification of the ARM instruction set architecture
       - fox:cambridge:2001
+  - - papers/fox:cpp:2017
+    - - Verified compilation of CakeML to multiple machine-code targets
+      - fox:cpp:2017
   - - papers/fox:itp:2010
     - - A trustworthy monadic formalization of the ARMv7 instruction set architecture
       - fox:itp:2010
@@ -5072,16 +5309,29 @@ papers:
     - - 'Instruction-level abstraction (ILA): A uniform specification for system-on-chip
         (SoC) verification'
       - huang:todaes:2019
+  - - papers/jensen:popl:2013
+    - - High-level separation logic for low-level code
+      - jensen:popl:2013
   - - papers/jiang:arxiv:2021
     - - 'Examiner: Automatically locating inconsistent instructions between real devices
         and CPU emulators for Arm'
       - jiang:arxiv:2021
+  - - papers/joloboff:dsetta:2015
+    - - Towards verified faithful simulation
+      - joloboff:dsetta:2015
   - - papers/kaufmann:utaustin:2012
     - - Towards a formal model of the x86 ISA
       - kaufmann:utaustin:2012
+  - - papers/kennedy:ppdp:2013
+    - - 'Coq: The world''s best macro assembler?'
+      - kennedy:ppdp:2013
   - - papers/kuhne:fmcad:2010
     - - Automated formal verification of processors based on architectural models
       - kuhne:fmcad:2010
+  - - papers/lim:toplas:2013
+    - - 'TSL: A system for generating abstract interpreters and its application to
+        machine-code analysis'
+      - lim:toplas:2013
   - - papers/liu:arxiv:2021
     - - Proving LTL properties of bitvector programs and decompiled binaries (extended)
       - liu:arxiv:2021
@@ -5107,6 +5357,10 @@ papers:
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
       - pdp11:book:1973
+  - - papers/pulte:popl:2017
+    - - 'Simplifying ARM concurrency: Multicopy-atomic axiomatic and operational models
+        for ARMv8'
+      - pulte:popl:2017
   - - papers/ramsey:lctes:1998
     - - Machine descriptions to build tools for embedded systems
       - ramsey:lctes:1998
@@ -5157,15 +5411,33 @@ papers:
   - - papers/seal:book:2000
     - - ARM Architecture Reference Manual (ARMv5 edition)
       - seal:book:2000
+  - - papers/sevcik:jacm:2013
+    - - 'CompCertTSO: A verified compiler for relaxed-memory concurrency'
+      - sevcik:jacm:2013
   - - papers/sewell:pldi:2013
     - - Translation validation for a verified OS kernel
       - sewell:pldi:2013
   - - papers/shi:phd:2013
     - - Certification of an instruction set simulator
       - shi:phd:2013
+  - - papers/simner:pls:2020
+    - - 'ARMv8-A system semantics: Instruction fetch in relaxed architectures'
+      - simner:pls:2020
   - - papers/su:computer:1974
     - - A survey of computer hardware description languages in the U.S.A.
       - su:computer:1974
+  - - papers/syeda:itp:2018
+    - - Program verification in the presence of cached address translation
+      - syeda:itp:2018
+  - - papers/tan:icfp:2016
+    - - A new verified compiler backend for CakeML
+      - tan:icfp:2016
+  - - papers/tao:sosp:2021
+    - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
+      - tao:sosp:2021
+  - - papers/watson:sandp:2015
+    - - 'CHERI: A hybrid capability-system architecture for scalable software compartmentalization'
+      - watson:sandp:2015
   - - papers/xu:cav:2021
     - - Automatic generation and validation of instruction encoders and decoders
       - xu:cav:2021
@@ -5180,6 +5452,10 @@ papers:
   - - papers/zorn:iscawddd:2017
     - - Solver aided reverse engineering of architectural features
       - zorn:iscawddd:2017
+  notes/isabelle-theorem-prover:
+  - - papers/mulligan:icfp:2014
+    - - 'Lem: Reusable engineering of real-world semantics'
+      - mulligan:icfp:2014
   notes/isps:
   - - papers/barbacci2:computer:1973
     - - 'ISP: A notation to describe a computer''s instruction sets'
@@ -5403,6 +5679,10 @@ papers:
   - - papers/walker:tic:2001
     - - Alias types for recursive data structures
       - walker:tic:2001
+  notes/liquid-type:
+  - - papers/xi:jfp:2007
+    - - Dependent ML An approach to practical programming with dependent types
+      - xi:jfp:2007
   notes/lisa:
   - - papers/zivojnovic:vlsi:1996
     - - "LISA \u2013 machine description language and generic machine model for HW/SW\
@@ -5822,7 +6102,17 @@ papers:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
+  notes/operating-system:
+  - - papers/li:usenix:2021
+    - - Formally verified memory protection for a commodity multiprocessor hypervisor
+      - li:usenix:2021
+  - - papers/tao:sosp:2021
+    - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
+      - tao:sosp:2021
   notes/operating-systems:
+  - - papers/baumann:eucnc:2016
+    - - A high assurance virtualization platform for ARMv8
+      - baumann:eucnc:2016
   - - papers/boos:plos:2017
     - - 'Theseus: A state spill-free operating system'
       - boos:plos:2017
@@ -5857,6 +6147,9 @@ papers:
   - - papers/reid:osdi:2000
     - - 'Knit: Component composition for systems software'
       - reid:osdi:2000
+  - - papers/syeda:itp:2018
+    - - Program verification in the presence of cached address translation
+      - syeda:itp:2018
   notes/over-approximation:
   - - papers/godefroid:popl:2010
     - - 'Compositional may-must program analysis: Unleashing the power of alternation'
@@ -6103,6 +6396,9 @@ papers:
     - - 'GeST: An automatic framework for generating CPU stress-tests'
       - hadjilambrou:ispass:2019
   notes/powerpc-architecture:
+  - - papers/flur:popl:2017
+    - - 'Mixed-size concurrency: ARM, POWER, C/C++11, and SC'
+      - flur:popl:2017
   - - papers/gray:micro:2015
     - - An integrated concurrency and core-ISA architectural envelope definition,
         and test oracle, for IBM POWER multiprocessors
@@ -6633,9 +6929,15 @@ papers:
   - - papers/jacobs:vstte:2010
     - - 'VeriFast: Imperative programs as proofs'
       - jacobs:vstte:2010
+  - - papers/jensen:popl:2013
+    - - High-level separation logic for low-level code
+      - jensen:popl:2013
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  - - papers/kennedy:ppdp:2013
+    - - 'Coq: The world''s best macro assembler?'
+      - kennedy:ppdp:2013
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
@@ -7088,6 +7390,9 @@ papers:
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
   notes/symbolic-execution:
+  - - papers/armstrong:cav:2021
+    - - 'Isla: Integrating full-scale ISA semantics and axiomatic concurrency models'
+      - armstrong:cav:2021
   - - papers/avgerinos:cacm:2014
     - - Automatic exploit generation
       - avgerinos:cacm:2014
@@ -7292,9 +7597,6 @@ papers:
   - - papers/sen:fse:2005
     - - 'CUTE: A concolic unit testing engine for C'
       - sen:fse:2005
-  - - papers/shoshitaishvili:sandp:2016
-    - - 'SOK: (State of) the art of war: Offensive techniques in binary analysis'
-      - shoshitaishvili:sandp:2016
   - - papers/siddiqui:oopsla:2012
     - - Scaling symbolic execution using ranged analysis
       - siddiqui:oopsla:2012
@@ -7549,6 +7851,13 @@ papers:
   - - papers/tahat:fmcad:2019
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
+  notes/tso:
+  - - papers/sevcik:jacm:2013
+    - - 'CompCertTSO: A verified compiler for relaxed-memory concurrency'
+      - sevcik:jacm:2013
+  - - papers/sewell:cacm:2010
+    - - 'x86-TSO: A rigorous and usable programmer''s model for x86 multiprocessors'
+      - sewell:cacm:2010
   notes/turing-award:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
@@ -7667,6 +7976,10 @@ papers:
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
   notes/valgrind: []
+  notes/valgrind-tool:
+  - - papers/nethercote:pldi:2007
+    - - 'Valgrind: A framework for heavyweight dynamic binary instrumentation'
+      - nethercote:pldi:2007
   notes/vcc-verifier:
   - - papers/cohen:cav:2010
     - - Local verification of global invariants in concurrent programs
@@ -7791,6 +8104,19 @@ papers:
     - - Evaluating manual intervention to address the challenges of bug finding with
         KLEE
       - galea:arxiv:2018
+  notes/verified-compilers:
+  - - papers/fox:cpp:2017
+    - - Verified compilation of CakeML to multiple machine-code targets
+      - fox:cpp:2017
+  - - papers/leroy:cacm:2009
+    - - Formal verification of a realistic compiler
+      - leroy:cacm:2009
+  - - papers/sevcik:jacm:2013
+    - - 'CompCertTSO: A verified compiler for relaxed-memory concurrency'
+      - sevcik:jacm:2013
+  - - papers/tan:icfp:2016
+    - - A new verified compiler backend for CakeML
+      - tan:icfp:2016
   notes/verifier-performance:
   - - papers/cadar:fse:2015
     - - Targeted program transformations for symbolic execution
@@ -7862,10 +8188,26 @@ papers:
   - - papers/lustig:asplos:2016
     - - 'COATCheck: Verifying memory ordering at the hardware-OS interface'
       - lustig:asplos:2016
+  - - papers/pulte:popl:2017
+    - - 'Simplifying ARM concurrency: Multicopy-atomic axiomatic and operational models
+        for ARMv8'
+      - pulte:popl:2017
+  - - papers/sevcik:jacm:2013
+    - - 'CompCertTSO: A verified compiler for relaxed-memory concurrency'
+      - sevcik:jacm:2013
+  - - papers/sewell:cacm:2010
+    - - 'x86-TSO: A rigorous and usable programmer''s model for x86 multiprocessors'
+      - sewell:cacm:2010
+  - - papers/simner:pls:2020
+    - - 'ARMv8-A system semantics: Instruction fetch in relaxed architectures'
+      - simner:pls:2020
   - - papers/stewart:difts:2014
     - - 'Processor memory system verification using DOGReL: a language for specifying
         end-to-end properties'
       - stewart:difts:2014
+  - - papers/tao:sosp:2021
+    - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
+      - tao:sosp:2021
   - - papers/wickerson:popl:2017
     - - Automatically comparing memory consistency models
       - wickerson:popl:2017
@@ -7917,6 +8259,9 @@ papers:
   - - papers/heule:pldi:2016
     - - 'Stratified synthesis: Automatically learning the x86-64 instruction set'
       - heule:pldi:2016
+  - - papers/jensen:popl:2013
+    - - High-level separation logic for low-level code
+      - jensen:popl:2013
   - - papers/kaufmann:utaustin:2012
     - - Towards a formal model of the x86 ISA
       - kaufmann:utaustin:2012
@@ -7986,12 +8331,14 @@ papers:
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
   papers/almohri:codaspy:2018: []
+  papers/amadio:fpara:2014: []
   papers/amani:asplos:2016: []
   papers/ananda:osr:1992: []
   papers/anderson:icse:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
+  papers/armstrong:cav:2021: []
   papers/armstrong:popl19:2019: []
   papers/armstrong:spisa:2019: []
   papers/asanovic:phd:1998: []
@@ -8110,6 +8457,7 @@ papers:
   papers/bastian:oopsla:2019: []
   papers/baudin:cacm:2021: []
   papers/bauereiss:ucam:2021: []
+  papers/baumann:eucnc:2016: []
   papers/baumann:hotos:2017: []
   papers/becker:fm:2016:
   - - papers/claessen:icfp:2000
@@ -8221,6 +8569,7 @@ papers:
   papers/brown:asplos:2016: []
   papers/brown:sec:2020: []
   papers/bruel:compsurv:2021: []
+  papers/brumley:cav:2011: []
   papers/brummayer:sat:2010:
   - - papers/barrett:mlf:2015
     - - Proofs in satisfiability modulo theories
@@ -8274,6 +8623,7 @@ papers:
   - - papers/distefano:tacas:2006
     - - A local shape analysis based on separation logic
       - distefano:tacas:2006
+  papers/campbell:fmcad:2016: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012:
@@ -8523,9 +8873,11 @@ papers:
     - - 'GhostCell: Separating permissions from data in Rust'
       - yanovski:unknown:2021
   papers/flur:popl:2016: []
+  papers/flur:popl:2017: []
   papers/flynn:ieeeproc:1966: []
   papers/fonseca:ecs:2017: []
   papers/fox:cambridge:2001: []
+  papers/fox:cpp:2017: []
   papers/fox:itp:2010: []
   papers/fox:itp:2012: []
   papers/fox:itps:2015: []
@@ -8730,6 +9082,10 @@ papers:
     - - 'Viper: A verification infrastructure for permission-based reasoning'
       - muller:vmcai:2016
   papers/jaffar:arxiv:2020: []
+  papers/jensen:popl:2013:
+  - - papers/kennedy:ppdp:2013
+    - - 'Coq: The world''s best macro assembler?'
+      - kennedy:ppdp:2013
   papers/jhala:cav:2001: []
   papers/jhala:compsurv:2009:
   - - papers/mcmillan:ecs:2003
@@ -8740,6 +9096,7 @@ papers:
   papers/jin:icst:2010: []
   papers/johnson:icse:2013: []
   papers/johnson:osr:1995: []
+  papers/joloboff:dsetta:2015: []
   papers/jones:hasklang:1999: []
   papers/jones:hasklib:1999: []
   papers/jones:hw:1997:
@@ -8793,6 +9150,10 @@ papers:
   papers/kassios:fm:2006: []
   papers/kaufmann:ieeetse:1997: []
   papers/kaufmann:utaustin:2012: []
+  papers/kennedy:ppdp:2013:
+  - - papers/jensen:popl:2013
+    - - High-level separation logic for low-level code
+      - jensen:popl:2013
   papers/khakpour:cpp:2013: []
   papers/khurshid:tacas:2003:
   - - papers/calcagno:popl:2009
@@ -8901,10 +9262,12 @@ papers:
   papers/levy:sosp:2017: []
   papers/li:sandp:2021: []
   papers/li:tocs:1989: []
+  papers/li:usenix:2021: []
   papers/lie:secpri:2003: []
   papers/lie:sosp:2003: []
   papers/lietar:ismm:2019: []
   papers/liew:fse:2019: []
+  papers/lim:toplas:2013: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
   papers/lindner:indin:2018:
@@ -8996,6 +9359,7 @@ papers:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
       - astrauskas:oopsla:2019
+  papers/mulligan:icfp:2014: []
   papers/murray:secdev:2018: []
   papers/murray:secpriv:2013: []
   papers/mycroft:esop:1999: []
@@ -9029,6 +9393,7 @@ papers:
   - - papers/torlak:pldi:2014
     - - A lightweight symbolic virtual machine for solver-aided host languages
       - torlak:pldi:2014
+  papers/nethercote:pldi:2007: []
   papers/nicole:arxiv:2020: []
   papers/niemetz:jsat:2015: []
   papers/nienhuis:secpriv:2020:
@@ -9111,6 +9476,7 @@ papers:
   - - papers/wright:icsm:2013
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
+  papers/pulte:popl:2017: []
   papers/qin:hpca:2020:
   - - papers/hedge:micro:2019
     - - 'ExTensor: An accelerator for sparse tensor algebra'
@@ -9271,6 +9637,7 @@ papers:
       - macvean:ppig:2016
   papers/roessle:cpp:2019: []
   papers/romano:phd:2014: []
+  papers/rondon:pldi:2008: []
   papers/roy:fse:2018: []
   papers/rozier:vstte:2016: []
   papers/rudra:sosp:2021: []
@@ -9339,6 +9706,8 @@ papers:
     - - 'Attacking, repairing, and verifying SecVisor: A retrospective on the security
         of a hypervisor'
       - franklin:cmu:2008
+  papers/sevcik:jacm:2013: []
+  papers/sewell:cacm:2010: []
   papers/sewell:pldi:2013: []
   papers/shamis:arxiv:2021: []
   papers/sharma:oopsla:2012: []
@@ -9374,6 +9743,7 @@ papers:
         Serval
       - nelson:sosp:2019
   papers/silva:sbac:2016: []
+  papers/simner:pls:2020: []
   papers/skorstengaard:esop:2018:
   - - papers/nienhuis:secpriv:2020
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
@@ -9427,11 +9797,14 @@ papers:
   papers/su:computer:1974: []
   papers/subhlok:ppopp:1993: []
   papers/sutcliffe:ai:2001: []
+  papers/syeda:itp:2018: []
   papers/systemverilog:ieee:2013: []
   papers/szekeres:sandp:2013: []
   papers/tahat:fmcad:2019: []
+  papers/tan:icfp:2016: []
   papers/tang:sec:2017: []
   papers/tanter:aosd:2010: []
+  papers/tao:sosp:2021: []
   papers/thies:micro:2007: []
   papers/thies:ppopp:2005: []
   papers/tillmann:fse:2005: []
@@ -9503,6 +9876,10 @@ papers:
   papers/wang:pldi:2007: []
   papers/wang:sosp:2013: []
   papers/wang:tase:2018: []
+  papers/watson:sandp:2015:
+  - - papers/woodruff:isca:2014
+    - - 'The CHERI capability model: Revisiting RISC in an age of risk'
+      - woodruff:isca:2014
   papers/weigl:arxiv:2019: []
   papers/weiss:arxiv:2018: []
   papers/weitz:icfp:2017: []
@@ -9521,6 +9898,9 @@ papers:
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
         the CHERI design and implementation process'
       - nienhuis:secpriv:2020
+  - - papers/watson:sandp:2015
+    - - 'CHERI: A hybrid capability-system architecture for scalable software compartmentalization'
+      - watson:sandp:2015
   - - papers/woodruff:tocs:2019
     - - 'CHERI concentrate: Practical compressed capabilities'
       - woodruff:tocs:2019
@@ -9534,6 +9914,7 @@ papers:
       - sadowski:icse:2015
   papers/wu:arxiv:2017: []
   papers/xi:icfp:2001: []
+  papers/xi:jfp:2007: []
   papers/xie:bugs:2005:
   - - papers/godefroid:bugs:2005
     - - The soundness of bugs is what matters (position statement)

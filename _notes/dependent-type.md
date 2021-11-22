@@ -8,6 +8,7 @@ notes:
 - ASL
 - Sail language
 - type inference
+- liquid type
 ---
 
 A dependent type is a type whose definition depends on a value.

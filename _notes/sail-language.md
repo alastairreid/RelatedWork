@@ -8,6 +8,8 @@ notes:
 - Arm architecture
 - CHERI architecture
 - PowerPC architecture
+- Dependent type
+- Liquid type
 ---
 
 todo:

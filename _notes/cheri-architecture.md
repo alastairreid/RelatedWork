@@ -10,6 +10,7 @@ papers:
 - skorstengaard:popl:2019
 - nienhuis:secpriv:2020
 - woodruff:isca:2014
+- watson:sandp:2015
 ---
 
 CHERI is an [instruction set architecture] based on providing hardware

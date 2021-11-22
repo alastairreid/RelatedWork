@@ -2,10 +2,9 @@
 layout: note
 notes:
 - Valgrind tool
-- DynamoRIO tool
 - PIN tool
-- binary instrumentation
+- DynamoRIO tool
 papers: {}
-title: Dynamic binary translation (DBT)
+title: Binary instrumentation
 ---
 {% include links.html %}

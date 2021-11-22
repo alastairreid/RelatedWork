@@ -1,9 +1,9 @@
 ---
 layout: note
 notes:
-- binary instrumentation
 - dynamic binary translation
+- binary instrumentation
 papers: {}
-title: PIN binary instrumentation tool
+title: DynamoRIO binary instrumentation tool
 ---
 {% include links.html %}

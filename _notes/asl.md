@@ -4,6 +4,8 @@ title: Arm Architecture Specification Language (ASL)
 notes:
 - Arm architecture
 - ISA specification
+- Dependent type
+- Liquid type
 papers:
 - reid:cav:2016
 - reid:fmcad:2016

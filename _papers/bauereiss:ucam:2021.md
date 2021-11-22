@@ -39,6 +39,8 @@ title: Verified security for the Morello capability-enhanced prototype Arm archi
 url: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-959.pdf
 year: 2021
 notes:
+- ISA specification
+- CHERI architecture
 papers:
 ---
 {% include links.html %}

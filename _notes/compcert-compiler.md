@@ -8,6 +8,7 @@ papers:
 notes:
 - Coq theorem prover
 - translation validation
+- verified compilers
 ---
 
 CompCert is an optimizing compiler for a large subset of C that has been

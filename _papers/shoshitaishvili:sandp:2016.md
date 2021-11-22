@@ -8,7 +8,7 @@ abstract: Finding and exploiting vulnerabilities in binary code is a challenging
   techniques in a unifying framework allows for the direct comparison of these apporaches and the identification of their advantages and disadvantages.
   The evaluation included in this paper is performed using a recent dataset created by DARPA for evaluating the effectiveness of binary vulnerability analysis
   techniques. Our framework has been open-sourced and is available to the security community.
-added: 2021-03-15
+added: 2021-11-22
 authors:
 - Yan Shoshitaishvili
 - Ruoyu Wang
@@ -24,8 +24,7 @@ authors:
 booktitle: 2016 IEEE Symposium on Security and Privacy (SP)
 doi: 10.1109/SP.2016.17
 issn: 2375-1207
-keywords: program diagnostics;security of data;binary vulnerability analysis technique;binary code;data structure;DARPA;Computer bugs;Semantics;Security;Binary
-  codes;Engines;Operating systems;attacks and defenses;security architectures;system security
+keywords: ''
 layout: paper
 month: May
 number: ''
@@ -36,7 +35,6 @@ title: 'SOK: (State of) the art of war: Offensive techniques in binary analysis'
 volume: ''
 year: 2016
 notes:
-- symbolic execution
 - binary analysis
 papers:
 ---

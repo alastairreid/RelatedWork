@@ -29,5 +29,6 @@ papers:
 - nienhuis:secpriv:2020
 - skorstengaard:popl:2019
 - skorstengaard:esop:2018
+- watson:sandp:2015
 ---
 {% include links.html %}

@@ -4,8 +4,10 @@ title: Binary Analysis Platform (BAP)
 website: https://github.com/BinaryAnalysisPlatform/bap
 papers:
 - avgerinos:icse:2014
+- brumley:cav:2011
 notes:
 - binary analysis
+- Valgrind tool
 ---
 
 A binary analysis tool developed at CMU in early 2010's
