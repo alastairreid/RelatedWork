@@ -22,11 +22,14 @@ topics:
 - tools
 - verification
 notes:
+- operating systems
 - information flow
 - Rosette solver
 - LLVM compiler
 - RISCV architecture
 - symbolic evaluation
+- symbolic execution
+- binary analysis
 papers:
 - nelson:sosp:2017
 - sigurbjarnarson:osdi:2016

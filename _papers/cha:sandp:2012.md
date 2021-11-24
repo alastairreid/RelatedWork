@@ -33,6 +33,8 @@ year: 2012
 notes:
 - symbolic execution
 - binary analysis
+- automatic exploit generation
+- Mayhem
 papers:
 ---
 {% include links.html %}

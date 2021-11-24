@@ -751,6 +751,7 @@
   - papers/armstrong:spisa:2019
   - papers/bauereiss:ucam:2021
   - papers/campbell:fmcad:2016
+  - papers/campbell:fmics:2014
   - papers/nienhuis:secpriv:2020
 - name: Bradford Campbell
   papers:
@@ -1235,6 +1236,7 @@
   - papers/shazeer:arxiv:2017
 - name: Jared Davis
   papers:
+  - papers/myreen:itp:2011
   - papers/slobodova:memocode:2011
 - name: Brooks Davis
   papers:
@@ -1715,6 +1717,7 @@
   - papers/fox:tphols:2003
   - papers/fox:ucam:2002
   - papers/loow:pldi:2019
+  - papers/myreen:fse:2007
   - papers/nienhuis:secpriv:2020
 - name: Anthony Fox
   papers:
@@ -1940,6 +1943,7 @@
   - papers/goel:fmcad:2014
   - papers/goel:pcs:2017
   - papers/goel:phd:2016
+  - papers/goel:spisa:2019
 - name: Jeffrey van Gogh
   papers:
   - papers/sadowski:icse:2015
@@ -1965,6 +1969,7 @@
 - name: Michael J. C. Gordon
   papers:
   - papers/boulton:tpcd:1993
+  - papers/myreen:fse:2007
   - papers/myreen:tphols:2009
 - name: Michael I. Gordon
   papers:
@@ -2757,6 +2762,9 @@
 - name: Jeehoon Kang
   papers:
   - papers/jung:popl:2020
+- name: Pranav Kant
+  papers:
+  - papers/mukherjee:oopsla:2020
 - name: Sebastian Kanthak
   papers:
   - papers/corbett:tocs:2013
@@ -3368,6 +3376,7 @@
 - name: Zhengyang Liu
   papers:
   - papers/lopes:pldi:2021
+  - papers/mukherjee:oopsla:2020
 - name: Weijie Liu
   papers:
   - papers/ma:securecomm:2015
@@ -3885,6 +3894,9 @@
 - name: Silvia Mueller
   papers:
   - papers/kroening:itg:2000
+- name: Manasij Mukherjee
+  papers:
+  - papers/mukherjee:oopsla:2020
 - name: Robert Mullenix
   papers:
   - papers/lin:sdr:2006
@@ -3956,7 +3968,10 @@
   - papers/fox:itp:2010
   - papers/kumar:popl:2014
   - papers/loow:pldi:2019
+  - papers/myreen:fse:2007
+  - papers/myreen:itp:2011
   - papers/myreen:itp:2012
+  - papers/myreen:popl:2010
   - papers/myreen:tphols:2009
   - papers/sarkar:popl:2009
   - papers/sewell:cacm:2010
@@ -4699,6 +4714,7 @@
   - papers/groce:issta:2012
   - papers/lopes:pldi:2015
   - papers/lopes:pldi:2021
+  - papers/mukherjee:oopsla:2020
   - papers/regehr:acp4is:2003
   - papers/regehr:asplos:2004
   - papers/regehr:emsoft:2003
@@ -5382,6 +5398,7 @@
   - papers/armstrong:spisa:2019
   - papers/bauereiss:ucam:2021
   - papers/campbell:fmcad:2016
+  - papers/campbell:fmics:2014
   - papers/nienhuis:secpriv:2020
 - name: Deian Stefan
   papers:
@@ -5469,6 +5486,7 @@
   papers:
   - papers/goel:cav:2021
   - papers/goel:cpp:2020
+  - papers/goel:spisa:2019
 - name: Mingshen Sun
   papers:
   - papers/xu:arxiv:2021

@@ -29,4 +29,10 @@ notes:
 - CPU verification
 - PVS theorem prover
 ---
+
+Verified an implementation of the DLX architecture against its [ISA
+specification] using PVS.  The processor supported out-of-order execution using
+a Tomasulo scheduler, interrupts, floating point and I/D-caches.
+
+
 {% include links.html %}

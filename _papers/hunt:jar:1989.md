@@ -21,5 +21,10 @@ volume: '5'
 year: 1989
 notes:
 - CPU verification
+- ISA specification
 ---
+
+Verified the gate-level implementation of the FM8502 32-bit processor against
+its [ISA specification] using the Boyer-Moore theorem prover.
+
 {% include links.html %}

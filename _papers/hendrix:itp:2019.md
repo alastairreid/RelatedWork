@@ -15,6 +15,7 @@ year: 2019
 notes:
 - binary analysis
 - ISA specification
+- binary lifter
 papers:
 - dasgupta:pldi:2020
 ---

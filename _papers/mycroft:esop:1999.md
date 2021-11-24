@@ -30,6 +30,7 @@ topics:
 - types
 notes:
 - typed assembly language
+- binary lifter
 papers:
 ---
 

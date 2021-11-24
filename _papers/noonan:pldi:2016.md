@@ -24,6 +24,7 @@ url: https://doi.org/10.1145/2908080.2908119
 year: 2016
 notes:
 - binary analysis
+- binary lifter
 - ISA specification
 - instruction set architecture
 papers:

@@ -40,6 +40,6 @@ papers:
 ---
 
 John Regehr described the "correctness argument" in this paper in his blog post
-[Who verifies the verifiers?]https://blog.regehr.org/archives/370).
+[Who verifies the verifiers?](https://blog.regehr.org/archives/370).
 
 {% include links.html %}

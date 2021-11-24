@@ -34,6 +34,10 @@ year: 2009
 topics:
 - os
 - verification
+notes:
+- operating systems
+- verification
+- translation validation
 papers:
 ---
 

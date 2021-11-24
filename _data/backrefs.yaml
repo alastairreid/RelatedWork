@@ -30,6 +30,9 @@ notes:
   - - notes/symbolic-memory
     - - Symbolic memory
       - null
+  - - notes/valgrind
+    - - Valgrind
+      - null
   notes/annotation-burden:
   - - notes/ghost-code
     - - Ghost code
@@ -89,7 +92,10 @@ notes:
   - - notes/transformer-model
     - - Transformer machine learning model
       - null
-  notes/automatic-exploit-generation: []
+  notes/automatic-exploit-generation:
+  - - notes/mayhem
+    - - Mayhem
+      - null
   notes/bap-tool:
   - - notes/valgrind-tool
     - - Valgrind binary instrumentation tool
@@ -107,6 +113,12 @@ notes:
   - - notes/bap-tool
     - - Binary Analysis Platform (BAP)
       - null
+  - - notes/mayhem
+    - - Mayhem
+      - null
+  - - notes/serval-tool
+    - - Serval solver-based verifier
+      - null
   notes/binary-instrumentation:
   - - notes/dynamic-binary-translation
     - - Dynamic binary translation (DBT)
@@ -119,6 +131,16 @@ notes:
       - null
   - - notes/valgrind-tool
     - - Valgrind binary instrumentation tool
+      - null
+  - - notes/valgrind
+    - - Valgrind
+      - null
+  notes/binary-lifter:
+  - - notes/mcsema-tool
+    - - McSema binary lifter
+      - null
+  - - notes/remill-library
+    - - Remill binary lifting library
       - null
   notes/blast-verifier:
   - - notes/cpachecker-verifier
@@ -241,6 +263,7 @@ notes:
   - - notes/verified-compilers
     - - Verified compilers
       - null
+  notes/compiler-verification: []
   notes/concolic-execution:
   - - notes/angr-verifier
     - - angr verifier
@@ -522,6 +545,9 @@ notes:
   - - notes/fuzz-testing
     - - Fuzz testing
       - null
+  - - notes/mayhem
+    - - Mayhem
+      - null
   notes/hyperproperty:
   - - notes/non-interference
     - - Non-interference
@@ -632,6 +658,12 @@ notes:
   - - notes/lisa
     - - LISA
       - null
+  - - notes/mcsema-tool
+    - - McSema binary lifter
+      - null
+  - - notes/remill-library
+    - - Remill binary lifting library
+      - null
   - - notes/sail-language
     - - Sail ISA specification language
       - null
@@ -713,11 +745,20 @@ notes:
   - - notes/klee-verifier
     - - KLEE verifier
       - null
+  - - notes/mcsema-tool
+    - - McSema binary lifter
+      - null
+  - - notes/remill-library
+    - - Remill binary lifting library
+      - null
   - - notes/s2e-verifier
     - - S2E verifier
       - null
   - - notes/seahorn-verifier
     - - SeaHorn verifier
+      - null
+  - - notes/serval-tool
+    - - Serval solver-based verifier
       - null
   - - notes/smack-verifier
     - - SMACK verifier
@@ -739,6 +780,10 @@ notes:
     - - Prusti verifier
       - null
   notes/mayhem: []
+  notes/mcsema-tool:
+  - - notes/remill-library
+    - - Remill binary lifting library
+      - null
   notes/memory-coherence: []
   notes/memory-management:
   - - notes/garbage-collection
@@ -905,6 +950,9 @@ notes:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
       - null
+  - - notes/serval-tool
+    - - Serval solver-based verifier
+      - null
   notes/over-approximation: []
   notes/ownership-types:
   - - notes/rust-language
@@ -1054,6 +1102,10 @@ notes:
   - - notes/activation-function
     - - Activation function
       - null
+  notes/remill-library:
+  - - notes/mcsema-tool
+    - - McSema binary lifter
+      - null
   notes/remote-procedure-call: []
   notes/requirements-specification:
   - - notes/alloy-verifier
@@ -1075,6 +1127,9 @@ notes:
       - null
   notes/roofline-performance-model: []
   notes/rosette-solver:
+  - - notes/serval-tool
+    - - Serval solver-based verifier
+      - null
   - - notes/verification-performance
     - - Verification performance of code
       - null
@@ -1208,6 +1263,7 @@ notes:
   - - notes/verifast-verifier
     - - VeriFast verifier
       - null
+  notes/serval-tool: []
   notes/shape-analysis:
   - - notes/separation-logic
     - - Separation logic
@@ -1614,6 +1670,7 @@ notes:
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
+  notes/verification: []
   notes/verification-competition: []
   notes/verification-condition-generator:
   - - notes/boogie-verifier
@@ -1993,6 +2050,7 @@ notes:
     - - Separation logic
       - null
   papers/campbell:fmcad:2016: []
+  papers/campbell:fmics:2014: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012:
@@ -2100,7 +2158,13 @@ notes:
   papers/damm:fmoods:1999: []
   papers/daniel:sandp:2020: []
   papers/dasgupta:pldi:2019: []
-  papers/dasgupta:pldi:2020: []
+  papers/dasgupta:pldi:2020:
+  - - notes/mcsema-tool
+    - - McSema binary lifter
+      - null
+  - - notes/remill-library
+    - - Remill binary lifting library
+      - null
   papers/david:issta:2016: []
   papers/dean:cacm:2013: []
   papers/degenbaev:phd:2012: []
@@ -2254,6 +2318,7 @@ notes:
   papers/goel:fmcad:2014: []
   papers/goel:pcs:2017: []
   papers/goel:phd:2016: []
+  papers/goel:spisa:2019: []
   papers/goguen:secpriv:1982:
   - - notes/non-interference
     - - Non-interference
@@ -2632,6 +2697,7 @@ notes:
   - - notes/typed-assembly-language
     - - Typed assembly language
       - null
+  papers/mukherjee:oopsla:2020: []
   papers/muller:vmcai:2016: []
   papers/mulligan:icfp:2014: []
   papers/murray:secdev:2018: []
@@ -2642,7 +2708,10 @@ notes:
       - null
   papers/myers:computer:2016: []
   papers/myers:csfw:2004: []
+  papers/myreen:fse:2007: []
+  papers/myreen:itp:2011: []
   papers/myreen:itp:2012: []
+  papers/myreen:popl:2010: []
   papers/myreen:tphols:2009: []
   papers/naik:popl:2012: []
   papers/nanevski:icfp:2008: []
@@ -2681,13 +2750,19 @@ notes:
   - - notes/rosette-solver
     - - Rosette solver
       - null
+  - - notes/serval-tool
+    - - Serval solver-based verifier
+      - null
   - - notes/symbolic-evaluation
     - - Symbolic evaluation
       - null
   - - notes/symbolic-execution
     - - Symbolic execution
       - null
-  papers/nethercote:pldi:2007: []
+  papers/nethercote:pldi:2007:
+  - - notes/valgrind
+    - - Valgrind
+      - null
   papers/nicole:arxiv:2020: []
   papers/niemetz:jsat:2015: []
   papers/nienhuis:secpriv:2020:
@@ -3171,6 +3246,9 @@ papers:
   - - papers/mai:asplos:2013
     - - Verifying security invariants in ExpressOS
       - mai:asplos:2013
+  - - papers/mukherjee:oopsla:2020
+    - - Dataflow-based pruning for speeding up superoptimization
+      - mukherjee:oopsla:2020
   - - papers/regehr:asplos:2004
     - - 'HOIST: a system for automatically deriving static analyzers for embedded
         systems'
@@ -3410,6 +3488,9 @@ papers:
   - - papers/avgerinos:cacm:2014
     - - Automatic exploit generation
       - avgerinos:cacm:2014
+  - - papers/cha:sandp:2012
+    - - Unleashing Mayhem on binary code
+      - cha:sandp:2012
   - - papers/heelan:msc:2009
     - - Automatic generation of control flow hijacking exploits for software vulnerabilities
       - heelan:msc:2009
@@ -3475,9 +3556,20 @@ papers:
   - - papers/maus:amast:2008
     - - 'Vx86: x86 assembler simulated in C powered by automated theorem proving'
       - maus:amast:2008
+  - - papers/myreen:fse:2007
+    - - Hoare logic for ARM machine code
+      - myreen:fse:2007
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
   - - papers/noonan:pldi:2016
     - - Polymorphic type inference for machine code
       - noonan:pldi:2016
+  - - papers/regehr:asplos:2004
+    - - 'HOIST: a system for automatically deriving static analyzers for embedded
+        systems'
+      - regehr:asplos:2004
   - - papers/shoshitaishvili:sandp:2016
     - - 'SOK: (State of) the art of war: Offensive techniques in binary analysis'
       - shoshitaishvili:sandp:2016
@@ -3488,6 +3580,22 @@ papers:
   - - papers/nethercote:pldi:2007
     - - 'Valgrind: A framework for heavyweight dynamic binary instrumentation'
       - nethercote:pldi:2007
+  notes/binary-lifter:
+  - - papers/brumley:cav:2011
+    - - 'BAP: A binary analysis platform'
+      - brumley:cav:2011
+  - - papers/dasgupta:pldi:2020
+    - - Scalable validation of binary lifters
+      - dasgupta:pldi:2020
+  - - papers/hendrix:itp:2019
+    - - Towards verified binary raising
+      - hendrix:itp:2019
+  - - papers/mycroft:esop:1999
+    - - Type-based decompilation (or program reconstruction via type reconstruction)
+      - mycroft:esop:1999
+  - - papers/noonan:pldi:2016
+    - - Polymorphic type inference for machine code
+      - noonan:pldi:2016
   notes/blast-verifier:
   - - papers/beyer:ijsttt:2007
     - - 'The software model checker BLAST: Applications to software engineering'
@@ -3762,6 +3870,13 @@ papers:
     - - "\xFCberSpark: Enforcing verifiable object abstractions for automated compositional\
         \ security analysis of a hypervisor"
       - vasudevan:usenix:2016
+  notes/compiler-verification:
+  - - papers/myreen:itp:2011
+    - - A verified runtime for a verified theorem prover
+      - myreen:itp:2011
+  - - papers/myreen:popl:2010
+    - - Verified just-in-time compiler on x86
+      - myreen:popl:2010
   notes/concolic-execution:
   - - papers/chen:sp:2020
     - - 'SAVIOR: Towards bug-driven hybrid testing'
@@ -3932,6 +4047,9 @@ papers:
   - - papers/goel:cpp:2020
     - - Verifying x86 instruction implementations
       - goel:cpp:2020
+  - - papers/goel:spisa:2019
+    - - Using x86isa for microcode verification
+      - goel:spisa:2019
   - - papers/greve:fmcad:1998
     - - Symbolic simulation of the JEM1 microprocessor
       - greve:fmcad:1998
@@ -4609,6 +4727,9 @@ papers:
   - - papers/goel:cpp:2020
     - - Verifying x86 instruction implementations
       - goel:cpp:2020
+  - - papers/goel:spisa:2019
+    - - Using x86isa for microcode verification
+      - goel:spisa:2019
   - - papers/guarnieri:sandp:2020
     - - 'Spectector: Principled detection of speculative information flows'
       - guarnieri:sandp:2020
@@ -5006,6 +5127,9 @@ papers:
     - - Formal verification of application and system programs based on a validated
         x86 ISA model
       - goel:phd:2016
+  - - papers/goel:spisa:2019
+    - - Using x86isa for microcode verification
+      - goel:spisa:2019
   - - papers/gray:micro:2015
     - - An integrated concurrency and core-ISA architectural envelope definition,
         and test oracle, for IBM POWER multiprocessors
@@ -5281,10 +5405,16 @@ papers:
     - - Simulation and formal verification of x86 machine-code programs that make
         system calls
       - goel:fmcad:2014
+  - - papers/goel:pcs:2017
+    - - Engineering a formal, executable x86 ISA simulator for software verification
+      - goel:pcs:2017
   - - papers/goel:phd:2016
     - - Formal verification of application and system programs based on a validated
         x86 ISA model
       - goel:phd:2016
+  - - papers/goel:spisa:2019
+    - - Using x86isa for microcode verification
+      - goel:spisa:2019
   - - papers/gray:micro:2015
     - - An integrated concurrency and core-ISA architectural envelope definition,
         and test oracle, for IBM POWER multiprocessors
@@ -5309,6 +5439,9 @@ papers:
     - - 'Instruction-level abstraction (ILA): A uniform specification for system-on-chip
         (SoC) verification'
       - huang:todaes:2019
+  - - papers/hunt:jar:1989
+    - - Microprocessor design verification
+      - hunt:jar:1989
   - - papers/jensen:popl:2013
     - - High-level separation logic for low-level code
       - jensen:popl:2013
@@ -5345,6 +5478,15 @@ papers:
   - - papers/morrisett:pldi:2012
     - - 'RockSalt: Better, faster, stronger SFI for the x86'
       - morrisett:pldi:2012
+  - - papers/myreen:fse:2007
+    - - Hoare logic for ARM machine code
+      - myreen:fse:2007
+  - - papers/myreen:itp:2011
+    - - A verified runtime for a verified theorem prover
+      - myreen:itp:2011
+  - - papers/myreen:popl:2010
+    - - Verified just-in-time compiler on x86
+      - myreen:popl:2010
   - - papers/myreen:tphols:2009
     - - Verified LISP Implementations on ARM, x86 and PowerPC
       - myreen:tphols:2009
@@ -5398,6 +5540,10 @@ papers:
   - - papers/samet:ieeetse:1977
     - - A machine description facility for compiler testing
       - samet:ieeetse:1977
+  - - papers/samet:phd:1975
+    - - Automatically proving the correctness of translations involving optimized
+        code.
+      - samet:phd:1975
   - - papers/sarkar:pldi:2011
     - - Understanding POWER multiprocessors
       - sarkar:pldi:2011
@@ -5705,6 +5851,9 @@ papers:
   - - papers/merz:vstte:2012
     - - 'LLBMC: Bounded model checking of C and C++ programs using a compiler IR'
       - merz:vstte:2012
+  - - papers/mukherjee:oopsla:2020
+    - - Dataflow-based pruning for speeding up superoptimization
+      - mukherjee:oopsla:2020
   - - papers/nelson:sosp:2019
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
@@ -5765,9 +5914,16 @@ papers:
     - - Local reasoning about while-loops
       - tuerk:vstte:2010
   notes/mayhem:
+  - - papers/cha:sandp:2012
+    - - Unleashing Mayhem on binary code
+      - cha:sandp:2012
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
+  notes/mcsema-tool:
+  - - papers/dasgupta:pldi:2020
+    - - Scalable validation of binary lifters
+      - dasgupta:pldi:2020
   notes/memory-coherence:
   - - papers/li:tocs:1989
     - - Memory coherence in shared virtual memory systems
@@ -6126,6 +6282,9 @@ papers:
   - - papers/eide:icse:2002
     - - Static and dynamic structure in design patterns
       - eide:icse:2002
+  - - papers/klein:sosp:2009
+    - - 'SeL4: Formal verification of an OS kernel'
+      - klein:sosp:2009
   - - papers/lauer:osr:1979
     - - On the duality of operating system structures
       - lauer:osr:1979
@@ -6141,12 +6300,19 @@ papers:
   - - papers/li:sandp:2021
     - - A secure and formally verified Linux KVM hypervisor
       - li:sandp:2021
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
   - - papers/regehr:acp4is:2003
     - - Lock inference for systems software
       - regehr:acp4is:2003
   - - papers/reid:osdi:2000
     - - 'Knit: Component composition for systems software'
       - reid:osdi:2000
+  - - papers/sewell:pldi:2013
+    - - Translation validation for a verified OS kernel
+      - sewell:pldi:2013
   - - papers/syeda:itp:2018
     - - Program verification in the presence of cached address translation
       - syeda:itp:2018
@@ -6494,6 +6660,10 @@ papers:
     - - 'SIGMA: A sparse and irregular GEMM accelerator with flexible interconnects
         for DNN training'
       - qin:hpca:2020
+  notes/remill-library:
+  - - papers/dasgupta:pldi:2020
+    - - Scalable validation of binary lifters
+      - dasgupta:pldi:2020
   notes/remote-procedure-call:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -6981,6 +7151,7 @@ papers:
   - - papers/vogels:fmoods:2011
     - - Annotation inference for separation logic based verifiers
       - vogels:fmoods:2011
+  notes/serval-tool: []
   notes/shape-analysis:
   - - papers/jhala:compsurv:2009
     - - Software model checking
@@ -7175,6 +7346,9 @@ papers:
   - - papers/mansur:arxiv:2020
     - - Detecting critical bugs in SMT solvers using blackbox mutational fuzzing
       - mansur:arxiv:2020
+  - - papers/mukherjee:oopsla:2020
+    - - Dataflow-based pruning for speeding up superoptimization
+      - mukherjee:oopsla:2020
   - - papers/muller:vmcai:2016
     - - 'Viper: A verification infrastructure for permission-based reasoning'
       - muller:vmcai:2016
@@ -7290,6 +7464,9 @@ papers:
   - - papers/massalin:asplos:1987
     - - 'Superoptimizer: A look at the smallest program'
       - massalin:asplos:1987
+  - - papers/mukherjee:oopsla:2020
+    - - Dataflow-based pruning for speeding up superoptimization
+      - mukherjee:oopsla:2020
   notes/survey:
   - - papers/ananda:osr:1992
     - - A survey of asynchronous remote procedure calls
@@ -7544,6 +7721,10 @@ papers:
   - - papers/milushev:forte:2012
     - - Noninterference via symbolic execution
       - milushev:forte:2012
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
   - - papers/nordholz:eurosys:2020
     - - Design of a symbolically executable embedded hypervisor
       - nordholz:eurosys:2020
@@ -7829,6 +8010,9 @@ papers:
     - - Attention is all you need
       - vaswani:arxiv:2017
   notes/translation-validation:
+  - - papers/klein:sosp:2009
+    - - 'SeL4: Formal verification of an OS kernel'
+      - klein:sosp:2009
   - - papers/leroy:cacm:2009
     - - Formal verification of a realistic compiler
       - leroy:cacm:2009
@@ -8059,6 +8243,10 @@ papers:
   - - papers/vogels:fmoods:2011
     - - Annotation inference for separation logic based verifiers
       - vogels:fmoods:2011
+  notes/verification:
+  - - papers/klein:sosp:2009
+    - - 'SeL4: Formal verification of an OS kernel'
+      - klein:sosp:2009
   notes/verification-competition:
   - - papers/nyxbrain:sc2:2017
     - - Benchmarking solvers, SAT-style
@@ -8179,6 +8367,9 @@ papers:
   - - papers/alglave:toplas:2014
     - - 'Herding cats: Modelling, simulation, testing, and data mining for weak memory'
       - alglave:toplas:2014
+  - - papers/armstrong:cav:2021
+    - - 'Isla: Integrating full-scale ISA semantics and axiomatic concurrency models'
+      - armstrong:cav:2021
   - - papers/chong:asplos:2008
     - - Reasoning about the ARM weakly consistent memory model
       - chong:asplos:2008
@@ -8253,6 +8444,9 @@ papers:
     - - Formal verification of application and system programs based on a validated
         x86 ISA model
       - goel:phd:2016
+  - - papers/goel:spisa:2019
+    - - Using x86isa for microcode verification
+      - goel:spisa:2019
   - - papers/hadjilambrou:ispass:2019
     - - 'GeST: An automatic framework for generating CPU stress-tests'
       - hadjilambrou:ispass:2019
@@ -8624,6 +8818,7 @@ papers:
     - - A local shape analysis based on separation logic
       - distefano:tacas:2006
   papers/campbell:fmcad:2016: []
+  papers/campbell:fmics:2014: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
   papers/cha:sandp:2012:
@@ -8929,6 +9124,7 @@ papers:
   papers/goel:fmcad:2014: []
   papers/goel:pcs:2017: []
   papers/goel:phd:2016: []
+  papers/goel:spisa:2019: []
   papers/goguen:secpriv:1982:
   - - papers/rushby:sri:1992
     - - Noninterference, transitivity, and channel-control security policies
@@ -9355,6 +9551,7 @@ papers:
   - - papers/walker:popl:2000
     - - A type system for expressive security policies
       - walker:popl:2000
+  papers/mukherjee:oopsla:2020: []
   papers/muller:vmcai:2016:
   - - papers/astrauskas:oopsla:2019
     - - Leveraging Rust types for modular specification and verification
@@ -9365,7 +9562,10 @@ papers:
   papers/mycroft:esop:1999: []
   papers/myers:computer:2016: []
   papers/myers:csfw:2004: []
+  papers/myreen:fse:2007: []
+  papers/myreen:itp:2011: []
   papers/myreen:itp:2012: []
+  papers/myreen:popl:2010: []
   papers/myreen:tphols:2009: []
   papers/naik:popl:2012: []
   papers/nanevski:icfp:2008: []

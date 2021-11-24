@@ -44,6 +44,7 @@ readings: []
 school: School of Computing Science, University of Glasgow
 title: 'Defining interfaces between hardware and software: Quality and performance'
 year: 2019
+url: http://theses.gla.ac.uk/41068/
 notes:
 - ASL
 - Arm architecture

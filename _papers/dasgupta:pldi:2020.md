@@ -38,6 +38,9 @@ year: 2020
 notes:
 - ISA specification
 - binary analysis
+- binary lifter
+- McSema tool
+- Remill library
 papers:
 ---
 {% include links.html %}

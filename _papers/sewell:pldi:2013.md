@@ -22,6 +22,7 @@ notes:
 - ISA specification
 - instruction set architecture
 - translation validation
+- operating systems
 papers:
 ---
 

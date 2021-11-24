@@ -25,6 +25,7 @@ notes:
 - binary analysis
 - ISA specification
 - BAP tool
+- binary lifter
 papers:
 ---
 {% include links.html %}

@@ -33,6 +33,7 @@ notes:
 - abstract interpretation
 - ISA specification
 - BDD
+- binary analysis
 papers:
 ---
 

@@ -14,6 +14,7 @@ year: 1975
 topics:
 notes:
 - translation validation
+- ISA specification
 papers:
 ---
 
