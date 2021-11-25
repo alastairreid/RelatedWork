@@ -208,6 +208,9 @@
 - name: Jonathan Bachrach
   papers:
   - papers/dutra:icse:2018
+- name: Godmar Back
+  papers:
+  - papers/hsieh:usenix:2001
 - name: Johannes Bader
   papers:
   - papers/bader:vmcai:2018
@@ -652,6 +655,7 @@
   - papers/brumley:cav:2011
   - papers/cha:sandp:2012
   - papers/schwartz:sp:2010
+  - papers/song:iciss:2008
 - name: Robert Brummayer
   papers:
   - papers/brummayer:sat:2010
@@ -721,6 +725,9 @@
 - name: "Julian B\xFCning"
   papers:
   - papers/schemmel:cav:2020
+- name: Juan Caballero
+  papers:
+  - papers/song:iciss:2008
 - name: Cristian Cadar
   papers:
   - papers/busse:issta:2020
@@ -1041,6 +1048,9 @@
   papers:
   - papers/cok:bugs:2005
   - papers/noonan:pldi:2016
+- name: Christian S. Collberg
+  papers:
+  - papers/collberg:pldi:1997
 - name: Jamison D. Collins
   papers:
   - papers/wang:pldi:2007
@@ -1412,7 +1422,6 @@
   - papers/mangano:crisis:2016
 - name: Andrew Dutcher
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Rafael Dutra
@@ -1526,6 +1535,9 @@
   papers:
   - papers/cadar:tiss:2008
   - papers/ramos:cav:2011
+- name: Dawson R Engler
+  papers:
+  - papers/hsieh:usenix:2001
 - name: Michael Epstein
   papers:
   - papers/corbett:tocs:2013
@@ -1600,8 +1612,10 @@
   - papers/david:issta:2016
 - name: Siji Feng
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
+- name: Mary F. Fernandez
+  papers:
+  - papers/ramsey:usenix:1995
 - name: "Mary F. Fern\xE1ndez"
   papers:
   - papers/fernandez:icse:1997
@@ -2038,7 +2052,6 @@
   - papers/zhang:issta:2014
 - name: John Grosen
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Thomas R. Gross
@@ -2211,12 +2224,14 @@
 - name: Adrian Harwood
   papers:
   - papers/mavin:isre:2009
+- name: Niranjan Hasabnis
+  papers:
+  - papers/hasabnis:asplos:2016
 - name: John Hatcliff
   papers:
   - papers/hatcliff:compsurv:2012
 - name: Christophe Hauser
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
 - name: Chris Hawblitzel
   papers:
@@ -2397,6 +2412,9 @@
   papers:
   - papers/chang:tocs:2012
   - papers/corbett:tocs:2013
+- name: Wilson C Hsieh
+  papers:
+  - papers/hsieh:usenix:2001
 - name: Gang Hu
   papers:
   - papers/cui:asplos:2013
@@ -2550,6 +2568,7 @@
 - name: Ivan Jager
   papers:
   - papers/brumley:cav:2011
+  - papers/song:iciss:2008
 - name: Shantanu Jain
   papers:
   - papers/chen:arxiv:2021
@@ -2762,6 +2781,9 @@
 - name: Jeehoon Kang
   papers:
   - papers/jung:popl:2020
+- name: Min Gyung Kang
+  papers:
+  - papers/song:iciss:2008
 - name: Pranav Kant
   papers:
   - papers/mukherjee:oopsla:2020
@@ -3030,7 +3052,6 @@
   - papers/krohn:sosp:2007
 - name: Christopher Kruegel
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Gretchen Krueger
@@ -3320,6 +3341,9 @@
 - name: Percy Liang
   papers:
   - papers/sharma:pls:2013
+- name: Zhenkai Liang
+  papers:
+  - papers/song:iciss:2008
 - name: David Lie
   papers:
   - papers/lie:secpri:2003
@@ -4118,6 +4142,7 @@
   - papers/bell:book:1971
 - name: James Newsome
   papers:
+  - papers/song:iciss:2008
   - papers/vasudevan:secpriv:2013
 - name: Ray Ni
   papers:
@@ -4512,7 +4537,6 @@
   - papers/astrauskas:oopsla:2020
 - name: Mario Polino
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
 - name: Randy Pollack
   papers:
@@ -4529,6 +4553,7 @@
 - name: Pongsin Poosankam
   papers:
   - papers/martignoni:asplos:2012
+  - papers/song:iciss:2008
 - name: Georgios Portokalidis
   papers:
   - papers/liu:arxiv:2021
@@ -4658,6 +4683,7 @@
   - papers/fernandez:icse:1997
   - papers/ramsey:lctes:1998
   - papers/ramsey:toplas:1997
+  - papers/ramsey:usenix:1995
 - name: Keith Randall
   papers:
   - papers/joshi:pldi:2002
@@ -4936,7 +4962,6 @@
   - papers/jouppi:isca:2017
 - name: Christopher Salls
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Emad Samadiani
@@ -5001,6 +5026,9 @@
 - name: Wayne A. Sawdon
   papers:
   - papers/bershad:cmpcon:1993
+- name: Prateek Saxena
+  papers:
+  - papers/song:iciss:2008
 - name: Yiannakis Sazeides
   papers:
   - papers/hadjilambrou:ispass:2019
@@ -5079,6 +5107,9 @@
   papers:
   - papers/aagaard:fmcad:2000
   - papers/segar:fmsd:1995
+- name: R. Sekar
+  papers:
+  - papers/hasabnis:asplos:2016
 - name: Koushik Sen
   papers:
   - papers/cadar:cacm:2013
@@ -5210,7 +5241,6 @@
   - papers/abadi:arxiv:2016
 - name: Yan Shoshitaishvili
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Junaid Haroon Siddiqui
@@ -5355,6 +5385,7 @@
 - name: Dawn Song
   papers:
   - papers/martignoni:asplos:2012
+  - papers/song:iciss:2008
   - papers/szekeres:sandp:2013
 - name: Linhai Song
   papers:
@@ -5415,7 +5446,6 @@
   - papers/hohmuth:sigops:2002
 - name: Nick Stephens
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Nigel Stephens
@@ -5845,7 +5875,6 @@
   - papers/abadi:arxiv:2016
 - name: Giovanni Vigna
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Hayawardh Vijayakumar
@@ -5948,7 +5977,6 @@
   - papers/liu:sigcomm:2018
 - name: Ruoyu Wang
   papers:
-  - papers/shoshitaishvili:sandp:2016
   - papers/shoshitaishvili:sp:2016
   - papers/stephens:ndss:2016
 - name: Perry H. Wang
@@ -6246,15 +6274,16 @@
   - papers/ge:jce:2016
   - papers/kocher:arxiv:2018
   - papers/lipp:arxiv:2018
+- name: Heng Yin
+  papers:
+  - papers/song:iciss:2008
+  - papers/zhao:ndss:2019
 - name: Zhenguo Yin
   papers:
   - papers/xu:cav:2021
 - name: Weiliang Yin
   papers:
   - papers/zhang:apsec:2018
-- name: Heng Yin
-  papers:
-  - papers/zhao:ndss:2019
 - name: Alexander Yip
   papers:
   - papers/krohn:sosp:2007

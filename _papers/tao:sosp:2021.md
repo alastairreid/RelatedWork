@@ -38,7 +38,7 @@ year: 2021
 notes:
 - weak memory
 - Arm architecture
-- operating system
+- Operating systems
 - ISA specification
 papers:
 ---

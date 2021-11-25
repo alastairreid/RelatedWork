@@ -20,7 +20,7 @@ title: Formally verified memory protection for a commodity multiprocessor hyperv
 url: https://www.usenix.org/conference/usenixsecurity21/presentation/li-shih-wei
 year: 2021
 notes:
-- Operating System
+- Operating Systems
 papers:
 ---
 {% include links.html %}

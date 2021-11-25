@@ -113,8 +113,14 @@ notes:
   - - notes/bap-tool
     - - Binary Analysis Platform (BAP)
       - null
+  - - notes/malware-analysis
+    - - Malware analysis
+      - null
   - - notes/mayhem
     - - Mayhem
+      - null
+  - - notes/reverse-engineering
+    - - Reverse engineering
       - null
   - - notes/serval-tool
     - - Serval solver-based verifier
@@ -263,6 +269,7 @@ notes:
   - - notes/verified-compilers
     - - Verified compilers
       - null
+  notes/compiler: []
   notes/compiler-verification: []
   notes/concolic-execution:
   - - notes/angr-verifier
@@ -779,6 +786,7 @@ notes:
   - - notes/prusti-verifier
     - - Prusti verifier
       - null
+  notes/malware-analysis: []
   notes/mayhem: []
   notes/mcsema-tool:
   - - notes/remill-library
@@ -945,7 +953,6 @@ notes:
       - null
   notes/nova-hypervisor: []
   notes/omega-library: []
-  notes/operating-system: []
   notes/operating-systems:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
@@ -1112,6 +1119,10 @@ notes:
     - - Alloy verifier
       - null
   notes/resonant-frequency: []
+  notes/reverse-engineering:
+  - - notes/malware-analysis
+    - - Malware analysis
+      - null
   notes/rewrite-rules: []
   notes/risc-architecture: []
   notes/riscv-architecture:
@@ -2121,6 +2132,7 @@ notes:
       - null
   papers/cohen:entcs:2009: []
   papers/cok:bugs:2005: []
+  papers/collberg:pldi:1997: []
   papers/condit:esop:2007: []
   papers/condit:popl:2009: []
   papers/conway:cacm:1963: []
@@ -2375,6 +2387,7 @@ notes:
   papers/guyer:dsl:1999: []
   papers/hadjilambrou:ispass:2019: []
   papers/hardin:acl2:2006: []
+  papers/hasabnis:asplos:2016: []
   papers/hatcliff:compsurv:2012: []
   papers/hawblitzel:osdi:2014: []
   papers/hedge:micro:2019: []
@@ -2432,6 +2445,7 @@ notes:
       - null
   papers/hritcu:icfp:2013: []
   papers/hsiao:micro:2021: []
+  papers/hsieh:usenix:2001: []
   papers/huang:todaes:2019: []
   papers/hunt:jar:1989: []
   papers/hunt:lncs:1994: []
@@ -2866,6 +2880,7 @@ notes:
       - null
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
+  papers/ramsey:usenix:1995: []
   papers/rath:epiq:2018: []
   papers/recoules:ase:2019: []
   papers/regehr:acp4is:2003: []
@@ -2985,7 +3000,6 @@ notes:
       - null
   papers/sheeran:fmcad:2000: []
   papers/shi:phd:2013: []
-  papers/shoshitaishvili:sandp:2016: []
   papers/shoshitaishvili:sp:2016:
   - - notes/systematization-of-knowledge
     - - Systematization of Knowledge (SoK)
@@ -3033,6 +3047,7 @@ notes:
   - - notes/decoupling
     - - Decoupling
       - null
+  papers/song:iciss:2008: []
   papers/spencer:security:1999: []
   papers/srinivasan:ieeetoc:2010: []
   papers/stephens:micro:2017: []
@@ -3550,6 +3565,9 @@ papers:
   - - papers/hendrix:itp:2019
     - - Towards verified binary raising
       - hendrix:itp:2019
+  - - papers/hsieh:usenix:2001
+    - - Reverse-engineering instruction encodings
+      - hsieh:usenix:2001
   - - papers/liu:arxiv:2021
     - - Proving LTL properties of bitvector programs and decompiled binaries (extended)
       - liu:arxiv:2021
@@ -3570,12 +3588,12 @@ papers:
     - - 'HOIST: a system for automatically deriving static analyzers for embedded
         systems'
       - regehr:asplos:2004
-  - - papers/shoshitaishvili:sandp:2016
-    - - 'SOK: (State of) the art of war: Offensive techniques in binary analysis'
-      - shoshitaishvili:sandp:2016
   - - papers/shoshitaishvili:sp:2016
     - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
       - shoshitaishvili:sp:2016
+  - - papers/song:iciss:2008
+    - - 'BitBlaze: A new approach to computer security via binary analysis'
+      - song:iciss:2008
   notes/binary-instrumentation:
   - - papers/nethercote:pldi:2007
     - - 'Valgrind: A framework for heavyweight dynamic binary instrumentation'
@@ -3587,6 +3605,10 @@ papers:
   - - papers/dasgupta:pldi:2020
     - - Scalable validation of binary lifters
       - dasgupta:pldi:2020
+  - - papers/hasabnis:asplos:2016
+    - - 'Lifting assembly to intermediate representation: A novel approach leveraging
+        compilers'
+      - hasabnis:asplos:2016
   - - papers/hendrix:itp:2019
     - - Towards verified binary raising
       - hendrix:itp:2019
@@ -3870,6 +3892,10 @@ papers:
     - - "\xFCberSpark: Enforcing verifiable object abstractions for automated compositional\
         \ security analysis of a hypervisor"
       - vasudevan:usenix:2016
+  notes/compiler:
+  - - papers/collberg:pldi:1997
+    - - Reverse interpretation + mutation analysis = automatic retargeting
+      - collberg:pldi:1997
   notes/compiler-verification:
   - - papers/myreen:itp:2011
     - - A verified runtime for a verified theorem prover
@@ -5338,6 +5364,9 @@ papers:
   - - papers/cifuentes:iwpc:1998
     - - Specifying the semantics of machine instructions
       - cifuentes:iwpc:1998
+  - - papers/collberg:pldi:1997
+    - - Reverse interpretation + mutation analysis = automatic retargeting
+      - collberg:pldi:1997
   - - papers/dam:ted:2013
     - - Machine code verification of a tiny ARM hypervisor
       - dam:ted:2013
@@ -5422,6 +5451,10 @@ papers:
   - - papers/hardin:acl2:2006
     - - A robust machine code proof framework for highly secure applications
       - hardin:acl2:2006
+  - - papers/hasabnis:asplos:2016
+    - - 'Lifting assembly to intermediate representation: A novel approach leveraging
+        compilers'
+      - hasabnis:asplos:2016
   - - papers/hendrix:itp:2019
     - - Towards verified binary raising
       - hendrix:itp:2019
@@ -5435,6 +5468,9 @@ papers:
     - - Synthesizing formal models of hardware from RTL for efficient verification
         of memory model implementations
       - hsiao:micro:2021
+  - - papers/hsieh:usenix:2001
+    - - Reverse-engineering instruction encodings
+      - hsieh:usenix:2001
   - - papers/huang:todaes:2019
     - - 'Instruction-level abstraction (ILA): A uniform specification for system-on-chip
         (SoC) verification'
@@ -5509,6 +5545,9 @@ papers:
   - - papers/ramsey:toplas:1997
     - - Specifying representations of machine instructions
       - ramsey:toplas:1997
+  - - papers/ramsey:usenix:1995
+    - - The New Jersey machine-code toolkit
+      - ramsey:usenix:1995
   - - papers/regehr:asplos:2004
     - - 'HOIST: a system for automatically deriving static analyzers for embedded
         systems'
@@ -5913,6 +5952,7 @@ papers:
   - - papers/tuerk:vstte:2010
     - - Local reasoning about while-loops
       - tuerk:vstte:2010
+  notes/malware-analysis: []
   notes/mayhem:
   - - papers/cha:sandp:2012
     - - Unleashing Mayhem on binary code
@@ -6258,13 +6298,6 @@ papers:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
       - khurshid:tacas:2003
-  notes/operating-system:
-  - - papers/li:usenix:2021
-    - - Formally verified memory protection for a commodity multiprocessor hypervisor
-      - li:usenix:2021
-  - - papers/tao:sosp:2021
-    - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
-      - tao:sosp:2021
   notes/operating-systems:
   - - papers/baumann:eucnc:2016
     - - A high assurance virtualization platform for ARMv8
@@ -6300,6 +6333,9 @@ papers:
   - - papers/li:sandp:2021
     - - A secure and formally verified Linux KVM hypervisor
       - li:sandp:2021
+  - - papers/li:usenix:2021
+    - - Formally verified memory protection for a commodity multiprocessor hypervisor
+      - li:usenix:2021
   - - papers/nelson:sosp:2019
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
@@ -6316,6 +6352,9 @@ papers:
   - - papers/syeda:itp:2018
     - - Program verification in the presence of cached address translation
       - syeda:itp:2018
+  - - papers/tao:sosp:2021
+    - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
+      - tao:sosp:2021
   notes/over-approximation:
   - - papers/godefroid:popl:2010
     - - 'Compositional may-must program analysis: Unleashing the power of alternation'
@@ -6698,6 +6737,10 @@ papers:
   - - papers/hadjilambrou:ispass:2019
     - - 'GeST: An automatic framework for generating CPU stress-tests'
       - hadjilambrou:ispass:2019
+  notes/reverse-engineering:
+  - - papers/collberg:pldi:1997
+    - - Reverse interpretation + mutation analysis = automatic retargeting
+      - collberg:pldi:1997
   notes/rewrite-rules:
   - - papers/jones:microsoft:2001
     - - 'Playing by the rules: rewriting as a practical optimisation technique in
@@ -7251,12 +7294,18 @@ papers:
   - - papers/fernandez:icse:1997
     - - Automatic checking of instruction specifications
       - fernandez:icse:1997
+  - - papers/hsieh:usenix:2001
+    - - Reverse-engineering instruction encodings
+      - hsieh:usenix:2001
   - - papers/ramsey:lctes:1998
     - - Machine descriptions to build tools for embedded systems
       - ramsey:lctes:1998
   - - papers/ramsey:toplas:1997
     - - Specifying representations of machine instructions
       - ramsey:toplas:1997
+  - - papers/ramsey:usenix:1995
+    - - The New Jersey machine-code toolkit
+      - ramsey:usenix:1995
   notes/smack-verifier:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -8892,6 +8941,7 @@ papers:
       - philippaerts:scp:2014
   papers/cohen:entcs:2009: []
   papers/cok:bugs:2005: []
+  papers/collberg:pldi:1997: []
   papers/condit:esop:2007:
   - - papers/furr:pldi:2005
     - - Checking type safety of foreign function calls
@@ -9172,6 +9222,7 @@ papers:
   papers/guyer:dsl:1999: []
   papers/hadjilambrou:ispass:2019: []
   papers/hardin:acl2:2006: []
+  papers/hasabnis:asplos:2016: []
   papers/hatcliff:compsurv:2012: []
   papers/hawblitzel:osdi:2014: []
   papers/hedge:micro:2019:
@@ -9245,6 +9296,13 @@ papers:
       - groce:issta:2012
   papers/hritcu:icfp:2013: []
   papers/hsiao:micro:2021: []
+  papers/hsieh:usenix:2001:
+  - - papers/collberg:pldi:1997
+    - - Reverse interpretation + mutation analysis = automatic retargeting
+      - collberg:pldi:1997
+  - - papers/ramsey:usenix:1995
+    - - The New Jersey machine-code toolkit
+      - ramsey:usenix:1995
   papers/huang:todaes:2019: []
   papers/hunt:jar:1989: []
   papers/hunt:lncs:1994: []
@@ -9731,6 +9789,7 @@ papers:
       - xie:popl:2005
   papers/ramsey:lctes:1998: []
   papers/ramsey:toplas:1997: []
+  papers/ramsey:usenix:1995: []
   papers/rath:epiq:2018:
   - - papers/mcmillan:sigcomm:2019
     - - Formal specification and testing of QUIC
@@ -9925,7 +9984,6 @@ papers:
     - - K-induction without unrolling
       - gurfinkel:fmcad:2017
   papers/shi:phd:2013: []
-  papers/shoshitaishvili:sandp:2016: []
   papers/shoshitaishvili:sp:2016: []
   papers/siddiqui:oopsla:2012:
   - - papers/qiu:icse:2017
@@ -9975,6 +10033,7 @@ papers:
   papers/smith:esop:2000: []
   papers/smith:fossacs:2009: []
   papers/smith:tocs:1984: []
+  papers/song:iciss:2008: []
   papers/spencer:security:1999: []
   papers/srinivasan:ieeetoc:2010: []
   papers/stephens:micro:2017: []
