@@ -1,0 +1,38 @@
+---
+ENTRYTYPE: inproceedings
+abstract: The output of a disassembler is used for many different purposes (e.g., debugging and reverse engineering). Therefore, disassemblers represent
+  the first link of a long chain of stages on which any high-level analysis of machine code depends upon. In this paper we demonstrate that many disassemblers
+  fail to decode certain instructions and thus that the first link of the chain is very weak. We present a methodology, called N-version disassembly, to
+  verify the correctness of disassemblers, based on differential analysis. Given a set of n - 1 disassemblers, we use them to decode fragments of machine
+  code and we compare their output against each other. To further corroborate the output of these disassemblers, we developed a special instruction decoder,
+  the nth, that delegates the decoding to the CPU, the ideal decoder. We tested eight of the most popular disassemblers for Intel x86, and found bugs in
+  each of them.
+added: 2021-11-25
+address: New York, NY, USA
+authors:
+- Roberto Paleari
+- Lorenzo Martignoni
+- Giampaolo Fresi Roglia
+- Danilo Bruschi
+booktitle: Proceedings of the 19th International Symposium on Software Testing and Analysis
+doi: 10.1145/1831708.1831741
+isbn: '9781605588230'
+keywords: differential testing, software testing, automatic test generation
+layout: paper
+link: https://doi.org/10.1145/1831708.1831741
+location: Trento, Italy
+numpages: '10'
+pages: 265-274
+publisher: Association for Computing Machinery
+read: false
+readings: []
+series: ISSTA '10
+title: 'N-version disassembly: Differential testing of x86 disassemblers'
+url: https://doi.org/10.1145/1831708.1831741
+year: 2010
+notes:
+- ISA specification
+- differential testing
+papers:
+---
+{% include links.html %}

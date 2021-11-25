@@ -51,11 +51,17 @@ notes:
   - - notes/asl
     - - Arm Architecture Specification Language (ASL)
       - null
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
   - - notes/l3
     - - L3 specification language
+      - null
+  - - notes/remill-library
+    - - Remill binary lifting library
       - null
   - - notes/sail-language
     - - Sail ISA specification language
@@ -113,17 +119,53 @@ notes:
   - - notes/bap-tool
     - - Binary Analysis Platform (BAP)
       - null
+  - - notes/binary-lifter
+    - - Binary lifter
+      - null
+  - - notes/binrec-tool
+    - - BinRec binary lifter
+      - null
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
+  - - notes/dagger-tool
+    - - Dagger binary lifter
+      - null
+  - - notes/llvm-mctoll-tool
+    - - LLVM-MCtoLL binary lifter
+      - null
   - - notes/malware-analysis
     - - Malware analysis
       - null
   - - notes/mayhem
     - - Mayhem
       - null
+  - - notes/mcsema-tool
+    - - McSema binary lifter
+      - null
+  - - notes/reopt-tool
+    - - reopt binary lifter
+      - null
+  - - notes/retdec-tool
+    - - RetDec decompiler
+      - null
   - - notes/reverse-engineering
     - - Reverse engineering
       - null
+  - - notes/revng-tool
+    - - rev.ng reverse engineering tool
+      - null
+  - - notes/secondwrite-tool
+    - - SecondWrite binary lifter
+      - null
   - - notes/serval-tool
     - - Serval solver-based verifier
+      - null
+  - - notes/xed-tool
+    - - XED x86 encoding/decoding library
+      - null
+  - - notes/zydis-tool
+    - - zydis x86 decoder/disassembler library
       - null
   notes/binary-instrumentation:
   - - notes/dynamic-binary-translation
@@ -142,12 +184,40 @@ notes:
     - - Valgrind
       - null
   notes/binary-lifter:
+  - - notes/binrec-tool
+    - - BinRec binary lifter
+      - null
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
+  - - notes/dagger-tool
+    - - Dagger binary lifter
+      - null
+  - - notes/llvm-mctoll-tool
+    - - LLVM-MCtoLL binary lifter
+      - null
   - - notes/mcsema-tool
     - - McSema binary lifter
       - null
   - - notes/remill-library
     - - Remill binary lifting library
       - null
+  - - notes/reopt-tool
+    - - reopt binary lifter
+      - null
+  - - notes/retdec-tool
+    - - RetDec decompiler
+      - null
+  - - notes/revng-tool
+    - - rev.ng reverse engineering tool
+      - null
+  - - notes/secondwrite-tool
+    - - SecondWrite binary lifter
+      - null
+  - - notes/tcg-ir
+    - - TCG (Tiny Code Generator) intermediate representation
+      - null
+  notes/binrec-tool: []
   notes/blast-verifier:
   - - notes/cpachecker-verifier
     - - CPAchecker verifier
@@ -223,6 +293,10 @@ notes:
   notes/capabilities:
   - - notes/cheri-architecture
     - - CHERI architecture
+      - null
+  notes/capstone-tool:
+  - - notes/retdec-tool
+    - - RetDec decompiler
       - null
   notes/case-splitting:
   - - notes/state-merging
@@ -357,6 +431,7 @@ notes:
   - - notes/auto-active-verification
     - - Auto active verification
       - null
+  notes/dagger-tool: []
   notes/darpa-cgc: []
   notes/dart-verifier:
   - - notes/concolic-execution
@@ -650,8 +725,20 @@ notes:
   - - notes/binary-analysis
     - - Binary analysis
       - null
+  - - notes/binary-lifter
+    - - Binary lifter
+      - null
+  - - notes/binrec-tool
+    - - BinRec binary lifter
+      - null
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
   - - notes/cpu-verification
     - - CPU verification
+      - null
+  - - notes/dagger-tool
+    - - Dagger binary lifter
       - null
   - - notes/instruction-set-architecture
     - - Instruction set architecture
@@ -665,17 +752,35 @@ notes:
   - - notes/lisa
     - - LISA
       - null
+  - - notes/llvm-mctoll-tool
+    - - LLVM-MCtoLL binary lifter
+      - null
   - - notes/mcsema-tool
     - - McSema binary lifter
       - null
+  - - notes/qemu
+    - - QEMU
+      - null
   - - notes/remill-library
     - - Remill binary lifting library
+      - null
+  - - notes/reopt-tool
+    - - reopt binary lifter
+      - null
+  - - notes/revng-tool
+    - - rev.ng reverse engineering tool
       - null
   - - notes/sail-language
     - - Sail ISA specification language
       - null
   - - notes/sled
     - - Specification language for encoding and decoding (SLED)
+      - null
+  - - notes/tcg-ir
+    - - TCG (Tiny Code Generator) intermediate representation
+      - null
+  - - notes/zydis-tool
+    - - zydis x86 decoder/disassembler library
       - null
   notes/isabelle-theorem-prover: []
   notes/isps:
@@ -749,8 +854,23 @@ notes:
       - null
   notes/llbmc-verifier: []
   notes/llvm-compiler:
+  - - notes/binary-lifter
+    - - Binary lifter
+      - null
+  - - notes/binrec-tool
+    - - BinRec binary lifter
+      - null
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
+  - - notes/dagger-tool
+    - - Dagger binary lifter
+      - null
   - - notes/klee-verifier
     - - KLEE verifier
+      - null
+  - - notes/llvm-mctoll-tool
+    - - LLVM-MCtoLL binary lifter
       - null
   - - notes/mcsema-tool
     - - McSema binary lifter
@@ -758,11 +878,23 @@ notes:
   - - notes/remill-library
     - - Remill binary lifting library
       - null
+  - - notes/reopt-tool
+    - - reopt binary lifter
+      - null
+  - - notes/retdec-tool
+    - - RetDec decompiler
+      - null
+  - - notes/revng-tool
+    - - rev.ng reverse engineering tool
+      - null
   - - notes/s2e-verifier
     - - S2E verifier
       - null
   - - notes/seahorn-verifier
     - - SeaHorn verifier
+      - null
+  - - notes/secondwrite-tool
+    - - SecondWrite binary lifter
       - null
   - - notes/serval-tool
     - - Serval solver-based verifier
@@ -770,6 +902,7 @@ notes:
   - - notes/smack-verifier
     - - SMACK verifier
       - null
+  notes/llvm-mctoll-tool: []
   notes/loop-invariant:
   - - notes/modular-verification
     - - Modular verification
@@ -828,6 +961,9 @@ notes:
     - - Parallelism
       - null
   notes/mips-architecture:
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
@@ -1042,6 +1178,9 @@ notes:
       - null
   notes/power-virus: []
   notes/powerpc-architecture:
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
@@ -1078,8 +1217,14 @@ notes:
     - - XNNPACK
       - null
   notes/qemu:
+  - - notes/revng-tool
+    - - rev.ng reverse engineering tool
+      - null
   - - notes/s2e-verifier
     - - S2E verifier
+      - null
+  - - notes/tcg-ir
+    - - TCG (Tiny Code Generator) intermediate representation
       - null
   notes/qsym:
   - - notes/concolic-execution
@@ -1114,15 +1259,48 @@ notes:
     - - McSema binary lifter
       - null
   notes/remote-procedure-call: []
+  notes/reopt-tool: []
   notes/requirements-specification:
   - - notes/alloy-verifier
     - - Alloy verifier
       - null
   notes/resonant-frequency: []
+  notes/retdec-tool: []
   notes/reverse-engineering:
+  - - notes/binary-lifter
+    - - Binary lifter
+      - null
+  - - notes/binrec-tool
+    - - BinRec binary lifter
+      - null
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
+  - - notes/dagger-tool
+    - - Dagger binary lifter
+      - null
+  - - notes/llvm-mctoll-tool
+    - - LLVM-MCtoLL binary lifter
+      - null
   - - notes/malware-analysis
     - - Malware analysis
       - null
+  - - notes/mcsema-tool
+    - - McSema binary lifter
+      - null
+  - - notes/reopt-tool
+    - - reopt binary lifter
+      - null
+  - - notes/retdec-tool
+    - - RetDec decompiler
+      - null
+  - - notes/revng-tool
+    - - rev.ng reverse engineering tool
+      - null
+  - - notes/secondwrite-tool
+    - - SecondWrite binary lifter
+      - null
+  notes/revng-tool: []
   notes/rewrite-rules: []
   notes/risc-architecture: []
   notes/riscv-architecture:
@@ -1229,6 +1407,7 @@ notes:
   - - notes/unit-tests
     - - Unit tests
       - null
+  notes/secondwrite-tool: []
   notes/security:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
@@ -1523,6 +1702,13 @@ notes:
     - - Hybrid testing
       - null
   notes/systematization-of-knowledge: []
+  notes/tcg-ir:
+  - - notes/qemu
+    - - QEMU
+      - null
+  - - notes/revng-tool
+    - - rev.ng reverse engineering tool
+      - null
   notes/temporal-logic:
   - - notes/buchi-automaton
     - - "B\xFCchi automaton"
@@ -1751,8 +1937,27 @@ notes:
   notes/weakest-precondition: []
   notes/why3-verifier: []
   notes/x86-architecture:
+  - - notes/capstone-tool
+    - - Capstone disassembler
+      - null
   - - notes/instruction-set-architecture
     - - Instruction set architecture
+      - null
+  - - notes/remill-library
+    - - Remill binary lifting library
+      - null
+  - - notes/reopt-tool
+    - - reopt binary lifter
+      - null
+  - - notes/secondwrite-tool
+    - - SecondWrite binary lifter
+      - null
+  - - notes/xed-tool
+    - - XED x86 encoding/decoding library
+      - null
+  notes/xed-tool:
+  - - notes/remill-library
+    - - Remill binary lifting library
       - null
   notes/xnnpack: []
   notes/z3-solver:
@@ -1765,6 +1970,7 @@ notes:
   - - notes/vcc-verifier
     - - VCC verifier
       - null
+  notes/zydis-tool: []
   papers/aagaard:charme:2001: []
   papers/aagaard:fmcad:2000: []
   papers/abadi:arxiv:2016:
@@ -1780,8 +1986,16 @@ notes:
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
   papers/almohri:codaspy:2018: []
+  papers/altinay:eurosys:2020:
+  - - notes/binrec-tool
+    - - BinRec binary lifter
+      - null
   papers/amadio:fpara:2014: []
   papers/amani:asplos:2016: []
+  papers/anand:eurosys:2013:
+  - - notes/secondwrite-tool
+    - - SecondWrite binary lifter
+      - null
   papers/ananda:osr:1992:
   - - notes/remote-procedure-call
     - - Remote procedure call (RPC)
@@ -1790,6 +2004,7 @@ notes:
   - - notes/rust-language
     - - Rust language
       - null
+  papers/andriesse:usenix:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
@@ -2191,6 +2406,10 @@ notes:
   papers/denis:hal:2020: []
   papers/denning:cacm:1976: []
   papers/dias:popl:2010: []
+  papers/difederico:cc:2017:
+  - - notes/revng-tool
+    - - rev.ng reverse engineering tool
+      - null
   papers/dimjasevic:ifm:2018: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:cacm:2019: []
@@ -2643,6 +2862,10 @@ notes:
   papers/lopes:pldi:2015: []
   papers/lopes:pldi:2021: []
   papers/lowe:csfw:2015: []
+  papers/luk:pldi:2005:
+  - - notes/pin-tool
+    - - PIN binary instrumentation tool
+      - null
   papers/lustig:asplos:2016: []
   papers/ma:securecomm:2015: []
   papers/maas:asplos:2020: []
@@ -2808,6 +3031,7 @@ notes:
   - - notes/decoupling
     - - Decoupling
       - null
+  papers/paleari:issta:2010: []
   papers/pandey:issta:2019: []
   papers/papadakis:advances:2019:
   - - notes/mutation-testing
@@ -3201,6 +3425,7 @@ notes:
       - null
   papers/xu:arxiv:2021: []
   papers/xu:cav:2021: []
+  papers/yadavalli:lctes:2019: []
   papers/yang:issta:2012: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011: []
@@ -3445,6 +3670,9 @@ papers:
   - - papers/tao:sosp:2021
     - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
       - tao:sosp:2021
+  - - papers/yadavalli:lctes:2019
+    - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
+      - yadavalli:lctes:2019
   notes/asl:
   - - papers/armstrong:popl19:2019
     - - ISA semantics for ARMv8-A, RISC-V, and CHERI-MIPS
@@ -3543,9 +3771,19 @@ papers:
     - - Compositional shape analysis by means of bi-abduction
       - calcagno:popl:2009
   notes/binary-analysis:
+  - - papers/altinay:eurosys:2020
+    - - 'BinRec: Dynamic binary lifting and recompilation'
+      - altinay:eurosys:2020
   - - papers/amadio:fpara:2014
     - - Certified complexity (CerCo)
       - amadio:fpara:2014
+  - - papers/anand:eurosys:2013
+    - - A compiler-level intermediate representation based binary analysis and rewriting
+        system
+      - anand:eurosys:2013
+  - - papers/andriesse:usenix:2016
+    - - An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries
+      - andriesse:usenix:2016
   - - papers/brumley:cav:2011
     - - 'BAP: A binary analysis platform'
       - brumley:cav:2011
@@ -3559,6 +3797,10 @@ papers:
   - - papers/dasgupta:pldi:2020
     - - Scalable validation of binary lifters
       - dasgupta:pldi:2020
+  - - papers/difederico:cc:2017
+    - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
+        boundaries'
+      - difederico:cc:2017
   - - papers/goodman:ndss:2018
     - - 'DeepState: Symbolic unit testing for C and C++'
       - goodman:ndss:2018
@@ -3594,17 +3836,34 @@ papers:
   - - papers/song:iciss:2008
     - - 'BitBlaze: A new approach to computer security via binary analysis'
       - song:iciss:2008
+  - - papers/yadavalli:lctes:2019
+    - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
+      - yadavalli:lctes:2019
   notes/binary-instrumentation:
+  - - papers/luk:pldi:2005
+    - - 'Pin: Building customized program analysis tools with dynamic instrumentation'
+      - luk:pldi:2005
   - - papers/nethercote:pldi:2007
     - - 'Valgrind: A framework for heavyweight dynamic binary instrumentation'
       - nethercote:pldi:2007
   notes/binary-lifter:
+  - - papers/altinay:eurosys:2020
+    - - 'BinRec: Dynamic binary lifting and recompilation'
+      - altinay:eurosys:2020
+  - - papers/anand:eurosys:2013
+    - - A compiler-level intermediate representation based binary analysis and rewriting
+        system
+      - anand:eurosys:2013
   - - papers/brumley:cav:2011
     - - 'BAP: A binary analysis platform'
       - brumley:cav:2011
   - - papers/dasgupta:pldi:2020
     - - Scalable validation of binary lifters
       - dasgupta:pldi:2020
+  - - papers/difederico:cc:2017
+    - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
+        boundaries'
+      - difederico:cc:2017
   - - papers/hasabnis:asplos:2016
     - - 'Lifting assembly to intermediate representation: A novel approach leveraging
         compilers'
@@ -3618,6 +3877,10 @@ papers:
   - - papers/noonan:pldi:2016
     - - Polymorphic type inference for machine code
       - noonan:pldi:2016
+  - - papers/yadavalli:lctes:2019
+    - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
+      - yadavalli:lctes:2019
+  notes/binrec-tool: []
   notes/blast-verifier:
   - - papers/beyer:ijsttt:2007
     - - 'The software model checker BLAST: Applications to software engineering'
@@ -3756,6 +4019,7 @@ papers:
   - - papers/woodruff:tocs:2019
     - - 'CHERI concentrate: Practical compressed capabilities'
       - woodruff:tocs:2019
+  notes/capstone-tool: []
   notes/case-splitting:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
@@ -4214,6 +4478,7 @@ papers:
   - - papers/mai:asplos:2013
     - - Verifying security invariants in ExpressOS
       - mai:asplos:2013
+  notes/dagger-tool: []
   notes/darpa-cgc:
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
@@ -4326,6 +4591,9 @@ papers:
     - - Differential power analysis
       - kocher:crypto:1999
   notes/differential-testing:
+  - - papers/paleari:issta:2010
+    - - 'N-version disassembly: Differential testing of x86 disassemblers'
+      - paleari:issta:2010
   - - papers/person:fse:2008
     - - Differential symbolic execution
       - person:fse:2008
@@ -5292,6 +5560,9 @@ papers:
     - - Software model checking
       - jhala:compsurv:2009
   notes/isa-specification:
+  - - papers/andriesse:usenix:2016
+    - - An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries
+      - andriesse:usenix:2016
   - - papers/armstrong:arw:2018
     - - 'Detailed models of instruction set architectures: From pseudocode to formal
         semantics'
@@ -5532,6 +5803,9 @@ papers:
   - - papers/nordholz:eurosys:2020
     - - Design of a symbolically executable embedded hypervisor
       - nordholz:eurosys:2020
+  - - papers/paleari:issta:2010
+    - - 'N-version disassembly: Differential testing of x86 disassemblers'
+      - paleari:issta:2010
   - - papers/pdp11:book:1973
     - - PDP-11/45 processor handbook
       - pdp11:book:1973
@@ -5626,6 +5900,9 @@ papers:
   - - papers/xu:cav:2021
     - - Automatic generation and validation of instruction encoders and decoders
       - xu:cav:2021
+  - - papers/yadavalli:lctes:2019
+    - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
+      - yadavalli:lctes:2019
   - - papers/zhang:fmcad:2018
     - - Integrating memory consistency models with instruction-level abstraction for
         heterogeneous system-on-chip verification
@@ -5721,6 +5998,9 @@ papers:
     - - A trusted mechanised JavaScript specification
       - bodin:popl:2014
   notes/klee-verifier:
+  - - papers/altinay:eurosys:2020
+    - - 'BinRec: Dynamic binary lifting and recompilation'
+      - altinay:eurosys:2020
   - - papers/avgerinos:cacm:2014
     - - Automatic exploit generation
       - avgerinos:cacm:2014
@@ -5878,9 +6158,20 @@ papers:
     - - 'TracerX: Dynamic symbolic execution with interpolation'
       - jaffar:arxiv:2020
   notes/llvm-compiler:
+  - - papers/altinay:eurosys:2020
+    - - 'BinRec: Dynamic binary lifting and recompilation'
+      - altinay:eurosys:2020
+  - - papers/anand:eurosys:2013
+    - - A compiler-level intermediate representation based binary analysis and rewriting
+        system
+      - anand:eurosys:2013
   - - papers/baranowski:atva:2018
     - - Verifying Rust programs with SMACK
       - baranowski:atva:2018
+  - - papers/difederico:cc:2017
+    - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
+        boundaries'
+      - difederico:cc:2017
   - - papers/gurfinkel:cav:2015
     - - The SeaHorn verification framework
       - gurfinkel:cav:2015
@@ -5903,6 +6194,13 @@ papers:
   - - papers/rakamaric:cav:2014
     - - 'SMACK: Decoupling source language details from verifier implementations'
       - rakamaric:cav:2014
+  - - papers/yadavalli:lctes:2019
+    - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
+      - yadavalli:lctes:2019
+  notes/llvm-mctoll-tool:
+  - - papers/yadavalli:lctes:2019
+    - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
+      - yadavalli:lctes:2019
   notes/loop-invariant:
   - - papers/hatcliff:compsurv:2012
     - - Behavioral interface specification languages
@@ -6562,6 +6860,9 @@ papers:
   - - papers/avgerinos:icse:2014
     - - Enhancing symbolic execution with veritesting
       - avgerinos:icse:2014
+  - - papers/luk:pldi:2005
+    - - 'Pin: Building customized program analysis tools with dynamic instrumentation'
+      - luk:pldi:2005
   notes/pipeline-parallelism:
   - - papers/bird:sc:1993
     - - The effectiveness of decoupling
@@ -6656,7 +6957,14 @@ papers:
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
   notes/pytorch: []
-  notes/qemu: []
+  notes/qemu:
+  - - papers/altinay:eurosys:2020
+    - - 'BinRec: Dynamic binary lifting and recompilation'
+      - altinay:eurosys:2020
+  - - papers/difederico:cc:2017
+    - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
+        boundaries'
+      - difederico:cc:2017
   notes/qsym:
   - - papers/chen:sp:2020
     - - 'SAVIOR: Towards bug-driven hybrid testing'
@@ -6717,6 +7025,7 @@ papers:
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
+  notes/reopt-tool: []
   notes/requirements-specification:
   - - papers/frias:icse:2005
     - - 'DynAlloy: Upgrading Alloy with Actions'
@@ -6737,10 +7046,27 @@ papers:
   - - papers/hadjilambrou:ispass:2019
     - - 'GeST: An automatic framework for generating CPU stress-tests'
       - hadjilambrou:ispass:2019
+  notes/retdec-tool: []
   notes/reverse-engineering:
+  - - papers/anand:eurosys:2013
+    - - A compiler-level intermediate representation based binary analysis and rewriting
+        system
+      - anand:eurosys:2013
+  - - papers/andriesse:usenix:2016
+    - - An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries
+      - andriesse:usenix:2016
   - - papers/collberg:pldi:1997
     - - Reverse interpretation + mutation analysis = automatic retargeting
       - collberg:pldi:1997
+  - - papers/difederico:cc:2017
+    - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
+        boundaries'
+      - difederico:cc:2017
+  notes/revng-tool:
+  - - papers/difederico:cc:2017
+    - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
+        boundaries'
+      - difederico:cc:2017
   notes/rewrite-rules:
   - - papers/jones:microsoft:2001
     - - 'Playing by the rules: rewriting as a practical optimisation technique in
@@ -6774,6 +7100,9 @@ papers:
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
       - nelson:sosp:2019
+  - - papers/yadavalli:lctes:2019
+    - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
+      - yadavalli:lctes:2019
   notes/rnn:
   - - papers/jouppi:isca:2017
     - - In-datacenter performance analysis of a tensor processing unit
@@ -7070,6 +7399,11 @@ papers:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
       - braione:icse:2018
+  notes/secondwrite-tool:
+  - - papers/anand:eurosys:2013
+    - - A compiler-level intermediate representation based binary analysis and rewriting
+        system
+      - anand:eurosys:2013
   notes/security:
   - - papers/baumann:hotos:2017
     - - Hardware is the new software
@@ -7899,6 +8233,11 @@ papers:
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
   notes/systematization-of-knowledge: []
+  notes/tcg-ir:
+  - - papers/difederico:cc:2017
+    - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
+        boundaries'
+      - difederico:cc:2017
   notes/temporal-logic:
   - - papers/clarke:cacm:2009
     - - 'Model checking: Algorithmic verification and debugging'
@@ -8473,6 +8812,10 @@ papers:
     - - Multi-prover verification of C programs
       - filliatre:fem:2004
   notes/x86-architecture:
+  - - papers/anand:eurosys:2013
+    - - A compiler-level intermediate representation based binary analysis and rewriting
+        system
+      - anand:eurosys:2013
   - - papers/dasgupta:pldi:2019
     - - A complete formal semantics of x86-64 user-level instruction set architecture
       - dasgupta:pldi:2019
@@ -8536,6 +8879,10 @@ papers:
   - - papers/sarkar:popl:2009
     - - The semantics of x86-CC multiprocessor machine code
       - sarkar:popl:2009
+  - - papers/yadavalli:lctes:2019
+    - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
+      - yadavalli:lctes:2019
+  notes/xed-tool: []
   notes/xnnpack:
   - - papers/elsen:arxiv:2019
     - - Fast sparse ConvNets
@@ -8562,6 +8909,7 @@ papers:
   - - papers/rath:epiq:2018
     - - Interoperability-guided testing of QUIC implementations using symbolic execution
       - rath:epiq:2018
+  notes/zydis-tool: []
   papers/aagaard:charme:2001: []
   papers/aagaard:fmcad:2000: []
   papers/abadi:arxiv:2016: []
@@ -8574,10 +8922,13 @@ papers:
   papers/alkassar:vstte:2012: []
   papers/almeida:security:2016: []
   papers/almohri:codaspy:2018: []
+  papers/altinay:eurosys:2020: []
   papers/amadio:fpara:2014: []
   papers/amani:asplos:2016: []
+  papers/anand:eurosys:2013: []
   papers/ananda:osr:1992: []
   papers/anderson:icse:2016: []
+  papers/andriesse:usenix:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
   papers/armstrong:arw:2018: []
@@ -9033,6 +9384,7 @@ papers:
   papers/denis:hal:2020: []
   papers/denning:cacm:1976: []
   papers/dias:popl:2010: []
+  papers/difederico:cc:2017: []
   papers/dimjasevic:ifm:2018: []
   papers/dinsdale-young:popl:2013: []
   papers/distefano:cacm:2019: []
@@ -9550,6 +9902,7 @@ papers:
       - lopes:pldi:2021
   papers/lopes:pldi:2021: []
   papers/lowe:csfw:2015: []
+  papers/luk:pldi:2005: []
   papers/lustig:asplos:2016: []
   papers/ma:securecomm:2015: []
   papers/maas:asplos:2020: []
@@ -9677,6 +10030,7 @@ papers:
   papers/padhye:issta:2019: []
   papers/padhye:oopsla:2019: []
   papers/palacharla:micro:1995: []
+  papers/paleari:issta:2010: []
   papers/pandey:issta:2019: []
   papers/papadakis:advances:2019: []
   papers/papaevripides:acmtps:2021: []
@@ -10196,6 +10550,7 @@ papers:
       - ramos:sec:2015
   papers/xu:arxiv:2021: []
   papers/xu:cav:2021: []
+  papers/yadavalli:lctes:2019: []
   papers/yang:issta:2012: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011:

@@ -32,6 +32,9 @@
 - name: Gul Agha
   papers:
   - papers/sen:fse:2005
+- name: Giovanni Agosta
+  papers:
+  - papers/difederico:cc:2017
 - name: Gagan Agrawal
   papers:
   - papers/du:sc:2003
@@ -90,6 +93,9 @@
 - name: Hussain M. J. Almohri
   papers:
   - papers/almohri:codaspy:2018
+- name: Anil Altinay
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Roberto M. Amadio
   papers:
   - papers/amadio:fpara:2014
@@ -113,6 +119,9 @@
   - papers/azevedo:post:2018
   - papers/hritcu:icfp:2013
   - papers/pierce:book:2016
+- name: Kapil Anand
+  papers:
+  - papers/anand:eurosys:2013
 - name: Akkihebbal L. Ananda
   papers:
   - papers/ananda:osr:1992
@@ -133,6 +142,9 @@
   papers:
   - papers/watson:sandp:2015
   - papers/woodruff:isca:2014
+- name: Dennis Andriesse
+  papers:
+  - papers/andriesse:usenix:2016
 - name: June Andronick
   papers:
   - papers/andronick:icse:2012
@@ -325,6 +337,9 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: Rajeev Barua
+  papers:
+  - papers/anand:eurosys:2013
 - name: Forest Baskett
   papers:
   - papers/hennessy:micro:1982
@@ -576,6 +591,10 @@
 - name: Luca Borzacchiello
   papers:
   - papers/angelini:vizsec:2019
+- name: Herbert Bos
+  papers:
+  - papers/altinay:eurosys:2020
+  - papers/andriesse:usenix:2016
 - name: Bernard Botella
   papers:
   - papers/cuoq:sefm:2012
@@ -662,6 +681,9 @@
 - name: Miles Brundage
   papers:
   - papers/chen:arxiv:2021
+- name: Danilo Bruschi
+  papers:
+  - papers/paleari:issta:2010
 - name: Randal E Bryant
   papers:
   - papers/bryant:cmu:2018
@@ -884,6 +906,9 @@
 - name: Zilin Chen
   papers:
   - papers/amani:asplos:2016
+- name: Xi Chen
+  papers:
+  - papers/andriesse:usenix:2016
 - name: Yaohui Chen
   papers:
   - papers/babic:fse:2019
@@ -1044,6 +1069,9 @@
   - papers/alkassar:vstte:2012
   - papers/cohen:cav:2010
   - papers/cohen:entcs:2009
+- name: Robert Cohn
+  papers:
+  - papers/luk:pldi:2005
 - name: David R. Cok
   papers:
   - papers/cok:bugs:2005
@@ -1169,6 +1197,9 @@
 - name: Frank Dabek
   papers:
   - papers/dabek:sigops:2002
+- name: Adrian Dabrowski
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Pierre-Evariste Dagand
   papers:
   - papers/kennedy:ppdp:2013
@@ -1501,6 +1532,9 @@
   - papers/evci:arxiv:2021
   - papers/gale:arxiv:2019
   - papers/gale:arxiv:2020
+- name: Khaled Elwazeer
+  papers:
+  - papers/anand:eurosys:2013
 - name: Jesse Elwell
   papers:
   - papers/evtyushkin:asplos:2021
@@ -1601,6 +1635,9 @@
 - name: Andreas Fauth
   papers:
   - papers/fauth:edtc:1995
+- name: Alessandro Di Federico
+  papers:
+  - papers/difederico:cc:2017
 - name: William Fedus
   papers:
   - papers/fedus:arxiv:2021
@@ -1749,6 +1786,9 @@
 - name: Jason Franklin
   papers:
   - papers/franklin:cmu:2008
+- name: Michael Franz
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Marita Franzke
   papers:
   - papers/rieman:chi:1995
@@ -1892,6 +1932,9 @@
 - name: Jeffrey Gennari
   papers:
   - papers/gennari:vstte:2018
+- name: David Gens
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Vlad Georgescu
   papers:
   - papers/chipounov:hotdep:2009
@@ -1925,12 +1968,18 @@
   papers:
   - papers/reid:cav:2016
   - papers/stewart:difts:2014
+- name: Nathan Giles
+  papers:
+  - papers/anand:eurosys:2013
 - name: John Gill
   papers:
   - papers/hennessy:micro:1982
 - name: Milind Girkar
   papers:
   - papers/wang:pldi:2007
+- name: Cristiano Giuffrida
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Klaus v. Gleissenthall
   papers:
   - papers/gleissenthall:ccs:2021
@@ -2070,6 +2119,9 @@
 - name: Robert E. Gruber
   papers:
   - papers/chang:tocs:2012
+- name: Jim Gruen
+  papers:
+  - papers/anand:eurosys:2013
 - name: Samuel Gruetter
   papers:
   - papers/erbsen:pldi:2021
@@ -2239,6 +2291,9 @@
   - papers/ferraiuolo:sosp:2017
   - papers/hawblitzel:osdi:2014
   - papers/yang:pldi:2010
+- name: Kim Hazelwood
+  papers:
+  - papers/luk:pldi:2005
 - name: Shaobo He
   papers:
   - papers/baranowski:atva:2018
@@ -2930,6 +2985,9 @@
 - name: Nils Klarlund
   papers:
   - papers/godefroid:pldi:2005
+- name: Artur Klauser
+  papers:
+  - papers/luk:pldi:2005
 - name: Gerwin Klein
   papers:
   - papers/amani:asplos:2016
@@ -3006,6 +3064,9 @@
 - name: Phani Raj Goutham Kotcharlakota
   papers:
   - papers/pandey:issta:2019
+- name: Aparna Kotha
+  papers:
+  - papers/anand:eurosys:2013
 - name: Mikhail Kovalev
   papers:
   - papers/alkassar:vstte:2012
@@ -3046,6 +3107,9 @@
   - papers/heelan:sec:2018
   - papers/kroening:dac:2001
   - papers/kroening:itg:2000
+- name: Taddeus Kroes
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Maxwell Krohn
   papers:
   - papers/efstathopoulos:sosp:2005
@@ -3445,6 +3509,9 @@
 - name: Gavin Lowe
   papers:
   - papers/lowe:csfw:2015
+- name: Geoff Lowney
+  papers:
+  - papers/luk:pldi:2005
 - name: Long Lu
   papers:
   - papers/chen:sp:2020
@@ -3466,6 +3533,9 @@
 - name: David Lugato
   papers:
   - papers/kjolstad:oopsla:2017
+- name: Chi-Keung Luk
+  papers:
+  - papers/luk:pldi:2005
 - name: Mark Luk
   papers:
   - papers/seshadri:sosp:2007
@@ -3628,6 +3698,7 @@
 - name: Lorenzo Martignoni
   papers:
   - papers/martignoni:asplos:2012
+  - papers/paleari:issta:2010
 - name: Robert Martin
   papers:
   - papers/martin:isca:2012
@@ -3956,6 +4027,9 @@
 - name: Saidgani Musaev
   papers:
   - papers/sardar:access:2021
+- name: Robert Muth
+  papers:
+  - papers/luk:pldi:2005
 - name: Bharath Muthiah
   papers:
   - papers/dixit:arxiv:2021
@@ -4024,6 +4098,9 @@
   - papers/marco:cav:2021
   - papers/muller:vmcai:2016
   - papers/wolff:draft:2021
+- name: Yeoul Na
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Vineet Nadella
   papers:
   - papers/qin:hpca:2020
@@ -4077,6 +4154,9 @@
   - papers/sarkar:popl:2009
   - papers/sevcik:jacm:2013
   - papers/sewell:cacm:2010
+- name: Joseph Nash
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Daiva Naudziuniene
   papers:
   - papers/bodin:popl:2014
@@ -4306,6 +4386,9 @@
 - name: Subbarao Palacharla
   papers:
   - papers/palacharla:micro:1995
+- name: Roberto Paleari
+  papers:
+  - papers/paleari:issta:2010
 - name: Pavel Panchekha
   papers:
   - papers/willsey:popl:2021
@@ -4376,6 +4459,9 @@
   papers:
   - papers/jouppi:isca:2017
   - papers/jouppi:micro:2018
+- name: Harish Patil
+  papers:
+  - papers/luk:pldi:2005
 - name: David A. Patterson
   papers:
   - papers/hennessy:book:2011
@@ -4406,6 +4492,7 @@
   - papers/cadar:tiss:2008
 - name: Mathias Payer
   papers:
+  - papers/difederico:cc:2017
   - papers/szekeres:sandp:2013
 - name: Michael Pearce
   papers:
@@ -4663,6 +4750,9 @@
   papers:
   - papers/ball:pldi:2001
   - papers/godefroid:popl:2010
+- name: Prabhu Rajasekaran
+  papers:
+  - papers/altinay:eurosys:2020
 - name: "Zvonimir Rakamari\u0107"
   papers:
   - papers/balasubramanium:hotos:2017
@@ -4725,6 +4815,9 @@
 - name: "Fr\xE9d\xE9ric Recoules"
   papers:
   - papers/recoules:ase:2019
+- name: Vijay Janapa Reddi
+  papers:
+  - papers/luk:pldi:2005
 - name: David Redmiles
   papers:
   - papers/rieman:chi:1995
@@ -4869,6 +4962,9 @@
 - name: Michael S. Rogers
   papers:
   - papers/siegel:sc:2015
+- name: Giampaolo Fresi Roglia
+  papers:
+  - papers/paleari:issta:2010
 - name: Lindsay Rolig
   papers:
   - papers/corbett:tocs:2013
@@ -5319,6 +5415,9 @@
   papers:
   - papers/kaivola:cav:2009
   - papers/slobodova:memocode:2011
+- name: Asia Slowinska
+  papers:
+  - papers/andriesse:usenix:2016
 - name: Stephen Smalley
   papers:
   - papers/spencer:security:1999
@@ -5361,6 +5460,12 @@
 - name: Geoffrey Smith
   papers:
   - papers/smith:fossacs:2009
+- name: Aaron Smith
+  papers:
+  - papers/yadavalli:lctes:2019
+- name: Matthew Smithson
+  papers:
+  - papers/anand:eurosys:2013
 - name: Matthew Snelham
   papers:
   - papers/jouppi:isca:2017
@@ -5842,6 +5947,9 @@
 - name: Ashish Vaswani
   papers:
   - papers/vaswani:arxiv:2017
+- name: Victor van der Veen
+  papers:
+  - papers/andriesse:usenix:2016
 - name: Luis Vega
   papers:
   - papers/vega:pldi:2021
@@ -5909,6 +6017,9 @@
 - name: Thiemo Voigt
   papers:
   - papers/dunkels:enss:2006
+- name: Stijn Volckaert
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Daniel Votipka
   papers:
   - papers/votipka:sp:2018
@@ -5938,6 +6049,9 @@
 - name: Malcolm Wallace
   papers:
   - papers/chakravarty:haskffi:2003
+- name: Steven Wallace
+  papers:
+  - papers/luk:pldi:2005
 - name: Deborah A. Wallach
   papers:
   - papers/chang:tocs:2012
@@ -6234,6 +6348,9 @@
 - name: Hui Xue
   papers:
   - papers/mai:asplos:2013
+- name: S. Bharadwaj Yadavalli
+  papers:
+  - papers/yadavalli:lctes:2019
 - name: Boris Yakobowski
   papers:
   - papers/cuoq:sefm:2012
@@ -6431,6 +6548,9 @@
 - name: Ming Zhong
   papers:
   - papers/jiang:arxiv:2021
+- name: Dixin Zhou
+  papers:
+  - papers/altinay:eurosys:2020
 - name: Rundong Zhou
   papers:
   - papers/chen:sp:2020
