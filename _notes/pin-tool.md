@@ -1,9 +1,0 @@
----
-layout: note
-notes:
-- binary instrumentation
-- dynamic binary translation
-papers: {}
-title: PIN binary instrumentation tool
----
-{% include links.html %}
