@@ -34,6 +34,7 @@ notes:
 - symbolic execution
 - angr verifier
 - symbolic memory
+- mayhem
 papers:
 - avgerinos:icse:2014
 - cha:sandp:2012
@@ -106,6 +107,6 @@ Results show that
 - their optimizations avoid timeouts
 
 They suggest a number of ways to improve it in the future using ideas
-from MAYHEM [cha:sandp:2012] and others.
+from the [MAYHEM][Mayhem] tool [cha:sandp:2012] and others.
 
 {% include links.html %}

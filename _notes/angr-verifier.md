@@ -10,7 +10,7 @@ notes:
 - symbolic memory
 - valgrind
 papers:
-- coppa:ase:2017
+- shoshitaishvili:sp:2016
 ---
 
 angr is a python framework for analyzing binaries. It combines both static and dynamic symbolic ("concolic") analysis

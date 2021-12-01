@@ -168,6 +168,9 @@ notes:
     - - zydis x86 decoder/disassembler library
       - null
   notes/binary-instrumentation:
+  - - notes/binary-analysis
+    - - Binary analysis
+      - null
   - - notes/dynamic-binary-translation
     - - Dynamic binary translation (DBT)
       - null
@@ -184,6 +187,9 @@ notes:
     - - Valgrind
       - null
   notes/binary-lifter:
+  - - notes/binary-analysis
+    - - Binary analysis
+      - null
   - - notes/binrec-tool
     - - BinRec binary lifter
       - null
@@ -919,7 +925,10 @@ notes:
   - - notes/prusti-verifier
     - - Prusti verifier
       - null
-  notes/malware-analysis: []
+  notes/malware-analysis:
+  - - notes/binary-analysis
+    - - Binary analysis
+      - null
   notes/mayhem: []
   notes/mcsema-tool:
   - - notes/remill-library
@@ -2007,6 +2016,7 @@ notes:
   papers/andriesse:usenix:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
+  papers/angr-verifier: []
   papers/armstrong:arw:2018: []
   papers/armstrong:cav:2021: []
   papers/armstrong:popl19:2019: []
@@ -2354,9 +2364,6 @@ notes:
   papers/conway:datamation:1968: []
   papers/cook:cav:2018: []
   papers/coppa:ase:2017:
-  - - notes/angr-verifier
-    - - angr verifier
-      - null
   - - notes/symbolic-memory
     - - Symbolic memory
       - null
@@ -3225,6 +3232,9 @@ notes:
   papers/sheeran:fmcad:2000: []
   papers/shi:phd:2013: []
   papers/shoshitaishvili:sp:2016:
+  - - notes/angr-verifier
+    - - angr verifier
+      - null
   - - notes/systematization-of-knowledge
     - - Systematization of Knowledge (SoK)
       - null
@@ -6255,6 +6265,9 @@ papers:
   - - papers/cha:sandp:2012
     - - Unleashing Mayhem on binary code
       - cha:sandp:2012
+  - - papers/coppa:ase:2017
+    - - Rethinking pointer reasoning in symbolic execution
+      - coppa:ase:2017
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
@@ -8931,6 +8944,10 @@ papers:
   papers/andriesse:usenix:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
+  papers/angr-verifier:
+  - - papers/shoshitaishvili:sp:2016
+    - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
+      - shoshitaishvili:sp:2016
   papers/armstrong:arw:2018: []
   papers/armstrong:cav:2021: []
   papers/armstrong:popl19:2019: []

@@ -26,5 +26,6 @@ year: 2016
 notes:
 - binary analysis
 papers:
+- angr verifier
 ---
 {% include links.html %}
