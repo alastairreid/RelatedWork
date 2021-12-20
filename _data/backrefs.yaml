@@ -688,6 +688,16 @@ notes:
   - - notes/x86-architecture
     - - x86 architecture
       - null
+  notes/intel:
+  - - notes/itanium-architecture
+    - - Itanium architecture
+      - null
+  - - notes/x86-architecture
+    - - x86 architecture
+      - null
+  - - notes/xed-tool
+    - - XED x86 encoding/decoding library
+      - null
   notes/interactive-theorem-prover:
   - - notes/annotation-burden
     - - Annotation burden
@@ -792,6 +802,10 @@ notes:
   notes/isps:
   - - notes/isa-specification
     - - ISA specification
+      - null
+  notes/itanium-architecture:
+  - - notes/intel
+    - - Intel
       - null
   notes/ivy-verifier: []
   notes/java-pathfinder:
@@ -1952,6 +1966,9 @@ notes:
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
+  - - notes/intel
+    - - Intel
+      - null
   - - notes/remill-library
     - - Remill binary lifting library
       - null
@@ -2016,7 +2033,6 @@ notes:
   papers/andriesse:usenix:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
-  papers/angr-verifier: []
   papers/armstrong:arw:2018: []
   papers/armstrong:cav:2021: []
   papers/armstrong:popl19:2019: []
@@ -2173,6 +2189,10 @@ notes:
   papers/beyer:sas:2004:
   - - notes/blast-verifier
     - - BLAST verifier
+      - null
+  papers/bhatt:sefm:2003:
+  - - notes/itanium-architecture
+    - - Itanium architecture
       - null
   papers/biere:tacas:1999: []
   papers/binder:cacm:1994: []
@@ -3565,6 +3585,9 @@ papers:
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
+  - - papers/shoshitaishvili:sp:2016
+    - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
+      - shoshitaishvili:sp:2016
   notes/annotation-burden:
   - - papers/leino:informatics:2001
     - - 'Extended static checking: A ten-year perspective'
@@ -5530,6 +5553,10 @@ papers:
   - - papers/watson:sandp:2015
     - - 'CHERI: A hybrid capability-system architecture for scalable software compartmentalization'
       - watson:sandp:2015
+  notes/intel:
+  - - papers/bhatt:sefm:2003
+    - - The fallacy of spec-based design
+      - bhatt:sefm:2003
   notes/interactive-theorem-prover:
   - - papers/demoura:cade:2015
     - - The Lean theorem prover (system description)
@@ -5614,6 +5641,9 @@ papers:
   - - papers/beyer:ijsttt:2006
     - - Putting it all together - Formal verification of the VAMP
       - beyer:ijsttt:2006
+  - - papers/bhatt:sefm:2003
+    - - The fallacy of spec-based design
+      - bhatt:sefm:2003
   - - papers/bishop:jacm:2019
     - - 'Engineering with logic: Rigorous test-oracle specification and validation
         for TCP/IP and the sockets API'
@@ -5989,6 +6019,10 @@ papers:
   - - papers/su:computer:1974
     - - A survey of computer hardware description languages in the U.S.A.
       - su:computer:1974
+  notes/itanium-architecture:
+  - - papers/bhatt:sefm:2003
+    - - The fallacy of spec-based design
+      - bhatt:sefm:2003
   notes/ivy-verifier:
   - - papers/mcmillan:sigcomm:2019
     - - Formal specification and testing of QUIC
@@ -8944,10 +8978,6 @@ papers:
   papers/andriesse:usenix:2016: []
   papers/andronick:icse:2012: []
   papers/angelini:vizsec:2019: []
-  papers/angr-verifier:
-  - - papers/shoshitaishvili:sp:2016
-    - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
-      - shoshitaishvili:sp:2016
   papers/armstrong:arw:2018: []
   papers/armstrong:cav:2021: []
   papers/armstrong:popl19:2019: []
@@ -9134,6 +9164,7 @@ papers:
   - - papers/beyer:ijsttt:2007
     - - 'The software model checker BLAST: Applications to software engineering'
       - beyer:ijsttt:2007
+  papers/bhatt:sefm:2003: []
   papers/biere:tacas:1999: []
   papers/binder:cacm:1994: []
   papers/bird:sc:1993: []
@@ -9322,6 +9353,9 @@ papers:
   - - papers/kapus:fse:2019
     - - A segmented memory model for symbolic execution
       - kapus:fse:2019
+  - - papers/shoshitaishvili:sp:2016
+    - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
+      - shoshitaishvili:sp:2016
   papers/coquand:eurocal:1985: []
   papers/corbett:tocs:2013:
   - - papers/potvin:cacm:2016
@@ -10204,6 +10238,9 @@ papers:
     - - 'Defining interfaces between hardware and software: Quality and performance'
       - reid:phd:2019
   papers/reid:fmcad:2016:
+  - - papers/bhatt:sefm:2003
+    - - The fallacy of spec-based design
+      - bhatt:sefm:2003
   - - papers/jiang:arxiv:2021
     - - 'Examiner: Automatically locating inconsistent instructions between real devices
         and CPU emulators for Arm'

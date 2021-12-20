@@ -25,7 +25,8 @@ volume: ''
 year: 2016
 notes:
 - binary analysis
-papers:
 - angr verifier
+papers:
+- coppa:ase:2017
 ---
 {% include links.html %}

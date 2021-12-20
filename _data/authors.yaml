@@ -470,6 +470,9 @@
 - name: Vikas Bhatia
   papers:
   - papers/russinovich:acmq:2021
+- name: Rahul Bhatt
+  papers:
+  - papers/bhatt:sefm:2003
 - name: Abhishek Bhattacharjee
   papers:
   - papers/lustig:asplos:2016
@@ -2854,6 +2857,9 @@
 - name: Manos Kapritsos
   papers:
   - papers/bond:usenix:2017
+- name: Arjun Kapur
+  papers:
+  - papers/bhatt:sefm:2003
 - name: Timotej Kapus
   papers:
   - papers/kapus:fse:2019
@@ -3170,6 +3176,9 @@
 - name: "Ulrich K\xFChne"
   papers:
   - papers/kuhne:fmcad:2010
+- name: Dave LaFollette
+  papers:
+  - papers/bhatt:sefm:2003
 - name: Thomas D. LaToza
   papers:
   - papers/myers:computer:2016
