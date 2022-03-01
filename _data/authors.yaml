@@ -343,6 +343,9 @@
 - name: Forest Baskett
   papers:
   - papers/hennessy:micro:1982
+- name: Jeff Bastian
+  papers:
+  - papers/bastian:adl:2005
 - name: "Th\xE9ophile Bastian"
   papers:
   - papers/bastian:oopsla:2019
@@ -899,6 +902,9 @@
 - name: Arthur Chargueraud
   papers:
   - papers/bodin:popl:2014
+- name: Mark Charney
+  papers:
+  - papers/lifshitz:wish:2011
 - name: Shaunak Chatterjee
   papers:
   - papers/chatterjee:tacas:2007
@@ -1074,6 +1080,7 @@
   - papers/cohen:entcs:2009
 - name: Robert Cohn
   papers:
+  - papers/lifshitz:wish:2011
   - papers/luk:pldi:2005
 - name: David R. Cok
   papers:
@@ -2296,6 +2303,7 @@
   - papers/yang:pldi:2010
 - name: Kim Hazelwood
   papers:
+  - papers/lifshitz:wish:2011
   - papers/luk:pldi:2005
 - name: Shaobo He
   papers:
@@ -3082,6 +3090,9 @@
 - name: Christoforos Kozyrakis
   papers:
   - papers/kozyrakis:phd:2002
+- name: Christos Kozyrakis
+  papers:
+  - papers/sanchez:isca:2013
 - name: Robbert Krebbers
   papers:
   - papers/jung:cacm:2021
@@ -3424,6 +3435,9 @@
 - name: Daniel Liew
   papers:
   - papers/liew:fse:2019
+- name: Yair Lifshitz
+  papers:
+  - papers/lifshitz:wish:2011
 - name: Japheth Lim
   papers:
   - papers/amani:asplos:2016
@@ -3477,6 +3491,9 @@
 - name: Weijie Liu
   papers:
   - papers/ma:securecomm:2015
+- name: Inbal Livni
+  papers:
+  - papers/lifshitz:wish:2011
 - name: "Paul Li\xE9tar"
   papers:
   - papers/lietar:ismm:2019
@@ -4364,6 +4381,9 @@
 - name: Mark Omernick
   papers:
   - papers/jouppi:isca:2017
+- name: Soner Onder
+  papers:
+  - papers/bastian:adl:2005
 - name: Paul van Oorschot
   papers:
   - papers/murray:secdev:2018
@@ -5089,6 +5109,9 @@
 - name: Richard Samuels
   papers:
   - papers/morrisett:wcsss:1999
+- name: Daniel Sanchez
+  papers:
+  - papers/sanchez:isca:2013
 - name: David Sands
   papers:
   - papers/sabelfield:jcs:2009
@@ -5687,6 +5710,9 @@
 - name: Thanh Dinh Ta
   papers:
   - papers/david:issta:2016
+- name: Omer Tabach
+  papers:
+  - papers/lifshitz:wish:2011
 - name: Amer Tahat
   papers:
   - papers/tahat:fmcad:2019

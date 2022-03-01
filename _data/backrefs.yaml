@@ -2140,6 +2140,7 @@ notes:
   papers/barthe:csfw:2004: []
   papers/barthe:iacr:2007: []
   papers/barthe:mscs:2011: []
+  papers/bastian:adl:2005: []
   papers/bastian:oopsla:2019: []
   papers/baudin:cacm:2021: []
   papers/bauereiss:ucam:2021: []
@@ -2870,6 +2871,7 @@ notes:
   papers/lie:sosp:2003: []
   papers/lietar:ismm:2019: []
   papers/liew:fse:2019: []
+  papers/lifshitz:wish:2011: []
   papers/lim:toplas:2013: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
@@ -3212,6 +3214,7 @@ notes:
     - - Verified compilers
       - null
   papers/sammler:pldi:2021: []
+  papers/sanchez:isca:2013: []
   papers/sardar:access:2021: []
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
@@ -5554,9 +5557,18 @@ papers:
     - - 'CHERI: A hybrid capability-system architecture for scalable software compartmentalization'
       - watson:sandp:2015
   notes/intel:
+  - - papers/bastian:adl:2005
+    - - Specification of Intel IA-32 Using an Architecture Description Language
+      - bastian:adl:2005
   - - papers/bhatt:sefm:2003
     - - The fallacy of spec-based design
       - bhatt:sefm:2003
+  - - papers/lifshitz:wish:2011
+    - - 'Zsim: A Fast Architectural Simulator for ISA Design-Space Exploration'
+      - lifshitz:wish:2011
+  - - papers/sanchez:isca:2013
+    - - 'ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems'
+      - sanchez:isca:2013
   notes/interactive-theorem-prover:
   - - papers/demoura:cade:2015
     - - The Lean theorem prover (system description)
@@ -5626,6 +5638,9 @@ papers:
   - - papers/barbacci:ieee:1981
     - - 'Instruction set processor specifications (ISPS): The notation and its applications'
       - barbacci:ieee:1981
+  - - papers/bastian:adl:2005
+    - - Specification of Intel IA-32 Using an Architecture Description Language
+      - bastian:adl:2005
   - - papers/bauereiss:ucam:2021
     - - Verified security for the Morello capability-enhanced prototype Arm architecture
       - bauereiss:ucam:2021
@@ -5808,6 +5823,9 @@ papers:
   - - papers/kuhne:fmcad:2010
     - - Automated formal verification of processors based on architectural models
       - kuhne:fmcad:2010
+  - - papers/lifshitz:wish:2011
+    - - 'Zsim: A Fast Architectural Simulator for ISA Design-Space Exploration'
+      - lifshitz:wish:2011
   - - papers/lim:toplas:2013
     - - 'TSL: A system for generating abstract interpreters and its application to
         machine-code analysis'
@@ -5897,6 +5915,9 @@ papers:
     - - Automatically proving the correctness of translations involving optimized
         code.
       - samet:phd:1975
+  - - papers/sanchez:isca:2013
+    - - 'ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems'
+      - sanchez:isca:2013
   - - papers/sarkar:pldi:2011
     - - Understanding POWER multiprocessors
       - sarkar:pldi:2011
@@ -8863,6 +8884,9 @@ papers:
     - - A compiler-level intermediate representation based binary analysis and rewriting
         system
       - anand:eurosys:2013
+  - - papers/bastian:adl:2005
+    - - Specification of Intel IA-32 Using an Architecture Description Language
+      - bastian:adl:2005
   - - papers/dasgupta:pldi:2019
     - - A complete formal semantics of x86-64 user-level instruction set architecture
       - dasgupta:pldi:2019
@@ -8902,6 +8926,9 @@ papers:
     - - 'Symbolic trajectory evaluation: The primary validation vehicle for next generation
         Intel processor graphics FPU'
       - kirankumar:fmcad:2012
+  - - papers/lifshitz:wish:2011
+    - - 'Zsim: A Fast Architectural Simulator for ISA Design-Space Exploration'
+      - lifshitz:wish:2011
   - - papers/martignoni:asplos:2012
     - - 'Path-exploration lifting: Hi-fi tests for lo-fi emulators'
       - martignoni:asplos:2012
@@ -8923,6 +8950,9 @@ papers:
   - - papers/roessle:cpp:2019
     - - Formally verified big step semantics out of x86-64 binaries
       - roessle:cpp:2019
+  - - papers/sanchez:isca:2013
+    - - 'ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems'
+      - sanchez:isca:2013
   - - papers/sarkar:popl:2009
     - - The semantics of x86-CC multiprocessor machine code
       - sarkar:popl:2009
@@ -9095,6 +9125,7 @@ papers:
   papers/barthe:csfw:2004: []
   papers/barthe:iacr:2007: []
   papers/barthe:mscs:2011: []
+  papers/bastian:adl:2005: []
   papers/bastian:oopsla:2019: []
   papers/baudin:cacm:2021: []
   papers/bauereiss:ucam:2021: []
@@ -9924,6 +9955,7 @@ papers:
   papers/lie:sosp:2003: []
   papers/lietar:ismm:2019: []
   papers/liew:fse:2019: []
+  papers/lifshitz:wish:2011: []
   papers/lim:toplas:2013: []
   papers/lin:sdr:2006: []
   papers/lin:sips:2006: []
@@ -10347,6 +10379,7 @@ papers:
   papers/samet:ieeetse:1977: []
   papers/samet:phd:1975: []
   papers/sammler:pldi:2021: []
+  papers/sanchez:isca:2013: []
   papers/sardar:access:2021: []
   papers/sarkar:pldi:2011: []
   papers/sarkar:popl:2009: []
