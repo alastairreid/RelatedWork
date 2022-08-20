@@ -1035,6 +1035,19 @@
   year = {2017}
 }
 
+@inproceedings{becker:ches:2013,
+  abstract = {In recent years, hardware Trojans have drawn the attention of governments and industry as well as the scientific community. One of the main concerns is that integrated circuits, e.g., for military or critical-infrastructure applications, could be maliciously manipulated during the manufacturing process, which often takes place abroad. However, since there have been no reported hardware Trojans in practice yet, little is known about how such a Trojan would look like, and how difficult it would be in practice to implement one.},
+  address = {Berlin, Heidelberg},
+  author = {Georg T. Becker and Francesco Regazzoni and Christof Paar and Wayne P. Burleson},
+  booktitle = {Cryptographic Hardware and Embedded Systems - CHES 2013},
+  editor = {Bertoni, Guido and Coron, Jean-Sébastien},
+  isbn = {978-3-642-40349-1},
+  pages = {197-214},
+  publisher = {Springer Berlin Heidelberg},
+  title = {{Stealthy Dopant-Level Hardware Trojans}},
+  year = {2013}
+}
+
 @inproceedings{becker:fm:2016,
   author = {Hanno Becker and Juan Manuel Crespo and Jacek Galowicz and Ulrich Hensel and Yoichi Hirai and César Kunz and Keiko Nakata and Jorge Luis Sacchini and Hendrik Tews and Thomas Tuerk},
   booktitle = {International Symposium on Formal Methods},
@@ -1343,6 +1356,21 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{The fallacy of spec-based design}},
   volume = {},
   year = {2003}
+}
+
+@inproceedings{bidmeshki:iccd:2019,
+  abstract = {Among the various strategies for hiding malicious capabilities in integrated circuits (ICs), analog circuit design techniques have recently drawn increased attention due their lower area, power and delay footprints, which make their detection significantly more challenging. Specifically, switched capacitors have been used for creating stealthy trigger circuits based on toggling activity on a victim wire. Various methodologies for detecting such culprits have been investigated; however, recent literature in this area contains several misconceptions or inaccuracies regarding the topologies of these trigger circuits and the effectiveness of previously proposed detection methods. Therefore, in this paper, we first revisit the design of switched capacitor-based trigger circuits and we present several design configurations which are not encompassed by previously demonstrated models, but which can also serve the same malevolent purpose. We, then, discuss the effectiveness and the shortcomings of existing defense methodologies, and we point towards additional research that is needed in this area.},
+  author = {Mohammad Mahdi Bidmeshki and Kiruba Sankaran Subramani and Yiorgos Makris},
+  booktitle = {2019 IEEE 37th International Conference on Computer Design (ICCD)},
+  doi = {10.1109/ICCD46524.2019.00047},
+  issn = {2576-6996},
+  keywords = {},
+  month = {Nov},
+  number = {},
+  pages = {309-312},
+  title = {{Revisiting Capacitor-Based Trojan Design}},
+  volume = {},
+  year = {2019}
 }
 
 @inbook{biere:tacas:1999,
@@ -1785,6 +1813,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2018}
 }
 
+@inproceedings{buhan:ccs:2022,
+  abstract = {Side-channel attacks that leak sensitive information through a computing device's interaction with its physical environment have proven to be a severe threat to devices' security, particularly when adversaries have unfettered physical access to the device. Traditional approaches for leakage detection measure the physical properties of the device. Hence, they cannot be used during the design process and fail to provide root cause analysis. An alternative approach that is gaining traction is to automate leakage detection by modeling the device. The demand to understand the scope, benefits, and limitations of the proposed tools intensifies with the increase in the number of proposals. In this SoK, we classify approaches to automated leakage detection based on the model's source of truth. We classify the existing tools on two main parameters: whether the model includes measurements from a concrete device and the abstraction level of the device specification used for constructing the model. We survey the proposed tools to determine the current knowledge level across the domain and identify open problems. In particular, we highlight the absence of evaluation methodologies and metrics that would compare proposals' effectiveness from across the domain. We believe that our results help practitioners who want to use automated leakage detection and researchers interested in advancing the knowledge and improving automated leakage detection.},
+  address = {New York, NY, USA},
+  author = {Ileana Buhan and Lejla Batina and Yuval Yarom and Patrick Schaumont},
+  booktitle = {Proceedings of the 2022 ACM on Asia Conference on Computer and Communications Security},
+  doi = {10.1145/3488932.3517415},
+  isbn = {9781450391405},
+  keywords = {power analysis, side-channel, emulators},
+  link = {https://doi.org/10.1145/3488932.3517415},
+  location = {Nagasaki, Japan},
+  numpages = {15},
+  pages = {756-770},
+  publisher = {Association for Computing Machinery},
+  series = {ASIA CCS '22},
+  title = {{SoK: Design Tools for Side-Channel-Aware Implementations}},
+  url = {https://doi.org/10.1145/3488932.3517415},
+  year = {2022}
+}
+
 @inproceedings{burch:cav:1994,
   acmid = {735662},
   address = {London, UK},
@@ -2056,7 +2103,7 @@ Online:  http://dx.doi.org/10.1007/b99688},
   month = {may},
   pages = {1517-1517},
   publisher = {IEEE Computer Society},
-  title = {{SoK: Practical Foundations for Software Spectre Defenses}},
+  title = {{SoK: Practical foundations for software Spectre defenses}},
   url = {https://doi.ieeecomputersociety.org/10.1109/SP46214.2022.00088},
   volume = {},
   year = {2022}
@@ -6409,6 +6456,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2009}
 }
 
+@inproceedings{manerkar:micro:2017,
+  abstract = {Paramount to the viability of a parallel architecture is the correct implementation of its memory consistency model (MCM). Although tools exist for verifying consistency models at several design levels, a problematic verification gap exists between checking an abstract microarchitectural specification of a consistency model and verifying that the actual processor RTL implements it correctly.This paper presents RTLCheck, a methodology and tool for narrowing the microarchitecture/RTL MCM verification gap. Given a set of microarchitectural axioms about MCM behavior, an RTL design, and user-provided mappings to assist in connecting the two, RTLCheck automatically generates the SystemVerilog Assertions (SVA) needed to verify that the implementation satisfies the microarchitectural specification for a given litmus test program. When combined with existing automated MCM verification tools, RTLCheck enables test-based full-stack MCM verification from high-level languages to RTL. We evaluate RTLCheck on a multicore version of the RISC-V V-scale processor, and discover a bug in its memory implementation. Once the bug is fixed, we verify that the multicore V-scale implementation satisfies sequential consistency across 56 litmus tests. The JasperGold property verifier finds complete proofs for 89\% of our properties, and can find bounded proofs for the remaining properties.},
+  address = {New York, NY, USA},
+  author = {Yatin A. Manerkar and Daniel Lustig and Margaret Martonosi and Michael Pellauer},
+  booktitle = {Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture},
+  doi = {10.1145/3123939.3124536},
+  isbn = {9781450349529},
+  keywords = {SVA, automated verification, RTL, memory consistency models},
+  link = {https://doi.org/10.1145/3123939.3124536},
+  location = {Cambridge, Massachusetts},
+  numpages = {14},
+  pages = {463-476},
+  publisher = {Association for Computing Machinery},
+  series = {MICRO-50 '17},
+  title = {{RTLcheck: Verifying the Memory Consistency of RTL Designs}},
+  url = {https://doi.org/10.1145/3123939.3124536},
+  year = {2017}
+}
+
 @article{manes:ieeetse:2019,
   author = {Valentin J.M. Manès and HyungSeok Han and Choongwoo Han and Sang Kil Cha and Manuel Egele and Edward J. Schwartz and Maverick Woo},
   doi = {10.1109/TSE.2019.2946563},
@@ -6763,6 +6829,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   pages = {25-35},
   title = {{TALx86: A realistic typed assembly language}},
   year = {1999}
+}
+
+@inproceedings{mosier:isca:2022,
+  abstract = {We propose leakage containment models (LCMs)--novel axiomatic security contracts which support formally reasoning about the security guarantees of programs when they run on particular microarchitectures. Our core contribution is an axiomatic vocabulary for formalizing LCMs, derived from the established axiomatic vocabulary for formalizing processor memory consistency models. Using this vocabulary, we formalize microarchitectural leakage--focusing on leakage through hardware memory systems--so that it can be automatically detected in programs and provide a taxonomy for classifying said leakage by severity. To illustrate the efficacy of LCMs, we first demonstrate that our leakage definition faithfully captures a sampling of (transient and non-transient) microarchitectural attacks from the literature. Second, we develop a static analysis tool based on LCMs which automatically identifies Spectre vulnerabilities in programs and scales to analyze real-world crypto-libraries.},
+  address = {New York, NY, USA},
+  author = {Nicholas Mosier and Hanna Lachnitt and Hamed Nemati and Caroline Trippel},
+  booktitle = {Proceedings of the 49th Annual International Symposium on Computer Architecture},
+  doi = {10.1145/3470496.3527412},
+  isbn = {9781450386104},
+  keywords = {spectre, hardware-software contracts, hardware security, side-channel attacks, memory consistency models},
+  link = {https://doi.org/10.1145/3470496.3527412},
+  location = {New York, New York},
+  numpages = {15},
+  pages = {72-86},
+  publisher = {Association for Computing Machinery},
+  series = {ISCA '22},
+  title = {{Axiomatic Hardware-Software Contracts for Security}},
+  url = {https://doi.org/10.1145/3470496.3527412},
+  year = {2022}
 }
 
 @article{mukherjee:oopsla:2020,
@@ -7670,6 +7755,19 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2020}
 }
 
+@inproceedings{polgreen:cav:2022,
+  abstract = {UCLID5 is a tool for the multi-modal formal modeling, verification, and synthesis of systems. It enables one to tackle verification problems for heterogeneous systems such as combinations of hardware and software, or those that have multiple, varied specifications, or systems that require hybrid modes of modeling. A novel aspect of UCLID5 is an emphasis on the use of syntax-guided and inductive synthesis to automate steps in modeling and verification. This tool paper presents new developments in the UCLID5 tool including new language features, integration with new techniques for syntax-guided synthesis and satisfiability solving, support for hyperproperties and combinations of axiomatic and operational modeling, demonstrations on new problem classes, and a robust implementation.},
+  address = {Cham},
+  author = {Elizabeth Polgreen and Kevin Cheang and Pranav Gaddamadugu and Adwait Godbole and Kevin Laeufer and Shaokai Lin and Yatin A. Manerkar and Federico Mora and Sanjit A. Seshia},
+  booktitle = {Computer Aided Verification},
+  editor = {Shoham, Sharon and Vizel, Yakir},
+  isbn = {978-3-031-13185-1},
+  pages = {538-551},
+  publisher = {Springer International Publishing},
+  title = {{UCLID5: Multi-modal Formal Modeling, Verification, and Synthesis}},
+  year = {2022}
+}
+
 @article{potvin:cacm:2016,
   abstract = {Google's monolithic repository provides a common source of truth for tens of thousands of developers around the world.},
   address = {New York, NY, USA},
@@ -7873,6 +7971,20 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Interoperability-guided testing of QUIC implementations using symbolic execution}},
   url = {https://doi.org/10.1145/3284850.3284853},
   year = {2018}
+}
+
+@inproceedings{razavi:usenix:2016,
+  address = {Austin, TX},
+  author = {Kaveh Razavi and Ben Gras and Erik Bosman and Bart Preneel and Cristiano Giuffrida and Herbert Bos},
+  booktitle = {25th USENIX Security Symposium (USENIX Security 16)},
+  isbn = {978-1-931971-32-4},
+  link = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/razavi},
+  month = {August},
+  pages = {1-18},
+  publisher = {USENIX Association},
+  title = {{Flip Feng Shui: Hammering a Needle in the Software Stack}},
+  url = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/razavi},
+  year = {2016}
 }
 
 @inproceedings{recoules:ase:2019,
@@ -8721,6 +8833,19 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2000}
 }
 
+@inproceedings{sebastiani:cav:2004,
+  abstract = {Verifying whether an \textdollar {ø}mega\textdollar -regular property is satisfied by a finite-state system is a core problem in model checking. Standard techniques build an automaton with the complementary language, compute its product with the system, and then check for emptiness. Generalized symbolic trajectory evaluation (GSTE) has been recently proposed as an alternative approach, extending the computationally efficient symbolic trajectory evaluation (STE) to general \textdollar {ø}mega\textdollar -regular properties. In this paper, we show that the GSTE algorithms are essentially a partitioned version of standard symbolic model-checking (SMC) algorithms, where the partitioning is driven by the property under verification. We export this technique of property-driven partitioning to SMC and show that it typically does speed up SMC algorithms.},
+  address = {Berlin, Heidelberg},
+  author = {Roberto Sebastiani and Eli Singerman and Stefano Tonetta and Moshe Y. Vardi},
+  booktitle = {Computer Aided Verification},
+  editor = {Alur, Rajeev and Peled, Doron A.},
+  isbn = {978-3-540-27813-9},
+  pages = {229-241},
+  publisher = {Springer Berlin Heidelberg},
+  title = {{GSTE Is Partitioned Model Checking}},
+  year = {2004}
+}
+
 @article{segar:fmsd:1995,
   author = {Carl-Johan H. Seger and Randal E. Bryant},
   bibsource = {dblp computer science bibliography, https://dblp.org},
@@ -8905,7 +9030,7 @@ Online:  http://dx.doi.org/10.1007/b99688},
   doi = {10.1109/SP.2016.17},
   number = {},
   pages = {138-157},
-  title = {{SOK: (state of) the art of war: Offensive techniques in binary analysis}},
+  title = {{SoK: (state of) the art of war: Offensive techniques in binary analysis}},
   volume = {},
   year = {2016}
 }
@@ -9776,6 +9901,21 @@ and Zucca, Elena},
   year = {2019}
 }
 
+@inproceedings{vicarte:isca:2021,
+  abstract = {Microarchitectural attacks have plunged Computer Architecture into a security crisis. Yet, as the slowing of Moore's law justifies the use of ever more exotic microarchitecture, it is likely we have only seen the tip of the iceberg.To better anticipate this security crisis, this paper performs a systematic security-centric analysis of the Computer Architecture literature. Our rationale is that when implementing current and future processors, microarchitects will (quite reasonably) look to previously-proposed ideas. Our study uncovers seven classes of microarchitectural optimization with novel security implications, proposes a conceptual framework through which to study them and demonstrates several proofs-of-concept to show their efficacy. The optimizations we study range from those that leak as much privacy as Spectre/Meltdown (but without exploiting speculative execution) to those that otherwise undermine security-critical programs in a variety of ways. Many have storied histories- ranging from industry patents to media/3rd party speculation regarding current implementation status to recent renewed interest in the academic community. This paper's goal is to perform an early (hopefully not too late) analysis to inform their development moving forward.},
+  author = {Jose Rodrigo Sanchez Vicarte and Pradyumna Shome and Nandeeka Nayak and Caroline Trippel and Adam Morrison and David Kohlbrenner and Christopher W. Fletcher},
+  booktitle = {2021 ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA)},
+  doi = {10.1109/ISCA52012.2021.00035},
+  issn = {2575-713X},
+  keywords = {},
+  month = {June},
+  number = {},
+  pages = {347-360},
+  title = {{Opening Pandora's box: A systematic study of new ways microarchitecture can leak private data}},
+  volume = {},
+  year = {2021}
+}
+
 @inproceedings{vila:pldi:2020,
   abstract = {We show how to infer deterministic cache replacement policies using off-the-shelf automata learning and program synthesis techniques. For this, we construct and chain two abstractions that expose the cache replacement policy of any set in the cache hierarchy as a membership oracle to the learning algorithm, based on timing measurements on a silicon CPU. Our experiments demonstrate an advantage in scope and scalability over prior art and uncover two previously undocumented cache replacement policies.},
   address = {New York, NY, USA},
@@ -10288,6 +10428,21 @@ and Zucca, Elena},
   title = {{Finding and understanding bugs in C compilers}},
   url = {https://doi.org/10.1145/1993498.1993532},
   year = {2011}
+}
+
+@inproceedings{yang:sandp:2016,
+  abstract = {While the move to smaller transistors has been a boon for performance it has dramatically increased the cost to fabricate chips using those smaller transistors. This forces the vast majority of chip design companies to trust a third party - often overseas - to fabricate their design. To guard against shipping chips with errors (intentional or otherwise) chip design companies rely on post-fabrication testing. Unfortunately, this type of testing leaves the door open to malicious modifications since attackers can craft attack triggers requiring a sequence of unlikely events, which will never be encountered by even the most diligent tester. In this paper, we show how a fabrication-time attacker can leverage analog circuits to create a hardware attack that is small (i.e., requires as little as one gate) and stealthy (i.e., requires an unlikely trigger sequence before effecting a chip's functionality). In the open spaces of an already placed and routed design, we construct a circuit that uses capacitors to siphon charge from nearby wires as they transition between digital values. When the capacitors fully charge, they deploy an attack that forces a victim flip-flop to a desired value. We weaponize this attack into a remotely-controllable privilege escalation by attaching the capacitor to a wire controllable and by selecting a victim flip-flop that holds the privilege bit for our processor. We implement this attack in an OR1200 processor and fabricate a chip. Experimental results show that our attacks work, show that our attacks elude activation by a diverse set of benchmarks, and suggest that our attacks evade known defenses.},
+  author = {Kaiyuan Yang and Matthew Hicks and Qing Dong and Todd Austin and Dennis Sylvester},
+  booktitle = {2016 IEEE Symposium on Security and Privacy (SP)},
+  doi = {10.1109/SP.2016.10},
+  issn = {2375-1207},
+  keywords = {},
+  month = {May},
+  number = {},
+  pages = {18-37},
+  title = {{A2: Analog Malicious Hardware}},
+  volume = {},
+  year = {2016}
 }
 
 @article{yanovski:unknown:2021,

@@ -625,6 +625,7 @@ notes:
     - - Hardware Faults
       - null
   notes/hardware-faults: []
+  notes/hardware-trojan: []
   notes/haskell-language: []
   notes/hol-theorem-prover: []
   notes/horn-clause: []
@@ -1361,6 +1362,7 @@ notes:
   - - notes/verifier-performance
     - - Verifier performance
       - null
+  notes/rowhammer: []
   notes/rtl:
   - - notes/symbolic-trajectory-evaluation
     - - Symbolic trajectory evaluation
@@ -1852,6 +1854,7 @@ notes:
     - - Dependent type
       - null
   notes/typed-assembly-language: []
+  notes/uclid5: []
   notes/undefined-behaviour:
   - - notes/frama-c-verifier
     - - Frama-C verifier
@@ -2169,6 +2172,7 @@ notes:
   papers/bauereiss:ucam:2021: []
   papers/baumann:eucnc:2016: []
   papers/baumann:hotos:2017: []
+  papers/becker:ches:2013: []
   papers/becker:fm:2016:
   - - notes/nova-hypervisor
     - - NOVA hypervisor
@@ -2217,6 +2221,10 @@ notes:
   papers/bhatt:sefm:2003:
   - - notes/itanium-architecture
     - - Itanium architecture
+      - null
+  papers/bidmeshki:iccd:2019:
+  - - notes/hardware-trojan
+    - - Hardware trojan
       - null
   papers/biere:tacas:1999: []
   papers/binder:cacm:1994: []
@@ -2293,6 +2301,7 @@ notes:
     - - SMT solver
       - null
   papers/bryant:cmu:2018: []
+  papers/buhan:ccs:2022: []
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
   papers/burton:toplas:1990: []
@@ -2812,7 +2821,10 @@ notes:
     - - Lazy initialization of symbolic values
       - null
   papers/kiczales:iwoos:1991: []
-  papers/kim:isca:2014: []
+  papers/kim:isca:2014:
+  - - notes/rowhammer
+    - - RowHammer
+      - null
   papers/kirankumar:fmcad:2012: []
   papers/kjolstad:oopsla:2017: []
   papers/klabnik:book:2018: []
@@ -3142,6 +3154,10 @@ notes:
   - - notes/symcc
     - - SymCC
       - null
+  papers/polgreen:cav:2022:
+  - - notes/uclid5
+    - - UCLID5 tool
+      - null
   papers/potvin:cacm:2016: []
   papers/pulte:popl:2017: []
   papers/qin:hpca:2020: []
@@ -3173,6 +3189,7 @@ notes:
   papers/ramsey:toplas:1997: []
   papers/ramsey:usenix:1995: []
   papers/rath:epiq:2018: []
+  papers/razavi:usenix:2016: []
   papers/recoules:ase:2019: []
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
@@ -3268,6 +3285,7 @@ notes:
     - - Prusti verifier
       - null
   papers/seal:book:2000: []
+  papers/sebastiani:cav:2004: []
   papers/segar:fmsd:1995:
   - - notes/symbolic-trajectory-evaluation
     - - Symbolic trajectory evaluation
@@ -3504,6 +3522,10 @@ notes:
   papers/yang:issta:2012: []
   papers/yang:pldi:2010: []
   papers/yang:pldi:2011: []
+  papers/yang:sandp:2016:
+  - - notes/hardware-trojan
+    - - Hardware trojan
+      - null
   papers/yanovski:unknown:2021: []
   papers/yun:usenix:2018:
   - - notes/qsym
@@ -5087,9 +5109,15 @@ papers:
     - - Large-scale automated refactoring using ClangMR
       - wright:icsm:2013
   notes/hardware:
+  - - papers/becker:ches:2013
+    - - Stealthy Dopant-Level Hardware Trojans
+      - becker:ches:2013
   - - papers/bryant:cmu:2018
     - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
       - bryant:cmu:2018
+  - - papers/buhan:ccs:2022
+    - - 'SoK: Design Tools for Side-Channel-Aware Implementations'
+      - buhan:ccs:2022
   - - papers/choi:icfp:2017
     - - 'Kami: A platform for high-level parametric hardware specification and its
         modular verification'
@@ -5178,6 +5206,13 @@ papers:
   - - papers/hochschild:hotos:2021
     - - Cores that don't count
       - hochschild:hotos:2021
+  notes/hardware-trojan:
+  - - papers/bidmeshki:iccd:2019
+    - - Revisiting Capacitor-Based Trojan Design
+      - bidmeshki:iccd:2019
+  - - papers/yang:sandp:2016
+    - - 'A2: Analog Malicious Hardware'
+      - yang:sandp:2016
   notes/haskell-language:
   - - papers/chakravarty:haskffi:2003
     - - 'The Haskell 98 foreign function interface 1.0: An addendum to the Haskell
@@ -6483,6 +6518,9 @@ papers:
   - - papers/palacharla:micro:1995
     - - Decoupling integer execution in superscalar processors
       - palacharla:micro:1995
+  - - papers/razavi:usenix:2016
+    - - 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+      - razavi:usenix:2016
   - - papers/smith:tocs:1984
     - - Decoupled access/execute computer architectures
       - smith:tocs:1984
@@ -7275,6 +7313,14 @@ papers:
   - - papers/zorn:iscawddd:2017
     - - Solver aided reverse engineering of architectural features
       - zorn:iscawddd:2017
+  notes/rowhammer:
+  - - papers/kim:isca:2014
+    - - 'Flipping bits in memory without accessing them: An experimental study of
+        DRAM disturbance errors'
+      - kim:isca:2014
+  - - papers/razavi:usenix:2016
+    - - 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+      - razavi:usenix:2016
   notes/rtl:
   - - papers/reid:phd:2019
     - - 'Defining interfaces between hardware and software: Quality and performance'
@@ -7549,6 +7595,15 @@ papers:
   - - papers/baumann:hotos:2017
     - - Hardware is the new software
       - baumann:hotos:2017
+  - - papers/becker:ches:2013
+    - - Stealthy Dopant-Level Hardware Trojans
+      - becker:ches:2013
+  - - papers/bidmeshki:iccd:2019
+    - - Revisiting Capacitor-Based Trojan Design
+      - bidmeshki:iccd:2019
+  - - papers/buhan:ccs:2022
+    - - 'SoK: Design Tools for Side-Channel-Aware Implementations'
+      - buhan:ccs:2022
   - - papers/ge:jce:2016
     - - A survey of microarchitectural timing attacks and countermeasures on contemporary
         hardware
@@ -7562,6 +7617,9 @@ papers:
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
+  - - papers/yang:sandp:2016
+    - - 'A2: Analog Malicious Hardware'
+      - yang:sandp:2016
   notes/self-composition:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -7678,6 +7736,9 @@ papers:
   - - papers/baumann:hotos:2017
     - - Hardware is the new software
       - baumann:hotos:2017
+  - - papers/buhan:ccs:2022
+    - - 'SoK: Design Tools for Side-Channel-Aware Implementations'
+      - buhan:ccs:2022
   - - papers/ge:jce:2016
     - - A survey of microarchitectural timing attacks and countermeasures on contemporary
         hardware
@@ -7715,6 +7776,9 @@ papers:
   - - papers/mosier:isca:2022
     - - Axiomatic Hardware-Software Contracts for Security
       - mosier:isca:2022
+  - - papers/razavi:usenix:2016
+    - - 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+      - razavi:usenix:2016
   - - papers/rutledge:icse:2019
     - - Zero-overhead path prediction with progressive symbolic execution
       - rutledge:icse:2019
@@ -8390,6 +8454,9 @@ papers:
     - - 'Symbolic trajectory evaluation: The primary validation vehicle for next generation
         Intel processor graphics FPU'
       - kirankumar:fmcad:2012
+  - - papers/sebastiani:cav:2004
+    - - GSTE Is Partitioned Model Checking
+      - sebastiani:cav:2004
   - - papers/segar:fmsd:1995
     - - Formal verification by symbolic evaluation of partially-ordered trajectories
       - segar:fmsd:1995
@@ -8632,6 +8699,10 @@ papers:
     - - 'Safe to the last instruction: automated verification of a type-safe operating
         system'
       - yang:pldi:2010
+  notes/uclid5:
+  - - papers/polgreen:cav:2022
+    - - "UCLID5: Multi-modal Formal Modeling, Verification, and\_Synthesis"
+      - polgreen:cav:2022
   notes/undefined-behaviour:
   - - papers/jung:popl:2017
     - - 'RustBelt: Securing the foundations of the Rust programming language'
@@ -9260,6 +9331,7 @@ papers:
   papers/bauereiss:ucam:2021: []
   papers/baumann:eucnc:2016: []
   papers/baumann:hotos:2017: []
+  papers/becker:ches:2013: []
   papers/becker:fm:2016:
   - - papers/claessen:icfp:2000
     - - 'QuickCheck: A lightweight tool for random testing of Haskell programs'
@@ -9325,6 +9397,7 @@ papers:
     - - 'The software model checker BLAST: Applications to software engineering'
       - beyer:ijsttt:2007
   papers/bhatt:sefm:2003: []
+  papers/bidmeshki:iccd:2019: []
   papers/biere:tacas:1999: []
   papers/binder:cacm:1994: []
   papers/bird:sc:1993: []
@@ -9383,6 +9456,7 @@ papers:
     - - SMT proof checking using a logical framework
       - stump:fmsd:2013
   papers/bryant:cmu:2018: []
+  papers/buhan:ccs:2022: []
   papers/burch:cav:1994: []
   papers/burke:lacl:2005: []
   papers/burton:toplas:1990: []
@@ -9999,7 +10073,10 @@ papers:
     - - Scalable error detection using boolean satisfiability
       - xie:popl:2005
   papers/kiczales:iwoos:1991: []
-  papers/kim:isca:2014: []
+  papers/kim:isca:2014:
+  - - papers/razavi:usenix:2016
+    - - 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+      - razavi:usenix:2016
   papers/kirankumar:fmcad:2012: []
   papers/kjolstad:oopsla:2017: []
   papers/klabnik:book:2018: []
@@ -10303,6 +10380,7 @@ papers:
   - - papers/yun:usenix:2018
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
+  papers/polgreen:cav:2022: []
   papers/potvin:cacm:2016:
   - - papers/sadowski:cacm:2018
     - - Lessons from building static analysis tools at Google
@@ -10376,6 +10454,7 @@ papers:
   - - papers/mcmillan:sigcomm:2019
     - - Formal specification and testing of QUIC
       - mcmillan:sigcomm:2019
+  papers/razavi:usenix:2016: []
   papers/recoules:ase:2019: []
   papers/regehr:acp4is:2003: []
   papers/regehr:asplos:2004: []
@@ -10540,11 +10619,15 @@ papers:
     - - Local reasoning about while-loops
       - tuerk:vstte:2010
   papers/seal:book:2000: []
+  papers/sebastiani:cav:2004: []
   papers/segar:fmsd:1995:
   - - papers/kirankumar:fmcad:2012
     - - 'Symbolic trajectory evaluation: The primary validation vehicle for next generation
         Intel processor graphics FPU'
       - kirankumar:fmcad:2012
+  - - papers/sebastiani:cav:2004
+    - - GSTE Is Partitioned Model Checking
+      - sebastiani:cav:2004
   papers/sen:fse:2005: []
   papers/seshadri:sosp:2007:
   - - papers/franklin:cmu:2008
@@ -10790,6 +10873,10 @@ papers:
   - - papers/ramos:cav:2011
     - - Practical, low-effort equivalence verification of real code
       - ramos:cav:2011
+  papers/yang:sandp:2016:
+  - - papers/bidmeshki:iccd:2019
+    - - Revisiting Capacitor-Based Trojan Design
+      - bidmeshki:iccd:2019
   papers/yanovski:unknown:2021: []
   papers/yun:usenix:2018:
   - - papers/poeplau:usenix:2020

@@ -26,9 +26,10 @@ layout: paper
 month: June
 number: ''
 pages: 347-360
-read: false
-readings: []
-title: 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data'
+read: true
+readings:
+- 2022-08-20
+title: 'Opening Pandora''s box: A systematic study of new ways microarchitecture can leak private data'
 volume: ''
 year: 2021
 notes:
@@ -40,4 +41,22 @@ notes:
 - uspec
 papers:
 ---
+
+Looks at more recent microarchitectural optimizations to see whether any are as bad as
+speculative execution. Spoiler alert: yes.
+
+The optimizations they look at are
+
+- computation simplification
+- pipeline compression
+- silent stores
+- computation reuse
+- value prediction
+- register-file compression
+- data memory-dependent prefetches
+
+Implementing some of these in gem5 lets them show that these can leak data at
+a high rate.
+
+
 {% include links.html %}

@@ -24,6 +24,8 @@ readings: []
 title: GSTE Is Partitioned Model Checking
 year: 2004
 notes:
+- symbolic trajectory evaluation
 papers:
+- segar:fmsd:1995
 ---
 {% include links.html %}

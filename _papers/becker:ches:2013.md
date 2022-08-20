@@ -22,6 +22,8 @@ readings: []
 title: Stealthy Dopant-Level Hardware Trojans
 year: 2013
 notes:
+- security
+- hardware
 papers:
 ---
 {% include links.html %}

@@ -195,6 +195,9 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: Todd Austin
+  papers:
+  - papers/yang:sandp:2016
 - name: Thanassis Avgerinos
   papers:
   - papers/avgerinos:cacm:2014
@@ -353,6 +356,9 @@
 - name: Sarah Bates
   papers:
   - papers/jouppi:isca:2017
+- name: Lejla Batina
+  papers:
+  - papers/buhan:ccs:2022
 - name: Christopher Batten
   papers:
   - papers/lockhart:ispass:2015
@@ -391,6 +397,9 @@
 - name: Wim Beck
   papers:
   - papers/milushev:forte:2012
+- name: Georg T. Becker
+  papers:
+  - papers/becker:ches:2013
 - name: Hanno Becker
   papers:
   - papers/becker:fm:2016
@@ -480,6 +489,9 @@
 - name: Abhishek Bhattacharjee
   papers:
   - papers/lustig:asplos:2016
+- name: Mohammad Mahdi Bidmeshki
+  papers:
+  - papers/bidmeshki:iccd:2019
 - name: Armin Biere
   papers:
   - papers/biere:tacas:1999
@@ -602,6 +614,10 @@
   papers:
   - papers/altinay:eurosys:2020
   - papers/andriesse:usenix:2016
+  - papers/razavi:usenix:2016
+- name: Erik Bosman
+  papers:
+  - papers/razavi:usenix:2016
 - name: Bernard Botella
   papers:
   - papers/cuoq:sefm:2012
@@ -703,6 +719,9 @@
   papers:
   - papers/babic:fse:2019
   - papers/kuznetsov:pldi:2012
+- name: Ileana Buhan
+  papers:
+  - papers/buhan:ccs:2022
 - name: David Bull
   papers:
   - papers/hadjilambrou:ispass:2019
@@ -715,6 +734,9 @@
 - name: David A. Burke
   papers:
   - papers/burke:lacl:2005
+- name: Wayne P. Burleson
+  papers:
+  - papers/becker:ches:2013
 - name: Mike Burrows
   papers:
   - papers/chang:tocs:2012
@@ -912,6 +934,9 @@
 - name: Shaunak Chatterjee
   papers:
   - papers/chatterjee:tacas:2007
+- name: Kevin Cheang
+  papers:
+  - papers/polgreen:cav:2022
 - name: Zhifeng Chen
   papers:
   - papers/abadi:arxiv:2016
@@ -1424,6 +1449,9 @@
   papers:
   - papers/liew:fse:2019
   - papers/maciver:ecoop:2020
+- name: Qing Dong
+  papers:
+  - papers/yang:sandp:2016
 - name: Floris Van Doorn
   papers:
   - papers/demoura:cade:2015
@@ -1868,6 +1896,9 @@
   papers:
   - papers/boettcher:date:2014
   - papers/stephens:micro:2017
+- name: Pranav Gaddamadugu
+  papers:
+  - papers/polgreen:cav:2022
 - name: Mikhail R. Gadelha
   papers:
   - papers/monteiro:arxiv:2019
@@ -1998,12 +2029,16 @@
 - name: Cristiano Giuffrida
   papers:
   - papers/altinay:eurosys:2020
+  - papers/razavi:usenix:2016
 - name: Klaus v. Gleissenthall
   papers:
   - papers/gleissenthall:ccs:2021
 - name: Neal Glew
   papers:
   - papers/morrisett:wcsss:1999
+- name: Adwait Godbole
+  papers:
+  - papers/polgreen:cav:2022
 - name: Sangharatna Godboley
   papers:
   - papers/jaffar:arxiv:2020
@@ -2077,6 +2112,9 @@
 - name: Rama Govindaraju
   papers:
   - papers/hochschild:hotos:2021
+- name: Ben Gras
+  papers:
+  - papers/razavi:usenix:2016
 - name: Kathryn E. Gray
   papers:
   - papers/armstrong:arw:2018
@@ -2389,6 +2427,9 @@
 - name: Michael Hicks
   papers:
   - papers/grossman:pldi:2002
+- name: Matthew Hicks
+  papers:
+  - papers/yang:sandp:2016
 - name: J. Thomas Higgins
   papers:
   - papers/higgins:hldvt:2004
@@ -3213,6 +3254,7 @@
 - name: Kevin Laeufer
   papers:
   - papers/dutra:icse:2018
+  - papers/polgreen:cav:2022
 - name: Shuvendu K. Lahiri
   papers:
   - papers/chatterjee:tacas:2007
@@ -3470,6 +3512,9 @@
   - papers/lin:sips:2006
   - papers/reid:cases:2008
   - papers/woh:micro:2008
+- name: Shaokai Lin
+  papers:
+  - papers/polgreen:cav:2022
 - name: Zhiqiang Lin
   papers:
   - papers/zhang:apsec:2018
@@ -3668,6 +3713,9 @@
   - papers/henzinger:spin:2003
   - papers/jhala:compsurv:2009
   - papers/majumdar:icse:2007
+- name: Yiorgos Makris
+  papers:
+  - papers/bidmeshki:iccd:2019
 - name: Pasquale Malacaria
   papers:
   - papers/clark:entcs:2002
@@ -3682,6 +3730,7 @@
 - name: Yatin A. Manerkar
   papers:
   - papers/manerkar:micro:2017
+  - papers/polgreen:cav:2022
 - name: Yatin Manerkar
   papers:
   - papers/zhang:fmcad:2018
@@ -3984,6 +4033,9 @@
   - papers/watson:sandp:2015
   - papers/woodruff:isca:2014
   - papers/woodruff:tocs:2019
+- name: Federico Mora
+  papers:
+  - papers/polgreen:cav:2022
 - name: "Jos\xE9 F. Morales"
   papers:
   - papers/guarnieri:sandp:2020
@@ -4437,6 +4489,9 @@
   - papers/sarkar:popl:2009
   - papers/sewell:cacm:2010
   - papers/tan:icfp:2016
+- name: Christof Paar
+  papers:
+  - papers/becker:ches:2013
 - name: Anne Pacalet
   papers:
   - papers/cuoq:sefm:2012
@@ -4680,6 +4735,9 @@
   papers:
   - papers/poeplau:acsac:2019
   - papers/poeplau:usenix:2020
+- name: Elizabeth Polgreen
+  papers:
+  - papers/polgreen:cav:2022
 - name: Federico Poli
   papers:
   - papers/astrauskas:oopsla:2019
@@ -4729,6 +4787,9 @@
 - name: Nathanael Premillieu
   papers:
   - papers/stephens:micro:2017
+- name: Bart Preneel
+  papers:
+  - papers/razavi:usenix:2016
 - name: Thomas Prescher
   papers:
   - papers/kocher:arxiv:2018
@@ -4869,6 +4930,9 @@
 - name: Alex Ray
   papers:
   - papers/chen:arxiv:2021
+- name: Kaveh Razavi
+  papers:
+  - papers/razavi:usenix:2016
 - name: Alexandre Rebert
   papers:
   - papers/avgerinos:cacm:2014
@@ -4889,6 +4953,9 @@
 - name: Erik Reeber
   papers:
   - papers/kaivola:cav:2009
+- name: Francesco Regazzoni
+  papers:
+  - papers/becker:ches:2013
 - name: John Regehr
   papers:
   - papers/eide:icse:2002
@@ -5197,6 +5264,9 @@
   papers:
   - papers/holzer:cav:2008
   - papers/holzer:hvc:2010
+- name: Patrick Schaumont
+  papers:
+  - papers/buhan:ccs:2022
 - name: Daniel Schemmel
   papers:
   - papers/rath:epiq:2018
@@ -5261,6 +5331,9 @@
 - name: David Seal
   papers:
   - papers/seal:book:2000
+- name: Roberto Sebastiani
+  papers:
+  - papers/sebastiani:cav:2004
 - name: Sean Seefried
   papers:
   - papers/murray:secpriv:2013
@@ -5296,6 +5369,9 @@
   papers:
   - papers/franklin:cmu:2008
   - papers/seshadri:sosp:2007
+- name: Sanjit A. Seshia
+  papers:
+  - papers/polgreen:cav:2022
 - name: Geet Sethi
   papers:
   - papers/lustig:asplos:2016
@@ -5454,6 +5530,7 @@
 - name: Eli Singerman
   papers:
   - papers/pnueli:tacas:1998
+  - papers/sebastiani:cav:2004
 - name: Satnam Singh
   papers:
   - papers/reid:gfpw:1993
@@ -5663,6 +5740,9 @@
 - name: Jaspal Subhlok
   papers:
   - papers/subhlok:ppopp:1993
+- name: Kiruba Sankaran Subramani
+  papers:
+  - papers/bidmeshki:iccd:2019
 - name: Pramod Subramanyan
   papers:
   - papers/huang:todaes:2019
@@ -5724,6 +5804,9 @@
 - name: Hira Taqdees Syeda
   papers:
   - papers/syeda:itp:2018
+- name: Dennis Sylvester
+  papers:
+  - papers/yang:sandp:2016
 - name: Jakub Szefer
   papers:
   - papers/deng:hasp:2019
@@ -5893,6 +5976,9 @@
 - name: Rijnard van Tonder
   papers:
   - papers/vantonder:icse:2018
+- name: Stefano Tonetta
+  papers:
+  - papers/sebastiani:cav:2004
 - name: Nigel P. Topham
   papers:
   - papers/bird:sc:1993
@@ -6007,6 +6093,9 @@
 - name: Vincent Vanhoucke
   papers:
   - papers/abadi:arxiv:2016
+- name: Moshe Y. Vardi
+  papers:
+  - papers/sebastiani:cav:2004
 - name: Vijay Vasudevan
   papers:
   - papers/abadi:arxiv:2016
@@ -6457,6 +6546,9 @@
 - name: Jean Yang
   papers:
   - papers/yang:pldi:2010
+- name: Kaiyuan Yang
+  papers:
+  - papers/yang:sandp:2016
 - name: Joshua Yanovski
   papers:
   - papers/yanovski:unknown:2021
@@ -6465,6 +6557,7 @@
   - papers/tao:sosp:2021
 - name: Yuval Yarom
   papers:
+  - papers/buhan:ccs:2022
   - papers/ge:jce:2016
   - papers/kocher:arxiv:2018
   - papers/lipp:arxiv:2018

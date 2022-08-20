@@ -29,5 +29,6 @@ year: 2014
 notes:
 - microarchitecture
 - side channel
+- rowhammer
 ---
 {% include links.html %}
