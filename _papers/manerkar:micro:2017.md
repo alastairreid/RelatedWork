@@ -29,7 +29,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: MICRO-50 '17
-title: 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+title: 'RTLcheck: Verifying the memory consistency of RTL designs'
 url: https://doi.org/10.1145/3123939.3124536
 year: 2017
 notes:

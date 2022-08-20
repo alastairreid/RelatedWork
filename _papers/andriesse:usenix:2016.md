@@ -17,7 +17,7 @@ pages: 583-600
 publisher: USENIX Association
 read: false
 readings: []
-title: An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries
+title: An in-depth analysis of disassembly on full-scale x86/x64 binaries
 url: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/andriesse
 year: 2016
 notes:

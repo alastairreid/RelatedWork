@@ -19,7 +19,7 @@ pages: 197-214
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: Stealthy Dopant-Level Hardware Trojans
+title: Stealthy dopant-level hardware Trojans
 year: 2013
 notes:
 - security

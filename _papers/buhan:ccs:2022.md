@@ -30,7 +30,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: ASIA CCS '22
-title: 'SoK: Design Tools for Side-Channel-Aware Implementations'
+title: 'SoK: Design tools for side-channel-aware implementations'
 url: https://doi.org/10.1145/3488932.3517415
 year: 2022
 notes:

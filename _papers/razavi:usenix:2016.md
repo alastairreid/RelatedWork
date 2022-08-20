@@ -18,7 +18,7 @@ pages: 1-18
 publisher: USENIX Association
 read: false
 readings: []
-title: 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+title: 'Flip Feng Shui: Hammering a needle in the software stack'
 url: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/razavi
 year: 2016
 notes:

@@ -9,13 +9,13 @@ authors:
 - Omer Tabach
 - Mark Charney
 - Kim Hazelwood
-booktitle: 3rd Workshop on Infrastructures for Software/Hardware Co-Design
+bookTitle: 3rd Workshop on Infrastructures for Software/Hardware Co-Design
 layout: paper
 month: April
 read: false
 readings: []
 series: WISH-3
-title: 'Zsim: A Fast Architectural Simulator for ISA Design-Space Exploration'
+title: 'Zsim: A fast architectural simulator for ISA design-space exploration'
 year: 2011
 notes:
 - Intel

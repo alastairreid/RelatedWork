@@ -28,7 +28,7 @@ number: ''
 pages: 18-37
 read: false
 readings: []
-title: 'A2: Analog Malicious Hardware'
+title: 'A2: Analog malicious hardware'
 volume: ''
 year: 2016
 notes:

@@ -27,7 +27,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: ISCA '22
-title: Axiomatic Hardware-Software Contracts for Security
+title: Axiomatic hardware-software contracts for security
 url: https://doi.org/10.1145/3470496.3527412
 year: 2022
 notes:

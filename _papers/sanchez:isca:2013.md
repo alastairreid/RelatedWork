@@ -29,7 +29,7 @@ publisher: Association for Computing Machinery
 read: false
 readings: []
 series: ISCA '13
-title: 'ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems'
+title: 'ZSim: Fast and accurate microarchitectural simulation of thousand-core systems'
 url: https://doi.org/10.1145/2485922.2485963
 year: 2013
 notes:

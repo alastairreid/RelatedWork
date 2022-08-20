@@ -26,7 +26,7 @@ pages: 538-551
 publisher: Springer International Publishing
 read: false
 readings: []
-title: 'UCLID5: Multi-modal Formal Modeling, Verification, and Synthesis'
+title: 'UCLID5: Multi-modal formal modeling, verification, and synthesis'
 year: 2022
 notes:
 - uclid5

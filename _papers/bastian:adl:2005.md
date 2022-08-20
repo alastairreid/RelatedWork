@@ -19,7 +19,7 @@ pages: 151-166
 publisher: Springer US
 read: false
 readings: []
-title: Specification of Intel IA-32 Using an Architecture Description Language
+title: Specification of Intel IA-32 using an architecture description language
 year: 2005
 notes:
 - Intel

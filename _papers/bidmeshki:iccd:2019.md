@@ -23,7 +23,7 @@ number: ''
 pages: 309-312
 read: false
 readings: []
-title: Revisiting Capacitor-Based Trojan Design
+title: Revisiting capacitor-based Trojan design
 volume: ''
 year: 2019
 notes:

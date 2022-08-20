@@ -21,7 +21,7 @@ pages: 229-241
 publisher: Springer Berlin Heidelberg
 read: false
 readings: []
-title: GSTE Is Partitioned Model Checking
+title: GSTE is partitioned model checking
 year: 2004
 notes:
 - symbolic trajectory evaluation

@@ -21,7 +21,7 @@ primaryclass: cs.DC
 read: true
 readings:
 - 2021-07-05
-title: 'PAC: Practical Accountability for CCF'
+title: 'PAC: Practical accountability for CCF'
 year: 2021
 notes:
 papers:
