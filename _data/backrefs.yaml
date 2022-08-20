@@ -968,6 +968,9 @@ notes:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
       - null
+  - - notes/language-based-security
+    - - Language based security
+      - null
   - - notes/risc-architecture
     - - RISC architecture
       - null
@@ -1442,6 +1445,9 @@ notes:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
       - null
+  - - notes/language-based-security
+    - - Language based security
+      - null
   - - notes/side-channel
     - - Side Channel
       - null
@@ -1491,6 +1497,9 @@ notes:
   notes/side-channel:
   - - notes/differential-power-analysis
     - - Differential Power Analysis
+      - null
+  - - notes/language-based-security
+    - - Language based security
       - null
   - - notes/security
     - - Security
@@ -1565,6 +1574,9 @@ notes:
     - - Boogie verifier
       - null
   notes/speculative-execution:
+  - - notes/language-based-security
+    - - Language based security
+      - null
   - - notes/parallelism
     - - Parallelism
       - null
@@ -1865,6 +1877,7 @@ notes:
     - - Property-based testing
       - null
   notes/usability: []
+  notes/uspec: []
   notes/valgrind:
   - - notes/angr-verifier
     - - angr verifier
@@ -1963,6 +1976,9 @@ notes:
       - null
   - - notes/tso
     - - Total store order (TSO)
+      - null
+  - - notes/uspec
+    - - uSpec
       - null
   notes/weakest-precondition: []
   notes/why3-verifier: []
@@ -2708,7 +2724,10 @@ notes:
     - - Verification performance of code
       - null
   papers/hritcu:icfp:2013: []
-  papers/hsiao:micro:2021: []
+  papers/hsiao:micro:2021:
+  - - notes/uspec
+    - - uSpec
+      - null
   papers/hsieh:usenix:2001: []
   papers/huang:todaes:2019: []
   papers/hunt:jar:1989: []
@@ -2926,6 +2945,7 @@ notes:
   - - notes/sat-solver
     - - SAT solver
       - null
+  papers/manerkar:micro:2017: []
   papers/manes:ieeetse:2019:
   - - notes/fuzz-testing
     - - Fuzz testing
@@ -4403,6 +4423,10 @@ papers:
     - - Simplifying design and verification for structural hazards and datapaths in
         pipelined circuits
       - higgins:hldvt:2004
+  - - papers/hsiao:micro:2021
+    - - Synthesizing formal models of hardware from RTL for efficient verification
+        of memory model implementations
+      - hsiao:micro:2021
   - - papers/huang:todaes:2019
     - - 'Instruction-level abstraction (ILA): A uniform specification for system-on-chip
         (SoC) verification'
@@ -4446,6 +4470,9 @@ papers:
   - - papers/lustig:asplos:2016
     - - 'COATCheck: Verifying memory ordering at the hardware-OS interface'
       - lustig:asplos:2016
+  - - papers/manerkar:micro:2017
+    - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+      - manerkar:micro:2017
   - - papers/mcmillan:cav:1998
     - - Verification of an implementation of Tomasulo's algorithm by compositional
         model checking
@@ -8658,6 +8685,14 @@ papers:
   - - papers/sadowski:icse:2015
     - - 'Tricorder: Building a program analysis ecosystem'
       - sadowski:icse:2015
+  notes/uspec:
+  - - papers/hsiao:micro:2021
+    - - Synthesizing formal models of hardware from RTL for efficient verification
+        of memory model implementations
+      - hsiao:micro:2021
+  - - papers/manerkar:micro:2017
+    - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+      - manerkar:micro:2017
   notes/valgrind: []
   notes/valgrind-tool:
   - - papers/nethercote:pldi:2007
@@ -8872,12 +8907,19 @@ papers:
   - - papers/chong:asplos:2008
     - - Reasoning about the ARM weakly consistent memory model
       - chong:asplos:2008
+  - - papers/hsiao:micro:2021
+    - - Synthesizing formal models of hardware from RTL for efficient verification
+        of memory model implementations
+      - hsiao:micro:2021
   - - papers/li:tocs:1989
     - - Memory coherence in shared virtual memory systems
       - li:tocs:1989
   - - papers/lustig:asplos:2016
     - - 'COATCheck: Verifying memory ordering at the hardware-OS interface'
       - lustig:asplos:2016
+  - - papers/manerkar:micro:2017
+    - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+      - manerkar:micro:2017
   - - papers/pulte:popl:2017
     - - 'Simplifying ARM concurrency: Multicopy-atomic axiomatic and operational models
         for ARMv8'
@@ -9779,7 +9821,10 @@ papers:
     - - Swarm testing
       - groce:issta:2012
   papers/hritcu:icfp:2013: []
-  papers/hsiao:micro:2021: []
+  papers/hsiao:micro:2021:
+  - - papers/manerkar:micro:2017
+    - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+      - manerkar:micro:2017
   papers/hsieh:usenix:2001:
   - - papers/collberg:pldi:1997
     - - Reverse interpretation + mutation analysis = automatic retargeting
@@ -10047,6 +10092,11 @@ papers:
   - - papers/demoura:cacm:2011
     - - 'Satisfiability modulo theories: Introduction and applications'
       - demoura:cacm:2011
+  papers/manerkar:micro:2017:
+  - - papers/hsiao:micro:2021
+    - - Synthesizing formal models of hardware from RTL for efficient verification
+        of memory model implementations
+      - hsiao:micro:2021
   papers/manes:ieeetse:2019: []
   papers/mangano:crisis:2016: []
   papers/mansur:arxiv:2020:

@@ -3587,6 +3587,7 @@
 - name: Daniel Lustig
   papers:
   - papers/lustig:asplos:2016
+  - papers/manerkar:micro:2017
 - name: Michael Lyu
   papers:
   - papers/xu:arxiv:2021
@@ -3671,6 +3672,9 @@
 - name: Dan Mane
   papers:
   - papers/abadi:arxiv:2016
+- name: Yatin A. Manerkar
+  papers:
+  - papers/manerkar:micro:2017
 - name: Yatin Manerkar
   papers:
   - papers/zhang:fmcad:2018
@@ -3741,6 +3745,7 @@
 - name: Margaret Martonosi
   papers:
   - papers/lustig:asplos:2016
+  - papers/manerkar:micro:2017
   - papers/zhang:fmcad:2018
 - name: Chris Mason
   papers:
@@ -4551,6 +4556,7 @@
 - name: Michael Pellauer
   papers:
   - papers/hedge:micro:2019
+  - papers/manerkar:micro:2017
 - name: Sneha Pendharkar
   papers:
   - papers/dixit:arxiv:2021
