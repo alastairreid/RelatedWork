@@ -5,6 +5,8 @@ website: https://oaklandsok.github.io/
 notes:
 papers:
 - shoshitaishvili:sp:2016
+- szekeres:sandp:2013
+- cauligi:sandp:2022
 ---
 
 Security and cryptography conferences accept papers that

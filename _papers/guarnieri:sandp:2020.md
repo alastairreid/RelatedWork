@@ -27,12 +27,14 @@ year: 2020
 notes:
 - hardware
 - non-interference
+- language based security
 - side-channel
 - speculative execution
 - symbolic execution
 - concolic execution
 - SMT solver
 papers:
+- cauligi:sandp:2022
 ---
 
 Proposes 'speculative [non-interference]' (SNI) as a semantic notion of security

@@ -333,6 +333,7 @@
   - papers/barthe:csfw:2004
   - papers/barthe:iacr:2007
   - papers/barthe:mscs:2011
+  - papers/cauligi:sandp:2022
 - name: Dave Barton
   papers:
   - papers/jones:hasklang:1999
@@ -839,6 +840,9 @@
   papers:
   - papers/cattell:phd:1978
   - papers/cattell:toplas:1980
+- name: Sunjay Cauligi
+  papers:
+  - papers/cauligi:sandp:2022
 - name: "C\u0103lin Ca\u015Fcaval"
   papers:
   - papers/liu:sigcomm:2018
@@ -1394,6 +1398,9 @@
 - name: Thomas Dinsdale-Young
   papers:
   - papers/dinsdale-young:popl:2013
+- name: Craig Disselkoen
+  papers:
+  - papers/cauligi:sandp:2022
 - name: Dino Distefano
   papers:
   - papers/berdine:cav:2007
@@ -3926,6 +3933,9 @@
 - name: Jack Moffitt
   papers:
   - papers/anderson:icse:2016
+- name: Daniel Moghimi
+  papers:
+  - papers/cauligi:sandp:2022
 - name: Jeffrey C. Mogul
   papers:
   - papers/hochschild:hotos:2021
@@ -5571,6 +5581,7 @@
 - name: Deian Stefan
   papers:
   - papers/brown:sec:2020
+  - papers/cauligi:sandp:2022
   - papers/gleissenthall:ccs:2021
 - name: Dan Steinberg
   papers:

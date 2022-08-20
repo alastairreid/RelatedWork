@@ -645,6 +645,9 @@ notes:
     - - Permission logic
       - null
   notes/information-flow:
+  - - notes/language-based-security
+    - - Language based security
+      - null
   - - notes/non-interference
     - - Non-interference
       - null
@@ -849,6 +852,7 @@ notes:
   - - notes/isa-specification
     - - ISA specification
       - null
+  notes/language-based-security: []
   notes/lazy-initialization: []
   notes/lean-theorem-prover:
   - - notes/dependent-type
@@ -1109,6 +1113,9 @@ notes:
   notes/non-interference:
   - - notes/hyperproperty
     - - Hyperproperty
+      - null
+  - - notes/language-based-security
+    - - Language based security
       - null
   notes/nova-hypervisor: []
   notes/omega-library: []
@@ -2310,6 +2317,13 @@ notes:
   papers/campbell:fmics:2014: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
+  papers/cauligi:sandp:2022:
+  - - notes/language-based-security
+    - - Language based security
+      - null
+  - - notes/systematization-of-knowledge
+    - - Systematization of Knowledge (SoK)
+      - null
   papers/cha:sandp:2012:
   - - notes/mayhem
     - - Mayhem
@@ -2625,7 +2639,10 @@ notes:
     - - Annotation burden
       - null
   papers/guanciale:ccs:2020: []
-  papers/guarnieri:sandp:2020: []
+  papers/guarnieri:sandp:2020:
+  - - notes/language-based-security
+    - - Language based security
+      - null
   papers/gurfinkel:cav:2015:
   - - notes/seahorn-verifier
     - - SeaHorn verifier
@@ -3330,6 +3347,9 @@ notes:
   - - notes/memory-safety
     - - Memory safety
       - null
+  - - notes/systematization-of-knowledge
+    - - Systematization of Knowledge (SoK)
+      - null
   papers/tahat:fmcad:2019: []
   papers/tan:icfp:2016: []
   papers/tang:sec:2017: []
@@ -3589,7 +3609,7 @@ papers:
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
   - - papers/shoshitaishvili:sp:2016
-    - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
+    - - 'SoK: (state of) the art of war: Offensive techniques in binary analysis'
       - shoshitaishvili:sp:2016
   notes/annotation-burden:
   - - papers/leino:informatics:2001
@@ -3867,7 +3887,7 @@ papers:
         systems'
       - regehr:asplos:2004
   - - papers/shoshitaishvili:sp:2016
-    - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
+    - - 'SoK: (state of) the art of war: Offensive techniques in binary analysis'
       - shoshitaishvili:sp:2016
   - - papers/song:iciss:2008
     - - 'BitBlaze: A new approach to computer security via binary analysis'
@@ -5244,6 +5264,9 @@ papers:
   - - papers/barthe:mscs:2011
     - - Secure information flow by self-composition
       - barthe:mscs:2011
+  - - papers/cauligi:sandp:2022
+    - - 'SoK: Practical foundations for software Spectre defenses'
+      - cauligi:sandp:2022
   - - papers/clark:entcs:2002
     - - Quantitative analysis of the leakage of confidential data
       - clark:entcs:2002
@@ -6167,6 +6190,13 @@ papers:
   - - papers/fox:itp:2012
     - - Directions in ISA specification
       - fox:itp:2012
+  notes/language-based-security:
+  - - papers/cauligi:sandp:2022
+    - - 'SoK: Practical foundations for software Spectre defenses'
+      - cauligi:sandp:2022
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   notes/lazy-initialization:
   - - papers/brown:sec:2020
     - - 'Sys: A static/symbolic tool for finding good bugs in good (browser) code'
@@ -7869,9 +7899,19 @@ papers:
     - - Reasoning about comprehensions with first-order SMT solvers
       - leino:sac:2009
   notes/speculative-execution:
+  - - papers/cauligi:sandp:2022
+    - - 'SoK: Practical foundations for software Spectre defenses'
+      - cauligi:sandp:2022
+  - - papers/guanciale:ccs:2020
+    - - 'InSpectre: Breaking and fixing microarchitectural vulnerabilities by formal
+        analysis'
+      - guanciale:ccs:2020
   - - papers/guarnieri:sandp:2020
     - - 'Spectector: Principled detection of speculative information flows'
       - guarnieri:sandp:2020
+  - - papers/kocher:arxiv:2018
+    - - 'Spectre attacks: Exploiting speculative execution'
+      - kocher:arxiv:2018
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
@@ -8300,7 +8340,10 @@ papers:
   - - papers/poeplau:usenix:2020
     - - 'Symbolic execution with SymCC: Don''t interpret, compile!'
       - poeplau:usenix:2020
-  notes/systematization-of-knowledge: []
+  notes/systematization-of-knowledge:
+  - - papers/cauligi:sandp:2022
+    - - 'SoK: Practical foundations for software Spectre defenses'
+      - cauligi:sandp:2022
   notes/tcg-ir:
   - - papers/difederico:cc:2017
     - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
@@ -9300,6 +9343,10 @@ papers:
   papers/campbell:fmics:2014: []
   papers/cattell:phd:1978: []
   papers/cattell:toplas:1980: []
+  papers/cauligi:sandp:2022:
+  - - papers/guarnieri:sandp:2020
+    - - 'Spectector: Principled detection of speculative information flows'
+      - guarnieri:sandp:2020
   papers/cha:sandp:2012:
   - - papers/coppa:ase:2017
     - - Rethinking pointer reasoning in symbolic execution
@@ -9385,7 +9432,7 @@ papers:
     - - A segmented memory model for symbolic execution
       - kapus:fse:2019
   - - papers/shoshitaishvili:sp:2016
-    - - 'SOK: (state of) the art of war: Offensive techniques in binary analysis'
+    - - 'SoK: (state of) the art of war: Offensive techniques in binary analysis'
       - shoshitaishvili:sp:2016
   papers/coquand:eurocal:1985: []
   papers/corbett:tocs:2013:
@@ -9647,7 +9694,10 @@ papers:
     - - A secure and formally verified Linux KVM hypervisor
       - li:sandp:2021
   papers/guanciale:ccs:2020: []
-  papers/guarnieri:sandp:2020: []
+  papers/guarnieri:sandp:2020:
+  - - papers/cauligi:sandp:2022
+    - - 'SoK: Practical foundations for software Spectre defenses'
+      - cauligi:sandp:2022
   papers/gurfinkel:cav:2015:
   - - papers/matsushita:esop:2020
     - - 'RustHorn: CHC-based verification for Rust programs'

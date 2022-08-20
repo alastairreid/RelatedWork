@@ -28,6 +28,15 @@
   year = {2000}
 }
 
+@misc{abadi:arxiv:2016,
+  archiveprefix = {arXiv},
+  author = {Martín Abadi and Ashish Agarwal and Paul Barham and Eugene Brevdo and Zhifeng Chen and Craig Citro and Greg S. Corrado and Andy Davis and Jeffrey Dean and Matthieu Devin and Sanjay Ghemawat and Ian Goodfellow and Andrew Harp and Geoffrey Irving and Michael Isard and Yangqing Jia and Rafal Jozefowicz and Lukasz Kaiser and Manjunath Kudlur and Josh Levenberg and Dan Mane and Rajat Monga and Sherry Moore and Derek Murray and Chris Olah and Mike Schuster and Jonathon Shlens and Benoit Steiner and Ilya Sutskever and Kunal Talwar and Paul Tucker and Vincent Vanhoucke and Vijay Vasudevan and Fernanda Viegas and Oriol Vinyals and Pete Warden and Martin Wattenberg and Martin Wicke and Yuan Yu and Xiaoqiang Zheng},
+  eprint = {1603.04467},
+  primaryclass = {cs.DC},
+  title = {{TensorFlow: Large-scale machine learning on heterogeneous distributed systems}},
+  year = {2016}
+}
+
 @article{abadi:tcs:1991,
   author = {Martín Abadi and Leslie Lamport},
   doi = {10.1016/0304-3975(91)90224-P},
@@ -148,6 +157,37 @@
   year = {2018}
 }
 
+@inproceedings{altinay:eurosys:2020,
+  abstract = {Binary lifting and recompilation allow a wide range of install-time program transformations, such as security hardening, deobfuscation, and reoptimization. Existing binary lifting tools are based on static disassembly and thus have to rely on heuristics to disassemble binaries.In this paper, we present BinRec, a new approach to heuristic-free binary recompilation which lifts dynamic traces of a binary to a compiler-level intermediate representation (IR) and lowers the IR back to a "recovered" binary. This enables BinRec to apply rich program transformations, such as compiler-based optimization passes, on top of the recovered representation. We identify and address a number of challenges in binary lifting, including unique challenges posed by our dynamic approach. In contrast to existing frameworks, our dynamic frontend can accurately disassemble and lift binaries without heuristics, and we can successfully recover obfuscated code and all SPEC INT 2006 benchmarks including C++ applications. We evaluate BinRec in three application domains: i) binary reoptimization, ii) deobfuscation (by recovering partial program semantics from virtualization-obfuscated code), and iii) binary hardening (by applying existing compiler-level passes such as AddressSanitizer and SafeStack on binary code).},
+  address = {New York, NY, USA},
+  articleno = {36},
+  author = {Anil Altinay and Joseph Nash and Taddeus Kroes and Prabhu Rajasekaran and Dixin Zhou and Adrian Dabrowski and David Gens and Yeoul Na and Stijn Volckaert and Cristiano Giuffrida and Herbert Bos and Michael Franz},
+  booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems},
+  doi = {10.1145/3342195.3387550},
+  isbn = {9781450368827},
+  link = {https://doi.org/10.1145/3342195.3387550},
+  location = {Heraklion, Greece},
+  numpages = {16},
+  publisher = {Association for Computing Machinery},
+  series = {EuroSys '20},
+  title = {{BinRec: Dynamic binary lifting and recompilation}},
+  url = {https://doi.org/10.1145/3342195.3387550},
+  year = {2020}
+}
+
+@inproceedings{amadio:fpara:2014,
+  abstract = {We provide an overview of the FET-Open Project CerCo (`Certified Complexity'). Our main achievement is the development of a technique for analysing non-functional properties of programs (time, space) at the source level with little or no loss of accuracy and a small trusted code base. The core component is a C compiler, verified in Matita, that produces an instrumented copy of the source code in addition to generating object code. This instrumentation exposes, and tracks precisely, the actual (non-asymptotic) computational cost of the input program at the source level. Untrusted invariant generators and trusted theorem provers may then be used to compute and certify the parametric execution time of the code.},
+  address = {Cham},
+  author = {Roberto M. Amadio and Nicolas Ayache and Francois Bobot and Jaap P. Boender and Brian Campbell and Ilias Garnier and Antoine Madet and James McKinna and Dominic P. Mulligan and Mauro Piccolo and Randy Pollack and Yann Régis-Gianas and Claudio Sacerdoti Coen and Ian Stark and Paolo Tranquilli},
+  booktitle = {Foundational and Practical Aspects of Resource Analysis},
+  editor = {Dal Lago, Ugo and Pe{ñ}a, Ricardo},
+  isbn = {978-3-319-12466-7},
+  pages = {1-18},
+  publisher = {Springer International Publishing},
+  title = {{Certified complexity (CerCo)}},
+  year = {2014}
+}
+
 @inproceedings{amani:asplos:2016,
   address = {New York, NY, USA},
   author = {Sidney Amani and Alex Hixon and Zilin Chen and Christine Rizkallah and Peter Chubb and Liam O'Connor and Joel Beeren and Yutaka Nagashima and Japheth Lim and Thomas Arthur Leck Sewell and Joseph Tuong and Gabriele Keller and Toby Murray and Gerwin Klein and Gernot Heiser},
@@ -163,6 +203,24 @@
   title = {{Cogent: Verifying high-assurance file system implementations}},
   url = {https://doi.org/10.1145/2872362.2872404},
   year = {2016}
+}
+
+@inproceedings{anand:eurosys:2013,
+  abstract = {This paper presents component techniques essential for converting executables to a high-level intermediate representation (IR) of an existing compiler. The compiler IR is then employed for three distinct applications: binary rewriting using the compiler's binary back-end, vulnerability detection using source-level symbolic execution, and source-code recovery using the compiler's C backend. Our techniques enable complex high-level transformations not possible in existing binary systems, address a major challenge of input-derived memory addresses in symbolic execution and are the first to enable recovery of a fully functional source-code.We present techniques to segment the flat address space in an executable containing undifferentiated blocks of memory. We demonstrate the inadequacy of existing variable identification methods for their promotion to symbols and present our methods for symbol promotion. We also present methods to convert the physically addressed stack in an executable (with a stack pointer) to an abstract stack (without a stack pointer). Our methods do not use symbolic, relocation, or debug information since these are usually absent in deployed executables.We have integrated our techniques with a prototype x86 binary framework called SecondWrite that uses LLVM as IR. The robustness of the framework is demonstrated by handling executables totaling more than a million lines of source-code, produced by two different compilers (gcc and Microsoft Visual Studio compiler), three languages (C, C++, and Fortran), two operating systems (Windows and Linux) and a real world program (Apache server).},
+  address = {New York, NY, USA},
+  author = {Kapil Anand and Matthew Smithson and Khaled Elwazeer and Aparna Kotha and Jim Gruen and Nathan Giles and Rajeev Barua},
+  booktitle = {Proceedings of the 8th ACM European Conference on Computer Systems},
+  doi = {10.1145/2465351.2465380},
+  isbn = {9781450319942},
+  link = {https://doi.org/10.1145/2465351.2465380},
+  location = {Prague, Czech Republic},
+  numpages = {14},
+  pages = {295-308},
+  publisher = {Association for Computing Machinery},
+  series = {EuroSys '13},
+  title = {{A compiler-level intermediate representation based binary analysis and rewriting system}},
+  url = {https://doi.org/10.1145/2465351.2465380},
+  year = {2013}
 }
 
 @article{ananda:osr:1992,
@@ -200,6 +258,20 @@
   series = {ICSE '16},
   title = {{Engineering the Servo web browser engine using Rust}},
   url = {https://doi.org/10.1145/2889160.2889229},
+  year = {2016}
+}
+
+@inproceedings{andriesse:usenix:2016,
+  address = {Austin, TX},
+  author = {Dennis Andriesse and Xi Chen and Victor van der Veen and Asia Slowinska and Herbert Bos},
+  booktitle = {25th USENIX Security Symposium (USENIX Security 16)},
+  isbn = {978-1-931971-32-4},
+  link = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/andriesse},
+  month = {August},
+  pages = {583-600},
+  publisher = {USENIX Association},
+  title = {{An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries}},
+  url = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/andriesse},
   year = {2016}
 }
 
@@ -243,6 +315,19 @@
   month = {April},
   title = {{Detailed models of instruction set architectures: From pseudocode to formal semantics}},
   year = {2018}
+}
+
+@inproceedings{armstrong:cav:2021,
+  abstract = {Architecture specifications such as Armv8-A and RISC-V are the ultimate foundation for software verification and the correctness criteria for hardware verification. They should define the allowed sequential and relaxed-memory concurrency behaviour of programs, but hitherto there has been no integration of full-scale instruction-set architecture (ISA) semantics with axiomatic concurrency models, either in mathematics or in tools. These ISA semantics can be surprisingly large and intricate, e.g. 100k+ lines for Armv8-A.},
+  address = {Cham},
+  author = {Alasdair Armstrong and Brian Campbell and Ben Simner and Christopher Pulte and Peter Sewell},
+  booktitle = {Computer Aided Verification},
+  editor = {Silva, Alexandra and Leino, K. Rustan M.},
+  isbn = {978-3-030-81685-8},
+  pages = {303-316},
+  publisher = {Springer International Publishing},
+  title = {{Isla: Integrating full-scale ISA semantics and axiomatic concurrency models}},
+  year = {2021}
 }
 
 @inproceedings{armstrong:popl19:2019,
@@ -859,6 +944,19 @@
   year = {2011}
 }
 
+@inproceedings{bastian:adl:2005,
+  abstract = {Designing, testing, and producing a new computer processor is a complex and very expensive process. To reduce costly mistakes in hardware, the microarchitecture is usually designed and tested with the aid of a software simulator. The FAST System enables microarchitects to develop architecture simulators rapidly and is less error-prone than using a high level language such as C. In this paper, we describe how the FAST System's Architecture Description Language (ADL) has been extended to facilitate the description of complex instruction sets such as Intel's IA-32 instruction set architecture. In this respect, we demonstrate that the notion of inheritence, a key concept in object oriented programming languages can be extended for selective inheritence to enable the specification of complex instruction set architectures in architecture description languages.},
+  address = {Boston, MA},
+  author = {Jeff Bastian and Soner Onder},
+  booktitle = {Architecture Description Languages},
+  editor = {Dissaux, Pierre and Filali-Amine, Mamoun and Michel, Pierre and Vernadat, Fran{ç}ois},
+  isbn = {978-0-387-24590-4},
+  pages = {151-166},
+  publisher = {Springer US},
+  title = {{Specification of Intel IA-32 Using an Architecture Description Language}},
+  year = {2005}
+}
+
 @article{bastian:oopsla:2019,
   author = {Théophile Bastian and Stephen Kell and Francesco Zappa Nardelli},
   doi = {10.1145/3360572},
@@ -869,6 +967,55 @@
   title = {{Reliable and fast DWARF-based stack unwinding}},
   volume = {3},
   year = {2019}
+}
+
+@article{baudin:cacm:2021,
+  abstract = {A panoramic view of a popular platform for C program analysis and verification.},
+  address = {New York, NY, USA},
+  author = {Patrick Baudin and Fran{ç}ois Bobot and David Bühler and Lo{\"\i}c Correnson and Florent Kirchner and Nikolai Kosmatov and André Maroneze and Valentin Perrelle and Virgile Prevosto and Julien Signoles and Nicky Williams},
+  doi = {10.1145/3470569},
+  issn = {0001-0782},
+  issue_date = {August 2021},
+  journal = {Communications of the ACM},
+  link = {https://doi.org/10.1145/3470569},
+  month = {July},
+  number = {8},
+  numpages = {13},
+  pages = {56-68},
+  publisher = {Association for Computing Machinery},
+  title = {{The dogged pursuit of bug-free C programs: The Frama-C software analysis platform}},
+  url = {https://doi.org/10.1145/3470569},
+  volume = {64},
+  year = {2021}
+}
+
+@techreport{bauereiss:ucam:2021,
+  abstract = {Memory safety bugs continue to be a major source of security vulnerabilities in our critical infrastructure. The CHERI project has proposed extending conventional architectures with hardware-supported capabilities to enable fine-grained memory protection and scalable compartmentalisation, allowing historically memory-unsafe C and C++ to be adapted to deterministically mitigate large classes of vulnerabilities, while requiring only minor changes to existing system software sources. Arm is currently designing and building Morello, a CHERI-enabled prototype architecture, processor, SoC, and board, extending the high-performance Neoverse N1, to enable industrial evaluation of CHERI and pave the way for potential mass-market adoption. However, for such a major new security-oriented architecture feature, it is important to establish high confidence that it does provide the protections it intends to, and that cannot be done with conventional engineering techniques.  In this paper we put the Morello architecture on a solid mathematical footing from the outset. We define the fundamental security property that Morello aims to provide, reachable capability monotonicity, and prove that the architecture definition satisfies it. This proof is mechanised in Isabelle/HOL, and applies to a translation of the official Arm Morello specification into Isabelle. The main challenge is handling the complexity and scale of a production architecture: 62,000 lines of specification, translated to 210,000 lines of Isabelle. We do so by factoring the proof via a narrow abstraction capturing the essential properties of instruction execution in an arbitrary CHERI ISA, expressed above a monadic intra-instruction semantics. We also develop a model-based test generator, which generates instruction-sequence tests that give good specification coverage, used in early testing of the Morello implementation and in Morello QEMU development. We also use Arm's internal test suite to validate our internal model.  This gives us machine-checked mathematical proofs of whole-ISA security properties of a full-scale industry architecture, at design-time. To the best of our knowledge, this is the first demonstration that that is feasible, and it significantly increases confidence in Morello.},
+  author = {Thomas Bauereiss and Brian Campbell and Thomas Sewell and Alasdair Armstrong and Lawrence Esswood and Ian Stark and Graeme Barnes and Robert N. M. Watson and Peter Sewell},
+  doi = {10.48456/tr-959},
+  institution = {University of Cambridge, Computer Laboratory},
+  issn = {1476-2986},
+  link = {https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-959.pdf},
+  month = {September},
+  number = {UCAM-CL-TR-959},
+  title = {{Verified security for the Morello capability-enhanced prototype Arm architecture}},
+  url = {https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-959.pdf},
+  year = {2021}
+}
+
+@inproceedings{baumann:eucnc:2016,
+  abstract = {This paper presents the first results from the ongoing research project HASPOC, developing a high assurance virtualization platform for the ARMv8 CPU architecture. Formal verification at machine code level guarantees information isolation between different guest systems (e.g. OSs) running on the platform. To use the platform in networking scenarios, we allow guest systems to securely communicate with each other via platform-provided communication channels and to take exclusive control of peripherals for communication with the outside world. The isolation is shown to be formally equivalent to that of guests executing on physically separate platforms with dedicated communication channels crossing the air-gap. Common Criteria (CC) assurance methodology is applied by preparing the CC documentation required for an EAL6 evaluation of products using the platform. Besides the hypervisor, a secure boot component is included and verified to ensure system integrity.},
+  author = {Christoph Baumann and Mats Näslund and Christian Gehrmann and Oliver Schwarz and Hans Thorsen},
+  booktitle = {2016 European Conference on Networks and Communications (EuCNC)},
+  doi = {10.1109/EuCNC.2016.7561034},
+  issn = {},
+  keywords = {},
+  month = {June},
+  number = {},
+  pages = {210-214},
+  title = {{A high assurance virtualization platform for ARMv8}},
+  volume = {},
+  year = {2016}
 }
 
 @inproceedings{baumann:hotos:2017,
@@ -1183,6 +1330,21 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2004}
 }
 
+@inproceedings{bhatt:sefm:2003,
+  abstract = {The architectural reference model, a critical tool in microprocessor validation, serves as a gold standard against which a microprocessor is compared. As all validation is performed using it, the reference model must be timely, extensible beyond the original specification, customizable for specific usage models, and, most importantly, functionally flawless. Ideally, we would like a specification-based design flow that transforms the published English language specifications into compilable code that is directly incorporated into the reference model without loss of information or accuracy. At Intel, we have developed and implemented such a flow to create the Itanium Processor Family's (IPF) reference model, which is used to validate all IPF processors. In this paper, we describe the benefits and limitations of this process and discuss the practical implications of specification-based design.},
+  author = {Rahul Bhatt and Dave LaFollette and Arjun Kapur},
+  booktitle = {First International Conference onSoftware Engineering and Formal Methods, 2003.Proceedings.},
+  doi = {10.1109/SEFM.2003.1236217},
+  issn = {},
+  keywords = {},
+  month = {Sep.},
+  number = {},
+  pages = {156-162},
+  title = {{The fallacy of spec-based design}},
+  volume = {},
+  year = {2003}
+}
+
 @inbook{biere:tacas:1999,
   abstract = {Symbolic Model Checking [3], [14] has proven to be a powerful technique for the verification of reactive systems. BDDs [2] have traditionally been used as a symbolic representation of the system. In this paper we show how boolean decision procedures, like St{\aa}lmarck's Method [16] or the Davis & Putnam Procedure [7], can replace BDDs. This new technique avoids the space blow up of BDDs, generates counterexamples much faster, and sometimes speeds up the verification. In addition, it produces counterexamples of minimal length. We introduce a bounded model checking procedure for LTL which reduces model checking to propositional satisfiability.We show that bounded LTL model checking can be done without a tableau construction. We have implemented a model checker BMC, based on bounded model checking, and preliminary results are presented.},
   address = {Berlin, Heidelberg},
@@ -1235,6 +1397,27 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Implementing remote procedure calls}},
   volume = {2},
   year = {1984}
+}
+
+@article{bishop:jacm:2019,
+  abstract = {Conventional computer engineering relies on test-and-debug development processes, with the behavior of common interfaces described (at best) with prose specification documents. But prose specifications cannot be used in test-and-debug development in any automated way, and prose is a poor medium for expressing complex (and loose) specifications.The TCP/IP protocols and Sockets API are a good example of this: they play a vital role in modern communication and computation, and interoperability between implementations is essential. But what exactly they are is surprisingly obscure: their original development focused on "rough consensus and running code," augmented by prose RFC specifications that do not precisely define what it means for an implementation to be correct. Ultimately, the actual standard is the de facto one of the common implementations, including, for example, the 15&nbsp;000 to 20&nbsp;000 lines of the BSD implementation-optimized and multithreaded C code, time dependent, with asynchronous event handlers, intertwined with the operating system, and security critical.This article reports on work done in the Netsem project to develop lightweight mathematically rigorous techniques that can be applied to such systems: to specify their behavior precisely (but loosely enough to permit the required implementation variation) and to test whether these specifications and the implementations correspond with specifications that are executable as test oracles. We developed post hoc specifications of TCP, UDP, and the Sockets API, both of the service that they provide to applications (in terms of TCP bidirectional stream connections) and of the internal operation of the protocol (in terms of TCP segments and UDP datagrams), together with a testable abstraction function relating the two. These specifications are rigorous, detailed, readable, with broad coverage, and rather accurate. Working within a general-purpose proof assistant (HOL4), we developed language idioms (within higher-order logic) in which to write the specifications: operational semantics with nondeterminism, time, system calls, monadic relational programming, and so forth. We followed an experimental semantics approach, validating the specifications against several thousand traces captured from three implementations (FreeBSD, Linux, and WinXP). Many differences between these were identified, as were a number of bugs. Validation was done using a special-purpose symbolic model checker programmed above HOL4.Having demonstrated that our logic-based engineering techniques suffice for handling real-world protocols, we argue that similar techniques could be applied to future critical software infrastructure at design time, leading to cleaner designs and (via specification-based testing) more robust and predictable implementations. In cases where specification looseness can be controlled, this should be possible with lightweight techniques, without the need for a general-purpose proof assistant, at relatively little cost.},
+  address = {New York, NY, USA},
+  articleno = {1},
+  author = {Steve Bishop and Matthew Fairbairn and Hannes Mehnert and Michael Norrish and Tom Ridge and Peter Sewell and Michael Smith and Keith Wansbrough},
+  doi = {10.1145/3243650},
+  issn = {0004-5411},
+  issue_date = {January 2019},
+  journal = {J. ACM},
+  keywords = {specification, Rigorous engineering, network protocols},
+  link = {https://doi.org/10.1145/3243650},
+  month = {December},
+  number = {1},
+  numpages = {77},
+  publisher = {Association for Computing Machinery},
+  title = {{Engineering with logic: Rigorous test-oracle specification and validation for TCP/IP and the sockets API}},
+  url = {https://doi.org/10.1145/3243650},
+  volume = {66},
+  year = {2018}
 }
 
 @inproceedings{blanchard:fmics:2015,
@@ -1364,6 +1547,20 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Boosting fuzzer efficiency: An information theoretic perspective}},
   volume = {},
   year = {2020}
+}
+
+@inproceedings{bond:usenix:2017,
+  address = {Vancouver, BC},
+  author = {Barry Bond and Chris Hawblitzel and Manos Kapritsos and K. Rustan M. Leino and Jacob R. Lorch and Bryan Parno and Ashay Rane and Srinath Setty and Laure Thompson},
+  booktitle = {26th USENIX Security Symposium (USENIX Security 17)},
+  isbn = {978-1-931971-40-9},
+  link = {https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/bond},
+  month = {August},
+  pages = {917-934},
+  publisher = {USENIX Association},
+  title = {{Vale: Verifying high-performance cryptographic assembly code}},
+  url = {https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/bond},
+  year = {2017}
 }
 
 @inproceedings{boos:plos:2017,
@@ -1554,6 +1751,19 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2021}
 }
 
+@inproceedings{brumley:cav:2011,
+  abstract = {BAP is a publicly available infrastructure for performing program verification and analysis tasks on binary (i.e., executable) code. In this paper, we describe BAP as well as lessons learned from previous incarnations of binary analysis platforms. BAP explicitly represents all side effects of instructions in an intermediate language (IL), making syntaxdirected analysis possible. We have used BAP to routinely generate and solve verification conditions that are hundreds of megabytes in size and encompass 100,000's of assembly instructions.},
+  address = {Berlin, Heidelberg},
+  author = {David Brumley and Ivan Jager and Thanassis Avgerinos and Edward J. Schwartz},
+  booktitle = {Computer Aided Verification},
+  editor = {Gopalakrishnan, Ganesh and Qadeer, Shaz},
+  isbn = {978-3-642-22110-1},
+  pages = {463-469},
+  publisher = {Springer Berlin Heidelberg},
+  title = {{BAP: A binary analysis platform}},
+  year = {2011}
+}
+
 @inproceedings{brummayer:sat:2010,
   abstract = {Robustness and correctness are essential criteria for SAT and QBF solvers. We develop automated testing and debugging techniques designed and optimized for SAT and QBF solver development. Our fuzz testing techniques are able to find critical solver defects that lead to crashes, invalid satisfying assignments and incorrect satisfiability results. Moreover, we show that sequential and concurrent delta debugging techniques are highly effective in minimizing failure-inducing inputs.},
   address = {Berlin, Heidelberg},
@@ -1566,6 +1776,13 @@ Online:  http://dx.doi.org/10.1007/b99688},
   publisher = {Springer Berlin Heidelberg},
   title = {{Automated testing and debugging of SAT and QBF solvers}},
   year = {2010}
+}
+
+@techreport{bryant:cmu:2018,
+  author = {Randal E Bryant},
+  institution = {Technical Report CMU-CS-18-122},
+  title = {{Formal verification of pipelined Y86-64 microprocessors with UCLID5}},
+  year = {2018}
 }
 
 @inproceedings{burch:cav:1994,
@@ -1768,6 +1985,37 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2006}
 }
 
+@inproceedings{campbell:fmcad:2016,
+  abstract = {Presenting large formal instruction set models as executable functions makes them accessible to engineers and useful for less formal purposes such as simulation. However, it is more difficult to extract information about the behaviour of individual instructions for reasoning. We present a method which combines symbolic evaluation and symbolic execution techniques to provide a rule-based view of instruction behaviour, with particular application to automatic test generation for large MIPS-like models.},
+  author = {Brian Campbell and Ian Stark},
+  booktitle = {2016 Formal Methods in Computer-Aided Design (FMCAD)},
+  doi = {10.1109/FMCAD.2016.7886658},
+  issn = {},
+  keywords = {},
+  month = {Oct},
+  number = {},
+  pages = {33-40},
+  title = {{Extracting behaviour from an executable instruction set model}},
+  volume = {},
+  year = {2016}
+}
+
+@inproceedings{campbell:fmics:2014,
+  author = {Brian Campbell and Ian Stark},
+  booktitle = {Formal Methods for Industrial Critical Systems (FMICS 2014)},
+  doi = {10.1007/978-3-319-10702-8_13},
+  editor = {Frédéric Lang and Francesco Flammini},
+  pages = {185-199},
+  preprint = {rems/fmics2014.pdf},
+  preprintnote = {The final publication is available at link.springer.com},
+  publisher = {Springer},
+  series = {Lecture Notes in Computer Science},
+  slides = {rems/fmics-m0-talk.pdf},
+  title = {{Randomised testing of a microprocessor model using SMT-solver state generation}},
+  volume = {8718},
+  year = {2014}
+}
+
 @phdthesis{cattell:phd:1978,
   address = {Pittsburgh, PA, USA},
   author = {Roderic Geoffrey Galton Cattell},
@@ -1795,6 +2043,23 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Automatic derivation of code generators from machine descriptions}},
   volume = {2},
   year = {1980}
+}
+
+@inproceedings{cauligi:sandp:2022,
+  address = {Los Alamitos, CA, USA},
+  author = {Sunjay Cauligi and Craig Disselkoen and Daniel Moghimi and Gilles Barthe and Deian Stefan},
+  booktitle = {2022 2022 IEEE Symposium on Security and Privacy (SP) (SP)},
+  doi = {10.1109/SP46214.2022.00088},
+  issn = {2375-1207},
+  keywords = {sok;spectre;semantics;program-analysis},
+  link = {https://doi.ieeecomputersociety.org/10.1109/SP46214.2022.00088},
+  month = {may},
+  pages = {1517-1517},
+  publisher = {IEEE Computer Society},
+  title = {{SoK: Practical Foundations for Software Spectre Defenses}},
+  url = {https://doi.ieeecomputersociety.org/10.1109/SP46214.2022.00088},
+  volume = {},
+  year = {2022}
 }
 
 @inproceedings{cha:sandp:2012,
@@ -2228,6 +2493,24 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2005}
 }
 
+@inproceedings{collberg:pldi:1997,
+  abstract = {There are three popular methods for constructing highly retargetable compilers: (1) the compiler emits abstract machine code which is interpreted at run-time, (2) the compiler emits C code which is subsequently compiled to machine code by the native C compiler, or (3) the compiler's code-generator is generated by a back-end generator from a formal machine description produced by the compiler writer.These methods incur high costs at run-time, compile-time, or compiler-construction time, respectively.In this paper we will describe a novel method which promises to significantly reduce the effort required to retarget a compiler to a new architecture, while at the same time producing fast and effective compilers. The basic idea is to use the native C compiler at compiler construction time to discover architectural features of the new architecture. From this information a formal machine description is produced. Given this machine description, a native code-generator can be generated by a back-end generator such as BEG or burg.A prototype Automatic Architecture Discovery Unit has been implemented. The current version is general enough to produce machine descriptions for the integer instruction sets of common RISC and CISC architectures such as the Sun SPARC, Digital Alpha, MIPS, DEC VAX, and Intel x86. The tool is completely automatic and requires minimal input from the user: principally, the user needs to provide the internet address of the target machine and the command-lines by which the C compiler, assembler, and linker are invoked.},
+  address = {New York, NY, USA},
+  author = {Christian S. Collberg},
+  booktitle = {Proceedings of the ACM SIGPLAN 1997 Conference on Programming Language Design and Implementation},
+  doi = {10.1145/258915.258922},
+  isbn = {0897919076},
+  link = {https://doi.org/10.1145/258915.258922},
+  location = {Las Vegas, Nevada, USA},
+  numpages = {14},
+  pages = {57-70},
+  publisher = {Association for Computing Machinery},
+  series = {PLDI '97},
+  title = {{Reverse interpretation + mutation analysis = automatic retargeting}},
+  url = {https://doi.org/10.1145/258915.258922},
+  year = {1997}
+}
+
 @inproceedings{condit:esop:2007,
   abstract = {In this paper, we describe the key principles of a dependent type system for low-level imperative languages. The major contributions of this work are (1) a sound type system that combines dependent types and mutation for variables and for heap-allocated structures in a more flexible way than before and (2) a technique for automatically inferring dependent types for local variables. We have applied these general principles to design Deputy, a dependent type system for C that allows the user to describe bounded pointers and tagged unions. Deputy has been used to annotate and check a number of real-world C programs.},
   address = {Berlin, Heidelberg},
@@ -2550,6 +2833,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2019}
 }
 
+@inproceedings{dasgupta:pldi:2020,
+  abstract = {Validating the correctness of binary lifters is pivotal to gain trust in binary analysis, especially when used in scenarios where correctness is important. Existing approaches focus on validating the correctness of lifting instructions or basic blocks in isolation and do not scale to full programs. In this work, we show that formal translation validation of single instructions for a complex ISA like x86-64 is not only practical, but can be used as a building block for scalable full-program validation. Our work is the first to do translation validation of single instructions on an architecture as extensive as x86-64, uses the most precise formal semantics available, and has the widest coverage in terms of the number of instructions tested for correctness. Next, we develop a novel technique that uses validated instructions to enable program-level validation, without resorting to performance-heavy semantic equivalence checking. Specifically, we compose the validated IR sequences using a tool we develop called Compositional Lifter to create a reference standard. The semantic equivalence check between the reference and the lifter output is then reduced to a graph-isomorphism check through the use of semantic preserving transformations. The translation validation of instructions in isolation revealed 29 new bugs in McSema - a mature open-source lifter from x86-64 to LLVM IR. Towards the validation of full programs, our approach was able to prove the translational correctness of 2254/2348 functions taken from LLVM's single-source benchmark test-suite.},
+  address = {New York, NY, USA},
+  author = {Sandeep Dasgupta and Sushant Dinesh and Deepan Venkatesh and Vikram S. Adve and Christopher W. Fletcher},
+  booktitle = {Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation},
+  doi = {10.1145/3385412.3385964},
+  isbn = {9781450376136},
+  keywords = {Formal Semantics, Compiler Optimizations, LLVM IR, Translation Validation, Graph Isomorphism, x86-64},
+  link = {https://doi.org/10.1145/3385412.3385964},
+  location = {London, UK},
+  numpages = {17},
+  pages = {655-671},
+  publisher = {Association for Computing Machinery},
+  series = {PLDI 2020},
+  title = {{Scalable validation of binary lifters}},
+  url = {https://doi.org/10.1145/3385412.3385964},
+  year = {2020}
+}
+
 @inproceedings{david:issta:2016,
   abstract = {Symbolic Execution (SE) is a popular and profitable approach to automatic code-based software testing. Concretization and symbolization (C/S) is a crucial part of modern SE tools, since it directly impacts the trade-offs between correctness, completeness and efficiency of the approach. Yet, C/S policies have been barely studied. We intend to remedy to this situation and to establish C/S policies on a firm ground. To this end, we propose a clear separation of concerns between C/S specification on one side, through the new rule-based description language CSml, and the algorithmic core of SE on the other side, revisited to take C/S policies into account. This view is implemented on top of an existing SE tool, demonstrating the feasibility and the benefits of the method. This work paves the way for more flexible SE tools with well-documented and reusable C/S policies, as well as for a systematic study of C/S policies.},
   address = {New York, NY, USA},
@@ -2567,6 +2869,26 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Specification of concretization and symbolization policies in symbolic execution}},
   url = {https://doi.org/10.1145/2931037.2931048},
   year = {2016}
+}
+
+@article{dean:cacm:2013,
+  abstract = {Software techniques that tolerate latency variability are vital to building responsive large-scale Web services.},
+  address = {New York, NY, USA},
+  author = {Jeffrey Dean and Luiz André Barroso},
+  doi = {10.1145/2408776.2408794},
+  issn = {0001-0782},
+  issue_date = {February 2013},
+  journal = {Communications of the ACM},
+  link = {https://doi.org/10.1145/2408776.2408794},
+  month = {February},
+  number = {2},
+  numpages = {7},
+  pages = {74-80},
+  publisher = {Association for Computing Machinery},
+  title = {{The tail at scale}},
+  url = {https://doi.org/10.1145/2408776.2408794},
+  volume = {56},
+  year = {2013}
 }
 
 @phdthesis{degenbaev:phd:2012,
@@ -2677,12 +2999,13 @@ Online:  http://dx.doi.org/10.1007/b99688},
 }
 
 @inproceedings{dias:popl:2010,
+  abstract = {Despite years of work on retargetable compilers, creating a good, reliable back end for an optimizing compiler still entails a lot of hard work. Moreover, a critical component of the back end--the instruction selector--must be written by a person who is expert in both the compiler's intermediate code and the target machine's instruction set. By generating the instruction selector from declarative machine descriptions we have (a) made it unnecessary for one person to be both a compiler expert and a machine expert, and (b) made creating an optimizing back end easier than ever before.Our achievement rests on two new results. First, finding a mapping from intermediate code to machine code is an undecidable problem. Second, using heuristic search, we can find mappings for machines of practical interest in at most a few minutes of CPU time. Our most significant new idea is that heuristic search should be controlled by algebraic laws. Laws are used not only to show when a sequence of instructions implements part of an intermediate code, but also to limit the search: we drop a sequence of instructions not when it gets too long or when it computes too complicated a result, but when too much reasoning will be required to show that the result computed might be useful.},
   address = {New York, NY, USA},
   author = {João Dias and Norman Ramsey},
   booktitle = {Proceedings of the 37th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
   doi = {10.1145/1706299.1706346},
   isbn = {9781605584799},
-  keywords = {retargetable compilers, instruction selection, declarative machine descriptions},
+  keywords = {declarative machine descriptions, instruction selection, retargetable compilers},
   link = {https://doi.org/10.1145/1706299.1706346},
   location = {Madrid, Spain},
   numpages = {14},
@@ -2692,6 +3015,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Automatically generating instruction selectors using declarative machine descriptions}},
   url = {https://doi.org/10.1145/1706299.1706346},
   year = {2010}
+}
+
+@inproceedings{difederico:cc:2017,
+  abstract = {Static binary analysis is a key tool to assess the security of third-party binaries and legacy programs. Most forms of binary analysis rely on the availability of two key pieces of information: the program's control-flow graph and function boundaries. However, current tools struggle to provide accurate and precise results, in particular when dealing with hand-written assembly functions and non-trivial control-flow transfer instructions, such as tail calls. In addition, most of the existing solutions are ad-hoc, rely on hand-coded heuristics, and are tied to a specific architecture. In this paper we highlight the challenges faced by an architecture agnostic static binary analysis framework to provide accurate information about a program's CFG and function boundaries without employing debugging information or symbols. We propose a set of analyses to address predicate instructions, noreturn functions, tail calls, and context-dependent CFG. rev.ng, our binary analysis framework based on QEMU and LLVM, handles all the 17 architectures supported by QEMU and produces a compilable LLVM IR. We implement our described analyses on top of LLVM IR. In an extensive evaluation, we test our tool on binaries compiled for MIPS, ARM, and x86-64 using GCC and clang and compare them to the industry's state of the art tool, IDA Pro, and two well-known academic tools, BAP/ByteWeight and angr. In all cases, the quality of the CFG and function boundaries produced by rev.ng is comparable to or improves over the alternatives.},
+  address = {New York, NY, USA},
+  author = {Alessandro Di Federico and Mathias Payer and Giovanni Agosta},
+  booktitle = {Proceedings of the 26th International Conference on Compiler Construction},
+  doi = {10.1145/3033019.3033028},
+  isbn = {9781450352338},
+  keywords = {control-flow graph recovery, static binary analysis, function boundary detection},
+  link = {https://doi.org/10.1145/3033019.3033028},
+  location = {Austin, TX, USA},
+  numpages = {11},
+  pages = {131-141},
+  publisher = {Association for Computing Machinery},
+  series = {CC 2017},
+  title = {{Rev.Ng: A unified binary analysis framework to recover CFGs and function boundaries}},
+  url = {https://doi.org/10.1145/3033019.3033028},
+  year = {2017}
 }
 
 @inproceedings{dimjasevic:ifm:2018,
@@ -2910,6 +3252,15 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2002}
 }
 
+@misc{elsen:arxiv:2019,
+  archiveprefix = {arXiv},
+  author = {Erich Elsen and Marat Dukhan and Trevor Gale and Karen Simonyan},
+  eprint = {1911.09723},
+  primaryclass = {cs.CV},
+  title = {{Fast sparse ConvNets}},
+  year = {2019}
+}
+
 @inproceedings{engler:issta:2007,
   address = {New York, NY, USA},
   author = {Dawson Engler and Daniel Dunbar},
@@ -2974,6 +3325,15 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2020}
 }
 
+@misc{evci:arxiv:2021,
+  archiveprefix = {arXiv},
+  author = {Utku Evci and Trevor Gale and Jacob Menick and Pablo Samuel Castro and Erich Elsen},
+  eprint = {1911.11134},
+  primaryclass = {cs.LG},
+  title = {{Rigging the lottery: Making all tickets winners}},
+  year = {2021}
+}
+
 @inbook{evtyushkin:asplos:2021,
   abstract = {Side-channel attacks such as Spectre rely on properties of modern CPUs that permit discovery of microarchitectural state via timing of various operations. The Weird Machine concept is an increasingly popular model for characterization of emergent execution that arises from side-effects of conventional computing constructs. In this work we introduce Microarchitectural Weird Machines (\mathrm{\mu}WM): code constructions that allow performing computation through the means of side effects and conflicts between microarchitectual entities such as branch predictors and caches. The results of such computations are observed as timing variations. We demonstrate how \mathrm{\mu}WMs can be used as a powerful obfuscation engine where computation operates based on events unobservable to conventional anti-obfuscation tools based on emulation, debugging, static and dynamic analysis techniques. We demonstrate that \mathrm{\mu}WMs can be used to reliably perform arbitrary computation by implementing a SHA-1 hash function. We then present a practical example in which we use a \mathrm{\mu}WM to obfuscate malware code such that its passive operation is invisible to an observer with full power to view the architectural state of the system until the code receives a trigger. When the trigger is received the malware decrypts and executes its payload. To show the effectiveness of obfuscation we demonstrate its use in the concealment and subsequent execution of a payload that exfiltrates a shadow password file, and a payload that creates a reverse shell.},
   address = {New York, NY, USA},
@@ -3025,6 +3385,15 @@ Online:  http://dx.doi.org/10.1007/b99688},
   pages = {503-507},
   title = {{Describing instruction set processors using nML}},
   year = {1995}
+}
+
+@misc{fedus:arxiv:2021,
+  archiveprefix = {arXiv},
+  author = {William Fedus and Barret Zoph and Noam Shazeer},
+  eprint = {2101.03961},
+  primaryclass = {cs.LG},
+  title = {{Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity}},
+  year = {2021}
 }
 
 @inproceedings{fernandez:icse:1997,
@@ -3194,6 +3563,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2016}
 }
 
+@inproceedings{flur:popl:2017,
+  abstract = {Previous work on the semantics of relaxed shared-memory concurrency has only considered the case in which each load reads the data of exactly one store. In practice, however, multiprocessors support mixed-size accesses, and these are used by systems software and (to some degree) exposed at the C/C++ language level. A semantic foundation for software, therefore, has to address them. We investigate the mixed-size behaviour of ARMv8 and IBM POWER architectures and implementations: by experiment, by developing semantic models, by testing the correspondence between these, and by discussion with ARM and IBM staff. This turns out to be surprisingly subtle, and on the way we have to revisit the fundamental concepts of coherence and sequential consistency, which change in this setting. In particular, we show that adding a memory barrier between each instruction does not restore sequential consistency. We go on to extend the C/C++11 model to support non-atomic mixed-size memory accesses. This is a necessary step towards semantics for real-world shared-memory concurrent code, beyond litmus tests.},
+  address = {New York, NY, USA},
+  author = {Shaked Flur and Susmit Sarkar and Christopher Pulte and Kyndylan Nienhuis and Luc Maranget and Kathryn E. Gray and Ali Sezgin and Mark Batty and Peter Sewell},
+  booktitle = {Proceedings of the 44th ACM SIGPLAN Symposium on Principles of Programming Languages},
+  doi = {10.1145/3009837.3009839},
+  isbn = {9781450346603},
+  keywords = {ISA, Relaxed Memory Models, semantics, mixed-size},
+  link = {https://doi.org/10.1145/3009837.3009839},
+  location = {Paris, France},
+  numpages = {14},
+  pages = {429-442},
+  publisher = {Association for Computing Machinery},
+  series = {POPL 2017},
+  title = {{Mixed-size concurrency: ARM, POWER, C/C++11, and SC}},
+  url = {https://doi.org/10.1145/3009837.3009839},
+  year = {2017}
+}
+
 @article{flynn:ieeeproc:1966,
   abstract = {Very high-speed computers may be classified as follows: 1) Single Instruction Stream-Single Data Stream (SISD) 2) Single Instruction Stream-Multiple Data Stream (SIMD) 3) Multiple Instruction Stream-Single Data Stream (MISD) 4) Multiple Instruction Stream-Multiple Data Stream (MIMD). "Stream," as used here, refers to the sequence of data or instructions as seen by the machine during the execution of a program. The constituents of a system: storage, execution, and instruction handling (branching) are discussed with regard to recent developments and/or systems limitations. The constituents are discussed in terms of concurrent SISD systems (CDC 6600 series and, in particular, IBM Model 90 series), since multiple stream organizations usually do not require any more elaborate components. Representative organizations are selected from each class and the arrangement of the constituents is shown.},
   added-at = {2012-07-04T12:42:26.000+0200},
@@ -3240,6 +3628,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{A HOL specification of the ARM instruction set architecture}},
   url = {https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-545.pdf},
   year = {2001}
+}
+
+@inproceedings{fox:cpp:2017,
+  abstract = {This paper describes how the latest CakeML compiler supports verified compilation down to multiple realistically modelled target architectures. In particular, we describe how the compiler definition, the various language semantics, and the correctness proofs were organised to minimize target-specific overhead. With our setup we have incorporated compilation to four 64-bit architectures, ARMv8, x86-64, MIPS-64, RISC-V, and one 32-bit architecture, ARMv6. Our correctness theorem allows interference from the environment: the top-level correctness statement takes into account execution of foreign code and per-instruction interference from external processes, such as interrupt handlers in operating systems. The entire CakeML development is formalised in the HOL4 theorem prover.},
+  address = {New York, NY, USA},
+  author = {Anthony Fox and Magnus O. Myreen and Yong Kiam Tan and Ramana Kumar},
+  booktitle = {Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs},
+  doi = {10.1145/3018610.3018621},
+  isbn = {9781450347051},
+  keywords = {verified assembly, Compiler verification, ML},
+  link = {https://doi.org/10.1145/3018610.3018621},
+  location = {Paris, France},
+  numpages = {13},
+  pages = {125-137},
+  publisher = {Association for Computing Machinery},
+  series = {CPP 2017},
+  title = {{Verified compilation of CakeML to multiple machine-code targets}},
+  url = {https://doi.org/10.1145/3018610.3018621},
+  year = {2017}
 }
 
 @inproceedings{fox:itp:2010,
@@ -3395,6 +3802,24 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2001}
 }
 
+@misc{gale:arxiv:2019,
+  archiveprefix = {arXiv},
+  author = {Trevor Gale and Erich Elsen and Sara Hooker},
+  eprint = {1902.09574},
+  primaryclass = {cs.LG},
+  title = {{The state of sparsity in deep neural networks}},
+  year = {2019}
+}
+
+@misc{gale:arxiv:2020,
+  archiveprefix = {arXiv},
+  author = {Trevor Gale and Matei Zaharia and Cliff Young and Erich Elsen},
+  eprint = {2006.10901},
+  primaryclass = {cs.LG},
+  title = {{Sparse GPU kernels for deep learning}},
+  year = {2020}
+}
+
 @misc{galea:arxiv:2018,
   archiveprefix = {arXiv},
   author = {John Galea and Sean Heelan and Daniel Neville and Daniel Kroening},
@@ -3457,6 +3882,20 @@ Online:  http://dx.doi.org/10.1007/b99688},
   publisher = {Springer International Publishing},
   title = {{Executable counterexamples in software model checking}},
   year = {2018}
+}
+
+@inproceedings{gleissenthall:ccs:2021,
+  address = {New York, NY, USA},
+  author = {Klaus v. Gleissenthall and Rami Gökhan Kici and Deian Stefan and Ranjit Jhala},
+  booktitle = {Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security},
+  doi = {10.1145/3460120.3484810},
+  isbn = {9781450370899},
+  location = {Virtual Event, Republic of Korea},
+  numpages = {16},
+  publisher = {Association for Computing Machinery},
+  series = {CCS '21},
+  title = {{Solver-aided constant-time hardware verification}},
+  year = {2021}
 }
 
 @article{godefroid:acmq:2012,
@@ -3590,6 +4029,38 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2013}
 }
 
+@inproceedings{goel:cav:2021,
+  abstract = {Formal methods are becoming an indispensable part of the design process in software and hardware industry. It takes robust tools and proofs to make formal validation of large scale projects reliable. In this paper, we will describe the current status of formal verification at Centaur Technology. We will explain our challenges and our methodology--how various proofs and verification artifacts are interconnected and how we keep them consistent over the duration of a project. We also describe our main engine--a powerful symbolic simulator with rewriting capabilities that is integrated in a theorem prover and proven correct.},
+  address = {Cham},
+  author = {Shilpi Goel and Anna Slobodova and Rob Sumners and Sol Swords},
+  booktitle = {Computer Aided Verification},
+  editor = {Silva, Alexandra and Leino, K. Rustan M.},
+  isbn = {978-3-030-81685-8},
+  pages = {26-45},
+  publisher = {Springer International Publishing},
+  title = {{Balancing automation and control for formal verification of microprocessors}},
+  year = {2021}
+}
+
+@inproceedings{goel:cpp:2020,
+  abstract = {Verification of modern microprocessors is a complex task that requires a substantial allocation of resources. Despite significant progress in formal verification, the goal of complete verification of an industrial design has not been achieved. In this paper, we describe a current contribution of formal methods to the validation of modern x86 microprocessors at Centaur Technology. We focus on proving correctness of instruction implementations, which includes the decoding of an instruction, its translation into a sequence of micro-operations, any subsequent execution of traps to microcode ROM, and the implementation of these micro-operations in execution units. All these tasks are performed within one verification framework, which includes a theorem prover, a verified symbolic simulator, and SAT solvers. We describe the work of defining the needed formal models for both the architecture and micro-architecture in this framework, as well as tools for decomposing the requisite properties into smaller lemmas which can be automatically checked. We additionally cover the advantages and limitations of our approach. To our knowledge, there are no similar results in the verification of implementations of an x86 microprocessor.},
+  address = {New York, NY, USA},
+  author = {Shilpi Goel and Anna Slobodova and Rob Sumners and Sol Swords},
+  booktitle = {Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs},
+  doi = {10.1145/3372885.3373811},
+  isbn = {9781450370974},
+  keywords = {formal verification, hardware verification, microcode verification, x86 ISA, ACL2},
+  link = {https://doi.org/10.1145/3372885.3373811},
+  location = {New Orleans, LA, USA},
+  numpages = {14},
+  pages = {47-60},
+  publisher = {Association for Computing Machinery},
+  series = {CPP 2020},
+  title = {{Verifying x86 instruction implementations}},
+  url = {https://doi.org/10.1145/3372885.3373811},
+  year = {2020}
+}
+
 @inproceedings{goel:fmcad:2014,
   author = {Shilpi Goel and Warren A. Hunt Jr. and Matt Kaufmann and Soumava Ghosh},
   bibsource = {dblp computer science bibliography, http://dblp.org},
@@ -3623,6 +4094,16 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Formal verification of application and system programs based on a validated x86 ISA model}},
   url = {http://www.cs.utexas.edu/users/shigoel/x86isaInfo/Shilpi-Goel-Dissertation.pdf},
   year = {2016}
+}
+
+@article{goel:spisa:2019,
+  ar_shortname = {SpISA 19},
+  author = {Shilpi Goel and Rob Sumners},
+  booktitle = {SpISA 2019: Workshop on Instruction Set Architecture Specification},
+  location = {Portland, Oregon, USA},
+  month = {September},
+  title = {{Using x86isa for microcode verification}},
+  year = {2019}
 }
 
 @inproceedings{goguen:secpriv:1982,
@@ -3898,6 +4379,17 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {1999}
 }
 
+@inproceedings{hadjilambrou:ispass:2019,
+  author = {Zacharias Hadjilambrou and Shidhartha Das and Paul N Whatmough and David Bull and Yiannakis Sazeides},
+  booktitle = {2019 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+  doi = {10.1109/ISPASS.2019.00009},
+  number = {},
+  pages = {1-10},
+  title = {{GeST: An automatic framework for generating CPU stress-tests}},
+  volume = {},
+  year = {2019}
+}
+
 @inproceedings{hardin:acl2:2006,
   acmid = {1217978},
   address = {New York, NY, USA},
@@ -3913,6 +4405,24 @@ Online:  http://dx.doi.org/10.1007/b99688},
   series = {ACL2 '06},
   title = {{A robust machine code proof framework for highly secure applications}},
   year = {2006}
+}
+
+@inproceedings{hasabnis:asplos:2016,
+  abstract = {Translating low-level machine instructions into higher-level intermediate language (IL) is one of the central steps in many binary analysis and instrumentation systems. Existing systems build such translators manually. As a result, it takes a great deal of effort to support new architectures. Even for widely deployed architectures, full instruction sets may not be modeled, e.g., mature systems such as Valgrind still lack support for AVX, FMA4 and SSE4.1 for x86 processors. To overcome these difficulties, we propose a novel approach that leverages knowledge about instruction set semantics that is already embedded into modern compilers such as GCC. In particular, we present a learning-based approach for automating the translation of assembly instructions to a compiler's architecture-neutral IL. We present an experimental evaluation that demonstrates the ability of our approach to easily support many architectures (x86, ARM and AVR), including their advanced instruction sets. Our implementation is available as open-source software.},
+  address = {New York, NY, USA},
+  author = {Niranjan Hasabnis and R. Sekar},
+  booktitle = {Proceedings of the Twenty-First International Conference on Architectural Support for Programming Languages and Operating Systems},
+  doi = {10.1145/2872362.2872380},
+  isbn = {9781450340915},
+  link = {https://doi.org/10.1145/2872362.2872380},
+  location = {Atlanta, Georgia, USA},
+  numpages = {14},
+  pages = {311-324},
+  publisher = {Association for Computing Machinery},
+  series = {ASPLOS '16},
+  title = {{Lifting assembly to intermediate representation: A novel approach leveraging compilers}},
+  url = {https://doi.org/10.1145/2872362.2872380},
+  year = {2016}
 }
 
 @article{hatcliff:compsurv:2012,
@@ -3940,6 +4450,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   pages = {165-181},
   title = {{Ironclad apps: End-to-end security via automated full-system verification}},
   year = {2014}
+}
+
+@inproceedings{hedge:micro:2019,
+  abstract = {Generalized tensor algebra is a prime candidate for acceleration via customized ASICs. Modern tensors feature a wide range of data sparsity, with the density of non-zero elements ranging from 10-6\% to 50\%. This paper proposes a novel approach to accelerate tensor kernels based on the principle of hierarchical elimination of computation in the presence of sparsity. This approach relies on rapidly finding intersections--situations where both operands of a multiplication are non-zero--enabling new data fetching mechanisms and avoiding memory latency overheads associated with sparse kernels implemented in software.We propose the ExTensor accelerator, which builds these novel ideas on handling sparsity into hardware to enable better bandwidth utilization and compute throughput. We evaluate ExTensor on several kernels relative to industry libraries (Intel MKL) and state-of-the-art tensor algebra compilers (TACO). When bandwidth normalized, we demonstrate an average speedup of 3.4\texttimes , 1.3\texttimes , 2.8\texttimes , 24.9\texttimes , and 2.7\texttimes  on SpMSpM, SpMM, TTV, TTM, and SDDMM kernels respectively over a server class CPU.},
+  address = {New York, NY, USA},
+  author = {Kartik Hegde and Hadi Asghari-Moghaddam and Michael Pellauer and Neal Crago and Aamer Jaleel and Edgar Solomonik and Joel Emer and Christopher W. Fletcher},
+  booktitle = {Proceedings of the 52nd Annual IEEE/ACM International Symposium on Microarchitecture},
+  doi = {10.1145/3352460.3358275},
+  isbn = {9781450369381},
+  keywords = {Hardware Acceleration, Tensor Algebra, Sparse Computation},
+  link = {https://doi.org/10.1145/3352460.3358275},
+  location = {Columbus, OH, USA},
+  numpages = {15},
+  pages = {319-333},
+  publisher = {Association for Computing Machinery},
+  series = {MICRO '52},
+  title = {{ExTensor: An accelerator for sparse tensor algebra}},
+  url = {https://doi.org/10.1145/3352460.3358275},
+  year = {2019}
 }
 
 @mastersthesis{heelan:msc:2009,
@@ -3978,6 +4507,14 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Specified blocks}},
   url = {https://doi.org/10.1007/978-3-540-69149-5\_41},
   year = {2008}
+}
+
+@inproceedings{hendrix:itp:2019,
+  author = {Joe Hendrix and Guannan Wei and Simon Winwood},
+  booktitle = {Workshop on Instruction Set Architecture Specification (co-located with ITP 2019)},
+  pages = {6},
+  title = {{Towards verified binary raising}},
+  year = {2019}
 }
 
 @book{hennessy:book:2011,
@@ -4216,6 +4753,33 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2013}
 }
 
+@inproceedings{hsiao:micro:2021,
+  abstract = {Modern hardware complexity makes it challenging to determine if a given microarchitecture adheres to a particular memory consistency model (MCM). This observation inspired the Check tools, which formally check that a specific microarchitecture correctly implements an MCM with respect to a suite of litmus test programs. Unfortunately, despite their effectiveness and efficiency, the Check tools must be supplied a microarchitecture in the guise of a manually constructed axiomatic specification, called a \mu spec model. To facilitate MCM verification-and enable the Check tools to consume processor RTL directly-we introduce a methodology and associated tool, rtl2\mu spec, for automatically synthesizing \mu spec models from processor designs written in Verilog or SystemVerilog, with the help of modest user-provided design metadata. As a case study, we use rtl2\mu spec to facilitate the Check-based verification of the four-core RISC-V V-scale (multi-V-scale) processor's MCM implementation. We show that rtl2\mu spec can synthesize a complete, and proven correct by construction, \mu spec model from the SystemVerilog design of the multi-V-scale processor in 6.84 minutes. Subsequent Check-based MCM verification of the synthesized \mu spec model takes less than one second per litmus test.},
+  address = {New York, NY, USA},
+  author = {Yao Hsiao and Dominic P. Mulligan and Nikos Nikoleris and Gustavo Petri and Caroline Trippel},
+  booktitle = {MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture},
+  doi = {10.1145/3466752.3480087},
+  isbn = {9781450385572},
+  keywords = {verification, shared memory, memory consistency, concurrency},
+  link = {https://doi.org/10.1145/3466752.3480087},
+  location = {Virtual Event, Greece},
+  numpages = {16},
+  pages = {679-694},
+  publisher = {Association for Computing Machinery},
+  series = {MICRO '21},
+  title = {{Synthesizing formal models of hardware from RTL for efficient verification of memory model implementations}},
+  url = {https://doi.org/10.1145/3466752.3480087},
+  year = {2021}
+}
+
+@inproceedings{hsieh:usenix:2001,
+  author = {Wilson C Hsieh and Dawson R Engler and Godmar Back},
+  booktitle = {Proceedings of the General Track: 2001 USENIX Annual Technical Conference},
+  pages = {133-145},
+  title = {{Reverse-engineering instruction encodings}},
+  year = {2001}
+}
+
 @article{huang:todaes:2019,
   author = {Bo-Yuan Huang and Hongce Zhang and Pramod Subramanyan and Yakir Vizel and Aarti Gupta and Sharad Malik},
   doi = {10.1145/3282444},
@@ -4336,6 +4900,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2020}
 }
 
+@inproceedings{jensen:popl:2013,
+  abstract = {Separation logic is a powerful tool for reasoning about structured, imperative programs that manipulate pointers. However, its application to unstructured, lower-level languages such as assembly language or machine code remains challenging. In this paper we describe a separation logic tailored for this purpose that we have applied to x86 machine-code programs.The logic is built from an assertion logic on machine states over which we construct a specification logic that encapsulates uses of frames and step indexing. The traditional notion of Hoare triple is not applicable directly to unstructured machine code, where code and data are mixed together and programs do not in general run to completion, so instead we adopt a continuation-passing style of specification with preconditions alone. Nevertheless, the range of primitives provided by the specification logic, which include a higher-order frame connective, a novel read-only frame connective, and a 'later' modality, support the definition of derived forms to support structured-programming-style reasoning for common cases, in which standard rules for Hoare triples are derived as lemmas. Furthermore, our encoding of scoped assembly-language labels lets us give definitions and proof rules for powerful assembly-language 'macros' such as while loops, conditionals and procedures.We have applied the framework to a model of sequential x86 machine code built entirely within the Coq proof assistant, including tactic support based on computational reflection.},
+  address = {New York, NY, USA},
+  author = {Jonas B. Jensen and Nick Benton and Andrew Kennedy},
+  booktitle = {Proceedings of the 40th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
+  doi = {10.1145/2429069.2429105},
+  isbn = {9781450318327},
+  keywords = {proof assistants, separation logic, machine code},
+  link = {https://doi.org/10.1145/2429069.2429105},
+  location = {Rome, Italy},
+  numpages = {14},
+  pages = {301-314},
+  publisher = {Association for Computing Machinery},
+  series = {POPL '13},
+  title = {{High-level separation logic for low-level code}},
+  url = {https://doi.org/10.1145/2429069.2429105},
+  year = {2013}
+}
+
 @incollection{jhala:cav:2001,
   author = {Ranjit Jhala and Kenneth L. McMillan},
   booktitle = {Computer Aided Verification},
@@ -4442,6 +5025,19 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {1995}
 }
 
+@inproceedings{joloboff:dsetta:2015,
+  abstract = {This paper presents an approach to construct a verified virtual protoyping framework of embedded software. The machine code executed on a simulated target architecture can be proven to provide the same results as the real hardware, and the proof is verified with a theorem prover. The method consists in proving each instruction of the instruction set independently, by proving that the execution of the C code simulating an instruction yields an identical result to that obtained by a formal executable model of the processor architecture. This formal model itself is obtained through an automated translation process from the architecture specifications. Each independent proof draws a number of lemmas from a generic lemma library and also uses the automation of inversion tactics in the theorem prover. The paper presents the proof of the ARM architecture version 6 Instruction Set Simulator of the SimSoC open source simulator, with all of the proofs being verified by the Coq proof assistant, using automated tactics to reduce manual proof development.},
+  address = {Cham},
+  author = {Vania Joloboff and Jean-François Monin and Xiaomu Shi},
+  booktitle = {Dependable Software Engineering: Theories, Tools, and Applications},
+  editor = {Li, Xuandong and Liu, Zhiming and Yi, Wang},
+  isbn = {978-3-319-25942-0},
+  pages = {105-119},
+  publisher = {Springer International Publishing},
+  title = {{Towards verified faithful simulation}},
+  year = {2015}
+}
+
 @misc{jones:hasklang:1999,
   ar_shortname = {Haskell Report},
   author = {Simon L. Peyton Jones and Lennart Augustsson and Dave Barton and Brian Boutel and Warren Burton and Joseph Fasel and Kevin Hammond and Ralf Hinze and Paul Hudak and John Hughes and Thomas Johnsson and Mark Jones and John Launchbury and Erik Meijer and John Peterson and Alastair D. Reid and Colin Runciman and Philip Wadler},
@@ -4523,6 +5119,40 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Denali: A goal-directed superoptimizer}},
   url = {https://doi.org/10.1145/512529.512566},
   year = {2002}
+}
+
+@inproceedings{jouppi:isca:2017,
+  abstract = {Many architects believe that major improvements in cost-energy-performance must now come from domain-specific hardware. This paper evaluates a custom ASIC--called a Tensor Processing Unit (TPU) -- deployed in datacenters since 2015 that accelerates the inference phase of neural networks (NN). The heart of the TPU is a 65,536 8-bit MAC matrix multiply unit that offers a peak throughput of 92 TeraOps/second (TOPS) and a large (28 MiB) software-managed on-chip memory. The TPU's deterministic execution model is a better match to the 99th-percentile response-time requirement of our NN applications than are the time-varying optimizations of CPUs and GPUs that help average throughput more than guaranteed latency. The lack of such features helps explain why, despite having myriad MACs and a big memory, the TPU is relatively small and low power. We compare the TPU to a server-class Intel Haswell CPU and an Nvidia K80 GPU, which are contemporaries deployed in the same datacenters. Our workload, written in the high-level TensorFlow framework, uses production NN applications (MLPs, CNNs, and LSTMs) that represent 95\% of our datacenters' NN inference demand. Despite low utilization for some applications, the TPU is on average about 15X - 30X faster than its contemporary GPU or CPU, with TOPS/Watt about 30X - 80X higher. Moreover, using the CPU's GDDR5 memory in the TPU would triple achieved TOPS and raise TOPS/Watt to nearly 70X the GPU and 200X the CPU.},
+  address = {New York, NY, USA},
+  author = {Norman P. Jouppi and Cliff Young and Nishant Patil and David Patterson and Gaurav Agrawal and Raminder Bajwa and Sarah Bates and Suresh Bhatia and Nan Boden and Al Borchers and Rick Boyle and Pierre-luc Cantin and Clifford Chao and Chris Clark and Jeremy Coriell and Mike Daley and Matt Dau and Jeffrey Dean and Ben Gelb and Tara Vazir Ghaemmaghami and Rajendra Gottipati and William Gulland and Robert Hagmann and C. Richard Ho and Doug Hogberg and John Hu and Robert Hundt and Dan Hurt and Julian Ibarz and Aaron Jaffey and Alek Jaworski and Alexander Kaplan and Harshit Khaitan and Daniel Killebrew and Andy Koch and Naveen Kumar and Steve Lacy and James Laudon and James Law and Diemthu Le and Chris Leary and Zhuyuan Liu and Kyle Lucke and Alan Lundin and Gordon MacKean and Adriana Maggiore and Maire Mahony and Kieran Miller and Rahul Nagarajan and Ravi Narayanaswami and Ray Ni and Kathy Nix and Thomas Norrie and Mark Omernick and Narayana Penukonda and Andy Phelps and Jonathan Ross and Matt Ross and Amir Salek and Emad Samadiani and Chris Severn and Gregory Sizikov and Matthew Snelham and Jed Souter and Dan Steinberg and Andy Swing and Mercedes Tan and Gregory Thorson and Bo Tian and Horia Toma and Erick Tuttle and Vijay Vasudevan and Richard Walter and Walter Wang and Eric Wilcox and Doe Hyun Yoon},
+  booktitle = {Proceedings of the 44th Annual International Symposium on Computer Architecture},
+  doi = {10.1145/3079856.3080246},
+  isbn = {9781450348928},
+  keywords = {domain-specific architecture, deep learning, RNN, GPU, MLP, TPU, neural network, accelerator, TensorFlow, DNN, LSTM, CNN},
+  link = {https://doi.org/10.1145/3079856.3080246},
+  location = {Toronto, ON, Canada},
+  numpages = {12},
+  pages = {1-12},
+  publisher = {Association for Computing Machinery},
+  series = {ISCA '17},
+  title = {{In-datacenter performance analysis of a tensor processing unit}},
+  url = {https://doi.org/10.1145/3079856.3080246},
+  year = {2017}
+}
+
+@article{jouppi:micro:2018,
+  abstract = {The first-generation tensor processing unit (TPU) runs deep neural network (DNN) inference 15-30 times faster with 30-80 times better energy efficiency than contemporary CPUs and GPUs in similar semiconductor technologies. This domain-specific architecture (DSA) is a custom chip that has been deployed in Google datacenters since 2015, where it serves billions of people.},
+  author = {Norman Jouppi and Cliff Young and Nishant Patil and David Patterson},
+  doi = {10.1109/MM.2018.032271057},
+  issn = {1937-4143},
+  journal = {IEEE Micro},
+  keywords = {},
+  month = {May},
+  number = {3},
+  pages = {10-19},
+  title = {{Motivation for and evaluation of the first tensor processing unit}},
+  volume = {38},
+  year = {2018}
 }
 
 @article{jung:cacm:2021,
@@ -4645,6 +5275,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2012}
 }
 
+@inproceedings{kennedy:ppdp:2013,
+  abstract = {We describe a Coq formalization of a subset of the x86 architecture. One emphasis of the model is brevity: using dependent types, type classes and notation we give the x86 semantics a makeover that counters its reputation for baroqueness. We model bits, bytes, and memory concretely using functions that can be computed inside Coq itself; concrete representations are mapped across to mathematical objects in the SSReflect library (naturals, and integers modulo 2n) to prove theorems. Finally, we use notation to support conventional assembly code syntax inside Coq, including lexically-scoped labels. Ordinary Coq definitions serve as a powerful "macro" feature for everything from simple conditionals and loops to stack-allocated local variables and procedures with parameters. Assembly code can be assembled within Coq, producing a sequence of hex bytes. The assembler enjoys a correctness theorem relating machine code in memory to a separation-logic formula suitable for program verification.},
+  address = {New York, NY, USA},
+  author = {Andrew Kennedy and Nick Benton and Jonas B. Jensen and Pierre-Evariste Dagand},
+  booktitle = {Proceedings of the 15th Symposium on Principles and Practice of Declarative Programming},
+  doi = {10.1145/2505879.2505897},
+  isbn = {9781450321549},
+  keywords = {Coq, dependent types, assembly code},
+  link = {https://doi.org/10.1145/2505879.2505897},
+  location = {Madrid, Spain},
+  numpages = {12},
+  pages = {13-24},
+  publisher = {Association for Computing Machinery},
+  series = {PPDP '13},
+  title = {{Coq: The world's best macro assembler?}},
+  url = {https://doi.org/10.1145/2505879.2505897},
+  year = {2013}
+}
+
 @inproceedings{khakpour:cpp:2013,
   author = {Narges Khakpour and Oliver Schwarz and Mads Dam},
   booktitle = {International Conference on Certified Programs and Proofs},
@@ -4703,6 +5352,26 @@ Online:  http://dx.doi.org/10.1007/b99688},
   pages = {149-156},
   title = {{Symbolic trajectory evaluation: The primary validation vehicle for next generation Intel processor graphics FPU}},
   year = {2012}
+}
+
+@article{kjolstad:oopsla:2017,
+  abstract = {Tensor algebra is a powerful tool with applications in machine learning, data analytics, engineering and the physical sciences. Tensors are often sparse and compound operations must frequently be computed in a single kernel for performance and to save memory. Programmers are left to write kernels for every operation of interest, with different mixes of dense and sparse tensors in different formats. The combinations are infinite, which makes it impossible to manually implement and optimize them all. This paper introduces the first compiler technique to automatically generate kernels for any compound tensor algebra operation on dense and sparse tensors. The technique is implemented in a C++ library called taco. Its performance is competitive with best-in-class hand-optimized kernels in popular libraries, while supporting far more tensor operations.},
+  address = {New York, NY, USA},
+  articleno = {77},
+  author = {Fredrik Kjolstad and Shoaib Kamil and Stephen Chou and David Lugato and Saman Amarasinghe},
+  doi = {10.1145/3133901},
+  issue_date = {October 2017},
+  journal = {Proc. ACM Program. Lang.},
+  keywords = {tensor algebra, linear algebra, sparse data structures, iteration graphs, parallelism, performance, code generation, merge lattices, tensors},
+  link = {https://doi.org/10.1145/3133901},
+  month = {October},
+  number = {OOPSLA},
+  numpages = {29},
+  publisher = {Association for Computing Machinery},
+  title = {{The tensor algebra compiler}},
+  url = {https://doi.org/10.1145/3133901},
+  volume = {1},
+  year = {2017}
 }
 
 @book{klabnik:book:2018,
@@ -5186,6 +5855,15 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2010}
 }
 
+@misc{lepikhin:arxiv:2020,
+  archiveprefix = {arXiv},
+  author = {Dmitry Lepikhin and HyoukJoong Lee and Yuanzhong Xu and Dehao Chen and Orhan Firat and Yanping Huang and Maxim Krikun and Noam Shazeer and Zhifeng Chen},
+  eprint = {2006.16668},
+  primaryclass = {cs.CL},
+  title = {{GShard: Scaling giant models with conditional computation and automatic sharding}},
+  year = {2020}
+}
+
 @article{leroy:cacm:2009,
   author = {Xavier Leroy},
   bibsource = {dblp computer science bibliography, http://dblp.org},
@@ -5285,6 +5963,19 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {1989}
 }
 
+@inproceedings{li:usenix:2021,
+  author = {Shih-Wei Li and Xupeng Li and Ronghui Gu and Jason Nieh and John Zhuang Hui},
+  booktitle = {30th USENIX Security Symposium (USENIX Security 21)},
+  isbn = {978-1-939133-24-3},
+  link = {https://www.usenix.org/conference/usenixsecurity21/presentation/li-shih-wei},
+  month = {August},
+  pages = {3953-3970},
+  publisher = {USENIX Association},
+  title = {{Formally verified memory protection for a commodity multiprocessor hypervisor}},
+  url = {https://www.usenix.org/conference/usenixsecurity21/presentation/li-shih-wei},
+  year = {2021}
+}
+
 @inproceedings{lie:secpri:2003,
   author = {David Lie and John C. Mitchell and Chandramohan A. Thekkath and Mark Horowitz},
   booktitle = {2003 Symposium on Security and Privacy, 2003.},
@@ -5354,6 +6045,37 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2019}
 }
 
+@inproceedings{lifshitz:wish:2011,
+  address = {Chamonix, France},
+  author = {Yair Lifshitz and Robert Cohn and Inbal Livni and Omer Tabach and Mark Charney and Kim Hazelwood},
+  booktitle = {3rd Workshop on Infrastructures for Software/Hardware Co-Design},
+  month = {April},
+  series = {WISH-3},
+  title = {{Zsim: A Fast Architectural Simulator for ISA Design-Space Exploration}},
+  year = {2011}
+}
+
+@article{lim:toplas:2013,
+  abstract = {This article describes the design and implementation of a system, called TSL (for Transformer Specification Language), that provides a systematic solution to the problem of creating retargetable tools for analyzing machine code. TSL is a tool generator--that is, a metatool--that automatically creates different abstract interpreters for machine-code instruction sets.The most challenging technical issue that we faced in designing TSL was how to automate the generation of the set of abstract transformers for a given abstract interpretation of a given instruction set. From a description of the concrete operational semantics of an instruction set, together with the datatypes and operations that define an abstract domain, TSL automatically creates the set of abstract transformers for the instructions of the instruction set. TSL advances the state-of-the-art in program analysis because it provides two dimensions of parameterizability: (i) a given analysis component can be retargeted to different instruction sets; (ii) multiple analysis components can be created automatically from a single specification of the concrete operational semantics of the language to be analyzed.TSL is an abstract-transformer-generator generator. The article describes the principles behind TSL, and discusses how one uses TSL to develop different abstract interpreters.},
+  address = {New York, NY, USA},
+  articleno = {4},
+  author = {Junghee Lim and Thomas Reps},
+  doi = {10.1145/2450136.2450139},
+  issn = {0164-0925},
+  issue_date = {April 2013},
+  journal = {ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  keywords = {Abstract interpretation, dataflow analysis, dynamic analysis, static analysis, symbolic analysis, machine-code analysis},
+  link = {https://doi.org/10.1145/2450136.2450139},
+  month = {apr},
+  number = {1},
+  numpages = {59},
+  publisher = {Association for Computing Machinery},
+  title = {{TSL: A system for generating abstract interpreters and its application to machine-code analysis}},
+  url = {https://doi.org/10.1145/2450136.2450139},
+  volume = {35},
+  year = {2013}
+}
+
 @inproceedings{lin:sdr:2006,
   abstract = {High-throughput, low-power Software Defined Radio(SDR) solutions require multi-core SIMD DSP processors to meet real-time performance requirements. Given the difficulty in programming traditional DSPs, these new multi-core signal processors provide even greater challenges for programmers and compilers. In this paper, we describe SPEX, a programming language which is aimed at narrowing the semantic gap between the description of complex SDR systems and their implementations. SPEX supports three different types of programming semantics, allowing SDR solutions to be developed with a divide-and-conquer approach. For DSP algorithm kernels, SPEX is able to support DSP arithmetics and first-class vector and matrix variables with sequential language semantics. From wireless protocol channels, it is able to support sequences of data-processing computations with dataflow language semantics. And for protocol systems, it is able to support real-time deadlines and concurrent executions with synchronous language semantics. The design choices are motivated by our experience implementing W-CDMA protocol on a reprogrammable substrate. In the paper, we also briefly explain SPEX's compilation strategies.},
   affiliation = {ARM Ltd and University of Michigan},
@@ -5417,6 +6139,15 @@ Online:  http://dx.doi.org/10.1007/b99688},
   month = {January},
   title = {{Meltdown}},
   year = {2018}
+}
+
+@misc{liu:arxiv:2021,
+  archiveprefix = {arXiv},
+  author = {Yuandong Cyrus Liu and Chengbin Pang and Daniel Dietsch and Eric Koskinen and Ton-Chanh Le and Georgios Portokalidis and Jun Xu},
+  eprint = {2105.05159},
+  primaryclass = {cs.PL},
+  title = {{Proving LTL properties of bitvector programs and decompiled binaries (extended)}},
+  year = {2021}
 }
 
 @inproceedings{liu:cpsspc:2018,
@@ -5547,6 +6278,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Quantifying information flow}},
   volume = {},
   year = {2002}
+}
+
+@inproceedings{luk:pldi:2005,
+  abstract = {Robust and powerful software instrumentation tools are essential for program analysis tasks such as profiling, performance evaluation, and bug detection. To meet this need, we have developed a new instrumentation system called Pin. Our goals are to provide easy-to-use, portable, transparent, and efficient instrumentation. Instrumentation tools (called Pintools) are written in C/C++ using Pin's rich API. Pin follows the model of ATOM, allowing the tool writer to analyze an application at the instruction level without the need for detailed knowledge of the underlying instruction set. The API is designed to be architecture independent whenever possible, making Pintools source compatible across different architectures. However, a Pintool can access architecture-specific details when necessary. Instrumentation with Pin is mostly transparent as the application and Pintool observe the application's original, uninstrumented behavior. Pin uses dynamic compilation to instrument executables while they are running. For efficiency, Pin uses several techniques, including inlining, register re-allocation, liveness analysis, and instruction scheduling to optimize instrumentation. This fully automated approach delivers significantly better instrumentation performance than similar tools. For example, Pin is 3.3x faster than Valgrind and 2x faster than DynamoRIO for basic-block counting. To illustrate Pin's versatility, we describe two Pintools in daily use to analyze production software. Pin is publicly available for Linux platforms on four architectures: IA32 (32-bit x86), EM64T (64-bit x86), Itanium\textregistered , and ARM. In the ten months since Pin 2 was released in July 2004, there have been over 3000 downloads from its website.},
+  address = {New York, NY, USA},
+  author = {Chi-Keung Luk and Robert Cohn and Robert Muth and Harish Patil and Artur Klauser and Geoff Lowney and Steven Wallace and Vijay Janapa Reddi and Kim Hazelwood},
+  booktitle = {Proceedings of the 2005 ACM SIGPLAN Conference on Programming Language Design and Implementation},
+  doi = {10.1145/1065010.1065034},
+  isbn = {1595930566},
+  keywords = {program analysis tools, instrumentation, dynamic compilation},
+  link = {https://doi.org/10.1145/1065010.1065034},
+  location = {Chicago, IL, USA},
+  numpages = {11},
+  pages = {190-200},
+  publisher = {Association for Computing Machinery},
+  series = {PLDI '05},
+  title = {{Pin: Building customized program analysis tools with dynamic instrumentation}},
+  url = {https://doi.org/10.1145/1065010.1065034},
+  year = {2005}
 }
 
 @inproceedings{lustig:asplos:2016,
@@ -5711,6 +6461,19 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2000}
 }
 
+@inproceedings{marco:cav:2021,
+  abstract = {Most existing program verifiers check trace properties such as functional correctness, but do not support the verification of hyperproperties, in particular, information flow security. In principle, product programs allow one to reduce the verification of hyperproperties to trace properties and, thus, apply standard verifiers to check them; in practice, product constructions are usually defined only for simple programming languages without features like dynamic method binding or concurrency and, consequently, cannot be directly applied to verify information flow security in a full-fledged language. However, many existing verifiers encode programs from source languages into simple intermediate verification languages, which opens up the possibility of constructing a product program on the intermediate language level, reusing the existing encoding and drastically reducing the effort required to develop new verification tools for information flow security.},
+  address = {Cham},
+  author = {Marco Eilers and Severin Meier and Peter Müller},
+  booktitle = {Computer Aided Verification},
+  editor = {Silva, Alexandra and Leino, K. Rustan M.},
+  isbn = {978-3-030-81685-8},
+  pages = {718-741},
+  publisher = {Springer International Publishing},
+  title = {{Product programs in the wild: Retrofitting program verifiers to check information flow security}},
+  year = {2021}
+}
+
 @inproceedings{martignoni:asplos:2012,
   acmid = {2151012},
   address = {New York, NY, USA},
@@ -5725,6 +6488,26 @@ Online:  http://dx.doi.org/10.1007/b99688},
   publisher = {ACM},
   series = {ASPLOS XVII},
   title = {{Path-exploration lifting: Hi-fi tests for lo-fi emulators}},
+  year = {2012}
+}
+
+@article{martin:isca:2012,
+  abstract = {Over the past two decades, several microarchitectural side channels have been exploited to create sophisticated security attacks. Solutions to this problem have mainly focused on fixing the source of leaks either by limiting the flow of information through the side channel by modifying hardware, or by refactoring vulnerable software to protect sensitive data from leaking. These solutions are reactive and not preventative: while the modifications may protect against a single attack, they do nothing to prevent future side channel attacks that exploit other microarchitectural side channels or exploit the same side channel in a novel way.In this paper we present a general mitigation strategy that focuses on the infrastructure used to measure side channel leaks rather than the source of leaks, and thus applies to all known and unknown microarchitectural side channel leaks. Our approach is to limit the fidelity of fine grain timekeeping and performance counters, making it difficult for an attacker to distinguish between different microarchitectural events, thus thwarting attacks. We demonstrate the strength of our proposed security modifications, and validate that our changes do not break existing software. Our proposed changes require minor - or in some cases, no - hardware modifications and do not result in any substantial performance degradation, yet offer the most comprehensive protection against microarchitectural side channels to date.},
+  address = {New York, NY, USA},
+  author = {Robert Martin and John Demme and Simha Sethumadhavan},
+  doi = {10.1145/2366231.2337173},
+  issn = {0163-5964},
+  issue_date = {June 2012},
+  journal = {SIGARCH Comput. Archit. News},
+  link = {https://doi.org/10.1145/2366231.2337173},
+  month = {June},
+  number = {3},
+  numpages = {12},
+  pages = {118-129},
+  publisher = {Association for Computing Machinery},
+  title = {{TimeWarp: Rethinking timekeeping and performance monitoring mechanisms to mitigate side-channel attacks}},
+  url = {https://doi.org/10.1145/2366231.2337173},
+  volume = {40},
   year = {2012}
 }
 
@@ -5982,6 +6765,26 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {1999}
 }
 
+@article{mukherjee:oopsla:2020,
+  abstract = {Superoptimization is a compilation strategy that uses search to improve code quality, rather than relying on a canned sequence of transformations, as traditional optimizing compilers do. This search can be seen as a program synthesis problem: from unoptimized code serving as a specification, the synthesis procedure attempts to create a more efficient implementation. An important family of synthesis algorithms works by enumerating candidates and then successively checking if each refines the specification, using an SMT solver. The contribution of this paper is a pruning technique which reduces the enumerative search space using fast dataflow-based techniques to discard synthesis candidates that contain symbolic constants and uninstantiated instructions. We demonstrate the effectiveness of this technique by improving the runtime of an enumerative synthesis procedure in the Souper superoptimizer for the LLVM intermediate representation. The techniques presented in this paper eliminate 65\% of the solver calls made by Souper, making it 2.32x faster (14.54 hours vs 33.76 hours baseline, on a large multicore) at solving all 269,113 synthesis problems that Souper encounters when optimizing the C and C++ programs from SPEC CPU 2017.},
+  address = {New York, NY, USA},
+  articleno = {177},
+  author = {Manasij Mukherjee and Pranav Kant and Zhengyang Liu and John Regehr},
+  doi = {10.1145/3428245},
+  issue_date = {November 2020},
+  journal = {Proc. ACM Program. Lang.},
+  keywords = {abstract interpretation, program synthesis, pruning, superoptimization},
+  link = {https://doi.org/10.1145/3428245},
+  month = {nov},
+  number = {OOPSLA},
+  numpages = {24},
+  publisher = {Association for Computing Machinery},
+  title = {{Dataflow-based pruning for speeding up superoptimization}},
+  url = {https://doi.org/10.1145/3428245},
+  volume = {4},
+  year = {2020}
+}
+
 @inproceedings{muller:vmcai:2016,
   abstract = {The automation of verification techniques based on first-order logic specifications has benefitted greatly from verification infrastructures such as Boogie and Why. These offer an intermediate language that can express diverse language features and verification techniques, as well as back-end tools: in particular, verification condition generators.},
   address = {Berlin, Heidelberg},
@@ -5994,6 +6797,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   publisher = {Springer Berlin Heidelberg},
   title = {{Viper: A verification infrastructure for permission-based reasoning}},
   year = {2016}
+}
+
+@inproceedings{mulligan:icfp:2014,
+  abstract = {Recent years have seen remarkable successes in rigorous engineering: using mathematically rigorous semantic models (not just idealised calculi) of real-world processors, programming languages, protocols, and security mechanisms, for testing, proof, analysis, and design. Building these models is challenging, requiring experimentation, dialogue with vendors or standards bodies, and validation; their scale adds engineering issues akin to those of programming to the task of writing clear and usable mathematics. But language and tool support for specification is lacking. Proof assistants can be used but bring their own difficulties, and a model produced in one, perhaps requiring many person-years effort and maintained over an extended period, cannot be used by those familiar with another.We introduce Lem, a language for engineering reusable large-scale semantic models. The Lem design takes inspiration both from functional programming languages and from proof assistants, and Lem definitions are translatable into OCaml for testing, Coq, HOL4, and Isabelle/HOL for proof, and LaTeX and HTML for presentation. This requires a delicate balance of expressiveness, careful library design, and implementation of transformations - akin to compilation, but subject to the constraint of producing usable and human-readable code for each target. Lem's effectiveness is demonstrated by its use in practice.},
+  address = {New York, NY, USA},
+  author = {Dominic P. Mulligan and Scott Owens and Kathryn E. Gray and Tom Ridge and Peter Sewell},
+  booktitle = {Proceedings of the 19th ACM SIGPLAN International Conference on Functional Programming},
+  doi = {10.1145/2628136.2628143},
+  isbn = {9781450328739},
+  keywords = {lem, real-world semantics, specification languages, proof assistants},
+  link = {https://doi.org/10.1145/2628136.2628143},
+  location = {Gothenburg, Sweden},
+  numpages = {14},
+  pages = {175-188},
+  publisher = {Association for Computing Machinery},
+  series = {ICFP '14},
+  title = {{Lem: Reusable engineering of real-world semantics}},
+  url = {https://doi.org/10.1145/2628136.2628143},
+  year = {2014}
 }
 
 @inproceedings{murray:secdev:2018,
@@ -6064,6 +6886,32 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2004}
 }
 
+@inproceedings{myreen:fse:2007,
+  abstract = {This paper shows how a machine-code Hoare logic is used to lift reasoning from the tedious operational model of a machine language to a manageable level of abstraction without making simplifying assumptions. A Hoare logic is placed on top of a high-fidelity model of the ARM instruction set. We show how the generality of ARM instructions is captured by specifications in the logic and how the logic can be used to prove loops and procedures that traverse pointer-based data structures. The presented work has been mechanised in the HOL4 theorem prover and is currently being used to verify ARM machine code implementations of arithmetic and cryptographic operations.},
+  address = {Berlin, Heidelberg},
+  author = {Magnus O. Myreen and Anthony C. J. Fox and Michael J. C. Gordon},
+  booktitle = {International Symposium on Fundamentals of Software Engineering},
+  editor = {Arbab, Farhad and Sirjani, Marjan},
+  isbn = {978-3-540-75698-9},
+  pages = {272-286},
+  publisher = {Springer Berlin Heidelberg},
+  title = {{Hoare logic for ARM machine code}},
+  year = {2007}
+}
+
+@inproceedings{myreen:itp:2011,
+  abstract = {Theorem provers, such as ACL2, HOL, Isabelle and Coq, rely on the correctness of runtime systems for programming languages like ML, OCaml or Common Lisp. These runtime systems are complex and critical to the integrity of the theorem provers.},
+  address = {Berlin, Heidelberg},
+  author = {Magnus O. Myreen and Jared Davis},
+  booktitle = {Interactive Theorem Proving},
+  editor = {van Eekelen, Marko and Geuvers, Herman and Schmaltz, Julien and Wiedijk, Freek},
+  isbn = {978-3-642-22863-6},
+  pages = {265-280},
+  publisher = {Springer Berlin Heidelberg},
+  title = {{A verified runtime for a verified theorem prover}},
+  year = {2011}
+}
+
 @inbook{myreen:itp:2012,
   abstract = {This paper presents a method which simplifies verification of deeply embedded functional programs. We present a technique by which proof-certified equations describing the effect of functional programs (shallow embeddings) can be automatically extracted from their operational semantics. Our method can be used in reverse, i.e. from shallow to deep embeddings, and thus for implementing certifying code synthesis: we have implemented a tool which maps HOL functions to equivalent Lisp functions, for which we have a verified Lisp runtime. A key benefit, in both directions, is that the verifier does not need to understand the operational semantics that gives meanings to the deep embeddings.},
   address = {Berlin, Heidelberg},
@@ -6075,6 +6923,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   publisher = {Springer},
   title = {{Functional programs: Conversions between deep and shallow embeddings}},
   year = {2012}
+}
+
+@inproceedings{myreen:popl:2010,
+  abstract = {This paper presents a method for creating formally correct just-in-time (JIT) compilers. The tractability of our approach is demonstrated through, what we believe is the first, verification of a JIT compiler with respect to a realistic semantics of self-modifying x86 machine code. Our semantics includes a model of the instruction cache. Two versions of the verified JIT compiler are presented: one generates all of the machine code at once, the other one is incremental i.e. produces code on-demand. All proofs have been performed inside the HOL4 theorem prover.},
+  address = {New York, NY, USA},
+  author = {Magnus O. Myreen},
+  booktitle = {Proceedings of the 37th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
+  doi = {10.1145/1706299.1706313},
+  isbn = {9781605584799},
+  keywords = {just in time, self-modifying code, compiler verification},
+  link = {https://doi.org/10.1145/1706299.1706313},
+  location = {Madrid, Spain},
+  numpages = {12},
+  pages = {107-118},
+  publisher = {Association for Computing Machinery},
+  series = {POPL '10},
+  title = {{Verified just-in-time compiler on x86}},
+  url = {https://doi.org/10.1145/1706299.1706313},
+  year = {2010}
 }
 
 @inproceedings{myreen:tphols:2009,
@@ -6228,6 +7095,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2019}
 }
 
+@inproceedings{nethercote:pldi:2007,
+  abstract = {Dynamic binary instrumentation (DBI) frameworks make it easy to build dynamic binary analysis (DBA) tools such as checkers and profilers. Much of the focus on DBI frameworks has been on performance; little attention has been paid to their capabilities. As a result, we believe the potential of DBI has not been fully exploited.In this paper we describe Valgrind, a DBI framework designed for building heavyweight DBA tools. We focus on its unique support for shadow values-a powerful but previously little-studied and difficult-to-implement DBA technique, which requires a tool to shadow every register and memory value with another value that describes it. This support accounts for several crucial design features that distinguish Valgrind from other DBI frameworks. Because of these features, lightweight tools built with Valgrind run comparatively slowly, but Valgrind can be used to build more interesting, heavyweight tools that are difficult or impossible to build with other DBI frameworks such as Pin and DynamoRIO.},
+  address = {New York, NY, USA},
+  author = {Nicholas Nethercote and Julian Seward},
+  booktitle = {Proceedings of the 28th ACM SIGPLAN Conference on Programming Language Design and Implementation},
+  doi = {10.1145/1250734.1250746},
+  isbn = {9781595936332},
+  keywords = {dynamic binary analysis, Memcheck, dynamic binary instrumentation, Valgrind, shadow values},
+  link = {https://doi.org/10.1145/1250734.1250746},
+  location = {San Diego, California, USA},
+  numpages = {12},
+  pages = {89-100},
+  publisher = {Association for Computing Machinery},
+  series = {PLDI '07},
+  title = {{Valgrind: A framework for heavyweight dynamic binary instrumentation}},
+  url = {https://doi.org/10.1145/1250734.1250746},
+  year = {2007}
+}
+
 @misc{nicole:arxiv:2020,
   archiveprefix = {arXiv},
   author = {Olivier Nicole and Matthieu Lemerre and Sébastien Bardin and Xavier Rival},
@@ -6292,6 +7178,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Polymorphic type inference for machine code}},
   url = {https://doi.org/10.1145/2908080.2908119},
   year = {2016}
+}
+
+@inproceedings{nordholz:eurosys:2020,
+  abstract = {Hypervisor implementations such as XMHF, Nova, PROSPER, prplHypervisor, the various L4 descendants, as well as KVM and Xen offer mechanisms for dynamic startup and reconfiguration, including the allocation, delegation and destruction of objects and resources at runtime. Some use cases such as cloud computing depend on this dynamicity, yet its inclusion also renders the state space intractable to simulation-based verification tools. On the other hand, system architectures for embedded devices are often fixed in the number and properties of isolated tasks, therefore a much simpler, less dynamic hypervisor design would suffice. We close this design gap by presenting Phidias, a new hypervisor consisting of a minimal runtime codebase that is almost devoid of dynamicity, and a comprehensive compile-time configuration framework. We then leverage this lack of dynamic components to non-interactively verify the validity of certain invariants. Specifically, we verify hypervisor integrity by subjecting the compiled hypervisor binary to our own symbolic execution engine. Finally, we discuss our results, point out possible improvements, and hint at unexplored characteristics of a static hypervisor design.},
+  address = {New York, NY, USA},
+  articleno = {6},
+  author = {Jan Nordholz},
+  booktitle = {Proceedings of the Fifteenth European Conference on Computer Systems},
+  doi = {10.1145/3342195.3387516},
+  isbn = {9781450368827},
+  keywords = {SAT solving, symbolic execution, hypervisor, embedded},
+  link = {https://doi.org/10.1145/3342195.3387516},
+  location = {Heraklion, Greece},
+  numpages = {16},
+  publisher = {Association for Computing Machinery},
+  series = {EuroSys '20},
+  title = {{Design of a symbolically executable embedded hypervisor}},
+  url = {https://doi.org/10.1145/3342195.3387516},
+  year = {2020}
 }
 
 @inproceedings{nyxbrain:sc2:2017,
@@ -6434,6 +7339,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   pages = {285-290},
   title = {{Decoupling integer execution in superscalar processors}},
   year = {1995}
+}
+
+@inproceedings{paleari:issta:2010,
+  abstract = {The output of a disassembler is used for many different purposes (e.g., debugging and reverse engineering). Therefore, disassemblers represent the first link of a long chain of stages on which any high-level analysis of machine code depends upon. In this paper we demonstrate that many disassemblers fail to decode certain instructions and thus that the first link of the chain is very weak. We present a methodology, called N-version disassembly, to verify the correctness of disassemblers, based on differential analysis. Given a set of n - 1 disassemblers, we use them to decode fragments of machine code and we compare their output against each other. To further corroborate the output of these disassemblers, we developed a special instruction decoder, the nth, that delegates the decoding to the CPU, the ideal decoder. We tested eight of the most popular disassemblers for Intel x86, and found bugs in each of them.},
+  address = {New York, NY, USA},
+  author = {Roberto Paleari and Lorenzo Martignoni and Giampaolo Fresi Roglia and Danilo Bruschi},
+  booktitle = {Proceedings of the 19th International Symposium on Software Testing and Analysis},
+  doi = {10.1145/1831708.1831741},
+  isbn = {9781605588230},
+  keywords = {differential testing, software testing, automatic test generation},
+  link = {https://doi.org/10.1145/1831708.1831741},
+  location = {Trento, Italy},
+  numpages = {10},
+  pages = {265-274},
+  publisher = {Association for Computing Machinery},
+  series = {ISSTA '10},
+  title = {{N-version disassembly: Differential testing of x86 disassemblers}},
+  url = {https://doi.org/10.1145/1831708.1831741},
+  year = {2010}
 }
 
 @inproceedings{pandey:issta:2019,
@@ -6766,6 +7690,41 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2016}
 }
 
+@article{pulte:popl:2017,
+  abstract = {ARM has a relaxed memory model, previously specified in informal prose for ARMv7 and ARMv8. Over time, and partly due to work building formal semantics for ARM concurrency, it has become clear that some of the complexity of the model is not justified by the potential benefits. In particular, the model was originally non-multicopy-atomic: writes could become visible to some other threads before becoming visible to all - but this has not been exploited in production implementations, the corresponding potential hardware optimisations are thought to have insufficient benefits in the ARM context, and it gives rise to subtle complications when combined with other ARMv8 features. The ARMv8 architecture has therefore been revised: it now has a multicopy-atomic model. It has also been simplified in other respects, including more straightforward notions of dependency, and the architecture now includes a formal concurrency model. In this paper we detail these changes and discuss their motivation. We define two formal concurrency models: an operational one, simplifying the Flowing model of Flur et al., and the axiomatic model of the revised ARMv8 specification. The models were developed by an academic group and by ARM staff, respectively, and this extended collaboration partly motivated the above changes. We prove the equivalence of the two models. The operational model is integrated into an executable exploration tool with new web interface, demonstrated by exhaustively checking the possible behaviours of a loop-unrolled version of a Linux kernel lock implementation, a previously known bug due to unprevented speculation, and a fixed version.},
+  address = {New York, NY, USA},
+  articleno = {19},
+  author = {Christopher Pulte and Shaked Flur and Will Deacon and Jon French and Susmit Sarkar and Peter Sewell},
+  doi = {10.1145/3158107},
+  issue_date = {January 2018},
+  journal = {Proc. ACM Program. Lang.},
+  keywords = {Semantics, Operational, Relaxed Memory Models, Axiomatic},
+  link = {https://doi.org/10.1145/3158107},
+  month = {dec},
+  number = {POPL},
+  numpages = {29},
+  publisher = {Association for Computing Machinery},
+  title = {{Simplifying ARM concurrency: Multicopy-atomic axiomatic and operational models for ARMv8}},
+  url = {https://doi.org/10.1145/3158107},
+  volume = {2},
+  year = {2017}
+}
+
+@inproceedings{qin:hpca:2020,
+  abstract = {The advent of Deep Learning (DL) has radically transformed the computing industry across the entire spectrum from algorithms to circuits. As myriad application domains embrace DL, it has become synonymous with a genre of workloads across vision, speech, language, recommendations, robotics, and games. The key compute kernel within most DL workloads is general matrix-matrix multiplications (GEMMs), which appears frequently during both the forward pass (inference and training) and backward pass (training). GEMMs are a natural choice for hardware acceleration to speed up training, and have led to 2D systolic architectures like NVIDIA tensor cores and Google Tensor Processing Unit (TPU). Unfortunately, emerging GEMMs in DL are highly irregular and sparse, which lead to poor data mappings on systolic architectures. This paper proposes SIGMA, a flexible and scalable architecture that offers high utilization of all its processing elements (PEs) regardless of kernel shape and sparsity. Within SIGMA includes a novel reduction tree microarchitecture named Forwarding Adder Network (FAN). SIGMA performs 5.7x better than systolic array architectures for irregular sparse matrices, and roughly 3x better than state-of-the-art sparse accelerators. We demonstrate an instance of SIGMA operating at 10.8 TFLOPS efficiency across arbitrary levels of sparsity, with a 65.10 mm\^{}2 and 22.33 W footprint on a 28 nm process.},
+  author = {Eric Qin and Ananda Samajdar and Hyoukjun Kwon and Vineet Nadella and Sudarshan Srinivasan and Dipankar Das and Bharat Kaul and Tushar Krishna},
+  booktitle = {2020 IEEE International Symposium on High Performance Computer Architecture (HPCA)},
+  doi = {10.1109/HPCA47549.2020.00015},
+  issn = {2378-203X},
+  keywords = {},
+  month = {Feb},
+  number = {},
+  pages = {58-70},
+  title = {{SIGMA: A sparse and irregular GEMM accelerator with flexible interconnects for DNN training}},
+  volume = {},
+  year = {2020}
+}
+
 @inproceedings{qin:pldi:2020,
   address = {New York, NY, USA},
   author = {Boqin Qin and Yilun Chen and Zeming Yu and Linhai Song and Yiying Zhang},
@@ -6883,6 +7842,18 @@ Online:  http://dx.doi.org/10.1007/b99688},
   url = {https://doi.org/10.1145/256167.256225},
   volume = {19},
   year = {1997}
+}
+
+@inproceedings{ramsey:usenix:1995,
+  address = {New Orleans, LA},
+  author = {Norman Ramsey and Mary F. Fernandez},
+  booktitle = {USENIX 1995 Technical Conference (USENIX 1995 Technical Conference)},
+  link = {https://www.usenix.org/conference/usenix-1995-technical-conference/new-jersey-machine-code-toolkit},
+  month = {January},
+  publisher = {USENIX Association},
+  title = {{The New Jersey machine-code toolkit}},
+  url = {https://www.usenix.org/conference/usenix-1995-technical-conference/new-jersey-machine-code-toolkit},
+  year = {1995}
 }
 
 @inproceedings{rath:epiq:2018,
@@ -7265,6 +8236,7 @@ Online:  http://dx.doi.org/10.1007/b99688},
   numpages = {161},
   school = {School of Computing Science, University of Glasgow},
   title = {{Defining interfaces between hardware and software: Quality and performance}},
+  url = {http://theses.gla.ac.uk/41068/},
   year = {2019}
 }
 
@@ -7365,6 +8337,25 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2014}
 }
 
+@inproceedings{rondon:pldi:2008,
+  abstract = {We present Logically Qualified Data Types, abbreviated to Liquid Types, a system that combines Hindley-Milner type inference with Predicate Abstraction to automatically infer dependent types precise enough to prove a variety of safety properties. Liquid types allow programmers to reap many of the benefits of dependent types, namely static verification of critical properties and the elimination of expensive run-time checks, without the heavy price of manual annotation. We have implemented liquid type inference in DSOLVE, which takes as input an OCAML program and a set of logical qualifiers and infers dependent types for the expressions in the OCAML program. To demonstrate the utility of our approach, we describe experiments using DSOLVE to statically verify the safety of array accesses on a set of OCAML benchmarks that were previously annotated with dependent types as part of the DML project. We show that when used in conjunction with a fixed set of array bounds checking qualifiers, DSOLVE reduces the amount of manual annotation required for proving safety from 31\% of program text to under 1\%.},
+  address = {New York, NY, USA},
+  author = {Patrick M. Rondon and Ming Kawaguci and Ranjit Jhala},
+  booktitle = {Proceedings of the 29th ACM SIGPLAN Conference on Programming Language Design and Implementation},
+  doi = {10.1145/1375581.1375602},
+  isbn = {9781595938602},
+  keywords = {predicate abstraction, dependent types, type inference, hindley-milner},
+  link = {https://doi.org/10.1145/1375581.1375602},
+  location = {Tucson, AZ, USA},
+  numpages = {11},
+  pages = {159-169},
+  publisher = {Association for Computing Machinery},
+  series = {PLDI '08},
+  title = {{Liquid types}},
+  url = {https://doi.org/10.1145/1375581.1375602},
+  year = {2008}
+}
+
 @inproceedings{roy:fse:2018,
   abstract = {In spite of decades of research in bug detection tools, there is a surprising dearth of ground-truth corpora that can be used to evaluate the efficacy of such tools. Recently, systems such as LAVA and EvilCoder have been proposed to automatically inject bugs into software to quickly generate large bug corpora, but the bugs created so far differ from naturally occurring bugs in a number of ways. In this work, we propose a new automated bug injection system, Apocalypse, that uses formal techniques-symbolic execution, constraint-based program synthesis and model counting-to automatically inject fair (can potentially be discovered by current bug-detection tools), deep (requiring a long sequence of dependencies to be satisfied to fire), uncorrelated (each bug behaving independent of others), reproducible (a trigger input being available) and rare (can be triggered by only a few program inputs) bugs in large software code bases. In our evaluation, we inject bugs into thirty Coreutils programs as well as the TCAS test suite. We find that bugs synthesized by Apocalypse are highly realistic under a variety of metrics, that they do not favor a particular bug-finding strategy (unlike bugs produced by LAVA), and that they are more difficult to find than manually injected bugs, requiring up around 240\texttimes  more tests to discover with a state-of-the-art symbolic execution tool.},
   address = {New York, NY, USA},
@@ -7395,6 +8386,16 @@ Online:  http://dx.doi.org/10.1007/b99688},
   publisher = {Springer International Publishing},
   title = {{Specification: The biggest bottleneck in formal methods and autonomy}},
   year = {2016}
+}
+
+@article{rudra:sosp:2021,
+  author = {Not yet public},
+  booktitle = {28th ACM Symposium on Operating System Principles (SOSP'21)},
+  link = {https://doi.org/10.1145/2408776.2408794},
+  publisher = {Association for Computing Machinery},
+  title = {{Rudra: Finding memory safety bugs in Rust at the Ecosystem scale}},
+  url = {https://github.com/sslab-gatech/Rudra},
+  year = {2021}
 }
 
 @techreport{rushby:sri:1992,
@@ -7582,6 +8583,24 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2021}
 }
 
+@inproceedings{sanchez:isca:2013,
+  abstract = {Architectural simulation is time-consuming, and the trend towards hundreds of cores is making sequential simulation even slower. Existing parallel simulation techniques either scale poorly due to excessive synchronization, or sacrifice accuracy by allowing event reordering and using simplistic contention models. As a result, most researchers use sequential simulators and model small-scale systems with 16-32 cores. With 100-core chips already available, developing simulators that scale to thousands of cores is crucial.We present three novel techniques that, together, make thousand-core simulation practical. First, we speed up detailed core models (including OOO cores) with instruction-driven timing models that leverage dynamic binary translation. Second, we introduce bound-weave, a two-phase parallelization technique that scales parallel simulation on multicore hosts efficiently with minimal loss of accuracy. Third, we implement lightweight user-level virtualization to support complex workloads, including multiprogrammed, client-server, and managed-runtime applications, without the need for full-system simulation, sidestepping the lack of scalable OSs and ISAs that support thousands of cores.We use these techniques to build zsim, a fast, scalable, and accurate simulator. On a 16-core host, zsim models a 1024-core chip at speeds of up to 1,500 MIPS using simple cores and up to 300 MIPS using detailed OOO cores, 2-3 orders of magnitude faster than existing parallel simulators. Simulator performance scales well with both the number of modeled cores and the number of host cores. We validate zsim against a real Westmere system on a wide variety of workloads, and find performance and microarchitectural events to be within a narrow range of the real system.},
+  address = {New York, NY, USA},
+  author = {Daniel Sanchez and Christos Kozyrakis},
+  booktitle = {Proceedings of the 40th Annual International Symposium on Computer Architecture},
+  doi = {10.1145/2485922.2485963},
+  isbn = {9781450320795},
+  link = {https://doi.org/10.1145/2485922.2485963},
+  location = {Tel-Aviv, Israel},
+  numpages = {12},
+  pages = {475-486},
+  publisher = {Association for Computing Machinery},
+  series = {ISCA '13},
+  title = {{ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems}},
+  url = {https://doi.org/10.1145/2485922.2485963},
+  year = {2013}
+}
+
 @article{sardar:access:2021,
   abstract = {In August 2020, Intel asked the research community for feedback on the newly offered architecture extensions, called Intel Trust Domain Extensions (TDX), which give more control to Trust Domains (TDs) over processor resources. One of the key features of these extensions is the remote attestation mechanism, which provides a unified report verification mechanism for TDX and its predecessor Software Guard Extensions (SGX). Based on our experience and intuition, we respond to the request for feedback by formally specifying the attestation mechanism in the TDX using ProVerif's specification language. Although the TDX technology seems very promising, the process of formal specification reveals a number of subtle discrepancies in Intel's specifications that could potentially lead to design and implementation flaws. After resolving these discrepancies, we also present fully automated proofs that our specification of TD attestation preserves the confidentiality of the secret and authentication of the report by considering the state-of-the-art Dolev-Yao adversary in the symbolic model using ProVerif. We have submitted the draft to Intel, and Intel is in the process of making the changes.},
   author = {Muhammad Usama Sardar and Saidgani Musaev and Christof Fetzer},
@@ -7749,6 +8768,47 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2007}
 }
 
+@article{sevcik:jacm:2013,
+  abstract = {In this article, we consider the semantic design and verified compilation of a C-like programming language for concurrent shared-memory computation on x86 multiprocessors. The design of such a language is made surprisingly subtle by several factors: the relaxed-memory behavior of the hardware, the effects of compiler optimization on concurrent code, the need to support high-performance concurrent algorithms, and the desire for a reasonably simple programming model. In turn, this complexity makes verified compilation both essential and challenging.We describe ClightTSO, a concurrent extension of CompCert's Clight in which the TSO-based memory model of x86 multiprocessors is exposed for high-performance code, and CompCertTSO, a formally verified compiler from ClightTSO to x86 assembly language, building on CompCert. CompCertTSO is verified in Coq: for any well-behaved and successfully compiled ClightTSO source program, any permitted observable behavior of the generated assembly code (if it does not run out of memory) is also possible in the source semantics. We also describe some verified fence-elimination optimizations, integrated into CompCertTSO.},
+  address = {New York, NY, USA},
+  articleno = {22},
+  author = {Jaroslav Ševčík and Viktor Vafeiadis and Francesco Zappa Nardelli and Suresh Jagannathan and Peter Sewell},
+  doi = {10.1145/2487241.2487248},
+  issn = {0004-5411},
+  issue_date = {June 2013},
+  journal = {J. ACM},
+  keywords = {semantics, verified compilation, Relaxed memory models},
+  link = {https://doi.org/10.1145/2487241.2487248},
+  month = {jun},
+  number = {3},
+  numpages = {50},
+  publisher = {Association for Computing Machinery},
+  title = {{CompCertTSO: A verified compiler for relaxed-memory concurrency}},
+  url = {https://doi.org/10.1145/2487241.2487248},
+  volume = {60},
+  year = {2013}
+}
+
+@article{sewell:cacm:2010,
+  abstract = {Exploiting the multiprocessors that have recently become ubiquitous requires high-performance and reliable concurrent systems code, for concurrent data structures, operating system kernels, synchronization libraries, compilers, and so on. However, concurrent programming, which is always challenging, is made much more so by two problems. First, real multiprocessors typically do not provide the sequentially consistent memory that is assumed by most work on semantics and verification. Instead, they have relaxed memory models, varying in subtle ways between processor families, in which different hardware threads may have only loosely consistent views of a shared memory. Second, the public vendor architectures, supposedly specifying what programmers can rely on, are often in ambiguous informal prose (a particularly poor medium for loose specifications), leading to widespread confusion.In this paper we focus on x86 processors. We review several recent Intel and AMD specifications, showing that all contain serious ambiguities, some are arguably too weak to program above, and some are simply unsound with respect to actual hardware. We present a new x86-TSO programmer's model that, to the best of our knowledge, suffers from none of these problems. It is mathematically precise (rigorously defined in HOL4) but can be presented as an intuitive abstract machine which should be widely accessible to working programmers. We illustrate how this can be used to reason about the correctness of a Linux spinlock implementation and describe a general theory of data-race freedom for x86-TSO. This should put x86 multiprocessor system building on a more solid foundation; it should also provide a basis for future work on verification of such systems.},
+  address = {New York, NY, USA},
+  author = {Peter Sewell and Susmit Sarkar and Scott Owens and Francesco Zappa Nardelli and Magnus O. Myreen},
+  doi = {10.1145/1785414.1785443},
+  issn = {0001-0782},
+  issue_date = {July 2010},
+  journal = {Communications of the ACM},
+  link = {https://doi.org/10.1145/1785414.1785443},
+  month = {jul},
+  number = {7},
+  numpages = {9},
+  pages = {89-97},
+  publisher = {Association for Computing Machinery},
+  title = {{x86-TSO: A rigorous and usable programmer's model for x86 multiprocessors}},
+  url = {https://doi.org/10.1145/1785414.1785443},
+  volume = {53},
+  year = {2010}
+}
+
 @inproceedings{sewell:pldi:2013,
   author = {Thomas Arthur Leck Sewell and Magnus O. Myreen and Gerwin Klein},
   bibsource = {dblp computer science bibliography, http://dblp.org},
@@ -7801,6 +8861,15 @@ Online:  http://dx.doi.org/10.1007/b99688},
   year = {2013}
 }
 
+@misc{shazeer:arxiv:2017,
+  archiveprefix = {arXiv},
+  author = {Noam Shazeer and Azalia Mirhoseini and Krzysztof Maziarz and Andy Davis and Quoc Le and Geoffrey Hinton and Jeff Dean},
+  eprint = {1701.06538},
+  primaryclass = {cs.LG},
+  title = {{Outrageously large neural networks: The sparsely-gated mixture-of-experts layer}},
+  year = {2017}
+}
+
 @inproceedings{sheeran:fmcad:2000,
   abstract = {We take a fresh look at the problem of how to check safety properties of finite state machines. We are particularly interested in checking safety properties with the help of a SAT-solver. We describe some novel induction-based methods, and show how they are related to more standard fixpoint algorithms for invariance checking. We also present preliminary experimental results in the verification of FPGA cores. This demonstrates the practicality of combining a SAT-solver with induction for safety property checking of hardware in a real design flow.},
   address = {Berlin, Heidelberg},
@@ -7828,21 +8897,6 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{Certification of an instruction set simulator}},
   url = {https://tel.archives-ouvertes.fr/tel-00937524},
   year = {2013}
-}
-
-@inproceedings{shoshitaishvili:sandp:2016,
-  abstract = {Finding and exploiting vulnerabilities in binary code is a challenging task. The lack of high-level, semantically rich information about data structures and control constructs makes the analysis of program properties harder to scale. However, the importance of binary analysis is on the rise. In many situations binary analysis is the only possible way to prove (or disprove) properties about the code that is actually executed. In this paper, we present a binary analysis framework that implements a number of analysis techniques that have been proposed in the past. We present a systematized implementation of these techniques, which allows other researchers to compose them and develop new approaches. In addition, the implementation of these techniques in a unifying framework allows for the direct comparison of these apporaches and the identification of their advantages and disadvantages. The evaluation included in this paper is performed using a recent dataset created by DARPA for evaluating the effectiveness of binary vulnerability analysis techniques. Our framework has been open-sourced and is available to the security community.},
-  author = {Yan Shoshitaishvili and Ruoyu Wang and Christopher Salls and Nick Stephens and Mario Polino and Andrew Dutcher and John Grosen and Siji Feng and Christophe Hauser and Christopher Kruegel and Giovanni Vigna},
-  booktitle = {2016 IEEE Symposium on Security and Privacy (SP)},
-  doi = {10.1109/SP.2016.17},
-  issn = {2375-1207},
-  keywords = {program diagnostics;security of data;binary vulnerability analysis technique;binary code;data structure;DARPA;Computer bugs;Semantics;Security;Binary codes;Engines;Operating systems;attacks and defenses;security architectures;system security},
-  month = {May},
-  number = {},
-  pages = {138-157},
-  title = {{SOK: (State of) the art of war: Offensive techniques in binary analysis}},
-  volume = {},
-  year = {2016}
 }
 
 @inproceedings{shoshitaishvili:sp:2016,
@@ -7918,6 +8972,19 @@ Online:  http://dx.doi.org/10.1007/b99688},
   title = {{A comparative study of SYCL, OpenCL, and OpenMP}},
   volume = {},
   year = {2016}
+}
+
+@inproceedings{simner:pls:2020,
+  abstract = {Computing relies on architecture specifications to decouple hardware and software development. Historically these have been prose documents, with all the problems that entails, but research over the last ten years has developed rigorous and executable-as-test-oracle specifications of mainstream architecture instruction sets and ``user-mode'' concurrency, clarifying architectures and bringing them into the scope of programming-language semantics and verification. However, the system semantics, of instruction-fetch and cache maintenance, exceptions and interrupts, and address translation, remains obscure, leaving us without a solid foundation for verification of security-critical systems software.},
+  address = {Cham},
+  author = {Ben Simner and Shaked Flur and Christopher Pulte and Alasdair Armstrong and Jean Pichon-Pharabod and Luc Maranget and Peter Sewell},
+  booktitle = {Programming Languages and Systems},
+  editor = {Müller, Peter},
+  isbn = {978-3-030-44914-8},
+  pages = {626-655},
+  publisher = {Springer International Publishing},
+  title = {{ARMv8-A system semantics: Instruction fetch in relaxed architectures}},
+  year = {2020}
 }
 
 @inproceedings{skorstengaard:esop:2018,
@@ -8051,6 +9118,25 @@ and Zucca, Elena},
   title = {{Decoupled access/execute computer architectures}},
   volume = {2},
   year = {1984}
+}
+
+@inproceedings{song:iciss:2008,
+  abstract = {In this paper, we give an overview of the BitBlaze project, a new approach to computer security via binary analysis. In particular, BitBlaze focuses on building a unified binary analysis platform and using it to provide novel solutions to a broad spectrum of different security problems. The binary analysis platform is designed to enable accurate analysis, provide an extensible architecture, and combines static and dynamic analysis as well as program verification techniques to satisfy the common needs of security applications. By extracting security-related properties from binary programs directly, BitBlaze enables a principled, root-cause based approach to computer security, offering novel and effective solutions, as demonstrated with over a dozen different security applications.},
+  address = {Berlin, Heidelberg},
+  author = {Dawn Song and David Brumley and Heng Yin and Juan Caballero and Ivan Jager and Min Gyung Kang and Zhenkai Liang and James Newsome and Pongsin Poosankam and Prateek Saxena},
+  booktitle = {Proceedings of the 4th International Conference on Information Systems Security},
+  doi = {10.1007/978-3-540-89862-7_1},
+  isbn = {9783540898610},
+  keywords = {Binary analysis, malware analysis and defense, reverse engineering, vulnerability analysis and defense},
+  link = {https://doi.org/10.1007/978-3-540-89862-7_1},
+  location = {Hyderabad, India},
+  numpages = {25},
+  pages = {1-25},
+  publisher = {Springer-Verlag},
+  series = {ICISS '08},
+  title = {{BitBlaze: A new approach to computer security via binary analysis}},
+  url = {https://doi.org/10.1007/978-3-540-89862-7_1},
+  year = {2008}
 }
 
 @inproceedings{spencer:security:1999,
@@ -8188,6 +9274,19 @@ and Zucca, Elena},
   year = {2001}
 }
 
+@inproceedings{syeda:itp:2018,
+  abstract = {Operating system (OS) kernels achieve isolation between user-level processes using multi-level page tables and translation lookaside buffers (TLBs). Controlling the TLB correctly is a fundamental security property--yet all large-scale formal OS verification projects leave correct functionality of the TLB as an assumption. We present a logic for reasoning about low-level programs in the presence of TLB address translation. We extract invariants and necessary conditions for correct TLB operation that mirror the informal reasoning of OS engineers. Our program logic reduces to a standard logic for user-level reasoning, reduces to side-condition checks for kernel-level reasoning, and can handle typical OS kernel tasks such as context switching and page table manipulations.},
+  address = {Cham},
+  author = {Hira Taqdees Syeda and Gerwin Klein},
+  booktitle = {Interactive Theorem Proving},
+  editor = {Avigad, Jeremy and Mahboubi, Assia},
+  isbn = {978-3-319-94821-8},
+  pages = {542-559},
+  publisher = {Springer International Publishing},
+  title = {{Program verification in the presence of cached address translation}},
+  year = {2018}
+}
+
 @article{systemverilog:ieee:2013,
   author = {IEEE},
   doi = {10.1109/IEEESTD.2013.6469140},
@@ -8217,6 +9316,25 @@ and Zucca, Elena},
   doi = {10.23919/FMCAD.2019.8894252},
   title = {{Scalable translation validation of unverified legacy OS code}},
   year = {2019}
+}
+
+@inproceedings{tan:icfp:2016,
+  abstract = {We have developed and mechanically verified a new compiler backend for CakeML. Our new compiler features a sequence of intermediate languages that allows it to incrementally compile away high-level features and enables verification at the right levels of semantic detail. In this way, it resembles mainstream (unverified) compilers for strict functional languages. The compiler supports efficient curried multi-argument functions, configurable data representations, exceptions that unwind the call stack, register allocation, and more. The compiler targets several architectures: x86-64, ARMv6, ARMv8, MIPS-64, and RISC-V. In this paper, we present the overall structure of the compiler, including its 12 intermediate languages, and explain how everything fits together. We focus particularly on the interaction between the verification of the register allocator and the garbage collector, and memory representations. The entire development has been carried out within the HOL4 theorem prover.},
+  address = {New York, NY, USA},
+  author = {Yong Kiam Tan and Magnus O. Myreen and Ramana Kumar and Anthony Fox and Scott Owens and Michael Norrish},
+  booktitle = {Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming},
+  doi = {10.1145/2951913.2951924},
+  isbn = {9781450342193},
+  keywords = {verified optimisations, Compiler verification, ML},
+  link = {https://doi.org/10.1145/2951913.2951924},
+  location = {Nara, Japan},
+  numpages = {14},
+  pages = {60-73},
+  publisher = {Association for Computing Machinery},
+  series = {ICFP 2016},
+  title = {{A new verified compiler backend for CakeML}},
+  url = {https://doi.org/10.1145/2951913.2951924},
+  year = {2016}
 }
 
 @inproceedings{tang:sec:2017,
@@ -8253,6 +9371,25 @@ and Zucca, Elena},
   title = {{Execution levels for aspect-oriented programming}},
   url = {https://doi.org/10.1145/1739230.1739236},
   year = {2010}
+}
+
+@inproceedings{tao:sosp:2021,
+  abstract = {Concurrent systems software is widely-used, complex, and error-prone, posing a significant security risk. We introduce VRM, a new framework that makes it possible for the first time to verify concurrent systems software, such as operating systems and hypervisors, on Arm relaxed memory hardware. VRM defines a set of synchronization and memory access conditions such that a program that satisfies these conditions can be mostly verified on a sequentially consistent hardware model and the proofs will automatically hold on relaxed memory hardware. VRM can be used to verify concurrent kernel code that is not data race free, including code responsible for managing shared page tables in the presence of relaxed MMU hardware. Using VRM, we verify the security guarantees of a retrofitted implementation of the Linux KVM hypervisor on Arm. For multiple versions of KVM, we prove KVM's security properties on a sequentially consistent model, then prove that KVM satisfies VRM's required program conditions such that its security proofs hold on Arm relaxed memory hardware. Our experimental results show that the retrofit and VRM conditions do not adversely affect the scalability of verified KVM, as it performs similar to unmodified KVM when concurrently running many multiprocessor virtual machines with real application workloads on Arm multiprocessor server hardware. Our work is the first machine-checked proof for concurrent systems software on Arm relaxed memory hardware.},
+  address = {New York, NY, USA},
+  author = {Runzhou Tao and Jianan Yao and Xupeng Li and Shih-Wei Li and Jason Nieh and Ronghui Gu},
+  booktitle = {Proceedings of the ACM SIGOPS 28th Symposium on Operating Systems Principles},
+  doi = {10.1145/3477132.3483560},
+  isbn = {9781450387095},
+  keywords = {hypervisors, KVM, Arm, systems verification, Formal methods, relaxed memory},
+  link = {https://doi.org/10.1145/3477132.3483560},
+  location = {Virtual Event, Germany},
+  numpages = {16},
+  pages = {866-881},
+  publisher = {Association for Computing Machinery},
+  series = {SOSP '21},
+  title = {{Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware}},
+  url = {https://doi.org/10.1145/3477132.3483560},
+  year = {2021}
 }
 
 @inproceedings{thies:micro:2007,
@@ -8515,6 +9652,25 @@ and Zucca, Elena},
   year = {2013}
 }
 
+@inproceedings{vanhattum:asplos:2021,
+  abstract = {Applications targeting digital signal processors (DSPs) benefit from fast implementations of small linear algebra kernels. While existing auto-vectorizing compilers are effective at extracting performance from large kernels, they struggle to invent the complex data movements necessary to optimize small kernels. To get the best performance, DSP engineers must hand-write and tune specialized small kernels for a wide spectrum of applications and architectures. We present Diospyros, a search-based compiler that automatically finds efficient vectorizations and data layouts for small linear algebra kernels. Diospyros combines symbolic evaluation and equality saturation to vectorize computations with irregular structure. We show that a collection of Diospyros-compiled kernels outperform implementations from existing DSP libraries by 3.1\texttimes  on average, that Diospyros can generate kernels that are competitive with expert-tuned code, and that optimizing these small kernels offers end-to-end speedup for a DSP application.},
+  address = {New York, NY, USA},
+  author = {Alexa VanHattum and Rachit Nigam and Vincent T. Lee and James Bornholt and Adrian Sampson},
+  booktitle = {Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
+  doi = {10.1145/3445814.3446707},
+  isbn = {9781450383172},
+  keywords = {Equality Saturation, Vectorization, DSPs, Program Synthesis},
+  link = {https://doi.org/10.1145/3445814.3446707},
+  location = {Virtual, USA},
+  numpages = {13},
+  pages = {874-886},
+  publisher = {Association for Computing Machinery},
+  series = {ASPLOS 2021},
+  title = {{Vectorization for Digital Signal Processors via equality saturation}},
+  url = {https://doi.org/10.1145/3445814.3446707},
+  year = {2021}
+}
+
 @inproceedings{vantonder:icse:2018,
   abstract = {Static analysis tools have demonstrated effectiveness at finding bugs in real world code. Such tools are increasingly widely adopted to improve software quality in practice. Automated Program Repair (APR) has the potential to further cut down on the cost of improving software quality. However, there is a disconnect between these effective bug-finding tools and APR. Recent advances in APR rely on test cases, making them inapplicable to newly discovered bugs or bugs difficult to test for deterministically (like memory leaks). Additionally, the quality of patches generated to satisfy a test suite is a key challenge. We address these challenges by adapting advances in practical static analysis and verification techniques to enable a new technique that finds and then accurately fixes real bugs without test cases. We present a new automated program repair technique using Separation Logic. At a high-level, our technique reasons over semantic effects of existing program fragments to fix faults related to general pointer safety properties: resource leaks, memory leaks, and null dereferences. The procedure automatically translates identified fragments into source-level patches, and verifies patch correctness with respect to reported faults. In this work we conduct the largest study of automatically fixing undiscovered bugs in real-world code to date. We demonstrate our approach by correctly fixing 55 bugs, including 11 previously undiscovered bugs, in 11 real-world projects.},
   address = {New York, NY, USA},
@@ -8554,6 +9710,15 @@ and Zucca, Elena},
   title = {{überSpark: Enforcing verifiable object abstractions for automated compositional security analysis of a hypervisor}},
   url = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/vasudevan},
   year = {2016}
+}
+
+@misc{vaswani:arxiv:2017,
+  archiveprefix = {arXiv},
+  author = {Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin},
+  eprint = {1706.03762},
+  primaryclass = {cs.CL},
+  title = {{Attention is all you need}},
+  year = {2017}
 }
 
 @inproceedings{vega:pldi:2021,
@@ -8793,6 +9958,21 @@ and Zucca, Elena},
   year = {2018}
 }
 
+@inproceedings{watson:sandp:2015,
+  abstract = {CHERI extends a conventional RISC Instruction-Set Architecture, compiler, and operating system to support fine-grained, capability-based memory protection to mitigate memory-related vulnerabilities in C-language TCBs. We describe how CHERI capabilities can also underpin a hardware-software object-capability model for application compartmentalization that can mitigate broader classes of attack. Prototyped as an extension to the open-source 64-bit BERI RISC FPGA soft-core processor, Free BSD operating system, and LLVM compiler, we demonstrate multiple orders-of-magnitude improvement in scalability, simplified programmability, and resulting tangible security benefits as compared to compartmentalization based on pure Memory-Management Unit (MMU) designs. We evaluate incrementally deployable CHERI-based compartmentalization using several real-world UNIX libraries and applications.},
+  author = {Robert N. M. Watson and Jonathan Woodruff and Peter G. Neumann and Simon W. Moore and Jonathan Anderson and David Chisnall and Nirav Dave and Brooks Davis and Khilan Gudka and Ben Laurie and Steven J. Murdoch and Robert Norton and Michael Roe and Stacey Son and Munraj Vadera},
+  booktitle = {2015 IEEE Symposium on Security and Privacy},
+  doi = {10.1109/SP.2015.9},
+  issn = {2375-1207},
+  keywords = {},
+  month = {May},
+  number = {},
+  pages = {20-37},
+  title = {{CHERI: A hybrid capability-system architecture for scalable software compartmentalization}},
+  volume = {},
+  year = {2015}
+}
+
 @misc{weigl:arxiv:2019,
   archiveprefix = {arXiv},
   author = {Alexander Weigl and Mattias Ulbrich and Suhyun Cha and Bernhard Beckert and Birgit Vogel-Heuser},
@@ -8842,6 +10022,26 @@ and Zucca, Elena},
   series = {POPL 2017},
   title = {{Automatically comparing memory consistency models}},
   year = {2017}
+}
+
+@article{willsey:popl:2021,
+  abstract = {An e-graph efficiently represents a congruence relation over many expressions. Although they were originally developed in the late 1970s for use in automated theorem provers, a more recent technique known as equality saturation repurposes e-graphs to implement state-of-the-art, rewrite-driven compiler optimizations and program synthesizers. However, e-graphs remain unspecialized for this newer use case. Equality saturation workloads exhibit distinct characteristics and often require ad-hoc e-graph extensions to incorporate transformations beyond purely syntactic rewrites. This work contributes two techniques that make e-graphs fast and extensible, specializing them to equality saturation. A new amortized invariant restoration technique called rebuilding takes advantage of equality saturation's distinct workload, providing asymptotic speedups over current techniques in practice. A general mechanism called e-class analyses integrates domain-specific analyses into the e-graph, reducing the need for ad hoc manipulation. We implemented these techniques in a new open-source library called egg. Our case studies on three previously published applications of equality saturation highlight how egg's performance and flexibility enable state-of-the-art results across diverse domains.},
+  address = {New York, NY, USA},
+  articleno = {23},
+  author = {Max Willsey and Chandrakana Nandi and Yisu Remy Wang and Oliver Flatt and Zachary Tatlock and Pavel Panchekha},
+  doi = {10.1145/3434304},
+  issue_date = {January 2021},
+  journal = {Proc. ACM Program. Lang.},
+  keywords = {e-graphs, equality saturation},
+  link = {https://doi.org/10.1145/3434304},
+  month = {January},
+  number = {POPL},
+  numpages = {29},
+  publisher = {Association for Computing Machinery},
+  title = {{Egg: Fast and extensible equality saturation}},
+  url = {https://doi.org/10.1145/3434304},
+  volume = {5},
+  year = {2021}
 }
 
 @article{windley:ieeetoc:1995,
@@ -8962,6 +10162,18 @@ and Zucca, Elena},
   year = {2001}
 }
 
+@article{xi:jfp:2007,
+  author = {Hongwei Xi},
+  doi = {10.1017/S0956796806006216},
+  journal = {Journal of Functional Programming},
+  number = {2},
+  pages = {215-286},
+  publisher = {Cambridge University Press},
+  title = {{Dependent ML An approach to practical programming with dependent types}},
+  volume = {17},
+  year = {2007}
+}
+
 @inproceedings{xie:bugs:2005,
   author = {Yichen Xie and Mayur Naik and Brian Hackett and Alex Aiken},
   booktitle = {Proceedings of BUGS 2005 (PLDI 2005 Workshop on the Evaluation of Software Defect Detection Tools)},
@@ -8998,6 +10210,37 @@ and Zucca, Elena},
   primaryclass = {cs.PL},
   title = {{Memory-safety challenge considered solved? An in-depth study with all Rust CVEs}},
   year = {2021}
+}
+
+@inproceedings{xu:cav:2021,
+  abstract = {Verification of instruction encoders and decoders is essential for formalizing manipulation of machine code. The existing approaches cannot guarantee the critical consistency property, i.e., that an encoder and its corresponding decoder are mutual inverses of each other. We observe that consistent encoder-decoder pairs can be automatically derived from bijections inherently embedded in instruction formats. Based on this observation, we develop a framework for writing specifications that capture these bijections, for automatically generating encoders and decoders from these specifications, and for formally validating the consistency and soundness of the generated encoders and decoders by synthesizing proofs in Coq and discharging verification conditions using SMT solvers. We apply this framework to a subset of X86-32 instructions to illustrate its effectiveness in these regards. We also demonstrate that the generated encoders and decoders have reasonable performance.},
+  address = {Cham},
+  author = {Xiangzhe Xu and Jinhua Wu and Yuting Wang and Zhenguo Yin and Pengfei Li},
+  booktitle = {Computer Aided Verification},
+  editor = {Silva, Alexandra and Leino, K. Rustan M.},
+  isbn = {978-3-030-81688-9},
+  pages = {728-751},
+  publisher = {Springer International Publishing},
+  title = {{Automatic generation and validation of instruction encoders and decoders}},
+  year = {2021}
+}
+
+@inproceedings{yadavalli:lctes:2019,
+  address = {New York, NY, USA},
+  author = {S. Bharadwaj Yadavalli and Aaron Smith},
+  booktitle = {Proceedings of the 20th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems},
+  doi = {10.1145/3316482.3326354},
+  isbn = {9781450367240},
+  keywords = {Code Generation, LLVM IR, Binary Translation},
+  link = {https://doi.org/10.1145/3316482.3326354},
+  location = {Phoenix, AZ, USA},
+  numpages = {6},
+  pages = {213-218},
+  publisher = {Association for Computing Machinery},
+  series = {LCTES 2019},
+  title = {{Raising binaries to LLVM IR with MCTOLL (WIP paper)}},
+  url = {https://doi.org/10.1145/3316482.3326354},
+  year = {2019}
 }
 
 @inproceedings{yang:issta:2012,

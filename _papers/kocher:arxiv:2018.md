@@ -24,5 +24,6 @@ year: 2018
 notes:
 - microarchitecture
 - side channel
+- speculative execution
 ---
 {% include links.html %}

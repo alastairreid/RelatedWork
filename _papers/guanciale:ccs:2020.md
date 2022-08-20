@@ -34,6 +34,7 @@ year: 2020
 notes:
 - side channel
 - microarchitecture
+- speculative execution
 papers:
 ---
 {% include links.html %}
