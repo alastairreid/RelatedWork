@@ -3000,6 +3000,7 @@ notes:
   - - notes/typed-assembly-language
     - - Typed assembly language
       - null
+  papers/mosier:isca:2022: []
   papers/mukherjee:oopsla:2020: []
   papers/muller:vmcai:2016: []
   papers/mulligan:icfp:2014: []
@@ -3429,6 +3430,7 @@ notes:
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []
   papers/verbeek:fmmsd:2019: []
+  papers/vicarte:isca:2021: []
   papers/vila:pldi:2020: []
   papers/visser:tacas:2020: []
   papers/vogels:fmoods:2011:
@@ -4477,6 +4479,9 @@ papers:
     - - Verification of an implementation of Tomasulo's algorithm by compositional
         model checking
       - mcmillan:cav:1998
+  - - papers/mosier:isca:2022
+    - - Axiomatic Hardware-Software Contracts for Security
+      - mosier:isca:2022
   - - papers/reid:cav:2016
     - - End-to-end verification of ARM processors with ISA-formal
       - reid:cav:2016
@@ -4500,6 +4505,10 @@ papers:
     - - Formal verification of superscalar microprocessors with multicycle functional
         units, exception, and branch prediction
       - velev:dac:2000
+  - - papers/vicarte:isca:2021
+    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
+        Can Leak Private Data'
+      - vicarte:isca:2021
   - - papers/windley:ieeetoc:1995
     - - Formal modeling and verification of microprocessors
       - windley:ieeetoc:1995
@@ -5893,6 +5902,9 @@ papers:
   - - papers/morrisett:pldi:2012
     - - 'RockSalt: Better, faster, stronger SFI for the x86'
       - morrisett:pldi:2012
+  - - papers/mosier:isca:2022
+    - - Axiomatic Hardware-Software Contracts for Security
+      - mosier:isca:2022
   - - papers/myreen:fse:2007
     - - Hoare logic for ARM machine code
       - myreen:fse:2007
@@ -6005,6 +6017,10 @@ papers:
   - - papers/tao:sosp:2021
     - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
       - tao:sosp:2021
+  - - papers/vicarte:isca:2021
+    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
+        Can Leak Private Data'
+      - vicarte:isca:2021
   - - papers/watson:sandp:2015
     - - 'CHERI: A hybrid capability-system architecture for scalable software compartmentalization'
       - watson:sandp:2015
@@ -7696,12 +7712,19 @@ papers:
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
+  - - papers/mosier:isca:2022
+    - - Axiomatic Hardware-Software Contracts for Security
+      - mosier:isca:2022
   - - papers/rutledge:icse:2019
     - - Zero-overhead path prediction with progressive symbolic execution
       - rutledge:icse:2019
   - - papers/tang:sec:2017
     - - 'CLKSCREW: Exposing the perils of security-oblivious energy management'
       - tang:sec:2017
+  - - papers/vicarte:isca:2021
+    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
+        Can Leak Private Data'
+      - vicarte:isca:2021
   - - papers/vila:pldi:2020
     - - 'CacheQuery: Learning replacement policies from hardware caches'
       - vila:pldi:2020
@@ -7942,6 +7965,13 @@ papers:
   - - papers/mcilroy:arxiv:2019
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
+  - - papers/mosier:isca:2022
+    - - Axiomatic Hardware-Software Contracts for Security
+      - mosier:isca:2022
+  - - papers/vicarte:isca:2021
+    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
+        Can Leak Private Data'
+      - vicarte:isca:2021
   notes/state-merging:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
@@ -8693,6 +8723,13 @@ papers:
   - - papers/manerkar:micro:2017
     - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
       - manerkar:micro:2017
+  - - papers/mosier:isca:2022
+    - - Axiomatic Hardware-Software Contracts for Security
+      - mosier:isca:2022
+  - - papers/vicarte:isca:2021
+    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
+        Can Leak Private Data'
+      - vicarte:isca:2021
   notes/valgrind: []
   notes/valgrind-tool:
   - - papers/nethercote:pldi:2007
@@ -8920,6 +8957,9 @@ papers:
   - - papers/manerkar:micro:2017
     - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
       - manerkar:micro:2017
+  - - papers/mosier:isca:2022
+    - - Axiomatic Hardware-Software Contracts for Security
+      - mosier:isca:2022
   - - papers/pulte:popl:2017
     - - 'Simplifying ARM concurrency: Multicopy-atomic axiomatic and operational models
         for ARMv8'
@@ -8940,6 +8980,10 @@ papers:
   - - papers/tao:sosp:2021
     - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
       - tao:sosp:2021
+  - - papers/vicarte:isca:2021
+    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
+        Can Leak Private Data'
+      - vicarte:isca:2021
   - - papers/wickerson:popl:2017
     - - Automatically comparing memory consistency models
       - wickerson:popl:2017
@@ -10145,6 +10189,7 @@ papers:
   - - papers/walker:popl:2000
     - - A type system for expressive security policies
       - walker:popl:2000
+  papers/mosier:isca:2022: []
   papers/mukherjee:oopsla:2020: []
   papers/muller:vmcai:2016:
   - - papers/astrauskas:oopsla:2019
@@ -10657,6 +10702,7 @@ papers:
   papers/veldhuizen:oo:1998: []
   papers/velev:dac:2000: []
   papers/verbeek:fmmsd:2019: []
+  papers/vicarte:isca:2021: []
   papers/vila:pldi:2020: []
   papers/visser:tacas:2020: []
   papers/vogels:fmoods:2011:

@@ -1741,6 +1741,7 @@
   papers:
   - papers/dasgupta:pldi:2020
   - papers/hedge:micro:2019
+  - papers/vicarte:isca:2021
 - name: Matthew Fluet
   papers:
   - papers/fluet:jfp:2006
@@ -3049,6 +3050,9 @@
 - name: Eng Kiat Koh
   papers:
   - papers/ananda:osr:1992
+- name: David Kohlbrenner
+  papers:
+  - papers/vicarte:isca:2021
 - name: Eddie Kohler
   papers:
   - papers/efstathopoulos:sosp:2005
@@ -3200,6 +3204,9 @@
 - name: Thomas D. LaToza
   papers:
   - papers/myers:computer:2016
+- name: Hanna Lachnitt
+  papers:
+  - papers/mosier:isca:2022
 - name: Steve Lacy
   papers:
   - papers/jouppi:isca:2017
@@ -3999,6 +4006,12 @@
   - papers/nanevski:icfp:2008
   - papers/smith:esop:2000
   - papers/walker:tic:2001
+- name: Adam Morrison
+  papers:
+  - papers/vicarte:isca:2021
+- name: Nicholas Mosier
+  papers:
+  - papers/mosier:isca:2022
 - name: "Micha\u0142 Moskal"
   papers:
   - papers/cohen:cav:2010
@@ -4211,6 +4224,9 @@
   papers:
   - papers/gennari:vstte:2018
   - papers/gurfinkel:cav:2015
+- name: Nandeeka Nayak
+  papers:
+  - papers/vicarte:isca:2021
 - name: Matthew Naylor
   papers:
   - papers/nienhuis:secpriv:2020
@@ -4241,6 +4257,7 @@
   papers:
   - papers/dam:ted:2013
   - papers/dam:trusted:2013
+  - papers/mosier:isca:2022
 - name: Nicholas Nethercote
   papers:
   - papers/nethercote:pldi:2007
@@ -5383,6 +5400,9 @@
 - name: Jonathon Shlens
   papers:
   - papers/abadi:arxiv:2016
+- name: Pradyumna Shome
+  papers:
+  - papers/vicarte:isca:2021
 - name: Yan Shoshitaishvili
   papers:
   - papers/shoshitaishvili:sp:2016
@@ -5907,6 +5927,8 @@
 - name: Caroline Trippel
   papers:
   - papers/hsiao:micro:2021
+  - papers/mosier:isca:2022
+  - papers/vicarte:isca:2021
   - papers/zhang:fmcad:2018
 - name: Jean-Baptiste Tristan
   papers:
@@ -6030,6 +6052,9 @@
 - name: Toon Verwaest
   papers:
   - papers/mcilroy:arxiv:2019
+- name: Jose Rodrigo Sanchez Vicarte
+  papers:
+  - papers/vicarte:isca:2021
 - name: Fernanda Viegas
   papers:
   - papers/abadi:arxiv:2016
