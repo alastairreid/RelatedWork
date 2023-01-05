@@ -58,5 +58,8 @@ The optimizations they look at are
 Implementing some of these in gem5 lets them show that these can leak data at
 a high rate.
 
+An interesting thing in this paper is the terminology "transmitter" for instructions
+that leak, "amplifiers" for instructions that make a uarch difference more obvious,
+and "receivers" for instructions that can observe the difference.
 
 {% include links.html %}
