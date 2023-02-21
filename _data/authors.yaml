@@ -225,6 +225,8 @@
   - papers/dutra:icse:2018
 - name: Godmar Back
   papers:
+  - papers/ford:sosp:1996
+  - papers/ford:sosp:1997
   - papers/hsieh:usenix:2001
 - name: Johannes Bader
   papers:
@@ -437,6 +439,9 @@
 - name: Thomas Benjamin
   papers:
   - papers/evtyushkin:asplos:2021
+- name: Greg Benson
+  papers:
+  - papers/ford:sosp:1997
 - name: Nick Benton
   papers:
   - papers/jensen:popl:2013
@@ -489,6 +494,9 @@
 - name: Abhishek Bhattacharjee
   papers:
   - papers/lustig:asplos:2016
+- name: Edoardo Biagioni
+  papers:
+  - papers/biagioni:sigcomm:1994
 - name: Mohammad Mahdi Bidmeshki
   papers:
   - papers/bidmeshki:iccd:2019
@@ -1083,6 +1091,9 @@
 - name: Michael R. Clarkson
   papers:
   - papers/clarkson:jcs:2010
+- name: Stephen Clawson
+  papers:
+  - papers/ford:sosp:1996
 - name: Sylvan Clebsch
   papers:
   - papers/lietar:ismm:2019
@@ -1692,6 +1703,9 @@
 - name: Josselin Feist
   papers:
   - papers/david:issta:2016
+- name: Matthias Felleisen
+  papers:
+  - papers/flatt:pldi:1998
 - name: Siji Feng
   papers:
   - papers/shoshitaishvili:sp:2016
@@ -1755,6 +1769,7 @@
 - name: Matthew Flatt
   papers:
   - papers/eide:aspse:2001
+  - papers/flatt:pldi:1998
   - papers/reid:osdi:2000
 - name: Oliver Flatt
   papers:
@@ -1793,6 +1808,10 @@
   papers:
   - papers/barrett:mlf:2015
   - papers/barrett:smtlib:2016
+- name: Bryan Ford
+  papers:
+  - papers/ford:sosp:1996
+  - papers/ford:sosp:1997
 - name: Jeffrey S. Foster
   papers:
   - papers/furr:pldi:2005
@@ -1935,6 +1954,9 @@
 - name: Pierre Ganty
   papers:
   - papers/vila:pldi:2020
+- name: Dapeng Gao
+  papers:
+  - papers/gao:fmcad:2021
 - name: Debin Gao
   papers:
   - papers/ma:securecomm:2015
@@ -2423,6 +2445,7 @@
   - papers/weitz:icfp:2017
 - name: Mike Hibler
   papers:
+  - papers/ford:sosp:1996
   - papers/spencer:security:1999
 - name: Michael Hicks
   papers:
@@ -2803,6 +2826,9 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: Mike Jones
+  papers:
+  - papers/jones:sosp:1993
 - name: Llion Jones
   papers:
   - papers/vaswani:arxiv:2017
@@ -3410,6 +3436,8 @@
   papers:
   - papers/eide:aspse:2001
   - papers/eide:icse:2002
+  - papers/ford:sosp:1996
+  - papers/ford:sosp:1997
   - papers/regehr:rtss:2003
   - papers/reid:osdi:2000
   - papers/spencer:security:1999
@@ -3500,6 +3528,9 @@
 - name: Junghee Lim
   papers:
   - papers/lim:toplas:2013
+- name: Albert Lin
+  papers:
+  - papers/ford:sosp:1997
 - name: Jasper Lin
   papers:
   - papers/gordon:asplos:2002
@@ -3923,6 +3954,7 @@
   - papers/aagaard:fmcad:2000
 - name: Tom Melham
   papers:
+  - papers/gao:fmcad:2021
   - papers/heelan:sec:2018
 - name: Ali S. Meli
   papers:
@@ -5473,6 +5505,9 @@
 - name: Avraham Shinnar
   papers:
   - papers/nanevski:icfp:2008
+- name: Olin Shivers
+  papers:
+  - papers/ford:sosp:1997
 - name: Jonathon Shlens
   papers:
   - papers/abadi:arxiv:2016
@@ -6038,6 +6073,9 @@
   papers:
   - papers/becker:fm:2016
   - papers/tuerk:vstte:2010
+- name: Patrick Tullmann
+  papers:
+  - papers/ford:sosp:1996
 - name: Dean M. Tullsen
   papers:
   - papers/kumar:isca:2004

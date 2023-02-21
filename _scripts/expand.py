@@ -167,7 +167,10 @@ def get_authors(ps):
 
 def read_files(fs):
     ps = { f[1:-3]: read_md(f) for f in fs }
-    for p, (h, b) in ps.items(): patch_links(h)
+    for p, (h, b) in ps.items():
+        if h is None:
+            print(f"Error: No header for {p}\n", file=sys.stderr)
+        patch_links(h)
     ps = { p: (h, patch_body(b)) for p, (h, b) in ps.items() }
     add_backrefs(ps)
     return ps

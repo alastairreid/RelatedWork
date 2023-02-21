@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Symbolic Quick Error Detection (Symbolic QED)
+title: SystemVerilog Assertions (SVA)
 notes:
 - SystemVerilog
 ---

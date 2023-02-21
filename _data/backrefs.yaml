@@ -232,6 +232,7 @@ notes:
     - - Software Verification Competition (SV-COMP)
       - null
   notes/bleu: []
+  notes/bluespec: []
   notes/boogie-verifier:
   - - notes/auto-active-verification
     - - Auto active verification
@@ -333,12 +334,16 @@ notes:
   - - notes/capabilities
     - - Capabilities
       - null
+  - - notes/cheri-flute
+    - - CHERI-Flute
+      - null
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
   - - notes/sail-language
     - - Sail ISA specification language
       - null
+  notes/cheri-flute: []
   notes/cil-tool: []
   notes/civl-verifier: []
   notes/cnn: []
@@ -812,6 +817,7 @@ notes:
     - - Intel
       - null
   notes/ivy-verifier: []
+  notes/jaspergold: []
   notes/java-pathfinder:
   - - notes/lazy-initialization
     - - Lazy initialization of symbolic values
@@ -1056,6 +1062,7 @@ notes:
   - - notes/spec-sharp-project
     - - Spec# project
       - null
+  notes/module-system: []
   notes/mutation-testing: []
   notes/natural-language: []
   notes/neural-network:
@@ -1338,6 +1345,9 @@ notes:
   notes/rewrite-rules: []
   notes/risc-architecture: []
   notes/riscv-architecture:
+  - - notes/cheri-flute
+    - - CHERI-Flute
+      - null
   - - notes/instruction-set-architecture
     - - Instruction set architecture
       - null
@@ -1740,12 +1750,24 @@ notes:
     - - angr verifier
       - null
   notes/symbolic-model-checking: []
+  notes/symbolic-qed: []
   notes/symbolic-trajectory-evaluation: []
   notes/symcc:
   - - notes/hybrid-testing
     - - Hybrid testing
       - null
   notes/systematization-of-knowledge: []
+  notes/systemverilog:
+  - - notes/bluespec
+    - - BlueSpec SystemVerilog
+      - null
+  - - notes/systemverilog-assertions
+    - - SystemVerilog Assertions (SVA)
+      - null
+  notes/systemverilog-assertions:
+  - - notes/systemverilog
+    - - SystemVerilog
+      - null
   notes/tcg-ir:
   - - notes/qemu
     - - QEMU
@@ -2222,6 +2244,7 @@ notes:
   - - notes/itanium-architecture
     - - Itanium architecture
       - null
+  papers/biagioni:sigcomm:1994: []
   papers/bidmeshki:iccd:2019:
   - - notes/hardware-trojan
     - - Hardware trojan
@@ -2538,6 +2561,7 @@ notes:
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
+  papers/flatt:pldi:1998: []
   papers/fluet:jfp:2006:
   - - notes/phantom-types
     - - Phantom types
@@ -2558,6 +2582,8 @@ notes:
     - - Single Instruction Multiple Data (SIMD)
       - null
   papers/fonseca:ecs:2017: []
+  papers/ford:sosp:1996: []
+  papers/ford:sosp:1997: []
   papers/fox:cambridge:2001: []
   papers/fox:cpp:2017: []
   papers/fox:itp:2010: []
@@ -2583,6 +2609,7 @@ notes:
   - - notes/verification-profiling
     - - Verification profiling of code
       - null
+  papers/gao:fmcad:2021: []
   papers/garg:icse:2013: []
   papers/gay:pldi:2003: []
   papers/ge:jce:2016:
@@ -2779,6 +2806,7 @@ notes:
       - null
   papers/jones:microsoft:2001: []
   papers/jones:pldi:1999: []
+  papers/jones:sosp:1993: []
   papers/joshi:pldi:2002: []
   papers/jouppi:isca:2017:
   - - notes/tpu
@@ -3882,7 +3910,7 @@ papers:
         system
       - anand:eurosys:2013
   - - papers/andriesse:usenix:2016
-    - - An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries
+    - - An in-depth analysis of disassembly on full-scale x86/x64 binaries
       - andriesse:usenix:2016
   - - papers/brumley:cav:2011
     - - 'BAP: A binary analysis platform'
@@ -3998,6 +4026,11 @@ papers:
   - - papers/vaswani:arxiv:2017
     - - Attention is all you need
       - vaswani:arxiv:2017
+  notes/bluespec:
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   notes/boogie-verifier:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -4201,6 +4234,10 @@ papers:
   - - papers/bauereiss:ucam:2021
     - - Verified security for the Morello capability-enhanced prototype Arm architecture
       - bauereiss:ucam:2021
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   - - papers/nienhuis:secpriv:2020
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
         the CHERI design and implementation process'
@@ -4221,6 +4258,7 @@ papers:
   - - papers/woodruff:tocs:2019
     - - 'CHERI concentrate: Practical compressed capabilities'
       - woodruff:tocs:2019
+  notes/cheri-flute: []
   notes/cil-tool:
   - - papers/necula:cc:2002
     - - 'CIL: Intermediate language and tools for analysis and transformation of C
@@ -4431,6 +4469,10 @@ papers:
   - - papers/fox:ucam:2002
     - - Formal verification of the ARM6 micro-architecture
       - fox:ucam:2002
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   - - papers/goel:cav:2021
     - - Balancing automation and control for formal verification of microprocessors
       - goel:cav:2021
@@ -4495,14 +4537,14 @@ papers:
     - - 'COATCheck: Verifying memory ordering at the hardware-OS interface'
       - lustig:asplos:2016
   - - papers/manerkar:micro:2017
-    - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+    - - 'RTLcheck: Verifying the memory consistency of RTL designs'
       - manerkar:micro:2017
   - - papers/mcmillan:cav:1998
     - - Verification of an implementation of Tomasulo's algorithm by compositional
         model checking
       - mcmillan:cav:1998
   - - papers/mosier:isca:2022
-    - - Axiomatic Hardware-Software Contracts for Security
+    - - Axiomatic hardware-software contracts for security
       - mosier:isca:2022
   - - papers/reid:cav:2016
     - - End-to-end verification of ARM processors with ISA-formal
@@ -4528,8 +4570,8 @@ papers:
         units, exception, and branch prediction
       - velev:dac:2000
   - - papers/vicarte:isca:2021
-    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
-        Can Leak Private Data'
+    - - 'Opening Pandora''s box: A systematic study of new ways microarchitecture
+        can leak private data'
       - vicarte:isca:2021
   - - papers/windley:ieeetoc:1995
     - - Formal modeling and verification of microprocessors
@@ -5110,13 +5152,13 @@ papers:
       - wright:icsm:2013
   notes/hardware:
   - - papers/becker:ches:2013
-    - - Stealthy Dopant-Level Hardware Trojans
+    - - Stealthy dopant-level hardware Trojans
       - becker:ches:2013
   - - papers/bryant:cmu:2018
     - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
       - bryant:cmu:2018
   - - papers/buhan:ccs:2022
-    - - 'SoK: Design Tools for Side-Channel-Aware Implementations'
+    - - 'SoK: Design tools for side-channel-aware implementations'
       - buhan:ccs:2022
   - - papers/choi:icfp:2017
     - - 'Kami: A platform for high-level parametric hardware specification and its
@@ -5208,10 +5250,10 @@ papers:
       - hochschild:hotos:2021
   notes/hardware-trojan:
   - - papers/bidmeshki:iccd:2019
-    - - Revisiting Capacitor-Based Trojan Design
+    - - Revisiting capacitor-based Trojan design
       - bidmeshki:iccd:2019
   - - papers/yang:sandp:2016
-    - - 'A2: Analog Malicious Hardware'
+    - - 'A2: Analog malicious hardware'
       - yang:sandp:2016
   notes/haskell-language:
   - - papers/chakravarty:haskffi:2003
@@ -5652,16 +5694,16 @@ papers:
       - watson:sandp:2015
   notes/intel:
   - - papers/bastian:adl:2005
-    - - Specification of Intel IA-32 Using an Architecture Description Language
+    - - Specification of Intel IA-32 using an architecture description language
       - bastian:adl:2005
   - - papers/bhatt:sefm:2003
     - - The fallacy of spec-based design
       - bhatt:sefm:2003
   - - papers/lifshitz:wish:2011
-    - - 'Zsim: A Fast Architectural Simulator for ISA Design-Space Exploration'
+    - - 'Zsim: A fast architectural simulator for ISA design-space exploration'
       - lifshitz:wish:2011
   - - papers/sanchez:isca:2013
-    - - 'ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems'
+    - - 'ZSim: Fast and accurate microarchitectural simulation of thousand-core systems'
       - sanchez:isca:2013
   notes/interactive-theorem-prover:
   - - papers/demoura:cade:2015
@@ -5704,7 +5746,7 @@ papers:
       - jhala:compsurv:2009
   notes/isa-specification:
   - - papers/andriesse:usenix:2016
-    - - An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries
+    - - An in-depth analysis of disassembly on full-scale x86/x64 binaries
       - andriesse:usenix:2016
   - - papers/armstrong:arw:2018
     - - 'Detailed models of instruction set architectures: From pseudocode to formal
@@ -5733,7 +5775,7 @@ papers:
     - - 'Instruction set processor specifications (ISPS): The notation and its applications'
       - barbacci:ieee:1981
   - - papers/bastian:adl:2005
-    - - Specification of Intel IA-32 Using an Architecture Description Language
+    - - Specification of Intel IA-32 using an architecture description language
       - bastian:adl:2005
   - - papers/bauereiss:ucam:2021
     - - Verified security for the Morello capability-enhanced prototype Arm architecture
@@ -5838,6 +5880,10 @@ papers:
   - - papers/fox:tphols:2003
     - - Formal specification and verification of ARM6
       - fox:tphols:2003
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   - - papers/godefroid:pldi:2012
     - - Automated synthesis of symbolic instruction encodings from I/O samples
       - godefroid:pldi:2012
@@ -5918,7 +5964,7 @@ papers:
     - - Automated formal verification of processors based on architectural models
       - kuhne:fmcad:2010
   - - papers/lifshitz:wish:2011
-    - - 'Zsim: A Fast Architectural Simulator for ISA Design-Space Exploration'
+    - - 'Zsim: A fast architectural simulator for ISA design-space exploration'
       - lifshitz:wish:2011
   - - papers/lim:toplas:2013
     - - 'TSL: A system for generating abstract interpreters and its application to
@@ -5938,7 +5984,7 @@ papers:
     - - 'RockSalt: Better, faster, stronger SFI for the x86'
       - morrisett:pldi:2012
   - - papers/mosier:isca:2022
-    - - Axiomatic Hardware-Software Contracts for Security
+    - - Axiomatic hardware-software contracts for security
       - mosier:isca:2022
   - - papers/myreen:fse:2007
     - - Hoare logic for ARM machine code
@@ -6013,7 +6059,7 @@ papers:
         code.
       - samet:phd:1975
   - - papers/sanchez:isca:2013
-    - - 'ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems'
+    - - 'ZSim: Fast and accurate microarchitectural simulation of thousand-core systems'
       - sanchez:isca:2013
   - - papers/sarkar:pldi:2011
     - - Understanding POWER multiprocessors
@@ -6053,8 +6099,8 @@ papers:
     - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
       - tao:sosp:2021
   - - papers/vicarte:isca:2021
-    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
-        Can Leak Private Data'
+    - - 'Opening Pandora''s box: A systematic study of new ways microarchitecture
+        can leak private data'
       - vicarte:isca:2021
   - - papers/watson:sandp:2015
     - - 'CHERI: A hybrid capability-system architecture for scalable software compartmentalization'
@@ -6149,6 +6195,11 @@ papers:
   - - papers/mcmillan:sigcomm:2019
     - - Formal specification and testing of QUIC
       - mcmillan:sigcomm:2019
+  notes/jaspergold:
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   notes/java-pathfinder:
   - - papers/khurshid:tacas:2003
     - - Generalized symbolic execution for model checking and testing
@@ -6519,7 +6570,7 @@ papers:
     - - Decoupling integer execution in superscalar processors
       - palacharla:micro:1995
   - - papers/razavi:usenix:2016
-    - - 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+    - - 'Flip Feng Shui: Hammering a needle in the software stack'
       - razavi:usenix:2016
   - - papers/smith:tocs:1984
     - - Decoupled access/execute computer architectures
@@ -6662,6 +6713,25 @@ papers:
   - - papers/lindner:indin:2018
     - - No panic! Verification of Rust programs by symbolic execution
       - lindner:indin:2018
+  notes/module-system:
+  - - papers/biagioni:sigcomm:1994
+    - - A structured TCP in Standard ML
+      - biagioni:sigcomm:1994
+  - - papers/flatt:pldi:1998
+    - - 'Units: Cool modules for HOT languages'
+      - flatt:pldi:1998
+  - - papers/ford:sosp:1996
+    - - Microkernels meet recursive virtual machines
+      - ford:sosp:1996
+  - - papers/ford:sosp:1997
+    - - 'The Flux OSKit: A substrate for kernel and language research'
+      - ford:sosp:1997
+  - - papers/jones:sosp:1993
+    - - 'Interposition agents: transparently interposing user code at the system interface'
+      - jones:sosp:1993
+  - - papers/reid:osdi:2000
+    - - 'Knit: Component composition for systems software'
+      - reid:osdi:2000
   notes/mutation-testing:
   - - papers/groce:issta:2012
     - - Swarm testing
@@ -6779,6 +6849,9 @@ papers:
   - - papers/baumann:eucnc:2016
     - - A high assurance virtualization platform for ARMv8
       - baumann:eucnc:2016
+  - - papers/biagioni:sigcomm:1994
+    - - A structured TCP in Standard ML
+      - biagioni:sigcomm:1994
   - - papers/boos:plos:2017
     - - 'Theseus: A state spill-free operating system'
       - boos:plos:2017
@@ -6792,6 +6865,15 @@ papers:
   - - papers/eide:icse:2002
     - - Static and dynamic structure in design patterns
       - eide:icse:2002
+  - - papers/ford:sosp:1996
+    - - Microkernels meet recursive virtual machines
+      - ford:sosp:1996
+  - - papers/ford:sosp:1997
+    - - 'The Flux OSKit: A substrate for kernel and language research'
+      - ford:sosp:1997
+  - - papers/jones:sosp:1993
+    - - 'Interposition agents: transparently interposing user code at the system interface'
+      - jones:sosp:1993
   - - papers/klein:sosp:2009
     - - 'SeL4: Formal verification of an OS kernel'
       - klein:sosp:2009
@@ -7232,7 +7314,7 @@ papers:
         system
       - anand:eurosys:2013
   - - papers/andriesse:usenix:2016
-    - - An In-Depth Analysis of Disassembly on Full-Scale x86/x64 Binaries
+    - - An in-depth analysis of disassembly on full-scale x86/x64 binaries
       - andriesse:usenix:2016
   - - papers/collberg:pldi:1997
     - - Reverse interpretation + mutation analysis = automatic retargeting
@@ -7271,6 +7353,10 @@ papers:
   - - papers/armstrong:spisa:2019
     - - The state of Sail
       - armstrong:spisa:2019
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   - - papers/lockhart:ispass:2015
     - - 'Pydgin: generating fast instruction set simulators from simple architecture
         descriptions with meta-tracing JIT compilers'
@@ -7319,7 +7405,7 @@ papers:
         DRAM disturbance errors'
       - kim:isca:2014
   - - papers/razavi:usenix:2016
-    - - 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+    - - 'Flip Feng Shui: Hammering a needle in the software stack'
       - razavi:usenix:2016
   notes/rtl:
   - - papers/reid:phd:2019
@@ -7541,6 +7627,10 @@ papers:
   - - papers/armstrong:spisa:2019
     - - The state of Sail
       - armstrong:spisa:2019
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   notes/sat-solver:
   - - papers/brummayer:sat:2010
     - - Automated testing and debugging of SAT and QBF solvers
@@ -7596,13 +7686,13 @@ papers:
     - - Hardware is the new software
       - baumann:hotos:2017
   - - papers/becker:ches:2013
-    - - Stealthy Dopant-Level Hardware Trojans
+    - - Stealthy dopant-level hardware Trojans
       - becker:ches:2013
   - - papers/bidmeshki:iccd:2019
-    - - Revisiting Capacitor-Based Trojan Design
+    - - Revisiting capacitor-based Trojan design
       - bidmeshki:iccd:2019
   - - papers/buhan:ccs:2022
-    - - 'SoK: Design Tools for Side-Channel-Aware Implementations'
+    - - 'SoK: Design tools for side-channel-aware implementations'
       - buhan:ccs:2022
   - - papers/ge:jce:2016
     - - A survey of microarchitectural timing attacks and countermeasures on contemporary
@@ -7618,7 +7708,7 @@ papers:
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
   - - papers/yang:sandp:2016
-    - - 'A2: Analog Malicious Hardware'
+    - - 'A2: Analog malicious hardware'
       - yang:sandp:2016
   notes/self-composition:
   - - papers/almeida:security:2016
@@ -7737,7 +7827,7 @@ papers:
     - - Hardware is the new software
       - baumann:hotos:2017
   - - papers/buhan:ccs:2022
-    - - 'SoK: Design Tools for Side-Channel-Aware Implementations'
+    - - 'SoK: Design tools for side-channel-aware implementations'
       - buhan:ccs:2022
   - - papers/ge:jce:2016
     - - A survey of microarchitectural timing attacks and countermeasures on contemporary
@@ -7774,10 +7864,10 @@ papers:
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
   - - papers/mosier:isca:2022
-    - - Axiomatic Hardware-Software Contracts for Security
+    - - Axiomatic hardware-software contracts for security
       - mosier:isca:2022
   - - papers/razavi:usenix:2016
-    - - 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+    - - 'Flip Feng Shui: Hammering a needle in the software stack'
       - razavi:usenix:2016
   - - papers/rutledge:icse:2019
     - - Zero-overhead path prediction with progressive symbolic execution
@@ -7786,8 +7876,8 @@ papers:
     - - 'CLKSCREW: Exposing the perils of security-oblivious energy management'
       - tang:sec:2017
   - - papers/vicarte:isca:2021
-    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
-        Can Leak Private Data'
+    - - 'Opening Pandora''s box: A systematic study of new ways microarchitecture
+        can leak private data'
       - vicarte:isca:2021
   - - papers/vila:pldi:2020
     - - 'CacheQuery: Learning replacement policies from hardware caches'
@@ -8030,11 +8120,11 @@ papers:
     - - 'Spectre is here to stay: An analysis of side-channels and speculative execution'
       - mcilroy:arxiv:2019
   - - papers/mosier:isca:2022
-    - - Axiomatic Hardware-Software Contracts for Security
+    - - Axiomatic hardware-software contracts for security
       - mosier:isca:2022
   - - papers/vicarte:isca:2021
-    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
-        Can Leak Private Data'
+    - - 'Opening Pandora''s box: A systematic study of new ways microarchitecture
+        can leak private data'
       - vicarte:isca:2021
   notes/state-merging:
   - - papers/bornholt:oopsla:2018
@@ -8446,6 +8536,11 @@ papers:
   - - papers/mcmillan:ecs:2003
     - - Model checking
       - mcmillan:ecs:2003
+  notes/symbolic-qed:
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   notes/symbolic-trajectory-evaluation:
   - - papers/claessen:sfm:2006
     - - An introduction to symbolic trajectory evaluation
@@ -8455,7 +8550,7 @@ papers:
         Intel processor graphics FPU'
       - kirankumar:fmcad:2012
   - - papers/sebastiani:cav:2004
-    - - GSTE Is Partitioned Model Checking
+    - - GSTE is partitioned model checking
       - sebastiani:cav:2004
   - - papers/segar:fmsd:1995
     - - Formal verification by symbolic evaluation of partially-ordered trajectories
@@ -8468,6 +8563,12 @@ papers:
   - - papers/cauligi:sandp:2022
     - - 'SoK: Practical foundations for software Spectre defenses'
       - cauligi:sandp:2022
+  notes/systemverilog: []
+  notes/systemverilog-assertions:
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   notes/tcg-ir:
   - - papers/difederico:cc:2017
     - - 'Rev.Ng: A unified binary analysis framework to recover CFGs and function
@@ -8701,7 +8802,7 @@ papers:
       - yang:pldi:2010
   notes/uclid5:
   - - papers/polgreen:cav:2022
-    - - "UCLID5: Multi-modal Formal Modeling, Verification, and\_Synthesis"
+    - - "UCLID5: Multi-modal formal modeling, verification, and\_synthesis"
       - polgreen:cav:2022
   notes/undefined-behaviour:
   - - papers/jung:popl:2017
@@ -8792,14 +8893,14 @@ papers:
         of memory model implementations
       - hsiao:micro:2021
   - - papers/manerkar:micro:2017
-    - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+    - - 'RTLcheck: Verifying the memory consistency of RTL designs'
       - manerkar:micro:2017
   - - papers/mosier:isca:2022
-    - - Axiomatic Hardware-Software Contracts for Security
+    - - Axiomatic hardware-software contracts for security
       - mosier:isca:2022
   - - papers/vicarte:isca:2021
-    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
-        Can Leak Private Data'
+    - - 'Opening Pandora''s box: A systematic study of new ways microarchitecture
+        can leak private data'
       - vicarte:isca:2021
   notes/valgrind: []
   notes/valgrind-tool:
@@ -9026,10 +9127,10 @@ papers:
     - - 'COATCheck: Verifying memory ordering at the hardware-OS interface'
       - lustig:asplos:2016
   - - papers/manerkar:micro:2017
-    - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+    - - 'RTLcheck: Verifying the memory consistency of RTL designs'
       - manerkar:micro:2017
   - - papers/mosier:isca:2022
-    - - Axiomatic Hardware-Software Contracts for Security
+    - - Axiomatic hardware-software contracts for security
       - mosier:isca:2022
   - - papers/pulte:popl:2017
     - - 'Simplifying ARM concurrency: Multicopy-atomic axiomatic and operational models
@@ -9052,8 +9153,8 @@ papers:
     - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
       - tao:sosp:2021
   - - papers/vicarte:isca:2021
-    - - 'Opening Pandora''s Box: A Systematic Study of New Ways Microarchitecture
-        Can Leak Private Data'
+    - - 'Opening Pandora''s box: A systematic study of new ways microarchitecture
+        can leak private data'
       - vicarte:isca:2021
   - - papers/wickerson:popl:2017
     - - Automatically comparing memory consistency models
@@ -9085,7 +9186,7 @@ papers:
         system
       - anand:eurosys:2013
   - - papers/bastian:adl:2005
-    - - Specification of Intel IA-32 Using an Architecture Description Language
+    - - Specification of Intel IA-32 using an architecture description language
       - bastian:adl:2005
   - - papers/dasgupta:pldi:2019
     - - A complete formal semantics of x86-64 user-level instruction set architecture
@@ -9127,7 +9228,7 @@ papers:
         Intel processor graphics FPU'
       - kirankumar:fmcad:2012
   - - papers/lifshitz:wish:2011
-    - - 'Zsim: A Fast Architectural Simulator for ISA Design-Space Exploration'
+    - - 'Zsim: A fast architectural simulator for ISA design-space exploration'
       - lifshitz:wish:2011
   - - papers/martignoni:asplos:2012
     - - 'Path-exploration lifting: Hi-fi tests for lo-fi emulators'
@@ -9151,7 +9252,7 @@ papers:
     - - Formally verified big step semantics out of x86-64 binaries
       - roessle:cpp:2019
   - - papers/sanchez:isca:2013
-    - - 'ZSim: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems'
+    - - 'ZSim: Fast and accurate microarchitectural simulation of thousand-core systems'
       - sanchez:isca:2013
   - - papers/sarkar:popl:2009
     - - The semantics of x86-CC multiprocessor machine code
@@ -9397,6 +9498,7 @@ papers:
     - - 'The software model checker BLAST: Applications to software engineering'
       - beyer:ijsttt:2007
   papers/bhatt:sefm:2003: []
+  papers/biagioni:sigcomm:1994: []
   papers/bidmeshki:iccd:2019: []
   papers/biere:tacas:1999: []
   papers/binder:cacm:1994: []
@@ -9754,6 +9856,7 @@ papers:
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
+  papers/flatt:pldi:1998: []
   papers/fluet:jfp:2006:
   - - papers/yanovski:unknown:2021
     - - 'GhostCell: Separating permissions from data in Rust'
@@ -9762,6 +9865,8 @@ papers:
   papers/flur:popl:2017: []
   papers/flynn:ieeeproc:1966: []
   papers/fonseca:ecs:2017: []
+  papers/ford:sosp:1996: []
+  papers/ford:sosp:1997: []
   papers/fox:cambridge:2001: []
   papers/fox:cpp:2017: []
   papers/fox:itp:2010: []
@@ -9788,6 +9893,7 @@ papers:
   - - papers/bornholt:oopsla:2018
     - - Finding code that explodes under symbolic evaluation
       - bornholt:oopsla:2018
+  papers/gao:fmcad:2021: []
   papers/garg:icse:2013:
   - - papers/dimjasevic:ifm:2018
     - - Study of integrating random and symbolic testing for object-oriented software
@@ -9941,7 +10047,7 @@ papers:
   papers/hritcu:icfp:2013: []
   papers/hsiao:micro:2021:
   - - papers/manerkar:micro:2017
-    - - 'RTLcheck: Verifying the Memory Consistency of RTL Designs'
+    - - 'RTLcheck: Verifying the memory consistency of RTL designs'
       - manerkar:micro:2017
   papers/hsieh:usenix:2001:
   - - papers/collberg:pldi:1997
@@ -10010,6 +10116,7 @@ papers:
       - jones:hw:1997
   papers/jones:microsoft:2001: []
   papers/jones:pldi:1999: []
+  papers/jones:sosp:1993: []
   papers/joshi:pldi:2002: []
   papers/jouppi:isca:2017:
   - - papers/jouppi:micro:2018
@@ -10075,7 +10182,7 @@ papers:
   papers/kiczales:iwoos:1991: []
   papers/kim:isca:2014:
   - - papers/razavi:usenix:2016
-    - - 'Flip Feng Shui: Hammering a Needle in the Software Stack'
+    - - 'Flip Feng Shui: Hammering a needle in the software stack'
       - razavi:usenix:2016
   papers/kirankumar:fmcad:2012: []
   papers/kjolstad:oopsla:2017: []
@@ -10484,6 +10591,10 @@ papers:
   - - papers/bryant:cmu:2018
     - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
       - bryant:cmu:2018
+  - - papers/gao:fmcad:2021
+    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
+        Pointers
+      - gao:fmcad:2021
   - - papers/reid:fmcad:2016
     - - Trustworthy specifications of ARM v8-A and v8-M system level architecture
       - reid:fmcad:2016
@@ -10626,7 +10737,7 @@ papers:
         Intel processor graphics FPU'
       - kirankumar:fmcad:2012
   - - papers/sebastiani:cav:2004
-    - - GSTE Is Partitioned Model Checking
+    - - GSTE is partitioned model checking
       - sebastiani:cav:2004
   papers/sen:fse:2005: []
   papers/seshadri:sosp:2007:
@@ -10875,7 +10986,7 @@ papers:
       - ramos:cav:2011
   papers/yang:sandp:2016:
   - - papers/bidmeshki:iccd:2019
-    - - Revisiting Capacitor-Based Trojan Design
+    - - Revisiting capacitor-based Trojan design
       - bidmeshki:iccd:2019
   papers/yanovski:unknown:2021: []
   papers/yun:usenix:2018:
