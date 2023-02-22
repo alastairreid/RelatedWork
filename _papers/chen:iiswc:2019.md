@@ -21,6 +21,7 @@ title: 'BHive: A benchmark suite and measurement framework for validating x86-64
 volume: ''
 year: 2019
 notes:
+- x86 architecture
 papers:
 ---
 {% include links.html %}

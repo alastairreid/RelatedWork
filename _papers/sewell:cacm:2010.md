@@ -40,6 +40,7 @@ year: 2010
 notes:
 - weak memory
 - TSO
+- x86 architecture
 papers:
 ---
 {% include links.html %}

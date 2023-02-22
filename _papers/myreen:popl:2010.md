@@ -27,6 +27,7 @@ year: 2010
 notes:
 - ISA specification
 - compiler verification
+- x86 architecture
 papers:
 ---
 {% include links.html %}

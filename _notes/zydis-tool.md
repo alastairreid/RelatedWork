@@ -1,6 +1,7 @@
 ---
 layout: note
 notes:
+- x86 architecture
 - ISA specification
 - binary analysis
 papers: {}

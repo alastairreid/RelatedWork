@@ -15,7 +15,7 @@ publisher: TUI Wien Academic Press
 read: true
 readings:
 - 2023-01-05
-title: End-to-End Formal Verification of a RISC-V Processor Extended with Capability Pointers
+title: End-to-end formal verification of a RISC-V processor extended with capability pointers
 url: http://www.cs.ox.ac.uk/tom.melham/pub/Gao-2021-EFVG.pdf
 volume: '2'
 year: 2021

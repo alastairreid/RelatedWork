@@ -41,6 +41,7 @@ notes:
 - binary lifter
 - McSema tool
 - Remill library
+- x86 architecture
 papers:
 ---
 {% include links.html %}

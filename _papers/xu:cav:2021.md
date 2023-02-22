@@ -27,6 +27,8 @@ title: Automatic generation and validation of instruction encoders and decoders
 year: 2021
 notes:
 - ISA specification
+- x86 architecture
 papers:
+- hsieh:usenix:2001
 ---
 {% include links.html %}

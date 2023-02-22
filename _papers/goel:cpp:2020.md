@@ -36,6 +36,7 @@ notes:
 - hardware
 - CPU verification
 - ISA specification
+- x86 architecture
 papers:
 ---
 {% include links.html %}

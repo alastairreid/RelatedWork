@@ -26,5 +26,7 @@ title: 'The nesC language: A holistic approach to networked embedded systems'
 year: 2003
 notes:
 - events
+- module system
+- networks
 ---
 {% include links.html %}

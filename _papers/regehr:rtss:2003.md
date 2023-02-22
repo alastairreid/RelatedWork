@@ -30,6 +30,9 @@ readings: []
 title: Evolving real-time systems using hierarchical scheduling and concurrency analysis
 year: 2003
 topics:
+notes:
+- networks
+- operating systems
 papers:
 ---
 

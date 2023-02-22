@@ -29,6 +29,7 @@ year: 1994
 notes:
 - operating systems
 - module system
+- networks
 papers:
 ---
 {% include links.html %}

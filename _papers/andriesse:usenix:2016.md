@@ -24,6 +24,7 @@ notes:
 - ISA specification
 - reverse engineering
 - binary analysis
+- x86 architecture
 papers:
 ---
 {% include links.html %}

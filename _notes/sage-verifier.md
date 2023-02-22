@@ -5,6 +5,7 @@ notes:
 - symbolic execution
 - concolic execution
 - fuzz testing
+- x86 architecture
 papers:
 - godefroid:acmq:2012
 - godefroid:cacm:2020

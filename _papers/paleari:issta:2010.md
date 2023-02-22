@@ -33,6 +33,8 @@ year: 2010
 notes:
 - ISA specification
 - differential testing
+- binary analysis
+- x86 architecture
 papers:
 ---
 {% include links.html %}

@@ -24,6 +24,8 @@ title: Data-driven equivalence checking
 year: 2013
 topics:
 papers:
+notes:
+- x86 architecture
 ---
 
 {% include links.html %}

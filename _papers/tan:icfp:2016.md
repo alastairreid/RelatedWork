@@ -36,6 +36,10 @@ notes:
 - ISA specification
 - Verified compilers
 - CakeML compiler
+- x86 architecture
+- Arm architecture
+- RISCV architecture
+- MIPS architecture
 papers:
 ---
 {% include links.html %}

@@ -691,6 +691,9 @@ notes:
   - - notes/riscv-architecture
     - - RISC-V architecture
       - null
+  - - notes/sparc-architecture
+    - - Sparc architecture
+      - null
   - - notes/vector-architecture
     - - Vector architecture
       - null
@@ -740,6 +743,7 @@ notes:
     - - Viper verifier
       - null
   notes/interpolation: []
+  notes/interposition: []
   notes/isa-specification:
   - - notes/arm-architecture
     - - Arm architecture
@@ -1065,6 +1069,7 @@ notes:
   notes/module-system: []
   notes/mutation-testing: []
   notes/natural-language: []
+  notes/networks: []
   notes/neural-network:
   - - notes/activation-function
     - - Activation function
@@ -1574,6 +1579,7 @@ notes:
   - - notes/activation-function
     - - Activation function
       - null
+  notes/sparc-architecture: []
   notes/sparse-model:
   - - notes/attention-function
     - - Attention function
@@ -2023,11 +2029,17 @@ notes:
   - - notes/reopt-tool
     - - reopt binary lifter
       - null
+  - - notes/sage-verifier
+    - - SAGE verifier
+      - null
   - - notes/secondwrite-tool
     - - SecondWrite binary lifter
       - null
   - - notes/xed-tool
     - - XED x86 encoding/decoding library
+      - null
+  - - notes/zydis-tool
+    - - zydis x86 decoder/disassembler library
       - null
   notes/xed-tool:
   - - notes/remill-library
@@ -2806,7 +2818,10 @@ notes:
       - null
   papers/jones:microsoft:2001: []
   papers/jones:pldi:1999: []
-  papers/jones:sosp:1993: []
+  papers/jones:sosp:1993:
+  - - notes/interposition
+    - - Interposition
+      - null
   papers/joshi:pldi:2002: []
   papers/jouppi:isca:2017:
   - - notes/tpu
@@ -3795,6 +3810,9 @@ papers:
   - - papers/tahat:fmcad:2019
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
+  - - papers/tan:icfp:2016
+    - - A new verified compiler backend for CakeML
+      - tan:icfp:2016
   - - papers/tao:sosp:2021
     - - Formal verification of a multiprocessor hypervisor on Arm relaxed memory hardware
       - tao:sosp:2021
@@ -3825,6 +3843,12 @@ papers:
     - - Scalable translation validation of unverified legacy OS code
       - tahat:fmcad:2019
   notes/aspect-oriented-programming:
+  - - papers/eide:aspse:2001
+    - - 'Aspect weaving as component knitting: Separating concerns with Knit'
+      - eide:aspse:2001
+  - - papers/eide:icse:2002
+    - - Static and dynamic structure in design patterns
+      - eide:icse:2002
   - - papers/kiczales:iwoos:1991
     - - Towards a new model of abstraction in software engineering
       - kiczales:iwoos:1991
@@ -3954,6 +3978,9 @@ papers:
   - - papers/noonan:pldi:2016
     - - Polymorphic type inference for machine code
       - noonan:pldi:2016
+  - - papers/paleari:issta:2010
+    - - 'N-version disassembly: Differential testing of x86 disassemblers'
+      - paleari:issta:2010
   - - papers/regehr:asplos:2004
     - - 'HOIST: a system for automatically deriving static analyzers for embedded
         systems'
@@ -4028,8 +4055,8 @@ papers:
       - vaswani:arxiv:2017
   notes/bluespec:
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   notes/boogie-verifier:
   - - papers/almeida:security:2016
@@ -4235,8 +4262,8 @@ papers:
     - - Verified security for the Morello capability-enhanced prototype Arm architecture
       - bauereiss:ucam:2021
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   - - papers/nienhuis:secpriv:2020
     - - 'Rigorous engineering for hardware security: Formal modelling and proof in
@@ -4470,8 +4497,8 @@ papers:
     - - Formal verification of the ARM6 micro-architecture
       - fox:ucam:2002
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   - - papers/goel:cav:2021
     - - Balancing automation and control for formal verification of microprocessors
@@ -5744,6 +5771,19 @@ papers:
   - - papers/jhala:compsurv:2009
     - - Software model checking
       - jhala:compsurv:2009
+  notes/interposition:
+  - - papers/eide:aspse:2001
+    - - 'Aspect weaving as component knitting: Separating concerns with Knit'
+      - eide:aspse:2001
+  - - papers/eide:icse:2002
+    - - Static and dynamic structure in design patterns
+      - eide:icse:2002
+  - - papers/ford:sosp:1996
+    - - Microkernels meet recursive virtual machines
+      - ford:sosp:1996
+  - - papers/jones:sosp:1993
+    - - 'Interposition agents: transparently interposing user code at the system interface'
+      - jones:sosp:1993
   notes/isa-specification:
   - - papers/andriesse:usenix:2016
     - - An in-depth analysis of disassembly on full-scale x86/x64 binaries
@@ -5881,8 +5921,8 @@ papers:
     - - Formal specification and verification of ARM6
       - fox:tphols:2003
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   - - papers/godefroid:pldi:2012
     - - Automated synthesis of symbolic instruction encodings from I/O samples
@@ -6197,8 +6237,8 @@ papers:
       - mcmillan:sigcomm:2019
   notes/jaspergold:
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   notes/java-pathfinder:
   - - papers/khurshid:tacas:2003
@@ -6595,6 +6635,9 @@ papers:
   - - papers/hennessy:micro:1982
     - - 'MIPS: A microprocessor architecture'
       - hennessy:micro:1982
+  - - papers/tan:icfp:2016
+    - - A new verified compiler backend for CakeML
+      - tan:icfp:2016
   notes/mir:
   - - papers/jung:popl:2017
     - - 'RustBelt: Securing the foundations of the Rust programming language'
@@ -6717,6 +6760,9 @@ papers:
   - - papers/biagioni:sigcomm:1994
     - - A structured TCP in Standard ML
       - biagioni:sigcomm:1994
+  - - papers/eide:icse:2002
+    - - Static and dynamic structure in design patterns
+      - eide:icse:2002
   - - papers/flatt:pldi:1998
     - - 'Units: Cool modules for HOT languages'
       - flatt:pldi:1998
@@ -6726,6 +6772,9 @@ papers:
   - - papers/ford:sosp:1997
     - - 'The Flux OSKit: A substrate for kernel and language research'
       - ford:sosp:1997
+  - - papers/gay:pldi:2003
+    - - 'The nesC language: A holistic approach to networked embedded systems'
+      - gay:pldi:2003
   - - papers/jones:sosp:1993
     - - 'Interposition agents: transparently interposing user code at the system interface'
       - jones:sosp:1993
@@ -6753,6 +6802,19 @@ papers:
   - - papers/reid:oopsla:2017
     - - Who guards the guards? Formal validation of the ARM v8-M architecture specification
       - reid:oopsla:2017
+  notes/networks:
+  - - papers/biagioni:sigcomm:1994
+    - - A structured TCP in Standard ML
+      - biagioni:sigcomm:1994
+  - - papers/gay:pldi:2003
+    - - 'The nesC language: A holistic approach to networked embedded systems'
+      - gay:pldi:2003
+  - - papers/regehr:rtss:2003
+    - - Evolving real-time systems using hierarchical scheduling and concurrency analysis
+      - regehr:rtss:2003
+  - - papers/reid:osdi:2000
+    - - 'Knit: Component composition for systems software'
+      - reid:osdi:2000
   notes/neural-network:
   - - papers/abadi:arxiv:2016
     - - 'TensorFlow: Large-scale machine learning on heterogeneous distributed systems'
@@ -6902,6 +6964,9 @@ papers:
   - - papers/regehr:acp4is:2003
     - - Lock inference for systems software
       - regehr:acp4is:2003
+  - - papers/regehr:rtss:2003
+    - - Evolving real-time systems using hierarchical scheduling and concurrency analysis
+      - regehr:rtss:2003
   - - papers/reid:osdi:2000
     - - 'Knit: Component composition for systems software'
       - reid:osdi:2000
@@ -7354,8 +7419,8 @@ papers:
     - - The state of Sail
       - armstrong:spisa:2019
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   - - papers/lockhart:ispass:2015
     - - 'Pydgin: generating fast instruction set simulators from simple architecture
@@ -7365,6 +7430,9 @@ papers:
     - - Scaling symbolic evaluation for automated verification of systems code with
         Serval
       - nelson:sosp:2019
+  - - papers/tan:icfp:2016
+    - - A new verified compiler backend for CakeML
+      - tan:icfp:2016
   - - papers/yadavalli:lctes:2019
     - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
       - yadavalli:lctes:2019
@@ -7628,8 +7696,8 @@ papers:
     - - The state of Sail
       - armstrong:spisa:2019
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   notes/sat-solver:
   - - papers/brummayer:sat:2010
@@ -8050,6 +8118,7 @@ papers:
     - - Parameterized unit tests
       - tillmann:fse:2005
   notes/softmax: []
+  notes/sparc-architecture: []
   notes/sparse-model:
   - - papers/elsen:arxiv:2019
     - - Fast sparse ConvNets
@@ -8538,8 +8607,8 @@ papers:
       - mcmillan:ecs:2003
   notes/symbolic-qed:
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   notes/symbolic-trajectory-evaluation:
   - - papers/claessen:sfm:2006
@@ -8566,8 +8635,8 @@ papers:
   notes/systemverilog: []
   notes/systemverilog-assertions:
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   notes/tcg-ir:
   - - papers/difederico:cc:2017
@@ -9185,18 +9254,34 @@ papers:
     - - A compiler-level intermediate representation based binary analysis and rewriting
         system
       - anand:eurosys:2013
+  - - papers/andriesse:usenix:2016
+    - - An in-depth analysis of disassembly on full-scale x86/x64 binaries
+      - andriesse:usenix:2016
   - - papers/bastian:adl:2005
     - - Specification of Intel IA-32 using an architecture description language
       - bastian:adl:2005
+  - - papers/chen:iiswc:2019
+    - - 'BHive: A benchmark suite and measurement framework for validating x86-64
+        basic block performance models'
+      - chen:iiswc:2019
   - - papers/dasgupta:pldi:2019
     - - A complete formal semantics of x86-64 user-level instruction set architecture
       - dasgupta:pldi:2019
+  - - papers/dasgupta:pldi:2020
+    - - Scalable validation of binary lifters
+      - dasgupta:pldi:2020
   - - papers/degenbaev:phd:2012
     - - Formal specification of the x86 instruction set architecture
       - degenbaev:phd:2012
   - - papers/goel:acl2:2013
     - - Abstract stobjs and their application to ISA modeling
       - goel:acl2:2013
+  - - papers/goel:cav:2021
+    - - Balancing automation and control for formal verification of microprocessors
+      - goel:cav:2021
+  - - papers/goel:cpp:2020
+    - - Verifying x86 instruction implementations
+      - goel:cpp:2020
   - - papers/goel:fmcad:2014
     - - Simulation and formal verification of x86 machine-code programs that make
         system calls
@@ -9242,9 +9327,15 @@ papers:
   - - papers/morrisett:wcsss:1999
     - - 'TALx86: A realistic typed assembly language'
       - morrisett:wcsss:1999
+  - - papers/myreen:popl:2010
+    - - Verified just-in-time compiler on x86
+      - myreen:popl:2010
   - - papers/myreen:tphols:2009
     - - Verified LISP Implementations on ARM, x86 and PowerPC
       - myreen:tphols:2009
+  - - papers/paleari:issta:2010
+    - - 'N-version disassembly: Differential testing of x86 disassemblers'
+      - paleari:issta:2010
   - - papers/peleg:micro:1996
     - - MMX technology extension to the Intel architecture
       - peleg:micro:1996
@@ -9257,6 +9348,18 @@ papers:
   - - papers/sarkar:popl:2009
     - - The semantics of x86-CC multiprocessor machine code
       - sarkar:popl:2009
+  - - papers/sewell:cacm:2010
+    - - 'x86-TSO: A rigorous and usable programmer''s model for x86 multiprocessors'
+      - sewell:cacm:2010
+  - - papers/sharma:oopsla:2012
+    - - Data-driven equivalence checking
+      - sharma:oopsla:2012
+  - - papers/tan:icfp:2016
+    - - A new verified compiler backend for CakeML
+      - tan:icfp:2016
+  - - papers/xu:cav:2021
+    - - Automatic generation and validation of instruction encoders and decoders
+      - xu:cav:2021
   - - papers/yadavalli:lctes:2019
     - - Raising binaries to LLVM IR with MCTOLL (WIP paper)
       - yadavalli:lctes:2019
@@ -10056,6 +10159,9 @@ papers:
   - - papers/ramsey:usenix:1995
     - - The New Jersey machine-code toolkit
       - ramsey:usenix:1995
+  - - papers/xu:cav:2021
+    - - Automatic generation and validation of instruction encoders and decoders
+      - xu:cav:2021
   papers/huang:todaes:2019: []
   papers/hunt:jar:1989: []
   papers/hunt:lncs:1994: []
@@ -10116,7 +10222,13 @@ papers:
       - jones:hw:1997
   papers/jones:microsoft:2001: []
   papers/jones:pldi:1999: []
-  papers/jones:sosp:1993: []
+  papers/jones:sosp:1993:
+  - - papers/eide:aspse:2001
+    - - 'Aspect weaving as component knitting: Separating concerns with Knit'
+      - eide:aspse:2001
+  - - papers/eide:icse:2002
+    - - Static and dynamic structure in design patterns
+      - eide:icse:2002
   papers/joshi:pldi:2002: []
   papers/jouppi:isca:2017:
   - - papers/jouppi:micro:2018
@@ -10179,7 +10291,13 @@ papers:
   - - papers/xie:popl:2005
     - - Scalable error detection using boolean satisfiability
       - xie:popl:2005
-  papers/kiczales:iwoos:1991: []
+  papers/kiczales:iwoos:1991:
+  - - papers/eide:aspse:2001
+    - - 'Aspect weaving as component knitting: Separating concerns with Knit'
+      - eide:aspse:2001
+  - - papers/eide:icse:2002
+    - - Static and dynamic structure in design patterns
+      - eide:icse:2002
   papers/kim:isca:2014:
   - - papers/razavi:usenix:2016
     - - 'Flip Feng Shui: Hammering a needle in the software stack'
@@ -10592,8 +10710,8 @@ papers:
     - - Formal verification of pipelined Y86-64 microprocessors with UCLID5
       - bryant:cmu:2018
   - - papers/gao:fmcad:2021
-    - - End-to-End Formal Verification of a RISC-V Processor Extended with Capability
-        Pointers
+    - - End-to-end formal verification of a RISC-V processor extended with capability
+        pointers
       - gao:fmcad:2021
   - - papers/reid:fmcad:2016
     - - Trustworthy specifications of ARM v8-A and v8-M system level architecture

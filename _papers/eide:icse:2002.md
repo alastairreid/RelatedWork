@@ -33,8 +33,13 @@ year: 2002
 notes:
 - operating systems
 - Domain Specific Language
+- interposition
+- module system
+- aspect oriented programming
 papers:
 - reid:osdi:2000
+- jones:sosp:1993
+- kiczales:iwoos:1991
 ---
 
 {% include links.html %}
