@@ -138,6 +138,10 @@
 - name: Zachary Anderson
   papers:
   - papers/condit:esop:2007
+- name: Adam Anderson
+  papers:
+  - papers/nandi:pldi:2020
+  - papers/willsey:oopsla:2021
 - name: Jonathan Anderson
   papers:
   - papers/watson:sandp:2015
@@ -842,6 +846,9 @@
 - name: Pierre-luc Cantin
   papers:
   - papers/jouppi:isca:2017
+- name: David Cao
+  papers:
+  - papers/zhang:pldi:2023
 - name: Michael Carbin
   papers:
   - papers/chen:iiswc:2019
@@ -879,6 +886,7 @@
 - name: Luis Ceze
   papers:
   - papers/bergan:oopsla:2014
+  - papers/smith:maps:2021
   - papers/vega:pldi:2021
   - papers/zorn:iscawddd:2017
 - name: Sang Kil Cha
@@ -1139,6 +1147,7 @@
   - papers/vonbehren:hotos:2003
 - name: George A. Constantinides
   papers:
+  - papers/coward:arxiv:2023
   - papers/wickerson:popl:2017
 - name: Christopher L. Conway
   papers:
@@ -1205,6 +1214,10 @@
 - name: Radhia Cousot
   papers:
   - papers/cousot:oopsla:2012
+- name: Samuel Coward
+  papers:
+  - papers/coward:arxiv:2023
+  - papers/flatt:fmcad:2022
 - name: Neal Crago
   papers:
   - papers/hedge:micro:2019
@@ -1288,6 +1301,9 @@
 - name: Zaynah Dargaye
   papers:
   - papers/cuoq:sefm:2012
+- name: Eva Darulova
+  papers:
+  - papers/nandi:pldi:2020
 - name: Shidhartha Das
   papers:
   - papers/hadjilambrou:ispass:2019
@@ -1321,6 +1337,9 @@
 - name: Jack W. Davidson
   papers:
   - papers/ramsey:lctes:1998
+- name: Scott Davidson
+  papers:
+  - papers/smith:maps:2021
 - name: Andy Davis
   papers:
   - papers/abadi:arxiv:2016
@@ -1466,6 +1485,9 @@
 - name: Floris Van Doorn
   papers:
   - papers/demoura:cade:2015
+- name: Theo Drane
+  papers:
+  - papers/coward:arxiv:2023
 - name: Richard P. Draves
   papers:
   - papers/draves:sosp:1991
@@ -1773,7 +1795,9 @@
   - papers/reid:osdi:2000
 - name: Oliver Flatt
   papers:
+  - papers/flatt:fmcad:2022
   - papers/willsey:popl:2021
+  - papers/zhang:pldi:2023
 - name: "Kriszti\xE1n Flautner"
   papers:
   - papers/lin:sdr:2006
@@ -2192,7 +2216,9 @@
   - papers/grossman:esop:2002
   - papers/grossman:pldi:2002
   - papers/morrisett:wcsss:1999
+  - papers/nandi:pldi:2020
   - papers/vega:pldi:2021
+  - papers/willsey:oopsla:2021
   - papers/zorn:iscawddd:2017
 - name: Robert E. Gruber
   papers:
@@ -3447,6 +3473,9 @@
 - name: Benjamin S. Lerner
   papers:
   - papers/krishnamurthi:snapl:2019
+- name: Sorin Lerner
+  papers:
+  - papers/tate:popl:2009
 - name: Xavier Leroy
   papers:
   - papers/leroy:cacm:2009
@@ -3581,6 +3610,9 @@
 - name: Weijie Liu
   papers:
   - papers/ma:securecomm:2015
+- name: Andrew Liu
+  papers:
+  - papers/smith:maps:2021
 - name: Inbal Livni
   papers:
   - papers/lifshitz:wish:2011
@@ -3676,6 +3708,7 @@
   - papers/xu:arxiv:2021
 - name: Steven Lyubomirsky
   papers:
+  - papers/smith:maps:2021
   - papers/weitz:icfp:2017
 - name: "Andreas L\xF6\xF6w"
   papers:
@@ -3918,6 +3951,7 @@
   - papers/amadio:fpara:2014
 - name: Joseph McMahan
   papers:
+  - papers/smith:maps:2021
   - papers/vega:pldi:2021
 - name: Kenneth L. McMillan
   papers:
@@ -4266,6 +4300,8 @@
   - papers/becker:fm:2016
 - name: Chandrakana Nandi
   papers:
+  - papers/nandi:pldi:2020
+  - papers/willsey:oopsla:2021
   - papers/willsey:popl:2021
 - name: Aleksandar Nanevski
   papers:
@@ -4539,6 +4575,7 @@
   - papers/paleari:issta:2010
 - name: Pavel Panchekha
   papers:
+  - papers/flatt:fmcad:2022
   - papers/willsey:popl:2021
 - name: Aurojit Panda
   papers:
@@ -5141,6 +5178,9 @@
 - name: Charles W. Rose
   papers:
   - papers/chu:ieeedtc:1992
+- name: Eli Rosenthal
+  papers:
+  - papers/zhang:pldi:2023
 - name: Jonathan Ross
   papers:
   - papers/jouppi:isca:2017
@@ -5211,6 +5251,9 @@
 - name: Mooly Sagiv
   papers:
   - papers/naik:popl:2012
+- name: Brett Saiki
+  papers:
+  - papers/willsey:oopsla:2021
 - name: Yasushi Saito
   papers:
   - papers/corbett:tocs:2013
@@ -5334,6 +5377,9 @@
 - name: Steffen Schulz
   papers:
   - papers/alexopoulos:tps:2020
+- name: Adriana Schulz
+  papers:
+  - papers/willsey:oopsla:2021
 - name: Mike Schuster
   papers:
   - papers/abadi:arxiv:2016
@@ -5640,6 +5686,9 @@
 - name: Geoffrey Smith
   papers:
   - papers/smith:fossacs:2009
+- name: Gus Henry Smith
+  papers:
+  - papers/smith:maps:2021
 - name: Aaron Smith
   papers:
   - papers/yadavalli:lctes:2019
@@ -5737,6 +5786,9 @@
 - name: Nigel Stephens
   papers:
   - papers/stephens:micro:2017
+- name: Michael Stepp
+  papers:
+  - papers/tate:popl:2009
 - name: Rock Stevens
   papers:
   - papers/votipka:sp:2018
@@ -5913,10 +5965,19 @@
 - name: John Van Tassel
   papers:
   - papers/boulton:tpcd:1993
+- name: Ross Tate
+  papers:
+  - papers/tate:popl:2009
 - name: Zachary Tatlock
   papers:
+  - papers/flatt:fmcad:2022
+  - papers/nandi:pldi:2020
+  - papers/smith:maps:2021
+  - papers/tate:popl:2009
   - papers/weitz:icfp:2017
+  - papers/willsey:oopsla:2021
   - papers/willsey:popl:2021
+  - papers/zhang:pldi:2023
 - name: Michael Tautschnig
   papers:
   - papers/alglave:toplas:2014
@@ -5931,6 +5992,9 @@
   papers:
   - papers/corbett:tocs:2013
   - papers/kaivola:cav:2009
+- name: Michael Taylor
+  papers:
+  - papers/smith:maps:2021
 - name: Tobias Tebbi
   papers:
   - papers/mcilroy:arxiv:2019
@@ -6308,7 +6372,9 @@
   - papers/wang:tase:2018
 - name: Yisu Remy Wang
   papers:
+  - papers/willsey:oopsla:2021
   - papers/willsey:popl:2021
+  - papers/zhang:pldi:2023
 - name: Dashun Wang
   papers:
   - papers/wu:arxiv:2017
@@ -6416,6 +6482,9 @@
 - name: Eric Wilcox
   papers:
   - papers/jouppi:isca:2017
+- name: James R. Wilcox
+  papers:
+  - papers/nandi:pldi:2020
 - name: Mladen Wilder
   papers:
   - papers/woh:micro:2008
@@ -6434,7 +6503,11 @@
   - papers/sarkar:pldi:2011
 - name: Max Willsey
   papers:
+  - papers/flatt:fmcad:2022
+  - papers/nandi:pldi:2020
+  - papers/willsey:oopsla:2021
   - papers/willsey:popl:2021
+  - papers/zhang:pldi:2023
 - name: Phillip J. Windley
   papers:
   - papers/windley:ieeetoc:1995
@@ -6735,6 +6808,9 @@
 - name: Ziyi Zhang
   papers:
   - papers/zhang:ccs:2020
+- name: Yihong Zhang
+  papers:
+  - papers/zhang:pldi:2023
 - name: Mark Zhao
   papers:
   - papers/ferraiuolo:ccs:2018
@@ -6777,6 +6853,9 @@
 - name: Xiaoran Zhu
   papers:
   - papers/wang:tase:2018
+- name: Amy Zhu
+  papers:
+  - papers/willsey:oopsla:2021
 - name: Xiaotong Zhuang
   papers:
   - papers/zhuang:pldi:2006
@@ -6801,6 +6880,9 @@
 - name: Lenore D. Zuck
   papers:
   - papers/mcmillan:sigcomm:2019
+- name: Philip Zucker
+  papers:
+  - papers/zhang:pldi:2023
 - name: Susan Zuckerman
   papers:
   - papers/barbacci:afips:1977

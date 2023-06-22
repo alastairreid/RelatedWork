@@ -7,7 +7,7 @@ abstract: Applications targeting digital signal processors (DSPs) benefit from f
   combines symbolic evaluation and equality saturation to vectorize computations with irregular structure. We show that a collection of Diospyros-compiled
   kernels outperform implementations from existing DSP libraries by 3.1\texttimes  on average, that Diospyros can generate kernels that are competitive
   with expert-tuned code, and that optimizing these small kernels offers end-to-end speedup for a DSP application.
-added: 2021-09-22
+added: 2023-06-21
 address: New York, NY, USA
 authors:
 - Alexa VanHattum
@@ -18,7 +18,7 @@ authors:
 booktitle: Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems
 doi: 10.1145/3445814.3446707
 isbn: '9781450383172'
-keywords: Equality Saturation, Vectorization, DSPs, Program Synthesis
+keywords: Equality Saturation, Program Synthesis, DSPs, Vectorization
 layout: paper
 link: https://doi.org/10.1145/3445814.3446707
 location: Virtual, USA
@@ -27,12 +27,12 @@ pages: 874-886
 publisher: Association for Computing Machinery
 read: false
 readings: []
-series: ASPLOS 2021
-title: Vectorization for Digital Signal Processors via equality saturation
+series: ASPLOS '21
+title: Vectorization for digital signal processors via equality saturation
 url: https://doi.org/10.1145/3445814.3446707
 year: 2021
 notes:
-- equality saturation
+- egraphs
 papers:
 ---
 {% include links.html %}

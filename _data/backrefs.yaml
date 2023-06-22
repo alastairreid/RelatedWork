@@ -532,6 +532,7 @@ notes:
   - - notes/valgrind-tool
     - - Valgrind binary instrumentation tool
       - null
+  notes/egraphs: []
   notes/embedding: []
   notes/entropy: []
   notes/equality-saturation: []
@@ -2473,6 +2474,7 @@ notes:
     - - Non-interference
       - null
   papers/cousot:oopsla:2012: []
+  papers/coward:arxiv:2023: []
   papers/cui:asplos:2013: []
   papers/cuoq:sefm:2012:
   - - notes/frama-c-verifier
@@ -2573,6 +2575,7 @@ notes:
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
+  papers/flatt:fmcad:2022: []
   papers/flatt:pldi:1998: []
   papers/fluet:jfp:2006:
   - - notes/phantom-types
@@ -3073,6 +3076,7 @@ notes:
   papers/myreen:popl:2010: []
   papers/myreen:tphols:2009: []
   papers/naik:popl:2012: []
+  papers/nandi:pldi:2020: []
   papers/nanevski:icfp:2008: []
   papers/nanevski:oopsla:2019: []
   papers/narayanan:hotos:2019: []
@@ -3399,6 +3403,7 @@ notes:
   papers/smith:book:1996: []
   papers/smith:esop:2000: []
   papers/smith:fossacs:2009: []
+  papers/smith:maps:2021: []
   papers/smith:tocs:1984:
   - - notes/decoupling
     - - Decoupling
@@ -3437,6 +3442,7 @@ notes:
   papers/tang:sec:2017: []
   papers/tanter:aosd:2010: []
   papers/tao:sosp:2021: []
+  papers/tate:popl:2009: []
   papers/thies:micro:2007: []
   papers/thies:ppopp:2005: []
   papers/tillmann:fse:2005: []
@@ -3537,6 +3543,7 @@ notes:
     - - Rosette solver
       - null
   papers/wickerson:popl:2017: []
+  papers/willsey:oopsla:2021: []
   papers/willsey:popl:2021: []
   papers/windley:ieeetoc:1995: []
   papers/woh:micro:2008: []
@@ -3584,6 +3591,7 @@ notes:
   papers/zhang:ccs:2020: []
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
+  papers/zhang:pldi:2023: []
   papers/zhang:toplas:2017: []
   papers/zhao:ndss:2019: []
   papers/zhuang:pldi:2006: []
@@ -4826,6 +4834,34 @@ papers:
     - - 'QSYM: A practical concolic execution engine tailored for hybrid fuzzing'
       - yun:usenix:2018
   notes/dynamorio-tool: []
+  notes/egraphs:
+  - - papers/coward:arxiv:2023
+    - - Automating constraint-aware datapath optimization using E-graphs
+      - coward:arxiv:2023
+  - - papers/flatt:fmcad:2022
+    - - Small proofs from congruence closure
+      - flatt:fmcad:2022
+  - - papers/nandi:pldi:2020
+    - - Synthesizing structured CAD models with equality saturation and inverse transformations
+      - nandi:pldi:2020
+  - - papers/smith:maps:2021
+    - - Pure tensor program rewriting via access patterns (representation pearl)
+      - smith:maps:2021
+  - - papers/tate:popl:2009
+    - - 'Equality saturation: A new approach to optimization'
+      - tate:popl:2009
+  - - papers/vanhattum:asplos:2021
+    - - Vectorization for digital signal processors via equality saturation
+      - vanhattum:asplos:2021
+  - - papers/willsey:oopsla:2021
+    - - Rewrite rule inference using equality saturation
+      - willsey:oopsla:2021
+  - - papers/willsey:popl:2021
+    - - 'egg: Fast and extensible equality saturation'
+      - willsey:popl:2021
+  - - papers/zhang:pldi:2023
+    - - 'Better together: Unifying datalog and equality saturation'
+      - zhang:pldi:2023
   notes/embedding:
   - - papers/boulton:tpcd:1993
     - - Experience with embedding hardware description languages in HOL
@@ -4834,13 +4870,7 @@ papers:
   - - papers/bohme:fse:2020
     - - 'Boosting fuzzer efficiency: An information theoretic perspective'
       - bohme:fse:2020
-  notes/equality-saturation:
-  - - papers/vanhattum:asplos:2021
-    - - Vectorization for Digital Signal Processors via equality saturation
-      - vanhattum:asplos:2021
-  - - papers/willsey:popl:2021
-    - - 'Egg: Fast and extensible equality saturation'
-      - willsey:popl:2021
+  notes/equality-saturation: []
   notes/events:
   - - papers/dabek:sigops:2002
     - - Event-driven programming for robust software
@@ -9813,6 +9843,7 @@ papers:
     - - 'seL4: from general purpose to a proof of information flow enforcement'
       - murray:secpriv:2013
   papers/cousot:oopsla:2012: []
+  papers/coward:arxiv:2023: []
   papers/cui:asplos:2013:
   - - papers/ramos:sec:2015
     - - 'Under-constrained symbolic execution: Correctness checking for real code'
@@ -9959,6 +9990,7 @@ papers:
   papers/fioraldi:arxiv:2020: []
   papers/fischer:ase:2013: []
   papers/fisher:isca:1983: []
+  papers/flatt:fmcad:2022: []
   papers/flatt:pldi:1998: []
   papers/fluet:jfp:2006:
   - - papers/yanovski:unknown:2021
@@ -10509,6 +10541,7 @@ papers:
   papers/myreen:popl:2010: []
   papers/myreen:tphols:2009: []
   papers/naik:popl:2012: []
+  papers/nandi:pldi:2020: []
   papers/nanevski:icfp:2008: []
   papers/nanevski:oopsla:2019: []
   papers/narayanan:hotos:2019: []
@@ -10930,6 +10963,7 @@ papers:
   papers/smith:book:1996: []
   papers/smith:esop:2000: []
   papers/smith:fossacs:2009: []
+  papers/smith:maps:2021: []
   papers/smith:tocs:1984: []
   papers/song:iciss:2008: []
   papers/spencer:security:1999: []
@@ -10962,6 +10996,7 @@ papers:
   papers/tang:sec:2017: []
   papers/tanter:aosd:2010: []
   papers/tao:sosp:2021: []
+  papers/tate:popl:2009: []
   papers/thies:micro:2007: []
   papers/thies:ppopp:2005: []
   papers/tillmann:fse:2005: []
@@ -11042,6 +11077,7 @@ papers:
   papers/weiss:arxiv:2018: []
   papers/weitz:icfp:2017: []
   papers/wickerson:popl:2017: []
+  papers/willsey:oopsla:2021: []
   papers/willsey:popl:2021: []
   papers/windley:ieeetoc:1995: []
   papers/woh:micro:2008:
@@ -11124,6 +11160,7 @@ papers:
   papers/zhang:ccs:2020: []
   papers/zhang:fmcad:2018: []
   papers/zhang:issta:2014: []
+  papers/zhang:pldi:2023: []
   papers/zhang:toplas:2017: []
   papers/zhao:ndss:2019: []
   papers/zhuang:pldi:2006: []
