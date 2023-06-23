@@ -21,19 +21,23 @@ topics:
 - verification
 notes:
 - information flow
+- non-leakage
+- non-interference
 papers:
 - leino:lpair:2010
 - nelson:sosp:2019
+- nelson:osr:2020
 ---
 
 Komodo implements functionality similar to SGX but is implemented in formally verified software on ARMv7 processors instead of being implemented in hardware and microcode.
 The introduction makes a very convincing argument that this is the right way to deploy security extensions because
 it can be updated much faster,
 and the verification is transparent ("it replaces folklore with formal verification").
-They verify both functional properties and security properties (non-interference).
+They verify both functional properties and security properties ([non-interference]).
 (Komodo lacks the memory encryption features of SGX – that would benefit from having hardware support.
 Komodo is also limited to a single processor at the moment.)
 
+*Note: [nelson:osr:2020] argues that the property verified is really [non-leakage].*
 
 
 Komodo is a small, simple monitor running in Arm's TrustZone secure mode.

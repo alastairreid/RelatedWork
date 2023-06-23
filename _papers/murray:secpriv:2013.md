@@ -26,9 +26,11 @@ topics:
 - os
 notes:
 - information flow
+- non-leakage
 papers:
 - klein:sosp:2009
 - costanzo:pldi:2016
+- nelson:osr:2020
 ---
 
 Most operating systems do two things:
@@ -89,5 +91,8 @@ results in the presence of communication between different
 processes while the mCertiKOS paper proves results about
 a system in which inter-process communication has been
 disabled.
+
+Using the terminology of [nelson:osr:2020], the information flow property
+proved is [non-leakage].
 
 {% include links.html %}

@@ -30,6 +30,10 @@ volume: '54'
 year: 2020
 notes:
 - non-interference
+- non-leakage
 papers:
+- murray:secpriv:2013
+- ferraiuolo:sosp:2017
+- costanzo:pldi:2016
 ---
 {% include links.html %}

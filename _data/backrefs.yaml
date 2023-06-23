@@ -647,6 +647,9 @@ notes:
   - - notes/non-interference
     - - Non-interference
       - null
+  - - notes/non-leakage
+    - - Non leakage
+      - null
   notes/implicit-dynamic-frames:
   - - notes/permission-logic
     - - Permission logic
@@ -657,6 +660,9 @@ notes:
       - null
   - - notes/non-interference
     - - Non-interference
+      - null
+  - - notes/non-leakage
+    - - Non leakage
       - null
   - - notes/self-composition
     - - Self composition
@@ -1140,6 +1146,13 @@ notes:
       - null
   - - notes/language-based-security
     - - Language based security
+      - null
+  - - notes/non-leakage
+    - - Non leakage
+      - null
+  notes/non-leakage:
+  - - notes/non-interference
+    - - Non-interference
       - null
   notes/nova-hypervisor: []
   notes/omega-library: []
@@ -3106,7 +3119,10 @@ notes:
   - - notes/proof-carrying-code
     - - Proof carrying code
       - null
-  papers/nelson:osr:2020: []
+  papers/nelson:osr:2020:
+  - - notes/non-interference
+    - - Non-interference
+      - null
   papers/nelson:sosp:2017: []
   papers/nelson:sosp:2019:
   - - notes/auto-active-verification
@@ -6947,6 +6963,9 @@ papers:
   - - papers/bowman:icfp:2015
     - - Noninterference for free
       - bowman:icfp:2015
+  - - papers/ferraiuolo:sosp:2017
+    - - 'Komodo: Using verification to disentangle secure-enclave hardware from software'
+      - ferraiuolo:sosp:2017
   - - papers/guarnieri:sandp:2020
     - - 'Spectector: Principled detection of speculative information flows'
       - guarnieri:sandp:2020
@@ -6969,6 +6988,16 @@ papers:
   - - papers/tiwari:isca:2009
     - - 'Execution leases: A hardware-supported mechanism for enforcing strong non-interference'
       - tiwari:isca:2009
+  notes/non-leakage:
+  - - papers/ferraiuolo:sosp:2017
+    - - 'Komodo: Using verification to disentangle secure-enclave hardware from software'
+      - ferraiuolo:sosp:2017
+  - - papers/murray:secpriv:2013
+    - - 'seL4: from general purpose to a proof of information flow enforcement'
+      - murray:secpriv:2013
+  - - papers/nelson:osr:2020
+    - - Noninterference specifications for secure systems
+      - nelson:osr:2020
   notes/nova-hypervisor:
   - - papers/becker:fm:2016
     - - Combining mechanized proofs and model-based testing in the formal analysis
@@ -9883,6 +9912,9 @@ papers:
   - - papers/murray:secpriv:2013
     - - 'seL4: from general purpose to a proof of information flow enforcement'
       - murray:secpriv:2013
+  - - papers/nelson:osr:2020
+    - - Noninterference specifications for secure systems
+      - nelson:osr:2020
   papers/cousot:oopsla:2012: []
   papers/coward:arxiv:2023: []
   papers/cui:asplos:2013:
@@ -10014,7 +10046,10 @@ papers:
     - - Solver-aided constant-time hardware verification
       - gleissenthall:ccs:2021
   papers/ferraiuolo:dac:2017: []
-  papers/ferraiuolo:sosp:2017: []
+  papers/ferraiuolo:sosp:2017:
+  - - papers/nelson:osr:2020
+    - - Noninterference specifications for secure systems
+      - nelson:osr:2020
   papers/filliatre:cav:2007: []
   papers/filliatre:esop:2013: []
   papers/filliatre:fem:2004:
@@ -10572,7 +10607,10 @@ papers:
       - astrauskas:oopsla:2019
   papers/mulligan:icfp:2014: []
   papers/murray:secdev:2018: []
-  papers/murray:secpriv:2013: []
+  papers/murray:secpriv:2013:
+  - - papers/nelson:osr:2020
+    - - Noninterference specifications for secure systems
+      - nelson:osr:2020
   papers/mycroft:esop:1999: []
   papers/myers:computer:2016: []
   papers/myers:csfw:2004: []
@@ -10593,7 +10631,13 @@ papers:
       - henzinger:spin:2003
   papers/necula:pldi:2000: []
   papers/necula:popl:1997: []
-  papers/nelson:osr:2020: []
+  papers/nelson:osr:2020:
+  - - papers/ferraiuolo:sosp:2017
+    - - 'Komodo: Using verification to disentangle secure-enclave hardware from software'
+      - ferraiuolo:sosp:2017
+  - - papers/murray:secpriv:2013
+    - - 'seL4: from general purpose to a proof of information flow enforcement'
+      - murray:secpriv:2013
   papers/nelson:sosp:2017:
   - - papers/li:sandp:2021
     - - A secure and formally verified Linux KVM hypervisor
