@@ -27,6 +27,7 @@ notes:
 - abstract interpretation
 - Dafny verifier
 - contract driven development
+- invariants
 papers:
 - leino:lpair:2010
 ---

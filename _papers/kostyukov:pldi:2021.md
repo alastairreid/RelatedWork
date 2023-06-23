@@ -32,6 +32,7 @@ url: https://doi.org/10.1145/3453483.3454055
 year: 2021
 notes:
 - Horn clause
+- invariants
 papers:
 ---
 {% include links.html %}

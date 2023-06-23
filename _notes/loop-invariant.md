@@ -5,6 +5,8 @@ wiki: https://en.wikipedia.org/wiki/Loop_invariant
 papers:
 - hehner:vstte:2008
 - tuerk:vstte:2010
+notes:
+- invariants
 ---
 
 todo

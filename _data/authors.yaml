@@ -614,6 +614,7 @@
 - name: James Bornholt
   papers:
   - papers/bornholt:oopsla:2018
+  - papers/nelson:osr:2020
   - papers/nelson:sosp:2017
   - papers/nelson:sosp:2019
   - papers/sigurbjarnarson:osdi:2016
@@ -3215,6 +3216,7 @@
 - name: Arvind Krishnamurthy
   papers:
   - papers/fonseca:ecs:2017
+  - papers/nelson:osr:2020
 - name: Neel R. Krishnaswami
   papers:
   - papers/armstrong:popl19:2019
@@ -4370,6 +4372,7 @@
   - papers/krishnamurthi:fm:2019
 - name: Luke Nelson
   papers:
+  - papers/nelson:osr:2020
   - papers/nelson:sosp:2017
   - papers/nelson:sosp:2019
   - papers/sigurbjarnarson:osdi:2018
@@ -6084,6 +6087,7 @@
 - name: Emina Torlak
   papers:
   - papers/bornholt:oopsla:2018
+  - papers/nelson:osr:2020
   - papers/nelson:sosp:2017
   - papers/nelson:sosp:2019
   - papers/sigurbjarnarson:osdi:2016
@@ -6343,6 +6347,7 @@
 - name: Xi Wang
   papers:
   - papers/fonseca:ecs:2017
+  - papers/nelson:osr:2020
   - papers/nelson:sosp:2017
   - papers/nelson:sosp:2019
   - papers/sigurbjarnarson:osdi:2016

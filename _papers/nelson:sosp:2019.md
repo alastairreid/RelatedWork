@@ -30,6 +30,7 @@ notes:
 - symbolic evaluation
 - symbolic execution
 - binary analysis
+- non-interference
 papers:
 - nelson:sosp:2017
 - sigurbjarnarson:osdi:2016
@@ -52,7 +53,7 @@ They demonstrate the approach by porting Komodo and CertiKOS to RISC-V, rewritin
 In addition, they created partial specifications of Linux BPF and the Keystone TEE and found bugs both in the artifacts they were verifying and in processors and other RISC-V specs.
 (They also reveal that the CertiKOS verification excluded verification of the ELF loader.  Interesting omission.)
 
-The basic idea in Serval is to write an interpreter for an instruction set (eg RISC-V, BPF, ...) and then lift this interpreter to create a symbolic execution engine (requires some annotations and performance tuning).  This symbolic execution engine generates SMT that is fed to Z3. Serval includes libraries for specifying non-interference and state-machine refinement.
+The basic idea in Serval is to write an interpreter for an instruction set (eg RISC-V, BPF, ...) and then lift this interpreter to create a symbolic execution engine (requires some annotations and performance tuning).  This symbolic execution engine generates SMT that is fed to Z3. Serval includes libraries for specifying [non-interference] and state-machine refinement.
 
 Serval is impressively small: 4400 lines for Serval + RISC-V (subset) + x86-32 (subset) + LLVM (subset) + BPF.  That is tiny!
 

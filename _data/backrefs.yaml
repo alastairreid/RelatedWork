@@ -745,6 +745,10 @@ notes:
       - null
   notes/interpolation: []
   notes/interposition: []
+  notes/invariants:
+  - - notes/loop-invariant
+    - - Loop invariant
+      - null
   notes/isa-specification:
   - - notes/arm-architecture
     - - Arm architecture
@@ -940,6 +944,9 @@ notes:
       - null
   notes/llvm-mctoll-tool: []
   notes/loop-invariant:
+  - - notes/invariants
+    - - Invariants
+      - null
   - - notes/modular-verification
     - - Modular verification
       - null
@@ -3099,6 +3106,7 @@ notes:
   - - notes/proof-carrying-code
     - - Proof carrying code
       - null
+  papers/nelson:osr:2020: []
   papers/nelson:sosp:2017: []
   papers/nelson:sosp:2019:
   - - notes/auto-active-verification
@@ -5814,6 +5822,32 @@ papers:
   - - papers/jones:sosp:1993
     - - 'Interposition agents: transparently interposing user code at the system interface'
       - jones:sosp:1993
+  notes/invariants:
+  - - papers/cohen:cav:2010
+    - - Local verification of global invariants in concurrent programs
+      - cohen:cav:2010
+  - - papers/fioraldi:arxiv:2020
+    - - Program state abstraction for feedback-driven fuzz testing using likely invariants
+      - fioraldi:arxiv:2020
+  - - papers/hehner:vstte:2008
+    - - Specified blocks
+      - hehner:vstte:2008
+  - - papers/kostyukov:pldi:2021
+    - - Beyond the elementary representations of program invariants over algebraic
+        data types
+      - kostyukov:pldi:2021
+  - - papers/mai:asplos:2013
+    - - Verifying security invariants in ExpressOS
+      - mai:asplos:2013
+  - - papers/naumann:fmco:2004
+    - - Assertion-based encapsulation, object invariants and simulations
+      - naumann:fmco:2004
+  - - papers/sharma:pls:2013
+    - - A data driven approach for algebraic loop invariants
+      - sharma:pls:2013
+  - - papers/tuerk:vstte:2010
+    - - Local reasoning about while-loops
+      - tuerk:vstte:2010
   notes/isa-specification:
   - - papers/andriesse:usenix:2016
     - - An in-depth analysis of disassembly on full-scale x86/x64 binaries
@@ -6922,6 +6956,13 @@ papers:
   - - papers/milushev:forte:2012
     - - Noninterference via symbolic execution
       - milushev:forte:2012
+  - - papers/nelson:osr:2020
+    - - Noninterference specifications for secure systems
+      - nelson:osr:2020
+  - - papers/nelson:sosp:2019
+    - - Scaling symbolic evaluation for automated verification of systems code with
+        Serval
+      - nelson:sosp:2019
   - - papers/schwarz:sefm:2016
     - - Automatic derivation of platform noninterference properties
       - schwarz:sefm:2016
@@ -10552,6 +10593,7 @@ papers:
       - henzinger:spin:2003
   papers/necula:pldi:2000: []
   papers/necula:popl:1997: []
+  papers/nelson:osr:2020: []
   papers/nelson:sosp:2017:
   - - papers/li:sandp:2021
     - - A secure and formally verified Linux KVM hypervisor

@@ -20,6 +20,7 @@ notes:
 - separation logic
 - magic wand
 - Verifast verifier
+- invariants
 papers:
 - hehner:vstte:2008
 - schwerhoff:ecoop:2015

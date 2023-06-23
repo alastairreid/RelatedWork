@@ -26,6 +26,7 @@ topics:
 - verification
 notes:
 - loop invariant
+- invariants
 papers:
 - tuerk:vstte:2010
 - schwerhoff:ecoop:2015
