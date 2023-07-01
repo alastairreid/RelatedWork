@@ -1,0 +1,36 @@
+---
+ENTRYTYPE: article
+abstract: Modular design is a key challenge for enabling large-scale reuse of hardware modules. Unlike software, however, hardware designs correspond to
+  physical circuits and inherit constraints from them. Timing constraints-which cycle a signal arrives, when an input is read-and structural constraints-how
+  often a multiplier accepts new inputs-are fundamental to hardware interfaces. Existing hardware design languages do not provide a way to encode these
+  constraints; a user must read documentation, build scripts, or in the worst case, a module's implementation to understand how to use it. We present Filament,
+  a language for modular hardware design that supports the specification and enforcement of timing and structural constraints for statically scheduled pipelines.
+  Filament uses timeline types, which describe the intervals of clock-cycle time when a given signal is available or required. Filament enables safe composition
+  of hardware modules, ensures that the resulting designs are correctly pipelined, and predictably lowers them to efficient hardware.
+added: 2023-07-01
+address: New York, NY, USA
+articleno: '120'
+authors:
+- Rachit Nigam
+- Pedro Henrique Azevedo de Amorim
+- Adrian Sampson
+doi: 10.1145/3591234
+issue_date: June 2023
+journal: Proc. ACM Program. Lang.
+keywords: Type Systems, Hardware Description Language
+layout: paper
+link: https://doi.org/10.1145/3591234
+month: jun
+number: PLDI
+numpages: '25'
+publisher: Association for Computing Machinery
+read: false
+readings: []
+title: Modular hardware design with timeline types
+url: https://doi.org/10.1145/3591234
+volume: '7'
+year: 2023
+notes:
+papers:
+---
+{% include links.html %}

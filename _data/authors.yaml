@@ -119,6 +119,10 @@
   - papers/azevedo:post:2018
   - papers/hritcu:icfp:2013
   - papers/pierce:book:2016
+- name: Pedro Henrique Azevedo de Amorim
+  papers:
+  - papers/nigam:pldi:2023
+  - papers/rachit:pldi:2023
 - name: Kapil Anand
   papers:
   - papers/anand:eurosys:2013
@@ -4434,6 +4438,8 @@
   - papers/nienhuis:secpriv:2020
 - name: Rachit Nigam
   papers:
+  - papers/nigam:pldi:2023
+  - papers/rachit:pldi:2023
   - papers/vanhattum:asplos:2021
 - name: Nikos Nikoleris
   papers:
@@ -5282,6 +5288,8 @@
   - papers/sammler:pldi:2021
 - name: Adrian Sampson
   papers:
+  - papers/nigam:pldi:2023
+  - papers/rachit:pldi:2023
   - papers/vanhattum:asplos:2021
   - papers/vega:pldi:2021
 - name: Richard Samuels

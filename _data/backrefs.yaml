@@ -3159,6 +3159,7 @@ notes:
   - - notes/cheri-architecture
     - - CHERI architecture
       - null
+  papers/nigam:pldi:2023: []
   papers/nipkow:book:2002: []
   papers/noonan:pldi:2016: []
   papers/nordholz:eurosys:2020: []
@@ -3247,6 +3248,7 @@ notes:
   - - notes/verifier-performance
     - - Verifier performance
       - null
+  papers/rachit:pldi:2023: []
   papers/rakamaric:cav:2014:
   - - notes/smack-verifier
     - - SMACK verifier
@@ -10660,6 +10662,7 @@ papers:
   - - papers/woodruff:isca:2014
     - - 'The CHERI capability model: Revisiting RISC in an age of risk'
       - woodruff:isca:2014
+  papers/nigam:pldi:2023: []
   papers/nipkow:book:2002: []
   papers/noonan:pldi:2016: []
   papers/nordholz:eurosys:2020: []
@@ -10761,6 +10764,7 @@ papers:
   - - papers/qiu:icse:2017
     - - A synergistic approach for distributed symbolic execution using test ranges
       - qiu:icse:2017
+  papers/rachit:pldi:2023: []
   papers/rakamaric:cav:2014:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
