@@ -654,6 +654,7 @@ notes:
   - - notes/permission-logic
     - - Permission logic
       - null
+  notes/incorrectness-logic: []
   notes/information-flow:
   - - notes/language-based-security
     - - Language based security
@@ -2657,7 +2658,10 @@ notes:
   - - notes/sage-verifier
     - - SAGE verifier
       - null
-  papers/godefroid:bugs:2005: []
+  papers/godefroid:bugs:2005:
+  - - notes/over-approximation
+    - - Over-approximation
+      - null
   papers/godefroid:cacm:2020:
   - - notes/fuzz-testing
     - - Fuzz testing
@@ -3166,7 +3170,10 @@ notes:
   papers/nyxbrain:sc2:2017: []
   papers/oberg:dac:2010: []
   papers/ohearn:cacm:2019: []
-  papers/ohearn:popl:2019: []
+  papers/ohearn:popl:2019:
+  - - notes/over-approximation
+    - - Over-approximation
+      - null
   papers/ohearn:tcs:2007: []
   papers/ousterhout:usenix:1996:
   - - notes/events
@@ -3620,6 +3627,7 @@ notes:
   papers/zhang:pldi:2023: []
   papers/zhang:toplas:2017: []
   papers/zhao:ndss:2019: []
+  papers/zhe:pldi:2023: []
   papers/zhuang:pldi:2006: []
   papers/zivojnovic:vlsi:1996:
   - - notes/lisa
@@ -5447,6 +5455,13 @@ papers:
   - - papers/smans:ecoop:2009
     - - 'Implicit dynamic frames: Combining dynamic frames and separation logic'
       - smans:ecoop:2009
+  notes/incorrectness-logic:
+  - - papers/ohearn:popl:2019
+    - - Incorrectness logic
+      - ohearn:popl:2019
+  - - papers/zhe:pldi:2023
+    - - 'Covering all the bases: Type-based verification of test input generators'
+      - zhe:pldi:2023
   notes/information-flow:
   - - papers/almeida:security:2016
     - - Verifying constant-time implementations
@@ -5782,6 +5797,9 @@ papers:
   - - papers/bhatt:sefm:2003
     - - The fallacy of spec-based design
       - bhatt:sefm:2003
+  - - papers/coward:arxiv:2023
+    - - Automating constraint-aware datapath optimization using E-graphs
+      - coward:arxiv:2023
   - - papers/lifshitz:wish:2011
     - - 'Zsim: A fast architectural simulator for ISA design-space exploration'
       - lifshitz:wish:2011
@@ -7085,6 +7103,9 @@ papers:
   - - papers/godefroid:popl:2010
     - - 'Compositional may-must program analysis: Unleashing the power of alternation'
       - godefroid:popl:2010
+  - - papers/zhe:pldi:2023
+    - - 'Covering all the bases: Type-based verification of test input generators'
+      - zhe:pldi:2023
   notes/ownership-types:
   - - papers/beingessner:msc:2015
     - - You can't spell trust without Rust
@@ -9007,6 +9028,9 @@ papers:
   - - papers/xie:bugs:2005
     - - Soundness and its role in bug detection systems
       - xie:bugs:2005
+  - - papers/zhe:pldi:2023
+    - - 'Covering all the bases: Type-based verification of test input generators'
+      - zhe:pldi:2023
   notes/unit-tests:
   - - papers/braione:icse:2018
     - - 'SUSHI: A test generator for programs with complex structured inputs'
@@ -10675,7 +10699,10 @@ papers:
   - - papers/smans:ecoop:2009
     - - 'Implicit dynamic frames: Combining dynamic frames and separation logic'
       - smans:ecoop:2009
-  papers/ohearn:popl:2019: []
+  papers/ohearn:popl:2019:
+  - - papers/zhe:pldi:2023
+    - - 'Covering all the bases: Type-based verification of test input generators'
+      - zhe:pldi:2023
   papers/ohearn:tcs:2007: []
   papers/ousterhout:usenix:1996: []
   papers/ozer:sbacpad:2007: []
@@ -11253,6 +11280,7 @@ papers:
   papers/zhang:pldi:2023: []
   papers/zhang:toplas:2017: []
   papers/zhao:ndss:2019: []
+  papers/zhe:pldi:2023: []
   papers/zhuang:pldi:2006: []
   papers/zivojnovic:vlsi:1996: []
   papers/zorn:iscawddd:2017: []

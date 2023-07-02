@@ -1386,6 +1386,9 @@
 - name: Ulan Degenbaev
   papers:
   - papers/degenbaev:phd:2012
+- name: Benjamin Delaware
+  papers:
+  - papers/zhe:pldi:2023
 - name: "Germ\xE1n Andr\xE9s Delbianco"
   papers:
   - papers/nanevski:oopsla:2019
@@ -2734,6 +2737,7 @@
 - name: Suresh Jagannathan
   papers:
   - papers/sevcik:jacm:2013
+  - papers/zhe:pldi:2023
 - name: Ivan Jager
   papers:
   - papers/brumley:cav:2011
@@ -4057,6 +4061,9 @@
 - name: Prabhat Mishra
   papers:
   - papers/mishra:book:2008
+- name: Ashish Mishra
+  papers:
+  - papers/zhe:pldi:2023
 - name: Vedant Misra
   papers:
   - papers/chen:arxiv:2021
@@ -6857,6 +6864,9 @@
 - name: Yangfan Zhou
   papers:
   - papers/xu:arxiv:2021
+- name: Zhe Zhou
+  papers:
+  - papers/zhe:pldi:2023
 - name: Liming Zhu
   papers:
   - papers/andronick:icse:2012
