@@ -30,6 +30,7 @@ url: https://doi.org/10.1145/3342195.3387516
 year: 2020
 notes:
 - symbolic execution
+- hypervisor
 - ISA specification
 papers:
 ---

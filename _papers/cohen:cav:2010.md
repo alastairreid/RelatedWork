@@ -16,11 +16,10 @@ readings:
 - 2019-10-07
 title: Local verification of global invariants in concurrent programs
 year: 2010
-topics:
-- tools
-- verification
-- os
 notes:
+- verification
+- Operating Systems
+- hypervisor
 - VCC verifier
 - invariants
 papers:

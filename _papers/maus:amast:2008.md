@@ -23,6 +23,8 @@ title: 'Vx86: x86 assembler simulated in C powered by automated theorem proving'
 year: 2008
 notes:
 - x86 architecture
+- hypervisor
+- operating systems
 - binary analysis
 ---
 {% include links.html %}

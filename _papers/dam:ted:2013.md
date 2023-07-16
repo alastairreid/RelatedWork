@@ -25,6 +25,8 @@ topics:
 notes:
 - Arm architecture
 - ISA specification
+- hypervisor
+- Operating Systems
 - instruction set architecture
 papers:
 ---

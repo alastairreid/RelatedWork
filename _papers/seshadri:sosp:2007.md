@@ -19,9 +19,10 @@ title: 'SecVisor: A tiny hypervisor to provide lifetime kernel code integrity fo
   commodity OSes'
 volume: '41'
 year: 2007
-topics:
-- os
+notes:
+- Operating Systems
 - security
+- hypervisor
 papers:
 - franklin:cmu:2008
 ---

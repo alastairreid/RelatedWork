@@ -17,10 +17,10 @@ readings:
 - 2019-11-29
 title: 'CertiKOS: An extensible architecture for building certified concurrent OS Kernels'
 year: 2016
-topics:
-- os
-- verification
 notes:
+- Operating Systems
+- hypervisor
+- verification
 - CompCert compiler
 - Coq theorem prover
 papers:

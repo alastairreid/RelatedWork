@@ -16,8 +16,9 @@ read: false
 readings: []
 title: Design, implementation and verification of an extensible and modular hypervisor framework
 year: 2013
-topics:
-- os
+notes:
+- Operating Systems
+- hypervisor
 - verification
 papers:
 ---

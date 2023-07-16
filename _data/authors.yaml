@@ -13,6 +13,9 @@
 - name: Parastoo Abtahi
   papers:
   - papers/abtahi:chi:2020
+- name: Umut A. Acar
+  papers:
+  - papers/arora:pldi:2023
 - name: Josh Achiam
   papers:
   - papers/chen:arxiv:2021
@@ -174,6 +177,9 @@
   - papers/armstrong:spisa:2019
   - papers/bauereiss:ucam:2021
   - papers/simner:pls:2020
+- name: Jatin Arora
+  papers:
+  - papers/arora:pldi:2023
 - name: Arvind
   papers:
   - papers/choi:icfp:2017
@@ -186,6 +192,9 @@
 - name: Edward Ashton
   papers:
   - papers/shamis:arxiv:2021
+- name: Aslan Askarov
+  papers:
+  - papers/liu:pldi:2023
 - name: Vytautas Astrauskas
   papers:
   - papers/astrauskas:oopsla:2019
@@ -222,6 +231,9 @@
 - name: "Domagoj Babi\u0107"
   papers:
   - papers/babic:fse:2019
+- name: Dmitry Babokin
+  papers:
+  - papers/livinskii:pldi:2023
 - name: Igor Babuschkin
   papers:
   - papers/chen:arxiv:2021
@@ -264,10 +276,16 @@
 - name: Anindya Banerjee
   papers:
   - papers/nanevski:oopsla:2019
+- name: Lucas Bang
+  papers:
+  - papers/saha:pldi:2023
 - name: Sorav Bansal
   papers:
   - papers/bansal:asplos:2006
   - papers/bansal:osdi:2008
+- name: Manya Bansal
+  papers:
+  - papers/bansal:pldi:2023
 - name: "Zuzana Baranov\xE1"
   papers:
   - papers/baranova:atva:2017
@@ -469,6 +487,9 @@
 - name: Lars Bergstrom
   papers:
   - papers/anderson:icse:2016
+- name: Wilson Berkow
+  papers:
+  - papers/brandon:pldi:2023
 - name: Brian N. Bershad
   papers:
   - papers/bershad:cmpcon:1993
@@ -530,6 +551,7 @@
   papers:
   - papers/dinsdale-young:popl:2013
   - papers/krishnaswami:tldi:2010
+  - papers/liu:pldi:2023
   - papers/nanevski:icfp:2008
   - papers/skorstengaard:esop:2018
   - papers/skorstengaard:popl:2019
@@ -631,6 +653,7 @@
   papers:
   - papers/altinay:eurosys:2020
   - papers/andriesse:usenix:2016
+  - papers/isemann:pldi:2023
   - papers/razavi:usenix:2016
 - name: Erik Bosman
   papers:
@@ -672,6 +695,9 @@
 - name: Pietro Braione
   papers:
   - papers/braione:icse:2018
+- name: William Brandon
+  papers:
+  - papers/brandon:pldi:2023
 - name: Matthew Brassil
   papers:
   - papers/murray:secpriv:2013
@@ -742,6 +768,9 @@
 - name: David Bull
   papers:
   - papers/hadjilambrou:ispass:2019
+- name: Tevfik Bultan
+  papers:
+  - papers/saha:pldi:2023
 - name: Jerry R. Burch
   papers:
   - papers/burch:cav:1994
@@ -978,6 +1007,9 @@
 - name: Yishen Chen
   papers:
   - papers/chen:iiswc:2019
+- name: Yu-Fang Chen
+  papers:
+  - papers/chen:pldi:2023
 - name: Yang Chen
   papers:
   - papers/groce:issta:2012
@@ -1024,6 +1056,7 @@
 - name: Adam Chlipala
   papers:
   - papers/erbsen:pldi:2021
+  - papers/kuepper:pldi:2023
 - name: Joonwon Choi
   papers:
   - papers/choi:icfp:2017
@@ -1058,6 +1091,12 @@
 - name: Peter Chubb
   papers:
   - papers/amani:asplos:2016
+- name: Chitchanok Chuengsatiansup
+  papers:
+  - papers/kuepper:pldi:2023
+- name: Kai-Min Chung
+  papers:
+  - papers/chen:pldi:2023
 - name: Luke Church
   papers:
   - papers/macvean:ppig:2016
@@ -1150,6 +1189,9 @@
   - papers/condit:esop:2007
   - papers/condit:popl:2009
   - papers/vonbehren:hotos:2003
+- name: Owen Conoly
+  papers:
+  - papers/kuepper:pldi:2023
 - name: George A. Constantinides
   papers:
   - papers/coward:arxiv:2023
@@ -1271,6 +1313,9 @@
 - name: Pierre-Evariste Dagand
   papers:
   - papers/kennedy:ppdp:2013
+- name: Frank Dai
+  papers:
+  - papers/brandon:pldi:2023
 - name: Jinquan Dai
   papers:
   - papers/dai:pldi:2005
@@ -1303,6 +1348,9 @@
 - name: Lesly-Ann Daniel
   papers:
   - papers/daniel:sandp:2020
+- name: Thibault Dardinier
+  papers:
+  - papers/eilers:pldi:2023
 - name: Zaynah Dargaye
   papers:
   - papers/cuoq:sefm:2012
@@ -1388,7 +1436,7 @@
   - papers/degenbaev:phd:2012
 - name: Benjamin Delaware
   papers:
-  - papers/zhe:pldi:2023
+  - papers/zhou:pldi:2023
 - name: "Germ\xE1n Andr\xE9s Delbianco"
   papers:
   - papers/nanevski:oopsla:2019
@@ -1506,6 +1554,9 @@
   - papers/jung:popl:2020
   - papers/sammler:pldi:2021
   - papers/yanovski:unknown:2021
+- name: Benjamin Driscoll
+  papers:
+  - papers/brandon:pldi:2023
 - name: Sophia Drossopoulou
   papers:
   - papers/lietar:ismm:2019
@@ -1593,6 +1644,7 @@
   - papers/yang:pldi:2011
 - name: Marco Eilers
   papers:
+  - papers/eilers:pldi:2023
   - papers/marco:cav:2021
 - name: Jeffrey A. Eitel
   papers:
@@ -1664,6 +1716,7 @@
 - name: Andres Erbsen
   papers:
   - papers/erbsen:pldi:2021
+  - papers/kuepper:pldi:2023
 - name: Johan Eriksson
   papers:
   - papers/lindner:indin:2019
@@ -1847,6 +1900,7 @@
 - name: Jeffrey S. Foster
   papers:
   - papers/furr:pldi:2005
+  - papers/guria:pldi:2023
 - name: Nate Foster
   papers:
   - papers/liu:sigcomm:2018
@@ -2031,6 +2085,7 @@
 - name: Daniel Genkin
   papers:
   - papers/kocher:arxiv:2018
+  - papers/kuepper:pldi:2023
   - papers/lipp:arxiv:2018
 - name: Jeffrey Gennari
   papers:
@@ -2054,6 +2109,9 @@
   - papers/levy:apsys:2017
   - papers/levy:plos:2015
   - papers/levy:sosp:2017
+- name: Surendra Ghentiyala
+  papers:
+  - papers/saha:pldi:2023
 - name: Abhrajit Ghosh
   papers:
   - papers/evtyushkin:asplos:2021
@@ -2083,10 +2141,14 @@
 - name: Cristiano Giuffrida
   papers:
   - papers/altinay:eurosys:2020
+  - papers/isemann:pldi:2023
   - papers/razavi:usenix:2016
 - name: Klaus v. Gleissenthall
   papers:
   - papers/gleissenthall:ccs:2021
+- name: Klaus von Gleissenthall
+  papers:
+  - papers/isemann:pldi:2023
 - name: Neal Glew
   papers:
   - papers/morrisett:wcsss:1999
@@ -2218,6 +2280,9 @@
   - papers/gross:micro:2016
   - papers/hennessy:micro:1982
   - papers/subhlok:ppopp:1993
+- name: Jason Gross
+  papers:
+  - papers/kuepper:pldi:2023
 - name: Dan Grossman
   papers:
   - papers/bergan:oopsla:2014
@@ -2255,6 +2320,9 @@
   - papers/li:usenix:2021
   - papers/nelson:sosp:2019
   - papers/tao:sosp:2021
+- name: Tiancheng Gu
+  papers:
+  - papers/kovach:pldi:2023
 - name: Roberto Guanciale
   papers:
   - papers/dam:ted:2013
@@ -2281,6 +2349,7 @@
   papers:
   - papers/garg:icse:2013
   - papers/huang:todaes:2019
+  - papers/wang:pldi:2023
   - papers/zhang:fmcad:2018
 - name: Arpan Gupta
   papers:
@@ -2293,6 +2362,9 @@
   - papers/gennari:vstte:2018
   - papers/gurfinkel:cav:2015
   - papers/gurfinkel:fmcad:2017
+- name: Sankha Narayan Guria
+  papers:
+  - papers/guria:pldi:2023
 - name: Will Guss
   papers:
   - papers/chen:arxiv:2021
@@ -2548,6 +2620,9 @@
 - name: Sara Hooker
   papers:
   - papers/gale:arxiv:2019
+- name: David Van Horn
+  papers:
+  - papers/guria:pldi:2023
 - name: Mark Horowitz
   papers:
   - papers/lie:secpri:2003
@@ -2587,6 +2662,9 @@
 - name: Wilson C Hsieh
   papers:
   - papers/hsieh:usenix:2001
+- name: Olivia Hsu
+  papers:
+  - papers/bansal:pldi:2023
 - name: Gang Hu
   papers:
   - papers/cui:asplos:2013
@@ -2683,6 +2761,9 @@
   papers:
   - papers/abadi:arxiv:2016
   - papers/maas:asplos:2020
+- name: Raphael Isemann
+  papers:
+  - papers/isemann:pldi:2023
 - name: Samin Ishtiaq
   papers:
   - papers/chong:asplos:2008
@@ -2737,7 +2818,7 @@
 - name: Suresh Jagannathan
   papers:
   - papers/sevcik:jacm:2013
-  - papers/zhe:pldi:2023
+  - papers/zhou:pldi:2023
 - name: Ivan Jager
   papers:
   - papers/brumley:cav:2011
@@ -3102,7 +3183,9 @@
   - papers/cuoq:sefm:2012
 - name: Fredrik Kjolstad
   papers:
+  - papers/bansal:pldi:2023
   - papers/kjolstad:oopsla:2017
+  - papers/kovach:pldi:2023
 - name: Steve Klabnik
   papers:
   - papers/klabnik:book:2018
@@ -3164,6 +3247,9 @@
   papers:
   - papers/andronick:icse:2012
   - papers/klein:sosp:2009
+- name: Praneeth Kolichala
+  papers:
+  - papers/kovach:pldi:2023
 - name: Anvesh Komuravelli
   papers:
   - papers/gurfinkel:cav:2015
@@ -3194,6 +3280,12 @@
 - name: Aparna Kotha
   papers:
   - papers/anand:eurosys:2013
+- name: Erik van der Kouwe
+  papers:
+  - papers/isemann:pldi:2023
+- name: Scott Kovach
+  papers:
+  - papers/kovach:pldi:2023
 - name: Mikhail Kovalev
   papers:
   - papers/alkassar:vstte:2012
@@ -3261,6 +3353,9 @@
 - name: Manjunath Kudlur
   papers:
   - papers/abadi:arxiv:2016
+- name: Joel Kuepper
+  papers:
+  - papers/kuepper:pldi:2023
 - name: Ramana Kumar
   papers:
   - papers/fox:cpp:2017
@@ -3459,6 +3554,9 @@
   - papers/babic:fse:2019
   - papers/padhye:issta:2019
   - papers/padhye:oopsla:2019
+- name: "Ond{\\v r}ej Leng\xE1l"
+  papers:
+  - papers/chen:pldi:2023
 - name: Simone Lenti
   papers:
   - papers/angelini:vizsec:2019
@@ -3567,6 +3665,9 @@
 - name: Junghee Lim
   papers:
   - papers/lim:toplas:2013
+- name: Jyun-Ao Lin
+  papers:
+  - papers/chen:pldi:2023
 - name: Albert Lin
   papers:
   - papers/ford:sosp:1997
@@ -3613,6 +3714,9 @@
 - name: Peiming Liu
   papers:
   - papers/liu:icse:2020
+- name: Zongyuan Liu
+  papers:
+  - papers/liu:pldi:2023
 - name: Zhengyang Liu
   papers:
   - papers/lopes:pldi:2021
@@ -3623,6 +3727,9 @@
 - name: Andrew Liu
   papers:
   - papers/smith:maps:2021
+- name: Vsevolod Livinskii
+  papers:
+  - papers/livinskii:pldi:2023
 - name: Inbal Livni
   papers:
   - papers/lifshitz:wish:2011
@@ -3679,6 +3786,9 @@
 - name: Corine Lu
   papers:
   - papers/deng:hasp:2019
+- name: Shihua Lu
+  papers:
+  - papers/saha:pldi:2023
 - name: Kyle Lucke
   papers:
   - papers/jouppi:isca:2017
@@ -4034,6 +4144,9 @@
 - name: Mira Mezini
   papers:
   - papers/lauinger:trustcom:2020
+- name: Mae Milano
+  papers:
+  - papers/brandon:pldi:2023
 - name: Kieran Miller
   papers:
   - papers/jouppi:isca:2017
@@ -4063,7 +4176,7 @@
   - papers/mishra:book:2008
 - name: Ashish Mishra
   papers:
-  - papers/zhe:pldi:2023
+  - papers/zhou:pldi:2023
 - name: Vedant Misra
   papers:
   - papers/chen:arxiv:2021
@@ -4276,6 +4389,7 @@
   - papers/astrauskas:oopsla:2020
   - papers/barnett:cacm:2011
   - papers/becker:tacas:2019
+  - papers/eilers:pldi:2023
   - papers/hatcliff:compsurv:2012
   - papers/heule:ftfjp:2011
   - papers/heule:vmcai:2013
@@ -4546,6 +4660,9 @@
 - name: Chris Olah
   papers:
   - papers/abadi:arxiv:2016
+- name: Kunle Olukotun
+  papers:
+  - papers/bansal:pldi:2023
 - name: Mark Omernick
   papers:
   - papers/jouppi:isca:2017
@@ -4776,6 +4893,7 @@
   - papers/amadio:fpara:2014
 - name: Jean Pichon-Pharabod
   papers:
+  - papers/liu:pldi:2023
   - papers/simner:pls:2020
 - name: Benjamin C. Pierce
   papers:
@@ -5045,6 +5163,7 @@
   papers:
   - papers/eide:icse:2002
   - papers/groce:issta:2012
+  - papers/livinskii:pldi:2023
   - papers/lopes:pldi:2015
   - papers/lopes:pldi:2021
   - papers/mukherjee:oopsla:2020
@@ -5267,6 +5386,9 @@
 - name: Mooly Sagiv
   papers:
   - papers/naik:popl:2012
+- name: Seemanta Saha
+  papers:
+  - papers/saha:pldi:2023
 - name: Brett Saiki
   papers:
   - papers/willsey:oopsla:2021
@@ -5794,6 +5916,9 @@
 - name: Benoit Steiner
   papers:
   - papers/abadi:arxiv:2016
+- name: Sergei Stepanenko
+  papers:
+  - papers/liu:pldi:2023
 - name: Shane G. Stephens
   papers:
   - papers/hohmuth:sigops:2002
@@ -5876,6 +6001,9 @@
   - papers/goel:cav:2021
   - papers/goel:cpp:2020
   - papers/goel:spisa:2019
+- name: Chuyue Sun
+  papers:
+  - papers/kuepper:pldi:2023
 - name: Mingshen Sun
   papers:
   - papers/xu:arxiv:2021
@@ -6051,6 +6179,9 @@
 - name: Bo Tian
   papers:
   - papers/jouppi:isca:2017
+- name: Samuel Tian
+  papers:
+  - papers/kuepper:pldi:2023
 - name: Xinmin Tian
   papers:
   - papers/wang:pldi:2007
@@ -6060,6 +6191,9 @@
 - name: Nikolai Tillmann
   papers:
   - papers/tillmann:fse:2005
+- name: Amin Timany
+  papers:
+  - papers/liu:pldi:2023
 - name: Cesare Tinelli
   papers:
   - papers/barrett:cav:2011
@@ -6140,6 +6274,9 @@
 - name: "Marek Trt\xEDk"
   papers:
   - papers/trtik:atva:2014
+- name: Wei-Lun Tsai
+  papers:
+  - papers/chen:pldi:2023
 - name: Michael Carl Tschantz
   papers:
   - papers/tschantz:fm:2009
@@ -6321,6 +6458,9 @@
   papers:
   - papers/jones:hasklang:1999
   - papers/jones:hasklib:1999
+- name: Markus Wagner
+  papers:
+  - papers/kuepper:pldi:2023
 - name: Jonas Wagner
   papers:
   - papers/wagner:hotos:2013
@@ -6387,6 +6527,12 @@
 - name: Hong Wang
   papers:
   - papers/wang:pldi:2007
+- name: Jingbo Wang
+  papers:
+  - papers/wang:pldi:2023
+- name: Chao Wang
+  papers:
+  - papers/wang:pldi:2023
 - name: Feng Wang
   papers:
   - papers/wang:tase:2018
@@ -6481,6 +6627,9 @@
 - name: Markus Wenzel
   papers:
   - papers/nipkow:book:2002
+- name: Sam Westrick
+  papers:
+  - papers/arora:pldi:2023
 - name: Paul N Whatmough
   papers:
   - papers/hadjilambrou:ispass:2019
@@ -6591,6 +6740,9 @@
 - name: Lei Wu
   papers:
   - papers/jiang:arxiv:2021
+- name: David Wu
+  papers:
+  - papers/kuepper:pldi:2023
 - name: Lingfei Wu
   papers:
   - papers/wu:arxiv:2017
@@ -6691,7 +6843,11 @@
   - papers/buhan:ccs:2022
   - papers/ge:jce:2016
   - papers/kocher:arxiv:2018
+  - papers/kuepper:pldi:2023
   - papers/lipp:arxiv:2018
+- name: Di-De Yen
+  papers:
+  - papers/chen:pldi:2023
 - name: Heng Yin
   papers:
   - papers/song:iciss:2008
@@ -6866,7 +7022,7 @@
   - papers/xu:arxiv:2021
 - name: Zhe Zhou
   papers:
-  - papers/zhe:pldi:2023
+  - papers/zhou:pldi:2023
 - name: Liming Zhu
   papers:
   - papers/andronick:icse:2012

@@ -23,13 +23,13 @@ readings:
 title: Combining mechanized proofs and model-based testing in the formal analysis
   of a hypervisor
 year: 2016
-topics:
-- os
+notes:
+- Operating Systems
 - security
 - verification
-notes:
 - Coq theorem prover
 - NOVA hypervisor
+- hypervisor
 papers:
 ---
 

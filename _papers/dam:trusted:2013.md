@@ -14,10 +14,10 @@ read: false
 readings: []
 title: Machine code verification of a tiny ARM hypervisor
 year: 2013
-topics:
-- os
-- verification
 notes:
+- Operating Systems
+- hypervisor
+- verification
 - Arm architecture
 - ISA specification
 - instruction set architecture

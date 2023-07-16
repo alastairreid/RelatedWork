@@ -20,11 +20,11 @@ readings:
 title: 'überSpark: Enforcing verifiable object abstractions for automated compositional security analysis of a hypervisor'
 url: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/vasudevan
 year: 2016
-topics:
-- os
+notes:
+- Operating Systems
+- hypervisor
 - security
 - verification
-notes:
 - Frama-C verifier
 - CompCert compiler
 - information flow

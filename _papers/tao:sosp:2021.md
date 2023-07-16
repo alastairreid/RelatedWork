@@ -39,6 +39,7 @@ notes:
 - weak memory
 - Arm architecture
 - Operating systems
+- hypervisor
 - ISA specification
 papers:
 ---

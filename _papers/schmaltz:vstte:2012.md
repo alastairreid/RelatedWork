@@ -26,5 +26,7 @@ title: Integrated semantics of intermediate-language C and macro-assembler for p
 year: 2012
 notes:
 - ISA specification
+- hypervisor
+- operating systems
 ---
 {% include links.html %}

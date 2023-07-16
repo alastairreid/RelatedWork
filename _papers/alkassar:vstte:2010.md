@@ -15,8 +15,9 @@ read: false
 readings: []
 title: Automated verification of a small hypervisor
 year: 2010
-topics:
-- os
+notes:
+- Operating Systems
+- hypervisor
 - verification
 papers:
 ---

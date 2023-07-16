@@ -15,8 +15,9 @@ readings:
 - 2019-11-04
 title: 'Attacking, repairing, and verifying SecVisor: A retrospective on the security of a hypervisor'
 year: 2008
-topics:
-- os
+notes:
+- Operating Systems
+- hypervisor
 - security
 - verification
 papers:
