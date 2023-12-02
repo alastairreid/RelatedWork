@@ -32,5 +32,6 @@ notes:
 - binary instrumentation
 - Valgrind tool
 papers:
+- shoshitaishvili:sp:2016
 ---
 {% include links.html %}
