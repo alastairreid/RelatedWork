@@ -23,9 +23,11 @@ def main():
         "notes": {},
         "papers": {}
         }
-    with open(f"_notes/{name}.md", 'w') as f:
+    file = f"_notes/{name}.md"
+    with open(file, 'w') as f:
         yaml.dump(entry, Dumper=Dumper, explicit_start=True, allow_unicode=True, width=150, stream=f)
         print("---", file=f)
         print("{% include links.html %}", file=f)
+    print(f"Created note {file} with title '{title}'")
 
 main()
