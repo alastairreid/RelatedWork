@@ -1,43 +1,27 @@
 ---
 ENTRYTYPE: inproceedings
-added: 2022-06-22
-address: Los Alamitos, CA, USA
+added: 2023-12-02
 authors:
 - Sunjay Cauligi
 - Craig Disselkoen
 - Daniel Moghimi
 - Gilles Barthe
 - Deian Stefan
-booktitle: 2022 2022 IEEE Symposium on Security and Privacy (SP) (SP)
-doi: 10.1109/SP46214.2022.00088
-issn: 2375-1207
-keywords: sok;spectre;semantics;program-analysis
+bibsource: dblp computer science bibliography, https://dblp.org
+biburl: https://dblp.org/rec/conf/sp/CauligiDMBS22.bib
+booktitle: 43rd IEEE Symposium on Security and Privacy, SP 2022, San Francisco, CA, USA, May 22-26, 2022
+doi: 10.1109/SP46214.2022.9833707
 layout: paper
-link: https://doi.ieeecomputersociety.org/10.1109/SP46214.2022.00088
-month: may
-pages: 1517-1517
-publisher: IEEE Computer Society
-read: true
-readings:
-- 2022-06-22
-title: 'SoK: Practical foundations for software Spectre defenses'
-url: https://doi.ieeecomputersociety.org/10.1109/SP46214.2022.00088
-volume: ''
+link: https://doi.org/10.1109/SP46214.2022.9833707
+pages: 666-680
+publisher: IEEE
+read: false
+readings: []
+timestamp: Thu, 21 Sep 2023 15:57:27 +0200
+title: 'SoK: Practical Foundations for Software Spectre Defenses'
+url: https://doi.org/10.1109/SP46214.2022.9833707
 year: 2022
 notes:
-- information flow
-- language based security
-- speculative execution
-- Systematization of Knowledge
 papers:
-- guarnieri:sandp:2020
 ---
-
-This [Systematization of Knowledge] paper brings order to a range of software
-analysis tools, programming models, etc.  for defending against Spectre-like
-attacks by examining those approaches through the lens of
-[guarnieri:sandp:2020]'s contracts.
-
-
-
 {% include links.html %}
