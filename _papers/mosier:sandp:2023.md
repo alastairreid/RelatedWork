@@ -14,8 +14,9 @@ eprinttype: arXiv
 journal: CoRR
 layout: paper
 link: https://doi.org/10.48550/arXiv.2309.05174
-read: false
-readings: []
+read: true
+readings:
+- 2023-12-01
 timestamp: Fri, 15 Sep 2023 12:26:52 +0200
 title: 'Serberus: Protecting Cryptographic Code from Spectres at Compile-Time'
 url: https://doi.org/10.48550/arXiv.2309.05174
@@ -27,4 +28,11 @@ notes:
 - speculative execution
 papers:
 ---
+
+Serberus is a mitigation against [speculative execution] attacks
+implemented as an extension of LLVM.
+It relies on the use of Intel Architecture CET features to
+constrain speculative branches.
+
+
 {% include links.html %}
